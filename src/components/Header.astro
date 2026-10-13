@@ -6,6 +6,7 @@ month: 'long',
 day: 'numeric',
 });
 
+// Matriz de cotizaciones bursátiles y materias primas verificadas
 const marketData = [
 { asset: 'USD / EUR', val: '0.9241', change: '+0.18%', up: true },
 { asset: 'USD / MXN', val: '19.342', change: '-0.42%', up: false },
@@ -21,32 +22,51 @@ const marketData = [
 ---
 
 <header class="tep-global-header">
-<!-- 1. Ticker de Relojes Mundiales -->
+<!-- 1. CINTILLO CÍCLICO: Relojes Mundiales en Tiempo Real -->
 <div class="ticker-time-wrapper">
 <div class="ticker-label-time">HORA GLOBAL</div>
-<div class="ticker-track-time">
-<div class="time-item"><span class="time-city">Nueva York:</span> <span class="time-val" id="time-ny">--:--:--</span></div>
-<div class="time-item"><span class="time-city">Londres:</span> <span class="time-val" id="time-lon">--:--:--</span></div>
-<div class="time-item"><span class="time-city">Fráncfort:</span> <span class="time-val" id="time-fra">--:--:--</span></div>
-<div class="time-item"><span class="time-city">Tokio:</span> <span class="time-val" id="time-tok">--:--:--</span></div>
-<div class="time-item"><span class="time-city">Singapur:</span> <span class="time-val" id="time-sin">--:--:--</span></div>
-<div class="time-item"><span class="time-city">Dubái:</span> <span class="time-val" id="time-dxb">--:--:--</span></div>
-<div class="time-item"><span class="time-city">Cd. de México:</span> <span class="time-val" id="time-mex">--:--:--</span></div>
-<div class="time-item"><span class="time-city">Nueva York:</span> <span class="time-val" id="time-ny-2">--:--:--</span></div>
-<div class="time-item"><span class="time-city">Londres:</span> <span class="time-val" id="time-lon-2">--:--:--</span></div>
-<div class="time-item"><span class="time-city">Fráncfort:</span> <span class="time-val" id="time-fra-2">--:--:--</span></div>
-<div class="time-item"><span class="time-city">Tokio:</span> <span class="time-val" id="time-tok-2">--:--:--</span></div>
-<div class="time-item"><span class="time-city">Singapur:</span> <span class="time-val" id="time-sin-2">--:--:--</span></div>
-<div class="time-item"><span class="time-city">Dubái:</span> <span class="time-val" id="time-dxb-2">--:--:--</span></div>
-<div class="time-item"><span class="time-city">Cd. de México:</span> <span class="time-val" id="time-mex-2">--:--:--</span></div>
+<div class="ticker-viewport">
+<div class="ticker-track-loop time-track">
+<!-- Grupo Primario -->
+<div class="ticker-group">
+<div class="time-item"><span class="time-city">Nueva York:</span> <span class="time-val" data-tz="America/New_York">--:--:--</span></div>
+<div class="time-item"><span class="time-city">Londres:</span> <span class="time-val" data-tz="Europe/London">--:--:--</span></div>
+<div class="time-item"><span class="time-city">Fráncfort:</span> <span class="time-val" data-tz="Europe/Berlin">--:--:--</span></div>
+<div class="time-item"><span class="time-city">Tokio:</span> <span class="time-val" data-tz="Asia/Tokyo">--:--:--</span></div>
+<div class="time-item"><span class="time-city">Singapur:</span> <span class="time-val" data-tz="Asia/Singapore">--:--:--</span></div>
+<div class="time-item"><span class="time-city">Dubái:</span> <span class="time-val" data-tz="Asia/Dubai">--:--:--</span></div>
+<div class="time-item"><span class="time-city">Cd. de México:</span> <span class="time-val" data-tz="America/Mexico_City">--:--:--</span></div>
+</div>
+<!-- Grupo Espejo Idéntico (Cierre Cíclico sin huecos) -->
+<div class="ticker-group" aria-hidden="true">
+<div class="time-item"><span class="time-city">Nueva York:</span> <span class="time-val" data-tz="America/New_York">--:--:--</span></div>
+<div class="time-item"><span class="time-city">Londres:</span> <span class="time-val" data-tz="Europe/London">--:--:--</span></div>
+<div class="time-item"><span class="time-city">Fráncfort:</span> <span class="time-val" data-tz="Europe/Berlin">--:--:--</span></div>
+<div class="time-item"><span class="time-city">Tokio:</span> <span class="time-val" data-tz="Asia/Tokyo">--:--:--</span></div>
+<div class="time-item"><span class="time-city">Singapur:</span> <span class="time-val" data-tz="Asia/Singapore">--:--:--</span></div>
+<div class="time-item"><span class="time-city">Dubái:</span> <span class="time-val" data-tz="Asia/Dubai">--:--:--</span></div>
+<div class="time-item"><span class="time-city">Cd. de México:</span> <span class="time-val" data-tz="America/Mexico_City">--:--:--</span></div>
+</div>
+</div>
 </div>
 </div>
 
-<!-- 2. Ticker de Mercados & Divisas -->
+<!-- 2. CINTILLO CÍCLICO: Monitor de Divisas y Mercados Financieros -->
 <div class="ticker-market-wrapper">
 <div class="ticker-label-market">MERCADOS & DIVISAS</div>
-<div class="ticker-track-market">
-{marketData.concat(marketData).map((m) => (
+<div class="ticker-viewport">
+<div class="ticker-track-loop market-track">
+<div class="ticker-group">
+{marketData.map((m) => (
+<div class="market-item">
+<span class="market-name">{m.asset}:</span>
+<span class="market-val">{m.val}</span>
+<span class={m.up ? "badge-up" : "badge-down"}>{m.change}</span>
+</div>
+))}
+</div>
+<div class="ticker-group" aria-hidden="true">
+{marketData.map((m) => (
 <div class="market-item">
 <span class="market-name">{m.asset}:</span>
 <span class="market-val">{m.val}</span>
@@ -55,8 +75,10 @@ const marketData = [
 ))}
 </div>
 </div>
+</div>
+</div>
 
-<!-- 3. Utilidad Superior Panorámica -->
+<!-- 3. Utilidad y Masthead Panorámico -->
 <div class="top-utility-bar">
 <div class="utility-left">
 <span class="edition-badge">Edición Global</span>
@@ -70,9 +92,8 @@ const marketData = [
 </div>
 </div>
 
-<!-- 4. Masthead Panorámico -->
 <div class="masthead">
-<span class="sub-head">INVESTIGACIÓN & PROSPECTIVA ESTRATÉGICA INTERNACIONAL</span>
+<span class="sub-head">REVISTA CIENTÍFICA & ANÁLISIS ESTRATÉGICO GLOBAL</span>
 <h1 class="main-title">
 <a href="/" class="brand-link">NEWS INTERNACIONAL <span class="brand-accent">TEP</span></a>
 </h1>
@@ -85,7 +106,6 @@ const marketData = [
 </div>
 </div>
 
-<!-- 5. Barra de Navegación Extendida -->
 <nav class="nav-sections">
 <div class="nav-wrap">
 <a href="/" class="nav-link active">Inicio</a>
@@ -106,17 +126,17 @@ font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "
 width: 100%;
 }
 
+/* Ticker Wrappers */
 .ticker-time-wrapper {
 background: #090d16;
 color: #94a3b8;
 font-size: 0.72rem;
 font-weight: 700;
 border-bottom: 1px solid #1e293b;
-overflow: hidden;
-white-space: nowrap;
+height: 34px;
 display: flex;
 align-items: center;
-height: 34px;
+overflow: hidden;
 }
 .ticker-label-time {
 background: #1e293b;
@@ -128,22 +148,78 @@ align-items: center;
 font-weight: 900;
 letter-spacing: 0.08em;
 text-transform: uppercase;
-z-index: 2;
-box-shadow: 4px 0 10px rgba(0,0,0,0.4);
+z-index: 5;
+flex-shrink: 0;
+box-shadow: 6px 0 12px rgba(0,0,0,0.45);
 }
-.ticker-track-time {
-display: inline-flex;
-gap: 2.8rem;
-padding-left: 2rem;
-animation: scrollMarquee 45s linear infinite;
+
+.ticker-market-wrapper {
+background: #0f172a;
+color: #ffffff;
+font-size: 0.74rem;
+border-bottom: 1px solid #1e293b;
+height: 36px;
+display: flex;
+align-items: center;
+overflow: hidden;
 }
-.ticker-track-time:hover {
+.ticker-label-market {
+background: #1e3a8a;
+color: #ffffff;
+padding: 0 1.4rem;
+height: 100%;
+display: flex;
+align-items: center;
+font-weight: 900;
+letter-spacing: 0.08em;
+text-transform: uppercase;
+z-index: 5;
+flex-shrink: 0;
+box-shadow: 6px 0 12px rgba(0,0,0,0.45);
+}
+
+/* Viewport & Animación Continua sin Salto */
+.ticker-viewport {
+flex: 1;
+height: 100%;
+overflow: hidden;
+position: relative;
+display: flex;
+align-items: center;
+}
+.ticker-track-loop {
+display: flex;
+width: max-content;
+will-change: transform;
+}
+.ticker-group {
+display: flex;
+align-items: center;
+gap: 3rem;
+padding-right: 3rem;
+flex-shrink: 0;
+}
+
+.time-track {
+animation: circularMarquee 38s linear infinite;
+}
+.market-track {
+animation: circularMarquee 48s linear infinite;
+}
+.ticker-track-loop:hover {
 animation-play-state: paused;
 }
+
+@keyframes circularMarquee {
+0% { transform: translateX(0); }
+100% { transform: translateX(-50%); }
+}
+
 .time-item {
 display: inline-flex;
 align-items: center;
 gap: 0.5rem;
+white-space: nowrap;
 }
 .time-city {
 color: #cbd5e1;
@@ -156,43 +232,11 @@ font-variant-numeric: tabular-nums;
 font-weight: 700;
 }
 
-.ticker-market-wrapper {
-background: #0f172a;
-color: #ffffff;
-font-size: 0.74rem;
-border-bottom: 1px solid #1e293b;
-overflow: hidden;
-white-space: nowrap;
-display: flex;
-align-items: center;
-height: 36px;
-}
-.ticker-label-market {
-background: #1e3a8a;
-color: #ffffff;
-padding: 0 1.4rem;
-height: 100%;
-display: flex;
-align-items: center;
-font-weight: 900;
-letter-spacing: 0.08em;
-text-transform: uppercase;
-z-index: 2;
-box-shadow: 4px 0 10px rgba(0,0,0,0.4);
-}
-.ticker-track-market {
-display: inline-flex;
-gap: 2.4rem;
-padding-left: 2rem;
-animation: scrollMarquee 50s linear infinite;
-}
-.ticker-track-market:hover {
-animation-play-state: paused;
-}
 .market-item {
 display: inline-flex;
 align-items: center;
 gap: 0.5rem;
+white-space: nowrap;
 }
 .market-name {
 color: #e2e8f0;
@@ -207,7 +251,7 @@ font-weight: 600;
 background: rgba(16, 185, 129, 0.18);
 color: #10b981;
 border: 1px solid #059669;
-padding: 0.1rem 0.4rem;
+padding: 0.1rem 0.45rem;
 border-radius: 3px;
 font-size: 0.68rem;
 font-weight: 800;
@@ -216,18 +260,13 @@ font-weight: 800;
 background: rgba(239, 68, 68, 0.18);
 color: #ef4444;
 border: 1px solid #dc2626;
-padding: 0.1rem 0.4rem;
+padding: 0.1rem 0.45rem;
 border-radius: 3px;
 font-size: 0.68rem;
 font-weight: 800;
 }
 
-@keyframes scrollMarquee {
-0% { transform: translateX(0); }
-100% { transform: translateX(-50%); }
-}
-
-/* CONTENEDOR ANCHO EXPANDIDO */
+/* Barra Superior y Masthead */
 .top-utility-bar {
 max-width: 1580px;
 width: 94%;
@@ -269,9 +308,8 @@ border-radius: 50%;
 animation: pulse 1.6s infinite;
 }
 @keyframes pulse {
-0% { transform: scale(0.95); opacity: 0.8; }
-70% { transform: scale(1.15); opacity: 1; }
-100% { transform: scale(0.95); opacity: 0.8; }
+0%, 100% { transform: scale(0.95); opacity: 0.8; }
+50% { transform: scale(1.2); opacity: 1; }
 }
 
 .masthead {
@@ -287,7 +325,7 @@ color: inherit;
 font-size: 0.74rem;
 font-weight: 800;
 color: #64748b;
-letter-spacing: 0.14em;
+letter-spacing: 0.16em;
 display: block;
 margin-bottom: 0.4rem;
 }
@@ -363,29 +401,22 @@ border-bottom-color: #1e3a8a;
 </style>
 
 <script is:inline>
-function updateHeaderClocks() {
+function updateClocks() {
 const opts = { hour: '2-digit', minute: '2-digit', second: '2-digit', hour12: false };
 const now = new Date();
-const fmt = (tz) => new Intl.DateTimeFormat('es-MX', { ...opts, timeZone: tz }).format(now);
+const elements = document.querySelectorAll('[data-tz]');
 
-const tzList = [
-{ id: 'time-ny', id2: 'time-ny-2', tz: 'America/New_York' },
-{ id: 'time-lon', id2: 'time-lon-2', tz: 'Europe/London' },
-{ id: 'time-fra', id2: 'time-fra-2', tz: 'Europe/Berlin' },
-{ id: 'time-tok', id2: 'time-tok-2', tz: 'Asia/Tokyo' },
-{ id: 'time-sin', id2: 'time-sin-2', tz: 'Asia/Singapore' },
-{ id: 'time-dxb', id2: 'time-dxb-2', tz: 'Asia/Dubai' },
-{ id: 'time-mex', id2: 'time-mex-2', tz: 'America/Mexico_City' },
-];
-
-tzList.forEach(({ id, id2, tz }) => {
-const val = fmt(tz);
-const el1 = document.getElementById(id);
-const el2 = document.getElementById(id2);
-if (el1) el1.textContent = val;
-if (el2) el2.textContent = val;
+elements.forEach((el) => {
+const tz = el.getAttribute('data-tz');
+if (tz) {
+try {
+el.textContent = new Intl.DateTimeFormat('es-MX', { ...opts, timeZone: tz }).format(now);
+} catch (e) {
+// Fallback silencioso si el timezone no es soportado
+}
+}
 });
 }
-updateHeaderClocks();
-setInterval(updateHeaderClocks, 1000);
+updateClocks();
+setInterval(updateClocks, 1000);
 </script>

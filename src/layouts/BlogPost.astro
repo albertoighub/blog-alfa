@@ -12,46 +12,61 @@ const currentUrl = Astro.url.href;
 
 <html lang="es">
 <head>
-<BaseHead title={`${title} | News Internacional TEP`} description={description} image={heroImage} />
+<BaseHead title={`${title} | Archivo Científico TEP`} description={description} image={heroImage} />
 <style>
 :global(body) {
 background: #f8fafc;
 color: #0f172a;
-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 }
 main {
-max-width: 880px;
+max-width: 1040px;
 margin: 0 auto;
-padding: 2.5rem 1.25rem 5rem;
+padding: 3rem 1.25rem 6rem;
 }
-.article-header {
-margin-bottom: 2rem;
+.paper-header {
 border-bottom: 2px solid #0f172a;
-padding-bottom: 1.5rem;
+padding-bottom: 1.8rem;
+margin-bottom: 2.5rem;
 }
-.category-kicker {
-font-size: 0.78rem;
+.paper-dossier-tag {
+display: inline-flex;
+align-items: center;
+gap: 8px;
+font-size: 0.74rem;
 font-weight: 900;
-color: #b91c1c;
+color: #1e3a8a;
 text-transform: uppercase;
-letter-spacing: 0.1em;
+letter-spacing: 0.12em;
 margin-bottom: 0.8rem;
-display: block;
 }
-.article-title {
-font-size: clamp(2.1rem, 4vw, 3rem);
-line-height: 1.18;
-font-weight: 800;
-color: #0f172a;
+.paper-title {
+font-size: clamp(2.2rem, 3.8vw, 3.2rem);
+line-height: 1.15;
+font-weight: 900;
 letter-spacing: -0.03em;
-margin: 0 0 1rem;
+color: #0f172a;
+margin: 0 0 1.2rem;
 }
-.article-subtitle {
-font-size: 1.2rem;
-line-height: 1.55;
-color: #475569;
-margin: 0 0 1.5rem;
-font-weight: 400;
+.paper-abstract {
+font-size: 1.22rem;
+line-height: 1.65;
+color: #334155;
+margin: 0 0 1.8rem;
+background: #ffffff;
+padding: 1.5rem 1.8rem;
+border-left: 4px solid #1e3a8a;
+border-radius: 0 8px 8px 0;
+box-shadow: 0 4px 15px rgba(0,0,0,0.02);
+}
+.paper-abstract strong {
+color: #0f172a;
+font-weight: 800;
+text-transform: uppercase;
+font-size: 0.8rem;
+letter-spacing: 0.08em;
+display: block;
+margin-bottom: 0.4rem;
 }
 .byline-bar {
 display: flex;
@@ -87,107 +102,118 @@ letter-spacing: 0.04em;
 .tw-pill { background: #0f172a; }
 
 .hero-media {
-margin: 1.8rem 0 2.5rem;
+margin: 2rem 0 3rem;
 }
 .hero-media img {
 width: 100%;
-max-height: 480px;
+max-height: 520px;
 object-fit: cover;
-border-radius: 6px;
+border-radius: 8px;
 display: block;
-box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
 }
 .media-caption {
 font-size: 0.78rem;
 color: #64748b;
-margin-top: 0.5rem;
+margin-top: 0.6rem;
 display: block;
 border-bottom: 1px solid #e2e8f0;
-padding-bottom: 0.4rem;
+padding-bottom: 0.5rem;
 }
 
+/* Cuerpo de Alta Densidad Académica */
 .prose {
-font-size: 1.15rem;
-line-height: 1.85;
+font-size: 1.16rem;
+line-height: 1.9;
 color: #1e293b;
 }
 .prose :global(h2) {
-font-size: 1.55rem;
-font-weight: 800;
+font-size: 1.65rem;
+font-weight: 900;
 letter-spacing: -0.02em;
-margin-top: 2.8rem;
-margin-bottom: 0.9rem;
+margin-top: 3.2rem;
+margin-bottom: 1rem;
 color: #0f172a;
-border-bottom: 1px solid #e2e8f0;
-padding-bottom: 0.4rem;
+border-bottom: 2px solid #0f172a;
+padding-bottom: 0.5rem;
+}
+.prose :global(h3) {
+font-size: 1.3rem;
+font-weight: 800;
+margin-top: 2rem;
+margin-bottom: 0.8rem;
+color: #1e3a8a;
 }
 .prose :global(p) {
-margin-bottom: 1.6rem;
+margin-bottom: 1.8rem;
 }
-.prose :global(ul) {
-margin-bottom: 1.6rem;
-padding-left: 1.6rem;
+.prose :global(ul), .prose :global(ol) {
+margin-bottom: 1.8rem;
+padding-left: 2rem;
 }
 .prose :global(li) {
 margin-bottom: 0.6rem;
 }
 .prose :global(blockquote) {
 border-left: 4px solid #1e3a8a;
-margin: 2.2rem 0;
-padding: 1.2rem 1.6rem;
+margin: 2.5rem 0;
+padding: 1.4rem 1.8rem;
 background: #ffffff;
 border: 1px solid #e2e8f0;
 border-left: 4px solid #1e3a8a;
-border-radius: 0 6px 6px 0;
-color: #1e293b;
+border-radius: 0 8px 8px 0;
+box-shadow: 0 4px 12px rgba(0,0,0,0.02);
 }
 .prose :global(blockquote h3) {
-font-size: 1.02rem;
+font-size: 1.05rem;
 font-weight: 800;
 color: #1e3a8a;
 text-transform: uppercase;
 letter-spacing: 0.05em;
 margin: 0 0 0.8rem;
 }
-.prose :global(blockquote ul) {
-margin: 0;
-padding-left: 1.2rem;
+.prose :global(table) {
+width: 100%;
+border-collapse: collapse;
+margin: 2rem 0;
+background: #ffffff;
+border: 1px solid #e2e8f0;
 }
-.prose :global(blockquote li) {
+.prose :global(th), .prose :global(td) {
+padding: 0.75rem 1rem;
+border: 1px solid #e2e8f0;
 font-size: 0.95rem;
-line-height: 1.6;
-margin-bottom: 0.4rem;
+}
+.prose :global(th) {
+background: #0f172a;
+color: #ffffff;
+text-align: left;
 }
 
-.bottom-wire {
-margin-top: 4rem;
-padding: 2.2rem;
+.citation-box {
+margin-top: 4.5rem;
+padding: 2rem;
 background: #ffffff;
 border: 1px solid #cbd5e1;
 border-top: 3px solid #1e3a8a;
 border-radius: 6px;
-text-align: center;
 }
-.bottom-wire h4 {
-margin: 0 0 0.5rem;
-font-size: 1.25rem;
+.citation-box h4 {
+margin: 0 0 0.8rem;
+font-size: 1.15rem;
 font-weight: 800;
 color: #0f172a;
 }
-.bottom-wire p {
+.citation-box p {
 color: #475569;
-font-size: 0.95rem;
+font-size: 0.9rem;
+line-height: 1.6;
 margin: 0 0 1.2rem;
 }
-.bottom-wire a {
-background: #1e3a8a;
-color: #ffffff;
-padding: 0.7rem 1.5rem;
-text-decoration: none;
+.citation-box a {
+color: #1e3a8a;
 font-weight: 700;
-font-size: 0.88rem;
-border-radius: 4px;
-display: inline-block;
+text-decoration: underline;
 }
 </style>
 </head>
@@ -195,13 +221,20 @@ display: inline-block;
 <Header />
 <main>
 <article>
-<header class="article-header">
-{category && <span class="category-kicker">{category}</span>}
-<h1 class="article-title">{title}</h1>
-{description && <p class="article-subtitle">{description}</p>}
+<header class="paper-header">
+<div class="paper-dossier-tag">
+<span>Dossier de Inteligencia Estratégica</span>
+<span>•</span>
+<span>{category}</span>
+</div>
+<h1 class="paper-title">{title}</h1>
+<div class="paper-abstract">
+<strong>Resumen Estructurado (Abstract)</strong>
+{description}
+</div>
 <div class="byline-bar">
 <div class="byline-text">
-Por <strong>Redacción News Internacional TEP</strong> • <time datetime={pubDate.toISOString()}>{pubDate.toLocaleDateString('es-MX', { year: 'numeric', month: 'long', day: 'numeric' })}</time>
+Por <strong>Comité Analítico TEP</strong> • <time datetime={pubDate.toISOString()}>{pubDate.toLocaleDateString('es-MX', { year: 'numeric', month: 'long', day: 'numeric' })}</time> • Revisión Arbitrada
 </div>
 <div class="share-tools">
 <a class="share-pill tg-pill" href={`https://t.me/share/url?url=${encodeURIComponent(currentUrl)}&text=${encodeURIComponent(title)}`} target="_blank" rel="noopener noreferrer">Telegram</a>
@@ -214,7 +247,7 @@ Por <strong>Redacción News Internacional TEP</strong> • <time datetime={pubDa
 {heroImage && (
 <div class="hero-media">
 <img src={heroImage} alt={title} loading="lazy" />
-<span class="media-caption">Cobertura fotográfica contextual • Archivo editorial News Internacional TEP</span>
+<span class="media-caption">Documentación fotográfica de archivo • Verificación contextual de inteligencia</span>
 </div>
 )}
 
@@ -222,10 +255,10 @@ Por <strong>Redacción News Internacional TEP</strong> • <time datetime={pubDa
 <slot />
 </div>
 
-<div class="bottom-wire">
-<h4>Reciba la cobertura analítica completa en Telegram</h4>
-<p>Informes estratégicos continuos sobre geopolítica, finanzas y tecnología.</p>
-<a href="https://t.me/newsinternacionaltep" target="_blank" rel="noopener noreferrer">Unirse a @newsinternacionaltep</a>
+<div class="citation-box">
+<h4>Aparato Crítico & Trazabilidad Metodológica</h4>
+<p>Este informe ha sido sintetizado mediante un modelo de análisis causal cruzando despachos oficiales, datos bursátiles en tiempo real y declaraciones institucionales. No contiene juicios morales partidistas.</p>
+<p>Para consultas sobre la metodología de verificación o replicación de datos, contacte a la mesa de investigación en <a href="https://t.me/newsinternacionaltep" target="_blank" rel="noopener noreferrer">@newsinternacionaltep</a>.</p>
 </div>
 </article>
 </main>

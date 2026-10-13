@@ -1,6 +1,7 @@
 ﻿import os
 import json
 import html
+import time
 import random
 import urllib.request
 import urllib.error
@@ -10,7 +11,7 @@ import feedparser
 from google import genai
 from google.genai import types
 
-# 1. Configuración del Cliente y Canales
+# 1. Configuración de API y Canales
 client = genai.Client()
 MODELO = "gemini-3.5-flash-lite"
 OUTPUT_DIR = os.path.join("src", "content", "blog")
@@ -22,70 +23,81 @@ SITE_BASE_URL = "https://newsinternacionaltep.com"
 
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
-# 2. Malla internacional masiva de agencias y medios (Top Selection del Directorio de 165 sitios)
+# 2. Malla Masiva Seleccionada del Directorio Global de 165 Medios
 FEEDS = {
     "Geopolítica": [
         "https://feeds.bbci.co.uk/news/world/rss.xml",
         "https://rss.politico.com/politics-news.xml",
+        "https://thehill.com/feed/",
         "https://www.aljazeera.com/xml/rss/all.xml",
         "https://www.theguardian.com/world/rss",
         "https://www.scmp.com/rss/91/feed",
+        "https://kyivindependent.com/feed/",
+        "https://thediplomat.com/feed/",
+        "https://www.france24.com/es/rss",
     ],
     "Economía": [
         "https://feeds.content.dowjones.io/public/rss/mw_topstories",
         "https://search.cnbc.com/rs/search/view.html?partnerId=2000&keywords=markets&sort=date&type=rss",
+        "https://search.cnbc.com/rs/search/view.html?partnerId=2000&keywords=economy&sort=date&type=rss",
         "https://finance.yahoo.com/news/rssindex",
-        "https://www.ft.com/?format=rss",
+        "https://www.investing.com/rss/news_25.rss",
         "https://asia.nikkei.com/rss/feed/category/business",
+        "https://www.economist.com/finance-and-economics/rss.xml",
+        "https://cincodias.elpais.com/seccion/rss/mercados/",
     ],
     "Tecnología": [
         "https://techcrunch.com/feed/",
         "https://feeds.arstechnica.com/arstechnica/index",
         "https://www.wired.com/feed/category/business/latest/rss",
-        "https://spectrum.ieee.org/rss/rocs/robotics",
         "https://www.theverge.com/rss/index.xml",
+        "https://spectrum.ieee.org/rss/rocs/robotics",
+        "https://venturebeat.com/feed/",
+        "https://www.technologyreview.com/feed/",
+        "https://krebsonsecurity.com/feed/",
+        "https://www.bleepingcomputer.com/feed/",
     ],
 }
 
-# Imágenes contextuales de archivo de prensa en alta resolución
 IMAGENES_EDITORIALES = {
     "Geopolítica": [
-        "https://images.unsplash.com/photo-1541872703-74c5e44368f9?auto=format&fit=crop&w=1200&q=80",
-        "https://images.unsplash.com/photo-1526778548025-fa2f459cd5c1?auto=format&fit=crop&w=1200&q=80",
-        "https://images.unsplash.com/photo-1577495508048-b635879837f1?auto=format&fit=crop&w=1200&q=80",
+        "https://images.unsplash.com/photo-1541872703-74c5e44368f9?auto=format&fit=crop&w=1400&q=80",
+        "https://images.unsplash.com/photo-1526778548025-fa2f459cd5c1?auto=format&fit=crop&w=1400&q=80",
+        "https://images.unsplash.com/photo-1577495508048-b635879837f1?auto=format&fit=crop&w=1400&q=80",
+        "https://images.unsplash.com/photo-1509062522246-3755977927d7?auto=format&fit=crop&w=1400&q=80",
     ],
     "Economía": [
-        "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?auto=format&fit=crop&w=1200&q=80",
-        "https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?auto=format&fit=crop&w=1200&q=80",
-        "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1200&q=80",
+        "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?auto=format&fit=crop&w=1400&q=80",
+        "https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?auto=format&fit=crop&w=1400&q=80",
+        "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1400&q=80",
+        "https://images.unsplash.com/photo-1559526324-4b87b5e36e44?auto=format&fit=crop&w=1400&q=80",
     ],
     "Tecnología": [
-        "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=1200&q=80",
-        "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1200&q=80",
-        "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?auto=format&fit=crop&w=1200&q=80",
+        "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=1400&q=80",
+        "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1400&q=80",
+        "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?auto=format&fit=crop&w=1400&q=80",
+        "https://images.unsplash.com/photo-1531297484001-80022131f5a1?auto=format&fit=crop&w=1400&q=80",
     ],
 }
 
-# 3. Directiva de Cero Plagio y Sobreescritura Máxima
-SYSTEM_INSTRUCTION = """Eres el motor de inteligencia analítica central de 'News Internacional TEP'.
-Tu tarea es consumir los datos crudos proporcionados de agencias globales y convertirlos en reportes investigativos 100% nuevos, densos y originales.
+# 3. Directriz Editorial de Revista Científica y Arbitraje de Inteligencia
+SYSTEM_INSTRUCTION = """Actúa como el Director de un Instituto Científico de Inteligencia y Revista de Prospectiva Internacional (al nivel de 'Foreign Affairs', 'Nature' y 'Financial Times').
+Tu objetivo es tomar datos noticiosos crudos y transformarlos en un Paper Científico / Reporte de Inteligencia Estructural de máxima densidad, rigor y originalidad.
 
-REGLA DE ORO INQUEBRANTABLE: BAJO NINGUNA CIRCUNSTANCIA copiarás de manera literal el texto original de la fuente. Debes leer el suceso, procesarlo como un experto en geopolítica/finanzas, y reescribir un análisis estructural con tus propias palabras, utilizando un lenguaje sobrio, neutral y académico.
-
-Estructura requerida:
-1. Reescritura Analítica Total: No eres un traductor, eres un analista de The New York Times/Bloomberg. Desmenuza el qué, el porqué y las causas de fondo.
-2. Extracción de Métricas Duras: Identifica cifras monetarias, porcentajes o fechas clave y preséntalas de forma concisa.
-3. Prospectiva a 24 Meses: Deduce y redacta el impacto que este suceso tendrá a nivel global en el corto y mediano plazo.
-
-Devuelve ÚNICAMENTE un objeto JSON válido con estas claves:
-- "title": Titular periodístico sobrio y formal (100% reescrito).
-- "description": Subtítulo analítico (140 a 160 caracteres).
-- "category": La categoría exacta ('Geopolítica', 'Economía' o 'Tecnología').
-- "tags": Lista de 4 o 5 palabras clave de indexación.
-- "key_metrics": Lista de 3 viñetas concisas con datos cuantitativos clave del evento.
-- "content": Cuerpo completo del análisis redactado en Markdown con secciones densas mediante subtítulos ## y párrafos desarrollados (Totalmente original, cero plagio).
-- "global_impact": Dos párrafos de prospectiva estratégica y efecto dominó en los mercados o la diplomacia.
-- "sources_summary": Párrafo que indique "Informe redactado tras el monitoreo y contraste de datos emitidos originalmente por agencias internacionales..."."""
+REGLAS DE ARBITRAJE CIENTÍFICO:
+1. CERO PLAGIO Y REESCRITURA TOTAL: Nunca repitas la estructura ni las frases de los cables. Reformula, amplía y profundiza con vocabulario formal, técnico y analítico.
+2. DENSIDAD Y CAUSALIDAD: Explica las variables independientes, los mecanismos de transmisión de la crisis y los factores detonantes.
+3. DATOS DUROS Y PARÁMETROS OPERATIVOS: Extrae cifras exactas (PIB, tasas base, volúmenes de capital, nodos tecnológicos, cronogramas).
+4. SINERGIA E IMPACTO SISTÉMICO GLOBAL: Analiza las repercusiones cruzadas (ej. cómo una decisión política altera los suministros tecnológicos y la liquidez bursátil).
+5. FORMATO DE PUBLICACIÓN:
+   - "title": Titular formal de impacto estructural (sin amarillismo).
+   - "description": Abstract académico estructurado (140 a 160 caracteres).
+   - "category": 'Geopolítica', 'Economía' o 'Tecnología'.
+   - "tags": 4 o 5 descriptores temáticos científicos.
+   - "metrics": Lista con 3 viñetas cuantificadas detallando variables clave.
+   - "content": Cuerpo del paper en Markdown estructurado en secciones con subtítulos ## (ej: '## Mecanismos Estructurales y Contexto', '## Análisis de Fuerzas y Contraste de Actores', '## Sinergia e Impacto en Cadenas Globales').
+   - "prospectiva": Dos párrafos de proyección a 12-24 meses evaluando escenarios de equilibrio o ruptura.
+   - "methodology": Resumen de triangulación de fuentes y verificación."""
 
 def cargar_historial() -> list:
     if os.path.exists(HISTORY_FILE):
@@ -113,10 +125,10 @@ def broadcast_telegram(data: dict, post_slug: str):
     hashtags = " ".join([f"#{slugify(t, separator='')}" for t in raw_tags]) if raw_tags else ""
 
     message = (
-        f"🚨 <b>{category.upper()} | Análisis Estructural</b>\n\n"
+        f"🔬 <b>DOSSIER CIENTÍFICO | {category.upper()}</b>\n\n"
         f"<b>{title}</b>\n\n"
-        f"{description}\n\n"
-        f"🔗 <a href='{article_url}'>Leer informe completo</a>\n\n"
+        f"<i>{description}</i>\n\n"
+        f"📊 <a href='{article_url}'>Acceder al Paper Completo & Métricas</a>\n\n"
         f"{hashtags}"
     ).strip()
 
@@ -133,35 +145,41 @@ def broadcast_telegram(data: dict, post_slug: str):
         with urllib.request.urlopen(req, timeout=10) as response:
             res_data = json.loads(response.read().decode("utf-8"))
             if res_data.get("ok"):
-                print(" [✓] Alerta de inteligencia despachada a Telegram.")
+                print(" [✓] Paper publicado y despachado en Telegram.")
     except Exception as e:
         print(f" [!] Error en Telegram: {e}")
 
-def procesar_noticia(entry, categoria: str):
+def procesar_noticia_con_reintentos(entry, categoria: str, max_intentos: int = 3):
     prompt = f"""
-    Lee los siguientes datos crudos e instaura un informe 100% original, reescrito desde cero con profundidad analítica:
-    - Categoría Operativa: {categoria}
-    - Titular fuente: {entry.get('title', '')}
-    - Enlace primario: {entry.get('link', '')}
-    - Extracto crudo: {entry.get('summary', '')}
+    Elabora un Paper de Inteligencia y Análisis Científico de alta densidad a partir de estos datos:
+    - Campo de Estudio: {categoria}
+    - Suceso Noticioso: {entry.get('title', '')}
+    - Fuente Primaria: {entry.get('link', '')}
+    - Extracto Bruto: {entry.get('summary', '')}
     """
 
-    try:
-        response = client.models.generate_content(
-            model=MODELO,
-            contents=prompt,
-            config=types.GenerateContentConfig(
-                system_instruction=SYSTEM_INSTRUCTION,
-                response_mime_type="application/json",
-                temperature=0.3, # Ligero aumento para mayor originalidad y evitar réplicas
-            ),
-        )
-        return json.loads(response.text)
-    except Exception as e:
-        print(f"[!] Error procesando el prompt: {e}")
-        return None
+    for intento in range(1, max_intentos + 1):
+        try:
+            response = client.models.generate_content(
+                model=MODELO,
+                contents=prompt,
+                config=types.GenerateContentConfig(
+                    system_instruction=SYSTEM_INSTRUCTION,
+                    response_mime_type="application/json",
+                    temperature=0.25,
+                ),
+            )
+            return json.loads(response.text)
+        except Exception as e:
+            print(f" [!] Intento {intento}/{max_intentos} fallido en Gemini ({e}).")
+            if intento < max_intentos:
+                tiempo_espera = intento * 5
+                print(f" [*] Reintentando en {tiempo_espera}s...")
+                time.sleep(tiempo_espera)
+            else:
+                return None
 
-def guardar_articulo(data: dict, fuente_original: str) -> str:
+def guardar_paper(data: dict, fuente_original: str) -> str:
     slug = slugify(data["title"][:50])
     fecha_actual = datetime.now().strftime("%Y-%m-%d")
     post_slug = f"{fecha_actual}-{slug}"
@@ -173,12 +191,12 @@ def guardar_articulo(data: dict, fuente_original: str) -> str:
     lista_imgs = IMAGENES_EDITORIALES.get(categoria, IMAGENES_EDITORIALES["Geopolítica"])
     imagen_hero = random.choice(lista_imgs)
 
-    metrics_list = data.get("key_metrics", [])
+    metrics_list = data.get("metrics", [])
     metrics_block = ""
     if metrics_list:
-        metrics_block = "> ### Indicadores y Cifras Clave\n" + "\n".join([f"> * **{m}**" for m in metrics_list]) + "\n\n"
+        metrics_block = "> ### Parámetros Operativos & Variables Clave\n" + "\n".join([f"> * **{m}**" for m in metrics_list]) + "\n\n"
 
-    impacto_bloque = data.get("global_impact", "El suceso altera significativamente las dinámicas de poder.")
+    prospectiva_bloque = data.get("prospectiva", "El desarrollo de los acontecimientos exigirá seguimiento continuo de las cadenas de impacto.")
 
     contenido_md = f"""---
 title: "{data['title']}"
@@ -192,30 +210,35 @@ canonicalSource: "{fuente_original}"
 
 {metrics_block}{data['content']}
 
-## Impacto Estructural y Prospectiva Global
+## Sinergia Sistémica y Prospectiva Global (12-24 Meses)
 
-{impacto_bloque}
+{prospectiva_bloque}
 
 ---
 
-### Metodología y Trazabilidad del Monitoreo
-* **Cita Origen de Agregación:** [{fuente_original}]({fuente_original})
-* **Marco de Verificación Legal:** {data.get('sources_summary', 'Informe redactado a partir del procesamiento y reestructuración analítica de datos en tiempo real.')}
+### Metodología de Verificación y Referencias Primarias
+* **Documentación Base de Rastreo:** [{fuente_original}]({fuente_original})
+* **Marco de Arbitraje Analítico:** {data.get('methodology', 'Investigación elaborada mediante agregación multifuente y modelado de impacto estructural independiente.')}
 """
 
     with open(ruta_completa, "w", encoding="utf-8") as f:
         f.write(contenido_md)
 
-    print(f"[+] Informe analítico consolidado: {nombre_archivo}")
+    print(f"[+] Paper científico consolidado: {nombre_archivo}")
     return post_slug
 
 def ejecutar_pipeline():
-    print("=== IA TEP | Extracción de Red Global y Reescritura Analítica ===")
+    print("=== MOTOR CIENTÍFICO TEP: Malla Global (165 Fuentes) & Papers de Fondo ===")
     historial = cargar_historial()
     nuevos_procesados = 0
 
+    # Procesa 1 reporte riguroso por categoría en cada ciclo (3 cada 4h = 18 al día)
     for categoria, urls in FEEDS.items():
-        for url in urls:
+        # Mezcla las fuentes para que la investigación rote dinámicamente
+        urls_mezcladas = urls.copy()
+        random.shuffle(urls_mezcladas)
+
+        for url in urls_mezcladas:
             try:
                 feed = feedparser.parse(url)
                 noticia_objetivo = None
@@ -227,20 +250,20 @@ def ejecutar_pipeline():
 
                 if noticia_objetivo:
                     link = noticia_objetivo.get("link", "")
-                    print(f"[*] Transformando fuente en {categoria}: {noticia_objetivo.get('title', '')[:45]}...")
-                    resultado = procesar_noticia(noticia_objetivo, categoria)
+                    print(f"[*] Analizando suceso en {categoria}: {noticia_objetivo.get('title', '')[:50]}...")
+                    resultado = procesar_noticia_con_reintentos(noticia_objetivo, categoria)
 
                     if resultado:
-                        post_slug = guardar_articulo(resultado, link)
+                        post_slug = guardar_paper(resultado, link)
                         historial.append(link)
                         guardar_historial(historial)
                         broadcast_telegram(resultado, post_slug)
                         nuevos_procesados += 1
                         break
             except Exception as ex:
-                print(f" [!] Error en la consulta del feed {url}: {ex}")
+                print(f" [!] Error al procesar {url}: {ex}")
 
-    print(f"=== Ciclo Inteligente Finalizado: {nuevos_procesados} Reportes Originales Publicados ===")
+    print(f"=== Ciclo Concluido: {nuevos_procesados} Papers Científicos Publicados ===")
 
 if __name__ == "__main__":
     ejecutar_pipeline()
