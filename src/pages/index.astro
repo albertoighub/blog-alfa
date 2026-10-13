@@ -38,15 +38,15 @@ background-color: #f8fafc;
 color: #0f172a;
 font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 }
-/* CONTENEDOR ULTRA PANORÁMICO */
+/* CONTENEDOR MAESTRO PANORÁMICO */
 main {
-max-width: 1640px;
-width: 95%;
+max-width: 1580px;
+width: 94%;
 margin: 0 auto;
 padding: 1.5rem 0 6rem;
 }
 
-/* 1. ÚLTIMA HORA CON CENTRADO VERTICAL RIGUROSO */
+/* 1. ÚLTIMA HORA CENTRADO Y EXTENDIDO */
 .breaking-marquee-strip {
 background: #991b1b;
 color: #ffffff;
@@ -57,6 +57,7 @@ border-radius: 6px;
 margin-bottom: 2rem;
 overflow: hidden;
 box-shadow: 0 4px 15px rgba(153, 27, 27, 0.15);
+width: 100%;
 }
 .breaking-fixed-tag {
 background: #7f1d1d;
@@ -129,12 +130,13 @@ line-height: 1;
 100% { transform: translateX(-50%); }
 }
 
-/* 2. LOS 3 EJES ESTRATÉGICOS HORIZONTALES (Estrechos y extendidos a los lados) */
+/* 2. LOS 3 PILARES EXTENDIDOS A TODO EL ANCHO */
 .three-pillars-strip {
 display: grid;
 grid-template-columns: repeat(3, 1fr);
 gap: 1.5rem;
 margin-bottom: 3rem;
+width: 100%;
 }
 .pillar-card {
 background: #090d16;
@@ -199,14 +201,15 @@ color: #94a3b8;
 line-height: 1.35;
 }
 
-/* 3. PRIMERA PLANA PANORÁMICA */
+/* 3. ESTRUCTURA EDITORIAL BROADSHEET CON MARGEN PARA ADSENSE */
 .broadsheet-layout {
 display: grid;
-grid-template-columns: 2.8fr 1.1fr;
+grid-template-columns: 2.7fr 1.1fr;
 gap: 3rem;
 padding-bottom: 3.5rem;
 border-bottom: 2px solid #0f172a;
 margin-bottom: 3.5rem;
+width: 100%;
 }
 .lead-box {
 background: #ffffff;
@@ -331,9 +334,10 @@ line-height: 1.5;
 margin: 0 0 0.4rem;
 }
 
-/* 4. SECCIONES PANORÁMICAS COMPLETAS */
+/* 4. CATÁLOGO COMPLETO PANORÁMICO */
 .category-section-wrap {
 margin-bottom: 4.5rem;
+width: 100%;
 }
 .section-bar {
 display: flex;
@@ -365,6 +369,7 @@ text-decoration: underline;
 display: grid;
 grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
 gap: 2.5rem;
+width: 100%;
 }
 .article-card {
 background: #ffffff;

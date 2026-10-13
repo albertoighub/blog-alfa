@@ -85,30 +85,31 @@ font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "
 }
 /* CONTENEDOR PANORÁMICO ANCHO */
 main {
-max-width: 1640px;
-width: 95%;
+max-width: 1580px;
+width: 94%;
 margin: 0 auto;
 padding: 2rem 0 6rem;
 }
 
-/* BANNER HORIZONTAL: Ícono al lado del texto y sin frases que saturen */
+/* BANNER HORIZONTAL EXTENDIDO AL 100% */
 .section-header-banner {
 background: var(--bgHero);
 color: #ffffff;
 border-left: 5px solid var(--accent);
 border-radius: 8px;
-padding: 1.8rem 2.2rem;
+padding: 2.2rem 2.8rem;
 margin-bottom: 3.5rem;
 display: flex;
 align-items: center;
-gap: 2rem;
+gap: 2.5rem;
 box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.2);
+width: 100%;
+box-sizing: border-box;
 }
 
-/* Ícono a la izquierda del contenido */
 .banner-side-icon {
-width: 78px;
-height: 78px;
+width: 82px;
+height: 82px;
 border-radius: 12px;
 background: rgba(255, 255, 255, 0.08);
 border: 1px solid rgba(255, 255, 255, 0.15);
@@ -119,7 +120,7 @@ color: var(--accent);
 flex-shrink: 0;
 }
 .icon-currency-sign {
-font-size: 2.8rem;
+font-size: 3rem;
 font-weight: 900;
 font-family: system-ui, sans-serif;
 color: #10b981;
@@ -131,12 +132,12 @@ flex: 1;
 .banner-title-line {
 display: flex;
 align-items: center;
-gap: 1.2rem;
-margin-bottom: 0.4rem;
+gap: 1.4rem;
+margin-bottom: 0.5rem;
 flex-wrap: wrap;
 }
 .banner-heading-text {
-font-size: clamp(1.8rem, 3.2vw, 2.5rem);
+font-size: clamp(2rem, 3.4vw, 2.7rem);
 font-weight: 900;
 letter-spacing: -0.03em;
 margin: 0;
@@ -144,7 +145,6 @@ color: #ffffff;
 line-height: 1.15;
 }
 
-/* Botón con movimiento pulsante al lado */
 .section-pulse-badge {
 display: inline-flex;
 align-items: center;
@@ -152,9 +152,9 @@ gap: 7px;
 background: rgba(255, 255, 255, 0.08);
 border: 1px solid rgba(255, 255, 255, 0.2);
 color: #ffffff;
-font-size: 0.72rem;
+font-size: 0.74rem;
 font-weight: 800;
-padding: 0.25rem 0.75rem;
+padding: 0.25rem 0.8rem;
 border-radius: 20px;
 text-transform: uppercase;
 letter-spacing: 0.05em;
@@ -174,10 +174,10 @@ animation: dynamicPulse 1.5s infinite ease-in-out;
 }
 
 .banner-summary {
-font-size: 1.05rem;
+font-size: 1.1rem;
 color: #cbd5e1;
-line-height: 1.5;
-margin: 0 0 1rem;
+line-height: 1.55;
+margin: 0 0 1.2rem;
 }
 .banner-tags-list {
 display: flex;
@@ -188,13 +188,13 @@ gap: 0.5rem;
 background: rgba(255, 255, 255, 0.06);
 border: 1px solid rgba(255, 255, 255, 0.12);
 color: #e2e8f0;
-font-size: 0.74rem;
+font-size: 0.76rem;
 font-weight: 700;
-padding: 0.25rem 0.7rem;
+padding: 0.25rem 0.75rem;
 border-radius: 16px;
 }
 
-/* Noticia Líder de la Sección */
+/* Noticia Líder Extendida */
 .lead-card-box {
 background: #ffffff;
 border: 1px solid #e2e8f0;
@@ -202,6 +202,8 @@ border-radius: 8px;
 padding: 2.5rem;
 margin-bottom: 3.5rem;
 box-shadow: 0 8px 20px rgba(0, 0, 0, 0.03);
+width: 100%;
+box-sizing: border-box;
 }
 .lead-grid {
 display: grid;
@@ -268,6 +270,7 @@ padding-top: 1rem;
 border-bottom: 2px solid #0f172a;
 padding-bottom: 0.8rem;
 margin-bottom: 2.2rem;
+width: 100%;
 }
 .section-heading-title {
 font-size: 1.6rem;
@@ -280,6 +283,7 @@ margin: 0;
 display: grid;
 grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
 gap: 2.5rem;
+width: 100%;
 }
 .story-card {
 background: #ffffff;
@@ -361,7 +365,7 @@ color: #64748b;
 <body>
 <Header />
 <main>
-<!-- Banner Horizontal: Ícono a la izquierda, título + botón en línea y sin textos redundantes -->
+<!-- Banner Horizontal Extendido al 100% -->
 <section class="section-header-banner">
 <div class="banner-side-icon">
 {meta.iconType === 'tech' && (
