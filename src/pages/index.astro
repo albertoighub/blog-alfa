@@ -9,29 +9,35 @@ const posts = allPosts.sort(
 (a, b) => new Date(b.data.pubDate).valueOf() - new Date(a.data.pubDate).valueOf()
 );
 
-const mainPost = posts[0];
-const secondaryPosts = posts.slice(1, 7);
+const heroPost = posts[0];
+const recentPosts = posts.slice(1, 7);
 ---
 
 <!doctype html>
 <html lang="es">
 <head>
-<BaseHead title="News Internacional TEP | Cobertura Global Independiente" description="Análisis riguroso en Tecnología, Economía y Política Global." />
+<BaseHead title="News Internacional TEP | Análisis Global" description="Cobertura analítica e imparcial en Tecnología, Economía y Política Global." />
 <style>
-.hero-news {
+main {
+max-width: 1100px;
+margin: 0 auto;
+padding: 2rem 1rem;
+}
+.hero-card {
 background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
 color: #ffffff;
 padding: 2.5rem;
 border-radius: 12px;
 margin-bottom: 2.5rem;
 border: 1px solid #334155;
+box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.2);
 }
-.hero-badge {
+.category-tag {
 display: inline-block;
 background-color: #2563eb;
 color: #ffffff;
 font-size: 0.75rem;
-font-weight: 700;
+font-weight: 800;
 padding: 0.25rem 0.75rem;
 border-radius: 4px;
 text-transform: uppercase;
@@ -41,7 +47,7 @@ margin-bottom: 1rem;
 .hero-title {
 font-size: 2.2rem;
 line-height: 1.25;
-margin-bottom: 1rem;
+margin: 0 0 1rem;
 font-weight: 800;
 }
 .hero-title a {
@@ -52,7 +58,7 @@ text-decoration: none;
 color: #60a5fa;
 }
 .hero-desc {
-font-size: 1.1rem;
+font-size: 1.15rem;
 color: #cbd5e1;
 line-height: 1.6;
 margin-bottom: 1.5rem;
@@ -61,135 +67,155 @@ margin-bottom: 1.5rem;
 font-size: 0.85rem;
 color: #94a3b8;
 }
-.grid-header {
-display: flex;
-justify-content: space-between;
-align-items: center;
-margin-bottom: 1.5rem;
-border-bottom: 2px solid #e2e8f0;
-padding-bottom: 0.5rem;
-}
-.grid-title {
-font-size: 1.5rem;
-font-weight: 700;
-color: #0f172a;
-margin: 0;
-}
-.news-grid {
-display: grid;
-grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-gap: 1.5rem;
-margin-bottom: 3rem;
-}
-.news-card {
-background: #ffffff;
-border: 1px solid #e2e8f0;
-border-radius: 8px;
-padding: 1.25rem;
-display: flex;
-flex-direction: column;
-justify-content: space-between;
-transition: transform 0.2s ease, box-shadow 0.2s ease;
-}
-.news-card:hover {
-transform: translateY(-2px);
-box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.05);
-}
-.card-category {
-font-size: 0.7rem;
-font-weight: 700;
-color: #2563eb;
-text-transform: uppercase;
-margin-bottom: 0.5rem;
-}
-.card-title {
-font-size: 1.15rem;
-font-weight: 700;
-line-height: 1.4;
-margin-bottom: 0.75rem;
-}
-.card-title a {
-color: #1e293b;
-text-decoration: none;
-}
-.card-title a:hover {
-color: #2563eb;
-}
-.card-desc {
-font-size: 0.9rem;
-color: #64748b;
-line-height: 1.5;
-margin-bottom: 1rem;
-}
-.card-date {
-font-size: 0.8rem;
-color: #94a3b8;
-}
 .telegram-banner {
 background: #f0fdf4;
 border: 1px solid #bbf7d0;
-border-radius: 8px;
-padding: 1.5rem;
-text-align: center;
+border-radius: 10px;
+padding: 1.5rem 2rem;
+display: flex;
+justify-content: space-between;
+align-items: center;
 margin-bottom: 3rem;
+flex-wrap: wrap;
+gap: 1rem;
 }
-.telegram-btn {
-display: inline-block;
-background-color: #229ed9;
-color: #ffffff;
-font-weight: 600;
-padding: 0.6rem 1.25rem;
+.tg-title {
+font-size: 1.15rem;
+font-weight: 700;
+color: #166534;
+margin: 0 0 0.25rem;
+}
+.tg-desc {
+color: #15803d;
+margin: 0;
+font-size: 0.92rem;
+}
+.tg-btn {
+background-color: #0284c7;
+color: #ffffff !important;
+font-weight: 700;
+padding: 0.65rem 1.25rem;
 border-radius: 6px;
 text-decoration: none;
-margin-top: 0.75rem;
+font-size: 0.9rem;
+white-space: nowrap;
 }
-.telegram-btn:hover {
-background-color: #1d88bb;
+.tg-btn:hover {
+background-color: #0369a1;
+}
+.section-header {
+display: flex;
+justify-content: space-between;
+align-items: center;
+border-bottom: 2px solid #e2e8f0;
+padding-bottom: 0.75rem;
+margin-bottom: 1.5rem;
+}
+.section-title {
+font-size: 1.5rem;
+font-weight: 800;
+color: #0f172a;
+margin: 0;
+}
+.see-all-link {
+color: #2563eb;
+text-decoration: none;
+font-weight: 700;
+font-size: 0.9rem;
+}
+.articles-grid {
+display: grid;
+grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+gap: 1.5rem;
+}
+.article-item {
+background: #ffffff;
+border: 1px solid #e2e8f0;
+border-radius: 8px;
+padding: 1.5rem;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+.article-item:hover {
+transform: translateY(-3px);
+box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05);
+}
+.item-cat {
+font-size: 0.7rem;
+font-weight: 800;
+text-transform: uppercase;
+color: #2563eb;
+margin-bottom: 0.5rem;
+}
+.item-title {
+font-size: 1.15rem;
+line-height: 1.4;
+font-weight: 700;
+margin: 0 0 0.75rem;
+}
+.item-title a {
+color: #0f172a;
+text-decoration: none;
+}
+.item-title a:hover {
+color: #2563eb;
+}
+.item-desc {
+font-size: 0.92rem;
+color: #64748b;
+line-height: 1.5;
+margin-bottom: 1.25rem;
+}
+.item-date {
+font-size: 0.82rem;
+color: #94a3b8;
 }
 </style>
 </head>
 <body>
 <Header />
-<main style="max-width: 1050px; margin: 0 auto; padding: 2rem 1rem;">
-{mainPost && (
-<section class="hero-news">
-<span class="hero-badge">{mainPost.data.category || 'Destacado'}</span>
+<main>
+{heroPost && (
+<section class="hero-card">
+<span class="category-tag">{heroPost.data.category || 'Análisis Especial'}</span>
 <h1 class="hero-title">
-<a href={`/blog/${mainPost.slug ?? mainPost.id}/`}>{mainPost.data.title}</a>
+<a href={`/blog/${heroPost.slug ?? heroPost.id}/`}>{heroPost.data.title}</a>
 </h1>
-<p class="hero-desc">{mainPost.data.description}</p>
+<p class="hero-desc">{heroPost.data.description}</p>
 <div class="hero-meta">
-Publicado el {mainPost.data.pubDate.toLocaleDateString('es-MX', { year: 'numeric', month: 'long', day: 'numeric' })} • Análisis TEP
+Publicado el {heroPost.data.pubDate.toLocaleDateString('es-MX', { year: 'numeric', month: 'long', day: 'numeric' })} • Redacción TEP
 </div>
 </section>
 )}
 
 <div class="telegram-banner">
-<h3 style="margin: 0; font-size: 1.2rem; color: #166534;">📡 Canal Oficial de Alertas TEP en Vivo</h3>
-<p style="margin: 0.5rem 0 0; color: #15803d; font-size: 0.95rem;">
-Recibe cobertura geopolítica, económica y tecnológica directa a tu móvil sin algoritmos ni censura.
-</p>
-<a href="https://t.me/newsinternacionaltep" target="_blank" rel="noopener noreferrer" class="telegram-btn">
-Unirse al Canal de Telegram
+<div>
+<h3 class="tg-title">📡 Canal Oficial en Telegram</h3>
+<p class="tg-desc">Recibe alertas y coberturas geopolíticas directamente en tu dispositivo sin algoritmos mediadores.</p>
+</div>
+<a href="https://t.me/newsinternacionaltep" target="_blank" rel="noopener noreferrer" class="tg-btn">
+Unirme a @newsinternacionaltep
 </a>
 </div>
 
 <section>
-<div class="grid-header">
-<h2 class="grid-title">Últimos Análisis Globales</h2>
-<a href="/blog/" style="color: #2563eb; text-decoration: none; font-weight: 600; font-size: 0.9rem;">Ver archivo completo →</a>
+<div class="section-header">
+<h2 class="section-title">Análisis Recientes</h2>
+<a href="/blog" class="see-all-link">Ver todo el archivo →</a>
 </div>
-<div class="news-grid">
-{secondaryPosts.map((post) => (
-<article class="news-card">
+<div class="articles-grid">
+{recentPosts.map((post) => (
+<article class="article-item">
 <div>
-<div class="card-category">{post.data.category || 'Actualidad'}</div>
-<h3 class="card-title">
+<div class="item-cat">{post.data.category || 'Actualidad'}</div>
+<h3 class="item-title">
 <a href={`/blog/${post.slug ?? post.id}/`}>{post.data.title}</a>
 </h3>
-<p class="card-desc">{post.data.description}</p>
+<p class="item-desc">{post.data.description}</p>
 </div>
-<div class="card-date">
+<div class="item-date">
 {post.data.pubDate.toLocaleDateString('es-MX', { year: 'numeric', month: 'short', day: 'numeric' })}
 </div>
 </article>
