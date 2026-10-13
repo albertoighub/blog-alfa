@@ -12,7 +12,7 @@ from google.genai import types
 
 # 1. Configuración de API y Telegram
 client = genai.Client()
-MODELO = "gemini-2.5-flash"
+MODELO = "gemini-3.5-flash-lite"
 OUTPUT_DIR = os.path.join("src", "content", "blog")
 HISTORY_FILE = "history.json"
 
