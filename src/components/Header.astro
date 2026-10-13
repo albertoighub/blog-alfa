@@ -6,7 +6,6 @@ month: 'long',
 day: 'numeric',
 });
 
-// Matriz de cotizaciones bursátiles y materias primas verificadas
 const marketData = [
 { asset: 'USD / EUR', val: '0.9241', change: '+0.18%', up: true },
 { asset: 'USD / MXN', val: '19.342', change: '-0.42%', up: false },
@@ -22,12 +21,11 @@ const marketData = [
 ---
 
 <header class="tep-global-header">
-<!-- 1. CINTILLO CÍCLICO: Relojes Mundiales en Tiempo Real -->
+<!-- 1. Ticker 1: Horarios Mundiales (Azul Noche #050914) -->
 <div class="ticker-time-wrapper">
 <div class="ticker-label-time">HORA GLOBAL</div>
 <div class="ticker-viewport">
 <div class="ticker-track-loop time-track">
-<!-- Grupo Primario -->
 <div class="ticker-group">
 <div class="time-item"><span class="time-city">Nueva York:</span> <span class="time-val" data-tz="America/New_York">--:--:--</span></div>
 <div class="time-item"><span class="time-city">Londres:</span> <span class="time-val" data-tz="Europe/London">--:--:--</span></div>
@@ -37,7 +35,6 @@ const marketData = [
 <div class="time-item"><span class="time-city">Dubái:</span> <span class="time-val" data-tz="Asia/Dubai">--:--:--</span></div>
 <div class="time-item"><span class="time-city">Cd. de México:</span> <span class="time-val" data-tz="America/Mexico_City">--:--:--</span></div>
 </div>
-<!-- Grupo Espejo Idéntico (Cierre Cíclico sin huecos) -->
 <div class="ticker-group" aria-hidden="true">
 <div class="time-item"><span class="time-city">Nueva York:</span> <span class="time-val" data-tz="America/New_York">--:--:--</span></div>
 <div class="time-item"><span class="time-city">Londres:</span> <span class="time-val" data-tz="Europe/London">--:--:--</span></div>
@@ -51,7 +48,7 @@ const marketData = [
 </div>
 </div>
 
-<!-- 2. CINTILLO CÍCLICO: Monitor de Divisas y Mercados Financieros -->
+<!-- 2. Ticker 2: Mercados Financieros (Azul Noche #0a1228) -->
 <div class="ticker-market-wrapper">
 <div class="ticker-label-market">MERCADOS & DIVISAS</div>
 <div class="ticker-viewport">
@@ -78,10 +75,10 @@ const marketData = [
 </div>
 </div>
 
-<!-- 3. Utilidad y Masthead Panorámico -->
+<!-- 3. Utilidad Superior -->
 <div class="top-utility-bar">
 <div class="utility-left">
-<span class="edition-badge">Edición Global</span>
+<span class="edition-badge">Edición Internacional</span>
 <span class="utility-date">{today}</span>
 </div>
 <div class="utility-right">
@@ -92,26 +89,55 @@ const marketData = [
 </div>
 </div>
 
+<!-- 4. Masthead con Logotipo Profesional e Isotipo Emblemático -->
 <div class="masthead">
 <span class="sub-head">REVISTA CIENTÍFICA & ANÁLISIS ESTRATÉGICO GLOBAL</span>
+
+<div class="brand-container">
+<a href="/" class="brand-link" aria-label="News Internacional TEP">
+<!-- Emblema / Isotipo Vectorial Oficial -->
+<svg class="brand-emblem" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="64" height="64" rx="14" fill="#080e21"/>
+<rect x="2" y="2" width="60" height="60" rx="12" stroke="#1e3a8a" stroke-width="2"/>
+<circle cx="32" cy="32" r="22" stroke="#38bdf8" stroke-width="1.8" stroke-opacity="0.4"/>
+<ellipse cx="32" cy="32" rx="11" ry="22" stroke="#38bdf8" stroke-width="1.8" stroke-opacity="0.6"/>
+<line x1="10" y1="32" x2="54" y2="32" stroke="#38bdf8" stroke-width="1.8" stroke-opacity="0.6"/>
+<text x="32" y="37" font-family="system-ui, sans-serif" font-size="11" font-weight="900" fill="#ffffff" text-anchor="middle" letter-spacing="1">TEP</text>
+<circle cx="48" cy="16" r="3.5" fill="#dc2626"/>
+</svg>
+
+<!-- Logotipo Tipográfico -->
+<div class="brand-text-wrap">
 <h1 class="main-title">
-<a href="/" class="brand-link">NEWS INTERNACIONAL <span class="brand-accent">TEP</span></a>
+NEWS INTERNACIONAL <span class="brand-badge-tep">TEP</span>
 </h1>
+</div>
+</a>
+</div>
+
+<!-- Sub-navegación con colores temáticos bien diferenciados -->
 <div class="tagline-nav">
-<a href="/categoria/tecnologia" class="tagline-link">TECNOLOGÍA</a>
+<a href="/categoria/tecnologia" class="tagline-link tag-tech">
+<span class="tag-bullet bullet-tech"></span> TECNOLOGÍA
+</a>
 <span class="dot">•</span>
-<a href="/categoria/economia" class="tagline-link">ECONOMÍA</a>
+<a href="/categoria/economia" class="tagline-link tag-econ">
+<span class="tag-bullet bullet-econ"></span> ECONOMÍA
+</a>
 <span class="dot">•</span>
-<a href="/categoria/geopolitica" class="tagline-link">GEOPOLÍTICA</a>
+<a href="/categoria/geopolitica" class="tagline-link tag-geo">
+<span class="tag-bullet bullet-geo"></span> GEOPOLÍTICA
+</a>
 </div>
 </div>
 
+<!-- 5. Barra de Navegación Principal -->
 <nav class="nav-sections">
 <div class="nav-wrap">
 <a href="/" class="nav-link active">Inicio</a>
-<a href="/categoria/geopolitica" class="nav-link">Geopolítica</a>
-<a href="/categoria/economia" class="nav-link">Economía & Mercados</a>
-<a href="/categoria/tecnologia" class="nav-link">Tecnología & IA</a>
+<a href="/categoria/geopolitica" class="nav-link nav-geo">Geopolítica</a>
+<a href="/categoria/economia" class="nav-link nav-econ">Economía & Mercados</a>
+<a href="/categoria/tecnologia" class="nav-link nav-tech">Tecnología & IA</a>
 <a href="/about" class="nav-link">Línea Editorial</a>
 </div>
 </nav>
@@ -126,20 +152,20 @@ font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "
 width: 100%;
 }
 
-/* Ticker Wrappers */
+/* TICKERS CONTINUOS (AZULES NOCHE DE MARCA) */
 .ticker-time-wrapper {
-background: #090d16;
+background: #050914;
 color: #94a3b8;
 font-size: 0.72rem;
 font-weight: 700;
-border-bottom: 1px solid #1e293b;
+border-bottom: 1px solid #141c33;
 height: 34px;
 display: flex;
 align-items: center;
 overflow: hidden;
 }
 .ticker-label-time {
-background: #1e293b;
+background: #0f1e47;
 color: #f8fafc;
 padding: 0 1.4rem;
 height: 100%;
@@ -150,21 +176,21 @@ letter-spacing: 0.08em;
 text-transform: uppercase;
 z-index: 5;
 flex-shrink: 0;
-box-shadow: 6px 0 12px rgba(0,0,0,0.45);
+box-shadow: 6px 0 12px rgba(0,0,0,0.5);
 }
 
 .ticker-market-wrapper {
-background: #0f172a;
+background: #0a1228;
 color: #ffffff;
 font-size: 0.74rem;
-border-bottom: 1px solid #1e293b;
+border-bottom: 1px solid #19274e;
 height: 36px;
 display: flex;
 align-items: center;
 overflow: hidden;
 }
 .ticker-label-market {
-background: #1e3a8a;
+background: #14285e;
 color: #ffffff;
 padding: 0 1.4rem;
 height: 100%;
@@ -175,10 +201,9 @@ letter-spacing: 0.08em;
 text-transform: uppercase;
 z-index: 5;
 flex-shrink: 0;
-box-shadow: 6px 0 12px rgba(0,0,0,0.45);
+box-shadow: 6px 0 12px rgba(0,0,0,0.5);
 }
 
-/* Viewport & Animación Continua sin Salto */
 .ticker-viewport {
 flex: 1;
 height: 100%;
@@ -199,7 +224,6 @@ gap: 3rem;
 padding-right: 3rem;
 flex-shrink: 0;
 }
-
 .time-track {
 animation: circularMarquee 38s linear infinite;
 }
@@ -209,13 +233,12 @@ animation: circularMarquee 48s linear infinite;
 .ticker-track-loop:hover {
 animation-play-state: paused;
 }
-
 @keyframes circularMarquee {
 0% { transform: translateX(0); }
 100% { transform: translateX(-50%); }
 }
 
-.time-item {
+.time-item, .market-item {
 display: inline-flex;
 align-items: center;
 gap: 0.5rem;
@@ -231,13 +254,6 @@ color: #38bdf8;
 font-variant-numeric: tabular-nums;
 font-weight: 700;
 }
-
-.market-item {
-display: inline-flex;
-align-items: center;
-gap: 0.5rem;
-white-space: nowrap;
-}
 .market-name {
 color: #e2e8f0;
 font-weight: 700;
@@ -248,7 +264,7 @@ font-variant-numeric: tabular-nums;
 font-weight: 600;
 }
 .badge-up {
-background: rgba(16, 185, 129, 0.18);
+background: rgba(16, 185, 129, 0.2);
 color: #10b981;
 border: 1px solid #059669;
 padding: 0.1rem 0.45rem;
@@ -257,7 +273,7 @@ font-size: 0.68rem;
 font-weight: 800;
 }
 .badge-down {
-background: rgba(239, 68, 68, 0.18);
+background: rgba(239, 68, 68, 0.2);
 color: #ef4444;
 border: 1px solid #dc2626;
 padding: 0.1rem 0.45rem;
@@ -266,7 +282,7 @@ font-size: 0.68rem;
 font-weight: 800;
 }
 
-/* Barra Superior y Masthead */
+/* BARRA DE UTILIDAD */
 .top-utility-bar {
 max-width: 1580px;
 width: 94%;
@@ -312,58 +328,99 @@ animation: pulse 1.6s infinite;
 50% { transform: scale(1.2); opacity: 1; }
 }
 
+/* MASTHEAD & LOGO OFICIAL */
 .masthead {
 text-align: center;
-padding: 2.2rem 1rem 1.4rem;
+padding: 2rem 1rem 1.4rem;
 border-bottom: 1px solid #0f172a;
-}
-.brand-link {
-text-decoration: none;
-color: inherit;
 }
 .sub-head {
 font-size: 0.74rem;
 font-weight: 800;
-color: #64748b;
-letter-spacing: 0.16em;
+color: #475569;
+letter-spacing: 0.18em;
 display: block;
+margin-bottom: 0.7rem;
+}
+.brand-container {
+display: flex;
+justify-content: center;
+align-items: center;
 margin-bottom: 0.4rem;
 }
+.brand-link {
+display: inline-flex;
+align-items: center;
+gap: 1.2rem;
+text-decoration: none;
+color: #0f172a;
+}
+.brand-emblem {
+width: 52px;
+height: 52px;
+flex-shrink: 0;
+box-shadow: 0 4px 12px rgba(8, 14, 33, 0.15);
+border-radius: 12px;
+}
 .main-title {
-font-size: clamp(2.4rem, 6vw, 4rem);
-font-weight: 900;
+font-size: clamp(2.3rem, 5.5vw, 3.8rem);
+font-weight: 950;
 letter-spacing: -0.04em;
 margin: 0;
 line-height: 1;
 color: #0f172a;
 text-transform: uppercase;
+display: flex;
+align-items: center;
+gap: 0.4rem;
 }
-.brand-accent {
-color: #1e3a8a;
+.brand-badge-tep {
+color: #0f1e47;
+background: #eff6ff;
+border: 2px solid #bfdbfe;
+padding: 0 0.4rem;
+border-radius: 6px;
+letter-spacing: -0.02em;
 }
+
+/* SUB-NAVEGACIÓN CON COLORES DIFERENCIADOS */
 .tagline-nav {
 display: flex;
 justify-content: center;
 align-items: center;
-gap: 1.2rem;
-margin-top: 0.9rem;
+gap: 1.4rem;
+margin-top: 1rem;
 }
 .tagline-link {
-font-size: 0.78rem;
+font-size: 0.76rem;
 font-weight: 800;
 letter-spacing: 0.12em;
-color: #475569;
 text-decoration: none;
-transition: color 0.15s ease;
+display: inline-flex;
+align-items: center;
+gap: 6px;
+transition: opacity 0.15s ease;
 }
-.tagline-link:hover {
-color: #1e3a8a;
+.tag-bullet {
+width: 7px;
+height: 7px;
+border-radius: 50%;
 }
+.bullet-tech { background: #2563eb; box-shadow: 0 0 6px rgba(37, 99, 235, 0.4); }
+.bullet-econ { background: #059669; box-shadow: 0 0 6px rgba(5, 150, 105, 0.4); }
+.bullet-geo  { background: #dc2626; box-shadow: 0 0 6px rgba(220, 38, 38, 0.4); }
+
+.tag-tech { color: #2563eb; }
+.tag-econ { color: #059669; }
+.tag-geo  { color: #dc2626; }
+.tagline-link:hover { opacity: 0.75; }
+
 .dot {
 color: #cbd5e1;
 font-size: 0.8rem;
 }
 
+/* BARRA DE SECCIONES */
 .nav-sections {
 border-top: 1px solid #e2e8f0;
 }
@@ -376,7 +433,7 @@ justify-content: center;
 align-items: center;
 flex-wrap: wrap;
 gap: 0 2.5rem;
-padding: 0.7rem 0;
+padding: 0.75rem 0;
 }
 .nav-link {
 color: #1e293b;
@@ -390,13 +447,18 @@ border-bottom: 2px solid transparent;
 transition: all 0.15s ease;
 }
 .nav-link:hover, .nav-link.active {
-color: #1e3a8a;
-border-bottom-color: #1e3a8a;
+color: #0f172a;
+border-bottom-color: #0f172a;
 }
+.nav-link.nav-tech:hover { color: #2563eb; border-bottom-color: #2563eb; }
+.nav-link.nav-econ:hover { color: #059669; border-bottom-color: #059669; }
+.nav-link.nav-geo:hover  { color: #dc2626; border-bottom-color: #dc2626; }
 
 @media (max-width: 768px) {
 .utility-left { display: flex; flex-direction: column; gap: 2px; }
 .nav-wrap { justify-content: flex-start; overflow-x: auto; white-space: nowrap; gap: 0 1.2rem; }
+.brand-link { gap: 0.8rem; }
+.brand-emblem { width: 42px; height: 42px; }
 }
 </style>
 
@@ -411,9 +473,7 @@ const tz = el.getAttribute('data-tz');
 if (tz) {
 try {
 el.textContent = new Intl.DateTimeFormat('es-MX', { ...opts, timeZone: tz }).format(now);
-} catch (e) {
-// Fallback silencioso si el timezone no es soportado
-}
+} catch (e) {}
 }
 });
 }
