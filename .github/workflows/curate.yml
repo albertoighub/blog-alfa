@@ -1,0 +1,43 @@
+name: TEP Autonomous News Curator
+
+on:
+  schedule:
+    # Ejecución programada dos veces al día: 06:00 UTC y 18:00 UTC
+    - cron: '0 6,18 * * *'
+  # Permite ejecutarlo manualmente en cualquier momento desde un botón
+  workflow_dispatch:
+
+jobs:
+  curate-and-publish:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Descargar repositorio
+        uses: actions/checkout@v4
+
+      - name: Configurar Python
+        uses: setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Instalar dependencias
+        run: |
+          pip install google-genai feedparser python-slugify
+
+      - name: Ejecutar motor de noticias
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: |
+          python curator_engine.py
+
+      - name: Confirmar y subir nuevos articulos
+        run: |
+          git config --global user.name "TEP Automated Bot"
+          git config --global user.email "bot@newsinternacionaltep.com"
+          git add src/content/blog/
+          if git diff --staged --quiet; then
+            echo "No se encontraron noticias nuevas para publicar."
+          else
+            git commit -m "feat(content): publicacion automatica de analisis TEP"
+            git push
+          fi
