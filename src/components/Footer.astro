@@ -1,36 +1,123 @@
----
+﻿---
 const today = new Date();
 ---
 
 <footer>
-	<p>&copy; {today.getFullYear()} News Internacional TEP. Todos los derechos reservados.</p>
-	<nav>
-		<a href="/">Inicio</a> | 
-		<a href="/blog">Blog</a> | 
-		<a href="/about">Quiénes Somos</a> | 
-		<a href="/privacy-policy">Política de Privacidad</a>
-	</nav>
+<div class="footer-wrap">
+<div class="footer-grid">
+<div class="footer-col col-main">
+<h3 class="footer-title">NEWS INTERNACIONAL <span class="accent">TEP</span></h3>
+<p class="footer-desc">
+Plataforma de análisis estratégico e investigación periodística independiente. Cobertura continua de la intersección entre innovación tecnológica, dinámicas de mercado y política internacional.
+</p>
+</div>
+<div class="footer-col">
+<h4 class="col-heading">Secciones</h4>
+<ul class="col-links">
+<li><a href="/blog">Tecnología & IA</a></li>
+<li><a href="/blog">Economía & Mercados</a></li>
+<li><a href="/blog">Política Global</a></li>
+<li><a href="/rss.xml">Sindicación RSS</a></li>
+</ul>
+</div>
+<div class="footer-col">
+<h4 class="col-heading">Transparencia</h4>
+<ul class="col-links">
+<li><a href="/about">Línea Editorial & E-E-A-T</a></li>
+<li><a href="/about">Aviso de Privacidad</a></li>
+<li><a href="/about">Términos de Servicio</a></li>
+<li><a href="https://t.me/newsinternacionaltep" target="_blank" rel="noopener noreferrer">Canal en Telegram</a></li>
+</ul>
+</div>
+</div>
+<div class="footer-bottom">
+<p>&copy; {today.getFullYear()} News Internacional TEP. Todos los derechos reservados.</p>
+<p class="disclaimer">Contenido analítico generado con rigor periodístico bajo licencias de libre consulta informativa.</p>
+</div>
+</div>
 </footer>
 <style>
-	footer {
-		padding: 2.5em 1em 2em 1em;
-		background: linear-gradient(var(--gray-gradient)) no-repeat;
-		color: rgb(var(--gray));
-		text-align: center;
-		border-top: 1px solid rgba(var(--gray), 15%);
-		margin-top: 4rem;
-	}
-	footer p {
-		margin-bottom: 0.8rem;
-		font-size: 0.95rem;
-	}
-	nav a {
-		color: rgb(var(--gray));
-		text-decoration: none;
-		margin: 0 0.5rem;
-		font-size: 0.9rem;
-	}
-	nav a:hover {
-		color: rgb(var(--accent));
-	}
+footer {
+background: #0f172a;
+color: #94a3b8;
+padding: 3.5rem 1.5rem 2rem;
+margin-top: 4rem;
+border-top: 1px solid #1e293b;
+}
+.footer-wrap {
+max-width: 1100px;
+margin: 0 auto;
+}
+.footer-grid {
+display: grid;
+grid-template-columns: 2fr 1fr 1fr;
+gap: 3rem;
+margin-bottom: 2.5rem;
+}
+.footer-title {
+color: #ffffff;
+font-size: 1.25rem;
+font-weight: 800;
+margin: 0 0 0.8rem;
+}
+.accent {
+color: #38bdf8;
+}
+.footer-desc {
+font-size: 0.9rem;
+line-height: 1.6;
+color: #cbd5e1;
+margin: 0;
+}
+.col-heading {
+color: #ffffff;
+font-size: 0.95rem;
+font-weight: 700;
+text-transform: uppercase;
+letter-spacing: 0.05em;
+margin: 0 0 1rem;
+}
+.col-links {
+list-style: none;
+padding: 0;
+margin: 0;
+}
+.col-links li {
+margin-bottom: 0.5rem;
+}
+.col-links a {
+color: #94a3b8;
+text-decoration: none;
+font-size: 0.88rem;
+transition: color 0.15s ease;
+}
+.col-links a:hover {
+color: #38bdf8;
+}
+.footer-bottom {
+border-top: 1px solid #1e293b;
+padding-top: 1.8rem;
+display: flex;
+justify-content: space-between;
+align-items: center;
+font-size: 0.82rem;
+flex-wrap: wrap;
+gap: 0.8rem;
+}
+.footer-bottom p {
+margin: 0;
+}
+.disclaimer {
+color: #64748b;
+}
+@media (max-width: 768px) {
+.footer-grid {
+grid-template-columns: 1fr;
+gap: 2rem;
+}
+.footer-bottom {
+flex-direction: column;
+align-items: flex-start;
+}
+}
 </style>

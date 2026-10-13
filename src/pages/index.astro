@@ -1,41 +1,202 @@
----
+﻿---
+import { getCollection } from 'astro:content';
 import BaseHead from '../components/BaseHead.astro';
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
-import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
+
+const allPosts = await getCollection('blog');
+const posts = allPosts.sort(
+(a, b) => new Date(b.data.pubDate).valueOf() - new Date(a.data.pubDate).valueOf()
+);
+
+const mainPost = posts[0];
+const secondaryPosts = posts.slice(1, 7);
 ---
 
 <!doctype html>
 <html lang="es">
-	<head>
-		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
-	</head>
-	<body>
-		<Header />
-		<main>
-			<h1>News Internacional TEP</h1>
-			<p>
-				Cobertura analítica e imparcial en la intersección de <strong>Tecnología</strong>, <strong>Economía</strong> y <strong>Política Global</strong>. 
-			</p>
-			<p>
-				Nuestra misión es contrastar hechos, datos económicos e innovaciones tecnológicas para entender el impacto directo en la sociedad y los mercados globales, sin sesgos ideológicos ni sensacionalismo.
-			</p>
+<head>
+<BaseHead title="News Internacional TEP | Cobertura Global Independiente" description="Análisis riguroso en Tecnología, Economía y Política Global." />
+<style>
+.hero-news {
+background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+color: #ffffff;
+padding: 2.5rem;
+border-radius: 12px;
+margin-bottom: 2.5rem;
+border: 1px solid #334155;
+}
+.hero-badge {
+display: inline-block;
+background-color: #2563eb;
+color: #ffffff;
+font-size: 0.75rem;
+font-weight: 700;
+padding: 0.25rem 0.75rem;
+border-radius: 4px;
+text-transform: uppercase;
+letter-spacing: 0.05em;
+margin-bottom: 1rem;
+}
+.hero-title {
+font-size: 2.2rem;
+line-height: 1.25;
+margin-bottom: 1rem;
+font-weight: 800;
+}
+.hero-title a {
+color: #ffffff;
+text-decoration: none;
+}
+.hero-title a:hover {
+color: #60a5fa;
+}
+.hero-desc {
+font-size: 1.1rem;
+color: #cbd5e1;
+line-height: 1.6;
+margin-bottom: 1.5rem;
+}
+.hero-meta {
+font-size: 0.85rem;
+color: #94a3b8;
+}
+.grid-header {
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin-bottom: 1.5rem;
+border-bottom: 2px solid #e2e8f0;
+padding-bottom: 0.5rem;
+}
+.grid-title {
+font-size: 1.5rem;
+font-weight: 700;
+color: #0f172a;
+margin: 0;
+}
+.news-grid {
+display: grid;
+grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+gap: 1.5rem;
+margin-bottom: 3rem;
+}
+.news-card {
+background: #ffffff;
+border: 1px solid #e2e8f0;
+border-radius: 8px;
+padding: 1.25rem;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.news-card:hover {
+transform: translateY(-2px);
+box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.05);
+}
+.card-category {
+font-size: 0.7rem;
+font-weight: 700;
+color: #2563eb;
+text-transform: uppercase;
+margin-bottom: 0.5rem;
+}
+.card-title {
+font-size: 1.15rem;
+font-weight: 700;
+line-height: 1.4;
+margin-bottom: 0.75rem;
+}
+.card-title a {
+color: #1e293b;
+text-decoration: none;
+}
+.card-title a:hover {
+color: #2563eb;
+}
+.card-desc {
+font-size: 0.9rem;
+color: #64748b;
+line-height: 1.5;
+margin-bottom: 1rem;
+}
+.card-date {
+font-size: 0.8rem;
+color: #94a3b8;
+}
+.telegram-banner {
+background: #f0fdf4;
+border: 1px solid #bbf7d0;
+border-radius: 8px;
+padding: 1.5rem;
+text-align: center;
+margin-bottom: 3rem;
+}
+.telegram-btn {
+display: inline-block;
+background-color: #229ed9;
+color: #ffffff;
+font-weight: 600;
+padding: 0.6rem 1.25rem;
+border-radius: 6px;
+text-decoration: none;
+margin-top: 0.75rem;
+}
+.telegram-btn:hover {
+background-color: #1d88bb;
+}
+</style>
+</head>
+<body>
+<Header />
+<main style="max-width: 1050px; margin: 0 auto; padding: 2rem 1rem;">
+{mainPost && (
+<section class="hero-news">
+<span class="hero-badge">{mainPost.data.category || 'Destacado'}</span>
+<h1 class="hero-title">
+<a href={`/blog/${mainPost.slug ?? mainPost.id}/`}>{mainPost.data.title}</a>
+</h1>
+<p class="hero-desc">{mainPost.data.description}</p>
+<div class="hero-meta">
+Publicado el {mainPost.data.pubDate.toLocaleDateString('es-MX', { year: 'numeric', month: 'long', day: 'numeric' })} • Análisis TEP
+</div>
+</section>
+)}
 
-			<section style="margin-top: 2rem;">
-				<h2>Ejes de Cobertura</h2>
-				<ul>
-					<li><strong>Tecnología:</strong> Inteligencia artificial, semiconductores, soberanía digital y ciberseguridad.</li>
-					<li><strong>Economía:</strong> Mercados financieros, políticas monetarias de bancos centrales e inflación global.</li>
-					<li><strong>Política:</strong> Geopolítica internacional, marcos regulatorios y tratados comerciales.</li>
-				</ul>
-			</section>
+<div class="telegram-banner">
+<h3 style="margin: 0; font-size: 1.2rem; color: #166534;">📡 Canal Oficial de Alertas TEP en Vivo</h3>
+<p style="margin: 0.5rem 0 0; color: #15803d; font-size: 0.95rem;">
+Recibe cobertura geopolítica, económica y tecnológica directa a tu móvil sin algoritmos ni censura.
+</p>
+<a href="https://t.me/newsinternacionaltep" target="_blank" rel="noopener noreferrer" class="telegram-btn">
+Unirse al Canal de Telegram
+</a>
+</div>
 
-			<section style="margin-top: 2rem;">
-				<p>
-					Explora nuestros análisis más recientes en la sección <a href="/blog">Blog</a>.
-				</p>
-			</section>
-		</main>
-		<Footer />
-	</body>
+<section>
+<div class="grid-header">
+<h2 class="grid-title">Últimos Análisis Globales</h2>
+<a href="/blog/" style="color: #2563eb; text-decoration: none; font-weight: 600; font-size: 0.9rem;">Ver archivo completo →</a>
+</div>
+<div class="news-grid">
+{secondaryPosts.map((post) => (
+<article class="news-card">
+<div>
+<div class="card-category">{post.data.category || 'Actualidad'}</div>
+<h3 class="card-title">
+<a href={`/blog/${post.slug ?? post.id}/`}>{post.data.title}</a>
+</h3>
+<p class="card-desc">{post.data.description}</p>
+</div>
+<div class="card-date">
+{post.data.pubDate.toLocaleDateString('es-MX', { year: 'numeric', month: 'short', day: 'numeric' })}
+</div>
+</article>
+))}
+</div>
+</section>
+</main>
+<Footer />
+</body>
 </html>
