@@ -1,0 +1,44 @@
+﻿name: Monitoreo y Publicacion Periodica TEP
+
+on:
+  schedule:
+    # Se ejecuta de forma 100% autónoma cada 4 horas
+    - cron: '0 */4 * * *'
+  workflow_dispatch: # Permite ejecución manual bajo demanda desde GitHub
+
+permissions:
+  contents: write
+
+jobs:
+  curate-and-publish:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Descargar repositorio
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Configurar entorno Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Instalar dependencias
+        run: |
+          pip install google-genai feedparser python-slugify
+
+      - name: Ejecutar Motor Editorial Multi-Dominio
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHANNEL_ID: ${{ secrets.TELEGRAM_CHANNEL_ID }}
+        run: |
+          python curator_engine.py
+
+      - name: Publicar nuevos informes en el repositorio
+        run: |
+          git config user.name "Redaccion TEP Bot"
+          git config user.email "bot@newsinternacionaltep.com"
+          git pull --rebase origin main
+          git add src/content/blog/ history.json
+          git diff --quiet && git diff --staged --quiet || (git commit -m "chore(auto): publicacion periodica de informes de investigacion [skip ci]" && git push origin main)

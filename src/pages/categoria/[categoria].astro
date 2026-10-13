@@ -8,155 +8,383 @@ export async function getStaticPaths() {
 const allPosts = await getCollection('blog');
 
 const categories = [
-{ slug: 'geopolitica', label: 'Geopolítica & Política Global', match: ['política', 'politica', 'geopolítica', 'geopolitica'] },
-{ slug: 'economia', label: 'Economía, Mercados & Finanzas', match: ['economía', 'economia', 'mercados', 'finanzas'] },
-{ slug: 'tecnologia', label: 'Tecnología & Inteligencia Artificial', match: ['tecnología', 'tecnologia', 'ia', 'inteligencia artificial'] },
+{
+slug: 'tecnologia',
+label: 'Tecnología & Inteligencia Artificial',
+kicker: 'ÁREA DE INNOVACIÓN & MODELOS DE FRONTERA',
+desc: 'Investigación técnica sobre semiconductores, computación cuántica, infraestructura de centros de datos y desarrollo de IA.',
+accentColor: '#2563eb',
+bgSoft: '#eff6ff',
+borderColor: '#93c5fd',
+tags: ['Semiconductores', 'Modelos de Frontera', 'Ciberdefensa', 'Computación Cuántica', 'Infraestructura Cloud'],
+iconType: 'tech',
+match: ['tecnología', 'tecnologia', 'ia', 'inteligencia', 'tech', 'software', 'hardware']
+},
+{
+slug: 'economia',
+label: 'Economía, Mercados & Finanzas',
+kicker: 'ANÁLISIS MACROECONÓMICO & FLUJOS DE CAPITAL',
+desc: 'Políticas monetarias de bancos centrales, volatilidad bursátil, deuda soberana, divisas y cadenas de suministro globales.',
+accentColor: '#059669',
+bgSoft: '#ecfdf5',
+borderColor: '#a7f3d0',
+tags: ['Bancos Centrales', 'Renta Variable & Bonos', 'Materias Primas', 'Deuda Soberana', 'Liquidez Global'],
+iconType: 'finance',
+match: ['economía', 'economia', 'mercados', 'finanzas', 'bancos', 'inflación', 'patrimonial']
+},
+{
+slug: 'geopolitica',
+label: 'Geopolítica & Orden Global',
+kicker: 'RADAR GEOESTRATÉGICO & POLÍTICA EXTERIOR',
+desc: 'Evaluación de equilibrios de poder internacional, conflictos asimétricos, diplomacia bilateral y tratados multilaterales.',
+accentColor: '#b91c1c',
+bgSoft: '#fef2f2',
+borderColor: '#fca5a5',
+tags: ['Seguridad Colectiva', 'Indo-Pacífico', 'Sanciones Económicas', 'Guerra Híbrida', 'Tratados Comerciales'],
+iconType: 'geopolitics',
+match: ['política', 'politica', 'geopolítica', 'geopolitica', 'seguridad', 'defensa', 'diplomacia']
+},
 ];
 
 return categories.map((cat) => {
 const filteredPosts = allPosts
 .filter((post) => {
-const postCategory = (post.data.category || '').toLowerCase();
-return cat.match.some((m) => postCategory.includes(m));
+const postCat = (post.data.category || '').toLowerCase();
+return cat.match.some((m) => postCat.includes(m));
 })
 .sort((a, b) => new Date(b.data.pubDate).valueOf() - new Date(a.data.pubDate).valueOf());
 
 return {
 params: { categoria: cat.slug },
-props: { categoryLabel: cat.label, posts: filteredPosts },
+props: { meta: cat, posts: filteredPosts },
 };
 });
 }
 
-const { categoryLabel, posts } = Astro.props;
+const { meta, posts } = Astro.props;
+const leadStory = posts[0];
+const otherStories = posts.slice(1);
 ---
 
 <!doctype html>
 <html lang="es">
 <head>
 <BaseHead
-title={categoryLabel + " | News Internacional TEP"}
-description={"Cobertura analítica, datos estructurales y análisis prospectivo sobre " + categoryLabel + "."}
+title={meta.label + " | News Internacional TEP"}
+description={meta.desc}
 />
-<style>
+<style define:vars={{ accent: meta.accentColor, bgSoft: meta.bgSoft, borderSoft: meta.borderColor }}>
 :global(body) {
-background-color: #fdfdfd;
-color: #121212;
+background-color: #fbfbfb;
+color: #111827;
 font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
 }
 main {
-max-width: 1200px;
+max-width: 1220px;
 margin: 0 auto;
-padding: 2rem 1rem 4rem;
+padding: 2rem 1rem 5rem;
 }
-.category-masthead {
-border-bottom: 2px solid #121212;
-padding-bottom: 1rem;
-margin-bottom: 2.5rem;
+
+/* Cabecera temática con ícono y paleta propia */
+.section-hero {
+background: var(--bgSoft);
+border: 1px solid var(--borderSoft);
+border-left: 6px solid var(--accent);
+border-radius: 6px;
+padding: 2.2rem 2.5rem;
+margin-bottom: 3rem;
+display: flex;
+justify-content: space-between;
+align-items: center;
+gap: 2rem;
+flex-wrap: wrap;
 }
-.category-kicker {
-font-size: 0.75rem;
-font-weight: 800;
-color: #b91c1c;
+.hero-content {
+max-width: 780px;
+}
+.hero-kicker {
+font-size: 0.78rem;
+font-weight: 900;
+color: var(--accent);
+letter-spacing: 0.12em;
 text-transform: uppercase;
-letter-spacing: 0.1em;
-margin-bottom: 0.4rem;
+margin-bottom: 0.6rem;
 display: block;
 }
-.category-title {
+.hero-title {
 font-family: "Georgia", "Times New Roman", serif;
-font-size: clamp(2rem, 4vw, 2.8rem);
+font-size: clamp(2.2rem, 4vw, 3rem);
 font-weight: 800;
-margin: 0 0 0.5rem;
+margin: 0 0 0.8rem;
+color: #0f172a;
+line-height: 1.15;
+}
+.hero-desc {
+font-family: "Georgia", serif;
+font-size: 1.15rem;
+color: #334155;
+line-height: 1.6;
+margin: 0 0 1.2rem;
+}
+.topic-tags {
+display: flex;
+flex-wrap: wrap;
+gap: 0.5rem;
+}
+.topic-pill {
+background: #ffffff;
+border: 1px solid var(--borderSoft);
+color: #334155;
+font-size: 0.75rem;
+font-weight: 700;
+padding: 0.3rem 0.75rem;
+border-radius: 20px;
+letter-spacing: 0.02em;
+}
+
+/* Ícono Temático SVG SVG dinámico */
+.hero-icon-box {
+width: 90px;
+height: 90px;
+border-radius: 12px;
+background: #ffffff;
+border: 2px solid var(--borderSoft);
+display: flex;
+align-items: center;
+justify-content: center;
+color: var(--accent);
+box-shadow: 0 6px 16px rgba(0, 0, 0, 0.04);
+flex-shrink: 0;
+}
+
+/* Noticia Líder Destacada */
+.featured-lead {
+display: grid;
+grid-template-columns: 1.3fr 1fr;
+gap: 2.5rem;
+border-bottom: 2px solid #111827;
+padding-bottom: 3rem;
+margin-bottom: 3rem;
+align-items: center;
+}
+.lead-img-box {
+width: 100%;
+border-radius: 4px;
+overflow: hidden;
+max-height: 420px;
+}
+.lead-img {
+width: 100%;
+height: 100%;
+max-height: 420px;
+object-fit: cover;
+display: block;
+}
+.lead-tag {
+font-size: 0.72rem;
+font-weight: 900;
+color: var(--accent);
+text-transform: uppercase;
+letter-spacing: 0.08em;
+margin-bottom: 0.5rem;
+display: block;
+}
+.lead-title {
+font-family: "Georgia", serif;
+font-size: clamp(1.8rem, 2.8vw, 2.4rem);
+line-height: 1.2;
+font-weight: 800;
+margin: 0 0 1rem;
 color: #0f172a;
 }
-.category-desc {
-font-family: "Georgia", serif;
-font-size: 1.1rem;
-color: #64748b;
-margin: 0;
+.lead-title a {
+color: inherit;
+text-decoration: none;
 }
-.category-grid {
+.lead-title a:hover {
+color: var(--accent);
+}
+.lead-desc {
+font-family: "Georgia", serif;
+font-size: 1.15rem;
+color: #475569;
+line-height: 1.6;
+margin-bottom: 1.2rem;
+}
+.lead-meta {
+font-size: 0.8rem;
+color: #94a3b8;
+font-weight: 600;
+}
+
+/* Cuadrícula Secundaria con Imágenes */
+.section-subhead {
+font-family: "Georgia", serif;
+font-size: 1.5rem;
+font-weight: 800;
+border-bottom: 2px solid #111827;
+padding-bottom: 0.5rem;
+margin-bottom: 2rem;
+color: #0f172a;
+}
+.stories-grid {
 display: grid;
 grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
 gap: 2.5rem 2rem;
 }
-.article-card {
-border-top: 1px solid #121212;
-padding-top: 1rem;
+.story-card {
+border-top: 1px solid #e5e7eb;
+padding-top: 1.2rem;
 display: flex;
 flex-direction: column;
 justify-content: space-between;
 }
-.article-cat {
-font-size: 0.7rem;
-font-weight: 800;
-color: #1e3a8a;
-text-transform: uppercase;
-letter-spacing: 0.05em;
-margin-bottom: 0.5rem;
+.story-img {
+width: 100%;
+height: 190px;
+object-fit: cover;
+border-radius: 4px;
+margin-bottom: 0.9rem;
+display: block;
 }
-.article-title {
+.story-title {
 font-family: "Georgia", serif;
-font-size: 1.35rem;
-line-height: 1.3;
+font-size: 1.25rem;
+line-height: 1.35;
 font-weight: 700;
-margin: 0 0 0.75rem;
+margin: 0 0 0.6rem;
 }
-.article-title a {
+.story-title a {
 color: #111827;
 text-decoration: none;
 }
-.article-title a:hover {
-color: #1e3a8a;
+.story-title a:hover {
+color: var(--accent);
 }
-.article-desc {
-font-size: 0.95rem;
+.story-desc {
+font-size: 0.92rem;
 color: #475569;
 line-height: 1.55;
-margin: 0 0 1rem;
+margin-bottom: 1rem;
 }
-.article-date {
+.story-date {
 font-size: 0.78rem;
 color: #94a3b8;
 }
+
 .empty-state {
-padding: 3rem 0;
+padding: 4rem 1rem;
+text-align: center;
 font-family: "Georgia", serif;
-font-size: 1.15rem;
 color: #64748b;
+}
+
+@media (max-width: 860px) {
+.featured-lead {
+grid-template-columns: 1fr;
+gap: 1.8rem;
+}
+.section-hero {
+padding: 1.5rem;
+}
 }
 </style>
 </head>
 <body>
 <Header />
 <main>
-<div class="category-masthead">
-<span class="category-kicker">Sección Oficial</span>
-<h1 class="category-title">{categoryLabel}</h1>
-<p class="category-desc">Informes rigurosos, métricas y prospección estratégica internacional.</p>
+<!-- Hero de Sección Personalizado con Icono -->
+<div class="section-hero">
+<div class="hero-content">
+<span class="hero-kicker">{meta.kicker}</span>
+<h1 class="hero-title">{meta.label}</h1>
+<p class="hero-desc">{meta.desc}</p>
+<div class="topic-tags">
+{meta.tags.map((t) => (
+<span class="topic-pill">#{t}</span>
+))}
+</div>
 </div>
 
-{posts && posts.length > 0 ? (
-<div class="category-grid">
-{posts.map((post) => (
-<article class="article-card">
-<div>
-<span class="article-cat">{post.data.category}</span>
-<h2 class="article-title">
-<a href={"/blog/" + (post.slug ?? post.id) + "/"}>{post.data.title}</a>
-</h2>
-<p class="article-desc">{post.data.description}</p>
+<div class="hero-icon-box">
+{meta.iconType === 'tech' && (
+<svg width="44" height="44" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+<rect x="4" y="4" width="16" height="16" rx="2"/>
+<rect x="9" y="9" width="6" height="6"/>
+<line x1="9" y1="1" x2="9" y2="4"/><line x1="15" y1="1" x2="15" y2="4"/>
+<line x1="9" y1="20" x2="9" y2="23"/><line x1="15" y1="20" x2="15" y2="23"/>
+<line x1="20" y1="9" x2="23" y2="9"/><line x1="20" y1="15" x2="23" y2="15"/>
+<line x1="1" y1="9" x2="4" y2="9"/><line x1="1" y1="15" x2="4" y2="15"/>
+</svg>
+)}
+{meta.iconType === 'finance' && (
+<svg width="44" height="44" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+<line x1="12" y1="1" x2="12" y2="23"/>
+<path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/>
+<polyline points="3 17 9 11 13 15 21 7"/>
+<polyline points="14 7 21 7 21 14"/>
+</svg>
+)}
+{meta.iconType === 'geopolitics' && (
+<svg width="44" height="44" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+<circle cx="12" cy="12" r="10"/>
+<line x1="2" y1="12" x2="22" y2="12"/>
+<path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>
+</svg>
+)}
 </div>
-<div class="article-date">
-{post.data.pubDate.toLocaleDateString('es-MX', { year: 'numeric', month: 'long', day: 'numeric' })} • TEP
+</div>
+
+<!-- Noticia Líder de la Sección -->
+{leadStory && (
+<section class="featured-lead">
+<div class="lead-img-box">
+{leadStory.data.heroImage && (
+<img src={leadStory.data.heroImage} alt={leadStory.data.title} class="lead-img" />
+)}
+</div>
+<div>
+<span class="lead-tag">Informe Destacado</span>
+<h2 class="lead-title">
+<a href={"/blog/" + (leadStory.slug ?? leadStory.id) + "/"}>{leadStory.data.title}</a>
+</h2>
+<p class="lead-desc">{leadStory.data.description}</p>
+<div class="lead-meta">
+{leadStory.data.pubDate.toLocaleDateString('es-MX', { year: 'numeric', month: 'long', day: 'numeric' })} • Redacción TEP
+</div>
+</div>
+</section>
+)}
+
+<!-- Cuadrícula Secundaria de Informes -->
+{otherStories.length > 0 && (
+<section>
+<h3 class="section-subhead">Informes y Prospecciones de la Sección</h3>
+<div class="stories-grid">
+{otherStories.map((post) => (
+<article class="story-card">
+<div>
+{post.data.heroImage && (
+<img src={post.data.heroImage} alt={post.data.title} class="story-img" loading="lazy" />
+)}
+<h4 class="story-title">
+<a href={"/blog/" + (post.slug ?? post.id) + "/"}>{post.data.title}</a>
+</h4>
+<p class="story-desc">{post.data.description}</p>
+</div>
+<div class="story-date">
+{post.data.pubDate.toLocaleDateString('es-MX', { month: 'short', day: 'numeric', year: 'numeric' })} • TEP
 </div>
 </article>
 ))}
 </div>
-) : (
+</section>
+)}
+
+{posts.length === 0 && (
 <div class="empty-state">
-<p>No hay artículos registrados actualmente en esta sección.</p>
+<h3>Edición en curso para esta sección</h3>
+<p>Los sistemas de monitoreo están recopilando informes en tiempo real. Se integrarán en el siguiente ciclo.</p>
 </div>
 )}
 </main>
