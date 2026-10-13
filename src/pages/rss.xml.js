@@ -10,7 +10,7 @@ const sortedPosts = posts.sort(
 return rss({
 title: 'News Internacional TEP',
 description: 'Análisis independiente en Tecnología, Economía y Política Global.',
-site: context.site || 'https://newsinternacionaltep.com',
+site: 'https://newsinternacionaltep.com',
 items: sortedPosts.map((post) => ({
 title: post.data.title,
 pubDate: post.data.pubDate,
