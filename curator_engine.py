@@ -16,7 +16,7 @@ OUTPUT_DIR = os.path.join("src", "content", "blog")
 HISTORY_FILE = "history.json"
 
 TELEGRAM_BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN", "8637388923:AAHl2omIwOIV5dd6uOd_Ho3stAsSMXTNMTY")
-TELEGRAM_CHANNEL_ID = os.getenv("TELEGRAM_CHANNEL_ID", "@newsinternacionaltep")
+TELEGRAM_CHANNEL_ID = os.getenv("TELEGRAM_CHANNEL_ID", "-1004371603591")
 SITE_BASE_URL = "https://newsinternacionaltep.com"
 
 os.makedirs(OUTPUT_DIR, exist_ok=True)
