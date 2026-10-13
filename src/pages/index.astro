@@ -28,31 +28,32 @@ const postsTecnologia = sortedPosts.filter((p) => matchesCat(p, ['tecnología', 
 <BaseHead title="News Internacional TEP | Cobertura Periodística Independiente" description="Diario analítico global de alta precisión en Tecnología, Mercados Financieros y Geopolítica." />
 <style>
 :global(body) {
-background-color: #fdfdfd;
-color: #121212;
+background-color: #fbfbfb;
+color: #111827;
 font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
 }
 main {
-max-width: 1200px;
+max-width: 1220px;
 margin: 0 auto;
-padding: 1rem 1rem 4rem;
+padding: 1.2rem 1rem 5rem;
 }
+/* Franja Última Hora */
 .breaking-banner {
-background: #b91c1c;
+background: #991b1b;
 color: #ffffff;
 display: flex;
 align-items: center;
-padding: 0.6rem 1rem;
-font-size: 0.88rem;
+padding: 0.55rem 1rem;
+font-size: 0.85rem;
 margin-bottom: 2rem;
-border-radius: 2px;
+border-radius: 3px;
 gap: 1rem;
 }
 .breaking-tag {
 background: #ffffff;
-color: #b91c1c;
+color: #991b1b;
 font-weight: 900;
-padding: 0.2rem 0.5rem;
+padding: 0.2rem 0.55rem;
 font-size: 0.72rem;
 text-transform: uppercase;
 letter-spacing: 0.08em;
@@ -69,16 +70,21 @@ color: #ffffff;
 text-decoration: none;
 font-weight: 600;
 }
+.breaking-text a:hover {
+text-decoration: underline;
+}
+
+/* Gran Formato Broadsheet Lead */
 .broadsheet-layout {
 display: grid;
-grid-template-columns: 2.2fr 1fr;
+grid-template-columns: 2.3fr 1fr;
 gap: 2.5rem;
-padding-bottom: 2.5rem;
-border-bottom: 2px solid #121212;
-margin-bottom: 2.5rem;
+padding-bottom: 3rem;
+border-bottom: 2px solid #111827;
+margin-bottom: 3rem;
 }
 .lead-col {
-border-right: 1px solid #e2e8f0;
+border-right: 1px solid #e5e7eb;
 padding-right: 2.5rem;
 }
 .lead-category {
@@ -87,15 +93,15 @@ font-weight: 900;
 color: #1e3a8a;
 text-transform: uppercase;
 letter-spacing: 0.08em;
-margin-bottom: 0.5rem;
+margin-bottom: 0.6rem;
 display: block;
 }
 .lead-title {
 font-family: "Georgia", "Times New Roman", serif;
-font-size: clamp(2rem, 3.2vw, 2.85rem);
+font-size: clamp(2.1rem, 3.4vw, 3rem);
 line-height: 1.15;
 font-weight: 700;
-margin: 0 0 1rem;
+margin: 0 0 1.2rem;
 color: #0f172a;
 }
 .lead-title a {
@@ -105,20 +111,33 @@ text-decoration: none;
 .lead-title a:hover {
 color: #1e3a8a;
 }
+.lead-media {
+margin-bottom: 1.2rem;
+border-radius: 4px;
+overflow: hidden;
+}
+.lead-media img {
+width: 100%;
+max-height: 420px;
+object-fit: cover;
+display: block;
+}
 .lead-summary {
 font-family: "Georgia", serif;
-font-size: 1.25rem;
+font-size: 1.22rem;
 line-height: 1.6;
 color: #334155;
-margin: 0 0 1.2rem;
+margin: 0 0 1rem;
 }
 .lead-byline {
-font-size: 0.82rem;
+font-size: 0.8rem;
 color: #64748b;
 font-weight: 600;
 text-transform: uppercase;
 letter-spacing: 0.05em;
 }
+
+/* Radar Lateral */
 .side-col {
 display: flex;
 flex-direction: column;
@@ -128,19 +147,27 @@ gap: 1.5rem;
 font-size: 0.85rem;
 font-weight: 900;
 text-transform: uppercase;
-letter-spacing: 0.06em;
-border-bottom: 2px solid #121212;
+letter-spacing: 0.08em;
+border-bottom: 2px solid #111827;
 padding-bottom: 0.4rem;
 margin: 0 0 0.5rem;
 color: #0f172a;
 }
 .side-item {
-border-bottom: 1px solid #e2e8f0;
+border-bottom: 1px solid #e5e7eb;
 padding-bottom: 1.2rem;
 }
 .side-item:last-child {
 border-bottom: none;
 padding-bottom: 0;
+}
+.side-img {
+width: 100%;
+height: 140px;
+object-fit: cover;
+border-radius: 3px;
+margin-bottom: 0.6rem;
+display: block;
 }
 .side-category {
 font-size: 0.68rem;
@@ -151,28 +178,30 @@ margin-bottom: 0.3rem;
 }
 .side-title {
 font-family: "Georgia", serif;
-font-size: 1.2rem;
-line-height: 1.3;
+font-size: 1.15rem;
+line-height: 1.35;
 font-weight: 700;
-margin: 0 0 0.5rem;
+margin: 0 0 0.4rem;
 }
 .side-title a {
-color: #121212;
+color: #111827;
 text-decoration: none;
 }
 .side-title a:hover {
 color: #1e3a8a;
 }
 .side-desc {
-font-size: 0.88rem;
+font-size: 0.86rem;
 color: #64748b;
 line-height: 1.45;
-margin: 0 0 0.5rem;
+margin: 0 0 0.4rem;
 }
 .side-date {
 font-size: 0.75rem;
 color: #94a3b8;
 }
+
+/* Banner Alertas */
 .institutional-alert {
 background: #f8fafc;
 border-left: 4px solid #0284c7;
@@ -209,21 +238,21 @@ border-radius: 4px;
 text-transform: uppercase;
 }
 
-/* Estilo para los bloques seccionados */
+/* Bloques Temáticos */
 .category-block {
-margin-bottom: 3.5rem;
+margin-bottom: 4rem;
 }
 .category-block-header {
 display: flex;
 justify-content: space-between;
 align-items: baseline;
-border-bottom: 2px solid #121212;
+border-bottom: 2px solid #111827;
 padding-bottom: 0.5rem;
-margin-bottom: 1.5rem;
+margin-bottom: 1.8rem;
 }
 .block-title {
 font-family: "Georgia", serif;
-font-size: 1.5rem;
+font-size: 1.6rem;
 font-weight: 800;
 color: #0f172a;
 margin: 0;
@@ -241,19 +270,26 @@ text-decoration: underline;
 }
 .block-grid {
 display: grid;
-grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
-gap: 2rem 2.5rem;
+grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+gap: 2.2rem;
 }
 .block-card {
-border-top: 1px solid #e2e8f0;
-padding-top: 1rem;
+border-top: 1px solid #e5e7eb;
+padding-top: 1.2rem;
 display: flex;
 flex-direction: column;
 justify-content: space-between;
 }
+.block-card-img {
+width: 100%;
+height: 180px;
+object-fit: cover;
+border-radius: 3px;
+margin-bottom: 0.8rem;
+}
 .block-card-title {
 font-family: "Georgia", serif;
-font-size: 1.2rem;
+font-size: 1.22rem;
 line-height: 1.35;
 font-weight: 700;
 margin: 0 0 0.6rem;
@@ -266,14 +302,21 @@ text-decoration: none;
 color: #1e3a8a;
 }
 .block-card-desc {
-font-size: 0.9rem;
+font-size: 0.92rem;
 color: #475569;
-line-height: 1.5;
+line-height: 1.55;
 margin: 0 0 0.8rem;
 }
 .block-card-date {
 font-size: 0.78rem;
 color: #94a3b8;
+}
+
+.empty-state {
+padding: 3rem 0;
+text-align: center;
+font-family: "Georgia", serif;
+color: #64748b;
 }
 
 @media (max-width: 900px) {
@@ -284,7 +327,7 @@ gap: 2rem;
 .lead-col {
 border-right: none;
 padding-right: 0;
-border-bottom: 1px solid #e2e8f0;
+border-bottom: 1px solid #e5e7eb;
 padding-bottom: 2rem;
 }
 }
@@ -293,8 +336,8 @@ padding-bottom: 2rem;
 <body>
 <Header />
 <main>
-<!-- Breaking Ticker -->
-{leadStory && (
+{leadStory ? (
+<>
 <div class="breaking-banner">
 <span class="breaking-tag">ÚLTIMA HORA</span>
 <div class="breaking-text">
@@ -303,27 +346,31 @@ padding-bottom: 2rem;
 </a>
 </div>
 </div>
-)}
 
-<!-- Disposición Broadsheet Lead + Radar -->
 <div class="broadsheet-layout">
-{leadStory && (
 <section class="lead-col">
 <span class="lead-category">{leadStory.data.category || 'Análisis Especial'}</span>
 <h2 class="lead-title">
 <a href={`/blog/${leadStory.slug ?? leadStory.id}/`}>{leadStory.data.title}</a>
 </h2>
+{leadStory.data.heroImage && (
+<div class="lead-media">
+<img src={leadStory.data.heroImage} alt={leadStory.data.title} />
+</div>
+)}
 <p class="lead-summary">{leadStory.data.description}</p>
 <div class="lead-byline">
 Por Redacción News Internacional TEP • {leadStory.data.pubDate.toLocaleDateString('es-MX', { year: 'numeric', month: 'long', day: 'numeric' })}
 </div>
 </section>
-)}
 
 <aside class="side-col">
 <h3 class="section-kicker">RADAR ESTRATÉGICO</h3>
 {sideStories.map((post) => (
 <article class="side-item">
+{post.data.heroImage && (
+<img src={post.data.heroImage} alt={post.data.title} class="side-img" />
+)}
 <div class="side-category">{post.data.category || 'Global'}</div>
 <h4 class="side-title">
 <a href={`/blog/${post.slug ?? post.id}/`}>{post.data.title}</a>
@@ -337,18 +384,16 @@ Por Redacción News Internacional TEP • {leadStory.data.pubDate.toLocaleDateSt
 </aside>
 </div>
 
-<!-- Alerta Telegram -->
 <div class="institutional-alert">
 <div>
 <h4 class="alert-heading">Sindicación de Informes en Tiempo Real</h4>
-<p class="alert-sub">Monitoreo continuo de acontecimientos mundiales sin algoritmos mediadores.</p>
+<p class="alert-sub">Monitoreo continuo de acontecimientos geopolíticos y financieros sin algoritmos mediadores.</p>
 </div>
 <a href="https://t.me/newsinternacionaltep" target="_blank" rel="noopener noreferrer" class="alert-btn">
 Acceso al Canal Telegram
 </a>
 </div>
 
-<!-- BLOQUE 1: Geopolítica -->
 {postsGeopolitica.length > 0 && (
 <section class="category-block">
 <div class="category-block-header">
@@ -358,6 +403,9 @@ Acceso al Canal Telegram
 <div class="block-grid">
 {postsGeopolitica.map((post) => (
 <article class="block-card">
+{post.data.heroImage && (
+<img src={post.data.heroImage} alt={post.data.title} class="block-card-img" />
+)}
 <div>
 <h4 class="block-card-title">
 <a href={`/blog/${post.slug ?? post.id}/`}>{post.data.title}</a>
@@ -373,7 +421,6 @@ Acceso al Canal Telegram
 </section>
 )}
 
-<!-- BLOQUE 2: Economía & Mercados -->
 {postsEconomia.length > 0 && (
 <section class="category-block">
 <div class="category-block-header">
@@ -383,6 +430,9 @@ Acceso al Canal Telegram
 <div class="block-grid">
 {postsEconomia.map((post) => (
 <article class="block-card">
+{post.data.heroImage && (
+<img src={post.data.heroImage} alt={post.data.title} class="block-card-img" />
+)}
 <div>
 <h4 class="block-card-title">
 <a href={`/blog/${post.slug ?? post.id}/`}>{post.data.title}</a>
@@ -398,7 +448,6 @@ Acceso al Canal Telegram
 </section>
 )}
 
-<!-- BLOQUE 3: Tecnología & Inteligencia Artificial -->
 {postsTecnologia.length > 0 && (
 <section class="category-block">
 <div class="category-block-header">
@@ -408,6 +457,9 @@ Acceso al Canal Telegram
 <div class="block-grid">
 {postsTecnologia.map((post) => (
 <article class="block-card">
+{post.data.heroImage && (
+<img src={post.data.heroImage} alt={post.data.title} class="block-card-img" />
+)}
 <div>
 <h4 class="block-card-title">
 <a href={`/blog/${post.slug ?? post.id}/`}>{post.data.title}</a>
@@ -421,6 +473,13 @@ Acceso al Canal Telegram
 ))}
 </div>
 </section>
+)}
+</>
+) : (
+<div class="empty-state">
+<h2>Edición en Preparación</h2>
+<p>El motor editorial autónomo está compilando y contrastando los nuevos análisis de inteligencia global. La portada se actualizará en unos instantes.</p>
+</div>
 )}
 </main>
 <Footer />

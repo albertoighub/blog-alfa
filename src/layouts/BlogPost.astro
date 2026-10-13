@@ -15,18 +15,18 @@ const currentUrl = Astro.url.href;
 <BaseHead title={`${title} | News Internacional TEP`} description={description} image={heroImage} />
 <style>
 :global(body) {
-background: #fdfdfd;
-color: #121212;
+background: #fcfcfc;
+color: #111827;
 font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
 }
 main {
-max-width: 860px;
+max-width: 880px;
 margin: 0 auto;
 padding: 2.5rem 1.25rem 5rem;
 }
 .article-header {
 margin-bottom: 2rem;
-border-bottom: 1px solid #121212;
+border-bottom: 1px solid #111827;
 padding-bottom: 1.5rem;
 }
 .category-kicker {
@@ -34,21 +34,21 @@ font-size: 0.8rem;
 font-weight: 900;
 color: #b91c1c;
 text-transform: uppercase;
-letter-spacing: 0.08em;
+letter-spacing: 0.1em;
 margin-bottom: 0.8rem;
 display: block;
 }
 .article-title {
 font-family: "Georgia", "Times New Roman", serif;
-font-size: clamp(2.2rem, 4vw, 3.1rem);
+font-size: clamp(2.2rem, 4.2vw, 3.2rem);
 line-height: 1.15;
 font-weight: 700;
-color: #111827;
+color: #0f172a;
 margin: 0 0 1rem;
 }
 .article-subtitle {
 font-family: "Georgia", serif;
-font-size: 1.25rem;
+font-size: 1.28rem;
 line-height: 1.55;
 color: #475569;
 margin: 0 0 1.5rem;
@@ -59,7 +59,7 @@ justify-content: space-between;
 align-items: center;
 font-size: 0.82rem;
 color: #64748b;
-border-top: 1px solid #e2e8f0;
+border-top: 1px solid #e5e7eb;
 padding-top: 1rem;
 flex-wrap: wrap;
 gap: 1rem;
@@ -87,7 +87,7 @@ letter-spacing: 0.04em;
 .tw-pill { background: #0f172a; }
 
 .hero-media {
-margin: 1.5rem 0 2.5rem;
+margin: 1.8rem 0 2.5rem;
 }
 .hero-media img {
 width: 100%;
@@ -113,12 +113,12 @@ color: #1a1a1a;
 }
 .prose :global(h2) {
 font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-font-size: 1.55rem;
+font-size: 1.6rem;
 font-weight: 800;
 margin-top: 2.8rem;
 margin-bottom: 0.9rem;
 color: #0f172a;
-border-bottom: 1px solid #e2e8f0;
+border-bottom: 1px solid #e5e7eb;
 padding-bottom: 0.4rem;
 }
 .prose :global(p) {
@@ -133,12 +133,11 @@ margin-bottom: 0.6rem;
 }
 .prose :global(blockquote) {
 border-left: 4px solid #1e3a8a;
-margin: 2rem 0;
+margin: 2.2rem 0;
 padding: 1.2rem 1.6rem;
 background: #f8fafc;
 border-radius: 0 6px 6px 0;
 color: #1e293b;
-font-style: normal;
 }
 .prose :global(blockquote h3) {
 font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
@@ -162,7 +161,7 @@ margin-bottom: 0.4rem;
 
 .bottom-wire {
 margin-top: 4rem;
-padding: 2rem;
+padding: 2.2rem;
 background: #f8fafc;
 border: 1px solid #cbd5e1;
 border-top: 3px solid #1e3a8a;
@@ -170,21 +169,21 @@ text-align: center;
 }
 .bottom-wire h4 {
 margin: 0 0 0.5rem;
-font-size: 1.25rem;
+font-size: 1.28rem;
 color: #0f172a;
 }
 .bottom-wire p {
 color: #475569;
-font-size: 0.95rem;
+font-size: 0.96rem;
 margin: 0 0 1.2rem;
 }
 .bottom-wire a {
 background: #1e3a8a;
 color: #ffffff;
-padding: 0.65rem 1.4rem;
+padding: 0.7rem 1.5rem;
 text-decoration: none;
 font-weight: 700;
-font-size: 0.88rem;
+font-size: 0.9rem;
 border-radius: 4px;
 display: inline-block;
 }
