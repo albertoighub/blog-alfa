@@ -4,7 +4,7 @@ on:
   schedule:
     # Se ejecuta cada 4 horas (00:00, 04:00, 08:00, 12:00, 16:00, 20:00 UTC)
     - cron: '0 */4 * * *'
-  workflow_dispatch: # Permite ejecución manual con un clic desde GitHub
+  workflow_dispatch:
 
 permissions:
   contents: write
@@ -21,11 +21,11 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
-          cache: 'pip'
 
       - name: Instalar dependencias
         run: |
-          pip install feedparser python-slugify google-genai
+          pip install --upgrade pip
+          pip install -r requirements.txt
 
       - name: Ejecutar motor editorial y despacho a Telegram
         env:
@@ -39,6 +39,7 @@ jobs:
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git pull --rebase origin main
           git add src/content/blog/ history.json
           if git diff --staged --quiet; then
             echo "No hay articulos nuevos que publicar."

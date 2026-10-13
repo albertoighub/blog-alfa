@@ -1,0 +1,4 @@
+feedparser
+python-slugify
+google-genai
+requests
