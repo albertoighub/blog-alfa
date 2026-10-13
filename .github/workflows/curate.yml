@@ -4,19 +4,21 @@ on:
   schedule:
     # Ejecución programada dos veces al día: 06:00 UTC y 18:00 UTC
     - cron: '0 6,18 * * *'
-  # Permite ejecutarlo manualmente en cualquier momento desde un botón
+  # Permite ejecutarlo manualmente desde el botón Run workflow
   workflow_dispatch:
 
 jobs:
   curate-and-publish:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
 
     steps:
       - name: Descargar repositorio
         uses: actions/checkout@v4
 
       - name: Configurar Python
-        uses: setup-python@v5
+        uses: actions/setup-python@v5
         with:
           python-version: '3.12'
 
