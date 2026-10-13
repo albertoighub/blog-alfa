@@ -2,122 +2,109 @@
 const today = new Date();
 ---
 
-<footer>
+<footer class="tep-global-footer">
 <div class="footer-wrap">
-<div class="footer-grid">
-<div class="footer-col col-main">
-<h3 class="footer-title">NEWS INTERNACIONAL <span class="accent">TEP</span></h3>
-<p class="footer-desc">
-Plataforma de análisis estratégico e investigación periodística independiente. Cobertura continua de la intersección entre innovación tecnológica, dinámicas de mercado y política internacional.
+<div class="footer-brand">
+<h3 class="footer-title">NEWS INTERNACIONAL <span>TEP</span></h3>
+<p class="footer-mission">
+Plataforma periodística autónoma orientada a la investigación prospectiva, causalidad macroeconómica y análisis de soberanía tecnológica sin sesgos mediáticos.
 </p>
+<p class="footer-copy">&copy; {today.getFullYear()} News Internacional TEP. Todos los derechos reservados.</p>
 </div>
-<div class="footer-col">
-<h4 class="col-heading">Secciones</h4>
-<ul class="col-links">
-<li><a href="/blog">Tecnología & IA</a></li>
-<li><a href="/blog">Economía & Mercados</a></li>
-<li><a href="/blog">Política Global</a></li>
-<li><a href="/rss.xml">Sindicación RSS</a></li>
+
+<div class="footer-links-col">
+<h4 class="col-heading">SECCIONES</h4>
+<ul>
+<li><a href="/categoria/geopolitica">Geopolítica & Orden Global</a></li>
+<li><a href="/categoria/economia">Economía & Mercados</a></li>
+<li><a href="/categoria/tecnologia">Tecnología & IA</a></li>
+<li><a href="/">Portada / Inicio</a></li>
 </ul>
 </div>
-<div class="footer-col">
-<h4 class="col-heading">Transparencia</h4>
-<ul class="col-links">
+
+<div class="footer-links-col">
+<h4 class="col-heading">TRANSPARENCIA</h4>
+<ul>
 <li><a href="/about">Línea Editorial & E-E-A-T</a></li>
-<li><a href="/about">Aviso de Privacidad</a></li>
-<li><a href="/about">Términos de Servicio</a></li>
-<li><a href="https://t.me/newsinternacionaltep" target="_blank" rel="noopener noreferrer">Canal en Telegram</a></li>
+<li><a href="/privacidad">Aviso de Privacidad</a></li>
+<li><a href="/terminos">Términos de Servicio</a></li>
+<li><a href="https://t.me/newsinternacionaltep" target="_blank" rel="noopener noreferrer">Canal Oficial Telegram</a></li>
 </ul>
-</div>
-</div>
-<div class="footer-bottom">
-<p>&copy; {today.getFullYear()} News Internacional TEP. Todos los derechos reservados.</p>
-<p class="disclaimer">Contenido analítico generado con rigor periodístico bajo licencias de libre consulta informativa.</p>
 </div>
 </div>
 </footer>
+
 <style>
-footer {
-background: #0f172a;
+.tep-global-footer {
+background: #090d16;
 color: #94a3b8;
-padding: 3.5rem 1.5rem 2rem;
-margin-top: 4rem;
-border-top: 1px solid #1e293b;
+border-top: 3px solid #0f172a;
+padding: 4rem 1rem 3rem;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
 }
 .footer-wrap {
-max-width: 1100px;
+max-width: 1640px;
+width: 95%;
 margin: 0 auto;
-}
-.footer-grid {
 display: grid;
 grid-template-columns: 2fr 1fr 1fr;
-gap: 3rem;
-margin-bottom: 2.5rem;
+gap: 3.5rem;
 }
 .footer-title {
+font-size: 1.35rem;
+font-weight: 900;
 color: #ffffff;
-font-size: 1.25rem;
-font-weight: 800;
+letter-spacing: -0.02em;
 margin: 0 0 0.8rem;
 }
-.accent {
+.footer-title span {
 color: #38bdf8;
 }
-.footer-desc {
-font-size: 0.9rem;
+.footer-mission {
+font-size: 0.88rem;
 line-height: 1.6;
-color: #cbd5e1;
+max-width: 480px;
+margin: 0 0 1.2rem;
+color: #94a3b8;
+}
+.footer-copy {
+font-size: 0.78rem;
+color: #64748b;
 margin: 0;
 }
 .col-heading {
-color: #ffffff;
-font-size: 0.95rem;
-font-weight: 700;
+font-size: 0.74rem;
+font-weight: 900;
+color: #f8fafc;
+letter-spacing: 0.1em;
 text-transform: uppercase;
-letter-spacing: 0.05em;
 margin: 0 0 1rem;
+border-bottom: 1px solid #1e293b;
+padding-bottom: 0.4rem;
 }
-.col-links {
+.footer-links-col ul {
 list-style: none;
 padding: 0;
 margin: 0;
 }
-.col-links li {
-margin-bottom: 0.5rem;
+.footer-links-col li {
+margin-bottom: 0.6rem;
 }
-.col-links a {
-color: #94a3b8;
+.footer-links-col a {
+color: #cbd5e1;
 text-decoration: none;
-font-size: 0.88rem;
+font-size: 0.85rem;
+font-weight: 500;
 transition: color 0.15s ease;
 }
-.col-links a:hover {
+.footer-links-col a:hover {
 color: #38bdf8;
 }
-.footer-bottom {
-border-top: 1px solid #1e293b;
-padding-top: 1.8rem;
-display: flex;
-justify-content: space-between;
-align-items: center;
-font-size: 0.82rem;
-flex-wrap: wrap;
-gap: 0.8rem;
-}
-.footer-bottom p {
-margin: 0;
-}
-.disclaimer {
-color: #64748b;
-}
+
 @media (max-width: 768px) {
-.footer-grid {
+.footer-wrap {
 grid-template-columns: 1fr;
 gap: 2rem;
-}
-.footer-bottom {
-flex-direction: column;
-align-items: flex-start;
 }
 }
 </style>

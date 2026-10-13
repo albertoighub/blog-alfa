@@ -21,7 +21,7 @@ const marketData = [
 ---
 
 <header class="tep-global-header">
-<!-- 1. BANNER GLOBAL: Relojes Mundiales en Tiempo Real -->
+<!-- 1. Ticker de Relojes Mundiales -->
 <div class="ticker-time-wrapper">
 <div class="ticker-label-time">HORA GLOBAL</div>
 <div class="ticker-track-time">
@@ -32,7 +32,6 @@ const marketData = [
 <div class="time-item"><span class="time-city">Singapur:</span> <span class="time-val" id="time-sin">--:--:--</span></div>
 <div class="time-item"><span class="time-city">Dubái:</span> <span class="time-val" id="time-dxb">--:--:--</span></div>
 <div class="time-item"><span class="time-city">Cd. de México:</span> <span class="time-val" id="time-mex">--:--:--</span></div>
-<!-- Duplicado para rotación continua -->
 <div class="time-item"><span class="time-city">Nueva York:</span> <span class="time-val" id="time-ny-2">--:--:--</span></div>
 <div class="time-item"><span class="time-city">Londres:</span> <span class="time-val" id="time-lon-2">--:--:--</span></div>
 <div class="time-item"><span class="time-city">Fráncfort:</span> <span class="time-val" id="time-fra-2">--:--:--</span></div>
@@ -43,7 +42,7 @@ const marketData = [
 </div>
 </div>
 
-<!-- 2. BANNER GLOBAL: Monitor de Divisas y Mercados Financieros -->
+<!-- 2. Ticker de Mercados & Divisas -->
 <div class="ticker-market-wrapper">
 <div class="ticker-label-market">MERCADOS & DIVISAS</div>
 <div class="ticker-track-market">
@@ -57,7 +56,7 @@ const marketData = [
 </div>
 </div>
 
-<!-- 3. Barra de Utilidad Superior -->
+<!-- 3. Utilidad Superior Ancha -->
 <div class="top-utility-bar">
 <div class="utility-left">
 <span class="edition-badge">Edición Global</span>
@@ -71,7 +70,7 @@ const marketData = [
 </div>
 </div>
 
-<!-- 4. Masthead Periodístico -->
+<!-- 4. Masthead Panorámico -->
 <div class="masthead">
 <span class="sub-head">INVESTIGACIÓN & PROSPECTIVA ESTRATÉGICA INTERNACIONAL</span>
 <h1 class="main-title">
@@ -86,7 +85,7 @@ const marketData = [
 </div>
 </div>
 
-<!-- 5. Barra de Navegación Temática -->
+<!-- 5. Barra de Navegación Extendida -->
 <nav class="nav-sections">
 <div class="nav-wrap">
 <a href="/" class="nav-link active">Inicio</a>
@@ -104,6 +103,7 @@ background: #ffffff;
 border-bottom: 2px solid #0f172a;
 color: #0f172a;
 font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+width: 100%;
 }
 
 .ticker-time-wrapper {
@@ -121,7 +121,7 @@ height: 34px;
 .ticker-label-time {
 background: #1e293b;
 color: #f8fafc;
-padding: 0 1rem;
+padding: 0 1.4rem;
 height: 100%;
 display: flex;
 align-items: center;
@@ -133,8 +133,8 @@ box-shadow: 4px 0 10px rgba(0,0,0,0.4);
 }
 .ticker-track-time {
 display: inline-flex;
-gap: 2.5rem;
-padding-left: 1.5rem;
+gap: 2.8rem;
+padding-left: 2rem;
 animation: scrollMarquee 45s linear infinite;
 }
 .ticker-track-time:hover {
@@ -143,7 +143,7 @@ animation-play-state: paused;
 .time-item {
 display: inline-flex;
 align-items: center;
-gap: 0.45rem;
+gap: 0.5rem;
 }
 .time-city {
 color: #cbd5e1;
@@ -170,7 +170,7 @@ height: 36px;
 .ticker-label-market {
 background: #1e3a8a;
 color: #ffffff;
-padding: 0 1rem;
+padding: 0 1.4rem;
 height: 100%;
 display: flex;
 align-items: center;
@@ -182,8 +182,8 @@ box-shadow: 4px 0 10px rgba(0,0,0,0.4);
 }
 .ticker-track-market {
 display: inline-flex;
-gap: 2.2rem;
-padding-left: 1.5rem;
+gap: 2.4rem;
+padding-left: 2rem;
 animation: scrollMarquee 50s linear infinite;
 }
 .ticker-track-market:hover {
@@ -227,14 +227,16 @@ font-weight: 800;
 100% { transform: translateX(-50%); }
 }
 
+/* CONTENEDOR ANCHO EXPANDIDO */
 .top-utility-bar {
-max-width: 1240px;
+max-width: 1640px;
+width: 95%;
 margin: 0 auto;
 display: flex;
 justify-content: space-between;
 align-items: center;
-padding: 0.45rem 1rem;
-font-size: 0.76rem;
+padding: 0.5rem 0;
+font-size: 0.78rem;
 border-bottom: 1px solid #e2e8f0;
 color: #64748b;
 }
@@ -274,7 +276,7 @@ animation: pulse 1.6s infinite;
 
 .masthead {
 text-align: center;
-padding: 1.8rem 1rem 1.2rem;
+padding: 2.2rem 1rem 1.4rem;
 border-bottom: 1px solid #0f172a;
 }
 .brand-link {
@@ -282,7 +284,7 @@ text-decoration: none;
 color: inherit;
 }
 .sub-head {
-font-size: 0.72rem;
+font-size: 0.74rem;
 font-weight: 800;
 color: #64748b;
 letter-spacing: 0.14em;
@@ -290,7 +292,7 @@ display: block;
 margin-bottom: 0.4rem;
 }
 .main-title {
-font-size: clamp(2.2rem, 5.5vw, 3.5rem);
+font-size: clamp(2.4rem, 6vw, 4rem);
 font-weight: 900;
 letter-spacing: -0.04em;
 margin: 0;
@@ -305,11 +307,11 @@ color: #1e3a8a;
 display: flex;
 justify-content: center;
 align-items: center;
-gap: 0.9rem;
-margin-top: 0.8rem;
+gap: 1.2rem;
+margin-top: 0.9rem;
 }
 .tagline-link {
-font-size: 0.74rem;
+font-size: 0.78rem;
 font-weight: 800;
 letter-spacing: 0.12em;
 color: #475569;
@@ -328,19 +330,20 @@ font-size: 0.8rem;
 border-top: 1px solid #e2e8f0;
 }
 .nav-wrap {
-max-width: 1240px;
+max-width: 1640px;
+width: 95%;
 margin: 0 auto;
 display: flex;
 justify-content: center;
 align-items: center;
 flex-wrap: wrap;
-gap: 0 2rem;
-padding: 0.6rem 1rem;
+gap: 0 2.5rem;
+padding: 0.7rem 0;
 }
 .nav-link {
 color: #1e293b;
 text-decoration: none;
-font-size: 0.82rem;
+font-size: 0.84rem;
 font-weight: 700;
 text-transform: uppercase;
 letter-spacing: 0.05em;
@@ -355,7 +358,6 @@ border-bottom-color: #1e3a8a;
 
 @media (max-width: 768px) {
 .utility-left { display: flex; flex-direction: column; gap: 2px; }
-.tagline-nav { flex-wrap: wrap; gap: 0.4rem; font-size: 0.7rem; }
 .nav-wrap { justify-content: flex-start; overflow-x: auto; white-space: nowrap; gap: 0 1.2rem; }
 }
 </style>
