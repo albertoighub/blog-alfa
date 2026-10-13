@@ -8,7 +8,6 @@ day: 'numeric',
 ---
 
 <header class="nyt-header">
-<!-- 1. Barra superior de datos y canal en vivo -->
 <div class="top-utility-bar">
 <div class="utility-left">
 <span class="edition-badge">Edición Internacional</span>
@@ -22,7 +21,6 @@ day: 'numeric',
 </div>
 </div>
 
-<!-- 2. Masthead / Logotipo estilo prensa clásica -->
 <div class="masthead">
 <a href="/" class="masthead-brand">
 <span class="sub-head">El Diario Analítico Global</span>
@@ -31,16 +29,13 @@ day: 'numeric',
 </a>
 </div>
 
-<!-- 3. Navegación temática densa -->
 <nav class="nav-sections">
 <div class="nav-wrap">
-<a href="/" class="nav-link active">Portada</a>
-<a href="/blog" class="nav-link">Geopolítica</a>
-<a href="/blog" class="nav-link">Economía & Mercados</a>
-<a href="/blog" class="nav-link">Inteligencia Artificial & Tech</a>
-<a href="/blog" class="nav-link">Análisis Estratégico</a>
+<a href="/" class="nav-link">Portada</a>
+<a href="/categoria/geopolitica" class="nav-link">Geopolítica</a>
+<a href="/categoria/economia" class="nav-link">Economía & Mercados</a>
+<a href="/categoria/tecnologia" class="nav-link">Inteligencia Artificial & Tech</a>
 <a href="/about" class="nav-link">Línea Editorial (E-E-A-T)</a>
-<a href="/rss.xml" class="nav-link rss-tag">Sindicación RSS</a>
 </div>
 </nav>
 </header>
@@ -147,29 +142,26 @@ display: flex;
 justify-content: center;
 align-items: center;
 flex-wrap: wrap;
-gap: 0 1.6rem;
-padding: 0.55rem 1rem;
+gap: 0 2rem;
+padding: 0.6rem 1rem;
 }
 .nav-link {
 color: #1e293b;
 text-decoration: none;
-font-size: 0.82rem;
+font-size: 0.84rem;
 font-weight: 700;
 text-transform: uppercase;
-letter-spacing: 0.04em;
+letter-spacing: 0.05em;
 padding: 0.3rem 0;
 border-bottom: 2px solid transparent;
 transition: all 0.15s ease;
 }
-.nav-link:hover, .nav-link.active {
+.nav-link:hover {
 color: #1e3a8a;
 border-bottom-color: #1e3a8a;
 }
-.rss-tag {
-color: #ea580c;
-}
 @media (max-width: 768px) {
 .utility-left { display: flex; flex-direction: column; gap: 2px; }
-.nav-wrap { justify-content: flex-start; overflow-x: auto; white-space: nowrap; }
+.nav-wrap { justify-content: flex-start; overflow-x: auto; white-space: nowrap; gap: 0 1.2rem; }
 }
 </style>

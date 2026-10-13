@@ -1,0 +1,165 @@
+---
+import { getCollection } from 'astro:content';
+import BaseHead from '../../components/BaseHead.astro';
+import Header from '../../components/Header.astro';
+import Footer from '../../components/Footer.astro';
+
+export async function getStaticPaths() {
+	const allPosts = await getCollection('blog');
+
+	const categories = [
+		{ slug: 'geopolitica', label: 'Geopolítica & Política Global', match: ['política', 'politica', 'geopolítica', 'geopolitica'] },
+		{ slug: 'economia', label: 'Economía, Mercados & Finanzas', match: ['economía', 'economia', 'mercados', 'finanzas'] },
+		{ slug: 'tecnologia', label: 'Tecnología & Inteligencia Artificial', match: ['tecnología', 'tecnologia', 'ia', 'inteligencia artificial'] },
+	];
+
+	return categories.map((cat) => {
+		const filteredPosts = allPosts
+			.filter((post) => {
+				const postCategory = (post.data.category || '').toLowerCase();
+				return cat.match.some((m) => postCategory.includes(m));
+			})
+			.sort((a, b) => new Date(b.data.pubDate).valueOf() - new Date(a.data.pubDate).valueOf());
+
+		return {
+			params: { categoria: cat.slug },
+			props: { categoryLabel: cat.label, posts: filteredPosts },
+		};
+	});
+}
+
+const { categoryLabel, posts } = Astro.props;
+---
+
+<!doctype html>
+<html lang="es">
+	<head>
+		<BaseHead
+			title={\ | News Internacional TEP}
+			description={Cobertura analítica, datos estructurales y análisis prospectivo sobre \.}
+		/>
+		<style>
+			:global(body) {
+				background-color: #fdfdfd;
+				color: #121212;
+				font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+			}
+			main {
+				max-width: 1200px;
+				margin: 0 auto;
+				padding: 2rem 1rem 4rem;
+			}
+			.category-masthead {
+				border-bottom: 2px solid #121212;
+				padding-bottom: 1rem;
+				margin-bottom: 2.5rem;
+			}
+			.category-kicker {
+				font-size: 0.75rem;
+				font-weight: 800;
+				color: #b91c1c;
+				text-transform: uppercase;
+				letter-spacing: 0.1em;
+				margin-bottom: 0.4rem;
+				display: block;
+			}
+			.category-title {
+				font-family: "Georgia", "Times New Roman", serif;
+				font-size: clamp(2rem, 4vw, 2.8rem);
+				font-weight: 800;
+				margin: 0 0 0.5rem;
+				color: #0f172a;
+			}
+			.category-desc {
+				font-family: "Georgia", serif;
+				font-size: 1.1rem;
+				color: #64748b;
+				margin: 0;
+			}
+			.category-grid {
+				display: grid;
+				grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+				gap: 2.5rem 2rem;
+			}
+			.article-card {
+				border-top: 1px solid #121212;
+				padding-top: 1rem;
+				display: flex;
+				flex-direction: column;
+				justify-content: space-between;
+			}
+			.article-cat {
+				font-size: 0.7rem;
+				font-weight: 800;
+				color: #1e3a8a;
+				text-transform: uppercase;
+				letter-spacing: 0.05em;
+				margin-bottom: 0.5rem;
+			}
+			.article-title {
+				font-family: "Georgia", serif;
+				font-size: 1.35rem;
+				line-height: 1.3;
+				font-weight: 700;
+				margin: 0 0 0.75rem;
+			}
+			.article-title a {
+				color: #111827;
+				text-decoration: none;
+			}
+			.article-title a:hover {
+				color: #1e3a8a;
+			}
+			.article-desc {
+				font-size: 0.95rem;
+				color: #475569;
+				line-height: 1.55;
+				margin: 0 0 1rem;
+			}
+			.article-date {
+				font-size: 0.78rem;
+				color: #94a3b8;
+			}
+			.empty-state {
+				padding: 3rem 0;
+				font-family: "Georgia", serif;
+				font-size: 1.15rem;
+				color: #64748b;
+			}
+		</style>
+	</head>
+	<body>
+		<Header />
+		<main>
+			<div class="category-masthead">
+				<span class="category-kicker">Sección Oficial</span>
+				<h1 class="category-title">{categoryLabel}</h1>
+				<p class="category-desc">Informes rigurosos, métricas y prospección estratégica internacional.</p>
+			</div>
+
+			{posts.length > 0 ? (
+				<div class="category-grid">
+					{posts.map((post) => (
+						<article class="article-card">
+							<div>
+								<span class="article-cat">{post.data.category}</span>
+								<h2 class="article-title">
+									<a href={/blog/\/}>{post.data.title}</a>
+								</h2>
+								<p class="article-desc">{post.data.description}</p>
+							</div>
+							<div class="article-date">
+								{post.data.pubDate.toLocaleDateString('es-MX', { year: 'numeric', month: 'long', day: 'numeric' })} • TEP
+							</div>
+						</article>
+					))}
+				</div>
+			) : (
+				<div class="empty-state">
+					<p>No hay artículos registrados actualmente en esta sección.</p>
+				</div>
+			)}
+		</main>
+		<Footer />
+	</body>
+</html>
