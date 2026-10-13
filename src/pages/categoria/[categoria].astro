@@ -11,36 +11,42 @@ const categories = [
 {
 slug: 'tecnologia',
 label: 'Tecnología & Inteligencia Artificial',
-kicker: 'DIVISIÓN DE INTELIGENCIA TÉCNICA & MODELOS DE FRONTERA',
-desc: 'Monitoreo e investigación de frontera sobre semiconductores, computación cuántica, centros de datos y desarrollo algorítmico.',
+kicker: 'INTELIGENCIA TÉCNICA & MODELOS DE FRONTERA',
+desc: 'Monitoreo de semiconductores, computación cuántica, centros de datos y desarrollo algorítmico.',
 accentColor: '#2563eb',
-bgHero: 'linear-gradient(135deg, #090d16 0%, #1e293b 50%, #0c1938 100%)',
+accentSoft: 'rgba(37, 99, 235, 0.15)',
+bgHero: 'linear-gradient(135deg, #090d16 0%, #172554 100%)',
 borderHero: '#1d4ed8',
-tags: ['Semiconductores', 'Modelos de Frontera', 'Ciberdefensa', 'Computación Cuántica', 'Infraestructura Cloud'],
+statusText: 'Vigilancia Tecnológica Activa',
+tags: ['Semiconductores', 'Modelos de Frontera', 'Ciberdefensa', 'Computación Cuántica'],
 iconType: 'tech',
 match: ['tecnología', 'tecnologia', 'ia', 'inteligencia', 'tech', 'software', 'hardware']
 },
 {
 slug: 'economia',
 label: 'Economía, Mercados & Finanzas',
-kicker: 'DEPARTAMENTO DE ANÁLISIS MACROECONÓMICO & CAPITALES',
-desc: 'Rastreo sistemático de liquidez global, políticas de bancos centrales, tipos de interés, renta fija, materias primas y deuda soberana.',
+kicker: 'ANÁLISIS MACROECONÓMICO & CAPITALES',
+desc: 'Rastreo de liquidez global, políticas de bancos centrales, renta fija, materias primas y deuda.',
 accentColor: '#059669',
-bgHero: 'linear-gradient(135deg, #04140d 0%, #0f172a 50%, #062b1b 100%)',
+accentSoft: 'rgba(5, 150, 105, 0.15)',
+bgHero: 'linear-gradient(135deg, #04140d 0%, #064e3b 100%)',
 borderHero: '#059669',
-tags: ['Bancos Centrales', 'Renta Variable', 'Materias Primas', 'Deuda Soberana', 'Cadena de Suministro'],
+statusText: 'Monitor de Mercados en Vivo',
+tags: ['Bancos Centrales', 'Renta Variable', 'Materias Primas', 'Deuda Soberana'],
 iconType: 'finance',
 match: ['economía', 'economia', 'mercados', 'finanzas', 'bancos', 'inflación', 'patrimonial']
 },
 {
 slug: 'geopolitica',
 label: 'Geopolítica & Orden Global',
-kicker: 'MESA DE RADAR GEOESTRATÉGICO & POLÍTICA EXTERIOR',
-desc: 'Evaluación del equilibrio de poder internacional, conflictos asimétricos, seguridad euroatlántica, tratados y sanciones.',
-accentColor: '#b91c1c',
-bgHero: 'linear-gradient(135deg, #180909 0%, #0f172a 50%, #2b0b0b 100%)',
+kicker: 'RADAR GEOESTRATÉGICO & POLÍTICA EXTERIOR',
+desc: 'Evaluación del balance de poder, seguridad euroatlántica, tratados multilaterales y sanciones.',
+accentColor: '#dc2626',
+accentSoft: 'rgba(220, 38, 38, 0.15)',
+bgHero: 'linear-gradient(135deg, #180909 0%, #7f1d1d 100%)',
 borderHero: '#b91c1c',
-tags: ['Seguridad Colectiva', 'Indo-Pacífico', 'Guerra Híbrida', 'Sanciones Económicas', 'Diplomacia Estratégica'],
+statusText: 'Radar Geoestratégico Activo',
+tags: ['Seguridad Colectiva', 'Indo-Pacífico', 'Guerra Híbrida', 'Sanciones'],
 iconType: 'geopolitics',
 match: ['política', 'politica', 'geopolítica', 'geopolitica', 'seguridad', 'defensa', 'diplomacia']
 },
@@ -75,6 +81,7 @@ description={meta.desc}
 />
 <style define:vars={{
 accent: meta.accentColor,
+accentSoft: meta.accentSoft,
 bgHero: meta.bgHero,
 borderHero: meta.borderHero
 }}>
@@ -89,98 +96,120 @@ margin: 0 auto;
 padding: 2rem 1rem 6rem;
 }
 
-/* Banner Panorámico Cinemático */
-.panoramic-hero {
+/* BANNER COMPACTO Y HORIZONTAL (Sin huecos vacíos) */
+.compact-section-banner {
 background: var(--bgHero);
 color: #ffffff;
 border: 1px solid rgba(255, 255, 255, 0.12);
-border-top: 4px solid var(--accent);
-border-radius: 10px;
-padding: 3rem 2.8rem;
-margin-bottom: 3.5rem;
+border-left: 5px solid var(--accent);
+border-radius: 8px;
+padding: 1.8rem 2.2rem;
+margin-bottom: 3rem;
 display: flex;
 justify-content: space-between;
 align-items: center;
-gap: 2.5rem;
-box-shadow: 0 15px 35px -10px rgba(0, 0, 0, 0.25);
+gap: 2rem;
+box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.2);
 flex-wrap: wrap;
 }
-.hero-info {
+.banner-main {
 max-width: 820px;
 }
-.hero-kicker-badge {
-display: inline-flex;
+.banner-top-line {
+display: flex;
 align-items: center;
-gap: 8px;
-font-size: 0.74rem;
-font-weight: 800;
+gap: 1rem;
+margin-bottom: 0.5rem;
+flex-wrap: wrap;
+}
+.banner-kicker {
+font-size: 0.72rem;
+font-weight: 900;
 color: var(--accent);
 letter-spacing: 0.12em;
 text-transform: uppercase;
-background: rgba(255, 255, 255, 0.08);
-border: 1px solid rgba(255, 255, 255, 0.12);
-padding: 0.3rem 0.8rem;
-border-radius: 20px;
-margin-bottom: 1.2rem;
 }
-.live-dot {
+
+/* Botón con animación pulsante y su color respectivo */
+.section-pulse-btn {
+display: inline-flex;
+align-items: center;
+gap: 7px;
+background: rgba(255, 255, 255, 0.08);
+border: 1px solid rgba(255, 255, 255, 0.2);
+color: #ffffff;
+font-size: 0.72rem;
+font-weight: 800;
+padding: 0.25rem 0.75rem;
+border-radius: 20px;
+text-transform: uppercase;
+letter-spacing: 0.05em;
+box-shadow: 0 0 12px var(--accentSoft);
+}
+.custom-pulse-dot {
 width: 7px;
 height: 7px;
 border-radius: 50%;
 background: var(--accent);
 box-shadow: 0 0 8px var(--accent);
+animation: dynamicPulse 1.5s infinite ease-in-out;
 }
-.hero-title {
-font-size: clamp(2.3rem, 4.2vw, 3.4rem);
-font-weight: 900;
-letter-spacing: -0.03em;
-margin: 0 0 1rem;
-color: #ffffff;
-line-height: 1.1;
-}
-.hero-desc {
-font-size: 1.15rem;
-color: #cbd5e1;
-line-height: 1.6;
-margin: 0 0 1.6rem;
-}
-.tags-cluster {
-display: flex;
-flex-wrap: wrap;
-gap: 0.5rem;
-}
-.tag-pill {
-background: rgba(255, 255, 255, 0.08);
-border: 1px solid rgba(255, 255, 255, 0.15);
-color: #e2e8f0;
-font-size: 0.76rem;
-font-weight: 700;
-padding: 0.3rem 0.75rem;
-border-radius: 20px;
-transition: all 0.2s ease;
-}
-.tag-pill:hover {
-background: var(--accent);
-color: #ffffff;
-border-color: var(--accent);
+@keyframes dynamicPulse {
+0%, 100% { transform: scale(0.9); opacity: 0.8; }
+50% { transform: scale(1.3); opacity: 1; }
 }
 
-/* Ícono Temático Llamativo */
-.hero-icon-visual {
-width: 95px;
-height: 95px;
-border-radius: 16px;
+.banner-title {
+font-size: clamp(1.8rem, 3.2vw, 2.5rem);
+font-weight: 900;
+letter-spacing: -0.03em;
+margin: 0 0 0.5rem;
+color: #ffffff;
+line-height: 1.15;
+}
+.banner-desc {
+font-size: 1rem;
+color: #cbd5e1;
+line-height: 1.5;
+margin: 0 0 1rem;
+}
+.banner-tags {
+display: flex;
+flex-wrap: wrap;
+gap: 0.4rem;
+}
+.banner-tag-pill {
 background: rgba(255, 255, 255, 0.06);
-border: 1px solid rgba(255, 255, 255, 0.18);
+border: 1px solid rgba(255, 255, 255, 0.12);
+color: #e2e8f0;
+font-size: 0.72rem;
+font-weight: 700;
+padding: 0.25rem 0.65rem;
+border-radius: 16px;
+}
+
+/* Ícono Temático Compacto (Con símbolo $ para economía) */
+.banner-icon-container {
+width: 76px;
+height: 76px;
+border-radius: 12px;
+background: rgba(255, 255, 255, 0.06);
+border: 1px solid rgba(255, 255, 255, 0.15);
 display: flex;
 align-items: center;
 justify-content: center;
 color: var(--accent);
-box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
 flex-shrink: 0;
 }
+.currency-icon {
+font-size: 2.6rem;
+font-weight: 900;
+font-family: system-ui, sans-serif;
+color: #10b981;
+}
 
-/* Noticia Líder Destacada */
+/* Noticia Líder de la Sección */
 .lead-card-box {
 background: #ffffff;
 border: 1px solid #e2e8f0;
@@ -343,8 +372,8 @@ color: #64748b;
 grid-template-columns: 1fr;
 gap: 1.8rem;
 }
-.panoramic-hero {
-padding: 2rem 1.5rem;
+.compact-section-banner {
+padding: 1.5rem;
 }
 }
 </style>
@@ -352,43 +381,40 @@ padding: 2rem 1.5rem;
 <body>
 <Header />
 <main>
-<!-- Banner Panorámico Sin Cuadros Toscos -->
-<section class="panoramic-hero">
-<div class="hero-info">
-<div class="hero-kicker-badge">
-<span class="live-dot"></span>
-<span>{meta.kicker}</span>
+<!-- Banner Compacto y Proporcional -->
+<section class="compact-section-banner">
+<div class="banner-main">
+<div class="banner-top-line">
+<span class="banner-kicker">{meta.kicker}</span>
+<!-- Botón Pulsante Dinámico -->
+<div class="section-pulse-btn">
+<span class="custom-pulse-dot"></span>
+<span>{meta.statusText}</span>
 </div>
-<h1 class="hero-title">{meta.label}</h1>
-<p class="hero-desc">{meta.desc}</p>
-<div class="tags-cluster">
+</div>
+<h1 class="banner-title">{meta.label}</h1>
+<p class="banner-desc">{meta.desc}</p>
+<div class="banner-tags">
 {meta.tags.map((t) => (
-<span class="tag-pill">#{t}</span>
+<span class="banner-tag-pill">#{t}</span>
 ))}
 </div>
 </div>
 
-<div class="hero-icon-visual">
+<div class="banner-icon-container">
 {meta.iconType === 'tech' && (
-<svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+<svg width="42" height="42" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
 <rect x="4" y="4" width="16" height="16" rx="2"/>
 <rect x="9" y="9" width="6" height="6"/>
 <line x1="9" y1="1" x2="9" y2="4"/><line x1="15" y1="1" x2="15" y2="4"/>
 <line x1="9" y1="20" x2="9" y2="23"/><line x1="15" y1="20" x2="15" y2="23"/>
-<line x1="20" y1="9" x2="23" y2="9"/><line x1="20" y1="15" x2="23" y2="15"/>
-<line x1="1" y1="9" x2="4" y2="9"/><line x1="1" y1="15" x2="4" y2="15"/>
 </svg>
 )}
 {meta.iconType === 'finance' && (
-<svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
-<line x1="12" y1="1" x2="12" y2="23"/>
-<path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/>
-<polyline points="3 17 9 11 13 15 21 7"/>
-<polyline points="14 7 21 7 21 14"/>
-</svg>
+<div class="currency-icon">$</div>
 )}
 {meta.iconType === 'geopolitics' && (
-<svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+<svg width="42" height="42" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
 <circle cx="12" cy="12" r="10"/>
 <line x1="2" y1="12" x2="22" y2="12"/>
 <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>
