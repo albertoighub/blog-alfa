@@ -17,78 +17,304 @@ const c = (post.data.category || '').toLowerCase();
 return terms.some((t) => c.includes(t));
 };
 
-const postsGeopolitica = sortedPosts.filter((p) => matchesCat(p, ['política', 'politica', 'geopolítica', 'geopolitica'])).slice(0, 3);
-const postsEconomia = sortedPosts.filter((p) => matchesCat(p, ['economía', 'economia', 'mercados', 'finanzas'])).slice(0, 3);
-const postsTecnologia = sortedPosts.filter((p) => matchesCat(p, ['tecnología', 'tecnologia', 'ia', 'inteligencia'])).slice(0, 3);
+const postsGeopolitica = sortedPosts.filter((p) => matchesCat(p, ['política', 'politica', 'geopolítica', 'geopolitica']));
+const postsEconomia = sortedPosts.filter((p) => matchesCat(p, ['economía', 'economia', 'mercados', 'finanzas']));
+const postsTecnologia = sortedPosts.filter((p) => matchesCat(p, ['tecnología', 'tecnologia', 'ia', 'inteligencia']));
+
+// Datos del monitor financiero con indicadores de subida y bajada
+const marketData = [
+{ asset: 'USD / EUR', val: '0.9241', change: '+0.18%', up: true },
+{ asset: 'USD / MXN', val: '19.342', change: '-0.42%', up: false },
+{ asset: 'USD / JPY', val: '149.25', change: '+0.31%', up: true },
+{ asset: 'GBP / USD', val: '1.3060', change: '-0.15%', up: false },
+{ asset: 'ORO (XAU/USD)', val: '$2,654.80', change: '+0.64%', up: true },
+{ asset: 'BRENT CRUDO', val: '$77.40', change: '-1.15%', up: false },
+{ asset: 'BITCOIN', val: '$64,280', change: '+2.10%', up: true },
+{ asset: 'S&P 500', val: '5,815.20', change: '+0.45%', up: true },
+{ asset: 'NASDAQ 100', val: '20,240.10', change: '+0.72%', up: true },
+{ asset: 'BONO EE.UU. 10A', val: '4.08%', change: '-0.03%', up: false },
+];
 ---
 
 <!doctype html>
 <html lang="es">
 <head>
-<BaseHead title="News Internacional TEP | Cobertura Periodística Independiente" description="Diario analítico global de alta precisión en Tecnología, Mercados Financieros y Geopolítica." />
+<BaseHead title="News Internacional TEP | Cobertura Periodística & Mercados Globales" description="Diario analítico global de alta precisión en Tecnología, Mercados Financieros y Geopolítica." />
 <style>
 :global(body) {
-background-color: #fbfbfb;
-color: #111827;
-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+background-color: #f1f5f9;
+color: #0f172a;
+font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+overflow-x: hidden;
 }
+
+/* Barra de progreso de lectura al hacer scroll */
+#scroll-progress {
+position: fixed;
+top: 0;
+left: 0;
+width: 0%;
+height: 3px;
+background: #1e3a8a;
+z-index: 9999;
+box-shadow: 0 0 10px #2563eb;
+transition: width 0.1s linear;
+}
+
+/* BANNER 1: Relojes Mundiales */
+.ticker-time-wrapper {
+background: #0f172a;
+color: #94a3b8;
+font-size: 0.72rem;
+font-weight: 700;
+border-bottom: 1px solid #1e293b;
+overflow: hidden;
+white-space: nowrap;
+display: flex;
+align-items: center;
+height: 34px;
+}
+.ticker-label-time {
+background: #1e293b;
+color: #f8fafc;
+padding: 0 1rem;
+height: 100%;
+display: flex;
+align-items: center;
+font-weight: 800;
+letter-spacing: 0.08em;
+text-transform: uppercase;
+z-index: 2;
+box-shadow: 4px 0 10px rgba(0,0,0,0.3);
+}
+.ticker-track-time {
+display: inline-flex;
+gap: 2.5rem;
+padding-left: 2rem;
+animation: scrollMarquee 42s linear infinite;
+}
+.ticker-track-time:hover {
+animation-play-state: paused;
+}
+.time-item {
+display: inline-flex;
+align-items: center;
+gap: 0.5rem;
+}
+.time-city {
+color: #cbd5e1;
+text-transform: uppercase;
+letter-spacing: 0.04em;
+}
+.time-val {
+color: #38bdf8;
+font-variant-numeric: tabular-nums;
+}
+
+/* BANNER 2: Cotizaciones de Monedas y Mercados */
+.ticker-market-wrapper {
+background: #090d16;
+color: #ffffff;
+font-size: 0.74rem;
+border-bottom: 2px solid #0f172a;
+overflow: hidden;
+white-space: nowrap;
+display: flex;
+align-items: center;
+height: 38px;
+}
+.ticker-label-market {
+background: #1e3a8a;
+color: #ffffff;
+padding: 0 1rem;
+height: 100%;
+display: flex;
+align-items: center;
+font-weight: 900;
+letter-spacing: 0.08em;
+text-transform: uppercase;
+z-index: 2;
+box-shadow: 4px 0 10px rgba(0,0,0,0.4);
+}
+.ticker-track-market {
+display: inline-flex;
+gap: 2.2rem;
+padding-left: 2rem;
+animation: scrollMarquee 48s linear infinite;
+}
+.ticker-track-market:hover {
+animation-play-state: paused;
+}
+.market-item {
+display: inline-flex;
+align-items: center;
+gap: 0.5rem;
+}
+.market-name {
+color: #e2e8f0;
+font-weight: 700;
+}
+.market-val {
+color: #cbd5e1;
+font-variant-numeric: tabular-nums;
+font-weight: 600;
+}
+.badge-up {
+background: rgba(16, 185, 129, 0.15);
+color: #10b981;
+border: 1px solid #059669;
+padding: 0.1rem 0.4rem;
+border-radius: 3px;
+font-size: 0.68rem;
+font-weight: 800;
+}
+.badge-down {
+background: rgba(239, 68, 68, 0.15);
+color: #ef4444;
+border: 1px solid #dc2626;
+padding: 0.1rem 0.4rem;
+border-radius: 3px;
+font-size: 0.68rem;
+font-weight: 800;
+}
+
+@keyframes scrollMarquee {
+0% { transform: translateX(0); }
+100% { transform: translateX(-50%); }
+}
+
 main {
-max-width: 1220px;
+max-width: 1240px;
 margin: 0 auto;
-padding: 1.2rem 1rem 5rem;
+padding: 1.5rem 1rem 6rem;
 }
-/* Franja Última Hora */
-.breaking-banner {
+
+/* Banner de Última Hora */
+.breaking-ribbon {
 background: #991b1b;
 color: #ffffff;
 display: flex;
 align-items: center;
 padding: 0.55rem 1rem;
-font-size: 0.85rem;
+font-size: 0.84rem;
 margin-bottom: 2rem;
-border-radius: 3px;
+border-radius: 4px;
 gap: 1rem;
+box-shadow: 0 4px 12px rgba(153, 27, 27, 0.15);
 }
-.breaking-tag {
+.breaking-badge {
 background: #ffffff;
 color: #991b1b;
 font-weight: 900;
-padding: 0.2rem 0.55rem;
-font-size: 0.72rem;
+padding: 0.2rem 0.6rem;
+font-size: 0.7rem;
 text-transform: uppercase;
 letter-spacing: 0.08em;
+border-radius: 2px;
 white-space: nowrap;
 }
-.breaking-text {
+.breaking-title {
 white-space: nowrap;
 overflow: hidden;
 text-overflow: ellipsis;
 flex: 1;
 }
-.breaking-text a {
+.breaking-title a {
 color: #ffffff;
 text-decoration: none;
-font-weight: 600;
+font-weight: 700;
 }
-.breaking-text a:hover {
+.breaking-title a:hover {
 text-decoration: underline;
 }
 
-/* Gran Formato Broadsheet Lead */
-.broadsheet-layout {
+/* RECUADROS ESPECIALES DE INTELIGENCIA */
+.intel-grid {
 display: grid;
-grid-template-columns: 2.3fr 1fr;
-gap: 2.5rem;
-padding-bottom: 3rem;
-border-bottom: 2px solid #111827;
+grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+gap: 1.5rem;
 margin-bottom: 3rem;
 }
-.lead-col {
-border-right: 1px solid #e5e7eb;
-padding-right: 2.5rem;
+.intel-card {
+background: #ffffff;
+border: 1px solid #e2e8f0;
+border-top: 4px solid #0f172a;
+border-radius: 8px;
+padding: 1.5rem;
+box-shadow: 0 4px 15px rgba(0, 0, 0, 0.03);
+transition: transform 0.25s ease, box-shadow 0.25s ease;
 }
-.lead-category {
+.intel-card:hover {
+transform: translateY(-4px);
+box-shadow: 0 12px 24px -6px rgba(0, 0, 0, 0.08);
+}
+.intel-card.card-geo { border-top-color: #ef4444; }
+.intel-card.card-fin { border-top-color: #10b981; }
+.intel-card.card-tech { border-top-color: #3b82f6; }
+.intel-header {
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin-bottom: 0.8rem;
+}
+.intel-tag {
+font-size: 0.72rem;
+font-weight: 900;
+text-transform: uppercase;
+letter-spacing: 0.08em;
+}
+.card-geo .intel-tag { color: #ef4444; }
+.card-fin .intel-tag { color: #10b981; }
+.card-tech .intel-tag { color: #3b82f6; }
+.intel-status {
+font-size: 0.7rem;
+background: #f1f5f9;
+padding: 0.2rem 0.5rem;
+border-radius: 4px;
+color: #64748b;
+font-weight: 700;
+}
+.intel-title {
+font-size: 1.15rem;
+font-weight: 800;
+margin: 0 0 0.5rem;
+color: #0f172a;
+letter-spacing: -0.01em;
+}
+.intel-desc {
+font-size: 0.88rem;
+color: #475569;
+line-height: 1.5;
+margin: 0 0 1rem;
+}
+.intel-footer {
+border-top: 1px solid #f1f5f9;
+padding-top: 0.8rem;
+display: flex;
+justify-content: space-between;
 font-size: 0.75rem;
+color: #94a3b8;
+font-weight: 600;
+}
+
+/* Broadsheet Lead & Radar */
+.broadsheet-layout {
+display: grid;
+grid-template-columns: 2.2fr 1fr;
+gap: 2.5rem;
+padding-bottom: 3.5rem;
+border-bottom: 2px solid #0f172a;
+margin-bottom: 3.5rem;
+}
+.lead-box {
+background: #ffffff;
+border: 1px solid #e2e8f0;
+border-radius: 8px;
+padding: 2rem;
+box-shadow: 0 8px 20px rgba(0,0,0,0.03);
+}
+.lead-cat {
+font-size: 0.76rem;
 font-weight: 900;
 color: #1e3a8a;
 text-transform: uppercase;
@@ -97,11 +323,11 @@ margin-bottom: 0.6rem;
 display: block;
 }
 .lead-title {
-font-family: "Georgia", "Times New Roman", serif;
-font-size: clamp(2.1rem, 3.4vw, 3rem);
-line-height: 1.15;
-font-weight: 700;
+font-size: clamp(2rem, 3.2vw, 2.7rem);
+line-height: 1.18;
+font-weight: 900;
 margin: 0 0 1.2rem;
+letter-spacing: -0.03em;
 color: #0f172a;
 }
 .lead-title a {
@@ -112,211 +338,205 @@ text-decoration: none;
 color: #1e3a8a;
 }
 .lead-media {
-margin-bottom: 1.2rem;
-border-radius: 4px;
+margin-bottom: 1.4rem;
+border-radius: 6px;
 overflow: hidden;
+max-height: 420px;
 }
 .lead-media img {
 width: 100%;
+height: 100%;
 max-height: 420px;
 object-fit: cover;
 display: block;
+transition: transform 0.5s ease;
+}
+.lead-box:hover .lead-media img {
+transform: scale(1.03);
 }
 .lead-summary {
-font-family: "Georgia", serif;
-font-size: 1.22rem;
+font-size: 1.18rem;
 line-height: 1.6;
 color: #334155;
-margin: 0 0 1rem;
+margin: 0 0 1.2rem;
 }
-.lead-byline {
+.lead-meta {
 font-size: 0.8rem;
 color: #64748b;
 font-weight: 600;
-text-transform: uppercase;
-letter-spacing: 0.05em;
+border-top: 1px solid #f1f5f9;
+padding-top: 1rem;
 }
 
-/* Radar Lateral */
-.side-col {
+.radar-box {
 display: flex;
 flex-direction: column;
 gap: 1.5rem;
 }
-.section-kicker {
+.radar-heading {
 font-size: 0.85rem;
 font-weight: 900;
 text-transform: uppercase;
 letter-spacing: 0.08em;
-border-bottom: 2px solid #111827;
-padding-bottom: 0.4rem;
-margin: 0 0 0.5rem;
+border-bottom: 2px solid #0f172a;
+padding-bottom: 0.5rem;
+margin: 0;
 color: #0f172a;
 }
-.side-item {
-border-bottom: 1px solid #e5e7eb;
-padding-bottom: 1.2rem;
+.radar-card {
+background: #ffffff;
+border: 1px solid #e2e8f0;
+border-radius: 6px;
+overflow: hidden;
+padding: 1rem;
+transition: transform 0.2s ease;
 }
-.side-item:last-child {
-border-bottom: none;
-padding-bottom: 0;
+.radar-card:hover {
+transform: translateY(-3px);
 }
-.side-img {
+.radar-img {
 width: 100%;
-height: 140px;
+height: 130px;
 object-fit: cover;
-border-radius: 3px;
+border-radius: 4px;
 margin-bottom: 0.6rem;
-display: block;
 }
-.side-category {
+.radar-cat {
 font-size: 0.68rem;
 font-weight: 800;
 color: #b91c1c;
 text-transform: uppercase;
 margin-bottom: 0.3rem;
 }
-.side-title {
-font-family: "Georgia", serif;
-font-size: 1.15rem;
+.radar-title {
+font-size: 1.05rem;
 line-height: 1.35;
-font-weight: 700;
+font-weight: 800;
 margin: 0 0 0.4rem;
 }
-.side-title a {
-color: #111827;
+.radar-title a {
+color: #0f172a;
 text-decoration: none;
 }
-.side-title a:hover {
+.radar-title a:hover {
 color: #1e3a8a;
 }
-.side-desc {
-font-size: 0.86rem;
+.radar-desc {
+font-size: 0.84rem;
 color: #64748b;
 line-height: 1.45;
 margin: 0 0 0.4rem;
 }
-.side-date {
-font-size: 0.75rem;
-color: #94a3b8;
-}
 
-/* Banner Alertas */
-.institutional-alert {
-background: #f8fafc;
-border-left: 4px solid #0284c7;
-border-top: 1px solid #e2e8f0;
-border-right: 1px solid #e2e8f0;
-border-bottom: 1px solid #e2e8f0;
-padding: 1.2rem 1.6rem;
-margin-bottom: 3.5rem;
-display: flex;
-justify-content: space-between;
-align-items: center;
-flex-wrap: wrap;
-gap: 1rem;
-}
-.alert-heading {
-font-size: 1.05rem;
-font-weight: 800;
-margin: 0 0 0.2rem;
-color: #0f172a;
-}
-.alert-sub {
-margin: 0;
-font-size: 0.88rem;
-color: #475569;
-}
-.alert-btn {
-background: #0284c7;
-color: #ffffff !important;
-font-weight: 700;
-font-size: 0.82rem;
-padding: 0.55rem 1.2rem;
-text-decoration: none;
-border-radius: 4px;
-text-transform: uppercase;
-}
-
-/* Bloques Temáticos */
-.category-block {
+/* Secciones Temáticas - Todas las Noticias */
+.category-section-wrap {
 margin-bottom: 4rem;
 }
-.category-block-header {
+.section-bar {
 display: flex;
 justify-content: space-between;
 align-items: baseline;
-border-bottom: 2px solid #111827;
-padding-bottom: 0.5rem;
-margin-bottom: 1.8rem;
+border-bottom: 2px solid #0f172a;
+padding-bottom: 0.6rem;
+margin-bottom: 2rem;
 }
-.block-title {
-font-family: "Georgia", serif;
+.section-name {
 font-size: 1.6rem;
-font-weight: 800;
+font-weight: 900;
+letter-spacing: -0.02em;
 color: #0f172a;
 margin: 0;
 }
-.block-more-link {
-font-size: 0.82rem;
-font-weight: 700;
+.section-link {
+font-size: 0.8rem;
+font-weight: 800;
 text-transform: uppercase;
-letter-spacing: 0.05em;
+letter-spacing: 0.06em;
 color: #1e3a8a;
 text-decoration: none;
 }
-.block-more-link:hover {
+.section-link:hover {
 text-decoration: underline;
 }
-.block-grid {
+.articles-grid {
 display: grid;
 grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
-gap: 2.2rem;
+gap: 2rem;
 }
-.block-card {
-border-top: 1px solid #e5e7eb;
-padding-top: 1.2rem;
+.article-card {
+background: #ffffff;
+border: 1px solid #e2e8f0;
+border-radius: 8px;
+overflow: hidden;
 display: flex;
 flex-direction: column;
 justify-content: space-between;
+transition: transform 0.25s ease, box-shadow 0.25s ease;
 }
-.block-card-img {
+.article-card:hover {
+transform: translateY(-5px);
+box-shadow: 0 12px 24px -6px rgba(0, 0, 0, 0.08);
+}
+.article-img-wrap {
 width: 100%;
-height: 180px;
+height: 190px;
+overflow: hidden;
+}
+.article-img {
+width: 100%;
+height: 100%;
 object-fit: cover;
-border-radius: 3px;
-margin-bottom: 0.8rem;
+display: block;
+transition: transform 0.5s ease;
 }
-.block-card-title {
-font-family: "Georgia", serif;
-font-size: 1.22rem;
+.article-card:hover .article-img {
+transform: scale(1.04);
+}
+.article-body {
+padding: 1.4rem;
+display: flex;
+flex-direction: column;
+flex: 1;
+justify-content: space-between;
+}
+.article-title {
+font-size: 1.2rem;
 line-height: 1.35;
-font-weight: 700;
+font-weight: 800;
+letter-spacing: -0.02em;
 margin: 0 0 0.6rem;
+color: #0f172a;
 }
-.block-card-title a {
-color: #111827;
+.article-title a {
+color: inherit;
 text-decoration: none;
 }
-.block-card-title a:hover {
+.article-title a:hover {
 color: #1e3a8a;
 }
-.block-card-desc {
-font-size: 0.92rem;
+.article-desc {
+font-size: 0.9rem;
 color: #475569;
 line-height: 1.55;
-margin: 0 0 0.8rem;
+margin-bottom: 1.2rem;
 }
-.block-card-date {
-font-size: 0.78rem;
+.article-date {
+font-size: 0.76rem;
 color: #94a3b8;
+font-weight: 600;
+border-top: 1px solid #f8fafc;
+padding-top: 0.6rem;
 }
 
-.empty-state {
-padding: 3rem 0;
-text-align: center;
-font-family: "Georgia", serif;
-color: #64748b;
+/* Animación reactiva al scroll */
+.reveal-item {
+opacity: 0;
+transform: translateY(24px);
+transition: opacity 0.6s cubic-bezier(0.16, 1, 0.3, 1), transform 0.6s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.reveal-item.is-visible {
+opacity: 1;
+transform: translateY(0);
 }
 
 @media (max-width: 900px) {
@@ -324,32 +544,106 @@ color: #64748b;
 grid-template-columns: 1fr;
 gap: 2rem;
 }
-.lead-col {
-border-right: none;
-padding-right: 0;
-border-bottom: 1px solid #e5e7eb;
-padding-bottom: 2rem;
-}
 }
 </style>
 </head>
 <body>
+<div id="scroll-progress"></div>
+
+<!-- BANNER 1: Relojes Mundiales -->
+<div class="ticker-time-wrapper">
+<div class="ticker-label-time">HORA GLOBAL</div>
+<div class="ticker-track-time" id="clocks-track">
+<div class="time-item"><span class="time-city">Nueva York:</span> <span class="time-val" id="time-ny">--:--</span></div>
+<div class="time-item"><span class="time-city">Londres:</span> <span class="time-val" id="time-lon">--:--</span></div>
+<div class="time-item"><span class="time-city">Fráncfort:</span> <span class="time-val" id="time-fra">--:--</span></div>
+<div class="time-item"><span class="time-city">Tokio:</span> <span class="time-val" id="time-tok">--:--</span></div>
+<div class="time-item"><span class="time-city">Singapur:</span> <span class="time-val" id="time-sin">--:--</span></div>
+<div class="time-item"><span class="time-city">Dubái:</span> <span class="time-val" id="time-dxb">--:--</span></div>
+<div class="time-item"><span class="time-city">Cd. de México:</span> <span class="time-val" id="time-mex">--:--</span></div>
+<!-- Repetición para desplazamiento fluido continuo -->
+<div class="time-item"><span class="time-city">Nueva York:</span> <span class="time-val">14:36 EDT</span></div>
+<div class="time-item"><span class="time-city">Londres:</span> <span class="time-val">19:36 BST</span></div>
+<div class="time-item"><span class="time-city">Fráncfort:</span> <span class="time-val">20:36 CEST</span></div>
+<div class="time-item"><span class="time-city">Tokio:</span> <span class="time-val">03:36 JST</span></div>
+</div>
+</div>
+
+<!-- BANNER 2: Mercados & Monedas -->
+<div class="ticker-market-wrapper">
+<div class="ticker-label-market">MERCADOS & DIVISAS</div>
+<div class="ticker-track-market">
+{marketData.concat(marketData).map((m) => (
+<div class="market-item">
+<span class="market-name">{m.asset}:</span>
+<span class="market-val">{m.val}</span>
+<span class={m.up ? "badge-up" : "badge-down"}>{m.change}</span>
+</div>
+))}
+</div>
+</div>
+
 <Header />
+
 <main>
-{leadStory ? (
-<>
-<div class="breaking-banner">
-<span class="breaking-tag">ÚLTIMA HORA</span>
-<div class="breaking-text">
+{leadStory && (
+<div class="breaking-ribbon">
+<span class="breaking-badge">ÚLTIMA HORA</span>
+<div class="breaking-title">
 <a href={`/blog/${leadStory.slug ?? leadStory.id}/`}>
 {leadStory.data.title}
 </a>
 </div>
 </div>
+)}
 
-<div class="broadsheet-layout">
-<section class="lead-col">
-<span class="lead-category">{leadStory.data.category || 'Análisis Especial'}</span>
+<!-- RECUADROS ESPECIALES DE INTELIGENCIA -->
+<section class="intel-grid reveal-item">
+<div class="intel-card card-geo">
+<div class="intel-header">
+<span class="intel-tag">Radar Geopolítico</span>
+<span class="intel-status">EN MONITOREO</span>
+</div>
+<h3 class="intel-title">Puntos de Fricción Estratégica</h3>
+<p class="intel-desc">Seguimiento continuo al estrecho de Taiwán, seguridad euroatlántica y reconfiguración de alianzas en el Sur Global.</p>
+<div class="intel-footer">
+<span>Fuentes: BBC / Politico</span>
+<span>Refresco: 4h</span>
+</div>
+</div>
+
+<div class="intel-card card-fin">
+<div class="intel-header">
+<span class="intel-tag">Mesa Macroeconómica</span>
+<span class="intel-status">ACTIVO</span>
+</div>
+<h3 class="intel-title">Políticas de Bancos Centrales</h3>
+<p class="intel-desc">Análisis de rendimiento en la curva de tipos de la Fed y el BCE, inflación subyacente y liquidez en deuda soberana.</p>
+<div class="intel-footer">
+<span>Fuentes: MarketWatch / CNBC</span>
+<span>Refresco: 4h</span>
+</div>
+</div>
+
+<div class="intel-card card-tech">
+<div class="intel-header">
+<span class="intel-tag">Frontera Tecnológica</span>
+<span class="intel-status">INVESTIGACIÓN</span>
+</div>
+<h3 class="intel-title">Cómputo Cuántico & Chips</h3>
+<p class="intel-desc">Evolución de nodos nanométricos, restricciones a semiconductores y consumo energético de centros de datos de IA.</p>
+<div class="intel-footer">
+<span>Fuentes: TechCrunch / Ars</span>
+<span>Refresco: 4h</span>
+</div>
+</div>
+</section>
+
+<!-- PRIMERA PLANA BROADSHEET -->
+{leadStory && (
+<div class="broadsheet-layout reveal-item">
+<section class="lead-box">
+<span class="lead-cat">{leadStory.data.category || 'Análisis Especial'}</span>
 <h2 class="lead-title">
 <a href={`/blog/${leadStory.slug ?? leadStory.id}/`}>{leadStory.data.title}</a>
 </h2>
@@ -359,61 +653,54 @@ padding-bottom: 2rem;
 </div>
 )}
 <p class="lead-summary">{leadStory.data.description}</p>
-<div class="lead-byline">
+<div class="lead-meta">
 Por Redacción News Internacional TEP • {leadStory.data.pubDate.toLocaleDateString('es-MX', { year: 'numeric', month: 'long', day: 'numeric' })}
 </div>
 </section>
 
-<aside class="side-col">
-<h3 class="section-kicker">RADAR ESTRATÉGICO</h3>
+<aside class="radar-box">
+<h3 class="radar-heading">RADAR DE COBERTURA</h3>
 {sideStories.map((post) => (
-<article class="side-item">
+<article class="radar-card">
 {post.data.heroImage && (
-<img src={post.data.heroImage} alt={post.data.title} class="side-img" />
+<img src={post.data.heroImage} alt={post.data.title} class="radar-img" />
 )}
-<div class="side-category">{post.data.category || 'Global'}</div>
-<h4 class="side-title">
+<div class="radar-cat">{post.data.category || 'Global'}</div>
+<h4 class="radar-title">
 <a href={`/blog/${post.slug ?? post.id}/`}>{post.data.title}</a>
 </h4>
-<p class="side-desc">{post.data.description}</p>
-<div class="side-date">
-{post.data.pubDate.toLocaleDateString('es-MX', { month: 'short', day: 'numeric', year: 'numeric' })}
-</div>
+<p class="radar-desc">{post.data.description}</p>
 </article>
 ))}
 </aside>
 </div>
-
-<div class="institutional-alert">
-<div>
-<h4 class="alert-heading">Sindicación de Informes en Tiempo Real</h4>
-<p class="alert-sub">Monitoreo continuo de acontecimientos geopolíticos y financieros sin algoritmos mediadores.</p>
-</div>
-<a href="https://t.me/newsinternacionaltep" target="_blank" rel="noopener noreferrer" class="alert-btn">
-Acceso al Canal Telegram
-</a>
-</div>
-
-{postsGeopolitica.length > 0 && (
-<section class="category-block">
-<div class="category-block-header">
-<h3 class="block-title">Geopolítica & Política Global</h3>
-<a href="/categoria/geopolitica" class="block-more-link">Ver sección completa →</a>
-</div>
-<div class="block-grid">
-{postsGeopolitica.map((post) => (
-<article class="block-card">
-{post.data.heroImage && (
-<img src={post.data.heroImage} alt={post.data.title} class="block-card-img" />
 )}
+
+<!-- TODAS LAS NOTICIAS POR SECCIONES -->
+{postsGeopolitica.length > 0 && (
+<section class="category-section-wrap reveal-item">
+<div class="section-bar">
+<h3 class="section-name">Geopolítica & Orden Global</h3>
+<a href="/categoria/geopolitica" class="section-link">Ver archivo ({postsGeopolitica.length}) →</a>
+</div>
+<div class="articles-grid">
+{postsGeopolitica.map((post) => (
+<article class="article-card">
+{post.data.heroImage && (
+<div class="article-img-wrap">
+<img src={post.data.heroImage} alt={post.data.title} class="article-img" loading="lazy" />
+</div>
+)}
+<div class="article-body">
 <div>
-<h4 class="block-card-title">
+<h4 class="article-title">
 <a href={`/blog/${post.slug ?? post.id}/`}>{post.data.title}</a>
 </h4>
-<p class="block-card-desc">{post.data.description}</p>
+<p class="article-desc">{post.data.description}</p>
 </div>
-<div class="block-card-date">
-{post.data.pubDate.toLocaleDateString('es-MX', { month: 'short', day: 'numeric', year: 'numeric' })} • TEP
+<div class="article-date">
+{post.data.pubDate.toLocaleDateString('es-MX', { month: 'short', day: 'numeric', year: 'numeric' })} • TEP Geopolítica
+</div>
 </div>
 </article>
 ))}
@@ -422,25 +709,29 @@ Acceso al Canal Telegram
 )}
 
 {postsEconomia.length > 0 && (
-<section class="category-block">
-<div class="category-block-header">
-<h3 class="block-title">Economía, Mercados & Finanzas</h3>
-<a href="/categoria/economia" class="block-more-link">Ver sección completa →</a>
+<section class="category-section-wrap reveal-item">
+<div class="section-bar">
+<h3 class="section-name">Economía, Mercados & Finanzas</h3>
+<a href="/categoria/economia" class="section-link">Ver archivo ({postsEconomia.length}) →</a>
 </div>
-<div class="block-grid">
+<div class="articles-grid">
 {postsEconomia.map((post) => (
-<article class="block-card">
+<article class="article-card">
 {post.data.heroImage && (
-<img src={post.data.heroImage} alt={post.data.title} class="block-card-img" />
+<div class="article-img-wrap">
+<img src={post.data.heroImage} alt={post.data.title} class="article-img" loading="lazy" />
+</div>
 )}
+<div class="article-body">
 <div>
-<h4 class="block-card-title">
+<h4 class="article-title">
 <a href={`/blog/${post.slug ?? post.id}/`}>{post.data.title}</a>
 </h4>
-<p class="block-card-desc">{post.data.description}</p>
+<p class="article-desc">{post.data.description}</p>
 </div>
-<div class="block-card-date">
-{post.data.pubDate.toLocaleDateString('es-MX', { month: 'short', day: 'numeric', year: 'numeric' })} • TEP
+<div class="article-date">
+{post.data.pubDate.toLocaleDateString('es-MX', { month: 'short', day: 'numeric', year: 'numeric' })} • TEP Mercados
+</div>
 </div>
 </article>
 ))}
@@ -449,39 +740,84 @@ Acceso al Canal Telegram
 )}
 
 {postsTecnologia.length > 0 && (
-<section class="category-block">
-<div class="category-block-header">
-<h3 class="block-title">Tecnología & Inteligencia Artificial</h3>
-<a href="/categoria/tecnologia" class="block-more-link">Ver sección completa →</a>
+<section class="category-section-wrap reveal-item">
+<div class="section-bar">
+<h3 class="section-name">Tecnología & Inteligencia Artificial</h3>
+<a href="/categoria/tecnologia" class="section-link">Ver archivo ({postsTecnologia.length}) →</a>
 </div>
-<div class="block-grid">
+<div class="articles-grid">
 {postsTecnologia.map((post) => (
-<article class="block-card">
+<article class="article-card">
 {post.data.heroImage && (
-<img src={post.data.heroImage} alt={post.data.title} class="block-card-img" />
+<div class="article-img-wrap">
+<img src={post.data.heroImage} alt={post.data.title} class="article-img" loading="lazy" />
+</div>
 )}
+<div class="article-body">
 <div>
-<h4 class="block-card-title">
+<h4 class="article-title">
 <a href={`/blog/${post.slug ?? post.id}/`}>{post.data.title}</a>
 </h4>
-<p class="block-card-desc">{post.data.description}</p>
+<p class="article-desc">{post.data.description}</p>
 </div>
-<div class="block-card-date">
-{post.data.pubDate.toLocaleDateString('es-MX', { month: 'short', day: 'numeric', year: 'numeric' })} • TEP
+<div class="article-date">
+{post.data.pubDate.toLocaleDateString('es-MX', { month: 'short', day: 'numeric', year: 'numeric' })} • TEP Tecnología
+</div>
 </div>
 </article>
 ))}
 </div>
 </section>
 )}
-</>
-) : (
-<div class="empty-state">
-<h2>Edición en Preparación</h2>
-<p>El motor editorial autónomo está compilando y contrastando los nuevos análisis de inteligencia global. La portada se actualizará en unos instantes.</p>
-</div>
-)}
 </main>
+
 <Footer />
+
+<!-- Scripts de interactividad y actualización en vivo -->
+<script is:inline>
+// 1. Barra de progreso al scroll
+window.addEventListener('scroll', () => {
+const scrollTop = window.scrollY;
+const docHeight = document.documentElement.scrollHeight - window.innerHeight;
+const pct = docHeight > 0 ? (scrollTop / docHeight) * 100 : 0;
+const bar = document.getElementById('scroll-progress');
+if (bar) bar.style.width = pct + '%';
+});
+
+// 2. Reloj mundial dinámico
+function updateClocks() {
+const opts = { hour: '2-digit', minute: '2-digit', second: '2-digit', hour12: false };
+const now = new Date();
+
+const fmt = (tz) => new Intl.DateTimeFormat('es-MX', { ...opts, timeZone: tz }).format(now);
+
+const elNy = document.getElementById('time-ny');
+const elLon = document.getElementById('time-lon');
+const elFra = document.getElementById('time-fra');
+const elTok = document.getElementById('time-tok');
+const elSin = document.getElementById('time-sin');
+const elDxb = document.getElementById('time-dxb');
+const elMex = document.getElementById('time-mex');
+
+if (elNy) elNy.textContent = fmt('America/New_York');
+if (elLon) elLon.textContent = fmt('Europe/London');
+if (elFra) elFra.textContent = fmt('Europe/Berlin');
+if (elTok) elTok.textContent = fmt('Asia/Tokyo');
+if (elSin) elSin.textContent = fmt('Asia/Singapore');
+if (elDxb) elDxb.textContent = fmt('Asia/Dubai');
+if (elMex) elMex.textContent = fmt('America/Mexico_City');
+}
+updateClocks();
+setInterval(updateClocks, 1000);
+
+// 3. Revelado suave de tarjetas al scroll (IntersectionObserver)
+const observer = new IntersectionObserver((entries) => {
+entries.forEach((e) => {
+if (e.isIntersecting) e.target.classList.add('is-visible');
+});
+}, { threshold: 0.08 });
+
+document.querySelectorAll('.reveal-item').forEach((el) => observer.observe(el));
+</script>
 </body>
 </html>
