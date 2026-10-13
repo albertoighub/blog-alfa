@@ -1,10 +1,10 @@
-name: Ejecutor Periodistico TEP
+﻿name: Ejecutor Periodistico TEP
 
 on:
   schedule:
     # Se ejecuta de forma autonoma cada 4 horas
     - cron: '0 */4 * * *'
-  workflow_dispatch: # Permite ejecucion manual desde el panel de GitHub
+  workflow_dispatch:
 
 permissions:
   contents: write
@@ -38,11 +38,11 @@ jobs:
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git pull --rebase origin main
           git add src/content/blog/ history.json
           if git diff --staged --quiet; then
             echo "Sin publicaciones nuevas en este ciclo."
           else
             git commit -m "chore(auto): curaduria editorial TEP [skip ci]"
+            git pull --rebase origin main
             git push origin main
           fi
