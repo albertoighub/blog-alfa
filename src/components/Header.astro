@@ -5,9 +5,59 @@ year: 'numeric',
 month: 'long',
 day: 'numeric',
 });
+
+const marketData = [
+{ asset: 'USD / EUR', val: '0.9241', change: '+0.18%', up: true },
+{ asset: 'USD / MXN', val: '19.342', change: '-0.42%', up: false },
+{ asset: 'USD / JPY', val: '149.25', change: '+0.31%', up: true },
+{ asset: 'GBP / USD', val: '1.3060', change: '-0.15%', up: false },
+{ asset: 'ORO (XAU/USD)', val: '$2,654.80', change: '+0.64%', up: true },
+{ asset: 'BRENT CRUDO', val: '$77.40', change: '-1.15%', up: false },
+{ asset: 'BITCOIN', val: '$64,280', change: '+2.10%', up: true },
+{ asset: 'S&P 500', val: '5,815.20', change: '+0.45%', up: true },
+{ asset: 'NASDAQ 100', val: '20,240.10', change: '+0.72%', up: true },
+{ asset: 'BONO EE.UU. 10A', val: '4.08%', change: '-0.03%', up: false },
+];
 ---
 
-<header class="tep-header">
+<header class="tep-global-header">
+<!-- 1. BANNER GLOBAL: Relojes Mundiales en Tiempo Real -->
+<div class="ticker-time-wrapper">
+<div class="ticker-label-time">HORA GLOBAL</div>
+<div class="ticker-track-time">
+<div class="time-item"><span class="time-city">Nueva York:</span> <span class="time-val" id="time-ny">--:--:--</span></div>
+<div class="time-item"><span class="time-city">Londres:</span> <span class="time-val" id="time-lon">--:--:--</span></div>
+<div class="time-item"><span class="time-city">Fráncfort:</span> <span class="time-val" id="time-fra">--:--:--</span></div>
+<div class="time-item"><span class="time-city">Tokio:</span> <span class="time-val" id="time-tok">--:--:--</span></div>
+<div class="time-item"><span class="time-city">Singapur:</span> <span class="time-val" id="time-sin">--:--:--</span></div>
+<div class="time-item"><span class="time-city">Dubái:</span> <span class="time-val" id="time-dxb">--:--:--</span></div>
+<div class="time-item"><span class="time-city">Cd. de México:</span> <span class="time-val" id="time-mex">--:--:--</span></div>
+<!-- Duplicado para rotación continua fluida -->
+<div class="time-item"><span class="time-city">Nueva York:</span> <span class="time-val" id="time-ny-2">--:--:--</span></div>
+<div class="time-item"><span class="time-city">Londres:</span> <span class="time-val" id="time-lon-2">--:--:--</span></div>
+<div class="time-item"><span class="time-city">Fráncfort:</span> <span class="time-val" id="time-fra-2">--:--:--</span></div>
+<div class="time-item"><span class="time-city">Tokio:</span> <span class="time-val" id="time-tok-2">--:--:--</span></div>
+<div class="time-item"><span class="time-city">Singapur:</span> <span class="time-val" id="time-sin-2">--:--:--</span></div>
+<div class="time-item"><span class="time-city">Dubái:</span> <span class="time-val" id="time-dxb-2">--:--:--</span></div>
+<div class="time-item"><span class="time-city">Cd. de México:</span> <span class="time-val" id="time-mex-2">--:--:--</span></div>
+</div>
+</div>
+
+<!-- 2. BANNER GLOBAL: Monitor de Divisas y Mercados Financieros -->
+<div class="ticker-market-wrapper">
+<div class="ticker-label-market">MERCADOS & DIVISAS</div>
+<div class="ticker-track-market">
+{marketData.concat(marketData).map((m) => (
+<div class="market-item">
+<span class="market-name">{m.asset}:</span>
+<span class="market-val">{m.val}</span>
+<span class={m.up ? "badge-up" : "badge-down"}>{m.change}</span>
+</div>
+))}
+</div>
+</div>
+
+<!-- 3. Barra de Utilidad Superior -->
 <div class="top-utility-bar">
 <div class="utility-left">
 <span class="edition-badge">Edición Global</span>
@@ -21,6 +71,7 @@ day: 'numeric',
 </div>
 </div>
 
+<!-- 4. Masthead Periodístico -->
 <div class="masthead">
 <span class="sub-head">INVESTIGACIÓN & PROSPECTIVA ESTRATÉGICA INTERNACIONAL</span>
 <h1 class="main-title">
@@ -35,9 +86,10 @@ day: 'numeric',
 </div>
 </div>
 
+<!-- 5. Barra de Navegación Temática -->
 <nav class="nav-sections">
 <div class="nav-wrap">
-<a href="/" class="nav-link active">Portada</a>
+<a href="/" class="nav-link">Portada</a>
 <a href="/categoria/geopolitica" class="nav-link">Geopolítica</a>
 <a href="/categoria/economia" class="nav-link">Economía & Mercados</a>
 <a href="/categoria/tecnologia" class="nav-link">Tecnología & IA</a>
@@ -47,12 +99,137 @@ day: 'numeric',
 </header>
 
 <style>
-.tep-header {
+.tep-global-header {
 background: #ffffff;
 border-bottom: 2px solid #0f172a;
 color: #0f172a;
-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 }
+
+/* TICKER 1: Horarios Mundiales */
+.ticker-time-wrapper {
+background: #090d16;
+color: #94a3b8;
+font-size: 0.72rem;
+font-weight: 700;
+border-bottom: 1px solid #1e293b;
+overflow: hidden;
+white-space: nowrap;
+display: flex;
+align-items: center;
+height: 34px;
+}
+.ticker-label-time {
+background: #1e293b;
+color: #f8fafc;
+padding: 0 1rem;
+height: 100%;
+display: flex;
+align-items: center;
+font-weight: 900;
+letter-spacing: 0.08em;
+text-transform: uppercase;
+z-index: 2;
+box-shadow: 4px 0 10px rgba(0,0,0,0.4);
+}
+.ticker-track-time {
+display: inline-flex;
+gap: 2.5rem;
+padding-left: 1.5rem;
+animation: scrollMarquee 45s linear infinite;
+}
+.ticker-track-time:hover {
+animation-play-state: paused;
+}
+.time-item {
+display: inline-flex;
+align-items: center;
+gap: 0.45rem;
+}
+.time-city {
+color: #cbd5e1;
+text-transform: uppercase;
+letter-spacing: 0.04em;
+}
+.time-val {
+color: #38bdf8;
+font-variant-numeric: tabular-nums;
+font-weight: 700;
+}
+
+/* TICKER 2: Divisas y Mercados */
+.ticker-market-wrapper {
+background: #0f172a;
+color: #ffffff;
+font-size: 0.74rem;
+border-bottom: 1px solid #1e293b;
+overflow: hidden;
+white-space: nowrap;
+display: flex;
+align-items: center;
+height: 36px;
+}
+.ticker-label-market {
+background: #1e3a8a;
+color: #ffffff;
+padding: 0 1rem;
+height: 100%;
+display: flex;
+align-items: center;
+font-weight: 900;
+letter-spacing: 0.08em;
+text-transform: uppercase;
+z-index: 2;
+box-shadow: 4px 0 10px rgba(0,0,0,0.4);
+}
+.ticker-track-market {
+display: inline-flex;
+gap: 2.2rem;
+padding-left: 1.5rem;
+animation: scrollMarquee 50s linear infinite;
+}
+.ticker-track-market:hover {
+animation-play-state: paused;
+}
+.market-item {
+display: inline-flex;
+align-items: center;
+gap: 0.5rem;
+}
+.market-name {
+color: #e2e8f0;
+font-weight: 700;
+}
+.market-val {
+color: #cbd5e1;
+font-variant-numeric: tabular-nums;
+font-weight: 600;
+}
+.badge-up {
+background: rgba(16, 185, 129, 0.18);
+color: #10b981;
+border: 1px solid #059669;
+padding: 0.1rem 0.4rem;
+border-radius: 3px;
+font-size: 0.68rem;
+font-weight: 800;
+}
+.badge-down {
+background: rgba(239, 68, 68, 0.18);
+color: #ef4444;
+border: 1px solid #dc2626;
+padding: 0.1rem 0.4rem;
+border-radius: 3px;
+font-size: 0.68rem;
+font-weight: 800;
+}
+
+@keyframes scrollMarquee {
+0% { transform: translateX(0); }
+100% { transform: translateX(-50%); }
+}
+
+/* Utilidades y Masthead */
 .top-utility-bar {
 max-width: 1240px;
 margin: 0 auto;
@@ -97,6 +274,7 @@ animation: pulse 1.6s infinite;
 70% { transform: scale(1.15); opacity: 1; }
 100% { transform: scale(0.95); opacity: 0.8; }
 }
+
 .masthead {
 text-align: center;
 padding: 1.8rem 1rem 1.2rem;
@@ -148,6 +326,7 @@ color: #1e3a8a;
 color: #cbd5e1;
 font-size: 0.8rem;
 }
+
 .nav-sections {
 border-top: 1px solid #e2e8f0;
 }
@@ -172,13 +351,43 @@ padding: 0.35rem 0;
 border-bottom: 2px solid transparent;
 transition: all 0.15s ease;
 }
-.nav-link:hover, .nav-link.active {
+.nav-link:hover {
 color: #1e3a8a;
 border-bottom-color: #1e3a8a;
 }
+
 @media (max-width: 768px) {
 .utility-left { display: flex; flex-direction: column; gap: 2px; }
 .tagline-nav { flex-wrap: wrap; gap: 0.4rem; font-size: 0.7rem; }
 .nav-wrap { justify-content: flex-start; overflow-x: auto; white-space: nowrap; gap: 0 1.2rem; }
 }
 </style>
+
+<!-- Script de cálculo de hora en vivo con segundos -->
+<script is:inline>
+function updateHeaderClocks() {
+const opts = { hour: '2-digit', minute: '2-digit', second: '2-digit', hour12: false };
+const now = new Date();
+const fmt = (tz) => new Intl.DateTimeFormat('es-MX', { ...opts, timeZone: tz }).format(now);
+
+const tzList = [
+{ id: 'time-ny', id2: 'time-ny-2', tz: 'America/New_York' },
+{ id: 'time-lon', id2: 'time-lon-2', tz: 'Europe/London' },
+{ id: 'time-fra', id2: 'time-fra-2', tz: 'Europe/Berlin' },
+{ id: 'time-tok', id2: 'time-tok-2', tz: 'Asia/Tokyo' },
+{ id: 'time-sin', id2: 'time-sin-2', tz: 'Asia/Singapore' },
+{ id: 'time-dxb', id2: 'time-dxb-2', tz: 'Asia/Dubai' },
+{ id: 'time-mex', id2: 'time-mex-2', tz: 'America/Mexico_City' },
+];
+
+tzList.forEach(({ id, id2, tz }) => {
+const val = fmt(tz);
+const el1 = document.getElementById(id);
+const el2 = document.getElementById(id2);
+if (el1) el1.textContent = val;
+if (el2) el2.textContent = val;
+});
+}
+updateHeaderClocks();
+setInterval(updateHeaderClocks, 1000);
+</script>

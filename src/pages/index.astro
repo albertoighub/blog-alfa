@@ -20,20 +20,6 @@ return terms.some((t) => c.includes(t));
 const postsGeopolitica = sortedPosts.filter((p) => matchesCat(p, ['política', 'politica', 'geopolítica', 'geopolitica']));
 const postsEconomia = sortedPosts.filter((p) => matchesCat(p, ['economía', 'economia', 'mercados', 'finanzas']));
 const postsTecnologia = sortedPosts.filter((p) => matchesCat(p, ['tecnología', 'tecnologia', 'ia', 'inteligencia']));
-
-// Datos del monitor financiero con indicadores de subida y bajada
-const marketData = [
-{ asset: 'USD / EUR', val: '0.9241', change: '+0.18%', up: true },
-{ asset: 'USD / MXN', val: '19.342', change: '-0.42%', up: false },
-{ asset: 'USD / JPY', val: '149.25', change: '+0.31%', up: true },
-{ asset: 'GBP / USD', val: '1.3060', change: '-0.15%', up: false },
-{ asset: 'ORO (XAU/USD)', val: '$2,654.80', change: '+0.64%', up: true },
-{ asset: 'BRENT CRUDO', val: '$77.40', change: '-1.15%', up: false },
-{ asset: 'BITCOIN', val: '$64,280', change: '+2.10%', up: true },
-{ asset: 'S&P 500', val: '5,815.20', change: '+0.45%', up: true },
-{ asset: 'NASDAQ 100', val: '20,240.10', change: '+0.72%', up: true },
-{ asset: 'BONO EE.UU. 10A', val: '4.08%', change: '-0.03%', up: false },
-];
 ---
 
 <!doctype html>
@@ -42,154 +28,17 @@ const marketData = [
 <BaseHead title="News Internacional TEP | Cobertura Periodística & Mercados Globales" description="Diario analítico global de alta precisión en Tecnología, Mercados Financieros y Geopolítica." />
 <style>
 :global(body) {
-background-color: #f1f5f9;
+background-color: #f8fafc;
 color: #0f172a;
-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-overflow-x: hidden;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 }
-
-/* Barra de progreso de lectura al hacer scroll */
-#scroll-progress {
-position: fixed;
-top: 0;
-left: 0;
-width: 0%;
-height: 3px;
-background: #1e3a8a;
-z-index: 9999;
-box-shadow: 0 0 10px #2563eb;
-transition: width 0.1s linear;
-}
-
-/* BANNER 1: Relojes Mundiales */
-.ticker-time-wrapper {
-background: #0f172a;
-color: #94a3b8;
-font-size: 0.72rem;
-font-weight: 700;
-border-bottom: 1px solid #1e293b;
-overflow: hidden;
-white-space: nowrap;
-display: flex;
-align-items: center;
-height: 34px;
-}
-.ticker-label-time {
-background: #1e293b;
-color: #f8fafc;
-padding: 0 1rem;
-height: 100%;
-display: flex;
-align-items: center;
-font-weight: 800;
-letter-spacing: 0.08em;
-text-transform: uppercase;
-z-index: 2;
-box-shadow: 4px 0 10px rgba(0,0,0,0.3);
-}
-.ticker-track-time {
-display: inline-flex;
-gap: 2.5rem;
-padding-left: 2rem;
-animation: scrollMarquee 42s linear infinite;
-}
-.ticker-track-time:hover {
-animation-play-state: paused;
-}
-.time-item {
-display: inline-flex;
-align-items: center;
-gap: 0.5rem;
-}
-.time-city {
-color: #cbd5e1;
-text-transform: uppercase;
-letter-spacing: 0.04em;
-}
-.time-val {
-color: #38bdf8;
-font-variant-numeric: tabular-nums;
-}
-
-/* BANNER 2: Cotizaciones de Monedas y Mercados */
-.ticker-market-wrapper {
-background: #090d16;
-color: #ffffff;
-font-size: 0.74rem;
-border-bottom: 2px solid #0f172a;
-overflow: hidden;
-white-space: nowrap;
-display: flex;
-align-items: center;
-height: 38px;
-}
-.ticker-label-market {
-background: #1e3a8a;
-color: #ffffff;
-padding: 0 1rem;
-height: 100%;
-display: flex;
-align-items: center;
-font-weight: 900;
-letter-spacing: 0.08em;
-text-transform: uppercase;
-z-index: 2;
-box-shadow: 4px 0 10px rgba(0,0,0,0.4);
-}
-.ticker-track-market {
-display: inline-flex;
-gap: 2.2rem;
-padding-left: 2rem;
-animation: scrollMarquee 48s linear infinite;
-}
-.ticker-track-market:hover {
-animation-play-state: paused;
-}
-.market-item {
-display: inline-flex;
-align-items: center;
-gap: 0.5rem;
-}
-.market-name {
-color: #e2e8f0;
-font-weight: 700;
-}
-.market-val {
-color: #cbd5e1;
-font-variant-numeric: tabular-nums;
-font-weight: 600;
-}
-.badge-up {
-background: rgba(16, 185, 129, 0.15);
-color: #10b981;
-border: 1px solid #059669;
-padding: 0.1rem 0.4rem;
-border-radius: 3px;
-font-size: 0.68rem;
-font-weight: 800;
-}
-.badge-down {
-background: rgba(239, 68, 68, 0.15);
-color: #ef4444;
-border: 1px solid #dc2626;
-padding: 0.1rem 0.4rem;
-border-radius: 3px;
-font-size: 0.68rem;
-font-weight: 800;
-}
-
-@keyframes scrollMarquee {
-0% { transform: translateX(0); }
-100% { transform: translateX(-50%); }
-}
-
 main {
 max-width: 1240px;
 margin: 0 auto;
 padding: 1.5rem 1rem 6rem;
 }
 
-/* Banner de Última Hora */
+/* Franja Última Hora */
 .breaking-ribbon {
 background: #991b1b;
 color: #ffffff;
@@ -228,76 +77,61 @@ font-weight: 700;
 text-decoration: underline;
 }
 
-/* RECUADROS ESPECIALES DE INTELIGENCIA */
-.intel-grid {
-display: grid;
-grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-gap: 1.5rem;
-margin-bottom: 3rem;
-}
-.intel-card {
-background: #ffffff;
-border: 1px solid #e2e8f0;
-border-top: 4px solid #0f172a;
+/* BANNER PANORÁMICO DE RADAR GLOBAL (Sustituye a los recuadros viejos) */
+.strategic-radar-strip {
+background: linear-gradient(135deg, #090d16 0%, #1e293b 100%);
+color: #ffffff;
 border-radius: 8px;
-padding: 1.5rem;
-box-shadow: 0 4px 15px rgba(0, 0, 0, 0.03);
-transition: transform 0.25s ease, box-shadow 0.25s ease;
+padding: 1.6rem 2rem;
+margin-bottom: 3rem;
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+gap: 1.5rem;
+border-top: 3px solid #1e3a8a;
+box-shadow: 0 10px 25px -5px rgba(0,0,0,0.1);
 }
-.intel-card:hover {
-transform: translateY(-4px);
-box-shadow: 0 12px 24px -6px rgba(0, 0, 0, 0.08);
-}
-.intel-card.card-geo { border-top-color: #ef4444; }
-.intel-card.card-fin { border-top-color: #10b981; }
-.intel-card.card-tech { border-top-color: #3b82f6; }
-.intel-header {
+.radar-pill-item {
 display: flex;
-justify-content: space-between;
 align-items: center;
-margin-bottom: 0.8rem;
+gap: 1.2rem;
+padding: 0.8rem 1rem;
+background: rgba(255, 255, 255, 0.04);
+border: 1px solid rgba(255, 255, 255, 0.08);
+border-radius: 8px;
+text-decoration: none;
+color: inherit;
+transition: all 0.25s ease;
 }
-.intel-tag {
-font-size: 0.72rem;
-font-weight: 900;
-text-transform: uppercase;
-letter-spacing: 0.08em;
+.radar-pill-item:hover {
+background: rgba(255, 255, 255, 0.1);
+transform: translateY(-2px);
+border-color: rgba(255, 255, 255, 0.2);
 }
-.card-geo .intel-tag { color: #ef4444; }
-.card-fin .intel-tag { color: #10b981; }
-.card-tech .intel-tag { color: #3b82f6; }
-.intel-status {
-font-size: 0.7rem;
-background: #f1f5f9;
-padding: 0.2rem 0.5rem;
-border-radius: 4px;
-color: #64748b;
-font-weight: 700;
-}
-.intel-title {
-font-size: 1.15rem;
-font-weight: 800;
-margin: 0 0 0.5rem;
-color: #0f172a;
-letter-spacing: -0.01em;
-}
-.intel-desc {
-font-size: 0.88rem;
-color: #475569;
-line-height: 1.5;
-margin: 0 0 1rem;
-}
-.intel-footer {
-border-top: 1px solid #f1f5f9;
-padding-top: 0.8rem;
+.radar-icon-box {
+width: 44px;
+height: 44px;
+border-radius: 8px;
 display: flex;
-justify-content: space-between;
-font-size: 0.75rem;
+align-items: center;
+justify-content: center;
+flex-shrink: 0;
+}
+.icon-geo { background: rgba(239, 68, 68, 0.15); color: #ef4444; }
+.icon-fin { background: rgba(16, 185, 129, 0.15); color: #10b981; }
+.icon-tech { background: rgba(59, 130, 246, 0.15); color: #3b82f6; }
+.radar-pill-content h4 {
+margin: 0 0 0.2rem;
+font-size: 0.95rem;
+font-weight: 800;
+color: #ffffff;
+}
+.radar-pill-content p {
+margin: 0;
+font-size: 0.78rem;
 color: #94a3b8;
-font-weight: 600;
 }
 
-/* Broadsheet Lead & Radar */
+/* Broadsheet Lead & Radar Lateral */
 .broadsheet-layout {
 display: grid;
 grid-template-columns: 2.2fr 1fr;
@@ -349,7 +183,7 @@ height: 100%;
 max-height: 420px;
 object-fit: cover;
 display: block;
-transition: transform 0.5s ease;
+transition: transform 0.4s ease;
 }
 .lead-box:hover .lead-media img {
 transform: scale(1.03);
@@ -487,7 +321,7 @@ width: 100%;
 height: 100%;
 object-fit: cover;
 display: block;
-transition: transform 0.5s ease;
+transition: transform 0.4s ease;
 }
 .article-card:hover .article-img {
 transform: scale(1.04);
@@ -528,17 +362,6 @@ border-top: 1px solid #f8fafc;
 padding-top: 0.6rem;
 }
 
-/* Animación reactiva al scroll */
-.reveal-item {
-opacity: 0;
-transform: translateY(24px);
-transition: opacity 0.6s cubic-bezier(0.16, 1, 0.3, 1), transform 0.6s cubic-bezier(0.16, 1, 0.3, 1);
-}
-.reveal-item.is-visible {
-opacity: 1;
-transform: translateY(0);
-}
-
 @media (max-width: 900px) {
 .broadsheet-layout {
 grid-template-columns: 1fr;
@@ -548,41 +371,6 @@ gap: 2rem;
 </style>
 </head>
 <body>
-<div id="scroll-progress"></div>
-
-<!-- BANNER 1: Relojes Mundiales -->
-<div class="ticker-time-wrapper">
-<div class="ticker-label-time">HORA GLOBAL</div>
-<div class="ticker-track-time" id="clocks-track">
-<div class="time-item"><span class="time-city">Nueva York:</span> <span class="time-val" id="time-ny">--:--</span></div>
-<div class="time-item"><span class="time-city">Londres:</span> <span class="time-val" id="time-lon">--:--</span></div>
-<div class="time-item"><span class="time-city">Fráncfort:</span> <span class="time-val" id="time-fra">--:--</span></div>
-<div class="time-item"><span class="time-city">Tokio:</span> <span class="time-val" id="time-tok">--:--</span></div>
-<div class="time-item"><span class="time-city">Singapur:</span> <span class="time-val" id="time-sin">--:--</span></div>
-<div class="time-item"><span class="time-city">Dubái:</span> <span class="time-val" id="time-dxb">--:--</span></div>
-<div class="time-item"><span class="time-city">Cd. de México:</span> <span class="time-val" id="time-mex">--:--</span></div>
-<!-- Repetición para desplazamiento fluido continuo -->
-<div class="time-item"><span class="time-city">Nueva York:</span> <span class="time-val">14:36 EDT</span></div>
-<div class="time-item"><span class="time-city">Londres:</span> <span class="time-val">19:36 BST</span></div>
-<div class="time-item"><span class="time-city">Fráncfort:</span> <span class="time-val">20:36 CEST</span></div>
-<div class="time-item"><span class="time-city">Tokio:</span> <span class="time-val">03:36 JST</span></div>
-</div>
-</div>
-
-<!-- BANNER 2: Mercados & Monedas -->
-<div class="ticker-market-wrapper">
-<div class="ticker-label-market">MERCADOS & DIVISAS</div>
-<div class="ticker-track-market">
-{marketData.concat(marketData).map((m) => (
-<div class="market-item">
-<span class="market-name">{m.asset}:</span>
-<span class="market-val">{m.val}</span>
-<span class={m.up ? "badge-up" : "badge-down"}>{m.change}</span>
-</div>
-))}
-</div>
-</div>
-
 <Header />
 
 <main>
@@ -597,51 +385,55 @@ gap: 2rem;
 </div>
 )}
 
-<!-- RECUADROS ESPECIALES DE INTELIGENCIA -->
-<section class="intel-grid reveal-item">
-<div class="intel-card card-geo">
-<div class="intel-header">
-<span class="intel-tag">Radar Geopolítico</span>
-<span class="intel-status">EN MONITOREO</span>
+<!-- BANNER PANORÁMICO DE EJES TEMÁTICOS CON ICONOS -->
+<section class="strategic-radar-strip">
+<a href="/categoria/geopolitica" class="radar-pill-item">
+<div class="radar-icon-box icon-geo">
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+<circle cx="12" cy="12" r="10"/>
+<line x1="2" y1="12" x2="22" y2="12"/>
+<path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>
+</svg>
 </div>
-<h3 class="intel-title">Puntos de Fricción Estratégica</h3>
-<p class="intel-desc">Seguimiento continuo al estrecho de Taiwán, seguridad euroatlántica y reconfiguración de alianzas en el Sur Global.</p>
-<div class="intel-footer">
-<span>Fuentes: BBC / Politico</span>
-<span>Refresco: 4h</span>
+<div class="radar-pill-content">
+<h4>Radar Geopolítico</h4>
+<p>Seguridad euroatlántica & diplomacia</p>
 </div>
-</div>
+</a>
 
-<div class="intel-card card-fin">
-<div class="intel-header">
-<span class="intel-tag">Mesa Macroeconómica</span>
-<span class="intel-status">ACTIVO</span>
+<a href="/categoria/economia" class="radar-pill-item">
+<div class="radar-icon-box icon-fin">
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+<line x1="12" y1="1" x2="12" y2="23"/>
+<path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/>
+<polyline points="3 17 9 11 13 15 21 7"/>
+</svg>
 </div>
-<h3 class="intel-title">Políticas de Bancos Centrales</h3>
-<p class="intel-desc">Análisis de rendimiento en la curva de tipos de la Fed y el BCE, inflación subyacente y liquidez en deuda soberana.</p>
-<div class="intel-footer">
-<span>Fuentes: MarketWatch / CNBC</span>
-<span>Refresco: 4h</span>
+<div class="radar-pill-content">
+<h4>Mesa Macroeconómica</h4>
+<p>Bancos centrales & deuda soberana</p>
 </div>
-</div>
+</a>
 
-<div class="intel-card card-tech">
-<div class="intel-header">
-<span class="intel-tag">Frontera Tecnológica</span>
-<span class="intel-status">INVESTIGACIÓN</span>
+<a href="/categoria/tecnologia" class="radar-pill-item">
+<div class="radar-icon-box icon-tech">
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+<rect x="4" y="4" width="16" height="16" rx="2"/>
+<rect x="9" y="9" width="6" height="6"/>
+<line x1="9" y1="1" x2="9" y2="4"/><line x1="15" y1="1" x2="15" y2="4"/>
+<line x1="9" y1="20" x2="9" y2="23"/><line x1="15" y1="20" x2="15" y2="23"/>
+</svg>
 </div>
-<h3 class="intel-title">Cómputo Cuántico & Chips</h3>
-<p class="intel-desc">Evolución de nodos nanométricos, restricciones a semiconductores y consumo energético de centros de datos de IA.</p>
-<div class="intel-footer">
-<span>Fuentes: TechCrunch / Ars</span>
-<span>Refresco: 4h</span>
+<div class="radar-pill-content">
+<h4>Frontera Tecnológica</h4>
+<p>Semiconductores & computación cuántica</p>
 </div>
-</div>
+</a>
 </section>
 
 <!-- PRIMERA PLANA BROADSHEET -->
 {leadStory && (
-<div class="broadsheet-layout reveal-item">
+<div class="broadsheet-layout">
 <section class="lead-box">
 <span class="lead-cat">{leadStory.data.category || 'Análisis Especial'}</span>
 <h2 class="lead-title">
@@ -678,7 +470,7 @@ Por Redacción News Internacional TEP • {leadStory.data.pubDate.toLocaleDateSt
 
 <!-- TODAS LAS NOTICIAS POR SECCIONES -->
 {postsGeopolitica.length > 0 && (
-<section class="category-section-wrap reveal-item">
+<section class="category-section-wrap">
 <div class="section-bar">
 <h3 class="section-name">Geopolítica & Orden Global</h3>
 <a href="/categoria/geopolitica" class="section-link">Ver archivo ({postsGeopolitica.length}) →</a>
@@ -709,7 +501,7 @@ Por Redacción News Internacional TEP • {leadStory.data.pubDate.toLocaleDateSt
 )}
 
 {postsEconomia.length > 0 && (
-<section class="category-section-wrap reveal-item">
+<section class="category-section-wrap">
 <div class="section-bar">
 <h3 class="section-name">Economía, Mercados & Finanzas</h3>
 <a href="/categoria/economia" class="section-link">Ver archivo ({postsEconomia.length}) →</a>
@@ -740,7 +532,7 @@ Por Redacción News Internacional TEP • {leadStory.data.pubDate.toLocaleDateSt
 )}
 
 {postsTecnologia.length > 0 && (
-<section class="category-section-wrap reveal-item">
+<section class="category-section-wrap">
 <div class="section-bar">
 <h3 class="section-name">Tecnología & Inteligencia Artificial</h3>
 <a href="/categoria/tecnologia" class="section-link">Ver archivo ({postsTecnologia.length}) →</a>
@@ -772,52 +564,5 @@ Por Redacción News Internacional TEP • {leadStory.data.pubDate.toLocaleDateSt
 </main>
 
 <Footer />
-
-<!-- Scripts de interactividad y actualización en vivo -->
-<script is:inline>
-// 1. Barra de progreso al scroll
-window.addEventListener('scroll', () => {
-const scrollTop = window.scrollY;
-const docHeight = document.documentElement.scrollHeight - window.innerHeight;
-const pct = docHeight > 0 ? (scrollTop / docHeight) * 100 : 0;
-const bar = document.getElementById('scroll-progress');
-if (bar) bar.style.width = pct + '%';
-});
-
-// 2. Reloj mundial dinámico
-function updateClocks() {
-const opts = { hour: '2-digit', minute: '2-digit', second: '2-digit', hour12: false };
-const now = new Date();
-
-const fmt = (tz) => new Intl.DateTimeFormat('es-MX', { ...opts, timeZone: tz }).format(now);
-
-const elNy = document.getElementById('time-ny');
-const elLon = document.getElementById('time-lon');
-const elFra = document.getElementById('time-fra');
-const elTok = document.getElementById('time-tok');
-const elSin = document.getElementById('time-sin');
-const elDxb = document.getElementById('time-dxb');
-const elMex = document.getElementById('time-mex');
-
-if (elNy) elNy.textContent = fmt('America/New_York');
-if (elLon) elLon.textContent = fmt('Europe/London');
-if (elFra) elFra.textContent = fmt('Europe/Berlin');
-if (elTok) elTok.textContent = fmt('Asia/Tokyo');
-if (elSin) elSin.textContent = fmt('Asia/Singapore');
-if (elDxb) elDxb.textContent = fmt('Asia/Dubai');
-if (elMex) elMex.textContent = fmt('America/Mexico_City');
-}
-updateClocks();
-setInterval(updateClocks, 1000);
-
-// 3. Revelado suave de tarjetas al scroll (IntersectionObserver)
-const observer = new IntersectionObserver((entries) => {
-entries.forEach((e) => {
-if (e.isIntersecting) e.target.classList.add('is-visible');
-});
-}, { threshold: 0.08 });
-
-document.querySelectorAll('.reveal-item').forEach((el) => observer.observe(el));
-</script>
 </body>
 </html>
