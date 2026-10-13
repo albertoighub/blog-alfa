@@ -1,0 +1,59 @@
+---
+import BaseHead from '../components/BaseHead.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import { SITE_TITLE } from '../consts';
+---
+
+<!doctype html>
+<html lang="es">
+	<head>
+		<BaseHead title={`Quiénes Somos | ${SITE_TITLE}`} description="Conoce la misión y el equipo editorial de News Internacional TEP." />
+		<style>
+			main {
+				width: 960px;
+				max-width: calc(100% - 2em);
+				margin: auto;
+				padding: 2em 1em;
+				line-height: 1.7;
+			}
+			h1 {
+				margin-bottom: 1.5rem;
+			}
+			h2 {
+				margin-top: 2rem;
+				font-size: 1.4rem;
+				color: rgb(var(--black));
+			}
+			p {
+				margin-bottom: 1.2rem;
+			}
+		</style>
+	</head>
+	<body>
+		<Header />
+		<main>
+			<h1>Quiénes Somos</h1>
+			
+			<p>
+				<strong>News Internacional TEP</strong> es una plataforma digital de curaduría y análisis periodístico independiente, creada con el propósito de ofrecer una perspectiva analítica, rigurosa y libre de sensacionalismo sobre los sucesos más determinantes a nivel global.
+			</p>
+
+			<h2>Nuestros Tres Ejes Fundamentales (TEP)</h2>
+			<p>
+				Vivimos en un mundo interconectado donde las decisiones regulatorias impactan los mercados bursátiles y las disrupciones técnicas moldean la geopolítica. Por ello, nuestra cobertura se estructura de forma especializada en:
+			</p>
+			<ul>
+				<li><strong>Tecnología:</strong> Análisis de frontera en inteligencia artificial, desarrollo de semiconductores, telecomunicaciones satelitales y ciberdefensa.</li>
+				<li><strong>Economía:</strong> Políticas de bancos centrales, tipos de interés, movimientos macroeconómicos, inflación y cadenas de suministro globales.</li>
+				<li><strong>Política:</strong> Decisiones gubernamentales, tratados internacionales, comercio exterior y el marco legal que rige a las industrias clave.</li>
+			</ul>
+
+			<h2>Compromiso Ético y Metodología</h2>
+			<p>
+				Nuestros análisis se elaboran a partir del contraste directo de fuentes oficiales, agencias de noticias internacionales y reportes financieros verificables. No emitimos recomendaciones de inversión financiera personal ni postura política partidista; nuestro objetivo es aportar contexto objetivo para que el lector cuente con información contrastada y fundamentada.
+			</p>
+		</main>
+		<Footer />
+	</body>
+</html>

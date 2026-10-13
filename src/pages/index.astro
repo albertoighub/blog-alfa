@@ -1,0 +1,41 @@
+---
+import BaseHead from '../components/BaseHead.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
+---
+
+<!doctype html>
+<html lang="es">
+	<head>
+		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+	</head>
+	<body>
+		<Header />
+		<main>
+			<h1>News Internacional TEP</h1>
+			<p>
+				Cobertura analítica e imparcial en la intersección de <strong>Tecnología</strong>, <strong>Economía</strong> y <strong>Política Global</strong>. 
+			</p>
+			<p>
+				Nuestra misión es contrastar hechos, datos económicos e innovaciones tecnológicas para entender el impacto directo en la sociedad y los mercados globales, sin sesgos ideológicos ni sensacionalismo.
+			</p>
+
+			<section style="margin-top: 2rem;">
+				<h2>Ejes de Cobertura</h2>
+				<ul>
+					<li><strong>Tecnología:</strong> Inteligencia artificial, semiconductores, soberanía digital y ciberseguridad.</li>
+					<li><strong>Economía:</strong> Mercados financieros, políticas monetarias de bancos centrales e inflación global.</li>
+					<li><strong>Política:</strong> Geopolítica internacional, marcos regulatorios y tratados comerciales.</li>
+				</ul>
+			</section>
+
+			<section style="margin-top: 2rem;">
+				<p>
+					Explora nuestros análisis más recientes en la sección <a href="/blog">Blog</a>.
+				</p>
+			</section>
+		</main>
+		<Footer />
+	</body>
+</html>

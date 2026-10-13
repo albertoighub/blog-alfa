@@ -1,0 +1,36 @@
+---
+const today = new Date();
+---
+
+<footer>
+	<p>&copy; {today.getFullYear()} News Internacional TEP. Todos los derechos reservados.</p>
+	<nav>
+		<a href="/">Inicio</a> | 
+		<a href="/blog">Blog</a> | 
+		<a href="/about">Quiénes Somos</a> | 
+		<a href="/privacy-policy">Política de Privacidad</a>
+	</nav>
+</footer>
+<style>
+	footer {
+		padding: 2.5em 1em 2em 1em;
+		background: linear-gradient(var(--gray-gradient)) no-repeat;
+		color: rgb(var(--gray));
+		text-align: center;
+		border-top: 1px solid rgba(var(--gray), 15%);
+		margin-top: 4rem;
+	}
+	footer p {
+		margin-bottom: 0.8rem;
+		font-size: 0.95rem;
+	}
+	nav a {
+		color: rgb(var(--gray));
+		text-decoration: none;
+		margin: 0 0.5rem;
+		font-size: 0.9rem;
+	}
+	nav a:hover {
+		color: rgb(var(--accent));
+	}
+</style>
