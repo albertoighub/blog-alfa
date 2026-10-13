@@ -1,10 +1,10 @@
-﻿name: Ejecutor Periodistico TEP
+name: Ejecutor Periodistico TEP
 
 on:
   schedule:
-    # Se ejecuta cada 4 horas (00:00, 04:00, 08:00, 12:00, 16:00, 20:00 UTC)
+    # Se ejecuta de forma autonoma cada 4 horas
     - cron: '0 */4 * * *'
-  workflow_dispatch:
+  workflow_dispatch: # Permite ejecucion manual desde el panel de GitHub
 
 permissions:
   contents: write
@@ -17,15 +17,14 @@ jobs:
       - name: Clonar repositorio
         uses: actions/checkout@v4
 
-      - name: Configurar Python
+      - name: Configurar entorno de Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
 
-      - name: Instalar dependencias
+      - name: Instalar librerias del motor
         run: |
-          pip install --upgrade pip
-          pip install -r requirements.txt
+          pip install feedparser python-slugify google-genai
 
       - name: Ejecutar motor editorial y despacho a Telegram
         env:
@@ -35,15 +34,15 @@ jobs:
         run: |
           python curator_engine.py
 
-      - name: Sincronizar y desplegar cambios
+      - name: Sincronizar articulos generados con el repositorio
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git pull --rebase origin main
           git add src/content/blog/ history.json
           if git diff --staged --quiet; then
-            echo "No hay articulos nuevos que publicar."
+            echo "Sin publicaciones nuevas en este ciclo."
           else
-            git commit -m "chore(auto): publicacion automatica editorial TEP [skip ci]"
+            git commit -m "chore(auto): curaduria editorial TEP [skip ci]"
             git push origin main
           fi
