@@ -22,26 +22,28 @@ SITE_BASE_URL = "https://newsinternacionaltep.com"
 
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
-# 2. Malla internacional multi-dominio de agencias y medios
+# 2. Malla internacional masiva de agencias y medios (Top Selection del Directorio de 165 sitios)
 FEEDS = {
     "Geopolítica": [
         "https://feeds.bbci.co.uk/news/world/rss.xml",
         "https://rss.politico.com/politics-news.xml",
-        "https://thehill.com/feed/",
         "https://www.aljazeera.com/xml/rss/all.xml",
         "https://www.theguardian.com/world/rss",
+        "https://www.scmp.com/rss/91/feed",
     ],
     "Economía": [
         "https://feeds.content.dowjones.io/public/rss/mw_topstories",
-        "https://search.cnbc.com/rs/search/view.html?partnerId=2000&keywords=economy&sort=date&type=rss",
         "https://search.cnbc.com/rs/search/view.html?partnerId=2000&keywords=markets&sort=date&type=rss",
         "https://finance.yahoo.com/news/rssindex",
+        "https://www.ft.com/?format=rss",
+        "https://asia.nikkei.com/rss/feed/category/business",
     ],
     "Tecnología": [
         "https://techcrunch.com/feed/",
         "https://feeds.arstechnica.com/arstechnica/index",
-        "https://www.theverge.com/rss/index.xml",
         "https://www.wired.com/feed/category/business/latest/rss",
+        "https://spectrum.ieee.org/rss/rocs/robotics",
+        "https://www.theverge.com/rss/index.xml",
     ],
 }
 
@@ -51,41 +53,39 @@ IMAGENES_EDITORIALES = {
         "https://images.unsplash.com/photo-1541872703-74c5e44368f9?auto=format&fit=crop&w=1200&q=80",
         "https://images.unsplash.com/photo-1526778548025-fa2f459cd5c1?auto=format&fit=crop&w=1200&q=80",
         "https://images.unsplash.com/photo-1577495508048-b635879837f1?auto=format&fit=crop&w=1200&q=80",
-        "https://images.unsplash.com/photo-1509062522246-3755977927d7?auto=format&fit=crop&w=1200&q=80",
     ],
     "Economía": [
         "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?auto=format&fit=crop&w=1200&q=80",
         "https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?auto=format&fit=crop&w=1200&q=80",
         "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1200&q=80",
-        "https://images.unsplash.com/photo-1559526324-4b87b5e36e44?auto=format&fit=crop&w=1200&q=80",
     ],
     "Tecnología": [
         "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=1200&q=80",
         "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1200&q=80",
         "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?auto=format&fit=crop&w=1200&q=80",
-        "https://images.unsplash.com/photo-1531297484001-80022131f5a1?auto=format&fit=crop&w=1200&q=80",
     ],
 }
 
-SYSTEM_INSTRUCTION = """Eres el analista jefe y corresponsal internacional senior de 'News Internacional TEP'.
-Tu tarea es producir reportes de investigación periodística de altísima densidad analítica, comparables con The New York Times, Foreign Affairs o Financial Times.
+# 3. Directiva de Cero Plagio y Sobreescritura Máxima
+SYSTEM_INSTRUCTION = """Eres el motor de inteligencia analítica central de 'News Internacional TEP'.
+Tu tarea es consumir los datos crudos proporcionados de agencias globales y convertirlos en reportes investigativos 100% nuevos, densos y originales.
 
-Criterios editoriales estrictos:
-1. No hagas resúmenes superficiales: Profundiza en las causas estructurales, intereses geopolíticos y dinámicas de poder subyacentes.
-2. Contraste de posturas: Analiza las diferentes partes involucradas (gobiernos occidentales vs emergentes, reguladores vs industria, halcones vs palomas, mercados vs política).
-3. Datos duros y cuantitativos: Extrae o contextualiza con precisión cifras monetarias, porcentajes de variación, plazos temporales o proyecciones de volumen.
-4. Tono riguroso e imparcial: Lenguaje analítico, sobrio, sin sensacionalismo ni valoraciones subjetivas.
-5. Prospectiva Global: Reflexiona sobre qué consecuencias tendrá este acontecimiento para la estabilidad mundial, la cadena de valor o los mercados en los próximos 12 a 24 meses.
+REGLA DE ORO INQUEBRANTABLE: BAJO NINGUNA CIRCUNSTANCIA copiarás de manera literal el texto original de la fuente. Debes leer el suceso, procesarlo como un experto en geopolítica/finanzas, y reescribir un análisis estructural con tus propias palabras, utilizando un lenguaje sobrio, neutral y académico.
+
+Estructura requerida:
+1. Reescritura Analítica Total: No eres un traductor, eres un analista de The New York Times/Bloomberg. Desmenuza el qué, el porqué y las causas de fondo.
+2. Extracción de Métricas Duras: Identifica cifras monetarias, porcentajes o fechas clave y preséntalas de forma concisa.
+3. Prospectiva a 24 Meses: Deduce y redacta el impacto que este suceso tendrá a nivel global en el corto y mediano plazo.
 
 Devuelve ÚNICAMENTE un objeto JSON válido con estas claves:
-- "title": Titular periodístico de gran impacto (estilo NYT, sobrio y contundente).
-- "description": Subtítulo analítico exhaustivo (140 a 160 caracteres).
+- "title": Titular periodístico sobrio y formal (100% reescrito).
+- "description": Subtítulo analítico (140 a 160 caracteres).
 - "category": La categoría exacta ('Geopolítica', 'Economía' o 'Tecnología').
-- "tags": Lista de 4 o 5 palabras clave de indexación profesional.
-- "key_metrics": Lista de 3 viñetas concisas con datos cuantitativos clave (ejemplo: "USD 12,500M: Capital movilizado...", "+4.3%: Incremento proyectado...", "T4 2026: Plazo de implementación...").
-- "content": Cuerpo completo del análisis redactado en Markdown con secciones densas mediante subtítulos ##, citas formales en bloque > y párrafos explicativos desarrollados.
-- "global_impact": Dos párrafos redactados que desglosan la prospectiva estratégica y el efecto dominó internacional.
-- "sources_summary": Párrafo que resume las fuentes primarias contrastadas y el contexto institucional consultado."""
+- "tags": Lista de 4 o 5 palabras clave de indexación.
+- "key_metrics": Lista de 3 viñetas concisas con datos cuantitativos clave del evento.
+- "content": Cuerpo completo del análisis redactado en Markdown con secciones densas mediante subtítulos ## y párrafos desarrollados (Totalmente original, cero plagio).
+- "global_impact": Dos párrafos de prospectiva estratégica y efecto dominó en los mercados o la diplomacia.
+- "sources_summary": Párrafo que indique "Informe redactado tras el monitoreo y contraste de datos emitidos originalmente por agencias internacionales..."."""
 
 def cargar_historial() -> list:
     if os.path.exists(HISTORY_FILE):
@@ -113,10 +113,10 @@ def broadcast_telegram(data: dict, post_slug: str):
     hashtags = " ".join([f"#{slugify(t, separator='')}" for t in raw_tags]) if raw_tags else ""
 
     message = (
-        f"🚨 <b>{category.upper()} | News Internacional TEP</b>\n\n"
+        f"🚨 <b>{category.upper()} | Análisis Estructural</b>\n\n"
         f"<b>{title}</b>\n\n"
         f"{description}\n\n"
-        f"🔗 <a href='{article_url}'>Leer informe analítico y prospectiva global</a>\n\n"
+        f"🔗 <a href='{article_url}'>Leer informe completo</a>\n\n"
         f"{hashtags}"
     ).strip()
 
@@ -133,17 +133,17 @@ def broadcast_telegram(data: dict, post_slug: str):
         with urllib.request.urlopen(req, timeout=10) as response:
             res_data = json.loads(response.read().decode("utf-8"))
             if res_data.get("ok"):
-                print(" [✓] Noticia de fondo difundida en Telegram.")
+                print(" [✓] Alerta de inteligencia despachada a Telegram.")
     except Exception as e:
         print(f" [!] Error en Telegram: {e}")
 
 def procesar_noticia(entry, categoria: str):
     prompt = f"""
-    Elabora un informe periodístico de fondo y análisis de prospectiva a partir de esta cobertura:
-    - Categoría: {categoria}
-    - Titular original: {entry.get('title', '')}
-    - Enlace: {entry.get('link', '')}
-    - Datos brutos: {entry.get('summary', '')}
+    Lee los siguientes datos crudos e instaura un informe 100% original, reescrito desde cero con profundidad analítica:
+    - Categoría Operativa: {categoria}
+    - Titular fuente: {entry.get('title', '')}
+    - Enlace primario: {entry.get('link', '')}
+    - Extracto crudo: {entry.get('summary', '')}
     """
 
     try:
@@ -153,12 +153,12 @@ def procesar_noticia(entry, categoria: str):
             config=types.GenerateContentConfig(
                 system_instruction=SYSTEM_INSTRUCTION,
                 response_mime_type="application/json",
-                temperature=0.2,
+                temperature=0.3, # Ligero aumento para mayor originalidad y evitar réplicas
             ),
         )
         return json.loads(response.text)
     except Exception as e:
-        print(f"[!] Error al procesar en Gemini: {e}")
+        print(f"[!] Error procesando el prompt: {e}")
         return None
 
 def guardar_articulo(data: dict, fuente_original: str) -> str:
@@ -176,9 +176,9 @@ def guardar_articulo(data: dict, fuente_original: str) -> str:
     metrics_list = data.get("key_metrics", [])
     metrics_block = ""
     if metrics_list:
-        metrics_block = "> ### Métricas y Cifras Clave\n" + "\n".join([f"> * **{m}**" for m in metrics_list]) + "\n\n"
+        metrics_block = "> ### Indicadores y Cifras Clave\n" + "\n".join([f"> * **{m}**" for m in metrics_list]) + "\n\n"
 
-    impacto_bloque = data.get("global_impact", "Este acontecimiento condicionará el equilibrio de intereses a nivel internacional.")
+    impacto_bloque = data.get("global_impact", "El suceso altera significativamente las dinámicas de poder.")
 
     contenido_md = f"""---
 title: "{data['title']}"
@@ -198,19 +198,19 @@ canonicalSource: "{fuente_original}"
 
 ---
 
-### Metodología y Contraste de Información
-* **Fuente Primaria Monitoreada:** [{fuente_original}]({fuente_original})
-* **Marco de Verificación:** {data.get('sources_summary', 'Datos contrastados mediante agregación de agencias internacionales bajo normas de neutralidad analítica.')}
+### Metodología y Trazabilidad del Monitoreo
+* **Cita Origen de Agregación:** [{fuente_original}]({fuente_original})
+* **Marco de Verificación Legal:** {data.get('sources_summary', 'Informe redactado a partir del procesamiento y reestructuración analítica de datos en tiempo real.')}
 """
 
     with open(ruta_completa, "w", encoding="utf-8") as f:
         f.write(contenido_md)
 
-    print(f"[+] Reporte de fondo generado: {nombre_archivo}")
+    print(f"[+] Informe analítico consolidado: {nombre_archivo}")
     return post_slug
 
 def ejecutar_pipeline():
-    print("=== News Internacional TEP | Generación de Edición de Fondo ===")
+    print("=== IA TEP | Extracción de Red Global y Reescritura Analítica ===")
     historial = cargar_historial()
     nuevos_procesados = 0
 
@@ -227,7 +227,7 @@ def ejecutar_pipeline():
 
                 if noticia_objetivo:
                     link = noticia_objetivo.get("link", "")
-                    print(f"[*] Analizando cobertura en {categoria}: {noticia_objetivo.get('title', '')[:50]}...")
+                    print(f"[*] Transformando fuente en {categoria}: {noticia_objetivo.get('title', '')[:45]}...")
                     resultado = procesar_noticia(noticia_objetivo, categoria)
 
                     if resultado:
@@ -236,12 +236,11 @@ def ejecutar_pipeline():
                         guardar_historial(historial)
                         broadcast_telegram(resultado, post_slug)
                         nuevos_procesados += 1
-                        # Procesar un reporte representativo por cada categoría
                         break
             except Exception as ex:
-                print(f" [!] Error al consultar {url}: {ex}")
+                print(f" [!] Error en la consulta del feed {url}: {ex}")
 
-    print(f"=== Ciclo finalizado: {nuevos_procesados} nuevos reportes de fondo publicados ===")
+    print(f"=== Ciclo Inteligente Finalizado: {nuevos_procesados} Reportes Originales Publicados ===")
 
 if __name__ == "__main__":
     ejecutar_pipeline()

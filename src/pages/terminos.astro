@@ -1,0 +1,45 @@
+﻿---
+import BaseHead from '../components/BaseHead.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+---
+
+<!doctype html>
+<html lang="es">
+<head>
+<BaseHead title="Términos de Servicio | News Internacional TEP" description="Condiciones de uso de la plataforma." />
+<style>
+:global(body) { background-color: #f8fafc; color: #0f172a; font-family: system-ui, sans-serif; }
+main { max-width: 860px; margin: 0 auto; padding: 3rem 1rem 6rem; }
+.legal-header { border-bottom: 2px solid #0f172a; padding-bottom: 1.5rem; margin-bottom: 2.5rem; }
+.kicker { font-size: 0.8rem; font-weight: 900; color: #1e3a8a; text-transform: uppercase; letter-spacing: 0.1em; }
+.title { font-size: clamp(2.2rem, 4vw, 3rem); font-weight: 900; margin: 0.5rem 0 0; letter-spacing: -0.03em; }
+.prose { font-size: 1.15rem; line-height: 1.8; color: #1e293b; }
+.prose h2 { font-size: 1.6rem; font-weight: 800; margin-top: 2.5rem; margin-bottom: 1rem; border-bottom: 1px solid #e2e8f0; padding-bottom: 0.5rem; }
+.prose p { margin-bottom: 1.5rem; }
+</style>
+</head>
+<body>
+<Header />
+<main>
+<header class="legal-header">
+<span class="kicker">LEGAL Y PROTECCIÓN DE DATOS</span>
+<h1 class="title">Términos de Servicio</h1>
+</header>
+<div class="prose">
+<h2>1. Aceptación de Condiciones</h2>
+<p>El acceso y navegación por <strong>News Internacional TEP</strong> atribuye la condición de usuario e implica la aceptación total de los presentes términos. Todo el contenido generado en esta web tiene fines exclusivamente informativos y prospectivos.</p>
+
+<h2>2. Descargo de Responsabilidad Financiera</h2>
+<p>La información, los datos sobre divisas, cotizaciones en tiempo real y los análisis macroeconómicos mostrados no representan ningún tipo de asesoramiento financiero, jurídico o de inversión. El usuario es el único responsable del uso y las decisiones operativas que tome basándose en el contenido de este sitio.</p>
+
+<h2>3. Propiedad Intelectual</h2>
+<p>Los reportes prospectivos son elaborados de forma original mediante curaduría y síntesis estructural. Queda permitida su divulgación siempre y cuando se cite adecuadamente la fuente original (News Internacional TEP) mediante un enlace directo a nuestra plataforma.</p>
+
+<h2>4. Limitación del Servicio</h2>
+<p>Los desarrolladores y editores no garantizan la disponibilidad ininterrumpida de la plataforma ni la infalibilidad absoluta de los datos bursátiles integrados vía APIs de terceros, los cuales están sujetos a las latencias normales de internet.</p>
+</div>
+</main>
+<Footer />
+</body>
+</html>

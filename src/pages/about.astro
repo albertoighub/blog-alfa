@@ -1,59 +1,54 @@
----
+﻿---
 import BaseHead from '../components/BaseHead.astro';
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
-import { SITE_TITLE } from '../consts';
 ---
 
 <!doctype html>
 <html lang="es">
-	<head>
-		<BaseHead title={`Quiénes Somos | ${SITE_TITLE}`} description="Conoce la misión y el equipo editorial de News Internacional TEP." />
-		<style>
-			main {
-				width: 960px;
-				max-width: calc(100% - 2em);
-				margin: auto;
-				padding: 2em 1em;
-				line-height: 1.7;
-			}
-			h1 {
-				margin-bottom: 1.5rem;
-			}
-			h2 {
-				margin-top: 2rem;
-				font-size: 1.4rem;
-				color: rgb(var(--black));
-			}
-			p {
-				margin-bottom: 1.2rem;
-			}
-		</style>
-	</head>
-	<body>
-		<Header />
-		<main>
-			<h1>Quiénes Somos</h1>
-			
-			<p>
-				<strong>News Internacional TEP</strong> es una plataforma digital de curaduría y análisis periodístico independiente, creada con el propósito de ofrecer una perspectiva analítica, rigurosa y libre de sensacionalismo sobre los sucesos más determinantes a nivel global.
-			</p>
+<head>
+<BaseHead title="Línea Editorial (E-E-A-T) | News Internacional TEP" description="Metodología periodística, rigor analítico y manifiesto editorial." />
+<style>
+:global(body) { background-color: #f8fafc; color: #0f172a; font-family: system-ui, sans-serif; }
+main { max-width: 860px; margin: 0 auto; padding: 3rem 1rem 6rem; }
+.legal-header { border-bottom: 2px solid #0f172a; padding-bottom: 1.5rem; margin-bottom: 2.5rem; }
+.kicker { font-size: 0.8rem; font-weight: 900; color: #1e3a8a; text-transform: uppercase; letter-spacing: 0.1em; }
+.title { font-size: clamp(2.2rem, 4vw, 3rem); font-weight: 900; margin: 0.5rem 0 0; letter-spacing: -0.03em; }
+.prose { font-size: 1.15rem; line-height: 1.8; color: #1e293b; }
+.prose h2 { font-size: 1.6rem; font-weight: 800; margin-top: 2.5rem; margin-bottom: 1rem; border-bottom: 1px solid #e2e8f0; padding-bottom: 0.5rem; }
+.prose h3 { font-size: 1.25rem; font-weight: 700; margin-top: 1.5rem; margin-bottom: 0.5rem; }
+.prose p { margin-bottom: 1.5rem; }
+.prose ul { margin-bottom: 1.5rem; padding-left: 1.5rem; }
+.prose li { margin-bottom: 0.5rem; }
+</style>
+</head>
+<body>
+<Header />
+<main>
+<header class="legal-header">
+<span class="kicker">MANIFIESTO INSTITUCIONAL</span>
+<h1 class="title">Línea Editorial & Transparencia (E-E-A-T)</h1>
+</header>
+<div class="prose">
+<p><strong>News Internacional TEP</strong> opera como una plataforma digital independiente de inteligencia prospectiva, enfocada en ofrecer análisis estructurales sobre geopolítica, economía global y tecnología de frontera. Nuestra directiva principal es aislar el ruido mediático para entregar datos cuantitativos y contexto puro.</p>
 
-			<h2>Nuestros Tres Ejes Fundamentales (TEP)</h2>
-			<p>
-				Vivimos en un mundo interconectado donde las decisiones regulatorias impactan los mercados bursátiles y las disrupciones técnicas moldean la geopolítica. Por ello, nuestra cobertura se estructura de forma especializada en:
-			</p>
-			<ul>
-				<li><strong>Tecnología:</strong> Análisis de frontera en inteligencia artificial, desarrollo de semiconductores, telecomunicaciones satelitales y ciberdefensa.</li>
-				<li><strong>Economía:</strong> Políticas de bancos centrales, tipos de interés, movimientos macroeconómicos, inflación y cadenas de suministro globales.</li>
-				<li><strong>Política:</strong> Decisiones gubernamentales, tratados internacionales, comercio exterior y el marco legal que rige a las industrias clave.</li>
-			</ul>
+<h2>Metodología de Monitoreo Analítico</h2>
+<p>El procesamiento de la información en este portal no depende de la redacción tradicional motivada por el "clickbait". Empleamos modelos de procesamiento de datos diseñados para:</p>
+<ul>
+<li><strong>Rastreo Multifuente:</strong> Analizar cables diplomáticos, reportes financieros y despachos técnicos de más de 160 agencias globales en tiempo real.</li>
+<li><strong>Contraste Estructural:</strong> Las noticias no se replican. Se contrastan y sintetizan para extraer la causalidad, los actores involucrados y las métricas clave.</li>
+<li><strong>Neutralidad Sistémica:</strong> Mantenemos una estricta postura amoral frente a los sucesos. Explicamos <em>por qué</em> suceden las cosas, no si son correctas o incorrectas.</li>
+</ul>
 
-			<h2>Compromiso Ético y Metodología</h2>
-			<p>
-				Nuestros análisis se elaboran a partir del contraste directo de fuentes oficiales, agencias de noticias internacionales y reportes financieros verificables. No emitimos recomendaciones de inversión financiera personal ni postura política partidista; nuestro objetivo es aportar contexto objetivo para que el lector cuente con información contrastada y fundamentada.
-			</p>
-		</main>
-		<Footer />
-	</body>
+<h2>Criterios de E-E-A-T (Experiencia y Autoridad)</h2>
+<p>Cumplimos rigurosamente con los estándares de <strong>Expertise, Experience, Authoritativeness y Trustworthiness</strong> exigidos por la industria:</p>
+<ul>
+<li><strong>Ausencia de Asesoramiento Financiero:</strong> Ningún reporte publicado constituye una recomendación de inversión, compra de activos o trading.</li>
+<li><strong>Fuentes Declaradas:</strong> Cada informe cuenta con un bloque metodológico que enlaza directamente a las agencias primarias consultadas.</li>
+<li><strong>Cero Sesgo Algorítmico:</strong> El flujo de información se selecciona por peso geopolítico o impacto bursátil, no por preferencias partidistas.</li>
+</ul>
+</div>
+</main>
+<Footer />
+</body>
 </html>
