@@ -8,6 +8,7 @@ day: 'numeric',
 ---
 
 <header class="nyt-header">
+<!-- 1. Barra superior de datos y canal en vivo -->
 <div class="top-utility-bar">
 <div class="utility-left">
 <span class="edition-badge">Edición Internacional</span>
@@ -21,21 +22,30 @@ day: 'numeric',
 </div>
 </div>
 
+<!-- 2. Masthead con logotipo y enlaces seccionados -->
 <div class="masthead">
-<a href="/" class="masthead-brand">
 <span class="sub-head">El Diario Analítico Global</span>
-<h1 class="main-title">NEWS INTERNACIONAL <span>TEP</span></h1>
-<span class="tagline">TECNOLOGÍA • ECONOMÍA • POLÍTICA INTERNACIONAL</span>
-</a>
+<h1 class="main-title">
+<a href="/" class="brand-link">NEWS INTERNACIONAL <span>TEP</span></a>
+</h1>
+<!-- Sub-encabezado seccionado con enlaces directos -->
+<div class="tagline-nav">
+<a href="/categoria/tecnologia" class="tagline-link">TECNOLOGÍA</a>
+<span class="dot">•</span>
+<a href="/categoria/economia" class="tagline-link">ECONOMÍA</a>
+<span class="dot">•</span>
+<a href="/categoria/geopolitica" class="tagline-link">POLÍTICA INTERNACIONAL</a>
+</div>
 </div>
 
+<!-- 3. Navegación temática -->
 <nav class="nav-sections">
 <div class="nav-wrap">
 <a href="/" class="nav-link">Portada</a>
 <a href="/categoria/geopolitica" class="nav-link">Geopolítica</a>
 <a href="/categoria/economia" class="nav-link">Economía & Mercados</a>
 <a href="/categoria/tecnologia" class="nav-link">Inteligencia Artificial & Tech</a>
-<a href="/about" class="nav-link">Línea Editorial (E-E-A-T)</a>
+<a href="/about" class="nav-link">Línea Editorial</a>
 </div>
 </nav>
 </header>
@@ -83,23 +93,21 @@ width: 8px;
 height: 8px;
 background: #dc2626;
 border-radius: 50%;
-box-shadow: 0 0 0 0 rgba(220, 38, 38, 0.7);
 animation: pulse 1.6s infinite;
 }
 @keyframes pulse {
-0% { transform: scale(0.95); box-shadow: 0 0 0 0 rgba(220, 38, 38, 0.7); }
-70% { transform: scale(1); box-shadow: 0 0 0 7px rgba(220, 38, 38, 0); }
-100% { transform: scale(0.95); box-shadow: 0 0 0 0 rgba(220, 38, 38, 0); }
+0% { transform: scale(0.95); opacity: 0.8; }
+70% { transform: scale(1.1); opacity: 1; }
+100% { transform: scale(0.95); opacity: 0.8; }
 }
 .masthead {
 text-align: center;
 padding: 1.8rem 1rem 1.2rem;
 border-bottom: 1px solid #121212;
 }
-.masthead-brand {
+.brand-link {
 text-decoration: none;
 color: inherit;
-display: inline-block;
 }
 .sub-head {
 font-family: "Georgia", serif;
@@ -124,13 +132,28 @@ text-transform: uppercase;
 color: #1e3a8a;
 font-style: italic;
 }
-.tagline {
-display: block;
-font-size: 0.68rem;
+.tagline-nav {
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 0.8rem;
+margin-top: 0.7rem;
+}
+.tagline-link {
+font-size: 0.72rem;
 font-weight: 800;
-letter-spacing: 0.18em;
-color: #64748b;
-margin-top: 0.6rem;
+letter-spacing: 0.14em;
+color: #475569;
+text-decoration: none;
+transition: color 0.15s ease;
+}
+.tagline-link:hover {
+color: #1e3a8a;
+text-decoration: underline;
+}
+.dot {
+color: #94a3b8;
+font-size: 0.8rem;
 }
 .nav-sections {
 border-top: 1px solid #e2e8f0;
@@ -162,6 +185,7 @@ border-bottom-color: #1e3a8a;
 }
 @media (max-width: 768px) {
 .utility-left { display: flex; flex-direction: column; gap: 2px; }
+.tagline-nav { flex-wrap: wrap; gap: 0.4rem; font-size: 0.68rem; }
 .nav-wrap { justify-content: flex-start; overflow-x: auto; white-space: nowrap; gap: 0 1.2rem; }
 }
 </style>
