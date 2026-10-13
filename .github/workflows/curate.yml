@@ -36,7 +36,7 @@ jobs:
         run: |
           git config --global user.name "TEP Automated Bot"
           git config --global user.email "bot@newsinternacionaltep.com"
-          git add src/content/blog/
+          git add src/content/blog/ history.json
           if git diff --staged --quiet; then
             echo "No se encontraron noticias nuevas para publicar."
           else

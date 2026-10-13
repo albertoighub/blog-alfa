@@ -6,11 +6,15 @@ import feedparser
 from google import genai
 from google.genai import types
 
-# 1. Conexión con Gemini
+# 1. Configuración de API y almacenamiento
 client = genai.Client()
 MODELO = "gemini-3.5-flash-lite"
+OUTPUT_DIR = os.path.join("src", "content", "blog")
+HISTORY_FILE = "history.json"
 
-# 2. Fuentes RSS organizadas por los 3 ejes editoriales de TEP
+os.makedirs(OUTPUT_DIR, exist_ok=True)
+
+# 2. Fuentes RSS clasificadas por categoría
 FEEDS = {
     "Tecnología": [
         "https://techcrunch.com/feed/",
@@ -23,11 +27,7 @@ FEEDS = {
     ],
 }
 
-# Ruta directa hacia la carpeta donde Astro guarda los artículos
-OUTPUT_DIR = os.path.join("src", "content", "blog")
-os.makedirs(OUTPUT_DIR, exist_ok=True)
-
-# 3. Directrices editoriales estructuradas
+# 3. Directriz editorial neutral para AdSense E-E-A-T
 SYSTEM_INSTRUCTION = """Eres un analista periodístico especializado en Tecnología, Economía y Política global para el portal 'News Internacional TEP'.
 Tu tarea es tomar una noticia cruda y transformarla en un análisis profundo, objetivo e imparcial.
 
@@ -43,8 +43,23 @@ Directrices editoriales estrictas:
    - "content": Cuerpo completo del análisis redactado en formato Markdown (usa subtítulos ##, listas con viñetas y párrafos bien estructurados).
    - "sources_summary": Párrafo breve resumiendo las posturas o datos oficiales mencionados."""
 
+def cargar_historial() -> list:
+    """Recupera los enlaces de noticias ya procesadas con anterioridad."""
+    if os.path.exists(HISTORY_FILE):
+        try:
+            with open(HISTORY_FILE, "r", encoding="utf-8") as f:
+                return json.load(f)
+        except Exception:
+            return []
+    return []
+
+def guardar_historial(historial: list):
+    """Guarda de forma persistente los enlaces procesados."""
+    with open(HISTORY_FILE, "w", encoding="utf-8") as f:
+        json.dump(historial, f, indent=2, ensure_ascii=False)
+
 def procesar_noticia(entry, categoria: str):
-    """Envía la noticia a Gemini para su análisis y redacción estructurada."""
+    """Envía la noticia a Gemini para estructuración analítica."""
     prompt = f"""
     Procesa la siguiente noticia informativa:
     - Categoría base: {categoria}
@@ -65,13 +80,13 @@ def procesar_noticia(entry, categoria: str):
         )
         return json.loads(response.text)
     except Exception as e:
-        print(f"[!] Error al procesar noticia: {e}")
+        print(f"[!] Error al procesar noticia con Gemini: {e}")
         return None
 
 def guardar_articulo(data: dict, fuente_original: str):
-    """Escribe el archivo .md con Frontmatter directamente en la colección de Astro."""
+    """Genera el archivo .md compatible con las colecciones de contenido de Astro."""
     slug = slugify(data["title"][:50])
-    fecha_actual = datetime.utcnow().strftime("%Y-%m-%d")
+    fecha_actual = datetime.now().strftime("%Y-%m-%d")
     nombre_archivo = f"{fecha_actual}-{slug}.md"
     ruta_completa = os.path.join(OUTPUT_DIR, nombre_archivo)
 
@@ -98,26 +113,41 @@ canonicalSource: "{fuente_original}"
     with open(ruta_completa, "w", encoding="utf-8") as f:
         f.write(contenido_md)
 
-    print(f"[+] Artículo generado y guardado: {nombre_archivo}")
+    print(f"[+] Artículo generado: {nombre_archivo}")
 
 def ejecutar_pipeline():
-    """Ejecuta la extracción y procesa 1 noticia reciente por categoría."""
-    print("=== Iniciando Pipeline de Noticias TEP ===")
+    """Ejecuta la curaduría evitando duplicados históricos."""
+    print("=== Iniciando Pipeline de Noticias TEP con Antiduplicados ===")
+    historial = cargar_historial()
+    nuevos_procesados = 0
+
     for categoria, urls in FEEDS.items():
         for url in urls:
-            print(f"[*] Consultando feed de {categoria}...")
+            print(f"[*] Revisando feed de {categoria}...")
             feed = feedparser.parse(url)
 
-            if feed.entries:
-                noticia = feed.entries[0]
-                print(f" -> Procesando: {noticia.get('title', 'Sin título')}")
-                resultado = procesar_noticia(noticia, categoria)
+            # Buscar la primera noticia no procesada en el feed
+            noticia_objetivo = None
+            for entry in feed.entries:
+                link = entry.get("link", "")
+                if link and link not in historial:
+                    noticia_objetivo = entry
+                    break
+
+            if noticia_objetivo:
+                link = noticia_objetivo.get("link", "")
+                print(f" -> Procesando nueva noticia: {noticia_objetivo.get('title', 'Sin título')}")
+                resultado = procesar_noticia(noticia_objetivo, categoria)
 
                 if resultado:
-                    guardar_articulo(resultado, noticia.get("link", ""))
+                    guardar_articulo(resultado, link)
+                    historial.append(link)
+                    guardar_historial(historial)
+                    nuevos_procesados += 1
             else:
-                print(f"[!] No se encontraron entradas en: {url}")
-    print("=== Pipeline finalizado con éxito ===")
+                print(f" [=] No hay noticias nuevas en {categoria} (todas procesadas).")
+
+    print(f"=== Pipeline finalizado: {nuevos_procesados} artículos nuevos añadidos ===")
 
 if __name__ == "__main__":
     ejecutar_pipeline()
