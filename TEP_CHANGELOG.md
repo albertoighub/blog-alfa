@@ -28,3 +28,9 @@
 - **Objetivo:** Resolver el error de "Build failed" en Cloudflare causado por el generador RSS.
 - **Cambios Aplicados:**
   1. Refactorización de ss.xml.js para añadir tolerancia a fallos. Si un artículo (ej. generado por el bot) tiene metadatos incompletos o fechas no parseables, el feed lo ignorará en lugar de abortar la compilación de Astro.
+## [2026-10-14 03:33] - HOTFIX: Flujo de Git del Bot (Exit Code 128)
+- **Archivos Modificados:** .github/workflows/curate.yml
+- **Objetivo:** Resolver el error cannot pull with rebase: You have unstaged changes durante la publicación automatizada.
+- **Cambios Aplicados:**
+  1. Reordenado el flujo de comandos de Git. Ahora el bot hace git add . y git commit ANTES de ejecutar git pull --rebase.
+  2. Esto asegura que los archivos generados por la IA estén empaquetados y Git pueda fusionar el historial limpiamente si hubo cambios manuales simultáneos.
