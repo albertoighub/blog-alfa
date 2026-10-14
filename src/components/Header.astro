@@ -701,9 +701,10 @@ gap: 0.8rem;
 }
 .result-item-card {
 display: flex;
+flex-direction: row !important; /* Fuerza diseño en línea */
 align-items: flex-start;
 gap: 1.2rem;
-padding: 0.9rem;
+padding: 1rem;
 border-radius: 6px;
 border: 1px solid #e2e8f0;
 background: #ffffff;
@@ -717,8 +718,8 @@ background: #fef2f2;
 transform: translateX(3px);
 }
 .result-thumb {
-width: 70px;
-height: 70px;
+width: 140px !important;
+height: 90px !important;
 object-fit: cover;
 border-radius: 6px;
 flex-shrink: 0;
@@ -728,9 +729,9 @@ border: 1px solid #e2e8f0;
 flex: 1;
 display: flex;
 flex-direction: column;
-justify-content: center;
+justify-content: flex-start;
 }
-.result-meta-row {
+	.result-meta-row {
 display: flex;
 align-items: center;
 gap: 0.6rem;

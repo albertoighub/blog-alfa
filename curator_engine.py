@@ -59,26 +59,7 @@ FEEDS = {
     ],
 }
 
-IMAGENES_EDITORIALES = {
-    "Geopolítica": [
-        "https://images.unsplash.com/photo-1541872703-74c5e44368f9?auto=format&fit=crop&w=1400&q=80",
-        "https://images.unsplash.com/photo-1526778548025-fa2f459cd5c1?auto=format&fit=crop&w=1400&q=80",
-        "https://images.unsplash.com/photo-1577495508048-b635879837f1?auto=format&fit=crop&w=1400&q=80",
-        "https://images.unsplash.com/photo-1509062522246-3755977927d7?auto=format&fit=crop&w=1400&q=80",
-    ],
-    "Economía": [
-        "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?auto=format&fit=crop&w=1400&q=80",
-        "https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?auto=format&fit=crop&w=1400&q=80",
-        "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1400&q=80",
-        "https://images.unsplash.com/photo-1559526324-4b87b5e36e44?auto=format&fit=crop&w=1400&q=80",
-    ],
-    "Tecnología": [
-        "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=1400&q=80",
-        "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1400&q=80",
-        "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?auto=format&fit=crop&w=1400&q=80",
-        "https://images.unsplash.com/photo-1531297484001-80022131f5a1?auto=format&fit=crop&w=1400&q=80",
-    ],
-}
+# Imágenes Dinámicas Generadas por IA
 
 # 3. Directriz Editorial de Revista Científica y Arbitraje de Inteligencia
 SYSTEM_INSTRUCTION = """Actúa como el Director de un Instituto Científico de Inteligencia y Revista de Prospectiva Internacional (al nivel de 'Foreign Affairs', 'Nature' y 'Financial Times').
@@ -188,8 +169,8 @@ def guardar_paper(data: dict, fuente_original: str) -> str:
 
     tags_formateados = json.dumps(data.get("tags", []))
     categoria = data.get("category", "Geopolítica")
-    lista_imgs = IMAGENES_EDITORIALES.get(categoria, IMAGENES_EDITORIALES["Geopolítica"])
-    imagen_hero = random.choice(lista_imgs)
+    prompt_img = urllib.parse.quote(f"Professional high quality news editorial photography, realistic, regarding {data['title'][:80]}")
+    imagen_hero = f"https://image.pollinations.ai/prompt/{prompt_img}?width=1200&height=630&nologo=true"
 
     metrics_list = data.get("metrics", [])
     metrics_block = ""
