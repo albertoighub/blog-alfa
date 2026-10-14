@@ -6,7 +6,15 @@ const today = new Date();
 <div class="footer-wrap">
 <div class="footer-brand">
 <div class="footer-logo-row">
-<img src="/logo.jpg" alt="TEP NEWS" class="footer-emblem" width="40" height="40" loading="lazy" />
+<img 
+src="/logo.png" 
+alt="TEP NEWS" 
+class="footer-emblem" 
+width="42" 
+height="42" 
+loading="lazy" 
+onerror="if(!this.dataset.retry){this.dataset.retry=1;this.src='/logo.jpg';}else if(this.dataset.retry==1){this.dataset.retry=2;this.src='/Logo.jpg';}else if(this.dataset.retry==2){this.dataset.retry=3;this.src='/Logo.png';}"
+/>
 <h3 class="footer-title">NEWS INTERNACIONAL <span class="footer-badge">TEP</span></h3>
 </div>
 <p class="footer-mission">
@@ -62,6 +70,8 @@ margin-bottom: 0.9rem;
 .footer-emblem {
 border-radius: 50%;
 border: 1px solid #1f2937;
+background: #050505;
+object-fit: cover;
 }
 .footer-title {
 font-size: 1.35rem;
