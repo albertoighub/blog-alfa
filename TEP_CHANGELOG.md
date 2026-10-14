@@ -46,3 +46,6 @@
 - **Cambios Aplicados:**
   1. Integración de validación de palabras clave de ruido visual (	axi, car, street, driver, ehicle) en la selección de la foto de prensa original.
   2. Optimización del prompt de respaldo por IA para forzar la representación de centros de datos, servidores y redes de fibra óptica en lugar de transporte urbano.
+## [2026-10-14 04:38] - HOTFIX Visual: Corrección de Portada en Artículo de Yandex
+- **Archivos Modificados:** src/content/blog/2026-10-14-fragilidad-digital-de-asia-central-ante-ataques-a-yande.md
+- **Objetivo:** Sustituir la fotografía de transporte urbano (taxi) por una representación gráfica de centros de datos y ciberinfraestructura.
