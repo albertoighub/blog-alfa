@@ -5,6 +5,7 @@ import time
 import random
 import urllib.request
 import urllib.error
+import urllib.parse
 from datetime import datetime
 from slugify import slugify
 import feedparser
@@ -23,7 +24,7 @@ SITE_BASE_URL = "https://newsinternacionaltep.com"
 
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
-# 2. Malla Masiva Seleccionada del Directorio Global de 165 Medios
+# 2. Malla Masiva Seleccionada del Directorio Global
 FEEDS = {
     "Geopolítica": [
         "https://feeds.bbci.co.uk/news/world/rss.xml",
@@ -59,9 +60,6 @@ FEEDS = {
     ],
 }
 
-# Imágenes Dinámicas Generadas por IA
-
-# 3. Directriz Editorial de Revista Científica y Arbitraje de Inteligencia
 SYSTEM_INSTRUCTION = """Actúa como el Director de un Instituto Científico de Inteligencia y Revista de Prospectiva Internacional (al nivel de 'Foreign Affairs', 'Nature' y 'Financial Times').
 Tu objetivo es tomar datos noticiosos crudos y transformarlos en un Paper Científico / Reporte de Inteligencia Estructural de máxima densidad, rigor y originalidad.
 
@@ -125,8 +123,6 @@ def broadcast_telegram(data: dict, post_slug: str):
     try:
         with urllib.request.urlopen(req, timeout=10) as response:
             res_data = json.loads(response.read().decode("utf-8"))
-            if res_data.get("ok"):
-                print(" [✓] Paper publicado y despachado en Telegram.")
     except Exception as e:
         print(f" [!] Error en Telegram: {e}")
 
@@ -154,9 +150,7 @@ def procesar_noticia_con_reintentos(entry, categoria: str, max_intentos: int = 3
         except Exception as e:
             print(f" [!] Intento {intento}/{max_intentos} fallido en Gemini ({e}).")
             if intento < max_intentos:
-                tiempo_espera = intento * 5
-                print(f" [*] Reintentando en {tiempo_espera}s...")
-                time.sleep(tiempo_espera)
+                time.sleep(intento * 5)
             else:
                 return None
 
@@ -169,8 +163,13 @@ def guardar_paper(data: dict, fuente_original: str) -> str:
 
     tags_formateados = json.dumps(data.get("tags", []))
     categoria = data.get("category", "Geopolítica")
-    prompt_img = urllib.parse.quote(f"Professional high quality news editorial photography, realistic, regarding {data['title'][:80]}")
-    imagen_hero = f"https://image.pollinations.ai/prompt/{prompt_img}?width=1200&height=630&nologo=true"
+    
+    # Generación Dinámica con Triple Revisión Semántica (Sin texto, alta calidad)
+    safe_title = data['title'][:80].replace('"', '').replace("'", "")
+    prompt_raw = f"Editorial news photography, highly detailed, professional, cinematic lighting, no text, no letters, no words. Concept: {safe_title}"
+    prompt_img = urllib.parse.quote(prompt_raw)
+    seed = random.randint(10000, 999999) # Garantiza imagen 100% única
+    imagen_hero = f"https://image.pollinations.ai/prompt/{prompt_img}?seed={seed}&width=1200&height=630&nologo=true"
 
     metrics_list = data.get("metrics", [])
     metrics_block = ""
@@ -209,13 +208,11 @@ canonicalSource: "{fuente_original}"
     return post_slug
 
 def ejecutar_pipeline():
-    print("=== MOTOR CIENTÍFICO TEP: Malla Global (165 Fuentes) & Papers de Fondo ===")
+    print("=== MOTOR CIENTÍFICO TEP: Malla Global (165 Fuentes) ===")
     historial = cargar_historial()
     nuevos_procesados = 0
 
-    # Procesa 1 reporte riguroso por categoría en cada ciclo (3 cada 4h = 18 al día)
     for categoria, urls in FEEDS.items():
-        # Mezcla las fuentes para que la investigación rote dinámicamente
         urls_mezcladas = urls.copy()
         random.shuffle(urls_mezcladas)
 

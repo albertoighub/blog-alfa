@@ -4,7 +4,7 @@ description: "Evaluación prospectiva sobre la sucesión pontificia tras la lobe
 pubDate: "2026-10-14"
 category: "Geopolítica"
 tags: ["Geopol\u00edtica Vaticana", "Sucesi\u00f3n Papal", "Diplomacia Internacional", "Estabilidad Institucional", "Biopol\u00edtica Eclesi\u00e1stica"]
-heroImage: "https://images.unsplash.com/photo-1541872703-74c5e44368f9?auto=format&fit=crop&w=1400&q=80"
+heroImage: "https://image.pollinations.ai/prompt/Editorial%20news%20photography%2C%20highly%20detailed%2C%20professional%2C%20cinematic%20lighting%2C%20no%20text%2C%20no%20letters.%20Concept%3A%20Implicaciones%20Geopol%C3%ADticas%20y%20Sist%C3%A9micas%20de%20la%20Intervenci%C3%B3n%20Quir%C3%BArgica%20?seed=319844&width=1200&height=630&nologo=true"
 canonicalSource: "https://www.bbc.co.uk/news/articles/ck1wvd9dvv22o?at_medium=RSS&at_campaign=rss"
 ---
 

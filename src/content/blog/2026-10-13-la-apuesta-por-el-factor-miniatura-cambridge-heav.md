@@ -4,7 +4,7 @@ description: "Análisis profundo sobre el desarrollo silencioso de dispositivos 
 pubDate: "2026-10-13"
 category: "Tecnología"
 tags: ["Fusi\u00f3n Nuclear", "Geopol\u00edtica Energ\u00e9tica", "Tecnolog\u00eda L\u00e1ser", "Transici\u00f3n Energ\u00e9tica", "Innovaci\u00f3n Industrial"]
-heroImage: "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?auto=format&fit=crop&w=1200&q=80"
+heroImage: "https://image.pollinations.ai/prompt/Editorial%20news%20photography%2C%20highly%20detailed%2C%20professional%2C%20cinematic%20lighting%2C%20no%20text%2C%20no%20letters.%20Concept%3A%20La%20Apuesta%20por%20el%20Factor%20Miniatura%3A%20Cambridge%20Heavy%20Industries%20y%20el%20De?seed=139830&width=1200&height=630&nologo=true"
 canonicalSource: "https://techcrunch.com/2026/10/13/cambridge-heavy-industries-has-been-quietly-building-a-desktop-fusion-device/"
 ---
 

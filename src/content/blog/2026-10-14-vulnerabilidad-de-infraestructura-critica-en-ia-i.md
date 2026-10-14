@@ -4,7 +4,7 @@ description: "Análisis de inteligencia sobre la brecha de seguridad física y e
 pubDate: "2026-10-14"
 category: "Tecnología"
 tags: ["Ciberespionaje", "Seguridad Nacional", "Inteligencia Artificial", "Infraestructura Cr\u00edtica", "Geopol\u00edtica Tecnol\u00f3gica"]
-heroImage: "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1400&q=80"
+heroImage: "https://image.pollinations.ai/prompt/Editorial%20news%20photography%2C%20highly%20detailed%2C%20professional%2C%20cinematic%20lighting%2C%20no%20text%2C%20no%20letters.%20Concept%3A%20Vulnerabilidad%20de%20Infraestructura%20Cr%C3%ADtica%20en%20IA%3A%20Infiltraci%C3%B3n%20de%20Espio?seed=382299&width=1200&height=630&nologo=true"
 canonicalSource: "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-engineer-arrested-for-allegedly-planting-spy-device-in-office/"
 ---
 

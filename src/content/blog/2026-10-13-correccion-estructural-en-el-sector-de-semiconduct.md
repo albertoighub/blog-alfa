@@ -4,7 +4,7 @@ description: "Análisis prospectivo sobre la contracción bursátil en el sector
 pubDate: "2026-10-13"
 category: "Economía"
 tags: ["Semiconductores", "Mercados Financieros", "Inteligencia Artificial", "Riesgo Sist\u00e9mico", "Prospectiva Econ\u00f3mica"]
-heroImage: "https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?auto=format&fit=crop&w=1400&q=80"
+heroImage: "https://image.pollinations.ai/prompt/Editorial%20news%20photography%2C%20highly%20detailed%2C%20professional%2C%20cinematic%20lighting%2C%20no%20text%2C%20no%20letters.%20Concept%3A%20Correcci%C3%B3n%20Estructural%20en%20el%20Sector%20de%20Semiconductores%3A%20Fatiga%20de%20Capi?seed=983921&width=1200&height=630&nologo=true"
 canonicalSource: "https://www.marketwatch.com/story/ai-fatigue-is-gripping-the-market-and-driving-chip-stocks-toward-their-worst-stretch-in-16-months-6dc78ece?mod=mw_rss_topstories"
 ---
 

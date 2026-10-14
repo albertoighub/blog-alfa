@@ -4,7 +4,7 @@ description: "Análisis profundo sobre el impacto del ataque aéreo en Saná, la
 pubDate: "2026-10-13"
 category: "Geopolítica"
 tags: ["Medio Oriente", "Seguridad Energ\u00e9tica", "Conflicto Yemen", "Geopol\u00edtica", "Petr\u00f3leo"]
-heroImage: "https://images.unsplash.com/photo-1509062522246-3755977927d7?auto=format&fit=crop&w=1200&q=80"
+heroImage: "https://image.pollinations.ai/prompt/Editorial%20news%20photography%2C%20highly%20detailed%2C%20professional%2C%20cinematic%20lighting%2C%20no%20text%2C%20no%20letters.%20Concept%3A%20La%20Fractura%20Energ%C3%A9tica%20en%20el%20Mar%20Rojo%3A%20Prospectiva%20de%20una%20Escalada%20Geo?seed=179172&width=1200&height=630&nologo=true"
 canonicalSource: "https://www.bbc.co.uk/news/articles/crx2d60y1py3o?at_medium=RSS&at_campaign=rss"
 ---
 

@@ -4,7 +4,7 @@ description: "Evaluación analítica sobre la medida cautelar que frena la restr
 pubDate: "2026-10-14"
 category: "Geopolítica"
 tags: ["Derecho Constitucional", "Libertad de Prensa", "Jurisprudencia Federal", "Poder Ejecutivo", "Litigio Estrat\u00e9gico"]
-heroImage: "https://images.unsplash.com/photo-1509062522246-3755977927d7?auto=format&fit=crop&w=1400&q=80"
+heroImage: "https://image.pollinations.ai/prompt/Editorial%20news%20photography%2C%20highly%20detailed%2C%20professional%2C%20cinematic%20lighting%2C%20no%20text%2C%20no%20letters.%20Concept%3A%20Litigio%20Constitucional%20y%20Libertad%20de%20Prensa%3A%20An%C3%A1lisis%20de%20la%20Inovaci%C3%B3n%20?seed=207316&width=1200&height=630&nologo=true"
 canonicalSource: "https://thehill.com/regulation/court-battles/6147113-judge-extends-block-trump-media-ban/"
 ---
 

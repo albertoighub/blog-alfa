@@ -4,7 +4,7 @@ description: "Las nuevas aplicaciones de tecnología financiera exponen el estr�
 pubDate: "2026-10-13"
 category: "Economía"
 tags: ["Fintech", "Psicolog\u00eda del consumidor", "Econom\u00eda conductual", "Banca digital", "Inflaci\u00f3n"]
-heroImage: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1200&q=80"
+heroImage: "https://image.pollinations.ai/prompt/Editorial%20news%20photography%2C%20highly%20detailed%2C%20professional%2C%20cinematic%20lighting%2C%20no%20text%2C%20no%20letters.%20Concept%3A%20La%20ansiedad%20financiera%20reconfigura%20el%20ecosistema%20fintech%3A%20del%20consumo%20?seed=276627&width=1200&height=630&nologo=true"
 canonicalSource: "https://www.marketwatch.com/story/fake-shopping-sprees-and-happiness-insurance-the-latest-fintech-apps-reveal-our-financial-anxieties-77770a46?mod=mw_rss_topstories"
 ---
 

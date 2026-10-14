@@ -1,44 +1,47 @@
-﻿name: Monitoreo y Publicacion Periodica TEP
+﻿name: Ejecutor Periodistico TEP
 
 on:
   schedule:
-    # Se ejecuta de forma 100% autónoma cada 4 horas
     - cron: '0 */4 * * *'
-  workflow_dispatch: # Permite ejecución manual bajo demanda desde GitHub
+  workflow_dispatch:
 
 permissions:
   contents: write
 
 jobs:
-  curate-and-publish:
+  curar_noticias:
     runs-on: ubuntu-latest
     steps:
-      - name: Descargar repositorio
-        uses: actions/checkout@v4
+      - name: Descargar Repositorio
+        uses: actions/checkout@v3
         with:
           fetch-depth: 0
 
-      - name: Configurar entorno Python
-        uses: actions/setup-python@v5
+      - name: Configurar Python
+        uses: actions/setup-python@v4
         with:
-          python-version: '3.11'
+          python-version: '3.10'
 
-      - name: Instalar dependencias
+      - name: Instalar Dependencias de Motor
         run: |
-          pip install google-genai feedparser python-slugify
+          pip install feedparser python-slugify google-genai
 
-      - name: Ejecutar Motor Editorial Multi-Dominio
+      - name: Ejecutar Motor Analitico TEP
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHANNEL_ID: ${{ secrets.TELEGRAM_CHANNEL_ID }}
-        run: |
-          python curator_engine.py
+        run: python curator_engine.py
 
-      - name: Publicar nuevos informes en el repositorio
+      - name: Sincronizar y Publicar
         run: |
-          git config user.name "Redaccion TEP Bot"
-          git config user.email "bot@newsinternacionaltep.com"
-          git pull --rebase origin main
-          git add src/content/blog/ history.json
-          git diff --quiet && git diff --staged --quiet || (git commit -m "chore(auto): publicacion periodica de informes de investigacion [skip ci]" && git push origin main)
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add src/content/blog/*.md history.json
+          if git diff --staged --quiet; then
+            echo "No hay noticias nuevas para publicar."
+          else
+            git commit -m "🤖 [TEP-AI] Nuevos Papers Cientificos Publicados"
+            git pull --rebase origin main
+            git push origin main
+          fi

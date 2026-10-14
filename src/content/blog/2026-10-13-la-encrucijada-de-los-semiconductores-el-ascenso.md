@@ -4,7 +4,7 @@ description: "Análisis profundo sobre la contracción bursátil de Micron ante 
 pubDate: "2026-10-13"
 category: "Economía"
 tags: ["Semiconductores", "Micron", "China", "Geopol\u00edtica Tecnol\u00f3gica", "Mercados Financieros"]
-heroImage: "https://images.unsplash.com/photo-1559526324-4b87b5e36e44?auto=format&fit=crop&w=1200&q=80"
+heroImage: "https://image.pollinations.ai/prompt/Editorial%20news%20photography%2C%20highly%20detailed%2C%20professional%2C%20cinematic%20lighting%2C%20no%20text%2C%20no%20letters.%20Concept%3A%20La%20encrucijada%20de%20los%20semiconductores%3A%20El%20ascenso%20de%20la%20industria%20chin?seed=995615&width=1200&height=630&nologo=true"
 canonicalSource: "https://www.marketwatch.com/story/microns-stock-extends-declines-as-china-competition-heats-up-b8ec25f0?mod=mw_rss_topstories"
 ---
 

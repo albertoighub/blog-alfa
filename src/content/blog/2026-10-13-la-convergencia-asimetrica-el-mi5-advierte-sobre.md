@@ -4,7 +4,7 @@ description: "Análisis profundo sobre la advertencia del MI5 respecto a las ame
 pubDate: "2026-10-13"
 category: "Geopolítica"
 tags: ["MI5", "Ciberseguridad", "Inteligencia Artificial", "Geopol\u00edtica", "Amenazas Estatales"]
-heroImage: "https://images.unsplash.com/photo-1577495508048-b635879837f1?auto=format&fit=crop&w=1200&q=80"
+heroImage: "https://image.pollinations.ai/prompt/Editorial%20news%20photography%2C%20highly%20detailed%2C%20professional%2C%20cinematic%20lighting%2C%20no%20text%2C%20no%20letters.%20Concept%3A%20La%20Convergencia%20Asim%C3%A9trica%3A%20El%20MI5%20advierte%20sobre%20la%20simbiosis%20entre%20a?seed=237770&width=1200&height=630&nologo=true"
 canonicalSource: "https://www.bbc.co.uk/news/articles/c60rl5vwpk02o?at_medium=RSS&at_campaign=rss"
 ---
 

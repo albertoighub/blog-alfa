@@ -4,7 +4,7 @@ description: "Análisis científico-institucional de la condena a 40 años por e
 pubDate: "2026-10-13"
 category: "Geopolítica"
 tags: ["Jurisprudencia", "Seguridad Nacional", "Criminolog\u00eda", "Industria Cultural", "Litigio Hist\u00f3rico"]
-heroImage: "https://images.unsplash.com/photo-1577495508048-b635879837f1?auto=format&fit=crop&w=1400&q=80"
+heroImage: "https://image.pollinations.ai/prompt/Editorial%20news%20photography%2C%20highly%20detailed%2C%20professional%2C%20cinematic%20lighting%2C%20no%20text%2C%20no%20letters.%20Concept%3A%20Resoluci%C3%B3n%20Jurisdiccional%20y%20Cierre%20del%20Litigio%20Hist%C3%B3rico%3A%20La%20Sentencia?seed=120461&width=1200&height=630&nologo=true"
 canonicalSource: "https://www.aljazeera.com/video/newsfeed/2026/10/13/tupac-shakur-killer-sentenced-to-40-years-in-prison?traffic_source=rss"
 ---
 

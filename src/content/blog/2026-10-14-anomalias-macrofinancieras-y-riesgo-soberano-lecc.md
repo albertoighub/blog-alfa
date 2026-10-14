@@ -4,7 +4,7 @@ description: "Análisis científico de las dinámicas en la deuda soberana europ
 pubDate: "2026-10-14"
 category: "Economía"
 tags: ["Deuda Soberana", "Macroeconom\u00eda", "Mercados Financieros", "Riesgo Sist\u00e9mico", "Eurozona"]
-heroImage: "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?auto=format&fit=crop&w=1400&q=80"
+heroImage: "https://image.pollinations.ai/prompt/Editorial%20news%20photography%2C%20highly%20detailed%2C%20professional%2C%20cinematic%20lighting%2C%20no%20text%2C%20no%20letters.%20Concept%3A%20Anomal%C3%ADas%20Macrofinancieras%20y%20Riesgo%20Soberano%3A%20Lecciones%20Estructurales%20?seed=122544&width=1200&height=630&nologo=true"
 canonicalSource: "https://www.economist.com/finance-and-economics/2026/10/13/how-to-lose-money-betting-against-europe"
 ---
 

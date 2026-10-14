@@ -4,7 +4,7 @@ description: "Análisis de inteligencia sobre la brecha de seguridad física en 
 pubDate: "2026-10-13"
 category: "Tecnología"
 tags: ["Contrainteligencia", "Seguridad de la Informaci\u00f3n", "Inteligencia Artificial", "OpenAI", "Riesgo Tecnol\u00f3gico"]
-heroImage: "https://images.unsplash.com/photo-1531297484001-80022131f5a1?auto=format&fit=crop&w=1400&q=80"
+heroImage: "https://image.pollinations.ai/prompt/Editorial%20news%20photography%2C%20highly%20detailed%2C%20professional%2C%20cinematic%20lighting%2C%20no%20text%2C%20no%20letters.%20Concept%3A%20Vulnerabilidad%20de%20Infraestructura%20Cr%C3%ADtica%20en%20Inteligencia%20Artificial%3A%20?seed=488167&width=1200&height=630&nologo=true"
 canonicalSource: "https://techcrunch.com/2026/10/13/fbi-arrests-openai-employee-accused-of-planting-hidden-recording-device-in-conference-room/"
 ---
 

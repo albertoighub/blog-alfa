@@ -4,7 +4,7 @@ description: "Estudio prospectivo sobre la vulnerabilidad crítica de desbordami
 pubDate: "2026-10-14"
 category: "Tecnología"
 tags: ["Ciberseguridad", "Ghostscript", "Vulnerabilidades", "Infraestructura Cr\u00edtica", "RCE"]
-heroImage: "https://images.unsplash.com/photo-1531297484001-80022131f5a1?auto=format&fit=crop&w=1400&q=80"
+heroImage: "https://image.pollinations.ai/prompt/Editorial%20news%20photography%2C%20highly%20detailed%2C%20professional%2C%20cinematic%20lighting%2C%20no%20text%2C%20no%20letters.%20Concept%3A%20Vulnerabilidad%20Estructural%20en%20el%20Interprete%20Ghostscript%20%28CVE-2026-3991?seed=610963&width=1200&height=630&nologo=true"
 canonicalSource: "https://www.bleepingcomputer.com/news/security/ghostscript-flaw-lets-hackers-hijack-servers-via-pdf-uploads/"
 ---
 

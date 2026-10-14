@@ -4,7 +4,7 @@ description: "Análisis científico sobre la contribución estructural de Hall y
 pubDate: "2026-10-14"
 category: "Economía"
 tags: ["Macroeconom\u00eda", "Pol\u00edtica Monetaria", "Nueva S\u00edntesis Neokeynesiana", "Estabilizaci\u00f3n Econ\u00f3mica", "Teor\u00eda de Expectativas"]
-heroImage: "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?auto=format&fit=crop&w=1400&q=80"
+heroImage: "https://image.pollinations.ai/prompt/Editorial%20news%20photography%2C%20highly%20detailed%2C%20professional%2C%20cinematic%20lighting%2C%20no%20text%2C%20no%20letters.%20Concept%3A%20Arquitectura%20Macroecon%C3%B3mica%20Neokeynesiana%3A%20Implicaciones%20del%20Premio%20No?seed=917632&width=1200&height=630&nologo=true"
 canonicalSource: "https://www.economist.com/finance-and-economics/2026/10/12/a-nobel-prize-for-how-to-keep-economies-on-an-even-keel"
 ---
 
