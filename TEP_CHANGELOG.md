@@ -34,3 +34,9 @@
 - **Cambios Aplicados:**
   1. Reordenado el flujo de comandos de Git. Ahora el bot hace git add . y git commit ANTES de ejecutar git pull --rebase.
   2. Esto asegura que los archivos generados por la IA estén empaquetados y Git pueda fusionar el historial limpiamente si hubo cambios manuales simultáneos.
+## [2026-10-14 03:42] - FIX: Sintaxis de Concatenación en rss.xml.js
+- **Archivos Modificados:** src/pages/rss.xml.js
+- **Objetivo:** Resolver el error de Vite PARSE_ERROR: Unterminated regular expression.
+- **Cambios Aplicados:**
+  1. Reemplazo de plantillas literales con concatenación estándar en comillas simples: '/blog/' + post.slug + '/'.
+  2. Uso de literales puros en PowerShell para evitar la supresión accidental de comillas por caracteres de escape.
