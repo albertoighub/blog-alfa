@@ -23,3 +23,8 @@
   1. Eliminada la restricción [skip ci] en el flujo de GitHub Actions.
   2. Generado obots.txt permisivo apuntando al sitemap-index.xml de Astro.
   3. Construido endpoint dinámico ss.xml.js para sindicación automatizada.
+## [2026-10-14 03:23] - HOTFIX: Falla de Compilación RSS en Cloudflare
+- **Archivos Modificados:** src/pages/rss.xml.js
+- **Objetivo:** Resolver el error de "Build failed" en Cloudflare causado por el generador RSS.
+- **Cambios Aplicados:**
+  1. Refactorización de ss.xml.js para añadir tolerancia a fallos. Si un artículo (ej. generado por el bot) tiene metadatos incompletos o fechas no parseables, el feed lo ignorará en lugar de abortar la compilación de Astro.
