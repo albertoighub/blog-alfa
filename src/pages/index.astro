@@ -45,7 +45,7 @@ margin: 0 auto;
 padding: 1.5rem 0 6rem;
 }
 
-/* 1. ÚLTIMA HORA (ROJO Y NEGRO) */
+/* 1. ÚLTIMA HORA */
 .breaking-marquee-strip {
 background: #b91c1c;
 color: #ffffff;
@@ -129,7 +129,7 @@ line-height: 1;
 100% { transform: translateX(-50%); }
 }
 
-/* 2. LOS TRES PILARES TEMÁTICOS HORIZONTALES */
+/* 2. LOS TRES PILARES */
 .three-pillars-strip {
 display: grid;
 grid-template-columns: repeat(3, 1fr);
@@ -155,7 +155,6 @@ box-sizing: border-box;
 transform: translateY(-3px);
 box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.4);
 }
-/* Diferenciación temática estricta */
 .pillar-geo { border-left: 4px solid #dc2626; }
 .pillar-geo:hover { border-color: #dc2626; }
 .pillar-fin { border-left: 4px solid #059669; }
@@ -201,7 +200,7 @@ color: #94a3b8;
 line-height: 1.35;
 }
 
-/* 3. ESTRUCTURA EDITORIAL BROADSHEET */
+/* 3. BROADSHEET */
 .broadsheet-layout {
 display: grid;
 grid-template-columns: 2.7fr 1.1fr;
@@ -235,13 +234,8 @@ margin: 0 0 1.4rem;
 letter-spacing: -0.03em;
 color: #050505;
 }
-.lead-title a {
-color: inherit;
-text-decoration: none;
-}
-.lead-title a:hover {
-color: #dc2626;
-}
+.lead-title a { color: inherit; text-decoration: none; }
+.lead-title a:hover { color: #dc2626; }
 .lead-media {
 margin-bottom: 1.6rem;
 border-radius: 6px;
@@ -256,9 +250,7 @@ object-fit: cover;
 display: block;
 transition: transform 0.4s ease;
 }
-.lead-box:hover .lead-media img {
-transform: scale(1.02);
-}
+.lead-box:hover .lead-media img { transform: scale(1.02); }
 .lead-summary {
 font-size: 1.25rem;
 line-height: 1.65;
@@ -320,13 +312,8 @@ line-height: 1.35;
 font-weight: 800;
 margin: 0 0 0.5rem;
 }
-.radar-title a {
-color: #050505;
-text-decoration: none;
-}
-.radar-title a:hover {
-color: #dc2626;
-}
+.radar-title a { color: #050505; text-decoration: none; }
+.radar-title a:hover { color: #dc2626; }
 .radar-desc {
 font-size: 0.88rem;
 color: #64748b;
@@ -334,7 +321,7 @@ line-height: 1.5;
 margin: 0 0 0.4rem;
 }
 
-/* 4. SECCIONES TEMÁTICAS */
+/* 4. SECCIONES PANORÁMICAS */
 .category-section-wrap {
 margin-bottom: 4.5rem;
 width: 100%;
@@ -398,9 +385,7 @@ object-fit: cover;
 display: block;
 transition: transform 0.4s ease;
 }
-.article-card:hover .article-img {
-transform: scale(1.04);
-}
+.article-card:hover .article-img { transform: scale(1.04); }
 .article-body {
 padding: 1.6rem;
 display: flex;
@@ -416,13 +401,8 @@ letter-spacing: -0.02em;
 margin: 0 0 0.8rem;
 color: #050505;
 }
-.article-title a {
-color: inherit;
-text-decoration: none;
-}
-.article-title a:hover {
-color: #dc2626;
-}
+.article-title a { color: inherit; text-decoration: none; }
+.article-title a:hover { color: #dc2626; }
 .article-desc {
 font-size: 0.94rem;
 color: #475569;
@@ -447,7 +427,7 @@ padding-top: 0.8rem;
 <Header />
 
 <main>
-<!-- 1. Ticker Última Hora Centrado -->
+<!-- Ticker Última Hora Centrado -->
 {breakingList.length > 0 && (
 <div class="breaking-marquee-strip">
 <div class="breaking-fixed-tag">
@@ -470,7 +450,7 @@ padding-top: 0.8rem;
 </div>
 )}
 
-<!-- 2. Los 3 Pilares Temáticos (Rojo para Geo, Verde para Finanzas, Azul para Tech) -->
+<!-- Los 3 Pilares Temáticos Estrechos y Sin Descripciones Secundarias -->
 <section class="three-pillars-strip">
 <a href="/categoria/geopolitica" class="pillar-card pillar-geo">
 <div class="pillar-icon icon-geo">
@@ -481,8 +461,8 @@ padding-top: 0.8rem;
 </svg>
 </div>
 <div class="pillar-text">
-<h4>Radar Geopolítico</h4>
-<p>Seguridad estratégica y diplomacia global</p>
+<h4>Política & Orden Global</h4>
+<p>Seguridad estratégica y diplomacia</p>
 </div>
 </a>
 
@@ -491,8 +471,8 @@ padding-top: 0.8rem;
 $
 </div>
 <div class="pillar-text">
-<h4>Mesa Macroeconómica</h4>
-<p>Bancos centrales, liquidez y divisas</p>
+<h4>Economía & Mercados</h4>
+<p>Bancos centrales y divisas</p>
 </div>
 </a>
 
@@ -506,13 +486,13 @@ $
 </svg>
 </div>
 <div class="pillar-text">
-<h4>Frontera Tecnológica</h4>
-<p>Semiconductores, IA y soberanía digital</p>
+<h4>Tecnología & IA</h4>
+<p>Semiconductores y soberanía digital</p>
 </div>
 </a>
 </section>
 
-<!-- 3. Portada Principal Broadsheet -->
+<!-- Portada Principal Broadsheet -->
 {leadStory && (
 <div class="broadsheet-layout">
 <section class="lead-box">
@@ -549,11 +529,11 @@ Por Redacción News Internacional TEP • {leadStory.data.pubDate.toLocaleDateSt
 </div>
 )}
 
-<!-- 4. Cuadrícula de Artículos por Sección -->
+<!-- Cuadrículas por Sección -->
 {postsGeopolitica.length > 0 && (
 <section class="category-section-wrap">
 <div class="section-bar">
-<h3 class="section-name" style="border-left: 4px solid #dc2626; padding-left: 0.8rem;">Geopolítica & Orden Global</h3>
+<h3 class="section-name" style="border-left: 4px solid #dc2626; padding-left: 0.8rem;">Política & Orden Global</h3>
 <a href="/categoria/geopolitica" class="section-link">Ver sección completa ({postsGeopolitica.length}) →</a>
 </div>
 <div class="articles-grid">
@@ -572,7 +552,7 @@ Por Redacción News Internacional TEP • {leadStory.data.pubDate.toLocaleDateSt
 <p class="article-desc">{post.data.description}</p>
 </div>
 <div class="article-date">
-{post.data.pubDate.toLocaleDateString('es-MX', { month: 'short', day: 'numeric', year: 'numeric' })} • TEP Geopolítica
+{post.data.pubDate.toLocaleDateString('es-MX', { month: 'short', day: 'numeric', year: 'numeric' })} • TEP Política
 </div>
 </div>
 </article>
@@ -584,7 +564,7 @@ Por Redacción News Internacional TEP • {leadStory.data.pubDate.toLocaleDateSt
 {postsEconomia.length > 0 && (
 <section class="category-section-wrap">
 <div class="section-bar">
-<h3 class="section-name" style="border-left: 4px solid #059669; padding-left: 0.8rem;">Economía, Mercados & Finanzas</h3>
+<h3 class="section-name" style="border-left: 4px solid #059669; padding-left: 0.8rem;">Economía & Mercados</h3>
 <a href="/categoria/economia" class="section-link">Ver sección completa ({postsEconomia.length}) →</a>
 </div>
 <div class="articles-grid">
@@ -615,7 +595,7 @@ Por Redacción News Internacional TEP • {leadStory.data.pubDate.toLocaleDateSt
 {postsTecnologia.length > 0 && (
 <section class="category-section-wrap">
 <div class="section-bar">
-<h3 class="section-name" style="border-left: 4px solid #2563eb; padding-left: 0.8rem;">Tecnología & Inteligencia Artificial</h3>
+<h3 class="section-name" style="border-left: 4px solid #2563eb; padding-left: 0.8rem;">Tecnología & IA</h3>
 <a href="/categoria/tecnologia" class="section-link">Ver sección completa ({postsTecnologia.length}) →</a>
 </div>
 <div class="articles-grid">

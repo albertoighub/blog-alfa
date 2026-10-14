@@ -13,9 +13,7 @@ slug: 'tecnologia',
 label: 'Tecnología & Inteligencia Artificial',
 desc: 'Monitoreo de semiconductores, computación cuántica, centros de datos y desarrollo algorítmico.',
 accentColor: '#2563eb',
-accentSoft: 'rgba(37, 99, 235, 0.2)',
-bgHero: 'linear-gradient(135deg, #090d16 0%, #172554 100%)',
-statusText: 'Vigilancia Tecnológica Activa',
+bgHero: 'linear-gradient(135deg, #050505 0%, #0a1228 100%)',
 tags: ['Semiconductores', 'Modelos de Frontera', 'Ciberdefensa', 'Computación Cuántica'],
 iconType: 'tech',
 match: ['tecnología', 'tecnologia', 'ia', 'inteligencia', 'tech', 'software', 'hardware']
@@ -25,21 +23,17 @@ slug: 'economia',
 label: 'Economía, Mercados & Finanzas',
 desc: 'Rastreo de liquidez global, políticas de bancos centrales, renta fija, materias primas y deuda soberana.',
 accentColor: '#059669',
-accentSoft: 'rgba(5, 150, 105, 0.2)',
-bgHero: 'linear-gradient(135deg, #04140d 0%, #064e3b 100%)',
-statusText: 'Monitor de Mercados en Vivo',
+bgHero: 'linear-gradient(135deg, #050505 0%, #04140d 100%)',
 tags: ['Bancos Centrales', 'Renta Variable', 'Materias Primas', 'Deuda Soberana'],
 iconType: 'finance',
 match: ['economía', 'economia', 'mercados', 'finanzas', 'bancos', 'inflación', 'patrimonial']
 },
 {
 slug: 'geopolitica',
-label: 'Geopolítica & Orden Global',
+label: 'Política & Orden Global',
 desc: 'Evaluación del balance de poder, seguridad euroatlántica, tratados multilaterales y sanciones.',
 accentColor: '#dc2626',
-accentSoft: 'rgba(220, 38, 38, 0.2)',
-bgHero: 'linear-gradient(135deg, #180909 0%, #7f1d1d 100%)',
-statusText: 'Radar Geoestratégico Activo',
+bgHero: 'linear-gradient(135deg, #050505 0%, #1a0505 100%)',
 tags: ['Seguridad Colectiva', 'Indo-Pacífico', 'Guerra Híbrida', 'Sanciones'],
 iconType: 'geopolitics',
 match: ['política', 'politica', 'geopolítica', 'geopolitica', 'seguridad', 'defensa', 'diplomacia']
@@ -75,15 +69,13 @@ description={meta.desc}
 />
 <style define:vars={{
 accent: meta.accentColor,
-accentSoft: meta.accentSoft,
 bgHero: meta.bgHero
 }}>
 :global(body) {
 background-color: #f8fafc;
-color: #0f172a;
+color: #050505;
 font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 }
-/* CONTENEDOR PANORÁMICO ANCHO */
 main {
 max-width: 1580px;
 width: 94%;
@@ -91,25 +83,26 @@ margin: 0 auto;
 padding: 2rem 0 6rem;
 }
 
-/* BANNER HORIZONTAL EXTENDIDO AL 100% */
+/* BANNER HORIZONTAL (Estrecho, limpio, sin textos sobrantes) */
 .section-header-banner {
 background: var(--bgHero);
 color: #ffffff;
-border-left: 5px solid var(--accent);
+border-left: 6px solid var(--accent);
 border-radius: 8px;
-padding: 2.2rem 2.8rem;
+padding: 1.6rem 2.2rem;
 margin-bottom: 3.5rem;
 display: flex;
 align-items: center;
-gap: 2.5rem;
-box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.2);
+gap: 2rem;
+box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.4);
 width: 100%;
 box-sizing: border-box;
+min-height: 120px;
 }
 
 .banner-side-icon {
-width: 82px;
-height: 82px;
+width: 72px;
+height: 72px;
 border-radius: 12px;
 background: rgba(255, 255, 255, 0.08);
 border: 1px solid rgba(255, 255, 255, 0.15);
@@ -120,7 +113,7 @@ color: var(--accent);
 flex-shrink: 0;
 }
 .icon-currency-sign {
-font-size: 3rem;
+font-size: 2.8rem;
 font-weight: 900;
 font-family: system-ui, sans-serif;
 color: #10b981;
@@ -128,56 +121,23 @@ color: #10b981;
 
 .banner-content-body {
 flex: 1;
-}
-.banner-title-line {
 display: flex;
-align-items: center;
-gap: 1.4rem;
-margin-bottom: 0.5rem;
-flex-wrap: wrap;
+flex-direction: column;
+justify-content: center;
 }
 .banner-heading-text {
-font-size: clamp(2rem, 3.4vw, 2.7rem);
+font-size: clamp(1.8rem, 3vw, 2.4rem);
 font-weight: 900;
-letter-spacing: -0.03em;
-margin: 0;
+letter-spacing: -0.02em;
+margin: 0 0 0.4rem;
 color: #ffffff;
-line-height: 1.15;
+line-height: 1.1;
 }
-
-.section-pulse-badge {
-display: inline-flex;
-align-items: center;
-gap: 7px;
-background: rgba(255, 255, 255, 0.08);
-border: 1px solid rgba(255, 255, 255, 0.2);
-color: #ffffff;
-font-size: 0.74rem;
-font-weight: 800;
-padding: 0.25rem 0.8rem;
-border-radius: 20px;
-text-transform: uppercase;
-letter-spacing: 0.05em;
-box-shadow: 0 0 12px var(--accentSoft);
-}
-.custom-pulse-dot {
-width: 7px;
-height: 7px;
-border-radius: 50%;
-background: var(--accent);
-box-shadow: 0 0 8px var(--accent);
-animation: dynamicPulse 1.5s infinite ease-in-out;
-}
-@keyframes dynamicPulse {
-0%, 100% { transform: scale(0.9); opacity: 0.8; }
-50% { transform: scale(1.3); opacity: 1; }
-}
-
 .banner-summary {
-font-size: 1.1rem;
+font-size: 1rem;
 color: #cbd5e1;
-line-height: 1.55;
-margin: 0 0 1.2rem;
+line-height: 1.4;
+margin: 0 0 0.8rem;
 }
 .banner-tags-list {
 display: flex;
@@ -188,9 +148,9 @@ gap: 0.5rem;
 background: rgba(255, 255, 255, 0.06);
 border: 1px solid rgba(255, 255, 255, 0.12);
 color: #e2e8f0;
-font-size: 0.76rem;
+font-size: 0.72rem;
 font-weight: 700;
-padding: 0.25rem 0.75rem;
+padding: 0.2rem 0.65rem;
 border-radius: 16px;
 }
 
@@ -242,15 +202,10 @@ line-height: 1.2;
 font-weight: 900;
 letter-spacing: -0.02em;
 margin: 0 0 1.2rem;
-color: #0f172a;
+color: #050505;
 }
-.lead-title a {
-color: inherit;
-text-decoration: none;
-}
-.lead-title a:hover {
-color: var(--accent);
-}
+.lead-title a { color: inherit; text-decoration: none; }
+.lead-title a:hover { color: var(--accent); }
 .lead-desc {
 font-size: 1.2rem;
 color: #475569;
@@ -267,7 +222,7 @@ padding-top: 1rem;
 
 /* Cuadrícula de Archivo Amplia */
 .section-heading-bar {
-border-bottom: 2px solid #0f172a;
+border-bottom: 2px solid #050505;
 padding-bottom: 0.8rem;
 margin-bottom: 2.2rem;
 width: 100%;
@@ -276,7 +231,7 @@ width: 100%;
 font-size: 1.6rem;
 font-weight: 900;
 letter-spacing: -0.02em;
-color: #0f172a;
+color: #050505;
 margin: 0;
 }
 .stories-grid {
@@ -327,15 +282,10 @@ line-height: 1.35;
 font-weight: 800;
 letter-spacing: -0.02em;
 margin: 0 0 0.8rem;
-color: #0f172a;
+color: #050505;
 }
-.story-title a {
-color: inherit;
-text-decoration: none;
-}
-.story-title a:hover {
-color: var(--accent);
-}
+.story-title a { color: inherit; text-decoration: none; }
+.story-title a:hover { color: var(--accent); }
 .story-desc {
 font-size: 0.92rem;
 color: #475569;
@@ -365,11 +315,11 @@ color: #64748b;
 <body>
 <Header />
 <main>
-<!-- Banner Horizontal Extendido al 100% -->
+<!-- Banner Horizontal Estrecho (Sin textos rayados) -->
 <section class="section-header-banner">
 <div class="banner-side-icon">
 {meta.iconType === 'tech' && (
-<svg width="46" height="46" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+<svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
 <rect x="4" y="4" width="16" height="16" rx="2"/>
 <rect x="9" y="9" width="6" height="6"/>
 <line x1="9" y1="1" x2="9" y2="4"/><line x1="15" y1="1" x2="15" y2="4"/>
@@ -380,7 +330,7 @@ color: #64748b;
 <div class="icon-currency-sign">$</div>
 )}
 {meta.iconType === 'geopolitics' && (
-<svg width="46" height="46" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+<svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
 <circle cx="12" cy="12" r="10"/>
 <line x1="2" y1="12" x2="22" y2="12"/>
 <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>
@@ -389,13 +339,7 @@ color: #64748b;
 </div>
 
 <div class="banner-content-body">
-<div class="banner-title-line">
 <h1 class="banner-heading-text">{meta.label}</h1>
-<div class="section-pulse-badge">
-<span class="custom-pulse-dot"></span>
-<span>{meta.statusText}</span>
-</div>
-</div>
 <p class="banner-summary">{meta.desc}</p>
 <div class="banner-tags-list">
 {meta.tags.map((t) => (
