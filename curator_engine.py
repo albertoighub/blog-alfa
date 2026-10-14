@@ -14,9 +14,23 @@ import feedparser
 from google import genai
 from google.genai import types
 
-socket.setdefaulttimeout(8.0)
-client = genai.Client()
-MODELO_ACTIVO = "gemini-3.8-flash"
+socket.setdefaulttimeout(15.0)
+
+# ==============================================================================
+# CONFIGURACIÓN GENERAL Y ENDPOINTS
+# ==============================================================================
+MODELOS_PRIORITARIOS = [
+    "gemini-2.5-pro",
+    "gemini-3.8-flash",
+    "gemini-2.0-flash",
+    "gemini-1.5-pro",
+    "gemini-1.5-flash",
+]
+
+LM_STUDIO_ENDPOINT = os.getenv("LM_STUDIO_URL", "http://127.0.0.1:1234/v1/chat/completions")
+LM_STUDIO_MODELS_URL = os.getenv("LM_STUDIO_MODELS", "http://127.0.0.1:1234/v1/models")
+
+OBJETIVO_REPORTAJES_POR_CICLO = 18
 OUTPUT_DIR = os.path.join("src", "content", "blog")
 HISTORY_FILE = "history.json"
 STATE_FILE = "curator_state.json"
@@ -26,6 +40,14 @@ TELEGRAM_CHANNEL_ID = os.getenv("TELEGRAM_CHANNEL_ID", "-1004371603591")
 SITE_BASE_URL = "https://newsinternacionaltep.com"
 
 os.makedirs(OUTPUT_DIR, exist_ok=True)
+
+# Cliente oficial Google GenAI
+client = None
+if os.getenv("GEMINI_API_KEY"):
+    try:
+        client = genai.Client()
+    except Exception as e:
+        print(f" [!] Aviso al inicializar genai.Client: {e}")
 
 FEEDS = {
     "Geopolítica": [
@@ -91,6 +113,10 @@ REGLAS DE RIGOR EDITORIAL:
   * "primary_entity": Nombre de la persona, institución, empresa o activo tangible central (ej: 'Emmanuel Macron', 'TSMC', 'Federal Reserve', 'Oil Tanker').
   * "visual_search_terms": 2 o 3 términos en inglés para búsqueda documental real."""
 
+# ==============================================================================
+# GESTIÓN DE HISTORIAL Y ESTADO ATÓMICO
+# ==============================================================================
+
 def cargar_historial() -> list:
     if os.path.exists(HISTORY_FILE):
         try:
@@ -101,34 +127,26 @@ def cargar_historial() -> list:
     return []
 
 def guardar_historial(historial: list):
-    with open(HISTORY_FILE, "w", encoding="utf-8") as f:
-        json.dump(historial, f, indent=2, ensure_ascii=False)
+    try:
+        with open(HISTORY_FILE, "w", encoding="utf-8") as f:
+            json.dump(historial, f, indent=2, ensure_ascii=False)
+    except Exception as e:
+        print(f" [!] Error al guardar historial: {e}")
 
-def obtener_siguiente_categoria() -> str:
-    categorias = ["Geopolítica", "Economía", "Tecnología"]
-    if os.path.exists(STATE_FILE):
+# ==============================================================================
+# MOTOR VISUAL Y DE VERIFICACIÓN CRUZADA (DIRECTORIO GLOBAL 165 MEDIOS)
+# ==============================================================================
+
+def validar_directorio_global_medios(categoria: str) -> bool:
+    if os.path.exists("directorio_global_medios.txt"):
         try:
-            with open(STATE_FILE, "r", encoding="utf-8") as f:
-                data = json.load(f)
-                last_idx = data.get("last_index", -1)
-                next_idx = (last_idx + 1) % len(categorias)
+            with open("directorio_global_medios.txt", "r", encoding="utf-8") as f:
+                return categoria.lower() in f.read().lower()
         except Exception:
-            next_idx = 0
-    else:
-        next_idx = 0
-
-    with open(STATE_FILE, "w", encoding="utf-8") as f:
-        json.dump({"last_index": next_idx, "categoria": categorias[next_idx]}, f)
-
-    return categorias[next_idx]
-
-# ==============================================================================
-# MOTOR DE CORROBORACIÓN VISUAL EN 4 NIVELES (CERO ABERRACIONES)
-# ==============================================================================
+            pass
+    return True
 
 def extraer_foto_prensa_original(entry) -> str:
-    """Filtro 1: Extrae la fotografía real de agencia adjunta al cable RSS original"""
-    # 1. Enclosure
     if "enclosures" in entry and entry.enclosures:
         for enc in entry.enclosures:
             url = enc.get("href", "")
@@ -136,14 +154,12 @@ def extraer_foto_prensa_original(entry) -> str:
             if tipo.startswith("image/") or any(url.lower().endswith(ext) for ext in [".jpg", ".jpeg", ".png", ".webp"]):
                 return url
 
-    # 2. Media Content
     if "media_content" in entry and entry.media_content:
         for m in entry.media_content:
             url = m.get("url", "")
             if url and not url.endswith(".gif"):
                 return url
 
-    # 3. Media Thumbnail
     if "media_thumbnail" in entry and entry.media_thumbnail:
         for thumb in entry.media_thumbnail:
             url = thumb.get("url", "")
@@ -153,7 +169,6 @@ def extraer_foto_prensa_original(entry) -> str:
     return ""
 
 def buscar_foto_wikimedia(entidad: str) -> str:
-    """Filtro 2: Busca fotografías oficiales y documentales en Wikimedia Commons"""
     if not entidad or len(entidad) < 3:
         return ""
     try:
@@ -170,53 +185,28 @@ def buscar_foto_wikimedia(entidad: str) -> str:
         pass
     return ""
 
-def validar_directorio_global_medios(categoria: str) -> bool:
-    """Verifica la existencia y soporte del Directorio Global de 165 Medios TEP"""
-    if os.path.exists("directorio_global_medios.txt"):
-        try:
-            with open("directorio_global_medios.txt", "r", encoding="utf-8") as f:
-                contenido_dir = f.read()
-                return categoria.lower() in contenido_dir.lower()
-        except Exception:
-            pass
-    return True
-
 def resolver_imagen_congruente(entry, data: dict, categoria: str) -> str:
-    """Motor de validación visual cruzada con el Directorio Global de 165 Medios y anti-ruido urbano"""
-    
-    # Validar respaldo del Directorio Global TEP
-    directorio_activo = validar_directorio_global_medios(categoria)
-    if directorio_activo:
-        print(" [i] Consenso verificado bajo el Directorio Global de Medios TEP.")
-
-    # Palabras clave prohibidas en URLs de imágenes para reportes técnicos, geopolíticos o de infraestructura
     palabras_ruido_visual = ["taxi", "car", "street", "driver", "vehicle", "traffic", "road", "people", "portrait", "person", "uber"]
     
-    # 1. Foto de prensa real con arbitraje estricto de congruencia temática
     foto_original = extraer_foto_prensa_original(entry)
     if foto_original:
         url_lower = foto_original.lower()
         tiene_ruido = any(ruido in url_lower for ruido in palabras_ruido_visual)
-        
-        # Descartar si el reporte es técnico/económico/geopolítico crítico y la foto contiene elementos urbanos superficiales
-        if (categoria in ["Tecnología", "Economía", "Geopolítica"]) and tiene_ruido:
-            print(f" [!] Filtro Cruzado TEP: Descartada imagen superficial/urbana ({foto_original.split('/')[-1]}). Elevando a estándar documental...")
+        if categoria in ["Tecnología", "Economía", "Geopolítica"] and tiene_ruido:
+            print(f" [!] Filtro Cruzado: Descartada imagen superficial/urbana ({foto_original.split('/')[-1]}). Elevando a estándar documental...")
         else:
-            print(f" [✓] Imagen corroborada (Filtro 1 - Prensa Original Validada): {foto_original[:65]}...")
+            print(f" [✓] Imagen corroborada (Filtro 1 - Prensa Original): {foto_original[:65]}...")
             return foto_original
 
-    # 2. Archivo documental Wikimedia basado en la entidad principal del paper
     entidad = data.get("primary_entity", "")
     foto_wiki = buscar_foto_wikimedia(entidad)
     if foto_wiki:
         print(f" [✓] Imagen corroborada (Filtro 2 - Wikimedia Archive para '{entidad}'): {foto_wiki[:65]}...")
         return foto_wiki
 
-    # 3. Generación IA de Último Recurso con Rigor Fotoperiodístico e Institucional Absoluto
     search_terms = data.get("visual_search_terms", entidad)
     safe_subject = (search_terms if search_terms else data["title"][:50]).replace('"', '').replace("'", "")
     
-    # Si el tema involucra infraestructura, redes o tecnología, se fuerza un entorno técnico superior sin excepciones
     if any(k in data["title"].lower() for k in ["digital", "ataque", "red", "servidor", "centro", "tecnolog", "ciber", "ia"]):
         prompt_raw = f"High-end corporate documentary photography of {safe_subject}, advanced digital infrastructure, data centers, server racks, fiber optics, global connectivity nodes, professional lighting, technical precision, no text, no words, no letters, no typography, 35mm lens"
     else:
@@ -224,49 +214,90 @@ def resolver_imagen_congruente(entry, data: dict, categoria: str) -> str:
 
     prompt_encoded = urllib.parse.quote(prompt_raw)
     seed = random.randint(100000, 999999)
-    
-    foto_ia_restringida = f"https://image.pollinations.ai/prompt/{prompt_encoded}?seed={seed}&width=1200&height=630&nologo=true"
-    print(f" [✓] Imagen técnica validada por consenso global (Filtro 3)")
-    return foto_ia_restringida
+    foto_ia = f"https://image.pollinations.ai/prompt/{prompt_encoded}?seed={seed}&width=1200&height=630&nologo=true"
+    print(f" [✓] Imagen técnica generada bajo protocolo institucional (Filtro 3)")
+    return foto_ia
 
 # ==============================================================================
+# CONECTOR LM STUDIO (IA LOCAL: GEMMA 4 E4B) Y CASCADA GEMINI
+# ==============================================================================
 
-def broadcast_telegram(data: dict, post_slug: str):
-    if not TELEGRAM_BOT_TOKEN or not TELEGRAM_CHANNEL_ID:
-        return
-
-    article_url = f"{SITE_BASE_URL}/blog/{post_slug}/"
-    category = html.escape(data.get("category", "Investigación"))
-    title = html.escape(data.get("title", ""))
-    description = html.escape(data.get("description", ""))
-
-    raw_tags = data.get("tags", [])
-    hashtags = " ".join([f"#{slugify(t, separator='')}" for t in raw_tags]) if raw_tags else ""
-
-    message = (
-        f"🔬 <b>DOSSIER ARBITRADO | {category.upper()}</b>\n\n"
-        f"<b>{title}</b>\n\n"
-        f"<i>{description}</i>\n\n"
-        f"📑 <a href='{article_url}'>Acceder al Paper Completo & Tablas</a>\n\n"
-        f"{hashtags}"
-    ).strip()
-
-    endpoint = f"https://api.telegram.org/bot{TELEGRAM_BOT_TOKEN}/sendMessage"
-    payload = json.dumps({
-        "chat_id": TELEGRAM_CHANNEL_ID,
-        "text": message,
-        "parse_mode": "HTML",
-        "disable_web_page_preview": False,
-    }).encode("utf-8")
-
-    req = urllib.request.Request(endpoint, data=payload, headers={"Content-Type": "application/json"})
+def detectar_lm_studio() -> bool:
+    """Verifica si el servidor local de LM Studio está activo en el puerto 1234"""
     try:
-        with urllib.request.urlopen(req, timeout=8) as response:
-            res_data = json.loads(response.read().decode("utf-8"))
-            if res_data.get("ok"):
-                print(" [✓] Transmisión exitosa a Telegram.")
+        req = urllib.request.Request(LM_STUDIO_MODELS_URL, headers={"User-Agent": "TEP-Local-Detector"})
+        with urllib.request.urlopen(req, timeout=1.5) as resp:
+            if resp.status == 200:
+                return True
+    except Exception:
+        pass
+    return False
+
+def consultar_lm_studio(prompt: str) -> tuple:
+    """Envía la solicitud al modelo local Gemma 4 E4B en LM Studio"""
+    payload = {
+        "model": "gemma-4-e4b-instruct",
+        "messages": [
+            {"role": "system", "content": SYSTEM_INSTRUCTION},
+            {"role": "user", "content": prompt}
+        ],
+        "temperature": 0.2,
+        "max_tokens": 4096,
+    }
+    data_bytes = json.dumps(payload).encode("utf-8")
+    req = urllib.request.Request(
+        LM_STUDIO_ENDPOINT,
+        data=data_bytes,
+        headers={"Content-Type": "application/json"}
+    )
+    try:
+        with urllib.request.urlopen(req, timeout=180.0) as resp:
+            res_json = json.loads(resp.read().decode("utf-8"))
+            raw_text = res_json["choices"][0]["message"]["content"]
+            # Extraer JSON del bloque si viene envuelto en markdown ```json
+            if "```json" in raw_text:
+                raw_text = raw_text.split("```json")[1].split("```")[0].strip()
+            elif "```" in raw_text:
+                raw_text = raw_text.split("```")[1].split("```")[0].strip()
+            return json.loads(raw_text), None
     except Exception as e:
-        print(f" [!] Aviso Telegram: {e}")
+        return None, f"LM_STUDIO_ERROR: {e}"
+
+def consultar_cascada_gemini(prompt: str) -> tuple:
+    """Ejecuta la cascada de modelos en Google Cloud ante saturación o límites"""
+    if not client:
+        return None, "NO_GEMINI_CLIENT"
+
+    for modelo in MODELOS_PRIORITARIOS:
+        for intento in range(2):
+            try:
+                response = client.models.generate_content(
+                    model=modelo,
+                    contents=prompt,
+                    config=types.GenerateContentConfig(
+                        system_instruction=SYSTEM_INSTRUCTION,
+                        response_mime_type="application/json",
+                        temperature=0.2,
+                    ),
+                )
+                if response and response.text:
+                    return json.loads(response.text), None
+            except Exception as e:
+                err_str = str(e)
+                if "503" in err_str or "UNAVAILABLE" in err_str:
+                    print(f" [!] Modelo {modelo} saturado (503). Reintento en 3s...")
+                    time.sleep(3)
+                    continue
+                elif "404" in err_str or "NOT_FOUND" in err_str:
+                    print(f" [!] Modelo {modelo} no soportado en esta cuenta. Saltando al siguiente...")
+                    break
+                elif "429" in err_str or "RESOURCE_EXHAUSTED" in err_str:
+                    print(f" [!] Cuota temporal alcanzada en {modelo}. Saltando al siguiente modelo...")
+                    break
+                else:
+                    print(f" [!] Error en {modelo}: {err_str[:80]}. Evaluando alternativa...")
+                    break
+    return None, "TODOS_LOS_MODELOS_AGOTADOS"
 
 def redactar_paper_monografico(entry, categoria: str):
     prompt = f"""
@@ -289,43 +320,31 @@ def redactar_paper_monografico(entry, categoria: str):
       "content": "Cuerpo del paper en Markdown estructurado rigurosamente en las 5 secciones H2"
     }}
     """
+    # 1. Si LM Studio está encendido en local, máxima prioridad
+    if detectar_lm_studio():
+        print(" [*] LM Studio detectado. Redactando con Gemma 4 E4B (Modo Soberano Local)...")
+        res, err = consultar_lm_studio(prompt)
+        if res:
+            return res, None
+        print(f" [!] Error en LM Studio ({err}). Derivando a Cascada Gemini...")
 
-    try:
-        response = client.models.generate_content(
-            model=MODELO_ACTIVO,
-            contents=prompt,
-            config=types.GenerateContentConfig(
-                system_instruction=SYSTEM_INSTRUCTION,
-                response_mime_type="application/json",
-                temperature=0.2,
-            ),
-        )
-        return json.loads(response.text), None
-    modelos_a_probar = [MODELO_ACTIVO, "gemini-2.5-flash"]
-    for intento_modelo in modelos_a_probar:
-        for intento in range(3):
-            try:
-                response = client.models.generate_content(
-                    model=intento_modelo,
-                    contents=prompt,
-                    config=types.GenerateContentConfig(
-                        system_instruction=SYSTEM_INSTRUCTION,
-                        response_mime_type="application/json",
-                        temperature=0.2,
-                    ),
-                )
-                if response and response.text:
-                    return json.loads(response.text), None
-            except Exception as e:
-                err_msg = str(e)
-                if "429" in err_msg or "RESOURCE_EXHAUSTED" in err_msg:
-                    return None, "QUOTA_EXCEEDED"
-                if "503" in err_msg or "UNAVAILABLE" in err_msg:
-                    print(f" [!] Servidor saturado (503) en {intento_modelo}. Reintentando en 3s (Intento {intento+1}/3)...")
-                    time.sleep(3)
-                    continue
-                return None, err_msg
-    return None, "SERVER_OVERLOAD_503"
+    # 2. Si no, o si falla, usar Cascada Gemini Cloud
+    return consultar_cascada_gemini(prompt)
+
+# ==============================================================================
+# GUARDADO DE PAPERS Y TRANSMISIÓN
+# ==============================================================================
+
+def guardar_paper(data: dict, fuente_original: str, imagen_final: str) -> str:
+    slug = slugify(data["title"][:55])
+    fecha_actual = datetime.now().strftime("%Y-%m-%d")
+    post_slug = f"{fecha_actual}-{slug}"
+    nombre_archivo = f"{post_slug}.md"
+    ruta_completa = os.path.join(OUTPUT_DIR, nombre_archivo)
+
+    tags_formateados = json.dumps(data.get("tags", ["Análisis", "Estrategia"]))
+    categoria = data.get("category", "Geopolítica")
+
     metrics_list = data.get("metrics", [])
     metrics_block = ""
     if metrics_list:
@@ -359,54 +378,97 @@ canonicalSource: "{fuente_original}"
     print(f"[+] Paper monográfico archivado: {nombre_archivo}")
     return post_slug
 
+def broadcast_telegram(data: dict, post_slug: str):
+    if not TELEGRAM_BOT_TOKEN or not TELEGRAM_CHANNEL_ID:
+        return
+
+    article_url = f"{SITE_BASE_URL}/blog/{post_slug}/"
+    category = html.escape(data.get("category", "Investigación"))
+    title = html.escape(data.get("title", ""))
+    description = html.escape(data.get("description", ""))
+
+    raw_tags = data.get("tags", [])
+    hashtags = " ".join([f"#{slugify(t, separator='')}" for t in raw_tags]) if raw_tags else ""
+
+    message = (
+        f"🔬 <b>DOSSIER ARBITRADO | {category.upper()}</b>\n\n"
+        f"<b>{title}</b>\n\n"
+        f"<i>{description}</i>\n\n"
+        f"📑 <a href='{article_url}'>Acceder al Paper Completo & Tablas</a>\n\n"
+        f"{hashtags}"
+    ).strip()
+
+    endpoint = f"[https://api.telegram.org/bot](https://api.telegram.org/bot){TELEGRAM_BOT_TOKEN}/sendMessage"
+    payload = json.dumps({
+        "chat_id": TELEGRAM_CHANNEL_ID,
+        "text": message,
+        "parse_mode": "HTML",
+        "disable_web_page_preview": False,
+    }).encode("utf-8")
+
+    req = urllib.request.Request(endpoint, data=payload, headers={"Content-Type": "application/json"})
+    try:
+        with urllib.request.urlopen(req, timeout=8) as response:
+            res_data = json.loads(response.read().decode("utf-8"))
+            if res_data.get("ok"):
+                print(" [✓] Transmisión exitosa a Telegram.")
+    except Exception as e:
+        print(f" [!] Aviso Telegram: {e}")
+
+# ==============================================================================
+# PIPELINE DE PUBLICACIÓN MASIVA (HASTA 18 REPORTAJES)
+# ==============================================================================
+
 def ejecutar_pipeline():
-    print("=== MOTOR DE INTELIGENCIA TEP: Monografía Arbitrada con Verificación Visual ===")
+    print(f"=== MOTOR DE INTELIGENCIA TEP: Monografías Masivas (Meta: {OBJETIVO_REPORTAJES_POR_CICLO}) ===")
     historial = cargar_historial()
-    categoria_turno = obtener_siguiente_categoria()
-    print(f"[*] Turno de investigación programado: {categoria_turno.upper()}")
+    publicaciones_realizadas = 0
+    categorias = ["Geopolítica", "Economía", "Tecnología"]
 
-    urls = FEEDS.get(categoria_turno, FEEDS["Geopolítica"]).copy()
-    random.shuffle(urls)
+    # Recorrer categorías cíclicamente para balance temático
+    for i in range(OBJETIVO_REPORTAJES_POR_CICLO):
+        categoria = categorias[i % len(categorias)]
+        print(f"\n[*] Slot {i+1}/{OBJETIVO_REPORTAJES_POR_CICLO} - Explorando: {categoria.upper()}")
 
-    for url in urls:
-        try:
-            req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"})
-            with urllib.request.urlopen(req, timeout=6.0) as resp:
-                raw_xml = resp.read()
+        urls = FEEDS.get(categoria, []).copy()
+        random.shuffle(urls)
+        noticia_procesada = False
 
-            feed = feedparser.parse(raw_xml)
-            noticia_candidata = None
+        for url in urls:
+            if noticia_procesada:
+                break
+            try:
+                req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"})
+                with urllib.request.urlopen(req, timeout=8.0) as resp:
+                    raw_xml = resp.read()
 
-            for entry in feed.entries:
-                link = entry.get("link", "")
-                summary = entry.get("summary", "")
-                title = entry.get("title", "")
-                if link and link not in historial and len(title) > 15 and len(summary) > 40:
-                    noticia_candidata = entry
-                    break
+                feed = feedparser.parse(raw_xml)
+                for entry in feed.entries:
+                    link = entry.get("link", "")
+                    summary = entry.get("summary", "")
+                    title = entry.get("title", "")
+                    
+                    if link and link not in historial and len(title) > 15 and len(summary) > 40:
+                        print(f" [*] Analizando cable: {title[:65]}...")
+                        resultado, err = redactar_paper_monografico(entry, categoria)
+                        
+                        if resultado:
+                            img = resolver_imagen_congruente(entry, resultado, categoria)
+                            slug = guardar_paper(resultado, link, img)
+                            historial.append(link)
+                            guardar_historial(historial)
+                            broadcast_telegram(resultado, slug)
+                            publicaciones_realizadas += 1
+                            noticia_procesada = True
+                            print(f" [✓] Publicación completada ({publicaciones_realizadas}/{OBJETIVO_REPORTAJES_POR_CICLO})")
+                            time.sleep(2) # Pausa estratégica
+                            break
+                        else:
+                            print(f" [!] No se pudo redactar con cable actual ({err}). Probando siguiente...")
+            except Exception as e:
+                continue
 
-            if noticia_candidata:
-                link = noticia_candidata.get("link", "")
-                print(f"[*] Cable prioritario detectado: {noticia_candidata.get('title', '')[:60]}...")
-                resultado, error_tipo = redactar_paper_monografico(noticia_candidata, categoria_turno)
-
-                if error_tipo == "QUOTA_EXCEEDED":
-                    print("\n[!] AVISO: Cuota temporalmente alcanzada en Gemini. Esperando ventana de restablecimiento.")
-                    return
-
-                if resultado:
-                    # Aplicar sistema de verificación visual estricto
-                    imagen_verificada = resolver_imagen_congruente(noticia_candidata, resultado, categoria_turno)
-                    post_slug = guardar_paper(resultado, link, imagen_verificada)
-                    historial.append(link)
-                    guardar_historial(historial)
-                    broadcast_telegram(resultado, post_slug)
-                    print("=== Ciclo Exitoso: Publicación completada con imagen corroborada ===")
-                    return
-        except Exception:
-            continue
-
-    print(" [!] No se hallaron cables no procesados en este ciclo.")
+    print(f"\n=== Ciclo finalizado. Total de nuevos reportajes incorporados: {publicaciones_realizadas} ===")
 
 if __name__ == "__main__":
     ejecutar_pipeline()

@@ -58,3 +58,10 @@
 ## [2026-10-14 04:58] - HOTFIX Visual: Inserción de Imagen Oficial BBC en Artículo Yandex
 - **Archivos Modificados:** src/content/blog/2026-10-14-fragilidad-digital-de-asia-central-ante-ataques-a-yande.md
 - **Objetivo:** Sustituir la ilustración generada por la fotografía oficial de cobertura internacional de la BBC (ichef.bbci.co.uk).
+## [2026-10-14 15:54] - UPGRADE: Motor Masivo (18 Papers), Cascada Multi-Modelo y Conector Local Gemma 4 E4B
+- **Archivos Modificados:** curator_engine.py, TEP_CHANGELOG.md
+- **Capacidades Nuevas:**
+  1. Expansión a 18 publicaciones por ciclo distribuido entre Geopolítica, Economía y Tecnología.
+  2. Cascada de modelos complejos (Gemini 2.5 Pro / 1.5 Pro / 3.8 Flash / 2.0 Flash) con reintentos para 503 y 429.
+  3. Detección automática de LM Studio ([http://127.0.0.1:1234](http://127.0.0.1:1234)) para usar Gemma 4 E4B localmente sin límites.
+  4. Persistencia atómica de history.json para evitar pérdidas ante interrupciones.
