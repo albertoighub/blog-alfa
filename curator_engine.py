@@ -1,5 +1,6 @@
 ﻿import os
 import sys
+import re
 import json
 import html
 import time
@@ -12,19 +13,21 @@ from datetime import datetime
 from slugify import slugify
 import feedparser
 
-socket.setdefaulttimeout(20.0)
+socket.setdefaulttimeout(12.0)
 
 # ==============================================================================
-# CONFIGURACIÓN LOCAL LM STUDIO (PUERTO 1235)
+# CONFIGURACIÓN SOBERANA TEP & LM STUDIO (PUERTO 1235)
 # ==============================================================================
 LM_STUDIO_BASE = os.getenv("LM_STUDIO_BASE", "http://127.0.0.1:1235/v1")
 LM_STUDIO_MODELS_URL = f"{LM_STUDIO_BASE}/models"
 LM_STUDIO_CHAT_URL = f"{LM_STUDIO_BASE}/chat/completions"
 
-OBJETIVO_REPORTAJES = int(os.getenv("TEP_OBJETIVO_REPORTS", "1"))
+# 3 monografías por cada sección (3 Geopolítica, 3 Economía, 3 Tecnología = 9 en total)
+OBJETIVO_POR_SECCION = 3 
 OUTPUT_DIR = os.path.join("src", "content", "blog")
 HISTORY_FILE = "history.json"
 STATE_FILE = "curator_state.json"
+INFOKEYS_FILE = "infokeys.txt"
 
 TELEGRAM_BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN", "8637388923:AAHl2omIwOIV5dd6uOd_Ho3stAsSMXTNMTY")
 TELEGRAM_CHANNEL_ID = os.getenv("TELEGRAM_CHANNEL_ID", "-1004371603591")
@@ -32,7 +35,8 @@ SITE_BASE_URL = "https://newsinternacionaltep.com"
 
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
-FEEDS = {
+# Feeds de respaldo directo por si algún dominio de infokeys no expone RSS público
+FEEDS_RESPALDO = {
     "Geopolítica": [
         "https://feeds.bbci.co.uk/news/world/rss.xml",
         "https://rss.politico.com/politics-news.xml",
@@ -94,30 +98,94 @@ REGLAS DE RIGOR EDITORIAL:
 - CITAS OBLIGATORIAS: Incluye al menos dos blockquotes ('> ') atribuidos a expertos con su cargo e institución formal verificable.
 - EXTRACCIÓN DE ENTIDADES VISUALES:
   * "primary_entity": Nombre de la persona, institución, empresa o activo tangible central (ej: 'Emmanuel Macron', 'TSMC', 'Federal Reserve', 'Oil Tanker').
-  * "visual_search_terms": 2 o 3 términos en inglés para búsqueda documental real."""
+  * "visual_search_terms": 2 o 3 términos en ingles para fotografia real."""
+
+USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
 
 # ==============================================================================
-# DETECCIÓN DINÁMICA DE MODELOS EN LM STUDIO
+# MOTOR DE INGESTA DINÁMICA: INFOKEYS (CAPA 1 DE BÚSQUEDA)
+# ==============================================================================
+
+def cargar_infokeys_por_seccion() -> dict:
+    """Extrae y clasifica los 300 dominios del archivo infokeys.txt por categoría"""
+    directorios = {"Geopolítica": [], "Economía": [], "Tecnología": []}
+    
+    if not os.path.exists(INFOKEYS_FILE):
+        print(f" [!] Archivo {INFOKEYS_FILE} no detectado. Utilizando catálogo base.")
+        return FEEDS_RESPALDO
+
+    seccion_actual = None
+    url_regex = re.compile(r"https?://[^\s<>\"']+")
+
+    with open(INFOKEYS_FILE, "r", encoding="utf-8", errors="ignore") as f:
+        for linea in f:
+            linea_str = linea.strip()
+            linea_upper = linea_str.upper()
+            
+            if "SECCIÓN 1" in linea_upper or "POLÍTICA" in linea_upper or "GEOPOLÍTICA" in linea_upper:
+                seccion_actual = "Geopolítica"
+            elif "SECCIÓN 2" in linea_upper or "ECONOMÍA" in linea_upper or "MERCADOS" in linea_upper:
+                seccion_actual = "Economía"
+            elif "SECCIÓN 3" in linea_upper or "TECNOLOGÍA" in linea_upper or "COMPUTACIONAL" in linea_upper:
+                seccion_actual = "Tecnología"
+
+            if seccion_actual:
+                coincidencias = url_regex.findall(linea_str)
+                for u in coincidencias:
+                    u_limpia = u.rstrip(".,;)")
+                    if u_limpia not in directorios[seccion_actual]:
+                        directorios[seccion_actual].append(u_limpia)
+
+    return directorios
+
+def autodescubrir_feed_rss(base_url: str) -> list:
+    """Rastrea de forma acelerada canales RSS/Atom desde el dominio infokey"""
+    rutas_comunes = ["/feed", "/rss", "/rss.xml", "/feed/", "/atom.xml", "/news/rss.xml"]
+    
+    # 1. Probar descubrimiento directo en HTML (link rel alternate)
+    try:
+        req = urllib.request.Request(base_url, headers={"User-Agent": USER_AGENT})
+        with urllib.request.urlopen(req, timeout=3.5) as response:
+            tipo_contenido = response.headers.get("Content-Type", "").lower()
+            contenido = response.read(35000).decode("utf-8", errors="ignore")
+            
+            # Si el link ya era un XML directo
+            if "xml" in tipo_contenido or "<rss" in contenido or "<feed" in contenido:
+                return [base_url]
+                
+            enlaces_feed = re.findall(r'<link[^>]+type=["\']application/(?:rss|atom)\+xml["\'][^>]+href=["\']([^"\']+)["\']', contenido, re.IGNORECASE)
+            if enlaces_feed:
+                candidato = enlaces_feed[0]
+                if candidato.startswith("/"):
+                    return [urllib.parse.urljoin(base_url, candidato)]
+                return [candidato]
+    except Exception:
+        pass
+
+    # 2. Respaldo de rutas frecuentes rápidas
+    dominio_base = base_url.rstrip("/")
+    return [f"{dominio_base}{ruta}" for ruta in rutas_comunes[:2]]
+
+# ==============================================================================
+# DETECCIÓN DE LM STUDIO LOCAL (PUERTO 1235)
 # ==============================================================================
 
 def detectar_modelo_cargado_lm_studio() -> tuple:
-    """Consulta el endpoint /v1/models para verificar si hay un modelo cargado en RAM/VRAM"""
     try:
         req = urllib.request.Request(LM_STUDIO_MODELS_URL, headers={"User-Agent": "TEP-Local-Curator"})
         with urllib.request.urlopen(req, timeout=3.0) as resp:
             data = json.loads(resp.read().decode("utf-8"))
             modelos = data.get("data", [])
             if modelos and len(modelos) > 0:
-                modelo_id = modelos[0].get("id", "")
-                return modelo_id, None
+                return modelos[0].get("id", ""), None
             return None, "NO_MODELS_LOADED"
     except urllib.error.URLError as e:
-        return None, f"CONEXION_RECHAZADA: Asegúrate de que el servidor esté activo en el puerto 1235. ({e.reason})"
+        return None, f"CONEXION_RECHAZADA: Verifica que LM Studio esté activo en el puerto 1235. ({e.reason})"
     except Exception as e:
         return None, str(e)
 
 # ==============================================================================
-# GESTIÓN DE HISTORIAL Y CATEGORÍAS
+# GESTIÓN DE HISTORIAL ATÓMICO
 # ==============================================================================
 
 def cargar_historial() -> list:
@@ -136,26 +204,8 @@ def guardar_historial(historial: list):
     except Exception as e:
         print(f" [!] Error al guardar historial: {e}")
 
-def obtener_siguiente_categoria() -> str:
-    categorias = ["Geopolítica", "Economía", "Tecnología"]
-    if os.path.exists(STATE_FILE):
-        try:
-            with open(STATE_FILE, "r", encoding="utf-8") as f:
-                data = json.load(f)
-                last_idx = data.get("last_index", -1)
-                next_idx = (last_idx + 1) % len(categorias)
-        except Exception:
-            next_idx = 0
-    else:
-        next_idx = 0
-
-    with open(STATE_FILE, "w", encoding="utf-8") as f:
-        json.dump({"last_index": next_idx, "categoria": categorias[next_idx]}, f)
-
-    return categorias[next_idx]
-
 # ==============================================================================
-# MOTOR VISUAL Y DE VERIFICACIÓN (165 MEDIOS)
+# MOTOR VISUAL Y ARBITRAJE DE PRENSA (4 CAPAS)
 # ==============================================================================
 
 def extraer_foto_prensa_original(entry) -> str:
@@ -187,7 +237,7 @@ def buscar_foto_wikimedia(entidad: str) -> str:
         query = urllib.parse.quote(entidad.strip())
         endpoint = f"https://en.wikipedia.org/w/api.php?action=query&titles={query}&prop=pageimages&format=json&pithumbsize=1200&redirects=1"
         req = urllib.request.Request(endpoint, headers={"User-Agent": "NewsInternacionalTEP/2.0 (editorial@newsinternacionaltep.com)"})
-        with urllib.request.urlopen(req, timeout=5.0) as res:
+        with urllib.request.urlopen(req, timeout=4.0) as res:
             data = json.loads(res.read().decode("utf-8"))
             pages = data.get("query", {}).get("pages", {})
             for pid, pdata in pages.items():
@@ -205,7 +255,7 @@ def resolver_imagen_congruente(entry, data: dict, categoria: str) -> str:
         url_lower = foto_original.lower()
         tiene_ruido = any(ruido in url_lower for ruido in palabras_ruido_visual)
         if categoria in ["Tecnología", "Economía", "Geopolítica"] and tiene_ruido:
-            print(f" [!] Filtro Cruzado: Descartada imagen superficial/urbana ({foto_original.split('/')[-1]}). Elevando a estándar documental...")
+            print(f" [!] Filtro Cruzado: Descartada imagen superficial ({foto_original.split('/')[-1]}). Elevando a estándar documental...")
         else:
             print(f" [✓] Imagen corroborada (Filtro 1 - Prensa Original): {foto_original[:65]}...")
             return foto_original
@@ -227,11 +277,11 @@ def resolver_imagen_congruente(entry, data: dict, categoria: str) -> str:
     prompt_encoded = urllib.parse.quote(prompt_raw)
     seed = random.randint(100000, 999999)
     foto_ia = f"https://image.pollinations.ai/prompt/{prompt_encoded}?seed={seed}&width=1200&height=630&nologo=true"
-    print(f" [✓] Imagen técnica generada bajo protocolo institucional (Filtro 3)")
+    print(" [✓] Imagen técnica generada bajo protocolo institucional (Filtro 3)")
     return foto_ia
 
 # ==============================================================================
-# REDACCIÓN MEDIANTE GEMMA LOCAL
+# REDACCIÓN MEDIANTE GEMMA LOCAL (LM STUDIO)
 # ==============================================================================
 
 def redactar_paper_monografico(entry, categoria: str, modelo_activo_id: str):
@@ -274,7 +324,7 @@ def redactar_paper_monografico(entry, categoria: str, modelo_activo_id: str):
         headers={"Content-Type": "application/json"}
     )
 
-    print(f" [*] Gemma procesando el paper monográfico (Modelo: {modelo_activo_id})...")
+    print(f" [*] Gemma transformando cable en Dossier Monográfico (Modelo: {modelo_activo_id})...")
     try:
         with urllib.request.urlopen(req, timeout=300.0) as resp:
             res_json = json.loads(resp.read().decode("utf-8"))
@@ -293,7 +343,7 @@ def redactar_paper_monografico(entry, categoria: str, modelo_activo_id: str):
         return None, f"LM_STUDIO_LOCAL_ERROR: {e}"
 
 # ==============================================================================
-# GUARDADO Y TELEGRAM
+# ALMACENAMIENTO ATÓMICO Y DIFUSIÓN TELEGRAM
 # ==============================================================================
 
 def guardar_paper(data: dict, fuente_original: str, imagen_final: str) -> str:
@@ -336,7 +386,7 @@ canonicalSource: "{fuente_original}"
     with open(ruta_completa, "w", encoding="utf-8") as f:
         f.write(contenido_md)
 
-    print(f"[+] Paper monográfico archivado: {nombre_archivo}")
+    print(f" [+] Paper monográfico archivado: {nombre_archivo}")
     return post_slug
 
 def broadcast_telegram(data: dict, post_slug: str):
@@ -377,13 +427,12 @@ def broadcast_telegram(data: dict, post_slug: str):
         print(f" [!] Aviso Telegram: {e}")
 
 # ==============================================================================
-# PIPELINE CONTROL MANUAL (1 REPORTE POR EJECUCIÓN)
+# PIPELINE POR LOTES BALANCEADOS (3 POR SECCIÓN = 9 PAPERS)
 # ==============================================================================
 
 def ejecutar_pipeline():
-    print("=== MOTOR SOBERANO TEP: Verificando Conexión con LM Studio ===")
+    print("=== MOTOR SOBERANO TEP: Lote Ampliado (3 Papers por Sección con Capa InfoKeys) ===")
     
-    # 1. Validar que LM Studio tenga un modelo cargado en memoria
     modelo_activo_id, error_modelo = detectar_modelo_cargado_lm_studio()
     if error_modelo == "NO_MODELS_LOADED":
         print("\n[!] ALERTA: LM Studio está activo en el puerto 1235, pero NO tiene ningún modelo cargado en memoria.")
@@ -393,45 +442,76 @@ def ejecutar_pipeline():
         print(f"\n[!] Error al conectar con LM Studio: {error_modelo}")
         return
 
-    print(f"[✓] Modelo detectado y activo en LM Studio: {modelo_activo_id}")
+    print(f"[✓] Núcleo analítico verificado: {modelo_activo_id}")
 
     historial = cargar_historial()
-    categoria_turno = obtener_siguiente_categoria()
-    print(f"[*] Turno de investigación programado: {categoria_turno.upper()}")
+    catalogo_infokeys = cargar_infokeys_por_seccion()
+    categorias = ["Geopolítica", "Economía", "Tecnología"]
+    total_publicaciones = 0
 
-    urls = FEEDS.get(categoria_turno, FEEDS["Geopolítica"]).copy()
-    random.shuffle(urls)
+    for categoria in categorias:
+        print(f"\n=======================================================")
+        print(f"[*] INICIANDO SECCIÓN: {categoria.upper()} (Meta: {OBJETIVO_POR_SECCION} papers)")
+        print(f"=======================================================")
+        
+        publicados_seccion = 0
+        dominios_infokeys = catalogo_infokeys.get(categoria, []).copy()
+        random.shuffle(dominios_infokeys)
+        
+        # Combinar dominios de InfoKeys con feeds verificados de respaldo
+        fuentes_de_rastreo = dominios_infokeys + FEEDS_RESPALDO.get(categoria, [])
 
-    for url in urls:
-        try:
-            req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"})
-            with urllib.request.urlopen(req, timeout=8.0) as resp:
-                raw_xml = resp.read()
+        for fuente in fuentes_de_rastreo:
+            if publicados_seccion >= OBJETIVO_POR_SECCION:
+                break
 
-            feed = feedparser.parse(raw_xml)
-            for entry in feed.entries:
-                link = entry.get("link", "")
-                summary = entry.get("summary", "")
-                title = entry.get("title", "")
-                
-                if link and link not in historial and len(title) > 15 and len(summary) > 40:
-                    print(f"\n[*] Procesando cable prioritario: {title[:65]}...")
-                    resultado, err = redactar_paper_monografico(entry, categoria_turno, modelo_activo_id)
-                    
-                    if resultado:
-                        img = resolver_imagen_congruente(entry, resultado, categoria_turno)
-                        slug = guardar_paper(resultado, link, img)
-                        historial.append(link)
-                        guardar_historial(historial)
-                        broadcast_telegram(resultado, slug)
-                        print("\n[✓] Ciclo completado con éxito por Gemma 4 E4B local.")
-                        return
-                    else:
-                        print(f" [!] Error en redacción: {err}")
-        except Exception:
-            continue
+            # Determinar feeds candidatos desde el enlace de infokeys
+            if fuente.startswith("http") and ("xml" in fuente or "rss" in fuente or "feed" in fuente):
+                candidatos_feeds = [fuente]
+            else:
+                candidatos_feeds = autodescubrir_feed_rss(fuente)
 
-    print(" [!] No se hallaron cables nuevos en este ciclo.")
+            for url_feed in candidatos_feeds:
+                if publicados_seccion >= OBJETIVO_POR_SECCION:
+                    break
+                try:
+                    req = urllib.request.Request(url_feed, headers={"User-Agent": USER_AGENT})
+                    with urllib.request.urlopen(req, timeout=5.0) as resp:
+                        raw_data = resp.read()
+
+                    feed = feedparser.parse(raw_data)
+                    for entry in feed.entries:
+                        if publicados_seccion >= OBJETIVO_POR_SECCION:
+                            break
+                        link = entry.get("link", "")
+                        summary = entry.get("summary", "")
+                        title = entry.get("title", "")
+                        
+                        # Filtro de pertinencia y densidad informativa
+                        if link and link not in historial and len(title) > 18 and len(summary) > 40:
+                            print(f"\n  [*] [{categoria} {publicados_seccion+1}/{OBJETIVO_POR_SECCION}] Cable capturado: {title[:65]}...")
+                            resultado, err = redactar_paper_monografico(entry, categoria, modelo_activo_id)
+                            
+                            if resultado:
+                                img = resolver_imagen_congruente(entry, resultado, categoria)
+                                slug = guardar_paper(resultado, link, img)
+                                historial.append(link)
+                                guardar_historial(historial)
+                                broadcast_telegram(resultado, slug)
+                                publicados_seccion += 1
+                                total_publicaciones += 1
+                                print(f"  [✓] Paper {publicados_seccion}/{OBJETIVO_POR_SECCION} archivado y emitido.")
+                                time.sleep(1.5)
+                            else:
+                                print(f"  [!] Descarte por fallo en transformación: {err}")
+                except Exception:
+                    continue
+
+        print(f"[*] Resumen Sección {categoria}: {publicados_seccion}/{OBJETIVO_POR_SECCION} completados.")
+
+    print(f"\n=======================================================")
+    print(f"[✓] Ciclo concluido. Total de reportes incorporados: {total_publicaciones}/9")
+    print(f"=======================================================")
 
 if __name__ == "__main__":
     ejecutar_pipeline()

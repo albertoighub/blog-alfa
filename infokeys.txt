@@ -1,0 +1,356 @@
+================================================================================
+DIRECTORIO GLOBAL DE NOTICIAS: POLÍTICA, ECONOMÍA Y TECNOLOGÍA (300 ENLACES)
+Actualizado y Verificado - Cobertura Internacional
+================================================================================
+
+--------------------------------------------------------------------------------
+SECCIÓN 1: POLÍTICA, GEOPOLÍTICA Y ASUNTOS PÚBLICOS (100 DOMINIOS)
+--------------------------------------------------------------------------------
+-- Norteamérica --
+1. The New York Times (EE. UU.) - https://www.nytimes.com
+2. The Washington Post (EE. UU.) - https://www.washingtonpost.com
+3. Politico (EE. UU.) - https://www.politico.com
+4. The Hill (EE. UU.) - https://thehill.com
+5. Roll Call (EE. UU.) - https://rollcall.com
+6. Axios (EE. UU.) - https://www.axios.com
+7. ProPublica (EE. UU.) - https://www.propublica.org
+8. Foreign Affairs (EE. UU.) - https://www.foreignaffairs.com
+9. Foreign Policy (EE. UU.) - https://foreignpolicy.com
+10. NPR (EE. UU.) - https://www.npr.org
+11. PBS NewsHour (EE. UU.) - https://www.pbs.org/newshour
+12. The Atlantic (EE. UU.) - https://www.theatlantic.com
+13. TIME (EE. UU.) - https://time.com
+14. The Globe and Mail (Canadá) - https://www.theglobeandmail.com
+15. National Post (Canadá) - https://nationalpost.com
+16. CBC News (Canadá) - https://www.cbc.ca/news
+17. Toronto Star (Canadá) - https://www.thestar.com
+
+-- América Latina --
+18. Animal Político (México) - https://www.animalpolitico.com
+19. El Universal (México) - https://www.eluniversal.com.mx
+20. Reforma (México) - https://www.reforma.com
+21. Proceso (México) - https://www.proceso.com.mx
+22. La Nación (Argentina) - https://www.lanacion.com.ar
+23. Clarín (Argentina) - https://www.clarin.com
+24. Infobae (LatAm) - https://www.infobae.com
+25. Folha de S.Paulo (Brasil) - https://www.folha.uol.com.br
+26. O Estado de S. Paulo (Brasil) - https://www.estadao.com.br
+27. El Mercurio (Chile) - https://www.elmercurio.com
+28. La Tercera (Chile) - https://www.latercera.com
+29. El Tiempo (Colombia) - https://www.eltiempo.com
+30. El Espectador (Colombia) - https://www.elespectador.com
+31. El Comercio (Perú) - https://elcomercio.pe
+32. La República (Perú) - https://larepublica.pe
+33. El Nacional (Venezuela) - https://www.elnacional.com
+
+-- Europa --
+34. BBC News (Reino Unido) - https://www.bbc.com/news
+35. The Guardian (Reino Unido) - https://www.theguardian.com
+36. The Telegraph (Reino Unido) - https://www.telegraph.co.uk
+37. The Times (Reino Unido) - https://www.thetimes.co.uk
+38. New Statesman (Reino Unido) - https://www.newstatesman.com
+39. Politico Europe (UE) - https://www.politico.eu
+40. Euractiv (UE) - https://www.euractiv.com
+41. EUobserver (UE) - https://euobserver.com
+42. Euronews (Europa) - https://www.euronews.com
+43. Le Monde (Francia) - https://www.lemonde.fr
+44. Le Figaro (Francia) - https://www.lefigaro.fr
+45. Libération (Francia) - https://www.liberation.fr
+46. Der Spiegel (Alemania) - https://www.spiegel.de
+47. Deutsche Welle (Alemania) - https://www.dw.com
+48. Frankfurter Allgemeine Zeitung (Alemania) - https://www.faz.net
+49. Süddeutsche Zeitung (Alemania) - https://www.sueddeutsche.de
+50. El País (España) - https://elpais.com
+51. El Mundo (España) - https://www.elmundo.es
+52. La Vanguardia (España) - https://www.lavanguardia.com
+53. Corriere della Sera (Italia) - https://www.corriere.it
+54. La Repubblica (Italia) - https://www.repubblica.it
+55. Neue Zürcher Zeitung (Suiza) - https://www.nzz.ch
+56. The Moscow Times (Rusia/Exilio) - https://www.themoscowtimes.com
+57. Meduza (Rusia/Exilio) - https://meduza.io
+58. Kyiv Independent (Ucrania) - https://kyivindependent.com
+59. Gazeta Wyborcza (Polonia) - https://wyborcza.pl
+60. Kathimerini (Grecia) - https://www.ekathimerini.com
+
+-- Asia y Pacífico --
+61. South China Morning Post (Hong Kong) - https://www.scmp.com
+62. The Diplomat (Asia-Pacífico) - https://thediplomat.com
+63. The Japan Times (Japón) - https://www.japantimes.co.jp
+64. Yomiuri Shimbun (Japón) - https://japannews.yomiuri.co.jp
+65. Asahi Shimbun (Japón) - https://www.asahi.com/ajw
+66. Xinhua (China - Estatal) - https://english.news.cn
+67. Global Times (China) - https://www.globaltimes.cn
+68. The Straits Times (Singapur) - https://www.straitstimes.com
+69. Channel NewsAsia (Singapur) - https://www.channelnewsasia.com
+70. The Hindu (India) - https://www.thehindu.com
+71. The Indian Express (India) - https://indianexpress.com
+72. The Times of India (India) - https://timesofindia.indiatimes.com
+73. Dawn (Pakistán) - https://www.dawn.com
+74. The Korea Herald (Corea del Sur) - https://www.koreaherald.com
+75. Yonhap News (Corea del Sur) - https://en.yna.co.kr
+76. Taipei Times (Taiwán) - https://www.taipeitimes.com
+77. Bangkok Post (Tailandia) - https://www.bangkokpost.com
+78. The Jakarta Post (Indonesia) - https://www.thejakartapost.com
+79. Sydney Morning Herald (Australia) - https://www.smh.com.au
+80. ABC News (Australia) - https://www.abc.net.au/news
+
+-- Medio Oriente y África --
+81. Al Jazeera (Catar) - https://www.aljazeera.com
+82. Al Arabiya (Emiratos Árabes) - https://english.alarabiya.net
+83. The National (Emiratos Árabes) - https://www.thenationalnews.com
+84. Gulf News (Emiratos Árabes) - https://gulfnews.com
+85. Haaretz (Israel) - https://www.haaretz.com
+86. The Jerusalem Post (Israel) - https://www.jpost.com
+87. Times of Israel (Israel) - https://www.timesofisrael.com
+88. Middle East Eye (Reino Unido/Medio Oriente) - https://www.middleeasteye.net
+89. Arab News (Arabia Saudí) - https://www.arabnews.com
+90. Daily Sabah (Turquía) - https://www.dailysabah.com
+91. Hürriyet Daily News (Turquía) - https://www.hurriyetdailynews.com
+92. Mail & Guardian (Sudáfrica) - https://mg.co.za
+93. News24 (Sudáfrica) - https://www.news24.com
+94. The EastAfrican (Kenia/África Oriental) - https://www.theeastafrican.co.ke
+95. Daily Nation (Kenia) - https://nation.africa/kenya
+96. Premium Times (Nigeria) - https://www.premiumtimesng.com
+97. Vanguard (Nigeria) - https://www.vanguardngr.com
+98. Al-Ahram (Egipto) - https://english.ahram.org.eg
+99. Jeune Afrique (África Francófona) - https://www.jeuneafrique.com
+100. AllAfrica (Agregador Panafricano) - https://allafrica.com
+
+-- Agencias Globales de Noticias (Transversales) --
+101. Reuters - https://www.reuters.com
+102. Associated Press (AP) - https://apnews.com
+103. Agence France-Presse (AFP) - https://www.afp.com
+
+
+--------------------------------------------------------------------------------
+SECCIÓN 2: ECONOMÍA, FINANZAS, NEGOCIOS Y MERCADOS (100 DOMINIOS)
+--------------------------------------------------------------------------------
+-- Globales y EE. UU. --
+1. Bloomberg - https://www.bloomberg.com
+2. Financial Times - https://www.ft.com
+3. The Wall Street Journal - https://www.wsj.com
+4. The Economist - https://www.economist.com
+5. CNBC - https://www.cnbc.com
+6. Forbes - https://www.forbes.com
+7. Fortune - https://fortune.com
+8. MarketWatch - https://www.marketwatch.com
+9. Barron's - https://www.barrons.com
+10. Business Insider - https://www.businessinsider.com
+11. Yahoo Finance - https://finance.yahoo.com
+12. Investing.com - https://www.investing.com
+13. Seeking Alpha - https://seekingalpha.com
+14. The Motley Fool - https://www.fool.com
+15. Morningstar - https://www.morningstar.com
+16. Quartz (QZ) - https://qz.com
+17. Harvard Business Review - https://hbr.org
+18. Institutional Investor - https://www.institutionalinvestor.com
+19. Project Syndicate (Economía) - https://www.project-syndicate.org
+20. Fox Business - https://www.foxbusiness.com
+21. Fast Company - https://www.fastcompany.com
+22. Inc. - https://www.inc.com
+23. IBD (Investor's Business Daily) - https://www.investors.com
+24. Kiplinger - https://www.kiplinger.com
+25. TheStreet - https://www.thestreet.com
+
+-- América Latina --
+26. El Financiero (México) - https://www.elfinanciero.com.mx
+27. El Economista (México) - https://www.eleconomista.com.mx
+28. Expansión (México) - https://expansion.mx
+29. Forbes México - https://www.forbes.com.mx
+30. Valor Econômico (Brasil) - https://valor.globo.com
+31. InfoMoney (Brasil) - https://www.infomoney.com.br
+32. Exame (Brasil) - https://exame.com
+33. Ámbito Financiero (Argentina) - https://www.ambito.com
+34. El Cronista (Argentina) - https://www.cronista.com
+35. Diario Financiero (Chile) - https://www.df.cl
+36. Pulso (Chile) - https://www.latercera.com/pulso
+37. Portafolio (Colombia) - https://www.portafolio.co
+38. La República (Colombia) - https://www.larepublica.co
+39. Gestión (Perú) - https://gestion.pe
+40. AméricaEconomía (LatAm) - https://www.americaeconomia.com
+
+-- Europa --
+41. City A.M. (Reino Unido) - https://www.cityam.com
+42. This is Money (Reino Unido) - https://www.thisismoney.co.uk
+43. Handelsblatt (Alemania) - https://www.handelsblatt.com
+44. WirtschaftsWoche (Alemania) - https://www.wiwo.de
+45. Börsen-Zeitung (Alemania) - https://www.boersen-zeitung.de
+46. Les Echos (Francia) - https://www.lesechos.fr
+47. La Tribune (Francia) - https://www.latribune.fr
+48. Il Sole 24 Ore (Italia) - https://www.ilsole24ore.com
+49. Milano Finanza (Italia) - https://www.milanofinanza.it
+50. Expansión (España) - https://www.expansion.com
+51. Cinco Días (España) - https://cincodias.elpais.com
+52. El Economista (España) - https://www.eleconomista.es
+53. Finanz und Wirtschaft (Suiza) - https://www.fuw.ch
+54. L'Agefi (Suiza) - https://agefi.com
+55. Dagens Industri (Suecia) - https://www.di.se
+56. Børsen (Dinamarca) - https://borsen.dk
+57. Het Financieele Dagblad (Países Bajos) - https://fd.nl
+58. De Tijd (Bélgica) - https://www.tijd.be
+59. L'Echo (Bélgica) - https://www.lecho.be
+60. Jornal de Negócios (Portugal) - https://www.jornaldenegocios.pt
+
+-- Asia y Pacífico --
+61. Nikkei Asia (Japón) - https://asia.nikkei.com
+62. The Nikkei (Japón) - https://www.nikkei.com
+63. Caixin Global (China) - https://www.caixinglobal.com
+64. Yicai Global (China) - https://www.yicaiglobal.com
+65. South China Morning Post - Business (HK) - https://www.scmp.com/business
+66. The Economic Times (India) - https://economictimes.indiatimes.com
+67. Mint / Livemint (India) - https://www.livemint.com
+68. Business Standard (India) - https://www.business-standard.com
+69. Moneycontrol (India) - https://www.moneycontrol.com
+70. The Financial Express (India) - https://www.financialexpress.com
+71. Australian Financial Review (Australia) - https://www.afr.com
+72. The Business Times (Singapur) - https://www.businesstimes.com.sg
+73. Korea Economic Daily (Corea del Sur) - https://www.kedglobal.com
+74. Pulse by Maeil Business (Corea del Sur) - https://pulsenews.co.kr
+75. The Edge Markets (Malasia/Singapur) - https://www.theedgemarkets.com
+76. BusinessWorld (Filipinas) - https://www.bworldonline.com
+77. Jakarta Globe - Business (Indonesia) - https://jakartaglobe.id/business
+78. Viet Nam News - Biz Hub (Vietnam) - https://bizhub.vn
+79. DealStreetAsia (Asia) - https://www.dealstreetasia.com
+80. Asiamoney (Asia) - https://www.asiamoney.com
+
+-- Medio Oriente y África --
+81. Arabian Business (Emiratos Árabes) - https://www.arabianbusiness.com
+82. Gulf Business (Emiratos Árabes) - https://gulfbusiness.com
+83. MEED (Middle East Economic Digest) - https://www.meed.com
+84. The Marker (Israel) - https://www.themarker.com
+85. Globes (Israel) - https://en.globes.co.il
+86. BusinessDay (Sudáfrica) - https://www.businesslive.co.za/bd/
+87. Moneyweb (Sudáfrica) - https://www.moneyweb.co.za
+88. Fin24 (Sudáfrica) - https://www.news24.com/fin24
+89. Business Daily Africa (Kenia) - https://www.businessdailyafrica.com
+90. Nairametrics (Nigeria) - https://nairametrics.com
+91. BusinessDay (Nigeria) - https://businessday.ng
+92. Ecofin Agency (África) - https://www.ecofinagency.com
+93. The Africa Report - Business (África) - https://www.theafricareport.com/business/
+94. African Business (África) - https://african.business
+95. Zawya (Medio Oriente) - https://www.zawya.com
+96. TradeArabia (Medio Oriente) - https://www.tradearabia.com
+97. Amwal Al Ghad (Egipto) - https://en.amwalalghad.com
+98. Financial Afrik (África Francófona) - https://www.financialafrik.com
+99. Bilan (Suiza/Medio Oriente) - https://www.bilan.ch
+100. Global Finance Magazine - https://www.gfmag.com
+
+
+--------------------------------------------------------------------------------
+SECCIÓN 3: TECNOLOGÍA, INNOVACIÓN Y CIENCIA COMPUTACIONAL (100 DOMINIOS)
+--------------------------------------------------------------------------------
+-- Startups, VC y Big Tech (Global/EE. UU.) --
+1. TechCrunch - https://techcrunch.com
+2. The Verge - https://www.theverge.com
+3. Wired - https://www.wired.com
+4. Ars Technica - https://arstechnica.com
+5. MIT Technology Review - https://www.technologyreview.com
+6. VentureBeat - https://venturebeat.com
+7. The Information - https://www.theinformation.com
+8. Mashable - https://mashable.com
+9. Engadget - https://www.engadget.com
+10. CNET - https://www.cnet.com
+11. ZDNet - https://www.zdnet.com
+12. Gizmodo - https://gizmodo.com
+13. TechRadar - https://www.techradar.com
+14. PCMag - https://www.pcmag.com
+15. Digital Trends - https://www.digitaltrends.com
+16. Semafor Tech - https://www.semafor.com/vertical/tech
+17. Platformer - https://www.platformer.news
+18. 404 Media - https://www.404media.co
+19. Rest of World - https://restofworld.org
+20. Protocol (Archivo/Tech) - https://www.protocol.com
+21. Recode (vía Vox) - https://www.vox.com/recode
+22. The Next Web (TNW) - https://thenextweb.com
+23. GeekWire - https://www.geekwire.com
+24. Silicon Valley Business Journal - https://www.bizjournals.com/sanjose/
+
+-- Hardware, Ingeniería y Desarrollo --
+25. IEEE Spectrum - https://spectrum.ieee.org
+26. Tom's Hardware - https://www.tomshardware.com
+27. AnandTech - https://www.anandtech.com
+28. Phoronix - https://www.phoronix.com
+29. LWN.net - https://lwn.net
+30. Slashdot - https://slashdot.org
+31. Hacker News (Y Combinator) - https://news.ycombinator.com
+32. The Register - https://www.theregister.com
+33. ComputerWeekly - https://www.computerweekly.com
+34. InfoQ - https://www.infoq.com
+35. DZone - https://dzone.com
+36. Stack Overflow Blog - https://stackoverflow.blog
+37. Towards Data Science - https://towardsdatascience.com
+38. KDnuggets - https://www.kdnuggets.com
+39. ServeTheHome (STH) - https://www.servethehome.com
+40. Wccftech - https://wccftech.com
+41. Overclock3D - https://www.overclock3d.net
+42. Guru3D - https://www.guru3d.com
+
+-- Ciberseguridad --
+43. BleepingComputer - https://www.bleepingcomputer.com
+44. Krebs on Security - https://krebsonsecurity.com
+45. Dark Reading - https://www.darkreading.com
+46. The Hacker News - https://thehackernews.com
+47. Schneier on Security - https://www.schneier.com
+48. Threatpost - https://threatpost.com
+49. CyberScoop - https://www.cyberscoop.com
+50. SecurityWeek - https://www.securityweek.com
+51. InfoSecurity Magazine - https://www.infosecurity-magazine.com
+52. SC Media - https://www.scmagazine.com
+53. CISO MAG - https://cisomag.com
+54. HackRead - https://www.hackread.com
+
+-- Ecosistemas Móviles y Software Especializado --
+55. 9to5Mac - https://9to5mac.com
+56. MacRumors - https://www.macrumors.com
+57. Android Authority - https://www.androidauthority.com
+58. Android Police - https://www.androidpolice.com
+59. GSMArena - https://www.gsmarena.com
+60. PhoneArena - https://www.phonearena.com
+61. Windows Central - https://www.windowscentral.com
+62. Neowin - https://www.neowin.net
+63. Thurrott - https://www.thurrott.com
+
+-- Europa, LatAm y Otras Regiones --
+64. Sifted (Europa) - https://sifted.eu
+65. Tech.eu (Europa) - https://tech.eu
+66. Silicon Republic (Irlanda/Europa) - https://www.siliconrepublic.com
+67. Heise Online (Alemania) - https://www.heise.de
+68. Golem.de (Alemania) - https://www.golem.de
+69. Frandroid (Francia) - https://www.frandroid.com
+70. Numerama (Francia) - https://www.numerama.com
+71. 01net (Francia) - https://www.01net.com
+72. Xataka (España/LatAm) - https://www.xataka.com
+73. Genbeta (España/LatAm) - https://www.genbeta.com
+74. Hipertextual (España/LatAm) - https://hipertextual.com
+75. FayerWayer (Chile/LatAm) - https://www.fayerwayer.com
+76. Xataka México - https://www.xataka.com.mx
+77. Canaltech (Brasil) - https://canaltech.com.br
+78. TecMundo (Brasil) - https://www.tecmundo.com.br
+79. TechTudo (Brasil) - https://www.techtudo.com.br
+80. ENTER.CO (Colombia) - https://www.enter.co
+
+-- Asia, Medio Oriente y África --
+81. 36Kr (China) - https://36kr.com (Inglés: https://eu.36kr.com)
+82. TechNode (China) - https://technode.com
+83. DigiTimes (Taiwán) - https://www.digitimes.com
+84. Tech in Asia (Singapur) - https://www.techinasia.com
+85. e27 (Sudeste Asiático) - https://e27.co
+86. KrASIA (Asia) - https://kr-asia.com
+87. Inc42 (India) - https://inc42.com
+88. YourStory (India) - https://yourstory.com
+89. Gadgets 360 (India) - https://www.gadgets360.com
+90. TechCabal (Nigeria/África) - https://techcabal.com
+91. Techpoint Africa (África) - https://techpoint.africa
+92. Disrupt Africa (África) - https://disrupt-africa.com
+93. Wamda (Medio Oriente) - https://www.wamda.com
+94. MENAbytes (Medio Oriente) - https://www.menabytes.com
+
+-- Tecnologías Emergentes (IA, Crypto, Espacio) --
+95. CoinDesk (Criptomonedas) - https://www.coindesk.com
+96. Cointelegraph (Criptomonedas) - https://cointelegraph.com
+97. Decrypt (Web3/IA) - https://decrypt.co
+98. SpaceNews (Aeroespacial) - https://spacenews.com
+99. Electrek (Movilidad Eléctrica) - https://electrek.co
+100. AI News (Inteligencia Artificial) - https://www.artificialintelligence-news.com
+
+```
