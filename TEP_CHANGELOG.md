@@ -40,3 +40,9 @@
 - **Cambios Aplicados:**
   1. Reemplazo de plantillas literales con concatenación estándar en comillas simples: '/blog/' + post.slug + '/'.
   2. Uso de literales puros en PowerShell para evitar la supresión accidental de comillas por caracteres de escape.
+## [2026-10-14 04:34] - REFACTOR: Filtro Semántico de Imágenes en curator_engine.py
+- **Archivos Modificados:** curator_engine.py, TEP_CHANGELOG.md
+- **Objetivo:** Prevenir discrepancias visuales (ej. evitar fotos de taxis urbanos en reportes de ciberinfraestructura).
+- **Cambios Aplicados:**
+  1. Integración de validación de palabras clave de ruido visual (	axi, car, street, driver, ehicle) en la selección de la foto de prensa original.
+  2. Optimización del prompt de respaldo por IA para forzar la representación de centros de datos, servidores y redes de fibra óptica en lugar de transporte urbano.

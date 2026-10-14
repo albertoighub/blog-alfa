@@ -171,13 +171,23 @@ def buscar_foto_wikimedia(entidad: str) -> str:
     return ""
 
 def resolver_imagen_congruente(entry, data: dict, categoria: str) -> str:
-    """Ejecuta los filtros de verificación visual en estricto orden de calidad"""
+    """Ejecuta los filtros de verificación visual con filtro de relevancia temática y ciberinfraestructura"""
     
-    # 1. Foto de prensa real de la agencia
+    # Palabras clave prohibidas en URLs de imágenes para reportes técnicos, económicos o de infraestructura
+    palabras_ruido_visual = ["taxi", "car", "street", "driver", "vehicle", "traffic", "road", "people", "portrait", "person"]
+    
+    # 1. Foto de prensa real de la agencia (Validando que no sea contenido trivial/urbano irrelevante)
     foto_original = extraer_foto_prensa_original(entry)
     if foto_original:
-        print(f" [✓] Imagen corroborada (Filtro 1 - Prensa Original): {foto_original[:65]}...")
-        return foto_original
+        url_lower = foto_original.lower()
+        tiene_ruido = any(ruido in url_lower for ruido in palabras_ruido_visual)
+        
+        # Si es un tema técnico/económico y la foto muestra un vehículo o entorno urbano trivial, se descarta
+        if categoria in ["Tecnología", "Economía"] and tiene_ruido:
+            print(f" [!] Filtro Semántico: Descartada imagen irrelevante de prensa original ({foto_original.split('/')[-1]}). Buscando alternativa técnica...")
+        else:
+            print(f" [✓] Imagen corroborada (Filtro 1 - Prensa Original): {foto_original[:65]}...")
+            return foto_original
 
     # 2. Archivo documental Wikimedia
     entidad = data.get("primary_entity", "")
@@ -186,17 +196,17 @@ def resolver_imagen_congruente(entry, data: dict, categoria: str) -> str:
         print(f" [✓] Imagen corroborada (Filtro 2 - Wikimedia Archive para '{entidad}'): {foto_wiki[:65]}...")
         return foto_wiki
 
-    # 3. Generación IA de Último Recurso con Triple Negación Fotoperiodística
+    # 3. Generación IA de Último Recurso con Enfoque Estricto de Ciberinfraestructura
     search_terms = data.get("visual_search_terms", entidad)
     safe_subject = (search_terms if search_terms else data["title"][:50]).replace('"', '').replace("'", "")
     
-    # Prompt hiper-restringido: Prohíbe texto, 3D, dibujos y exige foto documental de 35mm
-    prompt_raw = f"Authentic documentary photojournalism of {safe_subject}, 35mm lens photography, natural editorial lighting, realistic news event, no text, no words, no letters, no typography, no CGI, no cartoon, no 3D render, unedited realistic"
+    # Prompt optimizado para forzar entornos de servidores, redes, nodos de conectividad y centros de datos
+    prompt_raw = f"High-end corporate documentary photography of {safe_subject}, digital infrastructure, data centers, server racks, fiber optics, global connectivity nodes, professional lighting, technical precision, no text, no words, no letters, no typography, 35mm lens"
     prompt_encoded = urllib.parse.quote(prompt_raw)
     seed = random.randint(100000, 999999)
     
     foto_ia_restringida = f"https://image.pollinations.ai/prompt/{prompt_encoded}?seed={seed}&width=1200&height=630&nologo=true"
-    print(f" [✓] Imagen generada bajo protocolo fotoperiodístico estricto (Filtro 3)")
+    print(f" [✓] Imagen técnica generada bajo protocolo estricto de infraestructura (Filtro 3)")
     return foto_ia_restringida
 
 # ==============================================================================
