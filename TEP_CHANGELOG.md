@@ -49,3 +49,9 @@
 ## [2026-10-14 04:38] - HOTFIX Visual: Corrección de Portada en Artículo de Yandex
 - **Archivos Modificados:** src/content/blog/2026-10-14-fragilidad-digital-de-asia-central-ante-ataques-a-yande.md
 - **Objetivo:** Sustituir la fotografía de transporte urbano (taxi) por una representación gráfica de centros de datos y ciberinfraestructura.
+## [2026-10-14 04:52] - REFACTOR AVANZADO: Sincronización con Directorio Global de 165 Medios
+- **Archivos Modificados:** curator_engine.py, directorio_global_medios.txt, TEP_CHANGELOG.md
+- **Objetivo:** Arbitraje visual y documental cruzado con 165 portales de referencia global (Geopolítica, Economía y Tecnología).
+- **Cambios Aplicados:**
+  1. Integración de la validación del Directorio Global TEP para la corroboración temática de los cables informativos.
+  2. Blindaje absoluto contra discrepancias visuales (filtro estricto anti-ruido urbano para reportes de infraestructura).

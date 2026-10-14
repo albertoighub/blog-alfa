@@ -1,0 +1,68 @@
+====================================================================
+MANUAL DE ESTÁNDARES EDITORIALES Y ESTRUCTURA DE CONTENIDO
+NIVEL: PUBLICACIÓN CIENTÍFICA Y DE ANÁLISIS DE ALTO IMPACTO (TIPO MIT/HARVARD)
+====================================================================
+
+1. MISIÓN Y TONO EDITORIAL
+--------------------------------------------------------------------
+- Objetivo: Traducir investigaciones complejas, avances tecnológicos, dinámicas económicas y políticas públicas en narrativas accesibles para tomadores de decisiones, académicos y profesionales.
+- Tono: Autoritativo, analítico, objetivo y basado en evidencia empírica. Cero sensacionalismo.
+- Enfoque: El contenido no solo informa "qué" sucedió, sino "por qué" importa, "cómo" funciona a nivel sistémico y "cuál" es su impacto a futuro en la sociedad, la economía o la industria.
+
+2. TIPOLOGÍA DE CONTENIDOS PARA LA WEB
+--------------------------------------------------------------------
+A. Reportaje a Fondo (Feature Article): 1,500 - 3,000 palabras. Exploración profunda de una tendencia, tecnología o estudio.
+B. Análisis de Datos (Data-Driven Insight): 800 - 1,200 palabras. Desglose de modelos estadísticos, clusters o proyecciones económicas.
+C. Artículo de Revisión (Brief/Review): 500 - 800 palabras. Resumen ejecutivo de un paper científico o política reciente.
+D. Perspectiva (Op-Ed): 800 - 1,000 palabras. Opinión argumentada de un experto en la materia.
+
+3. ESTRUCTURA MAESTRA DEL REPORTAJE / ARTÍCULO CIENTÍFICO
+--------------------------------------------------------------------
+Todo artículo principal debe seguir la arquitectura de "Embudo Invertido Complejo":
+
+[SECCIÓN 1: EL GANCHO CONCEPTUAL Y LA TESIS (Lede & Nut Graph)]
+- Lede (Párrafo 1): Una anécdota específica, un dato contundente o una paradoja que ilustre el problema central.
+- Nut Graph (Párrafo 2-3): La justificación del artículo. ¿De qué trata exactamente este texto y por qué es crítico leerlo AHORA? Debe incluir la hipótesis o tesis principal.
+
+[SECCIÓN 2: ESTADO DEL ARTE Y CONTEXTO (Background)]
+- Breve recorrido histórico o contextual del problema.
+- Explicación de los métodos o enfoques tradicionales y por qué están fallando o evolucionando.
+
+[SECCIÓN 3: EL NÚCLEO CIENTÍFICO / TÉCNICO (The Science/The Mechanism)]
+- Desglose técnico de la innovación, estudio o política.
+- Si se abordan algoritmos, frameworks, o modelos matemáticos, se debe explicar la mecánica (ej. cómo funciona la recolección de datos, la arquitectura del sistema) utilizando analogías precisas.
+- Inclusión de gráficos de datos, diagramas o esquemas (marcadores de posición en la web).
+
+[SECCIÓN 4: ANÁLISIS DE IMPACTO Y CONSECUENCIAS (The Implications)]
+- Impacto Económico: Costos, eficiencia, viabilidad de mercado.
+- Impacto en Políticas/Sociedad: Regulación, ética, riesgos sistémicos.
+- Limitaciones: Todo artículo riguroso menciona los sesgos, márgenes de error o áreas grises de la investigación actual.
+
+[SECCIÓN 5: CONCLUSIÓN Y VISIÓN PROSPECTIVA (The Look Ahead)]
+- No es un simple resumen. Debe plantear los próximos pasos de la investigación o el mercado.
+- Preguntas abiertas que quedan por resolver.
+
+4. PROTOCOLO DE RIGOR Y VERIFICACIÓN (FACT-CHECKING)
+--------------------------------------------------------------------
+- Fuentes Primarias: Es obligatorio citar papers con DOI, reportes gubernamentales, repositorios de código o entrevistas directas. Prohibido usar fuentes secundarias de noticias generales como única base.
+- Datos Duros: Toda cifra, porcentaje o estadística debe tener hipervínculo a la fuente original.
+- Citas a Expertos: Las citas deben aportar análisis, no solo confirmar hechos. Se debe indicar el cargo y la institución de la fuente.
+
+5. ESPECIFICACIONES DE FORMATO PARA LA PLATAFORMA WEB
+--------------------------------------------------------------------
+Para la correcta integración en la arquitectura del sitio web:
+
+- [Metadatos SEO]:
+  * Title Tag: Máximo 60 caracteres. Informativo y directo.
+  * Meta Description: Máximo 155 caracteres. Resumen técnico del valor del artículo.
+  * Keywords: 3-5 términos clave, incluyendo la disciplina principal.
+- [Estructura HTML Interna]:
+  * H1: Título principal (Solo uno por página).
+  * H2: Subtítulos para las secciones principales (Mecanismo, Impacto, Conclusión).
+  * H3: Sub-secciones específicas.
+  * Blockquotes: Para resaltar extractos cruciales de entrevistas o papers.
+- [Elementos Visuales]: Requerimiento mínimo de 1 gráfico de datos, infografía de sistema o diagrama por cada 1,000 palabras. Cada imagen debe llevar etiqueta ALT descriptiva y leyenda explicativa de la fuente de los datos.
+
+====================================================================
+FIN DEL MANUAL DE ESTÁNDARES
+====================================================================

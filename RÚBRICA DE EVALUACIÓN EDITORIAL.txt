@@ -1,0 +1,66 @@
+====================================================================
+RÚBRICA DE EVALUACIÓN EDITORIAL (SISTEMA DE APROBACIÓN/RECHAZO)
+====================================================================
+
+INSTRUCCIONES PARA EL EDITOR: 
+Evalúe el manuscrito siguiendo estas 4 fases. Si el texto falla en la FASE 1, debe ser devuelto al autor inmediatamente sin pasar a las siguientes fases (RECHAZO AUTOMÁTICO).
+
+--------------------------------------------------------------------
+FASE 1: FILTRO DE REQUISITOS MÍNIMOS (GO / NO-GO)
+--------------------------------------------------------------------
+[ ] 1.1 Originalidad y Tesis: ¿El artículo presenta un ángulo original, un análisis propio o una tesis clara en los primeros tres párrafos (Nut Graph)? (Sí/No)
+[ ] 1.2 Tipo de Contenido: ¿Se alinea claramente con las categorías de la publicación (Reportaje a fondo, Análisis de Datos, Revisión, Perspectiva)? (Sí/No)
+[ ] 1.3 Ausencia de Sensacionalismo: ¿El título y el enfoque están libres de "clickbait", lenguaje hiperbólico o promesas exageradas? (Sí/No)
+[ ] 1.4 Relevancia Temporal/Estructural: ¿Responde claramente a la pregunta "¿Por qué importa esto ahora?" en el contexto de tecnología, economía o políticas públicas? (Sí/No)
+
+* DECISIÓN FASE 1: Si hay un solo "No", devolver para reestructuración profunda.
+
+--------------------------------------------------------------------
+FASE 2: RIGOR CIENTÍFICO, DATOS Y FUENTES (PESO: 40%)
+--------------------------------------------------------------------
+Puntaje: 1 (Deficiente) a 5 (Excelente)
+
+[ ] 2.1 Calidad de Fuentes Primarias: El texto se basa en papers revisados por pares (con DOI), repositorios de código oficiales, reportes gubernamentales o datos directos del mercado, no solo en resúmenes de prensa.
+[ ] 2.2 Tratamiento de Datos: Las estadísticas, proyecciones económicas o métricas de rendimiento técnico están contextualizadas (se explica el margen de error, la muestra o las limitaciones del modelo).
+[ ] 2.3 Atribución y Trazabilidad: Cada afirmación contundente o dato duro incluye un hipervínculo directo a la fuente original. 
+[ ] 2.4 Voces Expertas: Las citas incluidas aportan análisis técnico, validación metodológica o perspectiva estratégica, y provienen de fuentes con credenciales verificables en la industria o academia.
+[ ] 2.5 Neutralidad Analítica: El texto explora los riesgos, sesgos o limitaciones de la innovación/política, sin parecer un comunicado de prensa de una empresa.
+
+* UMBRAL FASE 2: Requiere un mínimo de 20/25 puntos para avanzar.
+
+--------------------------------------------------------------------
+FASE 3: ARQUITECTURA Y ARGUMENTACIÓN (PESO: 35%)
+--------------------------------------------------------------------
+Puntaje: 1 (Deficiente) a 5 (Excelente)
+
+[ ] 3.1 Mecanismo Central (The Science): El funcionamiento técnico (algoritmos, arquitecturas de sistemas, modelos económicos) se explica con claridad, utilizando analogías precisas sin subestimar al lector.
+[ ] 3.2 Impacto Sistémico: El artículo conecta el desarrollo técnico con sus consecuencias tangibles (costos, eficiencia, disrupción de mercado, cambios regulatorios).
+[ ] 3.3 Flujo Lógico: Las transiciones entre el contexto histórico, la innovación actual y la perspectiva futura son fluidas e hiladas lógicamente.
+[ ] 3.4 Conclusión Prospectiva: El cierre no solo resume, sino que proyecta escenarios futuros, próximos pasos de la investigación o preguntas clave aún sin respuesta.
+
+* UMBRAL FASE 3: Requiere un mínimo de 16/20 puntos para avanzar.
+
+--------------------------------------------------------------------
+FASE 4: ESTILO, TONO Y FORMATO WEB (PESO: 25%)
+--------------------------------------------------------------------
+Puntaje: 1 (Deficiente) a 5 (Excelente)
+
+[ ] 4.1 Tono Institucional: El lenguaje es autoritativo, objetivo, preciso y profesional (estándar MIT/Harvard).
+[ ] 4.2 Economía del Lenguaje: Oraciones directas. Sin redundancias, jerga innecesaria que no se explique, ni adjetivos superfluos.
+[ ] 4.3 Elementos Visuales: Incluye sugerencias precisas (o archivos) para diagramas de flujo, gráficos de dispersión/clusters, o tablas de datos donde el texto requiere apoyo visual.
+[ ] 4.4 Jerarquía HTML: Uso correcto de H2 y H3 para romper bloques de texto extensos y facilitar el escaneo visual en pantalla.
+[ ] 4.5 Metadatos Completos: Incluye propuesta de Title Tag SEO, Meta Description y Keywords relevantes.
+
+* UMBRAL FASE 4: Requiere un mínimo de 20/25 puntos para avanzar.
+
+--------------------------------------------------------------------
+VEREDICTO FINAL Y ACCIONES EDITORIALES
+--------------------------------------------------------------------
+[ ] APROBADO SIN CAMBIOS (Puntaje Total: 65-70) -> Pasa a maquetación y publicación.
+[ ] APROBADO CON EDICIÓN MENOR (Puntaje Total: 56-64) -> El editor realiza ajustes de estilo, formato web o SEO antes de publicar.
+[ ] REVISIÓN Y REENVÍO (Puntaje Total: 40-55) -> Se devuelve al autor con comentarios específicos para mejorar fuentes, explicar mejor los mecanismos técnicos o reestructurar argumentos.
+[ ] RECHAZO (Puntaje Total: <40 o Falla en Fase 1) -> El enfoque no cumple con el nivel analítico de la plataforma.
+
+COMENTARIOS DEL EDITOR AL AUTOR:
+[Espacio para notas sobre áreas grises en la investigación, sugerencias de gráficos, o correcciones de estilo]
+====================================================================
