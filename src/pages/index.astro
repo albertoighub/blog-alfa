@@ -35,10 +35,9 @@ url: `/blog/${p.slug ?? p.id}/`,
 <style>
 :global(body) {
 background-color: #f8fafc;
-color: #0f172a;
+color: #050505;
 font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 }
-/* CONTENEDOR MAESTRO PANORÁMICO */
 main {
 max-width: 1580px;
 width: 94%;
@@ -46,9 +45,9 @@ margin: 0 auto;
 padding: 1.5rem 0 6rem;
 }
 
-/* 1. ÚLTIMA HORA CENTRADO Y EXTENDIDO */
+/* 1. ÚLTIMA HORA (ROJO Y NEGRO) */
 .breaking-marquee-strip {
-background: #991b1b;
+background: #b91c1c;
 color: #ffffff;
 display: flex;
 align-items: center;
@@ -56,11 +55,11 @@ height: 44px;
 border-radius: 6px;
 margin-bottom: 2rem;
 overflow: hidden;
-box-shadow: 0 4px 15px rgba(153, 27, 27, 0.15);
+box-shadow: 0 4px 15px rgba(185, 28, 28, 0.2);
 width: 100%;
 }
 .breaking-fixed-tag {
-background: #7f1d1d;
+background: #050505;
 height: 100%;
 padding: 0 1.4rem;
 display: flex;
@@ -72,19 +71,19 @@ letter-spacing: 0.1em;
 text-transform: uppercase;
 flex-shrink: 0;
 z-index: 3;
-border-right: 1px solid rgba(255, 255, 255, 0.15);
+border-right: 2px solid #dc2626;
 }
 .breaking-pulse-dot {
 width: 8px;
 height: 8px;
 border-radius: 50%;
-background: #f87171;
-box-shadow: 0 0 8px #f87171;
+background: #dc2626;
+box-shadow: 0 0 8px #dc2626;
 animation: pulseDot 1.4s infinite ease-in-out;
 }
 @keyframes pulseDot {
 0%, 100% { transform: scale(0.9); opacity: 0.8; }
-50% { transform: scale(1.2); opacity: 1; }
+50% { transform: scale(1.25); opacity: 1; }
 }
 .breaking-track-container {
 flex: 1;
@@ -116,7 +115,7 @@ gap: 0.8rem;
 }
 .breaking-category-pill {
 background: #ffffff;
-color: #991b1b;
+color: #050505;
 font-size: 0.68rem;
 font-weight: 900;
 padding: 0.2rem 0.55rem;
@@ -130,7 +129,7 @@ line-height: 1;
 100% { transform: translateX(-50%); }
 }
 
-/* 2. LOS 3 PILARES EXTENDIDOS A TODO EL ANCHO */
+/* 2. LOS TRES PILARES TEMÁTICOS HORIZONTALES */
 .three-pillars-strip {
 display: grid;
 grid-template-columns: repeat(3, 1fr);
@@ -139,7 +138,7 @@ margin-bottom: 3rem;
 width: 100%;
 }
 .pillar-card {
-background: #090d16;
+background: #050505;
 border-radius: 8px;
 padding: 1.1rem 1.6rem;
 display: flex;
@@ -147,21 +146,22 @@ align-items: center;
 gap: 1.3rem;
 text-decoration: none;
 color: #ffffff;
-border: 1px solid #1e293b;
+border: 1px solid #1f2937;
 transition: transform 0.25s ease, border-color 0.25s ease, box-shadow 0.25s ease;
 height: 86px;
 box-sizing: border-box;
 }
 .pillar-card:hover {
 transform: translateY(-3px);
-box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.3);
+box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.4);
 }
-.pillar-geo { border-left: 4px solid #ef4444; }
-.pillar-geo:hover { border-color: #ef4444; }
-.pillar-fin { border-left: 4px solid #10b981; }
-.pillar-fin:hover { border-color: #10b981; }
-.pillar-tech { border-left: 4px solid #3b82f6; }
-.pillar-tech:hover { border-color: #3b82f6; }
+/* Diferenciación temática estricta */
+.pillar-geo { border-left: 4px solid #dc2626; }
+.pillar-geo:hover { border-color: #dc2626; }
+.pillar-fin { border-left: 4px solid #059669; }
+.pillar-fin:hover { border-color: #059669; }
+.pillar-tech { border-left: 4px solid #2563eb; }
+.pillar-tech:hover { border-color: #2563eb; }
 
 .pillar-icon {
 width: 48px;
@@ -172,15 +172,15 @@ align-items: center;
 justify-content: center;
 flex-shrink: 0;
 }
-.icon-geo { background: rgba(239, 68, 68, 0.15); color: #ef4444; }
+.icon-geo { background: rgba(220, 38, 38, 0.15); color: #dc2626; }
 .icon-fin { 
-background: rgba(16, 185, 129, 0.18); 
-color: #10b981;
+background: rgba(5, 150, 105, 0.18); 
+color: #059669;
 font-size: 1.6rem;
 font-weight: 900;
 font-family: system-ui, sans-serif;
 }
-.icon-tech { background: rgba(59, 130, 246, 0.15); color: #3b82f6; }
+.icon-tech { background: rgba(37, 99, 235, 0.15); color: #2563eb; }
 
 .pillar-text {
 display: flex;
@@ -190,7 +190,7 @@ justify-content: center;
 .pillar-text h4 {
 margin: 0 0 0.15rem;
 font-size: 1.05rem;
-font-weight: 800;
+font-weight: 900;
 letter-spacing: -0.01em;
 color: #ffffff;
 }
@@ -201,13 +201,13 @@ color: #94a3b8;
 line-height: 1.35;
 }
 
-/* 3. ESTRUCTURA EDITORIAL BROADSHEET CON MARGEN PARA ADSENSE */
+/* 3. ESTRUCTURA EDITORIAL BROADSHEET */
 .broadsheet-layout {
 display: grid;
 grid-template-columns: 2.7fr 1.1fr;
 gap: 3rem;
 padding-bottom: 3.5rem;
-border-bottom: 2px solid #0f172a;
+border-bottom: 2px solid #050505;
 margin-bottom: 3.5rem;
 width: 100%;
 }
@@ -221,26 +221,26 @@ box-shadow: 0 8px 20px rgba(0,0,0,0.03);
 .lead-cat {
 font-size: 0.78rem;
 font-weight: 900;
-color: #1e3a8a;
+color: #dc2626;
 text-transform: uppercase;
-letter-spacing: 0.08em;
+letter-spacing: 0.1em;
 margin-bottom: 0.8rem;
 display: block;
 }
 .lead-title {
 font-size: clamp(2.3rem, 3.5vw, 3.2rem);
 line-height: 1.15;
-font-weight: 900;
+font-weight: 950;
 margin: 0 0 1.4rem;
 letter-spacing: -0.03em;
-color: #0f172a;
+color: #050505;
 }
 .lead-title a {
 color: inherit;
 text-decoration: none;
 }
 .lead-title a:hover {
-color: #1e3a8a;
+color: #dc2626;
 }
 .lead-media {
 margin-bottom: 1.6rem;
@@ -268,7 +268,7 @@ margin: 0 0 1.4rem;
 .lead-meta {
 font-size: 0.84rem;
 color: #64748b;
-font-weight: 600;
+font-weight: 700;
 border-top: 1px solid #f1f5f9;
 padding-top: 1.2rem;
 }
@@ -282,11 +282,11 @@ gap: 1.8rem;
 font-size: 0.88rem;
 font-weight: 900;
 text-transform: uppercase;
-letter-spacing: 0.08em;
-border-bottom: 2px solid #0f172a;
+letter-spacing: 0.1em;
+border-bottom: 2px solid #050505;
 padding-bottom: 0.6rem;
 margin: 0;
-color: #0f172a;
+color: #050505;
 }
 .radar-card {
 background: #ffffff;
@@ -309,8 +309,8 @@ margin-bottom: 0.8rem;
 }
 .radar-cat {
 font-size: 0.72rem;
-font-weight: 800;
-color: #b91c1c;
+font-weight: 900;
+color: #dc2626;
 text-transform: uppercase;
 margin-bottom: 0.4rem;
 }
@@ -321,11 +321,11 @@ font-weight: 800;
 margin: 0 0 0.5rem;
 }
 .radar-title a {
-color: #0f172a;
+color: #050505;
 text-decoration: none;
 }
 .radar-title a:hover {
-color: #1e3a8a;
+color: #dc2626;
 }
 .radar-desc {
 font-size: 0.88rem;
@@ -334,7 +334,7 @@ line-height: 1.5;
 margin: 0 0 0.4rem;
 }
 
-/* 4. CATÁLOGO COMPLETO PANORÁMICO */
+/* 4. SECCIONES TEMÁTICAS */
 .category-section-wrap {
 margin-bottom: 4.5rem;
 width: 100%;
@@ -343,26 +343,27 @@ width: 100%;
 display: flex;
 justify-content: space-between;
 align-items: baseline;
-border-bottom: 2px solid #0f172a;
+border-bottom: 2px solid #050505;
 padding-bottom: 0.8rem;
 margin-bottom: 2.2rem;
 }
 .section-name {
 font-size: 1.8rem;
-font-weight: 900;
+font-weight: 950;
 letter-spacing: -0.02em;
-color: #0f172a;
+color: #050505;
 margin: 0;
 }
 .section-link {
 font-size: 0.84rem;
-font-weight: 800;
+font-weight: 900;
 text-transform: uppercase;
 letter-spacing: 0.06em;
-color: #1e3a8a;
+color: #050505;
 text-decoration: none;
 }
 .section-link:hover {
+color: #dc2626;
 text-decoration: underline;
 }
 .articles-grid {
@@ -410,17 +411,17 @@ justify-content: space-between;
 .article-title {
 font-size: 1.28rem;
 line-height: 1.35;
-font-weight: 800;
+font-weight: 850;
 letter-spacing: -0.02em;
 margin: 0 0 0.8rem;
-color: #0f172a;
+color: #050505;
 }
 .article-title a {
 color: inherit;
 text-decoration: none;
 }
 .article-title a:hover {
-color: #1e3a8a;
+color: #dc2626;
 }
 .article-desc {
 font-size: 0.94rem;
@@ -431,7 +432,7 @@ margin-bottom: 1.4rem;
 .article-date {
 font-size: 0.78rem;
 color: #94a3b8;
-font-weight: 600;
+font-weight: 700;
 border-top: 1px solid #f8fafc;
 padding-top: 0.8rem;
 }
@@ -469,7 +470,7 @@ padding-top: 0.8rem;
 </div>
 )}
 
-<!-- 2. Los 3 Pilares Panorámicos en 1 Fila -->
+<!-- 2. Los 3 Pilares Temáticos (Rojo para Geo, Verde para Finanzas, Azul para Tech) -->
 <section class="three-pillars-strip">
 <a href="/categoria/geopolitica" class="pillar-card pillar-geo">
 <div class="pillar-icon icon-geo">
@@ -548,11 +549,11 @@ Por Redacción News Internacional TEP • {leadStory.data.pubDate.toLocaleDateSt
 </div>
 )}
 
-<!-- 4. Archivo Completo en Cuadrícula Panorámica -->
+<!-- 4. Cuadrícula de Artículos por Sección -->
 {postsGeopolitica.length > 0 && (
 <section class="category-section-wrap">
 <div class="section-bar">
-<h3 class="section-name">Geopolítica & Orden Global</h3>
+<h3 class="section-name" style="border-left: 4px solid #dc2626; padding-left: 0.8rem;">Geopolítica & Orden Global</h3>
 <a href="/categoria/geopolitica" class="section-link">Ver sección completa ({postsGeopolitica.length}) →</a>
 </div>
 <div class="articles-grid">
@@ -583,7 +584,7 @@ Por Redacción News Internacional TEP • {leadStory.data.pubDate.toLocaleDateSt
 {postsEconomia.length > 0 && (
 <section class="category-section-wrap">
 <div class="section-bar">
-<h3 class="section-name">Economía, Mercados & Finanzas</h3>
+<h3 class="section-name" style="border-left: 4px solid #059669; padding-left: 0.8rem;">Economía, Mercados & Finanzas</h3>
 <a href="/categoria/economia" class="section-link">Ver sección completa ({postsEconomia.length}) →</a>
 </div>
 <div class="articles-grid">
@@ -614,7 +615,7 @@ Por Redacción News Internacional TEP • {leadStory.data.pubDate.toLocaleDateSt
 {postsTecnologia.length > 0 && (
 <section class="category-section-wrap">
 <div class="section-bar">
-<h3 class="section-name">Tecnología & Inteligencia Artificial</h3>
+<h3 class="section-name" style="border-left: 4px solid #2563eb; padding-left: 0.8rem;">Tecnología & Inteligencia Artificial</h3>
 <a href="/categoria/tecnologia" class="section-link">Ver sección completa ({postsTecnologia.length}) →</a>
 </div>
 <div class="articles-grid">

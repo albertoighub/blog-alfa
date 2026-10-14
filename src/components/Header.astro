@@ -21,7 +21,7 @@ const marketData = [
 ---
 
 <header class="tep-global-header">
-<!-- 1. Ticker 1: Horarios Mundiales (Azul Noche #050914) -->
+<!-- 1. Ticker: Horarios Mundiales (Negro Carbón & Acentos Rojos) -->
 <div class="ticker-time-wrapper">
 <div class="ticker-label-time">HORA GLOBAL</div>
 <div class="ticker-viewport">
@@ -48,7 +48,7 @@ const marketData = [
 </div>
 </div>
 
-<!-- 2. Ticker 2: Mercados Financieros (Azul Noche #0a1228) -->
+<!-- 2. Ticker: Mercados & Divisas (Negro Metálico con Insignia Roja) -->
 <div class="ticker-market-wrapper">
 <div class="ticker-label-market">MERCADOS & DIVISAS</div>
 <div class="ticker-viewport">
@@ -89,24 +89,22 @@ const marketData = [
 </div>
 </div>
 
-<!-- 4. Masthead con Logotipo Profesional e Isotipo Emblemático -->
+<!-- 4. Masthead Oficial con Logo Metálico TEP NEWS -->
 <div class="masthead">
 <span class="sub-head">REVISTA CIENTÍFICA & ANÁLISIS ESTRATÉGICO GLOBAL</span>
 
 <div class="brand-container">
-<a href="/" class="brand-link" aria-label="News Internacional TEP">
-<!-- Emblema / Isotipo Vectorial Oficial -->
-<svg class="brand-emblem" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
-<rect width="64" height="64" rx="14" fill="#080e21"/>
-<rect x="2" y="2" width="60" height="60" rx="12" stroke="#1e3a8a" stroke-width="2"/>
-<circle cx="32" cy="32" r="22" stroke="#38bdf8" stroke-width="1.8" stroke-opacity="0.4"/>
-<ellipse cx="32" cy="32" rx="11" ry="22" stroke="#38bdf8" stroke-width="1.8" stroke-opacity="0.6"/>
-<line x1="10" y1="32" x2="54" y2="32" stroke="#38bdf8" stroke-width="1.8" stroke-opacity="0.6"/>
-<text x="32" y="37" font-family="system-ui, sans-serif" font-size="11" font-weight="900" fill="#ffffff" text-anchor="middle" letter-spacing="1">TEP</text>
-<circle cx="48" cy="16" r="3.5" fill="#dc2626"/>
-</svg>
+<a href="/" class="brand-link" aria-label="TEP NEWS">
+<!-- Emblema Oficial en Alta Definición -->
+<img 
+src="/logo.jpg" 
+alt="TEP NEWS - Logo Oficial" 
+class="brand-logo-img"
+width="68"
+height="68"
+loading="eager"
+/>
 
-<!-- Logotipo Tipográfico -->
 <div class="brand-text-wrap">
 <h1 class="main-title">
 NEWS INTERNACIONAL <span class="brand-badge-tep">TEP</span>
@@ -115,7 +113,7 @@ NEWS INTERNACIONAL <span class="brand-badge-tep">TEP</span>
 </a>
 </div>
 
-<!-- Sub-navegación con colores temáticos bien diferenciados -->
+<!-- Sub-navegación con códigos temáticos inalterados -->
 <div class="tagline-nav">
 <a href="/categoria/tecnologia" class="tagline-link tag-tech">
 <span class="tag-bullet bullet-tech"></span> TECNOLOGÍA
@@ -146,27 +144,27 @@ NEWS INTERNACIONAL <span class="brand-badge-tep">TEP</span>
 <style>
 .tep-global-header {
 background: #ffffff;
-border-bottom: 2px solid #0f172a;
-color: #0f172a;
+border-bottom: 3px solid #050505;
+color: #050505;
 font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 width: 100%;
 }
 
-/* TICKERS CONTINUOS (AZULES NOCHE DE MARCA) */
+/* TICKERS CONTINUOS (NEGRO Y ROJO) */
 .ticker-time-wrapper {
-background: #050914;
+background: #050505;
 color: #94a3b8;
 font-size: 0.72rem;
 font-weight: 700;
-border-bottom: 1px solid #141c33;
+border-bottom: 1px solid #1c1c1c;
 height: 34px;
 display: flex;
 align-items: center;
 overflow: hidden;
 }
 .ticker-label-time {
-background: #0f1e47;
-color: #f8fafc;
+background: #121212;
+color: #ffffff;
 padding: 0 1.4rem;
 height: 100%;
 display: flex;
@@ -176,21 +174,22 @@ letter-spacing: 0.08em;
 text-transform: uppercase;
 z-index: 5;
 flex-shrink: 0;
-box-shadow: 6px 0 12px rgba(0,0,0,0.5);
+border-right: 2px solid #dc2626;
+box-shadow: 4px 0 12px rgba(0,0,0,0.6);
 }
 
 .ticker-market-wrapper {
-background: #0a1228;
+background: #0a0a0a;
 color: #ffffff;
 font-size: 0.74rem;
-border-bottom: 1px solid #19274e;
+border-bottom: 1px solid #1a1a1a;
 height: 36px;
 display: flex;
 align-items: center;
 overflow: hidden;
 }
 .ticker-label-market {
-background: #14285e;
+background: #dc2626;
 color: #ffffff;
 padding: 0 1.4rem;
 height: 100%;
@@ -201,7 +200,7 @@ letter-spacing: 0.08em;
 text-transform: uppercase;
 z-index: 5;
 flex-shrink: 0;
-box-shadow: 6px 0 12px rgba(0,0,0,0.5);
+box-shadow: 4px 0 12px rgba(220, 38, 38, 0.4);
 }
 
 .ticker-viewport {
@@ -224,15 +223,10 @@ gap: 3rem;
 padding-right: 3rem;
 flex-shrink: 0;
 }
-.time-track {
-animation: circularMarquee 38s linear infinite;
-}
-.market-track {
-animation: circularMarquee 48s linear infinite;
-}
-.ticker-track-loop:hover {
-animation-play-state: paused;
-}
+.time-track { animation: circularMarquee 38s linear infinite; }
+.market-track { animation: circularMarquee 48s linear infinite; }
+.ticker-track-loop:hover { animation-play-state: paused; }
+
 @keyframes circularMarquee {
 0% { transform: translateX(0); }
 100% { transform: translateX(-50%); }
@@ -250,7 +244,7 @@ text-transform: uppercase;
 letter-spacing: 0.04em;
 }
 .time-val {
-color: #38bdf8;
+color: #f87171;
 font-variant-numeric: tabular-nums;
 font-weight: 700;
 }
@@ -259,9 +253,9 @@ color: #e2e8f0;
 font-weight: 700;
 }
 .market-val {
-color: #cbd5e1;
+color: #ffffff;
 font-variant-numeric: tabular-nums;
-font-weight: 600;
+font-weight: 700;
 }
 .badge-up {
 background: rgba(16, 185, 129, 0.2);
@@ -273,8 +267,8 @@ font-size: 0.68rem;
 font-weight: 800;
 }
 .badge-down {
-background: rgba(239, 68, 68, 0.2);
-color: #ef4444;
+background: rgba(239, 68, 68, 0.25);
+color: #f87171;
 border: 1px solid #dc2626;
 padding: 0.1rem 0.45rem;
 border-radius: 3px;
@@ -296,24 +290,25 @@ border-bottom: 1px solid #e2e8f0;
 color: #64748b;
 }
 .edition-badge {
-font-weight: 800;
+font-weight: 900;
 text-transform: uppercase;
-color: #0f172a;
+color: #050505;
 margin-right: 0.8rem;
-border-right: 1px solid #cbd5e1;
+border-right: 2px solid #050505;
 padding-right: 0.8rem;
 }
 .utility-date {
 text-transform: capitalize;
-font-weight: 500;
+font-weight: 600;
+color: #475569;
 }
 .live-pulse-btn {
 display: inline-flex;
 align-items: center;
 gap: 6px;
-color: #0284c7;
+color: #dc2626;
 text-decoration: none;
-font-weight: 700;
+font-weight: 800;
 font-size: 0.76rem;
 }
 .pulse-dot {
@@ -325,22 +320,22 @@ animation: pulse 1.6s infinite;
 }
 @keyframes pulse {
 0%, 100% { transform: scale(0.95); opacity: 0.8; }
-50% { transform: scale(1.2); opacity: 1; }
+50% { transform: scale(1.25); opacity: 1; }
 }
 
-/* MASTHEAD & LOGO OFICIAL */
+/* MASTHEAD & LOGOTIPO */
 .masthead {
 text-align: center;
 padding: 2rem 1rem 1.4rem;
-border-bottom: 1px solid #0f172a;
+border-bottom: 2px solid #050505;
 }
 .sub-head {
-font-size: 0.74rem;
-font-weight: 800;
-color: #475569;
-letter-spacing: 0.18em;
+font-size: 0.75rem;
+font-weight: 900;
+color: #64748b;
+letter-spacing: 0.2em;
 display: block;
-margin-bottom: 0.7rem;
+margin-bottom: 0.8rem;
 }
 .brand-container {
 display: flex;
@@ -351,16 +346,18 @@ margin-bottom: 0.4rem;
 .brand-link {
 display: inline-flex;
 align-items: center;
-gap: 1.2rem;
+gap: 1.4rem;
 text-decoration: none;
-color: #0f172a;
+color: #050505;
 }
-.brand-emblem {
-width: 52px;
-height: 52px;
+.brand-logo-img {
+width: 66px;
+height: 66px;
+object-fit: cover;
+border-radius: 50%;
+box-shadow: 0 4px 16px rgba(0, 0, 0, 0.4);
+border: 2px solid #050505;
 flex-shrink: 0;
-box-shadow: 0 4px 12px rgba(8, 14, 33, 0.15);
-border-radius: 12px;
 }
 .main-title {
 font-size: clamp(2.3rem, 5.5vw, 3.8rem);
@@ -368,22 +365,22 @@ font-weight: 950;
 letter-spacing: -0.04em;
 margin: 0;
 line-height: 1;
-color: #0f172a;
+color: #050505;
 text-transform: uppercase;
 display: flex;
 align-items: center;
 gap: 0.4rem;
 }
 .brand-badge-tep {
-color: #0f1e47;
-background: #eff6ff;
-border: 2px solid #bfdbfe;
-padding: 0 0.4rem;
-border-radius: 6px;
+color: #ffffff;
+background: #dc2626;
+padding: 0 0.45rem;
+border-radius: 4px;
 letter-spacing: -0.02em;
+box-shadow: 0 2px 8px rgba(220, 38, 38, 0.3);
 }
 
-/* SUB-NAVEGACIÓN CON COLORES DIFERENCIADOS */
+/* SUB-NAVEGACIÓN CON COLORES DE LAS 3 SECCIONES */
 .tagline-nav {
 display: flex;
 justify-content: center;
@@ -392,8 +389,8 @@ gap: 1.4rem;
 margin-top: 1rem;
 }
 .tagline-link {
-font-size: 0.76rem;
-font-weight: 800;
+font-size: 0.78rem;
+font-weight: 900;
 letter-spacing: 0.12em;
 text-decoration: none;
 display: inline-flex;
@@ -402,13 +399,14 @@ gap: 6px;
 transition: opacity 0.15s ease;
 }
 .tag-bullet {
-width: 7px;
-height: 7px;
+width: 8px;
+height: 8px;
 border-radius: 50%;
 }
-.bullet-tech { background: #2563eb; box-shadow: 0 0 6px rgba(37, 99, 235, 0.4); }
-.bullet-econ { background: #059669; box-shadow: 0 0 6px rgba(5, 150, 105, 0.4); }
-.bullet-geo  { background: #dc2626; box-shadow: 0 0 6px rgba(220, 38, 38, 0.4); }
+/* Reglas estrictas: Tecnología = Azul, Economía = Verde, Política = Rojo */
+.bullet-tech { background: #2563eb; box-shadow: 0 0 6px rgba(37, 99, 235, 0.5); }
+.bullet-econ { background: #059669; box-shadow: 0 0 6px rgba(5, 150, 105, 0.5); }
+.bullet-geo  { background: #dc2626; box-shadow: 0 0 6px rgba(220, 38, 38, 0.5); }
 
 .tag-tech { color: #2563eb; }
 .tag-econ { color: #059669; }
@@ -416,11 +414,11 @@ border-radius: 50%;
 .tagline-link:hover { opacity: 0.75; }
 
 .dot {
-color: #cbd5e1;
+color: #94a3b8;
 font-size: 0.8rem;
 }
 
-/* BARRA DE SECCIONES */
+/* NAVEGACIÓN TEMÁTICA */
 .nav-sections {
 border-top: 1px solid #e2e8f0;
 }
@@ -436,10 +434,10 @@ gap: 0 2.5rem;
 padding: 0.75rem 0;
 }
 .nav-link {
-color: #1e293b;
+color: #050505;
 text-decoration: none;
 font-size: 0.84rem;
-font-weight: 700;
+font-weight: 800;
 text-transform: uppercase;
 letter-spacing: 0.05em;
 padding: 0.35rem 0;
@@ -447,8 +445,8 @@ border-bottom: 2px solid transparent;
 transition: all 0.15s ease;
 }
 .nav-link:hover, .nav-link.active {
-color: #0f172a;
-border-bottom-color: #0f172a;
+color: #dc2626;
+border-bottom-color: #dc2626;
 }
 .nav-link.nav-tech:hover { color: #2563eb; border-bottom-color: #2563eb; }
 .nav-link.nav-econ:hover { color: #059669; border-bottom-color: #059669; }
@@ -458,7 +456,7 @@ border-bottom-color: #0f172a;
 .utility-left { display: flex; flex-direction: column; gap: 2px; }
 .nav-wrap { justify-content: flex-start; overflow-x: auto; white-space: nowrap; gap: 0 1.2rem; }
 .brand-link { gap: 0.8rem; }
-.brand-emblem { width: 42px; height: 42px; }
+.brand-logo-img { width: 50px; height: 50px; }
 }
 </style>
 
