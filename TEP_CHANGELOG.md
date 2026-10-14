@@ -55,3 +55,6 @@
 - **Cambios Aplicados:**
   1. Integración de la validación del Directorio Global TEP para la corroboración temática de los cables informativos.
   2. Blindaje absoluto contra discrepancias visuales (filtro estricto anti-ruido urbano para reportes de infraestructura).
+## [2026-10-14 04:58] - HOTFIX Visual: Inserción de Imagen Oficial BBC en Artículo Yandex
+- **Archivos Modificados:** src/content/blog/2026-10-14-fragilidad-digital-de-asia-central-ante-ataques-a-yande.md
+- **Objetivo:** Sustituir la ilustración generada por la fotografía oficial de cobertura internacional de la BBC (ichef.bbci.co.uk).

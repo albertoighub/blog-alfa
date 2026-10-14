@@ -5,7 +5,7 @@ pubDate: "2026-10-14"
 category: "Geopolítica"
 tags: ["Asia Central", "Infraestructura Cr\u00edtica", "Guerra Asim\u00e9trica", "Yandex", "Soberan\u00eda Digital"]
 author: "Comité Analítico TEP & Prospectiva"
-heroImage: "https://image.pollinations.ai/prompt/Global%20digital%20infrastructure%20and%20data%20centers%20server%20racks%20fiber%20optics%20connectivity%20nodes%20technical%20precision%20documentary%20photography%20no%20text?seed=889922&width=1200&height=630&nologo=true"
+heroImage: "https://ichef.bbci.co.uk/ace/ws/740/cpsprodpb/69d7/live/e577a8a0-c64a-11f1-b47f-e3f9cf703bc3.jpg.webp"
 canonicalSource: "https://thediplomat.com/2026/10/what-the-ukrainian-strikes-on-yandex-tell-us-about-central-asias-digital-infrastructure/"
 ---
 
