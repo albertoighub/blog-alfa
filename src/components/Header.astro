@@ -89,23 +89,36 @@ const marketData = [
 </div>
 </div>
 
-<!-- 4. Masthead Oficial -->
+<!-- 4. Masthead Oficial con Buscador Discreto Superior -->
 <div class="masthead">
-<span class="sub-head">REVISTA CIENTÍFICA & ANÁLISIS ESTRATÉGICO GLOBAL</span>
-
-<!-- BANNER PRINCIPAL DE LAS 3 SECCIONES POR ENCIMA DEL TÍTULO -->
-<div class="top-sections-strip">
-<a href="/categoria/tecnologia" class="top-pillar-pill pillar-tech">
-<span class="pillar-dot dot-tech"></span> TECNOLOGÍA
-</a>
-<span class="pillar-sep">•</span>
-<a href="/categoria/economia" class="top-pillar-pill pillar-econ">
-<span class="pillar-dot dot-econ"></span> ECONOMÍA
-</a>
-<span class="pillar-sep">•</span>
-<a href="/categoria/geopolitica" class="top-pillar-pill pillar-geo">
-<span class="pillar-dot dot-geo"></span> GEOPOLÍTICA
-</a>
+<!-- BUSCADOR DISCRETO CON ACCESO A BÚSQUEDA AVANZADA (SUSTITUYE AL TEXTO REDUNDANTE) -->
+<div class="header-search-container">
+<div class="discrete-search-box">
+<svg class="search-icon-svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+<circle cx="11" cy="11" r="8"/>
+<line x1="21" y1="21" x2="16.65" y2="16.65"/>
+</svg>
+<input
+type="text"
+id="quick-search-input"
+placeholder="Buscar investigaciones, cifras, informes..."
+autocomplete="off"
+/>
+<button type="button" class="advanced-filter-btn" id="open-advanced-modal-btn" title="Abrir Búsqueda Avanzada">
+<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+<line x1="4" y1="21" x2="4" y2="14"/>
+<line x1="4" y1="10" x2="4" y2="3"/>
+<line x1="12" y1="21" x2="12" y2="12"/>
+<line x1="12" y1="8" x2="12" y2="3"/>
+<line x1="20" y1="21" x2="20" y2="16"/>
+<line x1="20" y1="12" x2="20" y2="3"/>
+<line x1="1" y1="14" x2="7" y2="14"/>
+<line x1="9" y1="8" x2="15" y2="8"/>
+<line x1="17" y1="16" x2="23" y2="16"/>
+</svg>
+<span>Búsqueda Avanzada</span>
+</button>
+</div>
 </div>
 
 <!-- Logotipo Oficial Centrado y Recuadro TEP Alineado -->
@@ -131,7 +144,7 @@ NEWS INTERNACIONAL <span class="brand-badge-tep">TEP</span>
 </div>
 </header>
 
-<!-- 5. NAVEGACIÓN ADHERENTE (STICKY) QUE SE DESPLAZA CON EL USUARIO -->
+<!-- 5. NAVEGACIÓN ADHERENTE (STICKY) -->
 <nav class="nav-sections sticky-nav">
 <div class="nav-wrap">
 <a href="/" class="nav-link active">Inicio</a>
@@ -141,6 +154,69 @@ NEWS INTERNACIONAL <span class="brand-badge-tep">TEP</span>
 <a href="/about" class="nav-link">Línea Editorial</a>
 </div>
 </nav>
+
+<!-- MODAL DE BÚSQUEDA AVANZADA MULTIDIMENSIONAL -->
+<div id="search-modal-backdrop" class="search-backdrop hidden">
+<div class="search-modal-window">
+<div class="modal-top-bar">
+<div class="modal-title-wrap">
+<div class="modal-badge-red">FILTROS DE INTELIGENCIA</div>
+<h3 class="modal-title">Búsqueda Avanzada en Archivo TEP</h3>
+</div>
+<button type="button" id="close-advanced-modal-btn" class="modal-close-icon" aria-label="Cerrar modal">✕</button>
+</div>
+
+<form id="advanced-search-form" class="modal-filters-grid" onsubmit="return false;">
+<div class="filter-group full-width">
+<label for="adv-input-query">Término de Búsqueda o Título</label>
+<input type="text" id="adv-input-query" placeholder="Ej: Semiconductores, Bancos Centrales, Taiwán..." />
+</div>
+
+<div class="filter-group">
+<label for="adv-select-cat">Sección Informativa</label>
+<select id="adv-select-cat">
+<option value="all">Todas las Secciones</option>
+<option value="geopolitica">Geopolítica & Orden Global</option>
+<option value="economia">Economía & Mercados</option>
+<option value="tecnologia">Tecnología & IA</option>
+</select>
+</div>
+
+<div class="filter-group">
+<label for="adv-select-date">Fecha de Publicación</label>
+<select id="adv-select-date">
+<option value="all">Cualquier Fecha</option>
+<option value="7">Últimos 7 días</option>
+<option value="30">Últimos 30 días</option>
+<option value="90">Últimos 3 meses</option>
+</select>
+</div>
+
+<div class="filter-group">
+<label for="adv-input-author">Autor / Redacción</label>
+<input type="text" id="adv-input-author" placeholder="Ej: Redacción TEP, Comité..." />
+</div>
+
+<div class="filter-group">
+<label for="adv-input-tag">Palabra Clave (Tag)</label>
+<input type="text" id="adv-input-tag" placeholder="Ej: chips, fed, defensa..." />
+</div>
+</form>
+
+<!-- Resultados Dinámicos en Tiempo Real -->
+<div class="search-results-area">
+<div class="results-header">
+<span id="results-count-badge">0 resultados encontrados</span>
+<span class="results-hint">Escribe o selecciona filtros para actualizar</span>
+</div>
+<div id="search-results-list" class="results-container">
+<div class="empty-search-state">
+<p>Introduce un término o aplica los filtros para buscar en la base de datos documental.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
 
 <style>
 .tep-global-header {
@@ -316,55 +392,72 @@ animation: pulse 1.6s infinite;
 50% { transform: scale(1.25); opacity: 1; }
 }
 
-/* MASTHEAD */
+/* MASTHEAD & BUSCADOR DISCRETO SUPERIOR */
 .masthead {
 text-align: center;
-padding: 1.6rem 1rem 1.4rem;
-}
-.sub-head {
-font-size: 0.72rem;
-font-weight: 900;
-color: #64748b;
-letter-spacing: 0.22em;
-display: block;
-margin-bottom: 0.6rem;
+padding: 1.2rem 1rem 1.4rem;
 }
 
-/* BANNER DE LAS 3 SECCIONES POR ENCIMA DEL TÍTULO */
-.top-sections-strip {
+.header-search-container {
 display: flex;
 justify-content: center;
-align-items: center;
-gap: 1.4rem;
 margin-bottom: 1.2rem;
 }
-.top-pillar-pill {
-font-size: 0.76rem;
-font-weight: 900;
-letter-spacing: 0.12em;
-text-decoration: none;
+.discrete-search-box {
+display: flex;
+align-items: center;
+background: #f8fafc;
+border: 1px solid #cbd5e1;
+border-radius: 30px;
+padding: 0.35rem 0.5rem 0.35rem 1rem;
+width: 100%;
+max-width: 620px;
+transition: all 0.2s ease;
+box-shadow: 0 2px 6px rgba(0, 0, 0, 0.03);
+}
+.discrete-search-box:focus-within {
+border-color: #dc2626;
+background: #ffffff;
+box-shadow: 0 0 0 3px rgba(220, 38, 38, 0.12);
+}
+.search-icon-svg {
+color: #94a3b8;
+margin-right: 0.6rem;
+flex-shrink: 0;
+}
+.discrete-search-box input {
+border: none;
+outline: none;
+background: transparent;
+font-size: 0.85rem;
+color: #0f172a;
+width: 100%;
+font-family: inherit;
+}
+.discrete-search-box input::placeholder {
+color: #94a3b8;
+font-size: 0.82rem;
+}
+.advanced-filter-btn {
 display: inline-flex;
 align-items: center;
 gap: 6px;
-transition: transform 0.15s ease, opacity 0.15s ease;
+background: #050505;
+color: #ffffff;
+border: none;
+border-radius: 20px;
+padding: 0.38rem 0.85rem;
+font-size: 0.72rem;
+font-weight: 800;
+letter-spacing: 0.04em;
+text-transform: uppercase;
+cursor: pointer;
+white-space: nowrap;
+transition: background 0.15s ease;
 }
-.top-pillar-pill:hover {
-transform: translateY(-1px);
-opacity: 0.8;
+.advanced-filter-btn:hover {
+background: #dc2626;
 }
-.pillar-dot {
-width: 8px;
-height: 8px;
-border-radius: 50%;
-}
-.dot-tech { background: #2563eb; box-shadow: 0 0 6px rgba(37, 99, 235, 0.45); }
-.dot-econ { background: #059669; box-shadow: 0 0 6px rgba(5, 150, 105, 0.45); }
-.dot-geo  { background: #dc2626; box-shadow: 0 0 6px rgba(220, 38, 38, 0.45); }
-
-.pillar-tech { color: #2563eb; }
-.pillar-econ { color: #059669; }
-.pillar-geo  { color: #dc2626; }
-.pillar-sep { color: #cbd5e1; font-size: 0.8rem; }
 
 /* LOGO Y TITULAR CON TEP CENTRADO */
 .brand-container {
@@ -425,7 +518,7 @@ align-self: center;
 vertical-align: middle;
 }
 
-/* 5. NAVEGACIÓN FLOTANTE (STICKY EN PANTALLA) */
+/* NAVEGACIÓN STICKY */
 .sticky-nav {
 position: sticky;
 top: 0;
@@ -466,21 +559,218 @@ border-bottom-color: #dc2626;
 .nav-link.nav-econ:hover { color: #059669; border-bottom-color: #059669; }
 .nav-link.nav-geo:hover  { color: #dc2626; border-bottom-color: #dc2626; }
 
+/* MODAL DE BÚSQUEDA AVANZADA */
+.search-backdrop {
+position: fixed;
+inset: 0;
+z-index: 99999;
+background: rgba(5, 5, 5, 0.75);
+backdrop-filter: blur(6px);
+display: flex;
+align-items: flex-start;
+justify-content: center;
+padding: 3rem 1rem;
+overflow-y: auto;
+}
+.search-backdrop.hidden {
+display: none;
+}
+.search-modal-window {
+background: #ffffff;
+border-radius: 10px;
+max-width: 840px;
+width: 100%;
+border: 1px solid #1e293b;
+box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
+overflow: hidden;
+animation: modalFadeIn 0.2s ease-out;
+}
+@keyframes modalFadeIn {
+from { opacity: 0; transform: translateY(-12px); }
+to { opacity: 1; transform: translateY(0); }
+}
+
+.modal-top-bar {
+background: #050505;
+color: #ffffff;
+padding: 1.2rem 1.6rem;
+display: flex;
+justify-content: space-between;
+align-items: center;
+border-bottom: 2px solid #dc2626;
+}
+.modal-badge-red {
+font-size: 0.68rem;
+font-weight: 900;
+letter-spacing: 0.12em;
+color: #f87171;
+margin-bottom: 0.2rem;
+}
+.modal-title {
+font-size: 1.25rem;
+font-weight: 900;
+margin: 0;
+color: #ffffff;
+}
+.modal-close-icon {
+background: transparent;
+border: none;
+color: #94a3b8;
+font-size: 1.4rem;
+cursor: pointer;
+padding: 0.2rem 0.5rem;
+border-radius: 4px;
+transition: color 0.15s ease;
+}
+.modal-close-icon:hover {
+color: #ffffff;
+}
+
+/* FILTROS DE BÚSQUEDA */
+.modal-filters-grid {
+padding: 1.4rem 1.6rem;
+background: #f8fafc;
+border-bottom: 1px solid #e2e8f0;
+display: grid;
+grid-template-columns: 1fr 1fr;
+gap: 1rem 1.2rem;
+}
+.filter-group {
+display: flex;
+flex-direction: column;
+gap: 0.35rem;
+}
+.filter-group.full-width {
+grid-column: 1 / -1;
+}
+.filter-group label {
+font-size: 0.72rem;
+font-weight: 800;
+text-transform: uppercase;
+letter-spacing: 0.05em;
+color: #475569;
+}
+.filter-group input, .filter-group select {
+padding: 0.55rem 0.8rem;
+border-radius: 6px;
+border: 1px solid #cbd5e1;
+font-size: 0.88rem;
+font-family: inherit;
+outline: none;
+background: #ffffff;
+color: #0f172a;
+}
+.filter-group input:focus, .filter-group select:focus {
+border-color: #dc2626;
+box-shadow: 0 0 0 2px rgba(220, 38, 38, 0.15);
+}
+
+/* RESULTADOS */
+.search-results-area {
+padding: 1.4rem 1.6rem;
+max-height: 440px;
+overflow-y: auto;
+}
+.results-header {
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin-bottom: 1rem;
+font-size: 0.78rem;
+font-weight: 700;
+color: #64748b;
+}
+#results-count-badge {
+color: #050505;
+font-weight: 900;
+text-transform: uppercase;
+letter-spacing: 0.05em;
+}
+.results-container {
+display: flex;
+flex-direction: column;
+gap: 0.8rem;
+}
+.result-item-card {
+display: flex;
+gap: 1rem;
+padding: 0.9rem;
+border-radius: 6px;
+border: 1px solid #e2e8f0;
+background: #ffffff;
+text-decoration: none;
+color: inherit;
+transition: all 0.15s ease;
+}
+.result-item-card:hover {
+border-color: #dc2626;
+background: #fef2f2;
+transform: translateX(3px);
+}
+.result-thumb {
+width: 80px;
+height: 60px;
+object-fit: cover;
+border-radius: 4px;
+flex-shrink: 0;
+}
+.result-details {
+flex: 1;
+}
+.result-meta-row {
+display: flex;
+align-items: center;
+gap: 0.6rem;
+font-size: 0.7rem;
+font-weight: 800;
+text-transform: uppercase;
+margin-bottom: 0.25rem;
+}
+.badge-cat-geo { color: #dc2626; }
+.badge-cat-econ { color: #059669; }
+.badge-cat-tech { color: #2563eb; }
+.result-title {
+font-size: 0.95rem;
+font-weight: 800;
+margin: 0 0 0.3rem;
+color: #050505;
+line-height: 1.3;
+}
+.result-snippet {
+font-size: 0.8rem;
+color: #64748b;
+margin: 0;
+line-height: 1.4;
+display: -webkit-box;
+-webkit-line-clamp: 2;
+-webkit-box-orient: vertical;
+overflow: hidden;
+}
+.empty-search-state {
+text-align: center;
+padding: 2.5rem 1rem;
+color: #94a3b8;
+font-size: 0.88rem;
+}
+
 @media (max-width: 768px) {
 .utility-left { display: flex; flex-direction: column; gap: 2px; }
 .nav-wrap { justify-content: flex-start; overflow-x: auto; white-space: nowrap; gap: 0 1.2rem; }
 .brand-link { gap: 0.8rem; }
 .brand-logo-img { width: 48px; height: 48px; }
-.top-sections-strip { gap: 0.8rem; font-size: 0.7rem; }
+.modal-filters-grid { grid-template-columns: 1fr; }
+.discrete-search-box { max-width: 95%; }
+.advanced-filter-btn span { display: none; }
 }
 </style>
 
+<!-- SCRIPT DE SINCRONIZACIÓN Y MOTOR DE BÚSQUEDA DINÁMICA -->
 <script is:inline>
+// 1. Reloj Mundial en Vivo
 function updateClocks() {
 const opts = { hour: '2-digit', minute: '2-digit', second: '2-digit', hour12: false };
 const now = new Date();
 const elements = document.querySelectorAll('[data-tz]');
-
 elements.forEach((el) => {
 const tz = el.getAttribute('data-tz');
 if (tz) {
@@ -492,4 +782,170 @@ el.textContent = new Intl.DateTimeFormat('es-MX', { ...opts, timeZone: tz }).for
 }
 updateClocks();
 setInterval(updateClocks, 1000);
+
+// 2. Motor de Búsqueda Client-Side en Tiempo Real
+let cachedIndex = null;
+
+async function fetchSearchIndex() {
+if (cachedIndex) return cachedIndex;
+try {
+const res = await fetch('/search-index.json');
+if (res.ok) {
+cachedIndex = await res.json();
+return cachedIndex;
+}
+} catch (e) {
+console.error('Error cargando índice de búsqueda:', e);
+}
+return [];
+}
+
+function performSearch() {
+if (!cachedIndex) return;
+
+const query = (document.getElementById('adv-input-query')?.value || document.getElementById('quick-search-input')?.value || '').toLowerCase().trim();
+const catFilter = document.getElementById('adv-select-cat')?.value || 'all';
+const dateFilter = document.getElementById('adv-select-date')?.value || 'all';
+const authorFilter = (document.getElementById('adv-input-author')?.value || '').toLowerCase().trim();
+const tagFilter = (document.getElementById('adv-input-tag')?.value || '').toLowerCase().trim();
+
+const now = new Date();
+
+const filtered = cachedIndex.filter((item) => {
+// Filtro Query (título o descripción)
+if (query) {
+const inTitle = item.title.toLowerCase().includes(query);
+const inDesc = item.description.toLowerCase().includes(query);
+if (!inTitle && !inDesc) return false;
+}
+
+// Filtro Categoría
+if (catFilter !== 'all') {
+const itemCat = item.category.toLowerCase();
+if (catFilter === 'geopolitica' && !itemCat.includes('polít') && !itemCat.includes('polit') && !itemCat.includes('geopol')) return false;
+if (catFilter === 'economia' && !itemCat.includes('econ') && !itemCat.includes('mercad') && !itemCat.includes('finan')) return false;
+if (catFilter === 'tecnologia' && !itemCat.includes('tecn') && !itemCat.includes('ia') && !itemCat.includes('intel')) return false;
+}
+
+// Filtro Fecha
+if (dateFilter !== 'all') {
+const itemDate = new Date(item.pubDate);
+const diffDays = (now - itemDate) / (1000 * 60 * 60 * 24);
+if (diffDays > parseInt(dateFilter, 10)) return false;
+}
+
+// Filtro Autor
+if (authorFilter && !item.author.toLowerCase().includes(authorFilter)) {
+return false;
+}
+
+// Filtro Tags
+if (tagFilter) {
+const tagsStr = item.tags.join(' ').toLowerCase();
+if (!tagsStr.includes(tagFilter)) return false;
+}
+
+return true;
+});
+
+renderResults(filtered);
+}
+
+function renderResults(items) {
+const container = document.getElementById('search-results-list');
+const badge = document.getElementById('results-count-badge');
+if (!container || !badge) return;
+
+badge.textContent = `${items.length} resultado${items.length === 1 ? '' : 's'} encontrado${items.length === 1 ? '' : 's'}`;
+
+if (items.length === 0) {
+container.innerHTML = `
+<div class="empty-search-state">
+<p>No se encontraron investigaciones que coincidan con los criterios seleccionados.</p>
+</div>
+`;
+return;
+}
+
+container.innerHTML = items.map((post) => {
+const catLower = post.category.toLowerCase();
+let catClass = 'badge-cat-geo';
+if (catLower.includes('econ') || catLower.includes('mercad')) catClass = 'badge-cat-econ';
+if (catLower.includes('tecn') || catLower.includes('ia')) catClass = 'badge-cat-tech';
+
+return `
+<a href="${post.url}" class="result-item-card">
+${post.heroImage ? `<img src="${post.heroImage}" alt="${post.title}" class="result-thumb" loading="lazy" />` : ''}
+<div class="result-details">
+<div class="result-meta-row">
+<span class="${catClass}">${post.category}</span>
+<span>•</span>
+<span>${post.pubDate}</span>
+<span>•</span>
+<span>${post.author}</span>
+</div>
+<h4 class="result-title">${post.title}</h4>
+<p class="result-snippet">${post.description}</p>
+</div>
+</a>
+`;
+}).join('');
+}
+
+// 3. Event Listeners del Modal y Buscador
+document.addEventListener('DOMContentLoaded', () => {
+const quickInput = document.getElementById('quick-search-input');
+const advBtn = document.getElementById('open-advanced-modal-btn');
+const closeBtn = document.getElementById('close-advanced-modal-btn');
+const modal = document.getElementById('search-modal-backdrop');
+
+const advQuery = document.getElementById('adv-input-query');
+const advCat = document.getElementById('adv-select-cat');
+const advDate = document.getElementById('adv-select-date');
+const advAuthor = document.getElementById('adv-input-author');
+const advTag = document.getElementById('adv-input-tag');
+
+function openModal(initialQuery = '') {
+fetchSearchIndex().then(() => {
+if (modal) modal.classList.remove('hidden');
+if (advQuery) {
+advQuery.value = initialQuery;
+advQuery.focus();
+}
+performSearch();
+});
+}
+
+function closeModal() {
+if (modal) modal.classList.add('hidden');
+}
+
+if (quickInput) {
+quickInput.addEventListener('focus', () => openModal(quickInput.value));
+quickInput.addEventListener('keydown', (e) => {
+if (e.key === 'Enter') openModal(quickInput.value);
+});
+}
+
+if (advBtn) advBtn.addEventListener('click', () => openModal(quickInput?.value || ''));
+if (closeBtn) closeBtn.addEventListener('click', closeModal);
+
+if (modal) {
+modal.addEventListener('click', (e) => {
+if (e.target === modal) closeModal();
+});
+}
+
+window.addEventListener('keydown', (e) => {
+if (e.key === 'Escape') closeModal();
+});
+
+// Filtros reactivos en tiempo real
+[advQuery, advCat, advDate, advAuthor, advTag].forEach((el) => {
+if (el) {
+el.addEventListener('input', performSearch);
+el.addEventListener('change', performSearch);
+}
+});
+});
 </script>
