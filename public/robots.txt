@@ -1,4 +1,4 @@
-User-agent: *
+﻿User-agent: *
 Allow: /
 
-Sitemap: https://blog-alfa.andredate27.workers.dev/sitemap-index.xml
+Sitemap: https://newsinternacionaltep.com/sitemap-index.xml

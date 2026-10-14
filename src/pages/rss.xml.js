@@ -2,21 +2,19 @@
 import { getCollection } from 'astro:content';
 
 export async function GET(context) {
-const posts = await getCollection('blog');
-const sortedPosts = posts.sort(
-(a, b) => new Date(b.data.pubDate).valueOf() - new Date(a.data.pubDate).valueOf()
-);
-
-return rss({
-title: 'News Internacional TEP',
-description: 'Análisis independiente en Tecnología, Economía y Política Global.',
-site: 'https://newsinternacionaltep.com',
-items: sortedPosts.map((post) => ({
-title: post.data.title,
-pubDate: post.data.pubDate,
-description: post.data.description,
-link: `/blog/${post.slug ?? post.id}/`,
-})),
-customData: `<language>es-mx</language>`,
-});
+    const posts = await getCollection('blog');
+    // Ordenar de más reciente a más antiguo
+    posts.sort((a, b) => new Date(b.data.pubDate).valueOf() - new Date(a.data.pubDate).valueOf());
+    
+    return rss({
+        title: 'News Internacional TEP | Dossier de Inteligencia',
+        description: 'Reportes monográficos, análisis geopolítico, mercados y prospectiva (Estándar MIT/Harvard).',
+        site: context.site || 'https://newsinternacionaltep.com',
+        items: posts.map((post) => ({
+            title: post.data.title,
+            description: post.data.description,
+            pubDate: post.data.pubDate,
+            link: /blog/ + post.slug + /,
+        })),
+    });
 }

@@ -45,7 +45,7 @@ jobs:
           if git diff --staged --quiet; then
             echo "No se produjeron nuevos despachos en este ciclo horario."
           else
-            git commit -m "🤖 [TEP-AI] Publicacion de Paper Monografico Arbitrado [skip ci]"
+            git commit -m "🤖 [TEP-AI] Publicacion de Paper Monografico Arbitrado "
             git fetch origin main
             git rebase -X ours origin/main || (git rebase --abort && git merge --strategy-option=ours origin/main -m "merge: resolver concurrencia remota")
             git push origin main
