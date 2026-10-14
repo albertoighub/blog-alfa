@@ -218,6 +218,14 @@ NEWS INTERNACIONAL <span class="brand-badge-tep">TEP</span>
 </div>
 
 <style>
+        /* RESET GLOBAL FULL-WIDTH */
+        :global(body), :global(html) {
+            margin: 0 !important;
+            padding: 0 !important;
+            width: 100vw !important;
+            max-width: 100% !important;
+            overflow-x: hidden !important;
+        }
     #global-progress-bar {
         position: fixed;
         top: 0;
@@ -229,7 +237,7 @@ NEWS INTERNACIONAL <span class="brand-badge-tep">TEP</span>
         transition: width 0.1s ease-out;
         box-shadow: 0 0 8px rgba(220, 38, 38, 0.6);
     }
-.tep-global-header {
+.tep-global-header { width: 100vw; max-width: 100%; box-sizing: border-box; overflow-x: hidden; margin: 0; padding: 0;
 background: #ffffff;
 color: #050505;
 font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
