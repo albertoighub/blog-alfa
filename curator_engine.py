@@ -301,22 +301,31 @@ def redactar_paper_monografico(entry, categoria: str):
             ),
         )
         return json.loads(response.text), None
-    except Exception as e:
-        err_msg = str(e)
-        if "429" in err_msg or "RESOURCE_EXHAUSTED" in err_msg:
-            return None, "QUOTA_EXCEEDED"
-        return None, err_msg
-
-def guardar_paper(data: dict, fuente_original: str, imagen_final: str) -> str:
-    slug = slugify(data["title"][:55])
-    fecha_actual = datetime.now().strftime("%Y-%m-%d")
-    post_slug = f"{fecha_actual}-{slug}"
-    nombre_archivo = f"{post_slug}.md"
-    ruta_completa = os.path.join(OUTPUT_DIR, nombre_archivo)
-
-    tags_formateados = json.dumps(data.get("tags", ["Análisis", "Estrategia"]))
-    categoria = data.get("category", "Geopolítica")
-
+    modelos_a_probar = [MODELO_ACTIVO, "gemini-2.5-flash"]
+    for intento_modelo in modelos_a_probar:
+        for intento in range(3):
+            try:
+                response = client.models.generate_content(
+                    model=intento_modelo,
+                    contents=prompt,
+                    config=types.GenerateContentConfig(
+                        system_instruction=SYSTEM_INSTRUCTION,
+                        response_mime_type="application/json",
+                        temperature=0.2,
+                    ),
+                )
+                if response and response.text:
+                    return json.loads(response.text), None
+            except Exception as e:
+                err_msg = str(e)
+                if "429" in err_msg or "RESOURCE_EXHAUSTED" in err_msg:
+                    return None, "QUOTA_EXCEEDED"
+                if "503" in err_msg or "UNAVAILABLE" in err_msg:
+                    print(f" [!] Servidor saturado (503) en {intento_modelo}. Reintentando en 3s (Intento {intento+1}/3)...")
+                    time.sleep(3)
+                    continue
+                return None, err_msg
+    return None, "SERVER_OVERLOAD_503"
     metrics_list = data.get("metrics", [])
     metrics_block = ""
     if metrics_list:
