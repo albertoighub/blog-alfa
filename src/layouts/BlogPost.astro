@@ -28,18 +28,7 @@ font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "
 margin: 0;
 }
 
-/* 1. BARRA DE PROGRESO DE LECTURA */
-#reading-progress-bar {
-position: fixed;
-top: 0;
-left: 0;
-height: 4px;
-background: #dc2626;
-width: 0%;
-z-index: 99999;
-transition: width 0.1s ease-out;
-box-shadow: 0 0 8px rgba(220, 38, 38, 0.6);
-}
+
 
 main {
 max-width: 860px; /* Ancho óptimo para lectura inmersiva */
@@ -302,7 +291,7 @@ word-break: break-word;
 
 <body>
 <!-- 1. BARRA DE PROGRESO DE LECTURA (Anclada arriba) -->
-<div id="reading-progress-bar"></div>
+
 
 <Header />
 
@@ -387,15 +376,7 @@ const readingTimeMins = Math.ceil(wordCount / 220); // 220 palabras por minuto
 timeBadge.innerHTML = `<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg> Lectura: ${readingTimeMins} min`;
 }
 
-// 2. Barra de Progreso de Lectura
-const progressBar = document.getElementById("reading-progress-bar");
-window.addEventListener("scroll", () => {
-if (!progressBar) return;
-const winScroll = document.body.scrollTop || document.documentElement.scrollTop;
-const height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
-const scrolled = (winScroll / height) * 100;
-progressBar.style.width = scrolled + "%";
-});
+
 
 // 3. Obtener URL Actual Dinámica para la Citación
 const urlSpan = document.getElementById("current-url-span");

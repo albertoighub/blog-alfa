@@ -22,6 +22,7 @@ const marketData = [
 ];
 ---
 
+<div id="global-progress-bar"></div>
 <header class="tep-global-header">
 <!-- 1. Ticker Horario Mundial (Ajuste de bordes cero) -->
 <div class="ticker-time-wrapper">
@@ -217,6 +218,17 @@ NEWS INTERNACIONAL <span class="brand-badge-tep">TEP</span>
 </div>
 
 <style>
+    #global-progress-bar {
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 4px;
+        background: #dc2626;
+        width: 0%;
+        z-index: 999999;
+        transition: width 0.1s ease-out;
+        box-shadow: 0 0 8px rgba(220, 38, 38, 0.6);
+    }
 .tep-global-header {
 background: #ffffff;
 color: #050505;
@@ -883,6 +895,15 @@ ${post.heroImage ? `<img src="${post.heroImage}" alt="${post.title}" class="resu
 }
 
 document.addEventListener('DOMContentLoaded', () => {
+        const globalProgressBar = document.getElementById('global-progress-bar');
+        if (globalProgressBar) {
+            window.addEventListener('scroll', () => {
+                const winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+                const height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+                const scrolled = height > 0 ? (winScroll / height) * 100 : 0;
+                globalProgressBar.style.width = scrolled + '%';
+            });
+        }
 const quickInput = document.getElementById('quick-search-input');
 const advBtn = document.getElementById('open-advanced-modal-btn');
 const closeBtn = document.getElementById('close-advanced-modal-btn');
