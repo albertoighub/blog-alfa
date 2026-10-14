@@ -1,7 +1,9 @@
-﻿name: Ejecutor Periodistico TEP (PAUSADO)
+﻿name: Ejecutor Periodistico TEP
 
-# Cron desactivado temporalmente para reingeniería del motor
 on:
+  schedule:
+    # 8 ejecuciones diarias exactas: Cada 3 horas
+    - cron: '0 */3 * * *'
   workflow_dispatch:
 
 permissions:
@@ -11,5 +13,40 @@ jobs:
   curate-and-publish:
     runs-on: ubuntu-latest
     steps:
-      - name: Bot en Mantenimiento
-        run: echo "El bot se encuentra en pausa técnica por reingeniería de cuotas y arquitectura."
+      - name: Descargar repositorio
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+
+      - name: Configurar entorno Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+
+      - name: Instalar dependencias
+        run: |
+          pip install --upgrade pip
+          pip install feedparser python-slugify google-genai
+
+      - name: Ejecutar Motor Editorial Monografico
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHANNEL_ID: ${{ secrets.TELEGRAM_CHANNEL_ID }}
+        run: python curator_engine.py
+
+      - name: Publicar nuevos informes en el repositorio
+        run: |
+          git config --global user.name "Redaccion TEP Bot"
+          git config --global user.email "bot@newsinternacionaltep.com"
+          
+          git add -A
+          
+          if git diff --staged --quiet; then
+            echo "No se produjeron nuevos despachos en este ciclo horario."
+          else
+            git commit -m "🤖 [TEP-AI] Publicacion de Paper Monografico Arbitrado [skip ci]"
+            git fetch origin main
+            git rebase -X ours origin/main || (git rebase --abort && git merge --strategy-option=ours origin/main -m "merge: resolver concurrencia remota")
+            git push origin main
+          fi

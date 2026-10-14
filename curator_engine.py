@@ -1,8 +1,10 @@
 ﻿import os
+import sys
 import json
 import html
 import time
 import random
+import socket
 import urllib.request
 import urllib.error
 import urllib.parse
@@ -12,18 +14,13 @@ import feedparser
 from google import genai
 from google.genai import types
 
-# 1. Parámetros Operativos y Cascada de Modelos
+# 1. Parámetros de Red y Entorno
+socket.setdefaulttimeout(8.0)
 client = genai.Client()
-
-# Lista de modelos en orden de prioridad para evitar errores 404
-MODELOS_CANDIDATOS = [
-    "gemini-3.8-flash",
-    "gemini-2.0-flash",
-    "gemini-1.5-flash",
-]
-
+MODELO_ACTIVO = "gemini-3.8-flash"
 OUTPUT_DIR = os.path.join("src", "content", "blog")
 HISTORY_FILE = "history.json"
+STATE_FILE = "curator_state.json"
 
 TELEGRAM_BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN", "8637388923:AAHl2omIwOIV5dd6uOd_Ho3stAsSMXTNMTY")
 TELEGRAM_CHANNEL_ID = os.getenv("TELEGRAM_CHANNEL_ID", "-1004371603591")
@@ -31,7 +28,7 @@ SITE_BASE_URL = "https://newsinternacionaltep.com"
 
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
-# 2. Malla de Fuentes Estratégicas Verificadas
+# 2. Fuentes Estratégicas Verificadas
 FEEDS = {
     "Geopolítica": [
         "https://feeds.bbci.co.uk/news/world/rss.xml",
@@ -39,7 +36,6 @@ FEEDS = {
         "https://thehill.com/feed/",
         "https://www.aljazeera.com/xml/rss/all.xml",
         "https://www.theguardian.com/world/rss",
-        "https://www.scmp.com/rss/91/feed",
         "https://kyivindependent.com/feed/",
         "https://thediplomat.com/feed/",
         "https://www.france24.com/es/rss",
@@ -51,7 +47,6 @@ FEEDS = {
         "https://finance.yahoo.com/news/rssindex",
         "https://www.investing.com/rss/news_25.rss",
         "https://asia.nikkei.com/rss/feed/category/business",
-        "https://www.economist.com/finance-and-economics/rss.xml",
         "https://cincodias.elpais.com/seccion/rss/mercados/",
     ],
     "Tecnología": [
@@ -67,27 +62,36 @@ FEEDS = {
     ],
 }
 
-# 3. Directriz Editorial basada en el Manual de Estándares y la Rúbrica de Evaluación
-SYSTEM_INSTRUCTION = """Actúa como el Editor en Jefe y Analista Senior de un Instituto de Prospectiva e Inteligencia Estratégica (estándar MIT, Harvard y Foreign Affairs).
-Tu objetivo es transformar el cable informativo crudo en un Reporte de Investigación Científica y Análisis Estructural que supere los 65/70 puntos de la Rúbrica Editorial.
+# 3. Directiva Editorial basada en Manual MIT/Harvard y Rúbrica
+SYSTEM_INSTRUCTION = """Actúa como Editor en Jefe y Director de un Instituto de Inteligencia y Prospectiva Científica Internacional (estándar MIT, Harvard y Foreign Affairs).
+Transforma el suceso noticioso en un Paper de Investigación y Dossier Analítico de máxima profundidad, densidad técnica y rigor metodológico, superando los 65/70 puntos de la Rúbrica de Evaluación Editorial.
 
-ESTRICTO PROTOCOLO EDITORIAL (MANUAL DE ESTÁNDARES Y RÚBRICA):
-1. TONO Y RIGOR: Autoritativo, neutral, analítico y basado en evidencia empírica. Cero sensacionalismo, cero clickbait.
-2. ARQUITECTURA DE CONTENIDO (EMBUDO INVERTIDO):
-   El cuerpo ('content') debe usar Markdown y estructurarse obligatoriamente con estos encabezados H2:
-   - ## 1. Contexto Estratégico y Planteamiento del Problema (Lede & Nut Graph): Párrafo 1 con un dato contundente o paradoja central. Párrafos 2-3 con la justificación de por qué importa AHORA y la tesis central.
-   - ## 2. Estado del Arte y Dinámica Estructural (Background): Recorrido contextual que expone los enfoques tradicionales y por qué están bajo tensión.
-   - ## 3. Mecanismos Operativos y Núcleo Técnico (The Science): Desglose técnico y causal profundo. OBLIGATORIO: Incluir una tabla comparativa en formato Markdown (| Variable | Parámetro Base | Proyección de Impacto |) que sintetice las variables numéricas.
-   - ## 4. Análisis de Impacto Sistémico, Riesgos y Limitaciones: Consecuencias tangibles en costos, mercados o regulación. Mencionar explícitamente las limitaciones del modelo, sesgos o márgenes de error.
-   - ## 5. Visión Prospectiva y Escenarios Globales (12-24 Meses): Proyección de escenarios de equilibrio o ruptura futura, junto a preguntas críticas abiertas.
-3. CITAS A VOCES EXPERTAS: Incluye al menos dos blockquotes ('> ') atribuidos a expertos con su cargo e institución académica/corporativa formal.
-4. METADATOS Y ESPECIFICACIONES SEO:
-   - "title": Titular conciso y riguroso. Máximo 60 caracteres.
-   - "description": Abstract ejecutivo técnico. Máximo 155 caracteres.
-   - "category": 'Tecnología', 'Economía' o 'Geopolítica'.
-   - "tags": Lista de 3 a 5 palabras clave de la disciplina.
-   - "author": 'Comité Analítico TEP & Prospectiva'.
-   - "metrics": Lista con 3 parámetros cuantitativos clave."""
+ARQUITECTURA EXIGIDA (EMBUDO INVERTIDO COMPLEJO):
+El cuerpo del documento ('content') debe escribirse en Markdown con las siguientes 5 secciones H2 obligatorias:
+
+## 1. Contexto Estratégico y Planteamiento del Problema (Lede & Nut Graph)
+Párrafo inicial con dato cuantitativo duro o paradoja sistémica. Párrafos 2 y 3 justificando por qué esta investigación es crítica en este momento y formulando la tesis central.
+
+## 2. Estado del Arte y Dinámica Estructural (Background)
+Evolución histórica y contextual del problema. Análisis crítico de los marcos operativos tradicionales y por qué están bajo estrés o agotamiento.
+
+## 3. Mecanismos Operativos y Núcleo Técnico (The Science)
+Desglose causal minucioso (arquitectura técnica, modelos económicos o balance táctico). 
+OBLIGATORIO: Incluir una tabla comparativa Markdown exhaustiva con el siguiente formato:
+| Variable de Análisis | Parámetro Histórico / Base | Magnitud / Proyección de Impacto | Mecanismo Causal |
+| :--- | :--- | :--- | :--- |
+(Mínimo 3 filas de datos contextualizados con cifras y márgenes analíticos).
+
+## 4. Implicaciones Sistémicas, Riesgos y Limitaciones
+Evaluación de impacto en costos, liquidez de mercado o regulación multilateral. Exponer limitaciones metodológicas, sesgos analíticos y áreas grises de los datos actuales.
+
+## 5. Visión Prospectiva y Escenarios Globales (12-24 Meses)
+Modelado prospectivo de escenarios alternativos (equilibrio vs. ruptura estructural) y preguntas estratégicas no resueltas.
+
+REGLAS DE RIGOR EDITORIAL:
+- CERO CLICKBAIT Y TONO INSTITUCIONAL: Prohibidos adjetivos sensacionalistas, pronombres en primera persona o lenguaje promocional.
+- CITAS OBLIGATORIAS: Incluye al menos dos blockquotes ('> ') atribuidos a expertos con su cargo e institución formal verificable.
+- PROMPT VISUAL DE ALTA FIDELIDAD: En 'image_prompt_en', redacta un prompt descriptivo en INGLÉS detallando una escena documental real, iluminación cinemática, ángulos y sujetos concretos relacionados con la noticia. Prohibido texto, marcas de agua o conceptos abstractos."""
 
 def cargar_historial() -> list:
     if os.path.exists(HISTORY_FILE):
@@ -101,6 +105,24 @@ def cargar_historial() -> list:
 def guardar_historial(historial: list):
     with open(HISTORY_FILE, "w", encoding="utf-8") as f:
         json.dump(historial, f, indent=2, ensure_ascii=False)
+
+def obtener_siguiente_categoria() -> str:
+    categorias = ["Geopolítica", "Economía", "Tecnología"]
+    if os.path.exists(STATE_FILE):
+        try:
+            with open(STATE_FILE, "r", encoding="utf-8") as f:
+                data = json.load(f)
+                last_idx = data.get("last_index", -1)
+                next_idx = (last_idx + 1) % len(categorias)
+        except Exception:
+            next_idx = 0
+    else:
+        next_idx = 0
+
+    with open(STATE_FILE, "w", encoding="utf-8") as f:
+        json.dump({"last_index": next_idx, "categoria": categorias[next_idx]}, f)
+
+    return categorias[next_idx]
 
 def broadcast_telegram(data: dict, post_slug: str):
     if not TELEGRAM_BOT_TOKEN or not TELEGRAM_CHANNEL_ID:
@@ -118,7 +140,7 @@ def broadcast_telegram(data: dict, post_slug: str):
         f"🔬 <b>DOSSIER ARBITRADO | {category.upper()}</b>\n\n"
         f"<b>{title}</b>\n\n"
         f"<i>{description}</i>\n\n"
-        f"📑 <a href='{article_url}'>Acceder a la Investigación Completa & Tablas</a>\n\n"
+        f"📑 <a href='{article_url}'>Acceder al Paper Completo & Métricas</a>\n\n"
         f"{hashtags}"
     ).strip()
 
@@ -132,47 +154,51 @@ def broadcast_telegram(data: dict, post_slug: str):
 
     req = urllib.request.Request(endpoint, data=payload, headers={"Content-Type": "application/json"})
     try:
-        with urllib.request.urlopen(req, timeout=12) as response:
+        with urllib.request.urlopen(req, timeout=8) as response:
             res_data = json.loads(response.read().decode("utf-8"))
             if res_data.get("ok"):
-                print(" [✓] Despacho transmitido exitosamente a Telegram.")
+                print(" [✓] Transmisión exitosa a Telegram.")
     except Exception as e:
-        print(f" [!] Advertencia Telegram: {e}")
+        print(f" [!] Aviso Telegram: {e}")
 
-def procesar_noticia_con_reintentos(entry, categoria: str):
+def redactar_paper_monografico(entry, categoria: str):
     prompt = f"""
-    Aplica el Manual de Estándares Editoriales y la Rúbrica Científica para generar un Paper de Investigación de Alto Impacto:
+    Aplica el Manual de Estándares Editoriales y la Rúbrica MIT/Harvard para elaborar un Paper de Investigación exhaustivo:
     - Dominio Disciplinar: {categoria}
     - Cable Base: {entry.get('title', '')}
     - Localizador de Fuente: {entry.get('link', '')}
     - Contexto Primario: {entry.get('summary', '')}
+
+    FORMATO JSON DE SALIDA OBLIGATORIO:
+    {{
+      "title": "Titular analítico directo (máximo 60 caracteres)",
+      "description": "Abstract académico ejecutivo (máximo 155 caracteres)",
+      "category": "{categoria}",
+      "tags": ["3 a 5 palabras clave de la disciplina"],
+      "author": "Comité Analítico TEP & Prospectiva",
+      "metrics": ["3 parámetros cuantitativos verificables"],
+      "image_prompt_en": "Prompt fotorrealista en inglés (cámara, lentes, sujeto concreto, sin texto)",
+      "content": "Cuerpo del paper en Markdown estructurado rigurosamente en las 5 secciones H2"
+    }}
     """
 
-    # Probar cascada de modelos en orden
-    for modelo in MODELOS_CANDIDATOS:
-        for intento in range(1, 3):
-            try:
-                response = client.models.generate_content(
-                    model=modelo,
-                    contents=prompt,
-                    config=types.GenerateContentConfig(
-                        system_instruction=SYSTEM_INSTRUCTION,
-                        response_mime_type="application/json",
-                        temperature=0.2,
-                    ),
-                )
-                return json.loads(response.text)
-            except Exception as e:
-                err_str = str(e)
-                # Si es 404 NOT_FOUND, no reintentar en este modelo: pasar al siguiente inmediatamente
-                if "404" in err_str or "NOT_FOUND" in err_str or "no longer available" in err_str:
-                    print(f" [!] Modelo {modelo} no disponible (404). Cascando al siguiente modelo...")
-                    break
-                print(f" [!] Intento {intento} fallido en {modelo} ({e}).")
-                if intento < 2:
-                    time.sleep(3)
-
-    return None
+    try:
+        response = client.models.generate_content(
+            model=MODELO_ACTIVO,
+            contents=prompt,
+            config=types.GenerateContentConfig(
+                system_instruction=SYSTEM_INSTRUCTION,
+                response_mime_type="application/json",
+                temperature=0.2,
+            ),
+        )
+        return json.loads(response.text), None
+    except Exception as e:
+        err_msg = str(e)
+        # Identificar cuota agotada
+        if "429" in err_msg or "RESOURCE_EXHAUSTED" in err_msg:
+            return None, "QUOTA_EXCEEDED"
+        return None, err_msg
 
 def guardar_paper(data: dict, fuente_original: str) -> str:
     slug = slugify(data["title"][:55])
@@ -184,11 +210,15 @@ def guardar_paper(data: dict, fuente_original: str) -> str:
     tags_formateados = json.dumps(data.get("tags", ["Análisis", "Estrategia"]))
     categoria = data.get("category", "Geopolítica")
 
-    # Generación de Imagen Fotorrealista Única sin Texto
-    safe_concept = data["title"][:75].replace('"', '').replace("'", "")
+    # Imagen Fotorrealista Contextual con Semilla Única
+    image_prompt_raw = data.get("image_prompt_en", "")
+    if not image_prompt_raw or len(image_prompt_raw) < 20:
+        safe_subject = data["title"][:70].replace('"', '').replace("'", "")
+        image_prompt_raw = f"Editorial documentary photojournalism, realistic lighting, authentic scene, no text, no letters. Subject: {safe_subject}"
+
     seed = random.randint(100000, 999999)
-    prompt_img = urllib.parse.quote(f"Professional editorial photojournalism, cinematic documentary shot, 8k, sharp focus, neutral tone, no text, no words, no letters. Subject: {safe_concept}")
-    imagen_hero = f"https://image.pollinations.ai/prompt/{prompt_img}?seed={seed}&width=1200&height=630&nologo=true"
+    prompt_encoded = urllib.parse.quote(f"{image_prompt_raw}, professional photojournalism, 8k resolution, neutral grading, no watermark, no text")
+    imagen_hero = f"https://image.pollinations.ai/prompt/{prompt_encoded}?seed={seed}&width=1200&height=630&nologo=true"
 
     metrics_list = data.get("metrics", [])
     metrics_block = ""
@@ -213,51 +243,64 @@ canonicalSource: "{fuente_original}"
 ---
 
 ### Trazabilidad Metodológica y Fuentes Primarias
-* **Documento Base de Rastreo:** [{fuente_original}]({fuente_original})
-* **Marco de Arbitraje:** Evaluación documental estructurada bajo los estándares de investigación editorial de News Internacional TEP.
+* **Documentación Base de Rastreo:** [{fuente_original}]({fuente_original})
+* **Marco de Arbitraje:** Evaluación documental estructurada bajo los estándares editoriales y de rigor científico de News Internacional TEP.
 """
 
     with open(ruta_completa, "w", encoding="utf-8") as f:
         f.write(contenido_md)
 
-    print(f"[+] Paper arbitrado registrado: {nombre_archivo}")
+    print(f"[+] Paper monográfico archivado: {nombre_archivo}")
     return post_slug
 
 def ejecutar_pipeline():
-    print("=== MOTOR EDITORIAL CIENTÍFICO TEP: Protocolo MIT/Harvard ===")
+    print("=== MOTOR DE INTELIGENCIA TEP: Monografía Arbitrada (8 Ciclos Diarios) ===")
     historial = cargar_historial()
-    nuevos_procesados = 0
+    categoria_turno = obtener_siguiente_categoria()
+    print(f"[*] Turno de investigación programado: {categoria_turno.upper()}")
 
-    for categoria, urls in FEEDS.items():
-        urls_mezcladas = urls.copy()
-        random.shuffle(urls_mezcladas)
+    urls = FEEDS.get(categoria_turno, FEEDS["Geopolítica"]).copy()
+    random.shuffle(urls)
 
-        for url in urls_mezcladas:
-            try:
-                feed = feedparser.parse(url)
-                noticia_objetivo = None
-                for entry in feed.entries:
-                    link = entry.get("link", "")
-                    if link and link not in historial:
-                        noticia_objetivo = entry
-                        break
+    for url in urls:
+        try:
+            req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"})
+            with urllib.request.urlopen(req, timeout=6.0) as resp:
+                raw_xml = resp.read()
 
-                if noticia_objetivo:
-                    link = noticia_objetivo.get("link", "")
-                    print(f"[*] Analizando suceso [{categoria}]: {noticia_objetivo.get('title', '')[:55]}...")
-                    resultado = procesar_noticia_con_reintentos(noticia_objetivo, categoria)
+            feed = feedparser.parse(raw_xml)
+            noticia_candidata = None
 
-                    if resultado:
-                        post_slug = guardar_paper(resultado, link)
-                        historial.append(link)
-                        guardar_historial(historial)
-                        broadcast_telegram(resultado, post_slug)
-                        nuevos_procesados += 1
-                        break
-            except Exception as ex:
-                print(f" [!] Excepción de red en {url}: {ex}")
+            for entry in feed.entries:
+                link = entry.get("link", "")
+                summary = entry.get("summary", "")
+                title = entry.get("title", "")
+                if link and link not in historial and len(title) > 15 and len(summary) > 40:
+                    noticia_candidata = entry
+                    break
 
-    print(f"=== Ciclo Concluido: {nuevos_procesados} Nuevas Investigaciones Publicadas ===")
+            if noticia_candidata:
+                link = noticia_candidata.get("link", "")
+                print(f"[*] Cable prioritario detectado: {noticia_candidata.get('title', '')[:60]}...")
+                resultado, error_tipo = redactar_paper_monografico(noticia_candidata, categoria_turno)
+
+                # CIRCUITO DE SEGURIDAD ANTE CUOTA 429: Abortar inmediatamente
+                if error_tipo == "QUOTA_EXCEEDED":
+                    print("\n[!] AVISO DE CONTROL: Cuota de peticiones temporalmente alcanzada en Google Gemini.")
+                    print("[!] Deteniendo la ejecución para permitir que la cuota se restablezca de forma natural.")
+                    return
+
+                if resultado:
+                    post_slug = guardar_paper(resultado, link)
+                    historial.append(link)
+                    guardar_historial(historial)
+                    broadcast_telegram(resultado, post_slug)
+                    print("=== Ciclo Exitoso: Publicación completada ===")
+                    return
+        except Exception:
+            continue
+
+    print(" [!] No se hallaron cables no procesados en este ciclo.")
 
 if __name__ == "__main__":
     ejecutar_pipeline()
