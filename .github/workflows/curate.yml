@@ -9,39 +9,50 @@ permissions:
   contents: write
 
 jobs:
-  curar_noticias:
+  curate-and-publish:
     runs-on: ubuntu-latest
     steps:
-      - name: Descargar Repositorio
+      - name: Descargar repositorio
         uses: actions/checkout@v3
         with:
           fetch-depth: 0
 
-      - name: Configurar Python
+      - name: Configurar entorno Python
         uses: actions/setup-python@v4
         with:
           python-version: '3.10'
 
-      - name: Instalar Dependencias de Motor
+      - name: Instalar dependencias
         run: |
+          pip install --upgrade pip
           pip install feedparser python-slugify google-genai
 
-      - name: Ejecutar Motor Analitico TEP
+      - name: Ejecutar Motor Editorial Multi-Dominio
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHANNEL_ID: ${{ secrets.TELEGRAM_CHANNEL_ID }}
         run: python curator_engine.py
 
-      - name: Sincronizar y Publicar
+      - name: Publicar nuevos informes en el repositorio
         run: |
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add src/content/blog/*.md history.json
+          git config --global user.name "Redaccion TEP Bot"
+          git config --global user.email "bot@newsinternacionaltep.com"
+          
+          # 1. Agregar todos los cambios generados por Python
+          git add -A
+          
+          # 2. Verificar si hubo articulos nuevos
           if git diff --staged --quiet; then
-            echo "No hay noticias nuevas para publicar."
+            echo "No se produjeron nuevos despachos en este ciclo horario."
           else
-            git commit -m "🤖 [TEP-AI] Nuevos Papers Cientificos Publicados"
-            git pull --rebase origin main
+            # 3. Confirmar commit localmente para limpiar el working directory
+            git commit -m "🤖 [TEP-AI] Publicacion de Papers Cientificos Arbitrados [skip ci]"
+            
+            # 4. Traer cambios remotos limpios e integrar sin conflictos
+            git fetch origin main
+            git rebase -X ours origin/main || (git rebase --abort && git merge --strategy-option=ours origin/main -m "merge: resolver concurrencia remota")
+            
+            # 5. Enviar a produccion
             git push origin main
           fi
