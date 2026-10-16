@@ -22,8 +22,8 @@ LM_STUDIO_BASE = os.getenv("LM_STUDIO_BASE", "http://127.0.0.1:1235/v1")
 LM_STUDIO_MODELS_URL = f"{LM_STUDIO_BASE}/models"
 LM_STUDIO_CHAT_URL = f"{LM_STUDIO_BASE}/chat/completions"
 
-# 6 monografías por cada sección (6 Geopolítica, 6 Economía, 6 Tecnología = 12 en total)
-OBJETIVO_POR_SECCION = 15 
+# 6 monografías por cada sección (30 Geopolítica, 30 Economía, 30 Tecnología = 90 en total)
+OBJETIVO_POR_SECCION = 30 
 OUTPUT_DIR = os.path.join("src", "content", "blog")
 HISTORY_FILE = "history.json"
 STATE_FILE = "curator_state.json"
