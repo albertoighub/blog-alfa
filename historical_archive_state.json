@@ -1,11 +1,11 @@
 {
-  "total_generated": 5000,
+  "total_generated": 5500,
   "counts": {
     "Geopol\u00edtica": 1000,
     "Econom\u00eda": 1000,
-    "Tecnolog\u00eda": 949,
-    "Ciencia": 1032,
-    "Tendencias": 1019
+    "Tecnolog\u00eda": 1000,
+    "Ciencia": 1257,
+    "Tendencias": 1243
   },
-  "batches_completed": 50
+  "batches_completed": 55
 }
