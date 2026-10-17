@@ -1,4 +1,4 @@
-﻿import os
+import os
 import sys
 import re
 import json
@@ -92,6 +92,9 @@ Evaluación de impacto en costos, liquidez de mercado o regulación multilateral
 
 ## 5. Visión Prospectiva y Escenarios Globales (12-24 Meses)
 Modelado prospectivo de escenarios alternativos (equilibrio vs. ruptura estructural) y preguntas estratégicas no resueltas.
+
+## 6. Reflexión Analítica y Postura Profesional (Criterio del Comité TEP)
+Evaluación crítica y juicio experto independiente del autor/comité. Posicionamiento frente a consensos complacientes de mercado, sesgos geopolíticos predominantes y dictamen de acción pragmática para tomadores de decisiones.
 
 REGLAS DE RIGOR EDITORIAL:
 - CERO CLICKBAIT Y TONO INSTITUCIONAL: Prohibidos adjetivos sensacionalistas, pronombres en primera persona o lenguaje promocional.

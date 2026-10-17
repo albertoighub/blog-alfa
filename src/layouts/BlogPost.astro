@@ -1,4 +1,4 @@
-﻿---
+---
 import type { CollectionEntry } from 'astro:content';
 import BaseHead from '../components/BaseHead.astro';
 import Header from '../components/Header.astro';
@@ -128,13 +128,23 @@ line-height: 1.8;
 color: #1e293b;
 }
 .markdown-body h2 {
-font-size: 1.75rem;
+font-size: 1.8rem;
 font-weight: 900;
-color: #050505;
+color: #080e21;
 margin: 3.5rem 0 1.2rem;
-padding-bottom: 0.5rem;
-border-bottom: 2px solid #050505;
+padding-bottom: 0.6rem;
+border-bottom: 2px solid #080e21;
 letter-spacing: -0.02em;
+position: relative;
+}
+.markdown-body h2:after {
+content: "";
+position: absolute;
+bottom: -2px;
+left: 0;
+width: 60px;
+height: 2px;
+background: #dc2626;
 }
 .markdown-body h3 {
 font-size: 1.35rem;
@@ -223,6 +233,27 @@ box-shadow: 0 4px 12px rgba(220, 38, 38, 0.4);
 .catchment-btn:hover {
 background: #b91c1c;
 transform: translateY(-2px);
+}
+
+/* ESTILOS DE MONETIZACIÓN DISCRETA Y RESPONSIVA TEP */
+.tep-ad-slot-wrapper {
+  margin: 2.5rem 0;
+  padding: 1rem 0;
+  text-align: center;
+  border-top: 1px dashed #e2e8f0;
+  border-bottom: 1px dashed #e2e8f0;
+  background: rgba(248, 250, 252, 0.6);
+  border-radius: 6px;
+  overflow: hidden;
+}
+.ad-label-discreet {
+  display: block;
+  font-size: 0.65rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #94a3b8;
+  margin-bottom: 0.5rem;
+  font-weight: 700;
 }
 
 /* 4. FICHA DE CITA ACADÉMICA (EXPORT CITATION) */
@@ -329,8 +360,35 @@ Por <span class="author-name">{author || 'Comité Analítico TEP'}</span> • <t
 </div>
 )}
 
+<!-- AD BLOCK 1: IN-ARTICLE TOP BANNER (RESPONSIVE ALTO CTR) -->
+<div class="tep-ad-slot-wrapper ad-slot-top">
+  <span class="ad-label-discreet">Publicidad</span>
+  <ins class="adsbygoogle"
+       style="display:block; text-align:center;"
+       data-ad-layout="in-article"
+       data-ad-format="fluid"
+       data-ad-client="ca-pub-3739732712037306"
+       data-ad-slot="default"></ins>
+  <script is:inline>
+       (adsbygoogle = window.adsbygoogle || []).push({});
+  </script>
+</div>
+
 <div class="markdown-body" id="article-markdown-content">
 <slot />
+</div>
+
+<!-- AD BLOCK 2: END-OF-ARTICLE NATIVE BANNER -->
+<div class="tep-ad-slot-wrapper ad-slot-bottom">
+  <span class="ad-label-discreet">Publicidad Patrocinada</span>
+  <ins class="adsbygoogle"
+       style="display:block"
+       data-ad-client="ca-pub-3739732712037306"
+       data-ad-format="autorelaxed"
+       data-ad-slot="default"></ins>
+  <script is:inline>
+       (adsbygoogle = window.adsbygoogle || []).push({});
+  </script>
 </div>
 
 <!-- 3. CAJA DE CAPTACIÓN FLOTANTE (TELEGRAM) -->

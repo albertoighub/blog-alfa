@@ -42,8 +42,27 @@ const socialImageURL = new URL(image, Astro.site || 'https://newsinternacionalte
 <meta property="twitter:card" content="summary_large_image" />
 <meta property="twitter:url" content={canonicalURL} />
 <meta property="twitter:title" content={title} />
-<meta property="twitter:description" content={description} />
-<meta property="twitter:image" content={socialImageURL} />
+<!-- Schema.org NewsArticle & Editorial Publisher JSON-LD -->
+<script type="application/ld+json" set:html={JSON.stringify({
+  "@context": "https://schema.org",
+  "@type": "NewsArticle",
+  "headline": title,
+  "description": description,
+  "image": [socialImageURL.toString()],
+  "publisher": {
+    "@type": "Organization",
+    "name": "News Internacional TEP",
+    "url": "https://newsinternacionaltep.com",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://newsinternacionaltep.com/logo.png"
+    }
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": canonicalURL.toString()
+  }
+})} />
 
 <!-- Google AdSense Script -->
 <script
