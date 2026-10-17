@@ -86,11 +86,21 @@ const marketData = [
 <span class="live-realtime-indicator" title="Synchronized with atomic time standard"><span class="clock-sync-dot"></span> REAL TIME</span>
 </div>
 <div class="utility-right">
-<a href="https://newsinternacionaltep.com" target="_blank" rel="noopener noreferrer" class="twin-edition-switcher" title="Ir a la edición oficial en español">
-<span class="switcher-flag">🇲🇽</span>
-<span class="switcher-text">News Internacional TEP <span class="switcher-tag">Edición en Español</span></span>
-<svg class="switcher-arrow" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17L17 7M17 7H7M17 7V17"/></svg>
+<div class="edition-selector-bar">
+<span class="edition-selector-label">EDITION / REGION:</span>
+<a href="https://newsinternacionaltep.com" class="edition-pill" title="Edición España / América Latina (Español)">
+<span class="edition-flag">🇪🇸</span>
+<span class="edition-lang">Español</span>
 </a>
+<a href="https://international.newsinternacionaltep.com" class="edition-pill is-active" title="Global / US / UK (English)">
+<span class="edition-flag">🇬🇧</span>
+<span class="edition-lang">English</span>
+</a>
+<a href="https://china.newsinternacionaltep.com" class="edition-pill" title="亚太 / 中国 (中文)">
+<span class="edition-flag">🇨🇳</span>
+<span class="edition-lang">中文</span>
+</a>
+</div>
 </div>
 </div>
 
@@ -464,6 +474,65 @@ color: #475569;
 display: flex;
 align-items: center;
 gap: 1.2rem;
+}
+/* SELECTOR DE EDICIONES Y PAÍSES TRILLIZO */
+.edition-selector-bar {
+display: inline-flex;
+align-items: center;
+gap: 0.25rem;
+background: #f1f5f9;
+padding: 0.18rem 0.35rem;
+border-radius: 9999px;
+border: 1px solid #e2e8f0;
+}
+.edition-selector-label {
+font-size: 0.62rem;
+font-weight: 850;
+color: #64748b;
+letter-spacing: 0.05em;
+margin-right: 0.2rem;
+padding-left: 0.35rem;
+text-transform: uppercase;
+}
+.edition-pill {
+display: inline-flex;
+align-items: center;
+gap: 0.3rem;
+padding: 0.2rem 0.6rem;
+border-radius: 9999px;
+font-size: 0.72rem;
+font-weight: 700;
+color: #334155;
+text-decoration: none;
+transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.edition-pill:hover {
+background: #ffffff;
+color: #0f172a;
+box-shadow: 0 1px 4px rgba(0, 0, 0, 0.08);
+}
+.edition-pill.is-active {
+background: #0f172a;
+color: #ffffff !important;
+box-shadow: 0 2px 6px rgba(15, 23, 42, 0.25);
+cursor: default;
+}
+.edition-flag {
+font-size: 0.82rem;
+line-height: 1;
+}
+.edition-lang {
+line-height: 1;
+letter-spacing: 0.02em;
+}
+@media (max-width: 768px) {
+.edition-selector-label {
+display: none;
+}
+.edition-pill {
+padding: 0.18rem 0.45rem;
+font-size: 0.68rem;
+}
 }
 .live-info-badge {
 display: inline-flex;
