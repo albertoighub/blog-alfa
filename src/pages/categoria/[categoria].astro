@@ -38,6 +38,26 @@ tags: ['Seguridad Colectiva', 'Indo-Pacífico', 'Guerra Híbrida', 'Sanciones'],
 iconType: 'geopolitics',
 match: ['política', 'politica', 'geopolítica', 'geopolitica', 'seguridad', 'defensa', 'diplomacia']
 },
+{
+slug: 'ciencia',
+label: 'Ciencia & Medicina de Frontera',
+desc: 'Descubrimientos biomédicos, neurociencia, oncología molecular, salud pública y avances científicos comprobables.',
+accentColor: '#06b6d4',
+bgHero: 'linear-gradient(135deg, #050505 0%, #082f49 100%)',
+tags: ['Biotecnología', 'Medicina Molecular', 'Salud Pública', 'Neurociencia'],
+iconType: 'science',
+match: ['ciencia', 'medicina', 'salud', 'biotecnología', 'fármacos', 'investigación médica', 'cáncer', 'vacunas']
+},
+{
+slug: 'tendencias',
+label: 'Redes Sociales & Noticias de Alto Revuelo',
+desc: 'Radiografía crítica, cautelosa y sin filtros sobre tendencias virales, polémicas digitales y corrientes de masa.',
+accentColor: '#ec4899',
+bgHero: 'linear-gradient(135deg, #050505 0%, #500724 100%)',
+tags: ['Cultura Digital', 'Fenómenos Virales', 'Debate Público', 'Plataformas'],
+iconType: 'trends',
+match: ['tendencias', 'redes', 'viral', 'cultura digital', 'revuelo', 'plataformas', 'debates', 'audiencias']
+},
 ];
 
 return categories.map((cat) => {
@@ -360,6 +380,16 @@ color: #64748b;
 <circle cx="12" cy="12" r="10"/>
 <line x1="2" y1="12" x2="22" y2="12"/>
 <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>
+</svg>
+)}
+{meta.iconType === 'science' && (
+<svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+<path d="M4.5 3h15M6 3v16a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V3M6 14h12"/>
+</svg>
+)}
+{meta.iconType === 'trends' && (
+<svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+<path d="M23 6l-9.5 9.5-5-5L1 18"/><path d="M17 6h6v6"/>
 </svg>
 )}
 </div>

@@ -63,14 +63,26 @@ FEEDS_RESPALDO = {
         "https://www.theverge.com/rss/index.xml",
         "https://spectrum.ieee.org/rss/rocs/robotics",
         "https://venturebeat.com/feed/",
-        "https://www.technologyreview.com/feed/",
-        "https://krebsonsecurity.com/feed/",
-        "https://www.bleepingcomputer.com/feed/",
+    "Ciencia": [
+        "https://www.nature.com/nature.rss",
+        "https://www.sciencedaily.com/rss/top/science.xml",
+        "https://www.sciencedaily.com/rss/health_medicine.xml",
+        "https://medicalxpress.com/rss-feed/",
+        "https://phys.org/rss-feed/",
+    ],
+    "Tendencias": [
+        "https://www.theverge.com/culture/rss/index.xml",
+        "https://mashable.com/feeds/rss/all",
+        "https://techcrunch.com/category/social/feed/",
     ],
 }
 
 SYSTEM_INSTRUCTION = """Actúa como Editor en Jefe y Director de un Instituto de Inteligencia y Prospectiva Científica Internacional (estándar MIT, Harvard y Foreign Affairs).
 Transforma el suceso noticioso en un Paper de Investigación y Dossier Analítico de máxima profundidad, densidad técnica y rigor metodológico, superando los 65/70 puntos de la Rúbrica de Evaluación Editorial.
+
+DIRECTIVA ESPECIAL PARA CIENCIA Y TENDENCIAS VIRALES:
+- En 'Ciencia & Medicina': Exigir citación de ensayos clínicos, muestras cuantitativas, mecanismos moleculares o epidemiológicos; prohibir remedios milagro o pseudociencia.
+- En 'Tendencias & Redes Sociales': Analizar la sociología del revuelo, la polarización de audiencias, el impacto reputacional y los algoritmos de recomendación, pero con EXTREMA CAUTELA: cero difamación, cero juicios penales precipitados y total apego a presunción de inocencia y neutralidad observacional.
 
 ARQUITECTURA EXIGIDA (EMBUDO INVERTIDO COMPLEJO):
 El cuerpo del documento ('content') debe escribirse en Markdown con las siguientes 5 secciones H2 obligatorias:

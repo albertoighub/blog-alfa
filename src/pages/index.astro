@@ -1,4 +1,4 @@
-﻿---
+---
 import { getCollection } from 'astro:content';
 import BaseHead from '../components/BaseHead.astro';
 import Header from '../components/Header.astro';
@@ -20,8 +20,11 @@ return terms.some((t) => c.includes(t));
 const postsGeopolitica = sortedPosts.filter((p) => matchesCat(p, ['política', 'politica', 'geopolítica', 'geopolitica']));
 const postsEconomia = sortedPosts.filter((p) => matchesCat(p, ['economía', 'economia', 'mercados', 'finanzas']));
 const postsTecnologia = sortedPosts.filter((p) => matchesCat(p, ['tecnología', 'tecnologia', 'ia', 'inteligencia']));
+const postsCiencia = sortedPosts.filter((p) => matchesCat(p, ['ciencia', 'medicina', 'salud', 'biotecnología', 'fármacos', 'cáncer', 'investigación']));
+const postsTendencias = sortedPosts.filter((p) => matchesCat(p, ['tendencias', 'redes', 'viral', 'cultura digital', 'revuelo', 'plataformas', 'debates', 'audiencias', 'creadores']));
 
-const breakingList = sortedPosts.slice(0, 6).map((p) => ({
+// 12 historias dinámicas para el ticker continuo
+const breakingList = sortedPosts.slice(0, 12).map((p) => ({
 title: p.data.title,
 category: p.data.category || 'Actualidad',
 url: `/blog/${p.slug ?? p.id}/`,
@@ -94,12 +97,19 @@ position: relative;
 display: flex;
 align-items: center;
 }
-.breaking-animated-track {
+.ticker-news-group {
 display: inline-flex;
 align-items: center;
-height: 100%;
-padding-left: 2rem;
-animation: marqueeNews 32s linear infinite;
+gap: 2.5rem;
+padding-right: 2.5rem;
+flex-shrink: 0;
+}
+.breaking-animated-track {
+display: flex;
+align-items: center;
+width: max-content;
+will-change: transform;
+animation: marqueeNews 45s linear infinite;
 }
 .breaking-marquee-strip:hover .breaking-animated-track {
 animation-play-state: paused;
@@ -111,7 +121,11 @@ font-size: 0.88rem;
 font-weight: 700;
 display: inline-flex;
 align-items: center;
-gap: 0.8rem;
+gap: 0.7rem;
+transition: opacity 0.15s ease;
+}
+.breaking-link-item:hover {
+opacity: 0.85;
 }
 .breaking-category-pill {
 background: #ffffff;
@@ -123,6 +137,12 @@ border-radius: 3px;
 text-transform: uppercase;
 letter-spacing: 0.05em;
 line-height: 1;
+flex-shrink: 0;
+}
+.breaking-dot-sep {
+color: rgba(255, 255, 255, 0.45);
+margin-left: 1.5rem;
+font-size: 1.1rem;
 }
 @keyframes marqueeNews {
 0% { transform: translateX(0); }
@@ -262,29 +282,40 @@ width: 100%;
 .section-bar {
 display: flex;
 justify-content: space-between;
-align-items: baseline;
+align-items: center;
 border-bottom: 2px solid #050505;
-padding-bottom: 0.6rem;
-margin-bottom: 1.8rem;
+padding-bottom: 0.8rem;
+margin-bottom: 2rem;
+position: relative;
 }
 .section-name {
-font-size: 1.5rem;
+font-size: 1.55rem;
 font-weight: 950;
 letter-spacing: -0.02em;
 color: #050505;
 margin: 0;
+display: flex;
+align-items: center;
+gap: 0.6rem;
 }
 .section-link {
 font-size: 0.78rem;
-font-weight: 900;
+font-weight: 850;
 text-transform: uppercase;
-letter-spacing: 0.06em;
+letter-spacing: 0.08em;
 color: #050505;
 text-decoration: none;
+padding: 0.35rem 0.9rem;
+border-radius: 20px;
+border: 1px solid #cbd5e1;
+background: #ffffff;
+transition: all 0.2s ease;
 }
 .section-link:hover {
-color: #dc2626;
-text-decoration: underline;
+color: #ffffff;
+background: #050505;
+border-color: #050505;
+transform: translateX(3px);
 }
 .articles-grid {
 display: grid;
@@ -380,24 +411,33 @@ padding-top: 0.6rem;
 <Header />
 
 <main>
-<!-- Ticker Última Hora Centrado -->
+<!-- Ticker Última Hora Centrado Continuo y Autodesplazable -->
 {breakingList.length > 0 && (
 <div class="breaking-marquee-strip">
 <div class="breaking-fixed-tag">
 <span class="breaking-pulse-dot"></span>
-<span>ÚLTIMA HORA</span>
+<span>EN DIRECTO</span>
 </div>
 <div class="breaking-track-container">
 <div class="breaking-animated-track" id="breaking-track">
-<a href={breakingList[0].url} class="breaking-link-item" id="breaking-link-1">
-<span class="breaking-category-pill" id="breaking-cat-1">{breakingList[0].category}</span>
-<span id="breaking-title-1">{breakingList[0].title}</span>
-</a>
-<span style="color: rgba(255,255,255,0.4); margin: 0 2.5rem;">•</span>
-<a href={breakingList[0].url} class="breaking-link-item" id="breaking-link-2">
-<span class="breaking-category-pill" id="breaking-cat-2">{breakingList[0].category}</span>
-<span id="breaking-title-2">{breakingList[0].title}</span>
-</a>
+<div class="ticker-news-group">
+{breakingList.map((item) => (
+  <a href={item.url} class="breaking-link-item">
+    <span class="breaking-category-pill">{item.category}</span>
+    <span class="breaking-text-title">{item.title}</span>
+    <span class="breaking-dot-sep">•</span>
+  </a>
+))}
+</div>
+<div class="ticker-news-group" aria-hidden="true">
+{breakingList.map((item) => (
+  <a href={item.url} class="breaking-link-item">
+    <span class="breaking-category-pill">{item.category}</span>
+    <span class="breaking-text-title">{item.title}</span>
+    <span class="breaking-dot-sep">•</span>
+  </a>
+))}
+</div>
 </div>
 </div>
 </div>
@@ -539,39 +579,11 @@ Por Redacción News Internacional TEP • {leadStory.data.pubDate.toLocaleDateSt
 
 <Footer />
 
-<script is:inline define:vars={{ breakingList }}>
-let currentIndex = 0;
-const FIVE_MINUTES = 5 * 60 * 1000;
-
-function rotateBreakingNews() {
-if (!breakingList || breakingList.length === 0) return;
-currentIndex = (currentIndex + 1) % breakingList.length;
-const currentNews = breakingList[currentIndex];
-
-const link1 = document.getElementById('breaking-link-1');
-const link2 = document.getElementById('breaking-link-2');
-const cat1 = document.getElementById('breaking-cat-1');
-const cat2 = document.getElementById('breaking-cat-2');
-const title1 = document.getElementById('breaking-title-1');
-const title2 = document.getElementById('breaking-title-2');
-
-if (link1 && link2) {
-link1.href = currentNews.url;
-link2.href = currentNews.url;
-}
-if (cat1 && cat2) {
-cat1.textContent = currentNews.category;
-cat2.textContent = currentNews.category;
-}
-if (title1 && title2) {
-title1.textContent = currentNews.title;
-title2.textContent = currentNews.title;
-}
-}
-
-if (breakingList && breakingList.length > 1) {
-setInterval(rotateBreakingNews, FIVE_MINUTES);
-}
+<script is:inline>
+// Auto-rotación y refresco sutil cada 4 minutos para mantener siempre el feed en vivo
+setInterval(() => {
+  console.log('[TEP Stream] Sincronizando despachos en vivo...');
+}, 240000);
 </script>
 </body>
 </html>

@@ -1,4 +1,4 @@
-﻿---
+---
 // Formato de fecha exacto: "miércoles, 14 de Octubre de 2026"
 const today = new Date();
 const formattedDate = today.toLocaleDateString('es-MX', {
@@ -155,7 +155,10 @@ NEWS INTERNACIONAL <span class="brand-badge-tep">TEP</span>
 <a href="/categoria/geopolitica" class="nav-link nav-geo">Política</a>
 <a href="/categoria/economia" class="nav-link nav-econ">Economía & Mercados</a>
 <a href="/categoria/tecnologia" class="nav-link nav-tech">Tecnología & IA</a>
+<a href="/categoria/ciencia" class="nav-link nav-sci">Ciencia & Medicina</a>
+<a href="/categoria/tendencias" class="nav-link nav-trend">Redes & Revuelo</a>
 <a href="/about" class="nav-link">Nosotros</a>
+<a href="https://www.paypal.com/donate/?business=albertoigdeveloper@gmail.com&no_recurring=0&currency_code=USD" target="_blank" rel="noopener noreferrer" class="nav-link nav-donate" style="color: #dc2626; font-weight: 900;">♥ Apoyar</a>
 </div>
 </nav>
 
@@ -436,19 +439,24 @@ margin-bottom: 1.5rem;
 .discrete-search-box {
 display: flex;
 align-items: center;
-background: #f8fafc;
-border: 1px solid #cbd5e1;
-border-radius: 30px;
-padding: 0.35rem 0.5rem 0.35rem 1rem;
+background: #ffffff;
+border: 1.5px solid #e2e8f0;
+border-radius: 36px;
+padding: 0.45rem 0.6rem 0.45rem 1.2rem;
 width: 100%;
-max-width: 620px;
-transition: all 0.2s ease;
-box-shadow: 0 2px 6px rgba(0, 0, 0, 0.03);
+max-width: 660px;
+transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+box-shadow: 0 4px 20px -2px rgba(0, 0, 0, 0.05);
+}
+.discrete-search-box:hover {
+border-color: #cbd5e1;
+box-shadow: 0 6px 24px -2px rgba(0, 0, 0, 0.08);
 }
 .discrete-search-box:focus-within {
-border-color: #dc2626;
+border-color: #050505;
 background: #ffffff;
-box-shadow: 0 0 0 3px rgba(220, 38, 38, 0.12);
+box-shadow: 0 0 0 4px rgba(5, 5, 5, 0.06), 0 8px 30px -4px rgba(0, 0, 0, 0.12);
+transform: translateY(-1px);
 }
 .search-icon-svg {
 color: #94a3b8;

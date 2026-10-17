@@ -3,6 +3,7 @@ import type { CollectionEntry } from 'astro:content';
 import BaseHead from '../components/BaseHead.astro';
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
+import ProfessionalComments from '../components/ProfessionalComments.astro';
 
 type Props = CollectionEntry<'blog'>['data'];
 
@@ -401,6 +402,8 @@ Por <span class="author-name">{author || 'Comité Analítico TEP'}</span> • <t
 Unirse al Canal Oficial →
 </a>
 </div>
+
+<ProfessionalComments />
 
 <!-- 4. FICHA DE CITACIÓN ACADÉMICA (EXPORT CITATION) -->
 <div class="academic-citation-box">
