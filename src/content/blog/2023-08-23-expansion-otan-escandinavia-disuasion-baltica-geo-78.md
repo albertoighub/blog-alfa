@@ -5,7 +5,7 @@ pubDate: "2023-08-23"
 category: "Politics & Defense"
 tags: ["Geopolitics", "Research Paper", "TEP Archive"]
 author: "TEP Intelligence Board & Historical Archive"
-heroImage: "https://images.unsplash.com/photo-1572949645841-094f3a9c4c94?auto=format&fit=crop&w=1200&h=630&q=82"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/Nevada_Attorney_General_Aaron_Ford_ICCPR_Civil_Society_Consultation_October_17-18%2C_2023.jpg/1280px-Nevada_Attorney_General_Aaron_Ford_ICCPR_Civil_Society_Consultation_October_17-18%2C_2023.jpg"
 canonicalSource: "https://international.newsinternacionaltep.com/category/geopolitics"
 ---
 
@@ -21,7 +21,7 @@ Los reportes primarios recopilados por las corresponsalías y agencias de monito
 
 ## 2. Empirical State of Affairs and Structural Dynamics
 
-![Evidencia y Registro Documental Primario - Doctrina de Disuasión Báltica y la Expansión de la OTAN en Escandinavia](https://images.unsplash.com/photo-1541872703-74c5e44368f9?auto=format&fit=crop&w=1200&h=630&q=82)
+![Evidencia y Registro Documental Primario - Doctrina de Disuasión Báltica y la Expansión de la OTAN en Escandinavia](https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/Retrato_Alex_Neve%2C_miembro_de_la_Misi%C3%B3n_de_Determinaci%C3%B3n_de_Hechos_sobre_la_Rep%C3%BAblica_Bolivariana_de_Venezuela_%28cropped%29.jpg/1280px-Retrato_Alex_Neve%2C_miembro_de_la_Misi%C3%B3n_de_Determinaci%C3%B3n_de_Hechos_sobre_la_Rep%C3%BAblica_Bolivariana_de_Venezuela_%28cropped%29.jpg)
 *Figure 1: Archival photographic evidence documented in the News International TEP records.*
 
 La evolución empírica de los acontecimientos desmintió rápidamente los diagnósticos complacientes. La aceleración de las dinámicas en juego obligó a un reajuste de las previsiones institucionales, revelando una marcada correlación entre la exposición previa al riesgo y la celeridad del deterioro funcional en los sectores analizados.
@@ -40,7 +40,7 @@ El comportamiento de los indicadores determinantes durante este período histór
 
 ## 4. Scenario Evaluation and Risk Modeling
 
-![Modelado de Trayectorias y Riesgo Sistémico](https://images.unsplash.com/photo-1526304640581-d334cdbbf45e?auto=format&fit=crop&w=1200&h=630&q=82)
+![Modelado de Trayectorias y Riesgo Sistémico](https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/Secretary_Kerry_UN_Geneva_Press_Conference_%2816508019790%29.png/1280px-Secretary_Kerry_UN_Geneva_Press_Conference_%2816508019790%29.png)
 *Figure 2: Trajectory modeling and scenario dispersion prepared by the TEP Quantitative Unit.*
 
 El análisis retrospectivo permite clasificar la trayectoria que finalmente se consolidó frente a las hipótesis alternativas que barajaban los comités en aquel entonces:

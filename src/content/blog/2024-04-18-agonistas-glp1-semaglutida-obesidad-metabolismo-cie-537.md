@@ -5,7 +5,7 @@ pubDate: "2024-04-18"
 category: "Science & Medicine"
 tags: ["Science", "Research Paper", "TEP Archive"]
 author: "TEP Intelligence Board & Historical Archive"
-heroImage: "https://images.unsplash.com/photo-1516549655169-df83a0774514?auto=format&fit=crop&w=1200&h=630&q=82"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/UCDM_Malaysia_2025_-_Plaque_Signing_%283%29.jpg/1280px-UCDM_Malaysia_2025_-_Plaque_Signing_%283%29.jpg"
 canonicalSource: "https://international.newsinternacionaltep.com/category/science"
 ---
 
@@ -21,7 +21,7 @@ Los reportes primarios recopilados por las corresponsalías y agencias de monito
 
 ## 2. Empirical State of Affairs and Structural Dynamics
 
-![Evidencia y Registro Documental Primario - La Revolución de los Fármacos Agonistas de GLP-1 (Semaglutida) en el Tratamiento Metabólico](https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?auto=format&fit=crop&w=1200&h=630&q=82)
+![Evidencia y Registro Documental Primario - La Revolución de los Fármacos Agonistas de GLP-1 (Semaglutida) en el Tratamiento Metabólico](https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/%D0%9F%D1%80%D0%B5%D0%B7%D0%B5%D0%BD%D1%82%D0%B0%D1%86%D1%96%D1%8F_%D0%B2%D1%96%D0%B4%D0%B5%D0%BE-%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D1%83_%D0%B2_%D1%80%D0%B0%D0%BC%D0%BA%D0%B0%D1%85_%D0%BA%D1%83%D0%BB%D1%8C%D1%82%D1%83%D1%80%D0%BD%D0%BE%D1%97_%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC%D0%B0%D1%82%D1%96%D1%97_%D1%83_%D0%9F%D0%BE%D1%81%D0%BE%D0%BB%D1%8C%D1%81%D1%82%D0%B2%D1%96_%D0%A3%D0%BA%D1%80%D0%B0%D1%97%D0%BD%D0%B8_%D0%B2_%D0%86%D0%BD%D0%B4%D1%96%D1%97.jpg/1280px-thumbnail.jpg)
 *Figure 1: Archival photographic evidence documented in the News International TEP records.*
 
 La evolución empírica de los acontecimientos desmintió rápidamente los diagnósticos complacientes. La aceleración de las dinámicas en juego obligó a un reajuste de las previsiones institucionales, revelando una marcada correlación entre la exposición previa al riesgo y la celeridad del deterioro funcional en los sectores analizados.
@@ -40,7 +40,7 @@ El comportamiento de los indicadores determinantes durante este período histór
 
 ## 4. Scenario Evaluation and Risk Modeling
 
-![Modelado de Trayectorias y Riesgo Sistémico](https://images.unsplash.com/photo-1530497610245-94d3c16cda28?auto=format&fit=crop&w=1200&h=630&q=82)
+![Modelado de Trayectorias y Riesgo Sistémico](https://thumb.wikimedia.org/wikipedia/commons/thumb/0/06/2018_The_ninth_Ministerial_Meeting_of_the_Friends_of_the_CTBT_%2831092547598%29.jpg/1280px-2018_The_ninth_Ministerial_Meeting_of_the_Friends_of_the_CTBT_%2831092547598%29.jpg)
 *Figure 2: Trajectory modeling and scenario dispersion prepared by the TEP Quantitative Unit.*
 
 El análisis retrospectivo permite clasificar la trayectoria que finalmente se consolidó frente a las hipótesis alternativas que barajaban los comités en aquel entonces:

@@ -5,7 +5,7 @@ pubDate: "2026-10-14"
 category: "Politics & Defense"
 tags: ["Geopolitics", "Research Paper", "TEP Archive"]
 author: "TEP Intelligence Board & Historical Archive"
-heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1f/Godswill_Obot_Akpabio_%282012%29_%28cropped%29.jpg/1280px-Godswill_Obot_Akpabio_%282012%29_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/DJI_Goggles.jpg/1280px-DJI_Goggles.jpg"
 canonicalSource: "https://international.newsinternacionaltep.com/category/geopolitics"
 ---
 

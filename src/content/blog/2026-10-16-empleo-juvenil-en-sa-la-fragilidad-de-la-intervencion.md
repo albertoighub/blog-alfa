@@ -5,7 +5,7 @@ pubDate: "2026-10-17"
 category: "Politics & Defense"
 tags: ["Geopolitics", "Research Paper", "TEP Archive"]
 author: "TEP Intelligence Board & Historical Archive"
-heroImage: "https://images.newsteam.io/image/2121/2Bq28FuGKoJxxMwPbEkznNKLfzeAG3jzjjXPBG1QXhaZkQVxgNViqn3xPvnmroS2uRZW8JqXU7LVgb5snJ2kNmzLGLaQFtgGTqPoK4gZB4FKab9zfWKHVNFHcMf7JYniF7XcMub9sb7THx5WCX6rJSj"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/The_Minister_of_State_%28Independent_Charge%29_for_Science_%26_Technology_and_Earth_Sciences%2C_Shri_Prithviraj_Chavan_inaugurating_%E2%80%98the_new_High_Performance_Computing_System_%28HPCS%29%E2%80%99.jpg/1280px-thumbnail.jpg"
 canonicalSource: "https://international.newsinternacionaltep.com/category/geopolitics"
 ---
 

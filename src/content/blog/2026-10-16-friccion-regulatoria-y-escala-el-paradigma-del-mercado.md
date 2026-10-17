@@ -5,7 +5,7 @@ pubDate: "2026-10-16"
 category: "Economy & Markets"
 tags: ["Intelligence", "Research Paper", "TEP Archive"]
 author: "TEP Intelligence Board & Historical Archive"
-heroImage: "https://fortune.com/img-assets/wp-content/uploads/2026/10/GettyImages-1243572299-e1792068161658.jpg?w=2048"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/1964_Imperial_Crown_Coupe_%2828267886990%29.jpg/1280px-1964_Imperial_Crown_Coupe_%2828267886990%29.jpg"
 canonicalSource: "https://international.newsinternacionaltep.com/category/economy"
 ---
 

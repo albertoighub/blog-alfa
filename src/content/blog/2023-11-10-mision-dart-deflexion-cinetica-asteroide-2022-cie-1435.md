@@ -5,7 +5,7 @@ pubDate: "2023-11-10"
 category: "Science & Medicine"
 tags: ["Science", "Research Paper", "TEP Archive"]
 author: "TEP Intelligence Board & Historical Archive"
-heroImage: "https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?auto=format&fit=crop&w=1200&h=630&q=82"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/US_Navy_071215-F-0509T-091_U.S._Navy_Commodore_Frank_Ponds_presents_Djiboutian_Army_Brig._Gen._Osman_Soubagleh_with_a_coin_during_a_reception_at_end_the_Operation_Image_Nautilus_aboard_USS_Gunston_Hall_%28LSD_44%29.jpg/1280px-thumbnail.jpg"
 canonicalSource: "https://international.newsinternacionaltep.com/category/science"
 ---
 
@@ -21,7 +21,7 @@ Los reportes primarios recopilados por las corresponsalías y agencias de monito
 
 ## 2. Empirical State of Affairs and Structural Dynamics
 
-![Evidencia y Registro Documental Primario - Misión DART de la NASA y la Demostración de Deflexión Cinética de Asteroides Peligrosos](https://images.unsplash.com/photo-1530497610245-94d3c16cda28?auto=format&fit=crop&w=1200&h=630&q=82)
+![Evidencia y Registro Documental Primario - Misión DART de la NASA y la Demostración de Deflexión Cinética de Asteroides Peligrosos](https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/White_House_Hanukkah_reception_2009.jpg/1280px-White_House_Hanukkah_reception_2009.jpg)
 *Figure 1: Archival photographic evidence documented in the News International TEP records.*
 
 La evolución empírica de los acontecimientos desmintió rápidamente los diagnósticos complacientes. La aceleración de las dinámicas en juego obligó a un reajuste de las previsiones institucionales, revelando una marcada correlación entre la exposición previa al riesgo y la celeridad del deterioro funcional en los sectores analizados.
@@ -40,7 +40,7 @@ El comportamiento de los indicadores determinantes durante este período histór
 
 ## 4. Scenario Evaluation and Risk Modeling
 
-![Modelado de Trayectorias y Riesgo Sistémico](https://images.unsplash.com/photo-1507668077129-56e32842fceb?auto=format&fit=crop&w=1200&h=630&q=82)
+![Modelado de Trayectorias y Riesgo Sistémico](https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/2017-05-29_President_Md_Abdul_Hamid_presents_crests_and_honors_to_families_of_martyred_and_injured_peacekeepers_at_Bangabandhu_International_Conference_Center_Dhaka_for_UN_Peacekeepers%27_Day_%28PID-0049085%29.jpg/1280px-thumbnail.jpg)
 *Figure 2: Trajectory modeling and scenario dispersion prepared by the TEP Quantitative Unit.*
 
 El análisis retrospectivo permite clasificar la trayectoria que finalmente se consolidó frente a las hipótesis alternativas que barajaban los comités en aquel entonces:

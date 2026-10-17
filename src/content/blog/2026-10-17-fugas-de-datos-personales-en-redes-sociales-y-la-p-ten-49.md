@@ -5,7 +5,7 @@ pubDate: "2026-10-17"
 category: "Social Media & Dynamics"
 tags: ["Intelligence", "Research Paper", "TEP Archive"]
 author: "TEP Intelligence Board & Historical Archive"
-heroImage: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=1200&h=630&q=82"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/Manmohan_Singh_lighting_the_lamp_to_inaugurate_the_exhibition_%22The_Master%27s_Strokes_Art_of_Rabindranath_Tagore%22%2C_on_the_occasion_of_Gurudev_Rabindranath_Tagore%E2%80%99s_150th_Birth_Anniversary%2C_at_National_Gallery_of_Modern_Art.jpg/1280px-thumbnail.jpg"
 canonicalSource: "https://international.newsinternacionaltep.com/category/trends"
 ---
 
@@ -21,7 +21,7 @@ El análisis de series temporales de tráfico y engagement demuestra que los inc
 
 ## 2. State of the Art and Structural Dynamics
 
-![Análisis Documental Primario - Fugas de Datos Personales en Redes Sociales y la Proliferación](https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&w=1000&h=500&q=82)
+![Análisis Documental Primario - Fugas de Datos Personales en Redes Sociales y la Proliferación](https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/Paul_Gauguin_-_The_Ancestors_of_Tehamana_OR_Tehamana_Has_Many_Parents_%28Merahi_metua_no_Tehamana%29_-_Google_Art_Project.jpg/1280px-Paul_Gauguin_-_The_Ancestors_of_Tehamana_OR_Tehamana_Has_Many_Parents_%28Merahi_metua_no_Tehamana%29_-_Google_Art_Project.jpg)
 *Figura 1: Representación técnica y mapeo contextual del fenómeno analizado.*
 Durante la última década, el modelo de negocio publicitario digital evolucionó desde banners estáticos hacia arquitecturas de aprendizaje por refuerzo profundo. En este contexto, el fenómeno estudiado ha consolidado una economía donde la atención humana es cuantificada, microsegmentada y subastada en milisegundos.
 
@@ -39,7 +39,7 @@ El mecanismo operativo descansa sobre bucles de recompensa intermitente variable
 
 ## 4. Scenario Evaluation and Risk Modeling
 
-![Modelado de Trayectorias y Riesgo Sistémico](https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&w=1000&h=500&q=82)
+![Modelado de Trayectorias y Riesgo Sistémico](https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/Pierre-Auguste_Renoir_-_Two_Sisters_%28On_the_Terrace%29_-_Google_Art_Project.jpg/1280px-Pierre-Auguste_Renoir_-_Two_Sisters_%28On_the_Terrace%29_-_Google_Art_Project.jpg)
 *Figura 2: Telemetría de variables y dispersión de escenarios probabilísticos.*
 Se plantearon tres escenarios de evolución sociotécnica para evaluar las transformaciones en la cohesión cívica y regulatoria:
 

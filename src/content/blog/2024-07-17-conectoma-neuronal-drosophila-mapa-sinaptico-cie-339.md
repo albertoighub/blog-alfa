@@ -5,7 +5,7 @@ pubDate: "2024-07-17"
 category: "Science & Medicine"
 tags: ["Science", "Research Paper", "TEP Archive"]
 author: "TEP Intelligence Board & Historical Archive"
-heroImage: "https://images.unsplash.com/photo-1579165466791-788226ab77b6?auto=format&fit=crop&w=1200&h=630&q=82"
+heroImage: "https://upload.wikimedia.org/wikipedia/commons/2/29/Kaman_UH-2_Seasprite_of_HC-1_rescueing_crew_of_British_cagro_ship_SS_August_Moon%2C_aground_on_Pratas_Island_reef_on_16_September_1966.jpg"
 canonicalSource: "https://international.newsinternacionaltep.com/category/science"
 ---
 
@@ -21,7 +21,7 @@ Los reportes primarios recopilados por las corresponsalías y agencias de monito
 
 ## 2. Empirical State of Affairs and Structural Dynamics
 
-![Evidencia y Registro Documental Primario - El Mapeo Completo del Conectoma Neuronal de Drosophila melanogaster y la Arquitectura Sináptica](https://images.unsplash.com/photo-1516549655169-df83a0774514?auto=format&fit=crop&w=1200&h=630&q=82)
+![Evidencia y Registro Documental Primario - El Mapeo Completo del Conectoma Neuronal de Drosophila melanogaster y la Arquitectura Sináptica](https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/Leander_and_Roman_enter_the_Port_of_Cardiff_-_geograph.org.uk_-_3811672.jpg/1280px-Leander_and_Roman_enter_the_Port_of_Cardiff_-_geograph.org.uk_-_3811672.jpg)
 *Figure 1: Archival photographic evidence documented in the News International TEP records.*
 
 La evolución empírica de los acontecimientos desmintió rápidamente los diagnósticos complacientes. La aceleración de las dinámicas en juego obligó a un reajuste de las previsiones institucionales, revelando una marcada correlación entre la exposición previa al riesgo y la celeridad del deterioro funcional en los sectores analizados.
@@ -40,7 +40,7 @@ El comportamiento de los indicadores determinantes durante este período histór
 
 ## 4. Scenario Evaluation and Risk Modeling
 
-![Modelado de Trayectorias y Riesgo Sistémico](https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?auto=format&fit=crop&w=1200&h=630&q=82)
+![Modelado de Trayectorias y Riesgo Sistémico](https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/Line5123_-_Flickr_-_NOAA_Photo_Library.jpg/1280px-Line5123_-_Flickr_-_NOAA_Photo_Library.jpg)
 *Figure 2: Trajectory modeling and scenario dispersion prepared by the TEP Quantitative Unit.*
 
 El análisis retrospectivo permite clasificar la trayectoria que finalmente se consolidó frente a las hipótesis alternativas que barajaban los comités en aquel entonces:

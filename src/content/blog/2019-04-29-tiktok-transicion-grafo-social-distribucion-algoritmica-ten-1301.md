@@ -5,7 +5,7 @@ pubDate: "2019-04-29"
 category: "Social Media & Dynamics"
 tags: ["Intelligence", "Research Paper", "TEP Archive"]
 author: "TEP Intelligence Board & Historical Archive"
-heroImage: "https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=1200&h=630&q=82"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/%D7%94%D7%96%D7%9E%D7%A8_%D7%9E%D7%95%D7%A7%D7%99_%D7%9E%D7%AA%D7%90%D7%A8%D7%97_%D7%91%D7%94%D7%95%D7%A4%D7%A2%D7%94_%D7%9E%D7%94%D7%92%D7%99%D7%94%D7%A0%D7%95%D7%9D.jpg/1280px-%D7%94%D7%96%D7%9E%D7%A8_%D7%9E%D7%95%D7%A7%D7%99_%D7%9E%D7%AA%D7%90%D7%A8%D7%97_%D7%91%D7%94%D7%95%D7%A4%D7%A2%D7%94_%D7%9E%D7%94%D7%92%D7%99%D7%94%D7%A0%D7%95%D7%9D.jpg"
 canonicalSource: "https://international.newsinternacionaltep.com/category/trends"
 ---
 
@@ -21,7 +21,7 @@ Los reportes primarios recopilados por las corresponsalías y agencias de monito
 
 ## 2. Empirical State of Affairs and Structural Dynamics
 
-![Evidencia y Registro Documental Primario - El Auge de TikTok y la Transición de la Web Basada en Grafo Social a la Distribución Algorítmica](https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=1200&h=630&q=82)
+![Evidencia y Registro Documental Primario - El Auge de TikTok y la Transición de la Web Basada en Grafo Social a la Distribución Algorítmica](https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/ABC-TV_studio_at_Sandy_Bay_Road%2C_Hobart_%28AB713-1-8232%29.jpg/1280px-ABC-TV_studio_at_Sandy_Bay_Road%2C_Hobart_%28AB713-1-8232%29.jpg)
 *Figure 1: Archival photographic evidence documented in the News International TEP records.*
 
 La evolución empírica de los acontecimientos desmintió rápidamente los diagnósticos complacientes. La aceleración de las dinámicas en juego obligó a un reajuste de las previsiones institucionales, revelando una marcada correlación entre la exposición previa al riesgo y la celeridad del deterioro funcional en los sectores analizados.
@@ -40,7 +40,7 @@ El comportamiento de los indicadores determinantes durante este período histór
 
 ## 4. Scenario Evaluation and Risk Modeling
 
-![Modelado de Trayectorias y Riesgo Sistémico](https://images.unsplash.com/photo-1534536281715-e28d76689b4d?auto=format&fit=crop&w=1200&h=630&q=82)
+![Modelado de Trayectorias y Riesgo Sistémico](https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/ART_TV_studio_floor.jpg/1280px-ART_TV_studio_floor.jpg)
 *Figure 2: Trajectory modeling and scenario dispersion prepared by the TEP Quantitative Unit.*
 
 El análisis retrospectivo permite clasificar la trayectoria que finalmente se consolidó frente a las hipótesis alternativas que barajaban los comités en aquel entonces:

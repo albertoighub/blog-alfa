@@ -5,7 +5,7 @@ pubDate: "2023-11-25"
 category: "Science & Medicine"
 tags: ["Science", "Research Paper", "TEP Archive"]
 author: "TEP Intelligence Board & Historical Archive"
-heroImage: "https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?auto=format&fit=crop&w=1200&h=630&q=82"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/Indonesian_MONUSCO_Peacekeeper_Guarding_a_Village_Farm_during_a_Patrol_in_Bunia%2C_Ituri_Province.jpg/1280px-Indonesian_MONUSCO_Peacekeeper_Guarding_a_Village_Farm_during_a_Patrol_in_Bunia%2C_Ituri_Province.jpg"
 canonicalSource: "https://international.newsinternacionaltep.com/category/science"
 ---
 
@@ -21,7 +21,7 @@ Los reportes primarios recopilados por las corresponsalías y agencias de monito
 
 ## 2. Empirical State of Affairs and Structural Dynamics
 
-![Evidencia y Registro Documental Primario - El Mapeo Completo del Conectoma Neuronal de Drosophila melanogaster y la Arquitectura Sináptica](https://images.unsplash.com/photo-1530497610245-94d3c16cda28?auto=format&fit=crop&w=1200&h=630&q=82)
+![Evidencia y Registro Documental Primario - El Mapeo Completo del Conectoma Neuronal de Drosophila melanogaster y la Arquitectura Sináptica](https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ac/International_Day_of_UN_Peacekeepers_2015_event_honoring_families_of_Bangladeshi_UN_mission_members%2C_Bangabandhu_International_Conference_Center%2C_Dhaka_%28PID-0059363%29.jpg/1280px-thumbnail.jpg)
 *Figure 1: Archival photographic evidence documented in the News International TEP records.*
 
 La evolución empírica de los acontecimientos desmintió rápidamente los diagnósticos complacientes. La aceleración de las dinámicas en juego obligó a un reajuste de las previsiones institucionales, revelando una marcada correlación entre la exposición previa al riesgo y la celeridad del deterioro funcional en los sectores analizados.
@@ -40,7 +40,7 @@ El comportamiento de los indicadores determinantes durante este período histór
 
 ## 4. Scenario Evaluation and Risk Modeling
 
-![Modelado de Trayectorias y Riesgo Sistémico](https://images.unsplash.com/photo-1507668077129-56e32842fceb?auto=format&fit=crop&w=1200&h=630&q=82)
+![Modelado de Trayectorias y Riesgo Sistémico](https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/International_Day_of_United_Nations_Peacekeepers_%284623734775%29.jpg/1280px-International_Day_of_United_Nations_Peacekeepers_%284623734775%29.jpg)
 *Figure 2: Trajectory modeling and scenario dispersion prepared by the TEP Quantitative Unit.*
 
 El análisis retrospectivo permite clasificar la trayectoria que finalmente se consolidó frente a las hipótesis alternativas que barajaban los comités en aquel entonces:

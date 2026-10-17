@@ -5,7 +5,7 @@ pubDate: "2026-10-15"
 category: "Politics & Defense"
 tags: ["Intelligence", "Research Paper", "TEP Archive"]
 author: "TEP Intelligence Board & Historical Archive"
-heroImage: "https://i2.res.24o.it/images2010/S24/Documenti/2026/10/16/Immagini/Ritagli/phd-U87863176048XCL-1440x752@IlSole24Ore-Web.jpg"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/IBM_T42_rack_tower.jpg/1280px-IBM_T42_rack_tower.jpg"
 canonicalSource: "https://international.newsinternacionaltep.com/category/geopolitics"
 ---
 

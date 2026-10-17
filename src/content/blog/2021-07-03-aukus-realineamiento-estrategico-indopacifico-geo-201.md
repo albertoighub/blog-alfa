@@ -5,7 +5,7 @@ pubDate: "2021-07-03"
 category: "Politics & Defense"
 tags: ["Geopolitics", "Research Paper", "TEP Archive"]
 author: "TEP Intelligence Board & Historical Archive"
-heroImage: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1200&h=630&q=82"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/Keir_Starmer_and_Mark_Carney_at_G7_16_June_2026.jpg/1280px-Keir_Starmer_and_Mark_Carney_at_G7_16_June_2026.jpg"
 canonicalSource: "https://international.newsinternacionaltep.com/category/geopolitics"
 ---
 
@@ -21,7 +21,7 @@ Los reportes primarios recopilados por las corresponsalías y agencias de monito
 
 ## 2. Empirical State of Affairs and Structural Dynamics
 
-![Evidencia y Registro Documental Primario - Pacto AUKUS y el Realineamiento Estratégico en el Indopacífico](https://images.unsplash.com/photo-1521791136064-7986c2920216?auto=format&fit=crop&w=1200&h=630&q=82)
+![Evidencia y Registro Documental Primario - Pacto AUKUS y el Realineamiento Estratégico en el Indopacífico](https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/Keir_Starmer_at_G7_16_June_2026_%28cropped%29.jpg/1280px-Keir_Starmer_at_G7_16_June_2026_%28cropped%29.jpg)
 *Figure 1: Archival photographic evidence documented in the News International TEP records.*
 
 La evolución empírica de los acontecimientos desmintió rápidamente los diagnósticos complacientes. La aceleración de las dinámicas en juego obligó a un reajuste de las previsiones institucionales, revelando una marcada correlación entre la exposición previa al riesgo y la celeridad del deterioro funcional en los sectores analizados.
@@ -40,7 +40,7 @@ El comportamiento de los indicadores determinantes durante este período histór
 
 ## 4. Scenario Evaluation and Risk Modeling
 
-![Modelado de Trayectorias y Riesgo Sistémico](https://images.unsplash.com/photo-1577495508048-b635879837f1?auto=format&fit=crop&w=1200&h=630&q=82)
+![Modelado de Trayectorias y Riesgo Sistémico](https://upload.wikimedia.org/wikipedia/commons/6/67/L%C3%BCbeck_G7_Summit_2015_-_Wahmstra%C3%9Fe.jpg)
 *Figure 2: Trajectory modeling and scenario dispersion prepared by the TEP Quantitative Unit.*
 
 El análisis retrospectivo permite clasificar la trayectoria que finalmente se consolidó frente a las hipótesis alternativas que barajaban los comités en aquel entonces:

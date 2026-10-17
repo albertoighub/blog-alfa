@@ -5,7 +5,7 @@ pubDate: "2021-07-06"
 category: "Politics & Defense"
 tags: ["Geopolitics", "Research Paper", "TEP Archive"]
 author: "TEP Intelligence Board & Historical Archive"
-heroImage: "https://images.unsplash.com/photo-1541872703-74c5e44368f9?auto=format&fit=crop&w=1200&h=630&q=82"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/Photograph_of_the_group_photograph_session_with_the_leaders_of_the_G7_members_and_invited_outreach_countries_%281%29.jpg/1280px-Photograph_of_the_group_photograph_session_with_the_leaders_of_the_G7_members_and_invited_outreach_countries_%281%29.jpg"
 canonicalSource: "https://international.newsinternacionaltep.com/category/geopolitics"
 ---
 
@@ -21,7 +21,7 @@ Los reportes primarios recopilados por las corresponsalías y agencias de monito
 
 ## 2. Empirical State of Affairs and Structural Dynamics
 
-![Evidencia y Registro Documental Primario - La Disputa por el Mar del Sur de China y la Militarización de Arrecifes Artificiales](https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=1200&h=630&q=82)
+![Evidencia y Registro Documental Primario - La Disputa por el Mar del Sur de China y la Militarización de Arrecifes Artificiales](https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/President_Joe_Biden_joined_G7_leaders_in_laying_a_wreath_at_the_Hiroshima_Peace_Memorial_Park_and_visited_the_Memorial_Museum_to_pay_his_respects.jpg/1280px-President_Joe_Biden_joined_G7_leaders_in_laying_a_wreath_at_the_Hiroshima_Peace_Memorial_Park_and_visited_the_Memorial_Museum_to_pay_his_respects.jpg)
 *Figure 1: Archival photographic evidence documented in the News International TEP records.*
 
 La evolución empírica de los acontecimientos desmintió rápidamente los diagnósticos complacientes. La aceleración de las dinámicas en juego obligó a un reajuste de las previsiones institucionales, revelando una marcada correlación entre la exposición previa al riesgo y la celeridad del deterioro funcional en los sectores analizados.
@@ -40,7 +40,7 @@ El comportamiento de los indicadores determinantes durante este período histór
 
 ## 4. Scenario Evaluation and Risk Modeling
 
-![Modelado de Trayectorias y Riesgo Sistémico](https://images.unsplash.com/photo-1507679799987-c73779587ccf?auto=format&fit=crop&w=1200&h=630&q=82)
+![Modelado de Trayectorias y Riesgo Sistémico](https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8e/President_Trump%27s_Trip_to_the_G7_Summit_%2828816433758%29.jpg/1280px-President_Trump%27s_Trip_to_the_G7_Summit_%2828816433758%29.jpg)
 *Figure 2: Trajectory modeling and scenario dispersion prepared by the TEP Quantitative Unit.*
 
 El análisis retrospectivo permite clasificar la trayectoria que finalmente se consolidó frente a las hipótesis alternativas que barajaban los comités en aquel entonces:

@@ -5,7 +5,7 @@ pubDate: "2022-04-25"
 category: "Economy & Markets"
 tags: ["Intelligence", "Research Paper", "TEP Archive"]
 author: "TEP Intelligence Board & Historical Archive"
-heroImage: "https://images.unsplash.com/photo-1526304640581-d334cdbbf45e?auto=format&fit=crop&w=1200&h=630&q=82"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/Oil_tank_wagons_on_a_siding_at_Harwich_Refinery_-_geograph.org.uk_-_7876567.jpg/1280px-Oil_tank_wagons_on_a_siding_at_Harwich_Refinery_-_geograph.org.uk_-_7876567.jpg"
 canonicalSource: "https://international.newsinternacionaltep.com/category/economy"
 ---
 
@@ -21,7 +21,7 @@ Los reportes primarios recopilados por las corresponsalías y agencias de monito
 
 ## 2. Empirical State of Affairs and Structural Dynamics
 
-![Evidencia y Registro Documental Primario - La Crisis de Deuda de Evergrande y la Desaceleración Estructural del Sector Inmobiliario Chino](https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?auto=format&fit=crop&w=1200&h=630&q=82)
+![Evidencia y Registro Documental Primario - La Crisis de Deuda de Evergrande y la Desaceleración Estructural del Sector Inmobiliario Chino](https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/Oil_tanker_berth_on_Fawley_Marine_Terminal_-_geograph.org.uk_-_5482421.jpg/1280px-Oil_tanker_berth_on_Fawley_Marine_Terminal_-_geograph.org.uk_-_5482421.jpg)
 *Figure 1: Archival photographic evidence documented in the News International TEP records.*
 
 La evolución empírica de los acontecimientos desmintió rápidamente los diagnósticos complacientes. La aceleración de las dinámicas en juego obligó a un reajuste de las previsiones institucionales, revelando una marcada correlación entre la exposición previa al riesgo y la celeridad del deterioro funcional en los sectores analizados.
@@ -40,7 +40,7 @@ El comportamiento de los indicadores determinantes durante este período histór
 
 ## 4. Scenario Evaluation and Risk Modeling
 
-![Modelado de Trayectorias y Riesgo Sistémico](https://images.unsplash.com/photo-1559526324-4b87b5e36e44?auto=format&fit=crop&w=1200&h=630&q=82)
+![Modelado de Trayectorias y Riesgo Sistémico](https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/Storage_tanks%2C_Isle_of_Grain_Oil_Refinery_-_geograph.org.uk_-_3738237.jpg/1280px-Storage_tanks%2C_Isle_of_Grain_Oil_Refinery_-_geograph.org.uk_-_3738237.jpg)
 *Figure 2: Trajectory modeling and scenario dispersion prepared by the TEP Quantitative Unit.*
 
 El análisis retrospectivo permite clasificar la trayectoria que finalmente se consolidó frente a las hipótesis alternativas que barajaban los comités en aquel entonces:

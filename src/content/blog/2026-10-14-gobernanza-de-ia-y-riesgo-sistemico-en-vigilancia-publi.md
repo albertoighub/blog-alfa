@@ -5,7 +5,7 @@ pubDate: "2026-10-14"
 category: "Economy & Markets"
 tags: ["Intelligence", "Research Paper", "TEP Archive"]
 author: "TEP Intelligence Board & Historical Archive"
-heroImage: "https://fortune.com/img-assets/wp-content/uploads/2026/10/GettyImages-2260290228-e1792012558439.jpg?w=2048"
+heroImage: "https://upload.wikimedia.org/wikipedia/commons/5/57/Psihozmars.jpg"
 canonicalSource: "https://international.newsinternacionaltep.com/category/economy"
 ---
 

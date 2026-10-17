@@ -5,7 +5,7 @@ pubDate: "2023-07-08"
 category: "Science & Medicine"
 tags: ["Science", "Research Paper", "TEP Archive"]
 author: "TEP Intelligence Board & Historical Archive"
-heroImage: "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=1200&h=630&q=82"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/A_George_Stern%2C_1545_Falkland_Lane%2C_Silver_Spring%2C_MD.%2C_who_in_the_last_three_years_has_developed_a_formula_for_a_highly_volatile_fluid_which_vaporizes_so_rapidly_that_flames_from_the_gases_LCCN2016874321.jpg/1280px-thumbnail.jpg"
 canonicalSource: "https://international.newsinternacionaltep.com/category/science"
 ---
 
@@ -21,7 +21,7 @@ Los reportes primarios recopilados por las corresponsalías y agencias de monito
 
 ## 2. Empirical State of Affairs and Structural Dynamics
 
-![Evidencia y Registro Documental Primario - Aprobación Histórica de Casgevy: Primera Terapia Médica con CRISPR para Anemia Falciforme](https://images.unsplash.com/photo-1579165466791-788226ab77b6?auto=format&fit=crop&w=1200&h=630&q=82)
+![Evidencia y Registro Documental Primario - Aprobación Histórica de Casgevy: Primera Terapia Médica con CRISPR para Anemia Falciforme](https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/Longchamp%2C_1-6-24%2C_Irismond_%28cheval_de_course%29_mont%C3%A9_par_%28George%29_Stern%2C_gagnant_du_prix_Lubin_%28i.e._Lupin%29_-_btv1b531307360.jpg/1280px-Longchamp%2C_1-6-24%2C_Irismond_%28cheval_de_course%29_mont%C3%A9_par_%28George%29_Stern%2C_gagnant_du_prix_Lubin_%28i.e._Lupin%29_-_btv1b531307360.jpg)
 *Figure 1: Archival photographic evidence documented in the News International TEP records.*
 
 La evolución empírica de los acontecimientos desmintió rápidamente los diagnósticos complacientes. La aceleración de las dinámicas en juego obligó a un reajuste de las previsiones institucionales, revelando una marcada correlación entre la exposición previa al riesgo y la celeridad del deterioro funcional en los sectores analizados.
@@ -40,7 +40,7 @@ El comportamiento de los indicadores determinantes durante este período histór
 
 ## 4. Scenario Evaluation and Risk Modeling
 
-![Modelado de Trayectorias y Riesgo Sistémico](https://images.unsplash.com/photo-1516549655169-df83a0774514?auto=format&fit=crop&w=1200&h=630&q=82)
+![Modelado de Trayectorias y Riesgo Sistémico](https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/On_October_29%2C_2011%2C_two_days_after_the_presidential_election_was_held%2C_Higgins_was_declared_President-elect_of_Ireland.jpg/1280px-On_October_29%2C_2011%2C_two_days_after_the_presidential_election_was_held%2C_Higgins_was_declared_President-elect_of_Ireland.jpg)
 *Figure 2: Trajectory modeling and scenario dispersion prepared by the TEP Quantitative Unit.*
 
 El análisis retrospectivo permite clasificar la trayectoria que finalmente se consolidó frente a las hipótesis alternativas que barajaban los comités en aquel entonces:

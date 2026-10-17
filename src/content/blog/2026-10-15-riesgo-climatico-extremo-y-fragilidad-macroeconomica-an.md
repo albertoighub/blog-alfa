@@ -5,7 +5,7 @@ pubDate: "2026-10-15"
 category: "Economy & Markets"
 tags: ["Intelligence", "Research Paper", "TEP Archive"]
 author: "TEP Intelligence Board & Historical Archive"
-heroImage: "https://gestion.pe/resizer/v2/JOWM3RX4ZRB5FOZ572RO7UFNE4.jpeg?auth=8319d5e4fdd6c7c68aad42cf82d16b7037c12018f9143a49302b9449aaaeb13b&smart=true&width=1152&height=821"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/Chateau_Frontenac_illuminated_at_night_in_Quebec_City.jpg/1280px-Chateau_Frontenac_illuminated_at_night_in_Quebec_City.jpg"
 canonicalSource: "https://international.newsinternacionaltep.com/category/economy"
 ---
 

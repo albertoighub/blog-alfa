@@ -5,7 +5,7 @@ pubDate: "2026-10-14"
 category: "Politics & Defense"
 tags: ["Geopolitics", "Research Paper", "TEP Archive"]
 author: "TEP Intelligence Board & Historical Archive"
-heroImage: "https://thumb.wikimedia.org/wikipedia/en/thumb/a/a1/FC_Shakhtar_Donetsk.svg/1280px-FC_Shakhtar_Donetsk.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+heroImage: "https://upload.wikimedia.org/wikipedia/commons/e/eb/HP_BladeSystem_c7000_Enclosure.jpg"
 canonicalSource: "https://international.newsinternacionaltep.com/category/geopolitics"
 ---
 

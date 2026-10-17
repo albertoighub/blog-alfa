@@ -5,7 +5,7 @@ pubDate: "2022-09-17"
 category: "Politics & Defense"
 tags: ["Geopolitics", "Research Paper", "TEP Archive"]
 author: "TEP Intelligence Board & Historical Archive"
-heroImage: "https://images.unsplash.com/photo-1577495508048-b635879837f1?auto=format&fit=crop&w=1200&h=630&q=82"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/53/Prime_Minister_of_Bharat%2C_Shri_Narendra_Damodardas_Modi_and_the_Prime_Minister_of_the_Netherlands%2C_Mr._Rob_Jetten_visit_Afsluitdijk_Dam.jpg/1280px-Prime_Minister_of_Bharat%2C_Shri_Narendra_Damodardas_Modi_and_the_Prime_Minister_of_the_Netherlands%2C_Mr._Rob_Jetten_visit_Afsluitdijk_Dam.jpg"
 canonicalSource: "https://international.newsinternacionaltep.com/category/geopolitics"
 ---
 
@@ -21,7 +21,7 @@ Los reportes primarios recopilados por las corresponsalías y agencias de monito
 
 ## 2. Empirical State of Affairs and Structural Dynamics
 
-![Evidencia y Registro Documental Primario - La Doctrina de Seguridad Nacional Post-Pandémica y el Control de Infraestructuras Críticas](https://images.unsplash.com/photo-1541872703-74c5e44368f9?auto=format&fit=crop&w=1200&h=630&q=82)
+![Evidencia y Registro Documental Primario - La Doctrina de Seguridad Nacional Post-Pandémica y el Control de Infraestructuras Críticas](https://thumb.wikimedia.org/wikipedia/commons/thumb/9/92/Prime_Minister_of_Bharat%2C_Shri_Narendra_Damodardas_Modi_and_the_Prime_Minister_of_the_Netherlands%2C_Mr._Rob_Jetten_visit_the_Afsluitdijk_Dam.jpg/1280px-Prime_Minister_of_Bharat%2C_Shri_Narendra_Damodardas_Modi_and_the_Prime_Minister_of_the_Netherlands%2C_Mr._Rob_Jetten_visit_the_Afsluitdijk_Dam.jpg)
 *Figure 1: Archival photographic evidence documented in the News International TEP records.*
 
 La evolución empírica de los acontecimientos desmintió rápidamente los diagnósticos complacientes. La aceleración de las dinámicas en juego obligó a un reajuste de las previsiones institucionales, revelando una marcada correlación entre la exposición previa al riesgo y la celeridad del deterioro funcional en los sectores analizados.
@@ -40,7 +40,7 @@ El comportamiento de los indicadores determinantes durante este período histór
 
 ## 4. Scenario Evaluation and Risk Modeling
 
-![Modelado de Trayectorias y Riesgo Sistémico](https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=1200&h=630&q=82)
+![Modelado de Trayectorias y Riesgo Sistémico](https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/The_Prime_Minister%2C_Shri_Narendra_Modi_leaves_Tokyo_after_his_official_visit_to_Japan%2C_on_September_03%2C_2014.jpg/1280px-The_Prime_Minister%2C_Shri_Narendra_Modi_leaves_Tokyo_after_his_official_visit_to_Japan%2C_on_September_03%2C_2014.jpg)
 *Figure 2: Trajectory modeling and scenario dispersion prepared by the TEP Quantitative Unit.*
 
 El análisis retrospectivo permite clasificar la trayectoria que finalmente se consolidó frente a las hipótesis alternativas que barajaban los comités en aquel entonces:

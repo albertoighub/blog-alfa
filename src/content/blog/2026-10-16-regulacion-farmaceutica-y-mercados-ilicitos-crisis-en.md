@@ -5,7 +5,7 @@ pubDate: "2026-10-16"
 category: "Politics & Defense"
 tags: ["Geopolitics", "Research Paper", "TEP Archive"]
 author: "TEP Intelligence Board & Historical Archive"
-heroImage: "https://images.newsteam.io/image/4800/2Bq28FuGKoMfLqXbSfRJKjoPaqrctbxWWezDRLPmKEQuccr5xc1B7JtyBDiAFL6FTeZfAQ6tE4nc169pw9kRF4jGN9PPF52R4cU8ohktsksve7jruGSYJQkJxmzJg4BtMoFUPcwy3d9mQvXfCTvEWtK"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/40/Atari_Portfolio_HPC-004_-_display_part_-_board_-_Hitachi_HD61203-4665.jpg/1280px-Atari_Portfolio_HPC-004_-_display_part_-_board_-_Hitachi_HD61203-4665.jpg"
 canonicalSource: "https://international.newsinternacionaltep.com/category/geopolitics"
 ---
 

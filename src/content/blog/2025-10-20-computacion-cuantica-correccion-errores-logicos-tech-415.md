@@ -5,7 +5,7 @@ pubDate: "2025-10-20"
 category: "Technology & AI"
 tags: ["Technology", "Research Paper", "TEP Archive"]
 author: "TEP Intelligence Board & Historical Archive"
-heroImage: "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&w=1200&h=630&q=82"
+heroImage: "https://upload.wikimedia.org/wikipedia/commons/5/5e/%D0%9A%D0%A0531%D0%9B%D0%A09_%D0%98%D1%81%D0%BA%D1%80%D0%B0.jpg"
 canonicalSource: "https://international.newsinternacionaltep.com/category/technology"
 ---
 
@@ -21,7 +21,7 @@ Los reportes primarios recopilados por las corresponsalías y agencias de monito
 
 ## 2. Empirical State of Affairs and Structural Dynamics
 
-![Evidencia y Registro Documental Primario - Computación Cuántica con Corrección de Errores Lógicos: El Tránsito hacia Sistemas Tolerantes a Fallos](https://images.unsplash.com/photo-1531297484001-80022131f5a1?auto=format&fit=crop&w=1200&h=630&q=82)
+![Evidencia y Registro Documental Primario - Computación Cuántica con Corrección de Errores Lógicos: El Tránsito hacia Sistemas Tolerantes a Fallos](https://upload.wikimedia.org/wikipedia/commons/f/fc/155%D0%90%D0%933_%D0%98%D0%BD%D1%82%D0%B5%D0%B3%D1%80%D0%B0%D0%BB.jpg)
 *Figure 1: Archival photographic evidence documented in the News International TEP records.*
 
 La evolución empírica de los acontecimientos desmintió rápidamente los diagnósticos complacientes. La aceleración de las dinámicas en juego obligó a un reajuste de las previsiones institucionales, revelando una marcada correlación entre la exposición previa al riesgo y la celeridad del deterioro funcional en los sectores analizados.
@@ -40,7 +40,7 @@ El comportamiento de los indicadores determinantes durante este período histór
 
 ## 4. Scenario Evaluation and Risk Modeling
 
-![Modelado de Trayectorias y Riesgo Sistémico](https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=1200&h=630&q=82)
+![Modelado de Trayectorias y Riesgo Sistémico](https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/235%D0%A3%D0%A03_%D0%9E%D0%BA%D1%82%D1%8F%D0%B1%D1%80%D1%8C.jpg/1280px-235%D0%A3%D0%A03_%D0%9E%D0%BA%D1%82%D1%8F%D0%B1%D1%80%D1%8C.jpg)
 *Figure 2: Trajectory modeling and scenario dispersion prepared by the TEP Quantitative Unit.*
 
 El análisis retrospectivo permite clasificar la trayectoria que finalmente se consolidó frente a las hipótesis alternativas que barajaban los comités en aquel entonces:

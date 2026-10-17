@@ -5,7 +5,7 @@ pubDate: "2023-11-17"
 category: "Science & Medicine"
 tags: ["Science", "Research Paper", "TEP Archive"]
 author: "TEP Intelligence Board & Historical Archive"
-heroImage: "https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?auto=format&fit=crop&w=1200&h=630&q=82"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/Minister_Anisul_Huq_awarding_medals_at_International_UN_Peacekeepers_Day_2022-05-29_%28PID-0022953%29.jpg/1280px-Minister_Anisul_Huq_awarding_medals_at_International_UN_Peacekeepers_Day_2022-05-29_%28PID-0022953%29.jpg"
 canonicalSource: "https://international.newsinternacionaltep.com/category/science"
 ---
 
@@ -21,7 +21,7 @@ Los reportes primarios recopilados por las corresponsalías y agencias de monito
 
 ## 2. Empirical State of Affairs and Structural Dynamics
 
-![Evidencia y Registro Documental Primario - El Mapeo Completo del Conectoma Neuronal de Drosophila melanogaster y la Arquitectura Sináptica](https://images.unsplash.com/photo-1530497610245-94d3c16cda28?auto=format&fit=crop&w=1200&h=630&q=82)
+![Evidencia y Registro Documental Primario - El Mapeo Completo del Conectoma Neuronal de Drosophila melanogaster y la Arquitectura Sináptica](https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/Minister_Anisul_Huq_presents_medals_to_peacekeepers_families_at_International_Day_of_UN_Peacekeepers_event_in_Dhaka_2022-05-29_%28PID-0022956%29.jpg/1280px-Minister_Anisul_Huq_presents_medals_to_peacekeepers_families_at_International_Day_of_UN_Peacekeepers_event_in_Dhaka_2022-05-29_%28PID-0022956%29.jpg)
 *Figure 1: Archival photographic evidence documented in the News International TEP records.*
 
 La evolución empírica de los acontecimientos desmintió rápidamente los diagnósticos complacientes. La aceleración de las dinámicas en juego obligó a un reajuste de las previsiones institucionales, revelando una marcada correlación entre la exposición previa al riesgo y la celeridad del deterioro funcional en los sectores analizados.
@@ -40,7 +40,7 @@ El comportamiento de los indicadores determinantes durante este período histór
 
 ## 4. Scenario Evaluation and Risk Modeling
 
-![Modelado de Trayectorias y Riesgo Sistémico](https://images.unsplash.com/photo-1507668077129-56e32842fceb?auto=format&fit=crop&w=1200&h=630&q=82)
+![Modelado de Trayectorias y Riesgo Sistémico](https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/Patrol_conducted_by_Indonesian_peacekeepers_from_MONUSCO_in_the_city_of_Bunia.jpg/1280px-Patrol_conducted_by_Indonesian_peacekeepers_from_MONUSCO_in_the_city_of_Bunia.jpg)
 *Figure 2: Trajectory modeling and scenario dispersion prepared by the TEP Quantitative Unit.*
 
 El análisis retrospectivo permite clasificar la trayectoria que finalmente se consolidó frente a las hipótesis alternativas que barajaban los comités en aquel entonces:

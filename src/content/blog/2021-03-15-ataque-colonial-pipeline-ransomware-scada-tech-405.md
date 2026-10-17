@@ -5,7 +5,7 @@ pubDate: "2021-03-15"
 category: "Technology & AI"
 tags: ["Technology", "Research Paper", "TEP Archive"]
 author: "TEP Intelligence Board & Historical Archive"
-heroImage: "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=1200&h=630&q=82"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/Trinity_Chapel_Santi_Giovanni_e_Paolo_%28Venice%29_-_Painting_of_the_altarpiece%2C_The_Trinity_by_Leandro_da_Bassano.jpg/1280px-Trinity_Chapel_Santi_Giovanni_e_Paolo_%28Venice%29_-_Painting_of_the_altarpiece%2C_The_Trinity_by_Leandro_da_Bassano.jpg"
 canonicalSource: "https://international.newsinternacionaltep.com/category/technology"
 ---
 
@@ -21,7 +21,7 @@ Los reportes primarios recopilados por las corresponsalías y agencias de monito
 
 ## 2. Empirical State of Affairs and Structural Dynamics
 
-![Evidencia y Registro Documental Primario - El Ataque de Ransomware a Colonial Pipeline y la Vulnerabilidad de Infraestructuras Críticas SCADA](https://images.unsplash.com/photo-1525547719571-a2d4ac8945e2?auto=format&fit=crop&w=1200&h=630&q=82)
+![Evidencia y Registro Documental Primario - El Ataque de Ransomware a Colonial Pipeline y la Vulnerabilidad de Infraestructuras Críticas SCADA](https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0f/Trinity_College_Chapel%2C_Oxford_-_Diliff.jpg/1280px-Trinity_College_Chapel%2C_Oxford_-_Diliff.jpg)
 *Figure 1: Archival photographic evidence documented in the News International TEP records.*
 
 La evolución empírica de los acontecimientos desmintió rápidamente los diagnósticos complacientes. La aceleración de las dinámicas en juego obligó a un reajuste de las previsiones institucionales, revelando una marcada correlación entre la exposición previa al riesgo y la celeridad del deterioro funcional en los sectores analizados.
@@ -40,7 +40,7 @@ El comportamiento de los indicadores determinantes durante este período histór
 
 ## 4. Scenario Evaluation and Risk Modeling
 
-![Modelado de Trayectorias y Riesgo Sistémico](https://images.unsplash.com/photo-1620712943543-bcc4688e7485?auto=format&fit=crop&w=1200&h=630&q=82)
+![Modelado de Trayectorias y Riesgo Sistémico](https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/Trinity_Test_Fireball_16ms.jpg/1280px-Trinity_Test_Fireball_16ms.jpg)
 *Figure 2: Trajectory modeling and scenario dispersion prepared by the TEP Quantitative Unit.*
 
 El análisis retrospectivo permite clasificar la trayectoria que finalmente se consolidó frente a las hipótesis alternativas que barajaban los comités en aquel entonces:

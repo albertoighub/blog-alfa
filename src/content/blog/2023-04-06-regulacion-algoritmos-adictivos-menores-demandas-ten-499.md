@@ -5,7 +5,7 @@ pubDate: "2023-04-06"
 category: "Social Media & Dynamics"
 tags: ["Intelligence", "Research Paper", "TEP Archive"]
 author: "TEP Intelligence Board & Historical Archive"
-heroImage: "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=1200&h=630&q=82"
+heroImage: "https://upload.wikimedia.org/wikipedia/commons/f/f6/Single_anthropomorphic_rhinoceros_wearing_business_attire%2C_top_hat_with_walking_cane%2C_walking_on_a_fashion_runway_in_Paris_Fashion_Week%2C_spectator_on_both_sides_is_waving_wildly_to_him_and_some_is_looking_shocked.jpg"
 canonicalSource: "https://international.newsinternacionaltep.com/category/trends"
 ---
 
@@ -21,7 +21,7 @@ Los reportes primarios recopilados por las corresponsalías y agencias de monito
 
 ## 2. Empirical State of Affairs and Structural Dynamics
 
-![Evidencia y Registro Documental Primario - La Regulación de Algoritmos Adictivos en Menores de Edad: Demandas de Estados y Fiscales Generales](https://images.unsplash.com/photo-1534536281715-e28d76689b4d?auto=format&fit=crop&w=1200&h=630&q=82)
+![Evidencia y Registro Documental Primario - La Regulación de Algoritmos Adictivos en Menores de Edad: Demandas de Estados y Fiscales Generales](https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/The_Union_Minister_for_Textiles%2C_Shri_Dayanidhi_Maran_addressing_at_the_launch_of_the_Spring_Summer_Trends_Collection_2011_through_Premiere_Runway_Show_on_Fashion_Accessories%2C_in_New_Delhi_on_December_15%2C_2010.jpg/1280px-thumbnail.jpg)
 *Figure 1: Archival photographic evidence documented in the News International TEP records.*
 
 La evolución empírica de los acontecimientos desmintió rápidamente los diagnósticos complacientes. La aceleración de las dinámicas en juego obligó a un reajuste de las previsiones institucionales, revelando una marcada correlación entre la exposición previa al riesgo y la celeridad del deterioro funcional en los sectores analizados.
@@ -40,7 +40,7 @@ El comportamiento de los indicadores determinantes durante este período histór
 
 ## 4. Scenario Evaluation and Risk Modeling
 
-![Modelado de Trayectorias y Riesgo Sistémico](https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=1200&h=630&q=82)
+![Modelado de Trayectorias y Riesgo Sistémico](https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/The_Union_Minister_for_Textiles%2C_Shri_Dayanidhi_Maran_at_the_launch_of_the_Spring_Summer_Trends_Collection_2011_through_Premiere_Runway_Show_on_Fashion_Accessories%2C_in_New_Delhi_on_December_15%2C_2010.jpg/1280px-thumbnail.jpg)
 *Figure 2: Trajectory modeling and scenario dispersion prepared by the TEP Quantitative Unit.*
 
 El análisis retrospectivo permite clasificar la trayectoria que finalmente se consolidó frente a las hipótesis alternativas que barajaban los comités en aquel entonces:

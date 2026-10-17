@@ -5,7 +5,7 @@ pubDate: "2019-09-26"
 category: "Social Media & Dynamics"
 tags: ["Intelligence", "Research Paper", "TEP Archive"]
 author: "TEP Intelligence Board & Historical Archive"
-heroImage: "https://images.unsplash.com/photo-1611162617474-5b21e879e113?auto=format&fit=crop&w=1200&h=630&q=82"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/Anisul_Huq_Chief_Guest_Broadcast_Journalism_Safety_Report_2023_BJC_Executive_Council_Launch_International_Mother_Language_Institute_Dhaka_2023-02-28_%28PID-0017622%29.jpg/1280px-thumbnail.jpg"
 canonicalSource: "https://international.newsinternacionaltep.com/category/trends"
 ---
 
@@ -21,7 +21,7 @@ Los reportes primarios recopilados por las corresponsalías y agencias de monito
 
 ## 2. Empirical State of Affairs and Structural Dynamics
 
-![Evidencia y Registro Documental Primario - El Auge de TikTok y la Transición de la Web Basada en Grafo Social a la Distribución Algorítmica](https://images.unsplash.com/photo-1563986768609-322da13575f3?auto=format&fit=crop&w=1200&h=630&q=82)
+![Evidencia y Registro Documental Primario - El Auge de TikTok y la Transición de la Web Basada en Grafo Social a la Distribución Algorítmica](https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Beursplein_na_de_maart_aanval_4.JPG/1280px-Beursplein_na_de_maart_aanval_4.JPG)
 *Figure 1: Archival photographic evidence documented in the News International TEP records.*
 
 La evolución empírica de los acontecimientos desmintió rápidamente los diagnósticos complacientes. La aceleración de las dinámicas en juego obligó a un reajuste de las previsiones institucionales, revelando una marcada correlación entre la exposición previa al riesgo y la celeridad del deterioro funcional en los sectores analizados.
@@ -40,7 +40,7 @@ El comportamiento de los indicadores determinantes durante este período histór
 
 ## 4. Scenario Evaluation and Risk Modeling
 
-![Modelado de Trayectorias y Riesgo Sistémico](https://images.unsplash.com/photo-1573164713988-8665fc963095?auto=format&fit=crop&w=1200&h=630&q=82)
+![Modelado de Trayectorias y Riesgo Sistémico](https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/Broadcast_studio_in_Gaylord_College_of_Journalism_at_OU.jpg/1280px-Broadcast_studio_in_Gaylord_College_of_Journalism_at_OU.jpg)
 *Figure 2: Trajectory modeling and scenario dispersion prepared by the TEP Quantitative Unit.*
 
 El análisis retrospectivo permite clasificar la trayectoria que finalmente se consolidó frente a las hipótesis alternativas que barajaban los comités en aquel entonces:

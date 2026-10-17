@@ -5,7 +5,7 @@ pubDate: "2026-10-14"
 category: "Economy & Markets"
 tags: ["Intelligence", "Research Paper", "TEP Archive"]
 author: "TEP Intelligence Board & Historical Archive"
-heroImage: "https://cdn.mos.cms.futurecdn.net/9twREeaf6v4C8ipU5mhJEK-1920-80.jpg"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/Computer_DEC_VAX_11-780-5_in_Living_Computer_Museum%2C_Seattle_%28strongly_edited_image%29.jpg/1280px-Computer_DEC_VAX_11-780-5_in_Living_Computer_Museum%2C_Seattle_%28strongly_edited_image%29.jpg"
 canonicalSource: "https://international.newsinternacionaltep.com/category/economy"
 ---
 

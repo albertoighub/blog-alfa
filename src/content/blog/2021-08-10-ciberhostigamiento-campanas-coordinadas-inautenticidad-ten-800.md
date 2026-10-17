@@ -5,7 +5,7 @@ pubDate: "2021-08-10"
 category: "Social Media & Dynamics"
 tags: ["Intelligence", "Research Paper", "TEP Archive"]
 author: "TEP Intelligence Board & Historical Archive"
-heroImage: "https://images.unsplash.com/photo-1563986768609-322da13575f3?auto=format&fit=crop&w=1200&h=630&q=82"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/CENTRAL_MUSIC_%26_ENTERTAINMENT_FESTIVAL_2025_CENTRAL_STAGE_K%E3%82%A2%E3%83%AA%E3%83%BC%E3%83%8A%E6%A8%AA%E6%B5%9C_2025%E5%B9%B44%E6%9C%884%E6%97%A5%E3%81%AE%E6%A8%AA%E6%B5%9C_202504041800_IMG_8982.jpg/1280px-CENTRAL_MUSIC_%26_ENTERTAINMENT_FESTIVAL_2025_CENTRAL_STAGE_K%E3%82%A2%E3%83%AA%E3%83%BC%E3%83%8A%E6%A8%AA%E6%B5%9C_2025%E5%B9%B44%E6%9C%884%E6%97%A5%E3%81%AE%E6%A8%AA%E6%B5%9C_202504041800_IMG_8982.jpg"
 canonicalSource: "https://international.newsinternacionaltep.com/category/trends"
 ---
 
@@ -21,7 +21,7 @@ Los reportes primarios recopilados por las corresponsalías y agencias de monito
 
 ## 2. Empirical State of Affairs and Structural Dynamics
 
-![Evidencia y Registro Documental Primario - Ciberhostigamiento Organizado y el Uso de Campañas Coordinadas de Inautenticidad en Twitter y Reddit](https://images.unsplash.com/photo-1573164713988-8665fc963095?auto=format&fit=crop&w=1200&h=630&q=82)
+![Evidencia y Registro Documental Primario - Ciberhostigamiento Organizado y el Uso de Campañas Coordinadas de Inautenticidad en Twitter y Reddit](https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/CENTRAL_MUSIC_%26_ENTERTAINMENT_FESTIVAL_2025_CENTRAL_STAGE_K%E3%82%A2%E3%83%AA%E3%83%BC%E3%83%8A%E6%A8%AA%E6%B5%9C_2025%E5%B9%B44%E6%9C%884%E6%97%A5%E3%81%AE%E6%A8%AA%E6%B5%9C_202504041800_IMG_8983.jpg/1280px-CENTRAL_MUSIC_%26_ENTERTAINMENT_FESTIVAL_2025_CENTRAL_STAGE_K%E3%82%A2%E3%83%AA%E3%83%BC%E3%83%8A%E6%A8%AA%E6%B5%9C_2025%E5%B9%B44%E6%9C%884%E6%97%A5%E3%81%AE%E6%A8%AA%E6%B5%9C_202504041800_IMG_8983.jpg)
 *Figure 1: Archival photographic evidence documented in the News International TEP records.*
 
 La evolución empírica de los acontecimientos desmintió rápidamente los diagnósticos complacientes. La aceleración de las dinámicas en juego obligó a un reajuste de las previsiones institucionales, revelando una marcada correlación entre la exposición previa al riesgo y la celeridad del deterioro funcional en los sectores analizados.
@@ -40,7 +40,7 @@ El comportamiento de los indicadores determinantes durante este período histór
 
 ## 4. Scenario Evaluation and Risk Modeling
 
-![Modelado de Trayectorias y Riesgo Sistémico](https://images.unsplash.com/photo-1611162617474-5b21e879e113?auto=format&fit=crop&w=1200&h=630&q=82)
+![Modelado de Trayectorias y Riesgo Sistémico](https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/CENTRAL_MUSIC_%26_ENTERTAINMENT_FESTIVAL_2025_CENTRAL_STAGE_K%E3%82%A2%E3%83%AA%E3%83%BC%E3%83%8A%E6%A8%AA%E6%B5%9C_2025%E5%B9%B44%E6%9C%885%E6%97%A5%E3%81%AE%E6%A8%AA%E6%B5%9C_202504051410_IMG_9482.jpg/1280px-CENTRAL_MUSIC_%26_ENTERTAINMENT_FESTIVAL_2025_CENTRAL_STAGE_K%E3%82%A2%E3%83%AA%E3%83%BC%E3%83%8A%E6%A8%AA%E6%B5%9C_2025%E5%B9%B44%E6%9C%885%E6%97%A5%E3%81%AE%E6%A8%AA%E6%B5%9C_202504051410_IMG_9482.jpg)
 *Figure 2: Trajectory modeling and scenario dispersion prepared by the TEP Quantitative Unit.*
 
 El análisis retrospectivo permite clasificar la trayectoria que finalmente se consolidó frente a las hipótesis alternativas que barajaban los comités en aquel entonces:

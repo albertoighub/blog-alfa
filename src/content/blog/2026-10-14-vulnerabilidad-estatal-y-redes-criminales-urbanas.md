@@ -5,7 +5,7 @@ pubDate: "2026-10-14"
 category: "Politics & Defense"
 tags: ["Geopolitics", "Research Paper", "TEP Archive"]
 author: "TEP Intelligence Board & Historical Archive"
-heroImage: "https://cdn.prod.www.spiegel.de/images/af94b8a3-a645-4332-a84a-6c7970d96ac2_w520_r2.08_fpx57.22_fpy49.86.jpg"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/Amps_Amps_Amps_PA.jpg/1280px-Amps_Amps_Amps_PA.jpg"
 canonicalSource: "https://international.newsinternacionaltep.com/category/geopolitics"
 ---
 

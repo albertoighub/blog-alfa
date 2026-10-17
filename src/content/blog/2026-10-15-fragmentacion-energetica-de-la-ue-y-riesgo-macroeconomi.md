@@ -5,7 +5,7 @@ pubDate: "2026-10-15"
 category: "Economy & Markets"
 tags: ["Intelligence", "Research Paper", "TEP Archive"]
 author: "TEP Intelligence Board & Historical Archive"
-heroImage: "https://i2.res.24o.it/images2010/S24/Documenti/2026/10/16/Immagini/Ritagli/142d2a223ff413e083e6176ae0215873-U62217467280pbu-1440x752@IlSole24Ore-Web.jpg"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/Skrzynia_transportowa_ACF-SW_L_Rack_3U_%2B_12U_firmy_American_DJ.jpg/1280px-Skrzynia_transportowa_ACF-SW_L_Rack_3U_%2B_12U_firmy_American_DJ.jpg"
 canonicalSource: "https://international.newsinternacionaltep.com/category/economy"
 ---
 

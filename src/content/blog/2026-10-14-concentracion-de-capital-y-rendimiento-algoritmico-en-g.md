@@ -5,7 +5,7 @@ pubDate: "2026-10-14"
 category: "Politics & Defense"
 tags: ["Intelligence", "Research Paper", "TEP Archive"]
 author: "TEP Intelligence Board & Historical Archive"
-heroImage: "https://i2.res.24o.it/images2010/S24/Documenti/2026/10/15/Immagini/Ritagli/Imagoeconomica_2352003-Collage-U07716480626dQp-U34857467807PhL-1440x752@IlSole24Ore-Web.JPEG"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/Cellphone_VR_%2818879024901%29.jpg/1280px-Cellphone_VR_%2818879024901%29.jpg"
 canonicalSource: "https://international.newsinternacionaltep.com/category/geopolitics"
 ---
 

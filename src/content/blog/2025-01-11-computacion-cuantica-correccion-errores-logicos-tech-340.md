@@ -5,7 +5,7 @@ pubDate: "2025-01-11"
 category: "Technology & AI"
 tags: ["Technology", "Research Paper", "TEP Archive"]
 author: "TEP Intelligence Board & Historical Archive"
-heroImage: "https://images.unsplash.com/photo-1531297484001-80022131f5a1?auto=format&fit=crop&w=1200&h=630&q=82"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/CORE26_-_U_S_Marines_Partner_with_Naval_Laboratory_to_Enhance_Counter_Drone_Capabilities_in_Arctic_Exercise_%289575363%29.jpg/1280px-CORE26_-_U_S_Marines_Partner_with_Naval_Laboratory_to_Enhance_Counter_Drone_Capabilities_in_Arctic_Exercise_%289575363%29.jpg"
 canonicalSource: "https://international.newsinternacionaltep.com/category/technology"
 ---
 
@@ -21,7 +21,7 @@ Los reportes primarios recopilados por las corresponsalías y agencias de monito
 
 ## 2. Empirical State of Affairs and Structural Dynamics
 
-![Evidencia y Registro Documental Primario - Computación Cuántica con Corrección de Errores Lógicos: El Tránsito hacia Sistemas Tolerantes a Fallos](https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=1200&h=630&q=82)
+![Evidencia y Registro Documental Primario - Computación Cuántica con Corrección de Errores Lógicos: El Tránsito hacia Sistemas Tolerantes a Fallos](https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Derek_Abramson%2C_Dale_Reed_Subscale_Flight_Research_Laboratory_chief_engineer%2C_left%2C_and_Justin_Link%2C_small_uncrewed_aircraft_pilot%2C_carry_NASA%E2%80%99s_Alta-X_drone_near_NASA%E2%80%99s_Armstrong_Flight_Research_Center_in_Edwar_%28AFRC2026-0179-26%29.jpg/1280px-thumbnail.jpg)
 *Figure 1: Archival photographic evidence documented in the News International TEP records.*
 
 La evolución empírica de los acontecimientos desmintió rápidamente los diagnósticos complacientes. La aceleración de las dinámicas en juego obligó a un reajuste de las previsiones institucionales, revelando una marcada correlación entre la exposición previa al riesgo y la celeridad del deterioro funcional en los sectores analizados.
@@ -40,7 +40,7 @@ El comportamiento de los indicadores determinantes durante este período histór
 
 ## 4. Scenario Evaluation and Risk Modeling
 
-![Modelado de Trayectorias y Riesgo Sistémico](https://images.unsplash.com/photo-1525547719571-a2d4ac8945e2?auto=format&fit=crop&w=1200&h=630&q=82)
+![Modelado de Trayectorias y Riesgo Sistémico](https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/Derek_Abramson%2C_Dale_Reed_Subscale_Flight_Research_Laboratory_chief_engineer%2C_left%2C_communicates_with_the_Edwards_Air_Force_Base_air_traffic_control_tower_for_approval_to_fly_the_Alta-X_drone_near_NASA%E2%80%99s_Armstrong_%28AFRC2026-0179-08%29.jpg/1280px-thumbnail.jpg)
 *Figure 2: Trajectory modeling and scenario dispersion prepared by the TEP Quantitative Unit.*
 
 El análisis retrospectivo permite clasificar la trayectoria que finalmente se consolidó frente a las hipótesis alternativas que barajaban los comités en aquel entonces:

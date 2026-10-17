@@ -5,7 +5,7 @@ pubDate: "2024-08-26"
 category: "Science & Medicine"
 tags: ["Science", "Research Paper", "TEP Archive"]
 author: "TEP Intelligence Board & Historical Archive"
-heroImage: "https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?auto=format&fit=crop&w=1200&h=630&q=82"
+heroImage: "https://upload.wikimedia.org/wikipedia/commons/9/94/Sudbury_Solar_Farm_-_geograph.org.uk_-_4478536.jpg"
 canonicalSource: "https://international.newsinternacionaltep.com/category/science"
 ---
 
@@ -21,7 +21,7 @@ Los reportes primarios recopilados por las corresponsalías y agencias de monito
 
 ## 2. Empirical State of Affairs and Structural Dynamics
 
-![Evidencia y Registro Documental Primario - Criopreservación de Órganos Mediante Nanopartículas Magnéticas y Reanimación por Radiofrecuencia](https://images.unsplash.com/photo-1530497610245-94d3c16cda28?auto=format&fit=crop&w=1200&h=630&q=82)
+![Evidencia y Registro Documental Primario - Criopreservación de Órganos Mediante Nanopartículas Magnéticas y Reanimación por Radiofrecuencia](https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/The_edge_of_a_solar_farm_at_Highwood%27s_Farm_-_geograph.org.uk_-_6097254.jpg/1280px-The_edge_of_a_solar_farm_at_Highwood%27s_Farm_-_geograph.org.uk_-_6097254.jpg)
 *Figure 1: Archival photographic evidence documented in the News International TEP records.*
 
 La evolución empírica de los acontecimientos desmintió rápidamente los diagnósticos complacientes. La aceleración de las dinámicas en juego obligó a un reajuste de las previsiones institucionales, revelando una marcada correlación entre la exposición previa al riesgo y la celeridad del deterioro funcional en los sectores analizados.
@@ -40,7 +40,7 @@ El comportamiento de los indicadores determinantes durante este período histór
 
 ## 4. Scenario Evaluation and Risk Modeling
 
-![Modelado de Trayectorias y Riesgo Sistémico](https://images.unsplash.com/photo-1507668077129-56e32842fceb?auto=format&fit=crop&w=1200&h=630&q=82)
+![Modelado de Trayectorias y Riesgo Sistémico](https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/The_solar_power_plant_at_ESO%E2%80%99s_La_Silla_Observatory_%28lasilla_solar_farm_1%29.jpg/1280px-The_solar_power_plant_at_ESO%E2%80%99s_La_Silla_Observatory_%28lasilla_solar_farm_1%29.jpg)
 *Figure 2: Trajectory modeling and scenario dispersion prepared by the TEP Quantitative Unit.*
 
 El análisis retrospectivo permite clasificar la trayectoria que finalmente se consolidó frente a las hipótesis alternativas que barajaban los comités en aquel entonces:

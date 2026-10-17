@@ -5,7 +5,7 @@ pubDate: "2025-10-26"
 category: "Science & Medicine"
 tags: ["Science", "Research Paper", "TEP Archive"]
 author: "TEP Intelligence Board & Historical Archive"
-heroImage: "https://images.unsplash.com/photo-1579165466791-788226ab77b6?auto=format&fit=crop&w=1200&h=630&q=82"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/%D0%9A554%D0%A1%D0%903_%D0%90%D0%BB%D1%8C%D1%84%D0%B0.jpg/1280px-%D0%9A554%D0%A1%D0%903_%D0%90%D0%BB%D1%8C%D1%84%D0%B0.jpg"
 canonicalSource: "https://international.newsinternacionaltep.com/category/science"
 ---
 
@@ -21,7 +21,7 @@ Los reportes primarios recopilados por las corresponsalías y agencias de monito
 
 ## 2. Empirical State of Affairs and Structural Dynamics
 
-![Evidencia y Registro Documental Primario - Descubrimiento de Nuevos Antibióticos Mediante Modelos de Aprendizaje Profundo contra Acinetobacter](https://images.unsplash.com/photo-1516549655169-df83a0774514?auto=format&fit=crop&w=1200&h=630&q=82)
+![Evidencia y Registro Documental Primario - Descubrimiento de Nuevos Antibióticos Mediante Modelos de Aprendizaje Profundo contra Acinetobacter](https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/%D0%9A555%D0%98%D0%A027_%D0%9C%D0%B5%D0%B7%D0%BE%D0%BD.jpg/1280px-%D0%9A555%D0%98%D0%A027_%D0%9C%D0%B5%D0%B7%D0%BE%D0%BD.jpg)
 *Figure 1: Archival photographic evidence documented in the News International TEP records.*
 
 La evolución empírica de los acontecimientos desmintió rápidamente los diagnósticos complacientes. La aceleración de las dinámicas en juego obligó a un reajuste de las previsiones institucionales, revelando una marcada correlación entre la exposición previa al riesgo y la celeridad del deterioro funcional en los sectores analizados.
@@ -40,7 +40,7 @@ El comportamiento de los indicadores determinantes durante este período histór
 
 ## 4. Scenario Evaluation and Risk Modeling
 
-![Modelado de Trayectorias y Riesgo Sistémico](https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?auto=format&fit=crop&w=1200&h=630&q=82)
+![Modelado de Trayectorias y Riesgo Sistémico](https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/%D0%9A561%D0%9B%D0%907_%D0%A1%D0%BF%D0%BB%D0%B0%D0%B2.jpg/1280px-%D0%9A561%D0%9B%D0%907_%D0%A1%D0%BF%D0%BB%D0%B0%D0%B2.jpg)
 *Figure 2: Trajectory modeling and scenario dispersion prepared by the TEP Quantitative Unit.*
 
 El análisis retrospectivo permite clasificar la trayectoria que finalmente se consolidó frente a las hipótesis alternativas que barajaban los comités en aquel entonces:

@@ -5,7 +5,7 @@ pubDate: "2024-11-08"
 category: "Social Media & Dynamics"
 tags: ["Intelligence", "Research Paper", "TEP Archive"]
 author: "TEP Intelligence Board & Historical Archive"
-heroImage: "https://images.unsplash.com/photo-1534536281715-e28d76689b4d?auto=format&fit=crop&w=1200&h=630&q=82"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/Krewe_of_Iris_2024_parade%2C_New_Orleans_Mardi_Gras_2024-02-10_-_283.jpg/1280px-Krewe_of_Iris_2024_parade%2C_New_Orleans_Mardi_Gras_2024-02-10_-_283.jpg"
 canonicalSource: "https://international.newsinternacionaltep.com/category/trends"
 ---
 
@@ -21,7 +21,7 @@ Los reportes primarios recopilados por las corresponsalías y agencias de monito
 
 ## 2. Empirical State of Affairs and Structural Dynamics
 
-![Evidencia y Registro Documental Primario - La Crisis de la 'Teoría del Internet Muerto': Granjas de Bots, Contenido Sintético y Deterioro de Métricas](https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=1200&h=630&q=82)
+![Evidencia y Registro Documental Primario - La Crisis de la 'Teoría del Internet Muerto': Granjas de Bots, Contenido Sintético y Deterioro de Métricas](https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/Krewe_of_Iris_2024_parade%2C_New_Orleans_Mardi_Gras_2024-02-10_-_30.jpg/1280px-Krewe_of_Iris_2024_parade%2C_New_Orleans_Mardi_Gras_2024-02-10_-_30.jpg)
 *Figure 1: Archival photographic evidence documented in the News International TEP records.*
 
 La evolución empírica de los acontecimientos desmintió rápidamente los diagnósticos complacientes. La aceleración de las dinámicas en juego obligó a un reajuste de las previsiones institucionales, revelando una marcada correlación entre la exposición previa al riesgo y la celeridad del deterioro funcional en los sectores analizados.
@@ -40,7 +40,7 @@ El comportamiento de los indicadores determinantes durante este período histór
 
 ## 4. Scenario Evaluation and Risk Modeling
 
-![Modelado de Trayectorias y Riesgo Sistémico](https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=1200&h=630&q=82)
+![Modelado de Trayectorias y Riesgo Sistémico](https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/Krewe_of_Iris_2024_parade%2C_New_Orleans_Mardi_Gras_2024-02-10_-_37.jpg/1280px-Krewe_of_Iris_2024_parade%2C_New_Orleans_Mardi_Gras_2024-02-10_-_37.jpg)
 *Figure 2: Trajectory modeling and scenario dispersion prepared by the TEP Quantitative Unit.*
 
 El análisis retrospectivo permite clasificar la trayectoria que finalmente se consolidó frente a las hipótesis alternativas que barajaban los comités en aquel entonces:

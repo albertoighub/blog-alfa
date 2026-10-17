@@ -5,7 +5,7 @@ pubDate: "2020-06-25"
 category: "Social Media & Dynamics"
 tags: ["Intelligence", "Research Paper", "TEP Archive"]
 author: "TEP Intelligence Board & Historical Archive"
-heroImage: "https://images.unsplash.com/photo-1563986768609-322da13575f3?auto=format&fit=crop&w=1200&h=630&q=82"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/ABC-televisioyhti%C3%B6n_tv-studio_Japanin_Osakassa_-_ABC_studio_in_Osaka%2C_Japan.jpg/1280px-ABC-televisioyhti%C3%B6n_tv-studio_Japanin_Osakassa_-_ABC_studio_in_Osaka%2C_Japan.jpg"
 canonicalSource: "https://international.newsinternacionaltep.com/category/trends"
 ---
 
@@ -21,7 +21,7 @@ Los reportes primarios recopilados por las corresponsalías y agencias de monito
 
 ## 2. Empirical State of Affairs and Structural Dynamics
 
-![Evidencia y Registro Documental Primario - El Fenómeno Efímero de Clubhouse y el Auge de las Salas de Audio Síncronas durante el Confinamiento](https://images.unsplash.com/photo-1573164713988-8665fc963095?auto=format&fit=crop&w=1200&h=630&q=82)
+![Evidencia y Registro Documental Primario - El Fenómeno Efímero de Clubhouse y el Auge de las Salas de Audio Síncronas durante el Confinamiento](https://upload.wikimedia.org/wikipedia/commons/b/bb/Bass_reflex_opening_of_professional_studio_loudspeaker_box_Tannoy_Little_Gold_Monitor.jpg)
 *Figure 1: Archival photographic evidence documented in the News International TEP records.*
 
 La evolución empírica de los acontecimientos desmintió rápidamente los diagnósticos complacientes. La aceleración de las dinámicas en juego obligó a un reajuste de las previsiones institucionales, revelando una marcada correlación entre la exposición previa al riesgo y la celeridad del deterioro funcional en los sectores analizados.
@@ -40,7 +40,7 @@ El comportamiento de los indicadores determinantes durante este período histór
 
 ## 4. Scenario Evaluation and Risk Modeling
 
-![Modelado de Trayectorias y Riesgo Sistémico](https://images.unsplash.com/photo-1611162617474-5b21e879e113?auto=format&fit=crop&w=1200&h=630&q=82)
+![Modelado de Trayectorias y Riesgo Sistémico](https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/Blackmagic_HyperDeck_Studio_4K_Pro_20250726122829.jpg/1280px-Blackmagic_HyperDeck_Studio_4K_Pro_20250726122829.jpg)
 *Figure 2: Trajectory modeling and scenario dispersion prepared by the TEP Quantitative Unit.*
 
 El análisis retrospectivo permite clasificar la trayectoria que finalmente se consolidó frente a las hipótesis alternativas que barajaban los comités en aquel entonces:

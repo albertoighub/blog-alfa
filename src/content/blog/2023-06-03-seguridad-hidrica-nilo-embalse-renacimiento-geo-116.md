@@ -5,7 +5,7 @@ pubDate: "2023-06-03"
 category: "Politics & Defense"
 tags: ["Geopolitics", "Research Paper", "TEP Archive"]
 author: "TEP Intelligence Board & Historical Archive"
-heroImage: "https://images.unsplash.com/photo-1541872703-74c5e44368f9?auto=format&fit=crop&w=1200&h=630&q=82"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/Secretary_of_Defense_Ash_Carter_and_Minister_of_Defense_Manohar_Parrikar_conduct_a_joint_press_conference_in_the_Pentagon_Briefing_Room.jpg/1280px-Secretary_of_Defense_Ash_Carter_and_Minister_of_Defense_Manohar_Parrikar_conduct_a_joint_press_conference_in_the_Pentagon_Briefing_Room.jpg"
 canonicalSource: "https://international.newsinternacionaltep.com/category/geopolitics"
 ---
 
@@ -21,7 +21,7 @@ Los reportes primarios recopilados por las corresponsalías y agencias de monito
 
 ## 2. Empirical State of Affairs and Structural Dynamics
 
-![Evidencia y Registro Documental Primario - Seguridad Hídrica en la Cuenca del Nilo y el Gran Embalse del Renacimiento Etíope](https://images.unsplash.com/photo-1526304640581-d334cdbbf45e?auto=format&fit=crop&w=1200&h=630&q=82)
+![Evidencia y Registro Documental Primario - Seguridad Hídrica en la Cuenca del Nilo y el Gran Embalse del Renacimiento Etíope](https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/Secretary_of_Defense_Chuck_Hagel_meets_with_Israel_Defense_Minister_Moshe_Ya%27Allon_at_the_Munich_Security_Conference_in_Munich._140201-M-EV637-242_%2812253272016%29.jpg/1280px-thumbnail.jpg)
 *Figure 1: Archival photographic evidence documented in the News International TEP records.*
 
 La evolución empírica de los acontecimientos desmintió rápidamente los diagnósticos complacientes. La aceleración de las dinámicas en juego obligó a un reajuste de las previsiones institucionales, revelando una marcada correlación entre la exposición previa al riesgo y la celeridad del deterioro funcional en los sectores analizados.
@@ -40,7 +40,7 @@ El comportamiento de los indicadores determinantes durante este período histór
 
 ## 4. Scenario Evaluation and Risk Modeling
 
-![Modelado de Trayectorias y Riesgo Sistémico](https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1200&h=630&q=82)
+![Modelado de Trayectorias y Riesgo Sistémico](https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/Secretary_of_Defense_Chuck_Hagel_meets_with_Israel_Defense_Minister_Moshe_Ya%27Allon_at_the_Munich_Security_Conference_in_Munich._140201-M-EV637-250_%2812253175394%29.jpg/1280px-thumbnail.jpg)
 *Figure 2: Trajectory modeling and scenario dispersion prepared by the TEP Quantitative Unit.*
 
 El análisis retrospectivo permite clasificar la trayectoria que finalmente se consolidó frente a las hipótesis alternativas que barajaban los comités en aquel entonces:

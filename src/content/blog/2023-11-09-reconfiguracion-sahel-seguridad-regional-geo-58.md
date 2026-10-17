@@ -5,7 +5,7 @@ pubDate: "2023-11-09"
 category: "Politics & Defense"
 tags: ["Geopolitics", "Research Paper", "TEP Archive"]
 author: "TEP Intelligence Board & Historical Archive"
-heroImage: "https://images.unsplash.com/photo-1507679799987-c73779587ccf?auto=format&fit=crop&w=1200&h=630&q=82"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/The_Prime_Minister%2C_Shri_Narendra_Modi_watching_the_cultural_performances_at_the_Civic_Reception%2C_at_City_Hall%2C_in_Brisbane%2C_Australia_on_November_16%2C_2014_%281%29.jpg/1280px-thumbnail.jpg"
 canonicalSource: "https://international.newsinternacionaltep.com/category/geopolitics"
 ---
 
@@ -21,7 +21,7 @@ Los reportes primarios recopilados por las corresponsalías y agencias de monito
 
 ## 2. Empirical State of Affairs and Structural Dynamics
 
-![Evidencia y Registro Documental Primario - Reconfiguración de Alianzas en el Sahel: Retirada Occidental y Ascenso de Nuevos Actores](https://images.unsplash.com/photo-1572949645841-094f3a9c4c94?auto=format&fit=crop&w=1200&h=630&q=82)
+![Evidencia y Registro Documental Primario - Reconfiguración de Alianzas en el Sahel: Retirada Occidental y Ascenso de Nuevos Actores](https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/U.S._Navy_Capt._Robert_A._Hall_Jr.%2C_at_lectern%2C_the_commanding_officer_of_the_amphibious_assault_ship_USS_America_%28LHA_6%29%2C_delivers_remarks_during_a_reception_aboard_the_ship_Aug._25%2C_2014%2C_in_Valparaiso%2C_Chile_140825-N-LQ799-093.jpg/1280px-thumbnail.jpg)
 *Figure 1: Archival photographic evidence documented in the News International TEP records.*
 
 La evolución empírica de los acontecimientos desmintió rápidamente los diagnósticos complacientes. La aceleración de las dinámicas en juego obligó a un reajuste de las previsiones institucionales, revelando una marcada correlación entre la exposición previa al riesgo y la celeridad del deterioro funcional en los sectores analizados.
@@ -40,7 +40,7 @@ El comportamiento de los indicadores determinantes durante este período histór
 
 ## 4. Scenario Evaluation and Risk Modeling
 
-![Modelado de Trayectorias y Riesgo Sistémico](https://images.unsplash.com/photo-1541872703-74c5e44368f9?auto=format&fit=crop&w=1200&h=630&q=82)
+![Modelado de Trayectorias y Riesgo Sistémico](https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/US_Navy_071003-N-9898L-109_Rear_Adm._Scott_Van_Buskirk%2C_commander_of_Carrier_Strike_Group_9%2C_and_Capt._Patrick_D._Hall%2C_commanding_officer_of_USS_Abraham_Lincoln_%28CVN_72%29%2C_greet_guests_at_a_reception_in_Lincoln%27s_hangar_bay.jpg/1280px-thumbnail.jpg)
 *Figure 2: Trajectory modeling and scenario dispersion prepared by the TEP Quantitative Unit.*
 
 El análisis retrospectivo permite clasificar la trayectoria que finalmente se consolidó frente a las hipótesis alternativas que barajaban los comités en aquel entonces:

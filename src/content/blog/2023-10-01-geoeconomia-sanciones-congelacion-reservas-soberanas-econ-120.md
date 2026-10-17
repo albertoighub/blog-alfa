@@ -5,7 +5,7 @@ pubDate: "2023-10-01"
 category: "Economy & Markets"
 tags: ["Intelligence", "Research Paper", "TEP Archive"]
 author: "TEP Intelligence Board & Historical Archive"
-heroImage: "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?auto=format&fit=crop&w=1200&h=630&q=82"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/UK%27s_Largest_Crane_Delivered_to_Scotland_to_Build_CVF_Aircraft_Carrier_MOD_45152481.jpg/1280px-UK%27s_Largest_Crane_Delivered_to_Scotland_to_Build_CVF_Aircraft_Carrier_MOD_45152481.jpg"
 canonicalSource: "https://international.newsinternacionaltep.com/category/economy"
 ---
 
@@ -21,7 +21,7 @@ Los reportes primarios recopilados por las corresponsalías y agencias de monito
 
 ## 2. Empirical State of Affairs and Structural Dynamics
 
-![Evidencia y Registro Documental Primario - La Geoeconomía de las Sanciones Financieras: Congelación de Reservas Soberanas y Precedentes Legales](https://images.unsplash.com/photo-1565372195458-9de0b320ef04?auto=format&fit=crop&w=1200&h=630&q=82)
+![Evidencia y Registro Documental Primario - La Geoeconomía de las Sanciones Financieras: Congelación de Reservas Soberanas y Precedentes Legales](https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/US_Navy_040809-G-1034C-193_A_U.S._Coast_Guard_Cutter_is_off-loaded_from_a_cargo_ship_at_the_Bahrain_pier_to_take_on_its_new_role_as_coalition_warship_of_Coast_Guard_Patrol_Forces_Southwest_Asia.jpg/1280px-thumbnail.jpg)
 *Figure 1: Archival photographic evidence documented in the News International TEP records.*
 
 La evolución empírica de los acontecimientos desmintió rápidamente los diagnósticos complacientes. La aceleración de las dinámicas en juego obligó a un reajuste de las previsiones institucionales, revelando una marcada correlación entre la exposición previa al riesgo y la celeridad del deterioro funcional en los sectores analizados.
@@ -40,7 +40,7 @@ El comportamiento de los indicadores determinantes durante este período histór
 
 ## 4. Scenario Evaluation and Risk Modeling
 
-![Modelado de Trayectorias y Riesgo Sistémico](https://images.unsplash.com/photo-1526304640581-d334cdbbf45e?auto=format&fit=crop&w=1200&h=630&q=82)
+![Modelado de Trayectorias y Riesgo Sistémico](https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/US_Navy_091003-N-0807W-133_Seaman_Craig_R._Murphy_monitors_a_steady_line_from_a_shore_crane_to_cargo_equipment_during_a_Marine_equipment_offload_aboard_the_amphibious_dock_landing_ship_USS_Harpers_Ferry_%28LSD_49.jpg/1280px-thumbnail.jpg)
 *Figure 2: Trajectory modeling and scenario dispersion prepared by the TEP Quantitative Unit.*
 
 El análisis retrospectivo permite clasificar la trayectoria que finalmente se consolidó frente a las hipótesis alternativas que barajaban los comités en aquel entonces:

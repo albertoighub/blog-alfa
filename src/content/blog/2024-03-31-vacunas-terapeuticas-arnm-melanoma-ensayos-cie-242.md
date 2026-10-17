@@ -5,7 +5,7 @@ pubDate: "2024-03-31"
 category: "Science & Medicine"
 tags: ["Science", "Research Paper", "TEP Archive"]
 author: "TEP Intelligence Board & Historical Archive"
-heroImage: "https://images.unsplash.com/photo-1507668077129-56e32842fceb?auto=format&fit=crop&w=1200&h=630&q=82"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/French_President_Hollande_Bids_Farewell_to_Ambassador_Hartley_%2815669838624%29.jpg/1280px-French_President_Hollande_Bids_Farewell_to_Ambassador_Hartley_%2815669838624%29.jpg"
 canonicalSource: "https://international.newsinternacionaltep.com/category/science"
 ---
 
@@ -21,7 +21,7 @@ Los reportes primarios recopilados por las corresponsalías y agencias de monito
 
 ## 2. Empirical State of Affairs and Structural Dynamics
 
-![Evidencia y Registro Documental Primario - Vacunas Terapéuticas de ARNm contra Melanoma Avanzado en Ensayos Clínicos Fase III](https://images.unsplash.com/photo-1576086213369-97a306d36557?auto=format&fit=crop&w=1200&h=630&q=82)
+![Evidencia y Registro Documental Primario - Vacunas Terapéuticas de ARNm contra Melanoma Avanzado en Ensayos Clínicos Fase III](https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/French_President_Hollande_Bids_Farewell_to_Secretary_Kerry_After_They_Met_at_the_%C3%89lys%C3%A9e_Palace_%2816290467571%29.jpg/1280px-French_President_Hollande_Bids_Farewell_to_Secretary_Kerry_After_They_Met_at_the_%C3%89lys%C3%A9e_Palace_%2816290467571%29.jpg)
 *Figure 1: Archival photographic evidence documented in the News International TEP records.*
 
 La evolución empírica de los acontecimientos desmintió rápidamente los diagnósticos complacientes. La aceleración de las dinámicas en juego obligó a un reajuste de las previsiones institucionales, revelando una marcada correlación entre la exposición previa al riesgo y la celeridad del deterioro funcional en los sectores analizados.
@@ -40,7 +40,7 @@ El comportamiento de los indicadores determinantes durante este período histór
 
 ## 4. Scenario Evaluation and Risk Modeling
 
-![Modelado de Trayectorias y Riesgo Sistémico](https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=1200&h=630&q=82)
+![Modelado de Trayectorias y Riesgo Sistémico](https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/French_President_Hollande_Embraces_Secretary_Kerry_Upon_His_Arrival_to_the_%C3%89lys%C3%A9e_Palace_in_Paris_%2816105875997%29.jpg/1280px-French_President_Hollande_Embraces_Secretary_Kerry_Upon_His_Arrival_to_the_%C3%89lys%C3%A9e_Palace_in_Paris_%2816105875997%29.jpg)
 *Figure 2: Trajectory modeling and scenario dispersion prepared by the TEP Quantitative Unit.*
 
 El análisis retrospectivo permite clasificar la trayectoria que finalmente se consolidó frente a las hipótesis alternativas que barajaban los comités en aquel entonces:

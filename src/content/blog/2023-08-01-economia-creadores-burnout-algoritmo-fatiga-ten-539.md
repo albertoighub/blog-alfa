@@ -5,7 +5,7 @@ pubDate: "2023-08-01"
 category: "Social Media & Dynamics"
 tags: ["Intelligence", "Research Paper", "TEP Archive"]
 author: "TEP Intelligence Board & Historical Archive"
-heroImage: "https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=1200&h=630&q=82"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/SNMMI_exhibition_hall_St_Louis_2014.JPG/1280px-SNMMI_exhibition_hall_St_Louis_2014.JPG"
 canonicalSource: "https://international.newsinternacionaltep.com/category/trends"
 ---
 
@@ -21,7 +21,7 @@ Los reportes primarios recopilados por las corresponsalías y agencias de monito
 
 ## 2. Empirical State of Affairs and Structural Dynamics
 
-![Evidencia y Registro Documental Primario - La Economía de los Creadores frente al Algoritmo: Burnout, Saturación de Marcas y Fatiga de Audiencia](https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=1200&h=630&q=82)
+![Evidencia y Registro Documental Primario - La Economía de los Creadores frente al Algoritmo: Burnout, Saturación de Marcas y Fatiga de Audiencia](https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/Smart_Food_at_Hong_Kong_Book_Fair_2013%2C_Grand_Hall%2C_Hong_Kong_Convention_and_Exhibition_Centre.JPG/1280px-Smart_Food_at_Hong_Kong_Book_Fair_2013%2C_Grand_Hall%2C_Hong_Kong_Convention_and_Exhibition_Centre.JPG)
 *Figure 1: Archival photographic evidence documented in the News International TEP records.*
 
 La evolución empírica de los acontecimientos desmintió rápidamente los diagnósticos complacientes. La aceleración de las dinámicas en juego obligó a un reajuste de las previsiones institucionales, revelando una marcada correlación entre la exposición previa al riesgo y la celeridad del deterioro funcional en los sectores analizados.
@@ -40,7 +40,7 @@ El comportamiento de los indicadores determinantes durante este período histór
 
 ## 4. Scenario Evaluation and Risk Modeling
 
-![Modelado de Trayectorias y Riesgo Sistémico](https://images.unsplash.com/photo-1534536281715-e28d76689b4d?auto=format&fit=crop&w=1200&h=630&q=82)
+![Modelado de Trayectorias y Riesgo Sistémico](https://upload.wikimedia.org/wikipedia/commons/b/b4/StateLibQld_2_393189_Audience_photograph_of_a_%27Liedertafel_smoke_concert%27_held_in_the_Exhibition_Concert_Hall%2C_Bowen_Hills%2C_1901.jpg)
 *Figure 2: Trajectory modeling and scenario dispersion prepared by the TEP Quantitative Unit.*
 
 El análisis retrospectivo permite clasificar la trayectoria que finalmente se consolidó frente a las hipótesis alternativas que barajaban los comités en aquel entonces:

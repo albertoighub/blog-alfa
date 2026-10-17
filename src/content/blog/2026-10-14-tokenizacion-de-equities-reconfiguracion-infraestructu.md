@@ -5,7 +5,7 @@ pubDate: "2026-10-14"
 category: "Economy & Markets"
 tags: ["Intelligence", "Research Paper", "TEP Archive"]
 author: "TEP Intelligence Board & Historical Archive"
-heroImage: "https://cdn.mos.cms.futurecdn.net/uCAL94jcfqyoEFH2vycmjC-1920-80.jpg"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/Szafa_19%22%2C_wykorzystywana_do_rozwoju_system%C3%B3w_diagnostyki_plazmy_dla_projektu_ITER.jpg/1280px-Szafa_19%22%2C_wykorzystywana_do_rozwoju_system%C3%B3w_diagnostyki_plazmy_dla_projektu_ITER.jpg"
 canonicalSource: "https://international.newsinternacionaltep.com/category/economy"
 ---
 

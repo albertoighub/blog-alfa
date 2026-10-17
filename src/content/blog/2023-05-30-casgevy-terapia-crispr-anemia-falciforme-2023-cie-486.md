@@ -5,7 +5,7 @@ pubDate: "2023-05-30"
 category: "Science & Medicine"
 tags: ["Science", "Research Paper", "TEP Archive"]
 author: "TEP Intelligence Board & Historical Archive"
-heroImage: "https://images.unsplash.com/photo-1579165466791-788226ab77b6?auto=format&fit=crop&w=1200&h=630&q=82"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Defense.gov_News_Photo_101008-D-9880W-222_-_Secretary_of_Defense_Robert_M._Gates_left_and_South_Korean_Defense_Minister_Kim_Tae-young_right_hold_a_joint_press_conference_in_the_Pentagon_at.jpg/1280px-thumbnail.jpg"
 canonicalSource: "https://international.newsinternacionaltep.com/category/science"
 ---
 
@@ -21,7 +21,7 @@ Los reportes primarios recopilados por las corresponsalías y agencias de monito
 
 ## 2. Empirical State of Affairs and Structural Dynamics
 
-![Evidencia y Registro Documental Primario - Aprobación Histórica de Casgevy: Primera Terapia Médica con CRISPR para Anemia Falciforme](https://images.unsplash.com/photo-1516549655169-df83a0774514?auto=format&fit=crop&w=1200&h=630&q=82)
+![Evidencia y Registro Documental Primario - Aprobación Histórica de Casgevy: Primera Terapia Médica con CRISPR para Anemia Falciforme](https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/Defense.gov_News_Photo_101109-D-7203C-020_-_Secretary_of_Defense_Robert_M._Gates_and_Malaysian_Defense_Minister_Ahmad_Zahid_Hamidi_conduct_a_joint_press_conference_in_the_Defense_Ministry.jpg/1280px-thumbnail.jpg)
 *Figure 1: Archival photographic evidence documented in the News International TEP records.*
 
 La evolución empírica de los acontecimientos desmintió rápidamente los diagnósticos complacientes. La aceleración de las dinámicas en juego obligó a un reajuste de las previsiones institucionales, revelando una marcada correlación entre la exposición previa al riesgo y la celeridad del deterioro funcional en los sectores analizados.
@@ -40,7 +40,7 @@ El comportamiento de los indicadores determinantes durante este período histór
 
 ## 4. Scenario Evaluation and Risk Modeling
 
-![Modelado de Trayectorias y Riesgo Sistémico](https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?auto=format&fit=crop&w=1200&h=630&q=82)
+![Modelado de Trayectorias y Riesgo Sistémico](https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/Defense.gov_News_Photo_101109-D-7203C-023_-_Secretary_of_Defense_Robert_M._Gates_and_Malaysian_Defense_Minister_Ahmad_Zahid_Hamidi_conduct_a_joint_press_conference_in_the_Defense_Ministry.jpg/1280px-thumbnail.jpg)
 *Figure 2: Trajectory modeling and scenario dispersion prepared by the TEP Quantitative Unit.*
 
 El análisis retrospectivo permite clasificar la trayectoria que finalmente se consolidó frente a las hipótesis alternativas que barajaban los comités en aquel entonces:

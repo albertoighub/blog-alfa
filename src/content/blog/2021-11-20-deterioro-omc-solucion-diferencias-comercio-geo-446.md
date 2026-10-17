@@ -5,7 +5,7 @@ pubDate: "2021-11-20"
 category: "Politics & Defense"
 tags: ["Geopolitics", "Research Paper", "TEP Archive"]
 author: "TEP Intelligence Board & Historical Archive"
-heroImage: "https://images.unsplash.com/photo-1521791136064-7986c2920216?auto=format&fit=crop&w=1200&h=630&q=82"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/A_press_conference_with_the_Israeli_Council_for_Israeli_Palestinian_Peace_%28FL63309892%29.jpg/1280px-A_press_conference_with_the_Israeli_Council_for_Israeli_Palestinian_Peace_%28FL63309892%29.jpg"
 canonicalSource: "https://international.newsinternacionaltep.com/category/geopolitics"
 ---
 
@@ -21,7 +21,7 @@ Los reportes primarios recopilados por las corresponsalías y agencias de monito
 
 ## 2. Empirical State of Affairs and Structural Dynamics
 
-![Evidencia y Registro Documental Primario - Transición Hegemónica y el Deterioro del Sistema de Solución de Diferencias de la OMC](https://images.unsplash.com/photo-1577495508048-b635879837f1?auto=format&fit=crop&w=1200&h=630&q=82)
+![Evidencia y Registro Documental Primario - Transición Hegemónica y el Deterioro del Sistema de Solución de Diferencias de la OMC](https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/A_press_conference_with_the_Israeli_Council_for_Israeli_Palestinian_Peace_%28FL63309934%29.jpg/1280px-A_press_conference_with_the_Israeli_Council_for_Israeli_Palestinian_Peace_%28FL63309934%29.jpg)
 *Figure 1: Archival photographic evidence documented in the News International TEP records.*
 
 La evolución empírica de los acontecimientos desmintió rápidamente los diagnósticos complacientes. La aceleración de las dinámicas en juego obligó a un reajuste de las previsiones institucionales, revelando una marcada correlación entre la exposición previa al riesgo y la celeridad del deterioro funcional en los sectores analizados.
@@ -40,7 +40,7 @@ El comportamiento de los indicadores determinantes durante este período histór
 
 ## 4. Scenario Evaluation and Risk Modeling
 
-![Modelado de Trayectorias y Riesgo Sistémico](https://images.unsplash.com/photo-1541872703-74c5e44368f9?auto=format&fit=crop&w=1200&h=630&q=82)
+![Modelado de Trayectorias y Riesgo Sistémico](https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/A_press_conference_with_the_Israeli_Council_for_Israeli_Palestinian_Peace_%28FL63309950%29.jpg/1280px-A_press_conference_with_the_Israeli_Council_for_Israeli_Palestinian_Peace_%28FL63309950%29.jpg)
 *Figure 2: Trajectory modeling and scenario dispersion prepared by the TEP Quantitative Unit.*
 
 El análisis retrospectivo permite clasificar la trayectoria que finalmente se consolidó frente a las hipótesis alternativas que barajaban los comités en aquel entonces:

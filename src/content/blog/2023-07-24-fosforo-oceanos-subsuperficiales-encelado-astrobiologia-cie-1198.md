@@ -5,7 +5,7 @@ pubDate: "2023-07-24"
 category: "Science & Medicine"
 tags: ["Science", "Research Paper", "TEP Archive"]
 author: "TEP Intelligence Board & Historical Archive"
-heroImage: "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=1200&h=630&q=82"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/President_Clinton_and_President-Elect_George_W._Bush_hold_a_meeting_in_the_Oval_Office_-_DPLA_-_96edf3a106dddfa5ae7fce54a8e5f6d5.jpg/1280px-President_Clinton_and_President-Elect_George_W._Bush_hold_a_meeting_in_the_Oval_Office_-_DPLA_-_96edf3a106dddfa5ae7fce54a8e5f6d5.jpg"
 canonicalSource: "https://international.newsinternacionaltep.com/category/science"
 ---
 
@@ -21,7 +21,7 @@ Los reportes primarios recopilados por las corresponsalías y agencias de monito
 
 ## 2. Empirical State of Affairs and Structural Dynamics
 
-![Evidencia y Registro Documental Primario - Descubrimiento de Fósforo en los Océanos de Encélado: Implicaciones para la Astrobiología](https://images.unsplash.com/photo-1579165466791-788226ab77b6?auto=format&fit=crop&w=1200&h=630&q=82)
+![Evidencia y Registro Documental Primario - Descubrimiento de Fósforo en los Océanos de Encélado: Implicaciones para la Astrobiología](https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/President_Clinton_and_President-Elect_George_W._Bush_shake_hands_during_their_meeting_in_the_Oval_Office_-_DPLA_-_48a0745720c69baf8de4a71e4816f89f.jpg/1280px-President_Clinton_and_President-Elect_George_W._Bush_shake_hands_during_their_meeting_in_the_Oval_Office_-_DPLA_-_48a0745720c69baf8de4a71e4816f89f.jpg)
 *Figure 1: Archival photographic evidence documented in the News International TEP records.*
 
 La evolución empírica de los acontecimientos desmintió rápidamente los diagnósticos complacientes. La aceleración de las dinámicas en juego obligó a un reajuste de las previsiones institucionales, revelando una marcada correlación entre la exposición previa al riesgo y la celeridad del deterioro funcional en los sectores analizados.
@@ -40,7 +40,7 @@ El comportamiento de los indicadores determinantes durante este período histór
 
 ## 4. Scenario Evaluation and Risk Modeling
 
-![Modelado de Trayectorias y Riesgo Sistémico](https://images.unsplash.com/photo-1516549655169-df83a0774514?auto=format&fit=crop&w=1200&h=630&q=82)
+![Modelado de Trayectorias y Riesgo Sistémico](https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/President_Gerald_R._Ford_and_President-Elect_Jimmy_Carter_Meeting_in_the_Oval_Office_to_Discuss_the_Presidential_Transition_-_NARA_-_45644329.jpg/1280px-President_Gerald_R._Ford_and_President-Elect_Jimmy_Carter_Meeting_in_the_Oval_Office_to_Discuss_the_Presidential_Transition_-_NARA_-_45644329.jpg)
 *Figure 2: Trajectory modeling and scenario dispersion prepared by the TEP Quantitative Unit.*
 
 El análisis retrospectivo permite clasificar la trayectoria que finalmente se consolidó frente a las hipótesis alternativas que barajaban los comités en aquel entonces:

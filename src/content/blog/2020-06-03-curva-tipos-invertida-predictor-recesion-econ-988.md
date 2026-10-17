@@ -5,7 +5,7 @@ pubDate: "2020-06-03"
 category: "Economy & Markets"
 tags: ["Intelligence", "Research Paper", "TEP Archive"]
 author: "TEP Intelligence Board & Historical Archive"
-heroImage: "https://images.unsplash.com/photo-1526304640581-d334cdbbf45e?auto=format&fit=crop&w=1200&h=630&q=82"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/HK_CH_%E4%B8%AD%E7%92%B0_Central_%E5%BE%B7%E8%BC%94%E9%81%93%E4%B8%AD_Des_Voeux_Road_Central_HSBC_HQ_facade_tram_view_SC_Bank_August_2025_N13P_02.jpg/1280px-HK_CH_%E4%B8%AD%E7%92%B0_Central_%E5%BE%B7%E8%BC%94%E9%81%93%E4%B8%AD_Des_Voeux_Road_Central_HSBC_HQ_facade_tram_view_SC_Bank_August_2025_N13P_02.jpg"
 canonicalSource: "https://international.newsinternacionaltep.com/category/economy"
 ---
 
@@ -21,7 +21,7 @@ Los reportes primarios recopilados por las corresponsalías y agencias de monito
 
 ## 2. Empirical State of Affairs and Structural Dynamics
 
-![Evidencia y Registro Documental Primario - El Dilema de la Curva de Tipos Invertida como Predictor Histórico de Recesión](https://images.unsplash.com/photo-1579532537598-459ecdaf39cc?auto=format&fit=crop&w=1200&h=630&q=82)
+![Evidencia y Registro Documental Primario - El Dilema de la Curva de Tipos Invertida como Predictor Histórico de Recesión](https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/HK_CH_%E4%B8%AD%E7%92%B0_Central_%E5%BE%B7%E8%BC%94%E9%81%93%E4%B8%AD_Des_Voeux_Road_Central_HSBC_HQ_n_Standard_Chartered_Bank_n_New_Henry_House_n_BEA_Bank_of_East_Asia_December_2025_N13P_02.jpg/1280px-HK_CH_%E4%B8%AD%E7%92%B0_Central_%E5%BE%B7%E8%BC%94%E9%81%93%E4%B8%AD_Des_Voeux_Road_Central_HSBC_HQ_n_Standard_Chartered_Bank_n_New_Henry_House_n_BEA_Bank_of_East_Asia_December_2025_N13P_02.jpg)
 *Figure 1: Archival photographic evidence documented in the News International TEP records.*
 
 La evolución empírica de los acontecimientos desmintió rápidamente los diagnósticos complacientes. La aceleración de las dinámicas en juego obligó a un reajuste de las previsiones institucionales, revelando una marcada correlación entre la exposición previa al riesgo y la celeridad del deterioro funcional en los sectores analizados.
@@ -40,7 +40,7 @@ El comportamiento de los indicadores determinantes durante este período histór
 
 ## 4. Scenario Evaluation and Risk Modeling
 
-![Modelado de Trayectorias y Riesgo Sistémico](https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?auto=format&fit=crop&w=1200&h=630&q=82)
+![Modelado de Trayectorias y Riesgo Sistémico](https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/HK_CH_%E4%B8%AD%E7%92%B0_Central_%E5%BE%B7%E8%BC%94%E9%81%93%E4%B8%AD_Des_Voeux_Road_Central_%E4%B8%AD%E5%9C%8B%E9%8A%80%E8%A1%8C%E5%A4%A7%E5%BB%88_old_Bank_of_China_Building_facade_tram_view_Bank_Street_August_2025_N13P_01.jpg/1280px-HK_CH_%E4%B8%AD%E7%92%B0_Central_%E5%BE%B7%E8%BC%94%E9%81%93%E4%B8%AD_Des_Voeux_Road_Central_%E4%B8%AD%E5%9C%8B%E9%8A%80%E8%A1%8C%E5%A4%A7%E5%BB%88_old_Bank_of_China_Building_facade_tram_view_Bank_Street_August_2025_N13P_01.jpg)
 *Figure 2: Trajectory modeling and scenario dispersion prepared by the TEP Quantitative Unit.*
 
 El análisis retrospectivo permite clasificar la trayectoria que finalmente se consolidó frente a las hipótesis alternativas que barajaban los comités en aquel entonces:

@@ -5,7 +5,7 @@ pubDate: "2023-07-31"
 category: "Politics & Defense"
 tags: ["Geopolitics", "Research Paper", "TEP Archive"]
 author: "TEP Intelligence Board & Historical Archive"
-heroImage: "https://images.unsplash.com/photo-1577495508048-b635879837f1?auto=format&fit=crop&w=1200&h=630&q=82"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/Reagan%E2%80%99s_meeting_with_Oleg_Gordievsky_in_the_Oval_Office_%2815%29.jpg/1280px-Reagan%E2%80%99s_meeting_with_Oleg_Gordievsky_in_the_Oval_Office_%2815%29.jpg"
 canonicalSource: "https://international.newsinternacionaltep.com/category/geopolitics"
 ---
 
@@ -21,7 +21,7 @@ Los reportes primarios recopilados por las corresponsalías y agencias de monito
 
 ## 2. Empirical State of Affairs and Structural Dynamics
 
-![Evidencia y Registro Documental Primario - El Corredor Económico India-Medio Oriente-Europa (IMEC) y la Competencia con la Franja y la Ruta](https://images.unsplash.com/photo-1541872703-74c5e44368f9?auto=format&fit=crop&w=1200&h=630&q=82)
+![Evidencia y Registro Documental Primario - El Corredor Económico India-Medio Oriente-Europa (IMEC) y la Competencia con la Franja y la Ruta](https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/Reagan%E2%80%99s_meeting_with_Oleg_Gordievsky_in_the_Oval_Office_%2816%29.jpg/1280px-Reagan%E2%80%99s_meeting_with_Oleg_Gordievsky_in_the_Oval_Office_%2816%29.jpg)
 *Figure 1: Archival photographic evidence documented in the News International TEP records.*
 
 La evolución empírica de los acontecimientos desmintió rápidamente los diagnósticos complacientes. La aceleración de las dinámicas en juego obligó a un reajuste de las previsiones institucionales, revelando una marcada correlación entre la exposición previa al riesgo y la celeridad del deterioro funcional en los sectores analizados.
@@ -40,7 +40,7 @@ El comportamiento de los indicadores determinantes durante este período histór
 
 ## 4. Scenario Evaluation and Risk Modeling
 
-![Modelado de Trayectorias y Riesgo Sistémico](https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=1200&h=630&q=82)
+![Modelado de Trayectorias y Riesgo Sistémico](https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/Walter_Mondale%2C_Zbigniew_Brzezinski%2C_Cyrus_Vance_and_Jimmy_Carter_during_an_Oval_Office_meeting_-_NARA_-_173608.jpg/1280px-Walter_Mondale%2C_Zbigniew_Brzezinski%2C_Cyrus_Vance_and_Jimmy_Carter_during_an_Oval_Office_meeting_-_NARA_-_173608.jpg)
 *Figure 2: Trajectory modeling and scenario dispersion prepared by the TEP Quantitative Unit.*
 
 El análisis retrospectivo permite clasificar la trayectoria que finalmente se consolidó frente a las hipótesis alternativas que barajaban los comités en aquel entonces:

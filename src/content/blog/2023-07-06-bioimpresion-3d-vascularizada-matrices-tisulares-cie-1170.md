@@ -5,7 +5,7 @@ pubDate: "2023-07-06"
 category: "Science & Medicine"
 tags: ["Science", "Research Paper", "TEP Archive"]
 author: "TEP Intelligence Board & Historical Archive"
-heroImage: "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=1200&h=630&q=82"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/U.S._Defense_Secretary_Chuck_Hagel_and_Polish_Defense_Minister_Tomasz_Siemoniak_hold_a_press_conference_at_the_Pentagon%2C_April_17%2C_2014%2C_after_meeting_to_discuss_issues_of_mutual_importance_140417-M-EV637-240.jpg/1280px-thumbnail.jpg"
 canonicalSource: "https://international.newsinternacionaltep.com/category/science"
 ---
 
@@ -21,7 +21,7 @@ Los reportes primarios recopilados por las corresponsalías y agencias de monito
 
 ## 2. Empirical State of Affairs and Structural Dynamics
 
-![Evidencia y Registro Documental Primario - Bioimpresión 3D Vascularizada y la Fabricación de Matrices Tisulares para Medicina Regenerativa](https://images.unsplash.com/photo-1579165466791-788226ab77b6?auto=format&fit=crop&w=1200&h=630&q=82)
+![Evidencia y Registro Documental Primario - Bioimpresión 3D Vascularizada y la Fabricación de Matrices Tisulares para Medicina Regenerativa](https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/U.S._Defense_Secretary_Chuck_Hagel_conducts_a_news_conference_as_the_NATO_defense_ministerial_meetings_draw_to_a_close_in_Brussels_140227-D-NI589-676.jpg/1280px-U.S._Defense_Secretary_Chuck_Hagel_conducts_a_news_conference_as_the_NATO_defense_ministerial_meetings_draw_to_a_close_in_Brussels_140227-D-NI589-676.jpg)
 *Figure 1: Archival photographic evidence documented in the News International TEP records.*
 
 La evolución empírica de los acontecimientos desmintió rápidamente los diagnósticos complacientes. La aceleración de las dinámicas en juego obligó a un reajuste de las previsiones institucionales, revelando una marcada correlación entre la exposición previa al riesgo y la celeridad del deterioro funcional en los sectores analizados.
@@ -40,7 +40,7 @@ El comportamiento de los indicadores determinantes durante este período histór
 
 ## 4. Scenario Evaluation and Risk Modeling
 
-![Modelado de Trayectorias y Riesgo Sistémico](https://images.unsplash.com/photo-1516549655169-df83a0774514?auto=format&fit=crop&w=1200&h=630&q=82)
+![Modelado de Trayectorias y Riesgo Sistémico](https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/U.S._Secretary_of_Defense_Chuck_Hagel%2C_center%2C_and_members_of_his_staff_prepare_for_a_news_conference_that_Hagel_will_conduct_with_Indonesian_Defense_Minister_Purnomo_Yusgiantoro%2C_not_shown%2C_at_the_Indonesian_130826-D-EV637-428.jpg/1280px-thumbnail.jpg)
 *Figure 2: Trajectory modeling and scenario dispersion prepared by the TEP Quantitative Unit.*
 
 El análisis retrospectivo permite clasificar la trayectoria que finalmente se consolidó frente a las hipótesis alternativas que barajaban los comités en aquel entonces:

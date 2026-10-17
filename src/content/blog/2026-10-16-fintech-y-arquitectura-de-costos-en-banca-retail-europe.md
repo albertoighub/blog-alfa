@@ -5,7 +5,7 @@ pubDate: "2026-10-16"
 category: "Economy & Markets"
 tags: ["Intelligence", "Research Paper", "TEP Archive"]
 author: "TEP Intelligence Board & Historical Archive"
-heroImage: "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?auto=format&fit=crop&w=1200&h=630&q=85"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/YL-HTT_and_OH-HPC_in_Heliport_City_Hall_Tallinn_2_June_2019.jpg/1280px-YL-HTT_and_OH-HPC_in_Heliport_City_Hall_Tallinn_2_June_2019.jpg"
 canonicalSource: "https://international.newsinternacionaltep.com/category/economy"
 ---
 

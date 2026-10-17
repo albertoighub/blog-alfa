@@ -5,7 +5,7 @@ pubDate: "2023-02-06"
 category: "Social Media & Dynamics"
 tags: ["Intelligence", "Research Paper", "TEP Archive"]
 author: "TEP Intelligence Board & Historical Archive"
-heroImage: "https://images.unsplash.com/photo-1611162617474-5b21e879e113?auto=format&fit=crop&w=1200&h=630&q=82"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/EU2017EE_opening_press_conference_with_European_Commission_President_Jean-Claude_Juncker_and_Estonian_Prime_Minister_J%C3%BCri_Ratas_Media_%2835626526335%29.jpg/1280px-EU2017EE_opening_press_conference_with_European_Commission_President_Jean-Claude_Juncker_and_Estonian_Prime_Minister_J%C3%BCri_Ratas_Media_%2835626526335%29.jpg"
 canonicalSource: "https://international.newsinternacionaltep.com/category/trends"
 ---
 
@@ -21,7 +21,7 @@ Los reportes primarios recopilados por las corresponsalías y agencias de monito
 
 ## 2. Empirical State of Affairs and Structural Dynamics
 
-![Evidencia y Registro Documental Primario - La Proliferación de Deepfakes en Campañas Electorales y la Autenticación Criptográfica de Vídeo](https://images.unsplash.com/photo-1563986768609-322da13575f3?auto=format&fit=crop&w=1200&h=630&q=82)
+![Evidencia y Registro Documental Primario - La Proliferación de Deepfakes en Campañas Electorales y la Autenticación Criptográfica de Vídeo](https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/Golden_Bell_Awards_50th_Anniversary_Exhibition_opening_press_conference_journalist_namecards_20150912.jpg/1280px-Golden_Bell_Awards_50th_Anniversary_Exhibition_opening_press_conference_journalist_namecards_20150912.jpg)
 *Figure 1: Archival photographic evidence documented in the News International TEP records.*
 
 La evolución empírica de los acontecimientos desmintió rápidamente los diagnósticos complacientes. La aceleración de las dinámicas en juego obligó a un reajuste de las previsiones institucionales, revelando una marcada correlación entre la exposición previa al riesgo y la celeridad del deterioro funcional en los sectores analizados.
@@ -40,7 +40,7 @@ El comportamiento de los indicadores determinantes durante este período histór
 
 ## 4. Scenario Evaluation and Risk Modeling
 
-![Modelado de Trayectorias y Riesgo Sistémico](https://images.unsplash.com/photo-1573164713988-8665fc963095?auto=format&fit=crop&w=1200&h=630&q=82)
+![Modelado de Trayectorias y Riesgo Sistémico](https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/IPhone_and_UBN_Betacam_at_Yahoo_Taiwan_Mobile_Press_Conference_%2814715939260%29.jpg/1280px-IPhone_and_UBN_Betacam_at_Yahoo_Taiwan_Mobile_Press_Conference_%2814715939260%29.jpg)
 *Figure 2: Trajectory modeling and scenario dispersion prepared by the TEP Quantitative Unit.*
 
 El análisis retrospectivo permite clasificar la trayectoria que finalmente se consolidó frente a las hipótesis alternativas que barajaban los comités en aquel entonces:

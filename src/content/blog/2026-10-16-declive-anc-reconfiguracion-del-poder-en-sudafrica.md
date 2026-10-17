@@ -5,7 +5,7 @@ pubDate: "2026-10-17"
 category: "Politics & Defense"
 tags: ["Geopolitics", "Research Paper", "TEP Archive"]
 author: "TEP Intelligence Board & Historical Archive"
-heroImage: "https://images.newsteam.io/image/1440/2Bq28FuGKoMigXEWxL5hx9MLN88S5cX8PRgEpo6oqxmRfinP9MQLBjqds4xoYrJnLE2mp2xN5NotvijjZQs5cjqu5xuMtCUFMmqeJFomeb2nu1xRRRj1B6dxFNMTLH7tCxVXcLCUMpDKP3uDBYoWsGC"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/OH-HPC_in_Heliport_City_Hall_Tallinn_3_June_2019.jpg/1280px-OH-HPC_in_Heliport_City_Hall_Tallinn_3_June_2019.jpg"
 canonicalSource: "https://international.newsinternacionaltep.com/category/geopolitics"
 ---
 

@@ -5,7 +5,7 @@ pubDate: "2024-04-03"
 category: "Politics & Defense"
 tags: ["Geopolitics", "Research Paper", "TEP Archive"]
 author: "TEP Intelligence Board & Historical Archive"
-heroImage: "https://images.unsplash.com/photo-1577495508048-b635879837f1?auto=format&fit=crop&w=1200&h=630&q=82"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/French_President_Hollande_Welcomes_Secretary_Kerry_to_the_%C3%89lys%C3%A9e_Palace_in_Paris_%2816289946451%29.jpg/1280px-French_President_Hollande_Welcomes_Secretary_Kerry_to_the_%C3%89lys%C3%A9e_Palace_in_Paris_%2816289946451%29.jpg"
 canonicalSource: "https://international.newsinternacionaltep.com/category/geopolitics"
 ---
 
@@ -21,7 +21,7 @@ Los reportes primarios recopilados por las corresponsalías y agencias de monito
 
 ## 2. Empirical State of Affairs and Structural Dynamics
 
-![Evidencia y Registro Documental Primario - El Corredor Económico India-Medio Oriente-Europa (IMEC) y la Competencia con la Franja y la Ruta](https://images.unsplash.com/photo-1541872703-74c5e44368f9?auto=format&fit=crop&w=1200&h=630&q=82)
+![Evidencia y Registro Documental Primario - El Corredor Económico India-Medio Oriente-Europa (IMEC) y la Competencia con la Franja y la Ruta](https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f1/French_President_Hollande_and_Secretary_Kerry_Clasp_Hands_to_Express_American_Solidarity_With_the_French_People_%2816265806996%29.jpg/1280px-French_President_Hollande_and_Secretary_Kerry_Clasp_Hands_to_Express_American_Solidarity_With_the_French_People_%2816265806996%29.jpg)
 *Figure 1: Archival photographic evidence documented in the News International TEP records.*
 
 La evolución empírica de los acontecimientos desmintió rápidamente los diagnósticos complacientes. La aceleración de las dinámicas en juego obligó a un reajuste de las previsiones institucionales, revelando una marcada correlación entre la exposición previa al riesgo y la celeridad del deterioro funcional en los sectores analizados.
@@ -40,7 +40,7 @@ El comportamiento de los indicadores determinantes durante este período histór
 
 ## 4. Scenario Evaluation and Risk Modeling
 
-![Modelado de Trayectorias y Riesgo Sistémico](https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=1200&h=630&q=82)
+![Modelado de Trayectorias y Riesgo Sistémico](https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/President_Joe_Biden_and_First_Lady_Jill_Biden_pose_for_photos_with_French_President_Emmanuel_Macron_and_Mrs._Brigitte_Macron_at_the_Elysee_Palace_in_Paris%2C_France%2C_June_8%2C_2024%2C_as_they_arrive_for_a_State_Dinner.jpg/1280px-thumbnail.jpg)
 *Figure 2: Trajectory modeling and scenario dispersion prepared by the TEP Quantitative Unit.*
 
 El análisis retrospectivo permite clasificar la trayectoria que finalmente se consolidó frente a las hipótesis alternativas que barajaban los comités en aquel entonces:

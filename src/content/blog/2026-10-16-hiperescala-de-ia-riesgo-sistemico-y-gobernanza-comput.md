@@ -5,7 +5,7 @@ pubDate: "2026-10-16"
 category: "Economy & Markets"
 tags: ["Intelligence", "Research Paper", "TEP Archive"]
 author: "TEP Intelligence Board & Historical Archive"
-heroImage: "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&w=1200&h=630&q=82"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/IPEM_studio_synthesizer_%28ca.1960-1980%29_-_MIM_Brussels_%282015-05-30_07.36.09_by_chibicode%29.jpg/1280px-IPEM_studio_synthesizer_%28ca.1960-1980%29_-_MIM_Brussels_%282015-05-30_07.36.09_by_chibicode%29.jpg"
 canonicalSource: "https://international.newsinternacionaltep.com/category/economy"
 ---
 

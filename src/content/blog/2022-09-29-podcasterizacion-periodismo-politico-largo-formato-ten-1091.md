@@ -5,7 +5,7 @@ pubDate: "2022-09-29"
 category: "Social Media & Dynamics"
 tags: ["Intelligence", "Research Paper", "TEP Archive"]
 author: "TEP Intelligence Board & Historical Archive"
-heroImage: "https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=1200&h=630&q=82"
+heroImage: "https://upload.wikimedia.org/wikipedia/commons/7/7b/Live_interview_at_Loyal_Studios_%287884307994%29.jpg"
 canonicalSource: "https://international.newsinternacionaltep.com/category/trends"
 ---
 
@@ -21,7 +21,7 @@ Los reportes primarios recopilados por las corresponsalías y agencias de monito
 
 ## 2. Empirical State of Affairs and Structural Dynamics
 
-![Evidencia y Registro Documental Primario - La 'Podcasterización' del Periodismo Político: Entrevistas de Largo Formato y la Decadencia de la Televisión](https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=1200&h=630&q=82)
+![Evidencia y Registro Documental Primario - La 'Podcasterización' del Periodismo Político: Entrevistas de Largo Formato y la Decadencia de la Televisión](https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/Mike_Rogers_being_interviewed_on_CNN_in_Jan_2020.jpg/1280px-Mike_Rogers_being_interviewed_on_CNN_in_Jan_2020.jpg)
 *Figure 1: Archival photographic evidence documented in the News International TEP records.*
 
 La evolución empírica de los acontecimientos desmintió rápidamente los diagnósticos complacientes. La aceleración de las dinámicas en juego obligó a un reajuste de las previsiones institucionales, revelando una marcada correlación entre la exposición previa al riesgo y la celeridad del deterioro funcional en los sectores analizados.
@@ -40,7 +40,7 @@ El comportamiento de los indicadores determinantes durante este período histór
 
 ## 4. Scenario Evaluation and Risk Modeling
 
-![Modelado de Trayectorias y Riesgo Sistémico](https://images.unsplash.com/photo-1534536281715-e28d76689b4d?auto=format&fit=crop&w=1200&h=630&q=82)
+![Modelado de Trayectorias y Riesgo Sistémico](https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/NRW-Schulministerin_Gebauer_%C3%BCberbringt_F%C3%B6rdermittel_f%C3%BCr_K%C3%B6ln-6221.jpg/1280px-NRW-Schulministerin_Gebauer_%C3%BCberbringt_F%C3%B6rdermittel_f%C3%BCr_K%C3%B6ln-6221.jpg)
 *Figure 2: Trajectory modeling and scenario dispersion prepared by the TEP Quantitative Unit.*
 
 El análisis retrospectivo permite clasificar la trayectoria que finalmente se consolidó frente a las hipótesis alternativas que barajaban los comités en aquel entonces:

@@ -5,7 +5,7 @@ pubDate: "2026-10-17"
 category: "Social Media & Dynamics"
 tags: ["Intelligence", "Research Paper", "TEP Archive"]
 author: "TEP Intelligence Board & Historical Archive"
-heroImage: "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1200&h=630&q=82"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/Henri-Julien-F%C3%A9lix_Rousseau%2C_French_-_Carnival_Evening_-_Google_Art_Project.jpg/1280px-Henri-Julien-F%C3%A9lix_Rousseau%2C_French_-_Carnival_Evening_-_Google_Art_Project.jpg"
 canonicalSource: "https://international.newsinternacionaltep.com/category/trends"
 ---
 
@@ -21,7 +21,7 @@ El análisis de series temporales de tráfico y engagement demuestra que los inc
 
 ## 2. State of the Art and Structural Dynamics
 
-![Análisis Documental Primario - Monetización del Duelo y la Huella Digital Póstuma: Gestión de](https://images.unsplash.com/photo-1531403009284-440f080d1e12?auto=format&fit=crop&w=1000&h=500&q=82)
+![Análisis Documental Primario - Monetización del Duelo y la Huella Digital Póstuma: Gestión de](https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/Karas_Gallery_Andrei_Bludov_Exhibition_2017.jpg/1280px-Karas_Gallery_Andrei_Bludov_Exhibition_2017.jpg)
 *Figura 1: Representación técnica y mapeo contextual del fenómeno analizado.*
 Durante la última década, el modelo de negocio publicitario digital evolucionó desde banners estáticos hacia arquitecturas de aprendizaje por refuerzo profundo. En este contexto, el fenómeno estudiado ha consolidado una economía donde la atención humana es cuantificada, microsegmentada y subastada en milisegundos.
 
@@ -39,7 +39,7 @@ El mecanismo operativo descansa sobre bucles de recompensa intermitente variable
 
 ## 4. Scenario Evaluation and Risk Modeling
 
-![Modelado de Trayectorias y Riesgo Sistémico](https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=1000&h=500&q=82)
+![Modelado de Trayectorias y Riesgo Sistémico](https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/Lorenzo_Angeloni_and_the_Director_General%2C_National_Gallery_of_Modern_Art%2C_Shri_Adwaita_Charan_Garanayak_at_the_inauguration_of_the_exhibition_%281%29.jpg/1280px-Lorenzo_Angeloni_and_the_Director_General%2C_National_Gallery_of_Modern_Art%2C_Shri_Adwaita_Charan_Garanayak_at_the_inauguration_of_the_exhibition_%281%29.jpg)
 *Figura 2: Telemetría de variables y dispersión de escenarios probabilísticos.*
 Se plantearon tres escenarios de evolución sociotécnica para evaluar las transformaciones en la cohesión cívica y regulatoria:
 

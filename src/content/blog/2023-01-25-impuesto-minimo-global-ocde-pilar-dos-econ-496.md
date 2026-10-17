@@ -5,7 +5,7 @@ pubDate: "2023-01-25"
 category: "Economy & Markets"
 tags: ["Intelligence", "Research Paper", "TEP Archive"]
 author: "TEP Intelligence Board & Historical Archive"
-heroImage: "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?auto=format&fit=crop&w=1200&h=630&q=82"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/The_Governor_of_Reserve_Bank_of_India%2C_Dr._Raghuram_G._Rajan_along_with_the_Deputy_Governors%2C_addressing_a_press_conference_after_the_RBI_Central_Board_meeting%2C_in_Kolkata_on_December_11%2C_2015.jpg/1280px-thumbnail.jpg"
 canonicalSource: "https://international.newsinternacionaltep.com/category/economy"
 ---
 
@@ -21,7 +21,7 @@ Los reportes primarios recopilados por las corresponsalías y agencias de monito
 
 ## 2. Empirical State of Affairs and Structural Dynamics
 
-![Evidencia y Registro Documental Primario - Reforma del Impuesto Mínimo Global de la OCDE (Pilar Dos) y la Fiscalidad Corporativa Transfronteriza](https://images.unsplash.com/photo-1565372195458-9de0b320ef04?auto=format&fit=crop&w=1200&h=630&q=82)
+![Evidencia y Registro Documental Primario - Reforma del Impuesto Mínimo Global de la OCDE (Pilar Dos) y la Fiscalidad Corporativa Transfronteriza](https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/The_Minister_of_State_for_Youth_Affairs_and_Sports_%28IC%29_and_Information_%26_Broadcasting%2C_Col._Rajyavardhan_Singh_Rathore_meeting_the_Governor_of_Central_Bank_of_Egypt%2C_Mr._Tarek_Amer%2C_at_Sharam_El_Sheikh%2C_Egypt.jpg/1280px-thumbnail.jpg)
 *Figure 1: Archival photographic evidence documented in the News International TEP records.*
 
 La evolución empírica de los acontecimientos desmintió rápidamente los diagnósticos complacientes. La aceleración de las dinámicas en juego obligó a un reajuste de las previsiones institucionales, revelando una marcada correlación entre la exposición previa al riesgo y la celeridad del deterioro funcional en los sectores analizados.
@@ -40,7 +40,7 @@ El comportamiento de los indicadores determinantes durante este período histór
 
 ## 4. Scenario Evaluation and Risk Modeling
 
-![Modelado de Trayectorias y Riesgo Sistémico](https://images.unsplash.com/photo-1526304640581-d334cdbbf45e?auto=format&fit=crop&w=1200&h=630&q=82)
+![Modelado de Trayectorias y Riesgo Sistémico](https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/The_Minister_of_State_for_Youth_Affairs_and_Sports_%28IC%29_and_Information_%26_Broadcasting%2C_Col._Rajyavardhan_Singh_Rathore_meeting_the_Governor_of_Central_Bank_of_Egypt%2C_Mr._Tarek_Amer%2C_at_Sharam_El_Sheikh%2C_Egypt_%281%29.jpg/1280px-thumbnail.jpg)
 *Figure 2: Trajectory modeling and scenario dispersion prepared by the TEP Quantitative Unit.*
 
 El análisis retrospectivo permite clasificar la trayectoria que finalmente se consolidó frente a las hipótesis alternativas que barajaban los comités en aquel entonces:

@@ -5,7 +5,7 @@ pubDate: "2023-07-26"
 category: "Science & Medicine"
 tags: ["Science", "Research Paper", "TEP Archive"]
 author: "TEP Intelligence Board & Historical Archive"
-heroImage: "https://images.unsplash.com/photo-1516549655169-df83a0774514?auto=format&fit=crop&w=1200&h=630&q=82"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/President_Ronald_Reagan_Meeting_with_President_Hosni_Mubarak_of_Egypt_in_The_Oval_Office_-_DPLA_-_079aff6e5e6220e49a81e9cc4fa740e8.jpg/1280px-President_Ronald_Reagan_Meeting_with_President_Hosni_Mubarak_of_Egypt_in_The_Oval_Office_-_DPLA_-_079aff6e5e6220e49a81e9cc4fa740e8.jpg"
 canonicalSource: "https://international.newsinternacionaltep.com/category/science"
 ---
 
@@ -21,7 +21,7 @@ Los reportes primarios recopilados por las corresponsalías y agencias de monito
 
 ## 2. Empirical State of Affairs and Structural Dynamics
 
-![Evidencia y Registro Documental Primario - Misión DART de la NASA y la Demostración de Deflexión Cinética de Asteroides Peligrosos](https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?auto=format&fit=crop&w=1200&h=630&q=82)
+![Evidencia y Registro Documental Primario - Misión DART de la NASA y la Demostración de Deflexión Cinética de Asteroides Peligrosos](https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/President_Ronald_Reagan_Meeting_with_President_Paul_Biya_of_Cameroon_in_The_Oval_Office_-_DPLA_-_235fce96f392cdb19950ed959a3c239c.jpg/1280px-President_Ronald_Reagan_Meeting_with_President_Paul_Biya_of_Cameroon_in_The_Oval_Office_-_DPLA_-_235fce96f392cdb19950ed959a3c239c.jpg)
 *Figure 1: Archival photographic evidence documented in the News International TEP records.*
 
 La evolución empírica de los acontecimientos desmintió rápidamente los diagnósticos complacientes. La aceleración de las dinámicas en juego obligó a un reajuste de las previsiones institucionales, revelando una marcada correlación entre la exposición previa al riesgo y la celeridad del deterioro funcional en los sectores analizados.
@@ -40,7 +40,7 @@ El comportamiento de los indicadores determinantes durante este período histór
 
 ## 4. Scenario Evaluation and Risk Modeling
 
-![Modelado de Trayectorias y Riesgo Sistémico](https://images.unsplash.com/photo-1530497610245-94d3c16cda28?auto=format&fit=crop&w=1200&h=630&q=82)
+![Modelado de Trayectorias y Riesgo Sistémico](https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/President_Ronald_Reagan_Meeting_with_Prime_Minister_Trudeau_of_Canada_During_Working_Visit_in_Oval_Office_-_DPLA_-_753770f1fb55e916a96c1bd8ddaae429.jpg/1280px-President_Ronald_Reagan_Meeting_with_Prime_Minister_Trudeau_of_Canada_During_Working_Visit_in_Oval_Office_-_DPLA_-_753770f1fb55e916a96c1bd8ddaae429.jpg)
 *Figure 2: Trajectory modeling and scenario dispersion prepared by the TEP Quantitative Unit.*
 
 El análisis retrospectivo permite clasificar la trayectoria que finalmente se consolidó frente a las hipótesis alternativas que barajaban los comités en aquel entonces:

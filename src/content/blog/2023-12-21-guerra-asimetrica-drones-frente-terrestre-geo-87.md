@@ -5,7 +5,7 @@ pubDate: "2023-12-21"
 category: "Politics & Defense"
 tags: ["Geopolitics", "Research Paper", "TEP Archive"]
 author: "TEP Intelligence Board & Historical Archive"
-heroImage: "https://images.unsplash.com/photo-1572949645841-094f3a9c4c94?auto=format&fit=crop&w=1200&h=630&q=82"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/Air_Astana_Airbus_A321_P4-OAS_at_AMS_%2835060394253%29.jpg/1280px-Air_Astana_Airbus_A321_P4-OAS_at_AMS_%2835060394253%29.jpg"
 canonicalSource: "https://international.newsinternacionaltep.com/category/geopolitics"
 ---
 
@@ -21,7 +21,7 @@ Los reportes primarios recopilados por las corresponsalías y agencias de monito
 
 ## 2. Empirical State of Affairs and Structural Dynamics
 
-![Evidencia y Registro Documental Primario - Guerra Asimétrica de Drones y la Transformación Táctica del Frente Terrestre](https://images.unsplash.com/photo-1541872703-74c5e44368f9?auto=format&fit=crop&w=1200&h=630&q=82)
+![Evidencia y Registro Documental Primario - Guerra Asimétrica de Drones y la Transformación Táctica del Frente Terrestre](https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/Assignment-_59-CF-DS-33663-06%29_Flag_ceremony_for_John_Maisto%2C_departing_U.S._Permanent_Representative_to_the_Organization_of_American_States%2C_former_Special_Assistant_to_President_B_-_DPLA_-_71f4459e2a43de49f2a3040a399e0aae.jpg/1280px-thumbnail.jpg)
 *Figure 1: Archival photographic evidence documented in the News International TEP records.*
 
 La evolución empírica de los acontecimientos desmintió rápidamente los diagnósticos complacientes. La aceleración de las dinámicas en juego obligó a un reajuste de las previsiones institucionales, revelando una marcada correlación entre la exposición previa al riesgo y la celeridad del deterioro funcional en los sectores analizados.
@@ -40,7 +40,7 @@ El comportamiento de los indicadores determinantes durante este período histór
 
 ## 4. Scenario Evaluation and Risk Modeling
 
-![Modelado de Trayectorias y Riesgo Sistémico](https://images.unsplash.com/photo-1526304640581-d334cdbbf45e?auto=format&fit=crop&w=1200&h=630&q=82)
+![Modelado de Trayectorias y Riesgo Sistémico](https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/Hauptsitz_der_OAS_AG_in_Bremen.jpg/1280px-Hauptsitz_der_OAS_AG_in_Bremen.jpg)
 *Figure 2: Trajectory modeling and scenario dispersion prepared by the TEP Quantitative Unit.*
 
 El análisis retrospectivo permite clasificar la trayectoria que finalmente se consolidó frente a las hipótesis alternativas que barajaban los comités en aquel entonces:

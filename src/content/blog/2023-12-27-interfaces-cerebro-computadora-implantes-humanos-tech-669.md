@@ -5,7 +5,7 @@ pubDate: "2023-12-27"
 category: "Technology & AI"
 tags: ["Technology", "Research Paper", "TEP Archive"]
 author: "TEP Intelligence Board & Historical Archive"
-heroImage: "https://images.unsplash.com/photo-1531297484001-80022131f5a1?auto=format&fit=crop&w=1200&h=630&q=82"
+heroImage: "https://upload.wikimedia.org/wikipedia/commons/3/32/Single-layer_feedforward_artificial_neural_network.png"
 canonicalSource: "https://international.newsinternacionaltep.com/category/technology"
 ---
 
@@ -21,7 +21,7 @@ Los reportes primarios recopilados por las corresponsalías y agencias de monito
 
 ## 2. Empirical State of Affairs and Structural Dynamics
 
-![Evidencia y Registro Documental Primario - Interfaces Cerebro-Computadora Invasivas: Los Primeros Implantes en Pacientes Humanos](https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=1200&h=630&q=82)
+![Evidencia y Registro Documental Primario - Interfaces Cerebro-Computadora Invasivas: Los Primeros Implantes en Pacientes Humanos](https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cd/The_neural_network_model_that_generates_the_potential_energy_surface_for_MD_simulation.webp/1280px-The_neural_network_model_that_generates_the_potential_energy_surface_for_MD_simulation.webp)
 *Figure 1: Archival photographic evidence documented in the News International TEP records.*
 
 La evolución empírica de los acontecimientos desmintió rápidamente los diagnósticos complacientes. La aceleración de las dinámicas en juego obligó a un reajuste de las previsiones institucionales, revelando una marcada correlación entre la exposición previa al riesgo y la celeridad del deterioro funcional en los sectores analizados.
@@ -40,7 +40,7 @@ El comportamiento de los indicadores determinantes durante este período histór
 
 ## 4. Scenario Evaluation and Risk Modeling
 
-![Modelado de Trayectorias y Riesgo Sistémico](https://images.unsplash.com/photo-1525547719571-a2d4ac8945e2?auto=format&fit=crop&w=1200&h=630&q=82)
+![Modelado de Trayectorias y Riesgo Sistémico](https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/Transformer-based_neural_network_architecture_applied_to_genomic_Hi-C_data.jpg/1280px-Transformer-based_neural_network_architecture_applied_to_genomic_Hi-C_data.jpg)
 *Figure 2: Trajectory modeling and scenario dispersion prepared by the TEP Quantitative Unit.*
 
 El análisis retrospectivo permite clasificar la trayectoria que finalmente se consolidó frente a las hipótesis alternativas que barajaban los comités en aquel entonces:

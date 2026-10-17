@@ -5,7 +5,7 @@ pubDate: "2026-10-15"
 category: "Technology & AI"
 tags: ["Technology", "Research Paper", "TEP Archive"]
 author: "TEP Intelligence Board & Historical Archive"
-heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/Clara_Shih.jpg/1280px-Clara_Shih.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+heroImage: "https://upload.wikimedia.org/wikipedia/commons/7/73/COI_Linc_Tape_II_drive.jpg"
 canonicalSource: "https://international.newsinternacionaltep.com/category/technology"
 ---
 

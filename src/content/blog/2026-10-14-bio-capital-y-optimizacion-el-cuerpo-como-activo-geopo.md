@@ -5,7 +5,7 @@ pubDate: "2026-10-14"
 category: "Politics & Defense"
 tags: ["Geopolitics", "Research Paper", "TEP Archive"]
 author: "TEP Intelligence Board & Historical Archive"
-heroImage: "https://resizer.glanacion.com/resizer/v2/PIRYDRPMVVGBBDXOKHXFB4BDSA.jpg?auth=2cfa17304b87302c53c1522668562c76e30cb7a8c24d2fe0cafbb8be7352a222&smart=true&width=2000&height=1333"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/AR_Swapfiets%2C_Velo_24%2C_Berlin_%28VB243536%29.jpg/1280px-AR_Swapfiets%2C_Velo_24%2C_Berlin_%28VB243536%29.jpg"
 canonicalSource: "https://international.newsinternacionaltep.com/category/geopolitics"
 ---
 

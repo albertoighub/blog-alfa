@@ -5,7 +5,7 @@ pubDate: "2023-02-20"
 category: "Politics & Defense"
 tags: ["Geopolitics", "Research Paper", "TEP Archive"]
 author: "TEP Intelligence Board & Historical Archive"
-heroImage: "https://images.unsplash.com/photo-1572949645841-094f3a9c4c94?auto=format&fit=crop&w=1200&h=630&q=82"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/64/Prime_Minister_Rishi_Sunak_attends_NATO_summit_%2853039527105%29.jpg/1280px-Prime_Minister_Rishi_Sunak_attends_NATO_summit_%2853039527105%29.jpg"
 canonicalSource: "https://international.newsinternacionaltep.com/category/geopolitics"
 ---
 
@@ -21,7 +21,7 @@ Los reportes primarios recopilados por las corresponsalías y agencias de monito
 
 ## 2. Empirical State of Affairs and Structural Dynamics
 
-![Evidencia y Registro Documental Primario - Reconfiguración de Alianzas en el Sahel: Retirada Occidental y Ascenso de Nuevos Actores](https://images.unsplash.com/photo-1541872703-74c5e44368f9?auto=format&fit=crop&w=1200&h=630&q=82)
+![Evidencia y Registro Documental Primario - Reconfiguración de Alianzas en el Sahel: Retirada Occidental y Ascenso de Nuevos Actores](https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/Rustem_Umerov_at_the_75th_NATO_Leaders_Summit_Minister_of_Defense_dinner_at_the_National_Defense_University%2C_Washington%2C_D.C.%2C_July_10%2C_2024_%28cropped%29.jpg/1280px-Rustem_Umerov_at_the_75th_NATO_Leaders_Summit_Minister_of_Defense_dinner_at_the_National_Defense_University%2C_Washington%2C_D.C.%2C_July_10%2C_2024_%28cropped%29.jpg)
 *Figure 1: Archival photographic evidence documented in the News International TEP records.*
 
 La evolución empírica de los acontecimientos desmintió rápidamente los diagnósticos complacientes. La aceleración de las dinámicas en juego obligó a un reajuste de las previsiones institucionales, revelando una marcada correlación entre la exposición previa al riesgo y la celeridad del deterioro funcional en los sectores analizados.
@@ -40,7 +40,7 @@ El comportamiento de los indicadores determinantes durante este período histór
 
 ## 4. Scenario Evaluation and Risk Modeling
 
-![Modelado de Trayectorias y Riesgo Sistémico](https://images.unsplash.com/photo-1526304640581-d334cdbbf45e?auto=format&fit=crop&w=1200&h=630&q=82)
+![Modelado de Trayectorias y Riesgo Sistémico](https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/Secretaries_Kerry%2C_Hagel_Convene_ISIL_Meeting_on_Sidelines_of_NATO_Summit_in_Wales_%2815142257431%29.jpg/1280px-Secretaries_Kerry%2C_Hagel_Convene_ISIL_Meeting_on_Sidelines_of_NATO_Summit_in_Wales_%2815142257431%29.jpg)
 *Figure 2: Trajectory modeling and scenario dispersion prepared by the TEP Quantitative Unit.*
 
 El análisis retrospectivo permite clasificar la trayectoria que finalmente se consolidó frente a las hipótesis alternativas que barajaban los comités en aquel entonces:

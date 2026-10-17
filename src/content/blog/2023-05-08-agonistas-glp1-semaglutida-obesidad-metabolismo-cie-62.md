@@ -5,7 +5,7 @@ pubDate: "2023-05-08"
 category: "Science & Medicine"
 tags: ["Science", "Research Paper", "TEP Archive"]
 author: "TEP Intelligence Board & Historical Archive"
-heroImage: "https://images.unsplash.com/photo-1576086213369-97a306d36557?auto=format&fit=crop&w=1200&h=630&q=82"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Den_Haag_-_Scheveningseweg_-_View_WSW_on_Vredespaleis_-_International_Court_of_Justice.jpg/1280px-Den_Haag_-_Scheveningseweg_-_View_WSW_on_Vredespaleis_-_International_Court_of_Justice.jpg"
 canonicalSource: "https://international.newsinternacionaltep.com/category/science"
 ---
 
@@ -21,7 +21,7 @@ Los reportes primarios recopilados por las corresponsalías y agencias de monito
 
 ## 2. Empirical State of Affairs and Structural Dynamics
 
-![Evidencia y Registro Documental Primario - La Revolución de los Fármacos Agonistas de GLP-1 (Semaglutida) en el Tratamiento Metabólico](https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=1200&h=630&q=82)
+![Evidencia y Registro Documental Primario - La Revolución de los Fármacos Agonistas de GLP-1 (Semaglutida) en el Tratamiento Metabólico](https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/Gravesite_of_Supreme_Court_Justice_Pierce_Butler.png/1280px-Gravesite_of_Supreme_Court_Justice_Pierce_Butler.png)
 *Figure 1: Archival photographic evidence documented in the News International TEP records.*
 
 La evolución empírica de los acontecimientos desmintió rápidamente los diagnósticos complacientes. La aceleración de las dinámicas en juego obligó a un reajuste de las previsiones institucionales, revelando una marcada correlación entre la exposición previa al riesgo y la celeridad del deterioro funcional en los sectores analizados.
@@ -40,7 +40,7 @@ El comportamiento de los indicadores determinantes durante este período histór
 
 ## 4. Scenario Evaluation and Risk Modeling
 
-![Modelado de Trayectorias y Riesgo Sistémico](https://images.unsplash.com/photo-1579165466791-788226ab77b6?auto=format&fit=crop&w=1200&h=630&q=82)
+![Modelado de Trayectorias y Riesgo Sistémico](https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/High_Court_of_Justice%2C_London%2C_2016-2.jpg/1280px-High_Court_of_Justice%2C_London%2C_2016-2.jpg)
 *Figure 2: Trajectory modeling and scenario dispersion prepared by the TEP Quantitative Unit.*
 
 El análisis retrospectivo permite clasificar la trayectoria que finalmente se consolidó frente a las hipótesis alternativas que barajaban los comités en aquel entonces:

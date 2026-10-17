@@ -5,7 +5,7 @@ pubDate: "2026-10-17"
 category: "Economy & Markets"
 tags: ["Intelligence", "Research Paper", "TEP Archive"]
 author: "TEP Intelligence Board & Historical Archive"
-heroImage: "https://fortune.com/img-assets/wp-content/uploads/2026/10/55589489741_9a53e4dac4_o-e1792095433760.jpg?w=2048"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/NVIDIA_GPU_workstation_2.webp/1280px-NVIDIA_GPU_workstation_2.webp"
 canonicalSource: "https://international.newsinternacionaltep.com/category/economy"
 ---
 

@@ -5,7 +5,7 @@ pubDate: "2022-11-27"
 category: "Politics & Defense"
 tags: ["Geopolitics", "Research Paper", "TEP Archive"]
 author: "TEP Intelligence Board & Historical Archive"
-heroImage: "https://images.unsplash.com/photo-1521791136064-7986c2920216?auto=format&fit=crop&w=1200&h=630&q=82"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/Murat_Nurtleu%2C_Deputy_Prime_Minister_and_Minister_of_Foreign_Affairs_of_the_Republic_of_Kazakhstan_official_visit_to_IAEA_headquarters_in_Vienna%2C_Austria_on_15_March_2024_-_10.jpg/1280px-thumbnail.jpg"
 canonicalSource: "https://international.newsinternacionaltep.com/category/geopolitics"
 ---
 
@@ -21,7 +21,7 @@ Los reportes primarios recopilados por las corresponsalías y agencias de monito
 
 ## 2. Empirical State of Affairs and Structural Dynamics
 
-![Evidencia y Registro Documental Primario - El Conflicto de Nagorno-Karabaj y el Empleo de Tecnología Militar de Precisión](https://images.unsplash.com/photo-1577495508048-b635879837f1?auto=format&fit=crop&w=1200&h=630&q=82)
+![Evidencia y Registro Documental Primario - El Conflicto de Nagorno-Karabaj y el Empleo de Tecnología Militar de Precisión](https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/Murat_Nurtleu%2C_Deputy_Prime_Minister_and_Minister_of_Foreign_Affairs_of_the_Republic_of_Kazakhstan_official_visit_to_IAEA_headquarters_in_Vienna%2C_Austria_on_15_March_2024_-_2.jpg/1280px-thumbnail.jpg)
 *Figure 1: Archival photographic evidence documented in the News International TEP records.*
 
 La evolución empírica de los acontecimientos desmintió rápidamente los diagnósticos complacientes. La aceleración de las dinámicas en juego obligó a un reajuste de las previsiones institucionales, revelando una marcada correlación entre la exposición previa al riesgo y la celeridad del deterioro funcional en los sectores analizados.
@@ -40,7 +40,7 @@ El comportamiento de los indicadores determinantes durante este período histór
 
 ## 4. Scenario Evaluation and Risk Modeling
 
-![Modelado de Trayectorias y Riesgo Sistémico](https://images.unsplash.com/photo-1541872703-74c5e44368f9?auto=format&fit=crop&w=1200&h=630&q=82)
+![Modelado de Trayectorias y Riesgo Sistémico](https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/Murat_Nurtleu%2C_Deputy_Prime_Minister_and_Minister_of_Foreign_Affairs_of_the_Republic_of_Kazakhstan_official_visit_to_IAEA_headquarters_in_Vienna%2C_Austria_on_15_March_2024_-_5.jpg/1280px-thumbnail.jpg)
 *Figure 2: Trajectory modeling and scenario dispersion prepared by the TEP Quantitative Unit.*
 
 El análisis retrospectivo permite clasificar la trayectoria que finalmente se consolidó frente a las hipótesis alternativas que barajaban los comités en aquel entonces:

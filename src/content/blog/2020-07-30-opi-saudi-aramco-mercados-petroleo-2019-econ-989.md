@@ -5,7 +5,7 @@ pubDate: "2020-07-30"
 category: "Economy & Markets"
 tags: ["Intelligence", "Research Paper", "TEP Archive"]
 author: "TEP Intelligence Board & Historical Archive"
-heroImage: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1200&h=630&q=82"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/HK_CH_%E4%B8%AD%E7%92%B0_Central_%E5%BE%B7%E8%BC%94%E9%81%93%E4%B8%AD_Des_Voeux_Road_Central_bus_stop_sign_n_HSBC_HQ_n_SCB_Standard_Chartered_Bank_HQ_n_New_Henry_House_December_2025_N13P.jpg/1280px-HK_CH_%E4%B8%AD%E7%92%B0_Central_%E5%BE%B7%E8%BC%94%E9%81%93%E4%B8%AD_Des_Voeux_Road_Central_bus_stop_sign_n_HSBC_HQ_n_SCB_Standard_Chartered_Bank_HQ_n_New_Henry_House_December_2025_N13P.jpg"
 canonicalSource: "https://international.newsinternacionaltep.com/category/economy"
 ---
 
@@ -21,7 +21,7 @@ Los reportes primarios recopilados por las corresponsalías y agencias de monito
 
 ## 2. Empirical State of Affairs and Structural Dynamics
 
-![Evidencia y Registro Documental Primario - La OPI Histórica de Saudi Aramco y la Valoración del Sector Petrolero Tradicional](https://images.unsplash.com/photo-1526304640581-d334cdbbf45e?auto=format&fit=crop&w=1200&h=630&q=82)
+![Evidencia y Registro Documental Primario - La OPI Histórica de Saudi Aramco y la Valoración del Sector Petrolero Tradicional](https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/HK_CH_%E4%B8%AD%E7%92%B0_%E5%BE%B7%E8%BC%94%E9%81%93%E4%B8%AD_Des_Voeux_Road_Central_Jubilee_Street_Central_Market_April_2022_Px3_01.jpg/1280px-HK_CH_%E4%B8%AD%E7%92%B0_%E5%BE%B7%E8%BC%94%E9%81%93%E4%B8%AD_Des_Voeux_Road_Central_Jubilee_Street_Central_Market_April_2022_Px3_01.jpg)
 *Figure 1: Archival photographic evidence documented in the News International TEP records.*
 
 La evolución empírica de los acontecimientos desmintió rápidamente los diagnósticos complacientes. La aceleración de las dinámicas en juego obligó a un reajuste de las previsiones institucionales, revelando una marcada correlación entre la exposición previa al riesgo y la celeridad del deterioro funcional en los sectores analizados.
@@ -40,7 +40,7 @@ El comportamiento de los indicadores determinantes durante este período histór
 
 ## 4. Scenario Evaluation and Risk Modeling
 
-![Modelado de Trayectorias y Riesgo Sistémico](https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?auto=format&fit=crop&w=1200&h=630&q=82)
+![Modelado de Trayectorias y Riesgo Sistémico](https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f1/HK_Central_Des_Voeux_Road_Central_HSBC_HQ_n_SCBank_Standard_Chartered_Bank_HQ_New_Henry_House_July_2020_SS2.jpg/1280px-HK_Central_Des_Voeux_Road_Central_HSBC_HQ_n_SCBank_Standard_Chartered_Bank_HQ_New_Henry_House_July_2020_SS2.jpg)
 *Figure 2: Trajectory modeling and scenario dispersion prepared by the TEP Quantitative Unit.*
 
 El análisis retrospectivo permite clasificar la trayectoria que finalmente se consolidó frente a las hipótesis alternativas que barajaban los comités en aquel entonces:

@@ -5,7 +5,7 @@ pubDate: "2026-10-14"
 category: "Economy & Markets"
 tags: ["Intelligence", "Research Paper", "TEP Archive"]
 author: "TEP Intelligence Board & Historical Archive"
-heroImage: "https://cdn.mos.cms.futurecdn.net/q4KTEJUJXQFxvjUiJQUEjF-1920-80.jpg"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/At_La_Palma_2023_420.jpg/1280px-At_La_Palma_2023_420.jpg"
 canonicalSource: "https://international.newsinternacionaltep.com/category/economy"
 ---
 

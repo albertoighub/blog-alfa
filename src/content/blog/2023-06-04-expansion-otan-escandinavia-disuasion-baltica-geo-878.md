@@ -5,7 +5,7 @@ pubDate: "2023-06-04"
 category: "Politics & Defense"
 tags: ["Geopolitics", "Research Paper", "TEP Archive"]
 author: "TEP Intelligence Board & Historical Archive"
-heroImage: "https://images.unsplash.com/photo-1521791136064-7986c2920216?auto=format&fit=crop&w=1200&h=630&q=82"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/Secretary_of_Defense_Panetta_at_a_Press_Conference_with_Japan%E2%80%99s_Defense_Minister_Morimoto_%287995087179%29.jpg/1280px-Secretary_of_Defense_Panetta_at_a_Press_Conference_with_Japan%E2%80%99s_Defense_Minister_Morimoto_%287995087179%29.jpg"
 canonicalSource: "https://international.newsinternacionaltep.com/category/geopolitics"
 ---
 
@@ -21,7 +21,7 @@ Los reportes primarios recopilados por las corresponsalías y agencias de monito
 
 ## 2. Empirical State of Affairs and Structural Dynamics
 
-![Evidencia y Registro Documental Primario - Doctrina de Disuasión Báltica y la Expansión de la OTAN en Escandinavia](https://images.unsplash.com/photo-1577495508048-b635879837f1?auto=format&fit=crop&w=1200&h=630&q=82)
+![Evidencia y Registro Documental Primario - Doctrina de Disuasión Báltica y la Expansión de la OTAN en Escandinavia](https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/Secretary_of_Defense_Robert_Gates_and_Russian_Minister_of_Defense_Sergey_Ivanov_reach_across_the_conference_table.jpg/1280px-Secretary_of_Defense_Robert_Gates_and_Russian_Minister_of_Defense_Sergey_Ivanov_reach_across_the_conference_table.jpg)
 *Figure 1: Archival photographic evidence documented in the News International TEP records.*
 
 La evolución empírica de los acontecimientos desmintió rápidamente los diagnósticos complacientes. La aceleración de las dinámicas en juego obligó a un reajuste de las previsiones institucionales, revelando una marcada correlación entre la exposición previa al riesgo y la celeridad del deterioro funcional en los sectores analizados.
@@ -40,7 +40,7 @@ El comportamiento de los indicadores determinantes durante este período histór
 
 ## 4. Scenario Evaluation and Risk Modeling
 
-![Modelado de Trayectorias y Riesgo Sistémico](https://images.unsplash.com/photo-1541872703-74c5e44368f9?auto=format&fit=crop&w=1200&h=630&q=82)
+![Modelado de Trayectorias y Riesgo Sistémico](https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/Secretary_of_defense%2C_French_minister_of_defense_hold_a_joint_press_conference%2C_speak_about_the_counter-ISIL_fight%2C_answer_questions_from_the_press_%282363138%29.jpg/1280px-thumbnail.jpg)
 *Figure 2: Trajectory modeling and scenario dispersion prepared by the TEP Quantitative Unit.*
 
 El análisis retrospectivo permite clasificar la trayectoria que finalmente se consolidó frente a las hipótesis alternativas que barajaban los comités en aquel entonces:

@@ -5,7 +5,7 @@ pubDate: "2021-12-22"
 category: "Politics & Defense"
 tags: ["Geopolitics", "Research Paper", "TEP Archive"]
 author: "TEP Intelligence Board & Historical Archive"
-heroImage: "https://images.unsplash.com/photo-1541872703-74c5e44368f9?auto=format&fit=crop&w=1200&h=630&q=82"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c9/Representatives_of_the_United_States_at_the_coming_international_peace_conference_LOC_3798330446.jpg/1280px-Representatives_of_the_United_States_at_the_coming_international_peace_conference_LOC_3798330446.jpg"
 canonicalSource: "https://international.newsinternacionaltep.com/category/geopolitics"
 ---
 
@@ -21,7 +21,7 @@ Los reportes primarios recopilados por las corresponsalías y agencias de monito
 
 ## 2. Empirical State of Affairs and Structural Dynamics
 
-![Evidencia y Registro Documental Primario - La Doctrina de Seguridad Nacional Post-Pandémica y el Control de Infraestructuras Críticas](https://images.unsplash.com/photo-1526304640581-d334cdbbf45e?auto=format&fit=crop&w=1200&h=630&q=82)
+![Evidencia y Registro Documental Primario - La Doctrina de Seguridad Nacional Post-Pandémica y el Control de Infraestructuras Críticas](https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/Spandoek_Women%27s_International_League_for_Peace_and_Freedom%2C_Bestanddeelnr_931-8312.jpg/1280px-Spandoek_Women%27s_International_League_for_Peace_and_Freedom%2C_Bestanddeelnr_931-8312.jpg)
 *Figure 1: Archival photographic evidence documented in the News International TEP records.*
 
 La evolución empírica de los acontecimientos desmintió rápidamente los diagnósticos complacientes. La aceleración de las dinámicas en juego obligó a un reajuste de las previsiones institucionales, revelando una marcada correlación entre la exposición previa al riesgo y la celeridad del deterioro funcional en los sectores analizados.
@@ -40,7 +40,7 @@ El comportamiento de los indicadores determinantes durante este período histór
 
 ## 4. Scenario Evaluation and Risk Modeling
 
-![Modelado de Trayectorias y Riesgo Sistémico](https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1200&h=630&q=82)
+![Modelado de Trayectorias y Riesgo Sistémico](https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/The_first_plenary_session_of_the_peace_conference%2C_held_in_the_Ministry_of_Foreign_Affairs%2C_Paris%2C_on_January_18%2C_1919.png/1280px-The_first_plenary_session_of_the_peace_conference%2C_held_in_the_Ministry_of_Foreign_Affairs%2C_Paris%2C_on_January_18%2C_1919.png)
 *Figure 2: Trajectory modeling and scenario dispersion prepared by the TEP Quantitative Unit.*
 
 El análisis retrospectivo permite clasificar la trayectoria que finalmente se consolidó frente a las hipótesis alternativas que barajaban los comités en aquel entonces:

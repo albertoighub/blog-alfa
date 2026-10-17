@@ -5,7 +5,7 @@ pubDate: "2023-10-01"
 category: "Technology & AI"
 tags: ["Technology", "Research Paper", "TEP Archive"]
 author: "TEP Intelligence Board & Historical Archive"
-heroImage: "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&w=1200&h=630&q=82"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/Lists_and_Artificial_Intelligence_in_Wikipedia.jpg/1280px-Lists_and_Artificial_Intelligence_in_Wikipedia.jpg"
 canonicalSource: "https://international.newsinternacionaltep.com/category/technology"
 ---
 
@@ -21,7 +21,7 @@ Los reportes primarios recopilados por las corresponsalías y agencias de monito
 
 ## 2. Empirical State of Affairs and Structural Dynamics
 
-![Evidencia y Registro Documental Primario - Computación Cuántica con Corrección de Errores Lógicos: El Tránsito hacia Sistemas Tolerantes a Fallos](https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1200&h=630&q=82)
+![Evidencia y Registro Documental Primario - Computación Cuántica con Corrección de Errores Lógicos: El Tránsito hacia Sistemas Tolerantes a Fallos](https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/Portrait_of_an_elegant_young_lady_by_Arthur_Langton_AI_transformation.png/1280px-Portrait_of_an_elegant_young_lady_by_Arthur_Langton_AI_transformation.png)
 *Figure 1: Archival photographic evidence documented in the News International TEP records.*
 
 La evolución empírica de los acontecimientos desmintió rápidamente los diagnósticos complacientes. La aceleración de las dinámicas en juego obligó a un reajuste de las previsiones institucionales, revelando una marcada correlación entre la exposición previa al riesgo y la celeridad del deterioro funcional en los sectores analizados.
@@ -40,7 +40,7 @@ El comportamiento de los indicadores determinantes durante este período histór
 
 ## 4. Scenario Evaluation and Risk Modeling
 
-![Modelado de Trayectorias y Riesgo Sistémico](https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&w=1200&h=630&q=82)
+![Modelado de Trayectorias y Riesgo Sistémico](https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/Research_topics_in_Business-applied_Artificial_Intelligence.png/1280px-Research_topics_in_Business-applied_Artificial_Intelligence.png)
 *Figure 2: Trajectory modeling and scenario dispersion prepared by the TEP Quantitative Unit.*
 
 El análisis retrospectivo permite clasificar la trayectoria que finalmente se consolidó frente a las hipótesis alternativas que barajaban los comités en aquel entonces:

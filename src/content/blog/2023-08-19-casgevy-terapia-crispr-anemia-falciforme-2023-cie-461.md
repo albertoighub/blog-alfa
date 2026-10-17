@@ -5,7 +5,7 @@ pubDate: "2023-08-19"
 category: "Science & Medicine"
 tags: ["Science", "Research Paper", "TEP Archive"]
 author: "TEP Intelligence Board & Historical Archive"
-heroImage: "https://images.unsplash.com/photo-1576086213369-97a306d36557?auto=format&fit=crop&w=1200&h=630&q=82"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/US_Navy_100127-N-5549O-054_Secretary_of_the_Navy_%28SECNAV%29_the_Honorable_Ray_Mabus%2C_left%2C_speaks_with_defense_industry_leaders_while_attending_the_Pacific_2010_International_Maritime_Conference_in_Sydney%2C_Australia.jpg/1280px-thumbnail.jpg"
 canonicalSource: "https://international.newsinternacionaltep.com/category/science"
 ---
 
@@ -21,7 +21,7 @@ Los reportes primarios recopilados por las corresponsalías y agencias de monito
 
 ## 2. Empirical State of Affairs and Structural Dynamics
 
-![Evidencia y Registro Documental Primario - Aprobación Histórica de Casgevy: Primera Terapia Médica con CRISPR para Anemia Falciforme](https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=1200&h=630&q=82)
+![Evidencia y Registro Documental Primario - Aprobación Histórica de Casgevy: Primera Terapia Médica con CRISPR para Anemia Falciforme](https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/Ambassador_Donahoe_Addresses_Special_Session_on_Syria.jpg/1280px-Ambassador_Donahoe_Addresses_Special_Session_on_Syria.jpg)
 *Figure 1: Archival photographic evidence documented in the News International TEP records.*
 
 La evolución empírica de los acontecimientos desmintió rápidamente los diagnósticos complacientes. La aceleración de las dinámicas en juego obligó a un reajuste de las previsiones institucionales, revelando una marcada correlación entre la exposición previa al riesgo y la celeridad del deterioro funcional en los sectores analizados.
@@ -40,7 +40,7 @@ El comportamiento de los indicadores determinantes durante este período histór
 
 ## 4. Scenario Evaluation and Risk Modeling
 
-![Modelado de Trayectorias y Riesgo Sistémico](https://images.unsplash.com/photo-1579165466791-788226ab77b6?auto=format&fit=crop&w=1200&h=630&q=82)
+![Modelado de Trayectorias y Riesgo Sistémico](https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/Ambassador_Donahoe_and_Under_Secretary_Otero_at_U.S._Delegation_Desk.jpg/1280px-Ambassador_Donahoe_and_Under_Secretary_Otero_at_U.S._Delegation_Desk.jpg)
 *Figure 2: Trajectory modeling and scenario dispersion prepared by the TEP Quantitative Unit.*
 
 El análisis retrospectivo permite clasificar la trayectoria que finalmente se consolidó frente a las hipótesis alternativas que barajaban los comités en aquel entonces:

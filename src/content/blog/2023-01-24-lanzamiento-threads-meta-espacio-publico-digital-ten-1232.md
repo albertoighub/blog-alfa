@@ -5,7 +5,7 @@ pubDate: "2023-01-24"
 category: "Social Media & Dynamics"
 tags: ["Intelligence", "Research Paper", "TEP Archive"]
 author: "TEP Intelligence Board & Historical Archive"
-heroImage: "https://images.unsplash.com/photo-1563986768609-322da13575f3?auto=format&fit=crop&w=1200&h=630&q=82"
+heroImage: "https://upload.wikimedia.org/wikipedia/commons/9/96/GI_walks_down_the_runway_during_a_fashion_show_dressed_in_a_colorful%2C_traditional_Afghan_dress._The_March_3%2C_2008.jpg"
 canonicalSource: "https://international.newsinternacionaltep.com/category/trends"
 ---
 
@@ -21,7 +21,7 @@ Los reportes primarios recopilados por las corresponsalías y agencias de monito
 
 ## 2. Empirical State of Affairs and Structural Dynamics
 
-![Evidencia y Registro Documental Primario - El Lanzamiento Récord de Threads de Meta y la Fragmentación del Espacio Público Digital](https://images.unsplash.com/photo-1573164713988-8665fc963095?auto=format&fit=crop&w=1200&h=630&q=82)
+![Evidencia y Registro Documental Primario - El Lanzamiento Récord de Threads de Meta y la Fragmentación del Espacio Público Digital](https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/Jessica_Minh_Anh_at_Runway_on_the_Runway_Fashion_and_Sustainability_Show_2020.jpg/1280px-Jessica_Minh_Anh_at_Runway_on_the_Runway_Fashion_and_Sustainability_Show_2020.jpg)
 *Figure 1: Archival photographic evidence documented in the News International TEP records.*
 
 La evolución empírica de los acontecimientos desmintió rápidamente los diagnósticos complacientes. La aceleración de las dinámicas en juego obligó a un reajuste de las previsiones institucionales, revelando una marcada correlación entre la exposición previa al riesgo y la celeridad del deterioro funcional en los sectores analizados.
@@ -40,7 +40,7 @@ El comportamiento de los indicadores determinantes durante este período histór
 
 ## 4. Scenario Evaluation and Risk Modeling
 
-![Modelado de Trayectorias y Riesgo Sistémico](https://images.unsplash.com/photo-1611162617474-5b21e879e113?auto=format&fit=crop&w=1200&h=630&q=82)
+![Modelado de Trayectorias y Riesgo Sistémico](https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/Jessica_Minh_Anh_at_Runway_on_the_Runway_Fashion_and_Sustainability_Show_2020_%282%29.jpg/1280px-Jessica_Minh_Anh_at_Runway_on_the_Runway_Fashion_and_Sustainability_Show_2020_%282%29.jpg)
 *Figure 2: Trajectory modeling and scenario dispersion prepared by the TEP Quantitative Unit.*
 
 El análisis retrospectivo permite clasificar la trayectoria que finalmente se consolidó frente a las hipótesis alternativas que barajaban los comités en aquel entonces:

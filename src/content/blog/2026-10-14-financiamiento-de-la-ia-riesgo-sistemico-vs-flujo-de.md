@@ -5,7 +5,7 @@ pubDate: "2026-10-14"
 category: "Economy & Markets"
 tags: ["Intelligence", "Research Paper", "TEP Archive"]
 author: "TEP Intelligence Board & Historical Archive"
-heroImage: "https://images.mktw.net/im-00703847"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/Man_wearing_Oculus_Meta_Quest_3.jpg/1280px-Man_wearing_Oculus_Meta_Quest_3.jpg"
 canonicalSource: "https://international.newsinternacionaltep.com/category/economy"
 ---
 

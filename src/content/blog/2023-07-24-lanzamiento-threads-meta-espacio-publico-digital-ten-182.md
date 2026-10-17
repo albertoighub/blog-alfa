@@ -5,7 +5,7 @@ pubDate: "2023-07-24"
 category: "Social Media & Dynamics"
 tags: ["Intelligence", "Research Paper", "TEP Archive"]
 author: "TEP Intelligence Board & Historical Archive"
-heroImage: "https://images.unsplash.com/photo-1563986768609-322da13575f3?auto=format&fit=crop&w=1200&h=630&q=82"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/Convention_Center_of_Dashi_beyond_Karatsu_Civic_Auditorium.JPG/1280px-Convention_Center_of_Dashi_beyond_Karatsu_Civic_Auditorium.JPG"
 canonicalSource: "https://international.newsinternacionaltep.com/category/trends"
 ---
 
@@ -21,7 +21,7 @@ Los reportes primarios recopilados por las corresponsalías y agencias de monito
 
 ## 2. Empirical State of Affairs and Structural Dynamics
 
-![Evidencia y Registro Documental Primario - El Lanzamiento Récord de Threads de Meta y la Fragmentación del Espacio Público Digital](https://images.unsplash.com/photo-1573164713988-8665fc963095?auto=format&fit=crop&w=1200&h=630&q=82)
+![Evidencia y Registro Documental Primario - El Lanzamiento Récord de Threads de Meta y la Fragmentación del Espacio Público Digital](https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/Convention_Place_Station_demolition_closeup.jpg/1280px-Convention_Place_Station_demolition_closeup.jpg)
 *Figure 1: Archival photographic evidence documented in the News International TEP records.*
 
 La evolución empírica de los acontecimientos desmintió rápidamente los diagnósticos complacientes. La aceleración de las dinámicas en juego obligó a un reajuste de las previsiones institucionales, revelando una marcada correlación entre la exposición previa al riesgo y la celeridad del deterioro funcional en los sectores analizados.
@@ -40,7 +40,7 @@ El comportamiento de los indicadores determinantes durante este período histór
 
 ## 4. Scenario Evaluation and Risk Modeling
 
-![Modelado de Trayectorias y Riesgo Sistémico](https://images.unsplash.com/photo-1611162617474-5b21e879e113?auto=format&fit=crop&w=1200&h=630&q=82)
+![Modelado de Trayectorias y Riesgo Sistémico](https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/DEF-TECH_Bharat_2026%2C_KTPO_Exhibition_and_Convention_Centre%2C_Bangalore_183.jpg/1280px-DEF-TECH_Bharat_2026%2C_KTPO_Exhibition_and_Convention_Centre%2C_Bangalore_183.jpg)
 *Figure 2: Trajectory modeling and scenario dispersion prepared by the TEP Quantitative Unit.*
 
 El análisis retrospectivo permite clasificar la trayectoria que finalmente se consolidó frente a las hipótesis alternativas que barajaban los comités en aquel entonces:

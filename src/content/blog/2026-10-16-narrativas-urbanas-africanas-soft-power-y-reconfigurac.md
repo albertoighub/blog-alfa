@@ -5,7 +5,7 @@ pubDate: "2026-10-16"
 category: "Politics & Defense"
 tags: ["Geopolitics", "Research Paper", "TEP Archive"]
 author: "TEP Intelligence Board & Historical Archive"
-heroImage: "https://images.newsteam.io/image/2160/2Bq28FuGKoMc6B88hWfaw2ePcxsVwatCHt9vMHTgfhqGStBiZWDMDmJ8G9UpFmAUH3eXu4sffFgx2ZeJFa6BKRi8hTyqAPvEAtnoyvydXyNDh1JEBucJzG4Jqb5ssSPzwKuJj4Aa8m8uHjdumjBv1Ea"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/HPC_Building_in_IITM%2C_Pune.jpg/1280px-HPC_Building_in_IITM%2C_Pune.jpg"
 canonicalSource: "https://international.newsinternacionaltep.com/category/geopolitics"
 ---
 

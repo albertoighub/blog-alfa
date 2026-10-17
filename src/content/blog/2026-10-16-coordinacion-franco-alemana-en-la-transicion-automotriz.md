@@ -5,7 +5,7 @@ pubDate: "2026-10-17"
 category: "Economy & Markets"
 tags: ["Intelligence", "Research Paper", "TEP Archive"]
 author: "TEP Intelligence Board & Historical Archive"
-heroImage: "https://images.unsplash.com/photo-1565043589221-1a6fd9ae45c7?auto=format&fit=crop&w=1200&h=630&q=82"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/eb/Hpc-cluster-basic.png/1280px-Hpc-cluster-basic.png"
 canonicalSource: "https://international.newsinternacionaltep.com/category/economy"
 ---
 

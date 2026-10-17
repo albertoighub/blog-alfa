@@ -5,7 +5,7 @@ pubDate: "2021-06-03"
 category: "Social Media & Dynamics"
 tags: ["Intelligence", "Research Paper", "TEP Archive"]
 author: "TEP Intelligence Board & Historical Archive"
-heroImage: "https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=1200&h=630&q=82"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/Sabrina_Carpenter_-_Disney_Social_Media_Moms_Conference_-_1.jpg/1280px-Sabrina_Carpenter_-_Disney_Social_Media_Moms_Conference_-_1.jpg"
 canonicalSource: "https://international.newsinternacionaltep.com/category/trends"
 ---
 
@@ -21,7 +21,7 @@ Los reportes primarios recopilados por las corresponsalías y agencias de monito
 
 ## 2. Empirical State of Affairs and Structural Dynamics
 
-![Evidencia y Registro Documental Primario - Mercado Clandestino de Cuentas Verificadas y Venta de Reputación Sintética en Redes Sociales](https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=1200&h=630&q=82)
+![Evidencia y Registro Documental Primario - Mercado Clandestino de Cuentas Verificadas y Venta de Reputación Sintética en Redes Sociales](https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/Sabrina_Carpenter_-_Disney_Social_Media_Moms_Conference_-_3.jpg/1280px-Sabrina_Carpenter_-_Disney_Social_Media_Moms_Conference_-_3.jpg)
 *Figure 1: Archival photographic evidence documented in the News International TEP records.*
 
 La evolución empírica de los acontecimientos desmintió rápidamente los diagnósticos complacientes. La aceleración de las dinámicas en juego obligó a un reajuste de las previsiones institucionales, revelando una marcada correlación entre la exposición previa al riesgo y la celeridad del deterioro funcional en los sectores analizados.
@@ -40,7 +40,7 @@ El comportamiento de los indicadores determinantes durante este período histór
 
 ## 4. Scenario Evaluation and Risk Modeling
 
-![Modelado de Trayectorias y Riesgo Sistémico](https://images.unsplash.com/photo-1534536281715-e28d76689b4d?auto=format&fit=crop&w=1200&h=630&q=82)
+![Modelado de Trayectorias y Riesgo Sistémico](https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/Sabrina_Carpenter_-_Disney_Social_Media_Moms_Conference_-_5.jpg/1280px-Sabrina_Carpenter_-_Disney_Social_Media_Moms_Conference_-_5.jpg)
 *Figure 2: Trajectory modeling and scenario dispersion prepared by the TEP Quantitative Unit.*
 
 El análisis retrospectivo permite clasificar la trayectoria que finalmente se consolidó frente a las hipótesis alternativas que barajaban los comités en aquel entonces:

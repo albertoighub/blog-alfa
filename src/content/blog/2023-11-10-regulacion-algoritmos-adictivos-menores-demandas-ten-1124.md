@@ -5,7 +5,7 @@ pubDate: "2023-11-10"
 category: "Social Media & Dynamics"
 tags: ["Intelligence", "Research Paper", "TEP Archive"]
 author: "TEP Intelligence Board & Historical Archive"
-heroImage: "https://images.unsplash.com/photo-1563986768609-322da13575f3?auto=format&fit=crop&w=1200&h=630&q=82"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/%E4%B8%80%E8%88%AC%E8%B2%A1%E5%9B%A3%E6%B3%95%E4%BA%BA_%E6%97%A5%E6%9C%ACesports%E4%BF%83%E9%80%B2%E5%8D%94%E4%BC%9A.png/1280px-%E4%B8%80%E8%88%AC%E8%B2%A1%E5%9B%A3%E6%B3%95%E4%BA%BA_%E6%97%A5%E6%9C%ACesports%E4%BF%83%E9%80%B2%E5%8D%94%E4%BC%9A.png"
 canonicalSource: "https://international.newsinternacionaltep.com/category/trends"
 ---
 
@@ -21,7 +21,7 @@ Los reportes primarios recopilados por las corresponsalías y agencias de monito
 
 ## 2. Empirical State of Affairs and Structural Dynamics
 
-![Evidencia y Registro Documental Primario - La Regulación de Algoritmos Adictivos en Menores de Edad: Demandas de Estados y Fiscales Generales](https://images.unsplash.com/photo-1573164713988-8665fc963095?auto=format&fit=crop&w=1200&h=630&q=82)
+![Evidencia y Registro Documental Primario - La Regulación de Algoritmos Adictivos en Menores de Edad: Demandas de Estados y Fiscales Generales](https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/Arena_Digital_Brasil.png/1280px-Arena_Digital_Brasil.png)
 *Figure 1: Archival photographic evidence documented in the News International TEP records.*
 
 La evolución empírica de los acontecimientos desmintió rápidamente los diagnósticos complacientes. La aceleración de las dinámicas en juego obligó a un reajuste de las previsiones institucionales, revelando una marcada correlación entre la exposición previa al riesgo y la celeridad del deterioro funcional en los sectores analizados.
@@ -40,7 +40,7 @@ El comportamiento de los indicadores determinantes durante este período histór
 
 ## 4. Scenario Evaluation and Risk Modeling
 
-![Modelado de Trayectorias y Riesgo Sistémico](https://images.unsplash.com/photo-1611162617474-5b21e879e113?auto=format&fit=crop&w=1200&h=630&q=82)
+![Modelado de Trayectorias y Riesgo Sistémico](https://upload.wikimedia.org/wikipedia/commons/1/19/Auto_d%27entrada_a_la_cursa_pedestre_de_l%27Atl%C3%A8tic_Esporting_Club.jpeg)
 *Figure 2: Trajectory modeling and scenario dispersion prepared by the TEP Quantitative Unit.*
 
 El análisis retrospectivo permite clasificar la trayectoria que finalmente se consolidó frente a las hipótesis alternativas que barajaban los comités en aquel entonces:

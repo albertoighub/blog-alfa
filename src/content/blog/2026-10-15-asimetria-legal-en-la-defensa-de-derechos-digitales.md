@@ -5,7 +5,7 @@ pubDate: "2026-10-15"
 category: "Technology & AI"
 tags: ["Technology", "Research Paper", "TEP Archive"]
 author: "TEP Intelligence Board & Historical Archive"
-heroImage: "https://www.01net.com/app/uploads/2026/10/Miniature-1-1344x756.jpg"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/Computer_DEC_VAX_11-780-5_in_Living_Computer_Museum%2C_Seattle_%28strongly_edited_image%2C_without_19-inch-rack%29.jpg/1280px-Computer_DEC_VAX_11-780-5_in_Living_Computer_Museum%2C_Seattle_%28strongly_edited_image%2C_without_19-inch-rack%29.jpg"
 canonicalSource: "https://international.newsinternacionaltep.com/category/technology"
 ---
 

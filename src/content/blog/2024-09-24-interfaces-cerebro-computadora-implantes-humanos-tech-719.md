@@ -5,7 +5,7 @@ pubDate: "2024-09-24"
 category: "Technology & AI"
 tags: ["Technology", "Research Paper", "TEP Archive"]
 author: "TEP Intelligence Board & Historical Archive"
-heroImage: "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&w=1200&h=630&q=82"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/11.03.85_Au_CNES_Matra_ECS_5_ECS_4_%281985%29_-_53Fi2171.jpg/1280px-11.03.85_Au_CNES_Matra_ECS_5_ECS_4_%281985%29_-_53Fi2171.jpg"
 canonicalSource: "https://international.newsinternacionaltep.com/category/technology"
 ---
 
@@ -21,7 +21,7 @@ Los reportes primarios recopilados por las corresponsalías y agencias de monito
 
 ## 2. Empirical State of Affairs and Structural Dynamics
 
-![Evidencia y Registro Documental Primario - Interfaces Cerebro-Computadora Invasivas: Los Primeros Implantes en Pacientes Humanos](https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1200&h=630&q=82)
+![Evidencia y Registro Documental Primario - Interfaces Cerebro-Computadora Invasivas: Los Primeros Implantes en Pacientes Humanos](https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/11.03.85_Au_CNES_Matra_T%C3%A9l%C3%A9com_1B_pr%C3%A9sent%C3%A9_par_M._Adrien_Blassuta_%281985%29_-_53Fi2161.jpg/1280px-11.03.85_Au_CNES_Matra_T%C3%A9l%C3%A9com_1B_pr%C3%A9sent%C3%A9_par_M._Adrien_Blassuta_%281985%29_-_53Fi2161.jpg)
 *Figure 1: Archival photographic evidence documented in the News International TEP records.*
 
 La evolución empírica de los acontecimientos desmintió rápidamente los diagnósticos complacientes. La aceleración de las dinámicas en juego obligó a un reajuste de las previsiones institucionales, revelando una marcada correlación entre la exposición previa al riesgo y la celeridad del deterioro funcional en los sectores analizados.
@@ -40,7 +40,7 @@ El comportamiento de los indicadores determinantes durante este período histór
 
 ## 4. Scenario Evaluation and Risk Modeling
 
-![Modelado de Trayectorias y Riesgo Sistémico](https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&w=1200&h=630&q=82)
+![Modelado de Trayectorias y Riesgo Sistémico](https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d0/11.03.85_Au_CNES_Matra_T%C3%A9l%C3%A9com_1B_pr%C3%A9sent%C3%A9_par_M._Adrien_Blassuta_%281985%29_-_53Fi2162.jpg/1280px-11.03.85_Au_CNES_Matra_T%C3%A9l%C3%A9com_1B_pr%C3%A9sent%C3%A9_par_M._Adrien_Blassuta_%281985%29_-_53Fi2162.jpg)
 *Figure 2: Trajectory modeling and scenario dispersion prepared by the TEP Quantitative Unit.*
 
 El análisis retrospectivo permite clasificar la trayectoria que finalmente se consolidó frente a las hipótesis alternativas que barajaban los comités en aquel entonces:

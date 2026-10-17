@@ -5,7 +5,7 @@ pubDate: "2026-10-14"
 category: "Economy & Markets"
 tags: ["Intelligence", "Research Paper", "TEP Archive"]
 author: "TEP Intelligence Board & Historical Archive"
-heroImage: "https://cdn.mos.cms.futurecdn.net/y3MEQH2gNHAJnB9nLieYSG-1920-80.jpg"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/Alcatel_Idol_4_with_VR_box.jpg/1280px-Alcatel_Idol_4_with_VR_box.jpg"
 canonicalSource: "https://international.newsinternacionaltep.com/category/economy"
 ---
 

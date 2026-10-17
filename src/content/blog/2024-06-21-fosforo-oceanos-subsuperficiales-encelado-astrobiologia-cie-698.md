@@ -5,7 +5,7 @@ pubDate: "2024-06-21"
 category: "Science & Medicine"
 tags: ["Science", "Research Paper", "TEP Archive"]
 author: "TEP Intelligence Board & Historical Archive"
-heroImage: "https://images.unsplash.com/photo-1516549655169-df83a0774514?auto=format&fit=crop&w=1200&h=630&q=82"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/Tanker_%27Trans_Chemica%27_%28IMO_9314715%29_at_the_anchorage_of_the_Port_of_Haifa%2C_Israel_-_2023-11-28_%28DSC4833_-_DSC4870%3B_G%27MIC_Median_Blend%29.guetzli.jpg/1280px-Tanker_%27Trans_Chemica%27_%28IMO_9314715%29_at_the_anchorage_of_the_Port_of_Haifa%2C_Israel_-_2023-11-28_%28DSC4833_-_DSC4870%3B_G%27MIC_Median_Blend%29.guetzli.jpg"
 canonicalSource: "https://international.newsinternacionaltep.com/category/science"
 ---
 
@@ -21,7 +21,7 @@ Los reportes primarios recopilados por las corresponsalías y agencias de monito
 
 ## 2. Empirical State of Affairs and Structural Dynamics
 
-![Evidencia y Registro Documental Primario - Descubrimiento de Fósforo en los Océanos de Encélado: Implicaciones para la Astrobiología](https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?auto=format&fit=crop&w=1200&h=630&q=82)
+![Evidencia y Registro Documental Primario - Descubrimiento de Fósforo en los Océanos de Encélado: Implicaciones para la Astrobiología](https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/Tanker_waiting_to_enter_Durban_harbour.jpg/1280px-Tanker_waiting_to_enter_Durban_harbour.jpg)
 *Figure 1: Archival photographic evidence documented in the News International TEP records.*
 
 La evolución empírica de los acontecimientos desmintió rápidamente los diagnósticos complacientes. La aceleración de las dinámicas en juego obligó a un reajuste de las previsiones institucionales, revelando una marcada correlación entre la exposición previa al riesgo y la celeridad del deterioro funcional en los sectores analizados.
@@ -40,7 +40,7 @@ El comportamiento de los indicadores determinantes durante este período histór
 
 ## 4. Scenario Evaluation and Risk Modeling
 
-![Modelado de Trayectorias y Riesgo Sistémico](https://images.unsplash.com/photo-1530497610245-94d3c16cda28?auto=format&fit=crop&w=1200&h=630&q=82)
+![Modelado de Trayectorias y Riesgo Sistémico](https://upload.wikimedia.org/wikipedia/commons/3/3c/The_tanker_%27Borgsten%27_on_sea_trials_%2815426378624%29.jpg)
 *Figure 2: Trajectory modeling and scenario dispersion prepared by the TEP Quantitative Unit.*
 
 El análisis retrospectivo permite clasificar la trayectoria que finalmente se consolidó frente a las hipótesis alternativas que barajaban los comités en aquel entonces:

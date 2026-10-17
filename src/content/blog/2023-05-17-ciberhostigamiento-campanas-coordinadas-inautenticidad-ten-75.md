@@ -5,7 +5,7 @@ pubDate: "2023-05-17"
 category: "Social Media & Dynamics"
 tags: ["Intelligence", "Research Paper", "TEP Archive"]
 author: "TEP Intelligence Board & Historical Archive"
-heroImage: "https://images.unsplash.com/photo-1534536281715-e28d76689b4d?auto=format&fit=crop&w=1200&h=630&q=82"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/%D0%9C%D0%BE%D0%B4%D0%BD%D0%B0_%D1%80%D0%B5%D0%B2%D0%B8%D1%98%D0%B0_%D0%BD%D0%B0_%D0%B4%D1%80%D0%B5%D0%B2%D0%B5%D0%BD_%D0%BD%D0%B0%D0%BA%D0%B8%D1%82_%D0%B2%D0%BE_%D0%9D%D0%B5%D0%B3%D0%BE%D1%82%D0%B8%D0%BD%D0%BE_22.jpg/1280px-%D0%9C%D0%BE%D0%B4%D0%BD%D0%B0_%D1%80%D0%B5%D0%B2%D0%B8%D1%98%D0%B0_%D0%BD%D0%B0_%D0%B4%D1%80%D0%B5%D0%B2%D0%B5%D0%BD_%D0%BD%D0%B0%D0%BA%D0%B8%D1%82_%D0%B2%D0%BE_%D0%9D%D0%B5%D0%B3%D0%BE%D1%82%D0%B8%D0%BD%D0%BE_22.jpg"
 canonicalSource: "https://international.newsinternacionaltep.com/category/trends"
 ---
 
@@ -21,7 +21,7 @@ Los reportes primarios recopilados por las corresponsalías y agencias de monito
 
 ## 2. Empirical State of Affairs and Structural Dynamics
 
-![Evidencia y Registro Documental Primario - Ciberhostigamiento Organizado y el Uso de Campañas Coordinadas de Inautenticidad en Twitter y Reddit](https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=1200&h=630&q=82)
+![Evidencia y Registro Documental Primario - Ciberhostigamiento Organizado y el Uso de Campañas Coordinadas de Inautenticidad en Twitter y Reddit](https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/07.03_%E5%89%AF%E7%B8%BD%E7%B5%B1%E5%87%BA%E5%B8%AD%E3%80%8C%E5%8F%B0%E7%BE%8E%E5%8F%8B%E5%A5%BD%E4%B9%8B%E5%A4%9C%EF%BC%9A%E6%85%B6%E7%A5%9D%E7%BE%8E%E5%9C%8B%E5%BB%BA%E5%9C%8B250%E9%80%B1%E5%B9%B4%E5%9C%8B%E6%85%B6%E6%B4%BB%E5%8B%95%E3%80%8D_-_55372153049.jpg/1280px-07.03_%E5%89%AF%E7%B8%BD%E7%B5%B1%E5%87%BA%E5%B8%AD%E3%80%8C%E5%8F%B0%E7%BE%8E%E5%8F%8B%E5%A5%BD%E4%B9%8B%E5%A4%9C%EF%BC%9A%E6%85%B6%E7%A5%9D%E7%BE%8E%E5%9C%8B%E5%BB%BA%E5%9C%8B250%E9%80%B1%E5%B9%B4%E5%9C%8B%E6%85%B6%E6%B4%BB%E5%8B%95%E3%80%8D_-_55372153049.jpg)
 *Figure 1: Archival photographic evidence documented in the News International TEP records.*
 
 La evolución empírica de los acontecimientos desmintió rápidamente los diagnósticos complacientes. La aceleración de las dinámicas en juego obligó a un reajuste de las previsiones institucionales, revelando una marcada correlación entre la exposición previa al riesgo y la celeridad del deterioro funcional en los sectores analizados.
@@ -40,7 +40,7 @@ El comportamiento de los indicadores determinantes durante este período histór
 
 ## 4. Scenario Evaluation and Risk Modeling
 
-![Modelado de Trayectorias y Riesgo Sistémico](https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=1200&h=630&q=82)
+![Modelado de Trayectorias y Riesgo Sistémico](https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/2014_Warrior_Games_141002-F-PD696-070.jpg/1280px-2014_Warrior_Games_141002-F-PD696-070.jpg)
 *Figure 2: Trajectory modeling and scenario dispersion prepared by the TEP Quantitative Unit.*
 
 El análisis retrospectivo permite clasificar la trayectoria que finalmente se consolidó frente a las hipótesis alternativas que barajaban los comités en aquel entonces:

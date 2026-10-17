@@ -5,7 +5,7 @@ pubDate: "2022-09-27"
 category: "Politics & Defense"
 tags: ["Geopolitics", "Research Paper", "TEP Archive"]
 author: "TEP Intelligence Board & Historical Archive"
-heroImage: "https://images.unsplash.com/photo-1577495508048-b635879837f1?auto=format&fit=crop&w=1200&h=630&q=82"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/Azerbaijani_President%2C_German_Federal_Chancellor_held_joint_press_conference.jpg/1280px-Azerbaijani_President%2C_German_Federal_Chancellor_held_joint_press_conference.jpg"
 canonicalSource: "https://international.newsinternacionaltep.com/category/geopolitics"
 ---
 
@@ -21,7 +21,7 @@ Los reportes primarios recopilados por las corresponsalías y agencias de monito
 
 ## 2. Empirical State of Affairs and Structural Dynamics
 
-![Evidencia y Registro Documental Primario - La Crisis de Retirada de Afganistán y el Vacío Operativo en Asia Central](https://images.unsplash.com/photo-1541872703-74c5e44368f9?auto=format&fit=crop&w=1200&h=630&q=82)
+![Evidencia y Registro Documental Primario - La Crisis de Retirada de Afganistán y el Vacío Operativo en Asia Central](https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/Ilham_Aliyev_and_President_of_Turkey_Abdullah_Gul_had_press_conference_1.jpg/1280px-Ilham_Aliyev_and_President_of_Turkey_Abdullah_Gul_had_press_conference_1.jpg)
 *Figure 1: Archival photographic evidence documented in the News International TEP records.*
 
 La evolución empírica de los acontecimientos desmintió rápidamente los diagnósticos complacientes. La aceleración de las dinámicas en juego obligó a un reajuste de las previsiones institucionales, revelando una marcada correlación entre la exposición previa al riesgo y la celeridad del deterioro funcional en los sectores analizados.
@@ -40,7 +40,7 @@ El comportamiento de los indicadores determinantes durante este período histór
 
 ## 4. Scenario Evaluation and Risk Modeling
 
-![Modelado de Trayectorias y Riesgo Sistémico](https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=1200&h=630&q=82)
+![Modelado de Trayectorias y Riesgo Sistémico](https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/Ilham_Aliyev_and_President_of_Turkey_Abdullah_Gul_had_press_conference_2.jpg/1280px-Ilham_Aliyev_and_President_of_Turkey_Abdullah_Gul_had_press_conference_2.jpg)
 *Figure 2: Trajectory modeling and scenario dispersion prepared by the TEP Quantitative Unit.*
 
 El análisis retrospectivo permite clasificar la trayectoria que finalmente se consolidó frente a las hipótesis alternativas que barajaban los comités en aquel entonces:

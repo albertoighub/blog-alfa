@@ -5,7 +5,7 @@ pubDate: "2024-04-07"
 category: "Politics & Defense"
 tags: ["Geopolitics", "Research Paper", "TEP Archive"]
 author: "TEP Intelligence Board & Historical Archive"
-heroImage: "https://images.unsplash.com/photo-1521791136064-7986c2920216?auto=format&fit=crop&w=1200&h=630&q=82"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/Ukraine_conference_in_Paris_2025-02-17-17-06-A.jpg/1280px-Ukraine_conference_in_Paris_2025-02-17-17-06-A.jpg"
 canonicalSource: "https://international.newsinternacionaltep.com/category/geopolitics"
 ---
 
@@ -21,7 +21,7 @@ Los reportes primarios recopilados por las corresponsalías y agencias de monito
 
 ## 2. Empirical State of Affairs and Structural Dynamics
 
-![Evidencia y Registro Documental Primario - La Disputa por los Fondos Marinos Internacionales y la Regulación Minera en Aguas Profundas](https://images.unsplash.com/photo-1577495508048-b635879837f1?auto=format&fit=crop&w=1200&h=630&q=82)
+![Evidencia y Registro Documental Primario - La Disputa por los Fondos Marinos Internacionales y la Regulación Minera en Aguas Profundas](https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/Ukraine_conference_in_Paris_2025-02-17-17-06-B.jpg/1280px-Ukraine_conference_in_Paris_2025-02-17-17-06-B.jpg)
 *Figure 1: Archival photographic evidence documented in the News International TEP records.*
 
 La evolución empírica de los acontecimientos desmintió rápidamente los diagnósticos complacientes. La aceleración de las dinámicas en juego obligó a un reajuste de las previsiones institucionales, revelando una marcada correlación entre la exposición previa al riesgo y la celeridad del deterioro funcional en los sectores analizados.
@@ -40,7 +40,7 @@ El comportamiento de los indicadores determinantes durante este período histór
 
 ## 4. Scenario Evaluation and Risk Modeling
 
-![Modelado de Trayectorias y Riesgo Sistémico](https://images.unsplash.com/photo-1541872703-74c5e44368f9?auto=format&fit=crop&w=1200&h=630&q=82)
+![Modelado de Trayectorias y Riesgo Sistémico](https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/United_States_President_Joe_Biden_and_First_Lady_Jill_Biden_pose_for_photos_with_French_President_Emmanuel_Macron_and_Brigitte_Macron_at_the_Elysee_Palace_in_Paris%2C_France_on_June_8%2C_2024_prior_to_a_State_Dinner.jpg/1280px-thumbnail.jpg)
 *Figure 2: Trajectory modeling and scenario dispersion prepared by the TEP Quantitative Unit.*
 
 El análisis retrospectivo permite clasificar la trayectoria que finalmente se consolidó frente a las hipótesis alternativas que barajaban los comités en aquel entonces:

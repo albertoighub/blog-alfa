@@ -5,7 +5,7 @@ pubDate: "2021-11-29"
 category: "Social Media & Dynamics"
 tags: ["Intelligence", "Research Paper", "TEP Archive"]
 author: "TEP Intelligence Board & Historical Archive"
-heroImage: "https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=1200&h=630&q=82"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/Dinara_Drukarova_at_79th_Locarno_Film_Festival_-_Red_Carpet_-_Day_9-26.jpg/1280px-Dinara_Drukarova_at_79th_Locarno_Film_Festival_-_Red_Carpet_-_Day_9-26.jpg"
 canonicalSource: "https://international.newsinternacionaltep.com/category/trends"
 ---
 
@@ -21,7 +21,7 @@ Los reportes primarios recopilados por las corresponsalías y agencias de monito
 
 ## 2. Empirical State of Affairs and Structural Dynamics
 
-![Evidencia y Registro Documental Primario - La Vigilancia Predictiva Basada en Metadatos y el Fin del Anonimato Digital](https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=1200&h=630&q=82)
+![Evidencia y Registro Documental Primario - La Vigilancia Predictiva Basada en Metadatos y el Fin del Anonimato Digital](https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dc/George_clooney_on_the_red_carpet_in_Venice_Film_Festival_-31.jpg/1280px-George_clooney_on_the_red_carpet_in_Venice_Film_Festival_-31.jpg)
 *Figure 1: Archival photographic evidence documented in the News International TEP records.*
 
 La evolución empírica de los acontecimientos desmintió rápidamente los diagnósticos complacientes. La aceleración de las dinámicas en juego obligó a un reajuste de las previsiones institucionales, revelando una marcada correlación entre la exposición previa al riesgo y la celeridad del deterioro funcional en los sectores analizados.
@@ -40,7 +40,7 @@ El comportamiento de los indicadores determinantes durante este período histór
 
 ## 4. Scenario Evaluation and Risk Modeling
 
-![Modelado de Trayectorias y Riesgo Sistémico](https://images.unsplash.com/photo-1534536281715-e28d76689b4d?auto=format&fit=crop&w=1200&h=630&q=82)
+![Modelado de Trayectorias y Riesgo Sistémico](https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/Giovanni_Tortorici_on_the_red_carpet_at_the_79th_Locarno_Film_Festival_2026.jpg/1280px-Giovanni_Tortorici_on_the_red_carpet_at_the_79th_Locarno_Film_Festival_2026.jpg)
 *Figure 2: Trajectory modeling and scenario dispersion prepared by the TEP Quantitative Unit.*
 
 El análisis retrospectivo permite clasificar la trayectoria que finalmente se consolidó frente a las hipótesis alternativas que barajaban los comités en aquel entonces:

@@ -5,7 +5,7 @@ pubDate: "2026-10-16"
 category: "Economy & Markets"
 tags: ["Intelligence", "Research Paper", "TEP Archive"]
 author: "TEP Intelligence Board & Historical Archive"
-heroImage: "https://fortune.com/img-assets/wp-content/uploads/2025/11/GettyImages-2207352805-e1762554281237.jpg?w=2048"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/SX-HPC_over_Athens.jpg/1280px-SX-HPC_over_Athens.jpg"
 canonicalSource: "https://international.newsinternacionaltep.com/category/economy"
 ---
 

@@ -5,7 +5,7 @@ pubDate: "2023-09-22"
 category: "Science & Medicine"
 tags: ["Science", "Research Paper", "TEP Archive"]
 author: "TEP Intelligence Board & Historical Archive"
-heroImage: "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=1200&h=630&q=82"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/The_Vice_President%2C_Shri_Jagdeep_Dhankhar_with_the_leaders_of_ASEAN_Member_States_at_the_19th_ASEAN-India_Summit%2C_in_Phnom_Penh_on_November_12%2C_2022.jpg/1280px-The_Vice_President%2C_Shri_Jagdeep_Dhankhar_with_the_leaders_of_ASEAN_Member_States_at_the_19th_ASEAN-India_Summit%2C_in_Phnom_Penh_on_November_12%2C_2022.jpg"
 canonicalSource: "https://international.newsinternacionaltep.com/category/science"
 ---
 
@@ -21,7 +21,7 @@ Los reportes primarios recopilados por las corresponsalías y agencias de monito
 
 ## 2. Empirical State of Affairs and Structural Dynamics
 
-![Evidencia y Registro Documental Primario - Criopreservación de Órganos Mediante Nanopartículas Magnéticas y Reanimación por Radiofrecuencia](https://images.unsplash.com/photo-1579165466791-788226ab77b6?auto=format&fit=crop&w=1200&h=630&q=82)
+![Evidencia y Registro Documental Primario - Criopreservación de Órganos Mediante Nanopartículas Magnéticas y Reanimación por Radiofrecuencia](https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/12th_ASEAN%2B3_Summit_in_Hua_Hin%2C_Thailand%2C_on_Oct._24%2C_2009_%284348160442%29.jpg/1280px-12th_ASEAN%2B3_Summit_in_Hua_Hin%2C_Thailand%2C_on_Oct._24%2C_2009_%284348160442%29.jpg)
 *Figure 1: Archival photographic evidence documented in the News International TEP records.*
 
 La evolución empírica de los acontecimientos desmintió rápidamente los diagnósticos complacientes. La aceleración de las dinámicas en juego obligó a un reajuste de las previsiones institucionales, revelando una marcada correlación entre la exposición previa al riesgo y la celeridad del deterioro funcional en los sectores analizados.
@@ -40,7 +40,7 @@ El comportamiento de los indicadores determinantes durante este período histór
 
 ## 4. Scenario Evaluation and Risk Modeling
 
-![Modelado de Trayectorias y Riesgo Sistémico](https://images.unsplash.com/photo-1516549655169-df83a0774514?auto=format&fit=crop&w=1200&h=630&q=82)
+![Modelado de Trayectorias y Riesgo Sistémico](https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/12th_ASEAN-ROK_Summit_in_Hua_Hin%2C_Thailand%2C_on_Oct._24_2009_%284347411531%29.jpg/1280px-12th_ASEAN-ROK_Summit_in_Hua_Hin%2C_Thailand%2C_on_Oct._24_2009_%284347411531%29.jpg)
 *Figure 2: Trajectory modeling and scenario dispersion prepared by the TEP Quantitative Unit.*
 
 El análisis retrospectivo permite clasificar la trayectoria que finalmente se consolidó frente a las hipótesis alternativas que barajaban los comités en aquel entonces:

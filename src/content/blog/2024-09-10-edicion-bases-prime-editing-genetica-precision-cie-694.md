@@ -5,7 +5,7 @@ pubDate: "2024-09-10"
 category: "Science & Medicine"
 tags: ["Science", "Research Paper", "TEP Archive"]
 author: "TEP Intelligence Board & Historical Archive"
-heroImage: "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=1200&h=630&q=82"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/Harvesting_in_the_great_West%2C_combined_reaper_and_thresher%2C_Washington%2C_U.S.A%2C_from_Robert_N._Dennis_collection_of_stereoscopic_views.jpg/1280px-Harvesting_in_the_great_West%2C_combined_reaper_and_thresher%2C_Washington%2C_U.S.A%2C_from_Robert_N._Dennis_collection_of_stereoscopic_views.jpg"
 canonicalSource: "https://international.newsinternacionaltep.com/category/science"
 ---
 
@@ -21,7 +21,7 @@ Los reportes primarios recopilados por las corresponsalías y agencias de monito
 
 ## 2. Empirical State of Affairs and Structural Dynamics
 
-![Evidencia y Registro Documental Primario - Edición de Bases y Edición Primaria: Corrección de Mutaciones Puntuales sin Roturas de Doble Cadena](https://images.unsplash.com/photo-1579165466791-788226ab77b6?auto=format&fit=crop&w=1200&h=630&q=82)
+![Evidencia y Registro Documental Primario - Edición de Bases y Edición Primaria: Corrección de Mutaciones Puntuales sin Roturas de Doble Cadena](https://thumb.wikimedia.org/wikipedia/commons/thumb/d/db/Harvesting_in_the_great_West%2C_combined_reaper_and_thresher%2C_Washington%2C_U.S.A%2C_from_Robert_N._Dennis_collection_of_stereoscopic_views.png/1280px-Harvesting_in_the_great_West%2C_combined_reaper_and_thresher%2C_Washington%2C_U.S.A%2C_from_Robert_N._Dennis_collection_of_stereoscopic_views.png)
 *Figure 1: Archival photographic evidence documented in the News International TEP records.*
 
 La evolución empírica de los acontecimientos desmintió rápidamente los diagnósticos complacientes. La aceleración de las dinámicas en juego obligó a un reajuste de las previsiones institucionales, revelando una marcada correlación entre la exposición previa al riesgo y la celeridad del deterioro funcional en los sectores analizados.
@@ -40,7 +40,7 @@ El comportamiento de los indicadores determinantes durante este período histór
 
 ## 4. Scenario Evaluation and Risk Modeling
 
-![Modelado de Trayectorias y Riesgo Sistémico](https://images.unsplash.com/photo-1516549655169-df83a0774514?auto=format&fit=crop&w=1200&h=630&q=82)
+![Modelado de Trayectorias y Riesgo Sistémico](https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/Asbury_Township_wheat_harvest.jpg/1280px-Asbury_Township_wheat_harvest.jpg)
 *Figure 2: Trajectory modeling and scenario dispersion prepared by the TEP Quantitative Unit.*
 
 El análisis retrospectivo permite clasificar la trayectoria que finalmente se consolidó frente a las hipótesis alternativas que barajaban los comités en aquel entonces:

@@ -5,7 +5,7 @@ pubDate: "2026-10-14"
 category: "Politics & Defense"
 tags: ["Geopolitics", "Research Paper", "TEP Archive"]
 author: "TEP Intelligence Board & Historical Archive"
-heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/Laura_Fernandez_Delgado_presidential_inauguration_20260508_0515_%28cropped%29.jpg/1280px-Laura_Fernandez_Delgado_presidential_inauguration_20260508_0515_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/Rear_panel_of_mixing_console_and_amplifiers_at_concert_of_band_%27Dead_Can_Dance%27_in_Barcelona%2C_May_2022.jpg/1280px-Rear_panel_of_mixing_console_and_amplifiers_at_concert_of_band_%27Dead_Can_Dance%27_in_Barcelona%2C_May_2022.jpg"
 canonicalSource: "https://international.newsinternacionaltep.com/category/geopolitics"
 ---
 

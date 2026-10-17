@@ -5,7 +5,7 @@ pubDate: "2023-09-04"
 category: "Science & Medicine"
 tags: ["Science", "Research Paper", "TEP Archive"]
 author: "TEP Intelligence Board & Historical Archive"
-heroImage: "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=1200&h=630&q=82"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dc/Maria_Otero_at_the_Human_Rights_Council_%281%29.jpg/1280px-Maria_Otero_at_the_Human_Rights_Council_%281%29.jpg"
 canonicalSource: "https://international.newsinternacionaltep.com/category/science"
 ---
 
@@ -21,7 +21,7 @@ Los reportes primarios recopilados por las corresponsalías y agencias de monito
 
 ## 2. Empirical State of Affairs and Structural Dynamics
 
-![Evidencia y Registro Documental Primario - Ganancia Neta de Energía en Fusión Nuclear por Confinamiento Inercial en el National Ignition Facility](https://images.unsplash.com/photo-1579165466791-788226ab77b6?auto=format&fit=crop&w=1200&h=630&q=82)
+![Evidencia y Registro Documental Primario - Ganancia Neta de Energía en Fusión Nuclear por Confinamiento Inercial en el National Ignition Facility](https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/Secretary_Kerry_Listens_to_Speech_in_UN_Human_Rights_Council_Chamber_in_Switzerland_%2816506511900%29.jpg/1280px-Secretary_Kerry_Listens_to_Speech_in_UN_Human_Rights_Council_Chamber_in_Switzerland_%2816506511900%29.jpg)
 *Figure 1: Archival photographic evidence documented in the News International TEP records.*
 
 La evolución empírica de los acontecimientos desmintió rápidamente los diagnósticos complacientes. La aceleración de las dinámicas en juego obligó a un reajuste de las previsiones institucionales, revelando una marcada correlación entre la exposición previa al riesgo y la celeridad del deterioro funcional en los sectores analizados.
@@ -40,7 +40,7 @@ El comportamiento de los indicadores determinantes durante este período histór
 
 ## 4. Scenario Evaluation and Risk Modeling
 
-![Modelado de Trayectorias y Riesgo Sistémico](https://images.unsplash.com/photo-1516549655169-df83a0774514?auto=format&fit=crop&w=1200&h=630&q=82)
+![Modelado de Trayectorias y Riesgo Sistémico](https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/Suzan_Johnson_Cook_at_the_Human_Rights_Council_2011-06-14.jpg/1280px-Suzan_Johnson_Cook_at_the_Human_Rights_Council_2011-06-14.jpg)
 *Figure 2: Trajectory modeling and scenario dispersion prepared by the TEP Quantitative Unit.*
 
 El análisis retrospectivo permite clasificar la trayectoria que finalmente se consolidó frente a las hipótesis alternativas que barajaban los comités en aquel entonces:

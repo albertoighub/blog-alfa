@@ -5,7 +5,7 @@ pubDate: "2026-10-14"
 category: "Economy & Markets"
 tags: ["Intelligence", "Research Paper", "TEP Archive"]
 author: "TEP Intelligence Board & Historical Archive"
-heroImage: "https://fortune.com/img-assets/wp-content/uploads/2026/10/Min_2025-025_R0.png?w=2048"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/%E3%83%A8%E3%83%89%E3%83%90%E3%82%B7%E3%82%AB%E3%83%A1%E3%83%A9%E5%90%8D%E5%8F%A4%E5%B1%8B%E6%9D%BE%E5%9D%82%E5%B1%8B%E5%BA%97%E3%81%AB%E5%B1%95%E7%A4%BA%E3%81%95%E3%82%8C%E3%81%A6%E3%81%9FLenovo%E3%81%AE%E7%8B%AC%E7%AB%8B%E5%9E%8BVR%E3%82%B4%E3%83%BC%E3%82%B0%E3%83%AB%E3%80%8CMirage_Solo%E3%80%8D_-_4.jpg/1280px-%E3%83%A8%E3%83%89%E3%83%90%E3%82%B7%E3%82%AB%E3%83%A1%E3%83%A9%E5%90%8D%E5%8F%A4%E5%B1%8B%E6%9D%BE%E5%9D%82%E5%B1%8B%E5%BA%97%E3%81%AB%E5%B1%95%E7%A4%BA%E3%81%95%E3%82%8C%E3%81%A6%E3%81%9FLenovo%E3%81%AE%E7%8B%AC%E7%AB%8B%E5%9E%8BVR%E3%82%B4%E3%83%BC%E3%82%B0%E3%83%AB%E3%80%8CMirage_Solo%E3%80%8D_-_4.jpg"
 canonicalSource: "https://international.newsinternacionaltep.com/category/economy"
 ---
 

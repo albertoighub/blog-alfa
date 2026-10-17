@@ -5,7 +5,7 @@ pubDate: "2026-10-15"
 category: "Politics & Defense"
 tags: ["Geopolitics", "Research Paper", "TEP Archive"]
 author: "TEP Intelligence Board & Historical Archive"
-heroImage: "https://www.latercera.com/resizer/v2/HPUR656JHFGRZKA5G3N5Q2EO3I.jpg?auth=d146553fa2f545d4d4532eade16d036bab1363932f8950f90e40f993f4b528da&smart=true&width=989&height=556"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/Szafy_rack_z_bocznym_wymiennikiem_ciep%C5%82a.png/1280px-Szafy_rack_z_bocznym_wymiennikiem_ciep%C5%82a.png"
 canonicalSource: "https://international.newsinternacionaltep.com/category/geopolitics"
 ---
 

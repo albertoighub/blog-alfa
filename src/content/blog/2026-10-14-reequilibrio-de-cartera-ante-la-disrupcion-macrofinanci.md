@@ -5,7 +5,7 @@ pubDate: "2026-10-14"
 category: "Economy & Markets"
 tags: ["Intelligence", "Research Paper", "TEP Archive"]
 author: "TEP Intelligence Board & Historical Archive"
-heroImage: "https://cdn.mos.cms.futurecdn.net/eW97yaZkWmvByh3NTxzWmQ-1920-80.jpg"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/HP_9101A_extended_memory_unit.-_magnetic_core_memory_module_-_component_side.jpg/1280px-HP_9101A_extended_memory_unit.-_magnetic_core_memory_module_-_component_side.jpg"
 canonicalSource: "https://international.newsinternacionaltep.com/category/economy"
 ---
 

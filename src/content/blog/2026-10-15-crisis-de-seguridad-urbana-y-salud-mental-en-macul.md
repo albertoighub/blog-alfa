@@ -5,7 +5,7 @@ pubDate: "2026-10-15"
 category: "Politics & Defense"
 tags: ["Geopolitics", "Research Paper", "TEP Archive"]
 author: "TEP Intelligence Board & Historical Archive"
-heroImage: "https://www.latercera.com/resizer/v2/FVQLOTEC5RF45ONKAQZ5HAKE4E.jpg?auth=aa42f95b2e97b720dfb205092f047792010600370cbfb2d7d94b4b7402294d1e&smart=true&width=6720&height=4480"
+heroImage: "https://upload.wikimedia.org/wikipedia/commons/f/fb/Professional_PA_power_amps_from_Crest_Audio_and_QSC_with_control_modules_in_rack_%28cropped%29.jpg"
 canonicalSource: "https://international.newsinternacionaltep.com/category/geopolitics"
 ---
 

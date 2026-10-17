@@ -5,7 +5,7 @@ pubDate: "2023-06-25"
 category: "Politics & Defense"
 tags: ["Geopolitics", "Research Paper", "TEP Archive"]
 author: "TEP Intelligence Board & Historical Archive"
-heroImage: "https://images.unsplash.com/photo-1541872703-74c5e44368f9?auto=format&fit=crop&w=1200&h=630&q=82"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/Secretary_of_Defense_Chuck_Hagel%2C_at_far_lectern%2C_and_China%27s_Minister_of_National_Defense_Gen._Chang_Wanquan_hold_a_joint_news_conference_at_the_Pentagon_in_Arlington%2C_Va.%2C_Aug._19%2C_2013_130819-D-NI589-500.jpg/1280px-thumbnail.jpg"
 canonicalSource: "https://international.newsinternacionaltep.com/category/geopolitics"
 ---
 
@@ -21,7 +21,7 @@ Los reportes primarios recopilados por las corresponsalías y agencias de monito
 
 ## 2. Empirical State of Affairs and Structural Dynamics
 
-![Evidencia y Registro Documental Primario - El Corredor del Ártico y la Disputa Geopolítica por Rutas de Navegación Polar](https://images.unsplash.com/photo-1526304640581-d334cdbbf45e?auto=format&fit=crop&w=1200&h=630&q=82)
+![Evidencia y Registro Documental Primario - El Corredor del Ártico y la Disputa Geopolítica por Rutas de Navegación Polar](https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d2/Secretary_of_Defense_Chuck_Hagel%2C_foreground_left%2C_walks_with_China%27s_Minister_of_National_Defense_Gen._Chang_Wanquan_after_holding_a_joint_news_conference_at_the_Pentagon_in_Arlington%2C_Va.%2C_Aug._19%2C_2013_130819-D-BW835-002.jpg/1280px-thumbnail.jpg)
 *Figure 1: Archival photographic evidence documented in the News International TEP records.*
 
 La evolución empírica de los acontecimientos desmintió rápidamente los diagnósticos complacientes. La aceleración de las dinámicas en juego obligó a un reajuste de las previsiones institucionales, revelando una marcada correlación entre la exposición previa al riesgo y la celeridad del deterioro funcional en los sectores analizados.
@@ -40,7 +40,7 @@ El comportamiento de los indicadores determinantes durante este período histór
 
 ## 4. Scenario Evaluation and Risk Modeling
 
-![Modelado de Trayectorias y Riesgo Sistémico](https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1200&h=630&q=82)
+![Modelado de Trayectorias y Riesgo Sistémico](https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/Secretary_of_Defense_Chuck_Hagel%2C_left%2C_and_China%27s_Minister_of_National_Defense_Gen._Chang_Wanquan_hold_a_joint_news_conference_at_the_Pentagon_in_Arlington%2C_Va.%2C_Aug._19%2C_2013_130819-D-NI589-610.jpg/1280px-thumbnail.jpg)
 *Figure 2: Trajectory modeling and scenario dispersion prepared by the TEP Quantitative Unit.*
 
 El análisis retrospectivo permite clasificar la trayectoria que finalmente se consolidó frente a las hipótesis alternativas que barajaban los comités en aquel entonces:

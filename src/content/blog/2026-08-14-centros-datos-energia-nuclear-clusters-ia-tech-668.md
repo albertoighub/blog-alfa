@@ -5,7 +5,7 @@ pubDate: "2026-08-14"
 category: "Technology & AI"
 tags: ["Technology", "Research Paper", "TEP Archive"]
 author: "TEP Intelligence Board & Historical Archive"
-heroImage: "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?auto=format&fit=crop&w=1200&h=630&q=82"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/18%C3%A8me_journ%C3%A9e_des_sciences_navales_les_grands_fonds_marins_3_f%C3%A9vrier_2023_-_%C3%89cole_polytechnique_%2852667004094%29.jpg/1280px-18%C3%A8me_journ%C3%A9e_des_sciences_navales_les_grands_fonds_marins_3_f%C3%A9vrier_2023_-_%C3%89cole_polytechnique_%2852667004094%29.jpg"
 canonicalSource: "https://international.newsinternacionaltep.com/category/technology"
 ---
 
@@ -21,7 +21,7 @@ Los reportes primarios recopilados por las corresponsalías y agencias de monito
 
 ## 2. Empirical State of Affairs and Structural Dynamics
 
-![Evidencia y Registro Documental Primario - Centros de Datos Nucleares y el Desafío Energético para Alimentar Clústeres de Cómputo Masivo](https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&w=1200&h=630&q=82)
+![Evidencia y Registro Documental Primario - Centros de Datos Nucleares y el Desafío Energético para Alimentar Clústeres de Cómputo Masivo](https://upload.wikimedia.org/wikipedia/commons/2/2b/200902-F-XT642-0081.jpg)
 *Figure 1: Archival photographic evidence documented in the News International TEP records.*
 
 La evolución empírica de los acontecimientos desmintió rápidamente los diagnósticos complacientes. La aceleración de las dinámicas en juego obligó a un reajuste de las previsiones institucionales, revelando una marcada correlación entre la exposición previa al riesgo y la celeridad del deterioro funcional en los sectores analizados.
@@ -40,7 +40,7 @@ El comportamiento de los indicadores determinantes durante este período histór
 
 ## 4. Scenario Evaluation and Risk Modeling
 
-![Modelado de Trayectorias y Riesgo Sistémico](https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1200&h=630&q=82)
+![Modelado de Trayectorias y Riesgo Sistémico](https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/Abertura_da_%22Exposi%C3%A7%C3%A3o_da_Independ%C3%AAncia%22_no_Parque_da_Cidade%2C_em_Bras%C3%ADlia_DF_-_2023_%2853156715882%29.jpg/1280px-Abertura_da_%22Exposi%C3%A7%C3%A3o_da_Independ%C3%AAncia%22_no_Parque_da_Cidade%2C_em_Bras%C3%ADlia_DF_-_2023_%2853156715882%29.jpg)
 *Figure 2: Trajectory modeling and scenario dispersion prepared by the TEP Quantitative Unit.*
 
 El análisis retrospectivo permite clasificar la trayectoria que finalmente se consolidó frente a las hipótesis alternativas que barajaban los comités en aquel entonces:

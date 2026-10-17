@@ -5,7 +5,7 @@ pubDate: "2023-07-02"
 category: "Science & Medicine"
 tags: ["Science", "Research Paper", "TEP Archive"]
 author: "TEP Intelligence Board & Historical Archive"
-heroImage: "https://images.unsplash.com/photo-1507668077129-56e32842fceb?auto=format&fit=crop&w=1200&h=630&q=82"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/Defense.gov_News_Photo_120602-D-BW835-551_-_Japanese_Senior_Vice_Minister_of_Defense_Watanabe_Shu_Secretary_of_Defense_Leon_E._Panetta_and_Australian_Minister_of_Defense_Stephen_Smith_pose_for.jpg/1280px-thumbnail.jpg"
 canonicalSource: "https://international.newsinternacionaltep.com/category/science"
 ---
 
@@ -21,7 +21,7 @@ Los reportes primarios recopilados por las corresponsalías y agencias de monito
 
 ## 2. Empirical State of Affairs and Structural Dynamics
 
-![Evidencia y Registro Documental Primario - Fármacos Anti-Amiloide de Segunda Generación (Lecanemab) para la Ralentización del Alzheimer](https://images.unsplash.com/photo-1576086213369-97a306d36557?auto=format&fit=crop&w=1200&h=630&q=82)
+![Evidencia y Registro Documental Primario - Fármacos Anti-Amiloide de Segunda Generación (Lecanemab) para la Ralentización del Alzheimer](https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/Defense.gov_photo_essay_070119-F-0193C-015_Gen._Peter_Pace%2C_Colombia%27s_Defense_Minister_Juan_Manuel_Santos_and_Chairman_of_Colombia%27s_Joint_Chiefs_of_Staff_Gen._Freddy_Padilla_hold_a_press_conference_in_Bogota%2C_Colombia%2C_Jan._19%2C_2007..jpg/1280px-thumbnail.jpg)
 *Figure 1: Archival photographic evidence documented in the News International TEP records.*
 
 La evolución empírica de los acontecimientos desmintió rápidamente los diagnósticos complacientes. La aceleración de las dinámicas en juego obligó a un reajuste de las previsiones institucionales, revelando una marcada correlación entre la exposición previa al riesgo y la celeridad del deterioro funcional en los sectores analizados.
@@ -40,7 +40,7 @@ El comportamiento de los indicadores determinantes durante este período histór
 
 ## 4. Scenario Evaluation and Risk Modeling
 
-![Modelado de Trayectorias y Riesgo Sistémico](https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=1200&h=630&q=82)
+![Modelado de Trayectorias y Riesgo Sistémico](https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/From_left%2C_U.S._Secretary_of_Defense_Chuck_Hagel%2C_U.S._Secretary_of_State_John_Kerry%2C_Japanese_Minister_of_Foreign_Affairs_Fumio_Kishida_and_Japanese_Minister_of_Defense_Itsunori_Onodera_hold_a_press_conference_131003-D-BW835-1015.jpg/1280px-thumbnail.jpg)
 *Figure 2: Trajectory modeling and scenario dispersion prepared by the TEP Quantitative Unit.*
 
 El análisis retrospectivo permite clasificar la trayectoria que finalmente se consolidó frente a las hipótesis alternativas que barajaban los comités en aquel entonces:

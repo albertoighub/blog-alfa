@@ -5,7 +5,7 @@ pubDate: "2023-06-02"
 category: "Politics & Defense"
 tags: ["Geopolitics", "Research Paper", "TEP Archive"]
 author: "TEP Intelligence Board & Historical Archive"
-heroImage: "https://images.unsplash.com/photo-1541872703-74c5e44368f9?auto=format&fit=crop&w=1200&h=630&q=82"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/52/Israeli_Minister_of_Defense_Yoav_Gallant_%28Galant%29_at_a_press_conference_in_Tel_Aviv%2C_Israel_on_December_18%2C_2023.jpg/1280px-Israeli_Minister_of_Defense_Yoav_Gallant_%28Galant%29_at_a_press_conference_in_Tel_Aviv%2C_Israel_on_December_18%2C_2023.jpg"
 canonicalSource: "https://international.newsinternacionaltep.com/category/geopolitics"
 ---
 
@@ -21,7 +21,7 @@ Los reportes primarios recopilados por las corresponsalías y agencias de monito
 
 ## 2. Empirical State of Affairs and Structural Dynamics
 
-![Evidencia y Registro Documental Primario - El Corredor del Ártico y la Disputa Geopolítica por Rutas de Navegación Polar](https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=1200&h=630&q=82)
+![Evidencia y Registro Documental Primario - El Corredor del Ártico y la Disputa Geopolítica por Rutas de Navegación Polar](https://thumb.wikimedia.org/wikipedia/commons/thumb/d/db/Nordic-Baltic-U.S._Forum_and_Deputy_Minister_of_Defense_Conference_190910-D-ZZ999-101.jpg/1280px-Nordic-Baltic-U.S._Forum_and_Deputy_Minister_of_Defense_Conference_190910-D-ZZ999-101.jpg)
 *Figure 1: Archival photographic evidence documented in the News International TEP records.*
 
 La evolución empírica de los acontecimientos desmintió rápidamente los diagnósticos complacientes. La aceleración de las dinámicas en juego obligó a un reajuste de las previsiones institucionales, revelando una marcada correlación entre la exposición previa al riesgo y la celeridad del deterioro funcional en los sectores analizados.
@@ -40,7 +40,7 @@ El comportamiento de los indicadores determinantes durante este período histór
 
 ## 4. Scenario Evaluation and Risk Modeling
 
-![Modelado de Trayectorias y Riesgo Sistémico](https://images.unsplash.com/photo-1507679799987-c73779587ccf?auto=format&fit=crop&w=1200&h=630&q=82)
+![Modelado de Trayectorias y Riesgo Sistémico](https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/Secretary_Clinton%2C_Japanese_Foreign_Minister_Matsumoto%2C_Secretary_Gates%2C_and_Japanese_Defense_Minister_Kitazawa_Hold_a_Joint_Press_Conference_%285858086882%29.jpg/1280px-Secretary_Clinton%2C_Japanese_Foreign_Minister_Matsumoto%2C_Secretary_Gates%2C_and_Japanese_Defense_Minister_Kitazawa_Hold_a_Joint_Press_Conference_%285858086882%29.jpg)
 *Figure 2: Trajectory modeling and scenario dispersion prepared by the TEP Quantitative Unit.*
 
 El análisis retrospectivo permite clasificar la trayectoria que finalmente se consolidó frente a las hipótesis alternativas que barajaban los comités en aquel entonces:

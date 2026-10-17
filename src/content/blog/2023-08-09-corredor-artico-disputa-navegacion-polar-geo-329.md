@@ -5,7 +5,7 @@ pubDate: "2023-08-09"
 category: "Politics & Defense"
 tags: ["Geopolitics", "Research Paper", "TEP Archive"]
 author: "TEP Intelligence Board & Historical Archive"
-heroImage: "https://images.unsplash.com/photo-1521791136064-7986c2920216?auto=format&fit=crop&w=1200&h=630&q=82"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cd/President_Ronald_Reagan_During_a_Meeting_for_a_Briefing_on_The_Upcoming_Statement_About_South_Africa_in_The_Oval_Office_-_DPLA_-_6aa1e6b203f5c488f5625ccdd9b933f3.jpg/1280px-thumbnail.jpg"
 canonicalSource: "https://international.newsinternacionaltep.com/category/geopolitics"
 ---
 
@@ -21,7 +21,7 @@ Los reportes primarios recopilados por las corresponsalías y agencias de monito
 
 ## 2. Empirical State of Affairs and Structural Dynamics
 
-![Evidencia y Registro Documental Primario - El Corredor del Ártico y la Disputa Geopolítica por Rutas de Navegación Polar](https://images.unsplash.com/photo-1577495508048-b635879837f1?auto=format&fit=crop&w=1200&h=630&q=82)
+![Evidencia y Registro Documental Primario - El Corredor del Ártico y la Disputa Geopolítica por Rutas de Navegación Polar](https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/President_Ronald_Reagan_During_a_Meeting_with_Rupert_Murdoch_with_Charles_Wick_in_The_Oval_Office_-_DPLA_-_c3304fa3e908abf00648f8a5aec0fc3d.jpg/1280px-President_Ronald_Reagan_During_a_Meeting_with_Rupert_Murdoch_with_Charles_Wick_in_The_Oval_Office_-_DPLA_-_c3304fa3e908abf00648f8a5aec0fc3d.jpg)
 *Figure 1: Archival photographic evidence documented in the News International TEP records.*
 
 La evolución empírica de los acontecimientos desmintió rápidamente los diagnósticos complacientes. La aceleración de las dinámicas en juego obligó a un reajuste de las previsiones institucionales, revelando una marcada correlación entre la exposición previa al riesgo y la celeridad del deterioro funcional en los sectores analizados.
@@ -40,7 +40,7 @@ El comportamiento de los indicadores determinantes durante este período histór
 
 ## 4. Scenario Evaluation and Risk Modeling
 
-![Modelado de Trayectorias y Riesgo Sistémico](https://images.unsplash.com/photo-1541872703-74c5e44368f9?auto=format&fit=crop&w=1200&h=630&q=82)
+![Modelado de Trayectorias y Riesgo Sistémico](https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/President_Ronald_Reagan_During_a_Meeting_with_Senator_Mitch_Mcconnell_and_Richard_Lyng%2C_William_Ball_and_Howard_Baker_in_The_Oval_Office_-_DPLA_-_72a776b9fe49a434c88f763e477ad217.jpg/1280px-thumbnail.jpg)
 *Figure 2: Trajectory modeling and scenario dispersion prepared by the TEP Quantitative Unit.*
 
 El análisis retrospectivo permite clasificar la trayectoria que finalmente se consolidó frente a las hipótesis alternativas que barajaban los comités en aquel entonces:

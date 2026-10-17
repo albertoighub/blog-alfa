@@ -5,7 +5,7 @@ pubDate: "2026-10-15"
 category: "Politics & Defense"
 tags: ["Geopolitics", "Research Paper", "TEP Archive"]
 author: "TEP Intelligence Board & Historical Archive"
-heroImage: "https://www.latercera.com/resizer/v2/WG5JCY44TBAKNAKXOBJQPHK5MY.jpg?auth=8914e6aa2efee53a07f2d4e2249bf87850066296f3e66edf7ae2f6ac1cf53dcb&smart=true&width=2122&height=1200"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/High_Performance_Computing_Center_Stuttgart_HLRS_2015_01_Interior.jpg/1280px-High_Performance_Computing_Center_Stuttgart_HLRS_2015_01_Interior.jpg"
 canonicalSource: "https://international.newsinternacionaltep.com/category/geopolitics"
 ---
 

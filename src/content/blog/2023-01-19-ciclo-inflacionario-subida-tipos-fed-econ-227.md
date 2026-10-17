@@ -5,7 +5,7 @@ pubDate: "2023-01-19"
 category: "Economy & Markets"
 tags: ["Intelligence", "Research Paper", "TEP Archive"]
 author: "TEP Intelligence Board & Historical Archive"
-heroImage: "https://images.unsplash.com/photo-1559526324-4b87b5e36e44?auto=format&fit=crop&w=1200&h=630&q=82"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/Farmers_and_Merchants_Union_Bank%2C_James_Street_and_Dickason_Boulevard%2C_Columbus%2C_WI_-_52808413820.jpg/1280px-Farmers_and_Merchants_Union_Bank%2C_James_Street_and_Dickason_Boulevard%2C_Columbus%2C_WI_-_52808413820.jpg"
 canonicalSource: "https://international.newsinternacionaltep.com/category/economy"
 ---
 
@@ -21,7 +21,7 @@ Los reportes primarios recopilados por las corresponsalías y agencias de monito
 
 ## 2. Empirical State of Affairs and Structural Dynamics
 
-![Evidencia y Registro Documental Primario - El Gran Ciclo Inflacionario Global y la Inflexión de Tipos de Interés de la Reserva Federal](https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1200&h=630&q=82)
+![Evidencia y Registro Documental Primario - El Gran Ciclo Inflacionario Global y la Inflexión de Tipos de Interés de la Reserva Federal](https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/Farmers_and_Merchants_Union_Bank%2C_James_Street_and_Dickason_Boulevard%2C_Columbus%2C_WI_-_52808427990.jpg/1280px-Farmers_and_Merchants_Union_Bank%2C_James_Street_and_Dickason_Boulevard%2C_Columbus%2C_WI_-_52808427990.jpg)
 *Figure 1: Archival photographic evidence documented in the News International TEP records.*
 
 La evolución empírica de los acontecimientos desmintió rápidamente los diagnósticos complacientes. La aceleración de las dinámicas en juego obligó a un reajuste de las previsiones institucionales, revelando una marcada correlación entre la exposición previa al riesgo y la celeridad del deterioro funcional en los sectores analizados.
@@ -40,7 +40,7 @@ El comportamiento de los indicadores determinantes durante este período histór
 
 ## 4. Scenario Evaluation and Risk Modeling
 
-![Modelado de Trayectorias y Riesgo Sistémico](https://images.unsplash.com/photo-1526304640581-d334cdbbf45e?auto=format&fit=crop&w=1200&h=630&q=82)
+![Modelado de Trayectorias y Riesgo Sistémico](https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/Informal_meeting_of_economic_and_financial_affairs_ministers_%28ECOFIN%29._Arrivals_Vitor_Const%C3%A2ncio_%2837083572402%29.jpg/1280px-Informal_meeting_of_economic_and_financial_affairs_ministers_%28ECOFIN%29._Arrivals_Vitor_Const%C3%A2ncio_%2837083572402%29.jpg)
 *Figure 2: Trajectory modeling and scenario dispersion prepared by the TEP Quantitative Unit.*
 
 El análisis retrospectivo permite clasificar la trayectoria que finalmente se consolidó frente a las hipótesis alternativas que barajaban los comités en aquel entonces:

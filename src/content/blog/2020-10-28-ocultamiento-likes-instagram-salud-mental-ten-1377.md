@@ -5,7 +5,7 @@ pubDate: "2020-10-28"
 category: "Social Media & Dynamics"
 tags: ["Intelligence", "Research Paper", "TEP Archive"]
 author: "TEP Intelligence Board & Historical Archive"
-heroImage: "https://images.unsplash.com/photo-1534536281715-e28d76689b4d?auto=format&fit=crop&w=1200&h=630&q=82"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/The_Union_Minister_for_Urban_Development%2C_Housing_%26_Urban_Poverty_Alleviation_and_Information_%26_Broadcasting%2C_Shri_M._Venkaiah_Naidu_launching_the_newly_constructed_studio_complex_of_All_India_Radio%2C_at_Dehradun.jpg/1280px-thumbnail.jpg"
 canonicalSource: "https://international.newsinternacionaltep.com/category/trends"
 ---
 
@@ -21,7 +21,7 @@ Los reportes primarios recopilados por las corresponsalías y agencias de monito
 
 ## 2. Empirical State of Affairs and Structural Dynamics
 
-![Evidencia y Registro Documental Primario - La Decisión de Ocultar los Contadores de 'Likes' en Instagram y el Debate sobre Salud Mental Juvenil](https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=1200&h=630&q=82)
+![Evidencia y Registro Documental Primario - La Decisión de Ocultar los Contadores de 'Likes' en Instagram y el Debate sobre Salud Mental Juvenil](https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/US_Navy_030329-D-0000X-002_A_post-strike_photograph_of_Baghdad_state_and_regime-controlled_TV_Studio_and_broadcasting_facility.jpg/1280px-US_Navy_030329-D-0000X-002_A_post-strike_photograph_of_Baghdad_state_and_regime-controlled_TV_Studio_and_broadcasting_facility.jpg)
 *Figure 1: Archival photographic evidence documented in the News International TEP records.*
 
 La evolución empírica de los acontecimientos desmintió rápidamente los diagnósticos complacientes. La aceleración de las dinámicas en juego obligó a un reajuste de las previsiones institucionales, revelando una marcada correlación entre la exposición previa al riesgo y la celeridad del deterioro funcional en los sectores analizados.
@@ -40,7 +40,7 @@ El comportamiento de los indicadores determinantes durante este período histór
 
 ## 4. Scenario Evaluation and Risk Modeling
 
-![Modelado de Trayectorias y Riesgo Sistémico](https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=1200&h=630&q=82)
+![Modelado de Trayectorias y Riesgo Sistémico](https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/WHBQ_radio_DJ_booth_replica_-_Sun_Studio_%282018-09-10_16.55.38_by_Michael_Gaylard%29.jpg/1280px-WHBQ_radio_DJ_booth_replica_-_Sun_Studio_%282018-09-10_16.55.38_by_Michael_Gaylard%29.jpg)
 *Figure 2: Trajectory modeling and scenario dispersion prepared by the TEP Quantitative Unit.*
 
 El análisis retrospectivo permite clasificar la trayectoria que finalmente se consolidó frente a las hipótesis alternativas que barajaban los comités en aquel entonces:

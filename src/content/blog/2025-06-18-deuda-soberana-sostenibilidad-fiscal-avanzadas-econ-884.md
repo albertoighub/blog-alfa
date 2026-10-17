@@ -5,7 +5,7 @@ pubDate: "2025-06-18"
 category: "Economy & Markets"
 tags: ["Intelligence", "Research Paper", "TEP Archive"]
 author: "TEP Intelligence Board & Historical Archive"
-heroImage: "https://images.unsplash.com/photo-1526304640581-d334cdbbf45e?auto=format&fit=crop&w=1200&h=630&q=82"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/Sony_Playstation_1_SCPH-7002b_motherboard_top_%28cropped%29_teardrop_vias.jpg/1280px-Sony_Playstation_1_SCPH-7002b_motherboard_top_%28cropped%29_teardrop_vias.jpg"
 canonicalSource: "https://international.newsinternacionaltep.com/category/economy"
 ---
 
@@ -21,7 +21,7 @@ Los reportes primarios recopilados por las corresponsalías y agencias de monito
 
 ## 2. Empirical State of Affairs and Structural Dynamics
 
-![Evidencia y Registro Documental Primario - Deuda Soberana Global Por Encima del 100% del PIB y la Sostenibilidad Fiscal de las Economías Avanzadas](https://images.unsplash.com/photo-1579532537598-459ecdaf39cc?auto=format&fit=crop&w=1200&h=630&q=82)
+![Evidencia y Registro Documental Primario - Deuda Soberana Global Por Encima del 100% del PIB y la Sostenibilidad Fiscal de las Economías Avanzadas](https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/XPS_8940_MB_A.jpg/1280px-XPS_8940_MB_A.jpg)
 *Figure 1: Archival photographic evidence documented in the News International TEP records.*
 
 La evolución empírica de los acontecimientos desmintió rápidamente los diagnósticos complacientes. La aceleración de las dinámicas en juego obligó a un reajuste de las previsiones institucionales, revelando una marcada correlación entre la exposición previa al riesgo y la celeridad del deterioro funcional en los sectores analizados.
@@ -40,7 +40,7 @@ El comportamiento de los indicadores determinantes durante este período histór
 
 ## 4. Scenario Evaluation and Risk Modeling
 
-![Modelado de Trayectorias y Riesgo Sistémico](https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?auto=format&fit=crop&w=1200&h=630&q=82)
+![Modelado de Trayectorias y Riesgo Sistémico](https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/North_Central_Telephone_Cooperative_Rural_Broadband_keeps_TN_and_KY_High-Speed_-_RUS_%2820180927-RD-LSC-0641%29.jpg/1280px-North_Central_Telephone_Cooperative_Rural_Broadband_keeps_TN_and_KY_High-Speed_-_RUS_%2820180927-RD-LSC-0641%29.jpg)
 *Figure 2: Trajectory modeling and scenario dispersion prepared by the TEP Quantitative Unit.*
 
 El análisis retrospectivo permite clasificar la trayectoria que finalmente se consolidó frente a las hipótesis alternativas que barajaban los comités en aquel entonces:

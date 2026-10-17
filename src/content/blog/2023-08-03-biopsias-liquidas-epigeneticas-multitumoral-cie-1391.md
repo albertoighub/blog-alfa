@@ -5,7 +5,7 @@ pubDate: "2023-08-03"
 category: "Science & Medicine"
 tags: ["Science", "Research Paper", "TEP Archive"]
 author: "TEP Intelligence Board & Historical Archive"
-heroImage: "https://images.unsplash.com/photo-1516549655169-df83a0774514?auto=format&fit=crop&w=1200&h=630&q=82"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/President_Ronald_Reagan_Meeting_with_George_Bush_Don_Regan_John_Poindexter_Caspar_Weinberger_and_William_Crowe_Regarding_Libya_in_The_Oval_Office_-_DPLA_-_4718c3b085d0e475d9f38250a69a3a49.jpg/1280px-thumbnail.jpg"
 canonicalSource: "https://international.newsinternacionaltep.com/category/science"
 ---
 
@@ -21,7 +21,7 @@ Los reportes primarios recopilados por las corresponsalías y agencias de monito
 
 ## 2. Empirical State of Affairs and Structural Dynamics
 
-![Evidencia y Registro Documental Primario - Biopsias Líquidas Epigenéticas de Detección Multitumoral y Diagnóstico Preclínico](https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?auto=format&fit=crop&w=1200&h=630&q=82)
+![Evidencia y Registro Documental Primario - Biopsias Líquidas Epigenéticas de Detección Multitumoral y Diagnóstico Preclínico](https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/President_Ronald_Reagan_Meeting_with_George_Shultz_and_Robert_Mcfarlane_in_The_Oval_Office_-_DPLA_-_59673fc0bf4c4b511c77d280c7da71f6.jpg/1280px-President_Ronald_Reagan_Meeting_with_George_Shultz_and_Robert_Mcfarlane_in_The_Oval_Office_-_DPLA_-_59673fc0bf4c4b511c77d280c7da71f6.jpg)
 *Figure 1: Archival photographic evidence documented in the News International TEP records.*
 
 La evolución empírica de los acontecimientos desmintió rápidamente los diagnósticos complacientes. La aceleración de las dinámicas en juego obligó a un reajuste de las previsiones institucionales, revelando una marcada correlación entre la exposición previa al riesgo y la celeridad del deterioro funcional en los sectores analizados.
@@ -40,7 +40,7 @@ El comportamiento de los indicadores determinantes durante este período histór
 
 ## 4. Scenario Evaluation and Risk Modeling
 
-![Modelado de Trayectorias y Riesgo Sistémico](https://images.unsplash.com/photo-1530497610245-94d3c16cda28?auto=format&fit=crop&w=1200&h=630&q=82)
+![Modelado de Trayectorias y Riesgo Sistémico](https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/President_Ronald_Reagan_Meeting_with_Jeane_Kirkpatrick_in_Oval_Office_-_DPLA_-_441bc4e4d4605d21e69e1785ff1f464d.jpg/1280px-President_Ronald_Reagan_Meeting_with_Jeane_Kirkpatrick_in_Oval_Office_-_DPLA_-_441bc4e4d4605d21e69e1785ff1f464d.jpg)
 *Figure 2: Trajectory modeling and scenario dispersion prepared by the TEP Quantitative Unit.*
 
 El análisis retrospectivo permite clasificar la trayectoria que finalmente se consolidó frente a las hipótesis alternativas que barajaban los comités en aquel entonces:

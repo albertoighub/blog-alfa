@@ -5,7 +5,7 @@ pubDate: "2026-10-17"
 category: "Social Media & Dynamics"
 tags: ["Intelligence", "Research Paper", "TEP Archive"]
 author: "TEP Intelligence Board & Historical Archive"
-heroImage: "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?auto=format&fit=crop&w=1200&h=630&q=82"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/Lorenzo_Angeloni_and_the_Director_General%2C_National_Gallery_of_Modern_Art%2C_Shri_Adwaita_Charan_Garanayak_at_the_inauguration_of_the_exhibition_%282%29.jpg/1280px-Lorenzo_Angeloni_and_the_Director_General%2C_National_Gallery_of_Modern_Art%2C_Shri_Adwaita_Charan_Garanayak_at_the_inauguration_of_the_exhibition_%282%29.jpg"
 canonicalSource: "https://international.newsinternacionaltep.com/category/trends"
 ---
 
@@ -21,7 +21,7 @@ El análisis de series temporales de tráfico y engagement demuestra que los inc
 
 ## 2. State of the Art and Structural Dynamics
 
-![Análisis Documental Primario - Monopolio de Infraestructura en la Nube y el Riesgo de 'De-pla](https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format&fit=crop&w=1000&h=500&q=82)
+![Análisis Documental Primario - Monopolio de Infraestructura en la Nube y el Riesgo de 'De-pla](https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/MANET_-_M%C3%BAsica_en_las_Tuller%C3%ADas_%28National_Gallery%2C_Londres%2C_1862%29.jpg/1280px-MANET_-_M%C3%BAsica_en_las_Tuller%C3%ADas_%28National_Gallery%2C_Londres%2C_1862%29.jpg)
 *Figura 1: Representación técnica y mapeo contextual del fenómeno analizado.*
 Durante la última década, el modelo de negocio publicitario digital evolucionó desde banners estáticos hacia arquitecturas de aprendizaje por refuerzo profundo. En este contexto, el fenómeno estudiado ha consolidado una economía donde la atención humana es cuantificada, microsegmentada y subastada en milisegundos.
 
@@ -39,7 +39,7 @@ El mecanismo operativo descansa sobre bucles de recompensa intermitente variable
 
 ## 4. Scenario Evaluation and Risk Modeling
 
-![Modelado de Trayectorias y Riesgo Sistémico](https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?auto=format&fit=crop&w=1000&h=500&q=82)
+![Modelado de Trayectorias y Riesgo Sistémico](https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/Manmohan_Singh_addressing_at_the_inauguration_of_the_exhibition_%22The_Master%27s_Strokes_Art_of_Rabindranath_Tagore%22%2C_on_the_occasion_of_Gurudev_Rabindranath_Tagore%E2%80%99s_150th_Birth_Anniversary%2C_at_National_Gallery_of_Modern_Art_%281%29.jpg/1280px-thumbnail.jpg)
 *Figura 2: Telemetría de variables y dispersión de escenarios probabilísticos.*
 Se plantearon tres escenarios de evolución sociotécnica para evaluar las transformaciones en la cohesión cívica y regulatoria:
 

@@ -5,7 +5,7 @@ pubDate: "2024-04-09"
 category: "Economy & Markets"
 tags: ["Intelligence", "Research Paper", "TEP Archive"]
 author: "TEP Intelligence Board & Historical Archive"
-heroImage: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1200&h=630&q=82"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/Freight_Train_at_the_Boston_and_Maine_R._R._Station%2C_Salem%2C_Mass.jpg/1280px-Freight_Train_at_the_Boston_and_Maine_R._R._Station%2C_Salem%2C_Mass.jpg"
 canonicalSource: "https://international.newsinternacionaltep.com/category/economy"
 ---
 
@@ -21,7 +21,7 @@ Los reportes primarios recopilados por las corresponsalías y agencias de monito
 
 ## 2. Empirical State of Affairs and Structural Dynamics
 
-![Evidencia y Registro Documental Primario - Nearshoring en América del Norte: La Reconfiguración de las Redes de Manufactura del T-MEC](https://images.unsplash.com/photo-1526304640581-d334cdbbf45e?auto=format&fit=crop&w=1200&h=630&q=82)
+![Evidencia y Registro Documental Primario - Nearshoring en América del Norte: La Reconfiguración de las Redes de Manufactura del T-MEC](https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/Freight_Train_in_Hershey%2C_Nebraska.JPG/1280px-Freight_Train_in_Hershey%2C_Nebraska.JPG)
 *Figure 1: Archival photographic evidence documented in the News International TEP records.*
 
 La evolución empírica de los acontecimientos desmintió rápidamente los diagnósticos complacientes. La aceleración de las dinámicas en juego obligó a un reajuste de las previsiones institucionales, revelando una marcada correlación entre la exposición previa al riesgo y la celeridad del deterioro funcional en los sectores analizados.
@@ -40,7 +40,7 @@ El comportamiento de los indicadores determinantes durante este período histór
 
 ## 4. Scenario Evaluation and Risk Modeling
 
-![Modelado de Trayectorias y Riesgo Sistémico](https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?auto=format&fit=crop&w=1200&h=630&q=82)
+![Modelado de Trayectorias y Riesgo Sistémico](https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/Freight_train_and_steam_locomotive_at_Erua_Railway_Station_ATLIB_271379.png/1280px-Freight_train_and_steam_locomotive_at_Erua_Railway_Station_ATLIB_271379.png)
 *Figure 2: Trajectory modeling and scenario dispersion prepared by the TEP Quantitative Unit.*
 
 El análisis retrospectivo permite clasificar la trayectoria que finalmente se consolidó frente a las hipótesis alternativas que barajaban los comités en aquel entonces:

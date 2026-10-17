@@ -5,7 +5,7 @@ pubDate: "2023-08-27"
 category: "Science & Medicine"
 tags: ["Science", "Research Paper", "TEP Archive"]
 author: "TEP Intelligence Board & Historical Archive"
-heroImage: "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=1200&h=630&q=82"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/Harold_Hongju_Koh_and_Ambassador_Eileen_Chamberlain_Donahoe_at_Human_Rights_Council.jpg/1280px-Harold_Hongju_Koh_and_Ambassador_Eileen_Chamberlain_Donahoe_at_Human_Rights_Council.jpg"
 canonicalSource: "https://international.newsinternacionaltep.com/category/science"
 ---
 
@@ -21,7 +21,7 @@ Los reportes primarios recopilados por las corresponsalías y agencias de monito
 
 ## 2. Empirical State of Affairs and Structural Dynamics
 
-![Evidencia y Registro Documental Primario - Fármacos Anti-Amiloide de Segunda Generación (Lecanemab) para la Ralentización del Alzheimer](https://images.unsplash.com/photo-1579165466791-788226ab77b6?auto=format&fit=crop&w=1200&h=630&q=82)
+![Evidencia y Registro Documental Primario - Fármacos Anti-Amiloide de Segunda Generación (Lecanemab) para la Ralentización del Alzheimer](https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/High_Commissioner_for_Human_Rights_Pillay_Speaks_at_Opening_of_Dignity_Tribes_in_Transition.jpg/1280px-High_Commissioner_for_Human_Rights_Pillay_Speaks_at_Opening_of_Dignity_Tribes_in_Transition.jpg)
 *Figure 1: Archival photographic evidence documented in the News International TEP records.*
 
 La evolución empírica de los acontecimientos desmintió rápidamente los diagnósticos complacientes. La aceleración de las dinámicas en juego obligó a un reajuste de las previsiones institucionales, revelando una marcada correlación entre la exposición previa al riesgo y la celeridad del deterioro funcional en los sectores analizados.
@@ -40,7 +40,7 @@ El comportamiento de los indicadores determinantes durante este período histór
 
 ## 4. Scenario Evaluation and Risk Modeling
 
-![Modelado de Trayectorias y Riesgo Sistémico](https://images.unsplash.com/photo-1516549655169-df83a0774514?auto=format&fit=crop&w=1200&h=630&q=82)
+![Modelado de Trayectorias y Riesgo Sistémico](https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/Maria_Otero_Speaking_with_Laura_Dupuy_Lasserre%2C_President_of_the_Human_Rights_Council.jpg/1280px-Maria_Otero_Speaking_with_Laura_Dupuy_Lasserre%2C_President_of_the_Human_Rights_Council.jpg)
 *Figure 2: Trajectory modeling and scenario dispersion prepared by the TEP Quantitative Unit.*
 
 El análisis retrospectivo permite clasificar la trayectoria que finalmente se consolidó frente a las hipótesis alternativas que barajaban los comités en aquel entonces:

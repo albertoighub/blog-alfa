@@ -5,7 +5,7 @@ pubDate: "2023-03-23"
 category: "Politics & Defense"
 tags: ["Geopolitics", "Research Paper", "TEP Archive"]
 author: "TEP Intelligence Board & Historical Archive"
-heroImage: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1200&h=630&q=82"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/Staff_meeting%3B_Signing_ceremony-_Indian_Treaty_Room_-_DPLA_-_aaad9b6b6cdbf42ede9f96d21dcee6a8.jpg/1280px-Staff_meeting%3B_Signing_ceremony-_Indian_Treaty_Room_-_DPLA_-_aaad9b6b6cdbf42ede9f96d21dcee6a8.jpg"
 canonicalSource: "https://international.newsinternacionaltep.com/category/geopolitics"
 ---
 
@@ -21,7 +21,7 @@ Los reportes primarios recopilados por las corresponsalías y agencias de monito
 
 ## 2. Empirical State of Affairs and Structural Dynamics
 
-![Evidencia y Registro Documental Primario - El Dilema de Taiwán: Cadenas de Suministro de Semiconductores y Disuasión Naval](https://images.unsplash.com/photo-1521791136064-7986c2920216?auto=format&fit=crop&w=1200&h=630&q=82)
+![Evidencia y Registro Documental Primario - El Dilema de Taiwán: Cadenas de Suministro de Semiconductores y Disuasión Naval](https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/Vietnam_peace_agreement_signing%2C_27580141%2C_new.jpg/1280px-Vietnam_peace_agreement_signing%2C_27580141%2C_new.jpg)
 *Figure 1: Archival photographic evidence documented in the News International TEP records.*
 
 La evolución empírica de los acontecimientos desmintió rápidamente los diagnósticos complacientes. La aceleración de las dinámicas en juego obligó a un reajuste de las previsiones institucionales, revelando una marcada correlación entre la exposición previa al riesgo y la celeridad del deterioro funcional en los sectores analizados.
@@ -40,7 +40,7 @@ El comportamiento de los indicadores determinantes durante este período histór
 
 ## 4. Scenario Evaluation and Risk Modeling
 
-![Modelado de Trayectorias y Riesgo Sistémico](https://images.unsplash.com/photo-1577495508048-b635879837f1?auto=format&fit=crop&w=1200&h=630&q=82)
+![Modelado de Trayectorias y Riesgo Sistémico](https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/2023_Chamizal_Sister_Park_Signing_ceremony.JPEG_%28706e118b-a6fb-4ed8-94d6-c97cb1416d15%29.JPEG/1280px-2023_Chamizal_Sister_Park_Signing_ceremony.JPEG_%28706e118b-a6fb-4ed8-94d6-c97cb1416d15%29.JPEG)
 *Figure 2: Trajectory modeling and scenario dispersion prepared by the TEP Quantitative Unit.*
 
 El análisis retrospectivo permite clasificar la trayectoria que finalmente se consolidó frente a las hipótesis alternativas que barajaban los comités en aquel entonces:

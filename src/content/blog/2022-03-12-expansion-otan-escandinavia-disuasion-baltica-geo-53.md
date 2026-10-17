@@ -5,7 +5,7 @@ pubDate: "2022-03-12"
 category: "Politics & Defense"
 tags: ["Geopolitics", "Research Paper", "TEP Archive"]
 author: "TEP Intelligence Board & Historical Archive"
-heroImage: "https://images.unsplash.com/photo-1541872703-74c5e44368f9?auto=format&fit=crop&w=1200&h=630&q=82"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/Foreign_Minister_Sven_Mikser_and_German_Foreign_Minister_Sigmar_Gabriel_in_Tallinn_%2801.03.2017%29_%2833184031335%29.jpg/1280px-Foreign_Minister_Sven_Mikser_and_German_Foreign_Minister_Sigmar_Gabriel_in_Tallinn_%2801.03.2017%29_%2833184031335%29.jpg"
 canonicalSource: "https://international.newsinternacionaltep.com/category/geopolitics"
 ---
 
@@ -21,7 +21,7 @@ Los reportes primarios recopilados por las corresponsalías y agencias de monito
 
 ## 2. Empirical State of Affairs and Structural Dynamics
 
-![Evidencia y Registro Documental Primario - Doctrina de Disuasión Báltica y la Expansión de la OTAN en Escandinavia](https://images.unsplash.com/photo-1526304640581-d334cdbbf45e?auto=format&fit=crop&w=1200&h=630&q=82)
+![Evidencia y Registro Documental Primario - Doctrina de Disuasión Báltica y la Expansión de la OTAN en Escandinavia](https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/Foreign_Minister_Sven_Mikser_and_German_Foreign_Minister_Sigmar_Gabriel_in_Tallinn_%2801.03.2017%29_%2833184034455%29.jpg/1280px-Foreign_Minister_Sven_Mikser_and_German_Foreign_Minister_Sigmar_Gabriel_in_Tallinn_%2801.03.2017%29_%2833184034455%29.jpg)
 *Figure 1: Archival photographic evidence documented in the News International TEP records.*
 
 La evolución empírica de los acontecimientos desmintió rápidamente los diagnósticos complacientes. La aceleración de las dinámicas en juego obligó a un reajuste de las previsiones institucionales, revelando una marcada correlación entre la exposición previa al riesgo y la celeridad del deterioro funcional en los sectores analizados.
@@ -40,7 +40,7 @@ El comportamiento de los indicadores determinantes durante este período histór
 
 ## 4. Scenario Evaluation and Risk Modeling
 
-![Modelado de Trayectorias y Riesgo Sistémico](https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1200&h=630&q=82)
+![Modelado de Trayectorias y Riesgo Sistémico](https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/Foreign_Minister_Urmas_Paet_met_with_Georgian_Foreign_Minister_Gregory_Vashadze_in_Tallinn._01.03.2012_%286797618478%29.jpg/1280px-Foreign_Minister_Urmas_Paet_met_with_Georgian_Foreign_Minister_Gregory_Vashadze_in_Tallinn._01.03.2012_%286797618478%29.jpg)
 *Figure 2: Trajectory modeling and scenario dispersion prepared by the TEP Quantitative Unit.*
 
 El análisis retrospectivo permite clasificar la trayectoria que finalmente se consolidó frente a las hipótesis alternativas que barajaban los comités en aquel entonces:

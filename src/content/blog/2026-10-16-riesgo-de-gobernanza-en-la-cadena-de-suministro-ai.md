@@ -5,7 +5,7 @@ pubDate: "2026-10-16"
 category: "Economy & Markets"
 tags: ["Intelligence", "Research Paper", "TEP Archive"]
 author: "TEP Intelligence Board & Historical Archive"
-heroImage: "https://fortune.com/img-assets/wp-content/uploads/2026/10/GettyImages-2223502567-1-e1792098648708.jpg?w=2048"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/Atari_Portfolio_HPC-004_-_display_part_-_board_-_Toshiba_TC54256AF-4668.jpg/1280px-Atari_Portfolio_HPC-004_-_display_part_-_board_-_Toshiba_TC54256AF-4668.jpg"
 canonicalSource: "https://international.newsinternacionaltep.com/category/economy"
 ---
 

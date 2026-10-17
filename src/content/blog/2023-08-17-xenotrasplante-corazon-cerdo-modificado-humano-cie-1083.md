@@ -5,7 +5,7 @@ pubDate: "2023-08-17"
 category: "Science & Medicine"
 tags: ["Science", "Research Paper", "TEP Archive"]
 author: "TEP Intelligence Board & Historical Archive"
-heroImage: "https://images.unsplash.com/photo-1516549655169-df83a0774514?auto=format&fit=crop&w=1200&h=630&q=82"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/Army_Gen._Martin_E._Dempsey%2C_chairman_of_the_Joint_Chiefs_of_Staff%2C_testifies_on_the_Law_of_the_Sea_Convention_before_the_Senate_Foreign_Relations_Committee.jpg/1280px-Army_Gen._Martin_E._Dempsey%2C_chairman_of_the_Joint_Chiefs_of_Staff%2C_testifies_on_the_Law_of_the_Sea_Convention_before_the_Senate_Foreign_Relations_Committee.jpg"
 canonicalSource: "https://international.newsinternacionaltep.com/category/science"
 ---
 
@@ -21,7 +21,7 @@ Los reportes primarios recopilados por las corresponsalías y agencias de monito
 
 ## 2. Empirical State of Affairs and Structural Dynamics
 
-![Evidencia y Registro Documental Primario - Hitos en Xenotrasplante: El Primer Injerto Cardíaco y Renal de Cerdo Modificado a Humano](https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?auto=format&fit=crop&w=1200&h=630&q=82)
+![Evidencia y Registro Documental Primario - Hitos en Xenotrasplante: El Primer Injerto Cardíaco y Renal de Cerdo Modificado a Humano](https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/Implementation-of-unclos.png/1280px-Implementation-of-unclos.png)
 *Figure 1: Archival photographic evidence documented in the News International TEP records.*
 
 La evolución empírica de los acontecimientos desmintió rápidamente los diagnósticos complacientes. La aceleración de las dinámicas en juego obligó a un reajuste de las previsiones institucionales, revelando una marcada correlación entre la exposición previa al riesgo y la celeridad del deterioro funcional en los sectores analizados.
@@ -40,7 +40,7 @@ El comportamiento de los indicadores determinantes durante este período histór
 
 ## 4. Scenario Evaluation and Risk Modeling
 
-![Modelado de Trayectorias y Riesgo Sistémico](https://images.unsplash.com/photo-1530497610245-94d3c16cda28?auto=format&fit=crop&w=1200&h=630&q=82)
+![Modelado de Trayectorias y Riesgo Sistémico](https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/Secretary_of_State_Hillary_Rodham_Clinton_testifies_on_the_Law_of_the_Sea_Convention_before_the_Senate_Foreign_Relations_Committee.jpg/1280px-Secretary_of_State_Hillary_Rodham_Clinton_testifies_on_the_Law_of_the_Sea_Convention_before_the_Senate_Foreign_Relations_Committee.jpg)
 *Figure 2: Trajectory modeling and scenario dispersion prepared by the TEP Quantitative Unit.*
 
 El análisis retrospectivo permite clasificar la trayectoria que finalmente se consolidó frente a las hipótesis alternativas que barajaban los comités en aquel entonces:

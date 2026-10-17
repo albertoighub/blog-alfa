@@ -5,7 +5,7 @@ pubDate: "2026-10-17"
 category: "Economy & Markets"
 tags: ["Intelligence", "Research Paper", "TEP Archive"]
 author: "TEP Intelligence Board & Historical Archive"
-heroImage: "https://fortune.com/img-assets/wp-content/uploads/2026/10/Asia-CEO-Interviews-Rakesh-Kumar.jpg?w=2048"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/High_performance_computing_%28HPC%29_data_center_%289091835239%29.jpg/1280px-High_performance_computing_%28HPC%29_data_center_%289091835239%29.jpg"
 canonicalSource: "https://international.newsinternacionaltep.com/category/economy"
 ---
 

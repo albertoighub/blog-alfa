@@ -5,7 +5,7 @@ pubDate: "2023-08-10"
 category: "Politics & Defense"
 tags: ["Geopolitics", "Research Paper", "TEP Archive"]
 author: "TEP Intelligence Board & Historical Archive"
-heroImage: "https://images.unsplash.com/photo-1541872703-74c5e44368f9?auto=format&fit=crop&w=1200&h=630&q=82"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/President_Ronald_Reagan_Nancy_Reagan_President_Gerald_Ford_and_Betty_Ford_in_The_Oval_Office_During_a_Meeting_with_President_Ford_to_Discuss_His_Upcoming_Trip_to_Europe_and_The_Far_-_DPLA_-_88933bb9387fa9f3a3a7c94cc2216dc0.jpg/1280px-thumbnail.jpg"
 canonicalSource: "https://international.newsinternacionaltep.com/category/geopolitics"
 ---
 
@@ -21,7 +21,7 @@ Los reportes primarios recopilados por las corresponsalías y agencias de monito
 
 ## 2. Empirical State of Affairs and Structural Dynamics
 
-![Evidencia y Registro Documental Primario - La Doctrina de Seguridad Nacional Post-Pandémica y el Control de Infraestructuras Críticas](https://images.unsplash.com/photo-1526304640581-d334cdbbf45e?auto=format&fit=crop&w=1200&h=630&q=82)
+![Evidencia y Registro Documental Primario - La Doctrina de Seguridad Nacional Post-Pandémica y el Control de Infraestructuras Críticas](https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/President_Ronald_Reagan_Sitting_at_Desk_Meeting_with_Ed_Meese_in_The_Oval_Office_-_DPLA_-_cd91b09c27e8d679248d05c5da0ca34a.jpg/1280px-President_Ronald_Reagan_Sitting_at_Desk_Meeting_with_Ed_Meese_in_The_Oval_Office_-_DPLA_-_cd91b09c27e8d679248d05c5da0ca34a.jpg)
 *Figure 1: Archival photographic evidence documented in the News International TEP records.*
 
 La evolución empírica de los acontecimientos desmintió rápidamente los diagnósticos complacientes. La aceleración de las dinámicas en juego obligó a un reajuste de las previsiones institucionales, revelando una marcada correlación entre la exposición previa al riesgo y la celeridad del deterioro funcional en los sectores analizados.
@@ -40,7 +40,7 @@ El comportamiento de los indicadores determinantes durante este período histór
 
 ## 4. Scenario Evaluation and Risk Modeling
 
-![Modelado de Trayectorias y Riesgo Sistémico](https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1200&h=630&q=82)
+![Modelado de Trayectorias y Riesgo Sistémico](https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/President_Ronald_Reagan_and_Soviet_General_Secretary_Gorbachev_Having_Their_First_Meeting_in_The_Oval_Office_at_The_White_House_-_DPLA_-_71a979c3e709736ad9b21218df3a2968.jpg/1280px-thumbnail.jpg)
 *Figure 2: Trajectory modeling and scenario dispersion prepared by the TEP Quantitative Unit.*
 
 El análisis retrospectivo permite clasificar la trayectoria que finalmente se consolidó frente a las hipótesis alternativas que barajaban los comités en aquel entonces:

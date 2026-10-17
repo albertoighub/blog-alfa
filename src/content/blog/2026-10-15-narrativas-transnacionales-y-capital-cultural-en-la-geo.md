@@ -5,7 +5,7 @@ pubDate: "2026-10-15"
 category: "Politics & Defense"
 tags: ["Geopolitics", "Research Paper", "TEP Archive"]
 author: "TEP Intelligence Board & Historical Archive"
-heroImage: "https://www.latercera.com/resizer/v2/SLXVJ5VICNBF5LVSEJJRMBKGBE.jpg?auth=490cda1d2724a97a0bd47cefba9863adbe93f8ba02a73fbfbec382f0c8a72b35&smart=true&width=1200&height=692"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/Atari_Portfolio_HPC-004-2387.jpg/1280px-Atari_Portfolio_HPC-004-2387.jpg"
 canonicalSource: "https://international.newsinternacionaltep.com/category/geopolitics"
 ---
 

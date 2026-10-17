@@ -5,7 +5,7 @@ pubDate: "2020-10-03"
 category: "Technology & AI"
 tags: ["Technology", "Research Paper", "TEP Archive"]
 author: "TEP Intelligence Board & Historical Archive"
-heroImage: "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&w=1200&h=630&q=82"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/Microsoft_Data_Center_Middenmeer%2C_the_Netherlands_-_2.jpg/1280px-Microsoft_Data_Center_Middenmeer%2C_the_Netherlands_-_2.jpg"
 canonicalSource: "https://international.newsinternacionaltep.com/category/technology"
 ---
 
@@ -21,7 +21,7 @@ Los reportes primarios recopilados por las corresponsalías y agencias de monito
 
 ## 2. Empirical State of Affairs and Structural Dynamics
 
-![Evidencia y Registro Documental Primario - El Lanzamiento de GPT-3 y la Demostración del Escalado de Parámetros en Modelos del Lenguaje](https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1200&h=630&q=82)
+![Evidencia y Registro Documental Primario - El Lanzamiento de GPT-3 y la Demostración del Escalado de Parámetros en Modelos del Lenguaje](https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Milano%2C_piazza_della_Scala%2C_10_ottobre_2026%2C_manifestazione_di_protesta_contro_il_proliferare_incontrollato_di_nuovi_data_center_sul_territorio_nazionale_%283%29.jpg/1280px-thumbnail.jpg)
 *Figure 1: Archival photographic evidence documented in the News International TEP records.*
 
 La evolución empírica de los acontecimientos desmintió rápidamente los diagnósticos complacientes. La aceleración de las dinámicas en juego obligó a un reajuste de las previsiones institucionales, revelando una marcada correlación entre la exposición previa al riesgo y la celeridad del deterioro funcional en los sectores analizados.
@@ -40,7 +40,7 @@ El comportamiento de los indicadores determinantes durante este período histór
 
 ## 4. Scenario Evaluation and Risk Modeling
 
-![Modelado de Trayectorias y Riesgo Sistémico](https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&w=1200&h=630&q=82)
+![Modelado de Trayectorias y Riesgo Sistémico](https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c9/Postgirots_datacentral_1965%2C_Postmuseum_POST.017507.jpg/1280px-Postgirots_datacentral_1965%2C_Postmuseum_POST.017507.jpg)
 *Figure 2: Trajectory modeling and scenario dispersion prepared by the TEP Quantitative Unit.*
 
 El análisis retrospectivo permite clasificar la trayectoria que finalmente se consolidó frente a las hipótesis alternativas que barajaban los comités en aquel entonces:

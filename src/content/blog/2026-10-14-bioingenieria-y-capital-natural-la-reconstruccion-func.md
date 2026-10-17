@@ -5,7 +5,7 @@ pubDate: "2026-10-14"
 category: "Economy & Markets"
 tags: ["Intelligence", "Research Paper", "TEP Archive"]
 author: "TEP Intelligence Board & Historical Archive"
-heroImage: "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/10/p-1-dodo.jpg"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2c/Abertura_da_%22Exposi%C3%A7%C3%A3o_da_Independ%C3%AAncia%22_no_Parque_da_Cidade%2C_em_Bras%C3%ADlia_DF_-_2023_%2853157791838%29.jpg/1280px-Abertura_da_%22Exposi%C3%A7%C3%A3o_da_Independ%C3%AAncia%22_no_Parque_da_Cidade%2C_em_Bras%C3%ADlia_DF_-_2023_%2853157791838%29.jpg"
 canonicalSource: "https://international.newsinternacionaltep.com/category/economy"
 ---
 

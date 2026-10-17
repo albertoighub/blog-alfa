@@ -5,7 +5,7 @@ pubDate: "2026-10-14"
 category: "Economy & Markets"
 tags: ["Intelligence", "Research Paper", "TEP Archive"]
 author: "TEP Intelligence Board & Historical Archive"
-heroImage: "https://cdn.mos.cms.futurecdn.net/w8FdYoyf6AeEgCKViUnYQM-1920-80.jpg"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/7%C2%AA_MOSTRA_BID_BRASIL_2022_%2852548553966%29.jpg/1280px-7%C2%AA_MOSTRA_BID_BRASIL_2022_%2852548553966%29.jpg"
 canonicalSource: "https://international.newsinternacionaltep.com/category/economy"
 ---
 

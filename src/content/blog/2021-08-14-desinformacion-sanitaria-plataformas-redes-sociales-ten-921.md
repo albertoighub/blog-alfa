@@ -5,7 +5,7 @@ pubDate: "2021-08-14"
 category: "Social Media & Dynamics"
 tags: ["Intelligence", "Research Paper", "TEP Archive"]
 author: "TEP Intelligence Board & Historical Archive"
-heroImage: "https://images.unsplash.com/photo-1534536281715-e28d76689b4d?auto=format&fit=crop&w=1200&h=630&q=82"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/CENTRAL_MUSIC_%26_ENTERTAINMENT_FESTIVAL_2025_CENTRAL_STAGE_K%E3%82%A2%E3%83%AA%E3%83%BC%E3%83%8A%E6%A8%AA%E6%B5%9C_2025%E5%B9%B44%E6%9C%885%E6%97%A5%E3%81%AE%E6%A8%AA%E6%B5%9C_202504051411_IMG_9486.jpg/1280px-CENTRAL_MUSIC_%26_ENTERTAINMENT_FESTIVAL_2025_CENTRAL_STAGE_K%E3%82%A2%E3%83%AA%E3%83%BC%E3%83%8A%E6%A8%AA%E6%B5%9C_2025%E5%B9%B44%E6%9C%885%E6%97%A5%E3%81%AE%E6%A8%AA%E6%B5%9C_202504051411_IMG_9486.jpg"
 canonicalSource: "https://international.newsinternacionaltep.com/category/trends"
 ---
 
@@ -21,7 +21,7 @@ Los reportes primarios recopilados por las corresponsalías y agencias de monito
 
 ## 2. Empirical State of Affairs and Structural Dynamics
 
-![Evidencia y Registro Documental Primario - El Desafío de la Desinformación Sanitaria en Plataformas Digitales durante Emergencias Globales](https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=1200&h=630&q=82)
+![Evidencia y Registro Documental Primario - El Desafío de la Desinformación Sanitaria en Plataformas Digitales durante Emergencias Globales](https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/CENTRAL_MUSIC_%26_ENTERTAINMENT_FESTIVAL_2025_CENTRAL_STAGE_K%E3%82%A2%E3%83%AA%E3%83%BC%E3%83%8A%E6%A8%AA%E6%B5%9C_2025%E5%B9%B44%E6%9C%886%E6%97%A5%E3%81%AE%E6%A8%AA%E6%B5%9C_202504061217_IMG_0050.jpg/1280px-CENTRAL_MUSIC_%26_ENTERTAINMENT_FESTIVAL_2025_CENTRAL_STAGE_K%E3%82%A2%E3%83%AA%E3%83%BC%E3%83%8A%E6%A8%AA%E6%B5%9C_2025%E5%B9%B44%E6%9C%886%E6%97%A5%E3%81%AE%E6%A8%AA%E6%B5%9C_202504061217_IMG_0050.jpg)
 *Figure 1: Archival photographic evidence documented in the News International TEP records.*
 
 La evolución empírica de los acontecimientos desmintió rápidamente los diagnósticos complacientes. La aceleración de las dinámicas en juego obligó a un reajuste de las previsiones institucionales, revelando una marcada correlación entre la exposición previa al riesgo y la celeridad del deterioro funcional en los sectores analizados.
@@ -40,7 +40,7 @@ El comportamiento de los indicadores determinantes durante este período histór
 
 ## 4. Scenario Evaluation and Risk Modeling
 
-![Modelado de Trayectorias y Riesgo Sistémico](https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=1200&h=630&q=82)
+![Modelado de Trayectorias y Riesgo Sistémico](https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/CENTRAL_MUSIC_%26_ENTERTAINMENT_FESTIVAL_2025_CENTRAL_STAGE_K%E3%82%A2%E3%83%AA%E3%83%BC%E3%83%8A%E6%A8%AA%E6%B5%9C_2025%E5%B9%B44%E6%9C%886%E6%97%A5%E3%81%AE%E6%A8%AA%E6%B5%9C_202504061217_IMG_0051.jpg/1280px-CENTRAL_MUSIC_%26_ENTERTAINMENT_FESTIVAL_2025_CENTRAL_STAGE_K%E3%82%A2%E3%83%AA%E3%83%BC%E3%83%8A%E6%A8%AA%E6%B5%9C_2025%E5%B9%B44%E6%9C%886%E6%97%A5%E3%81%AE%E6%A8%AA%E6%B5%9C_202504061217_IMG_0051.jpg)
 *Figure 2: Trajectory modeling and scenario dispersion prepared by the TEP Quantitative Unit.*
 
 El análisis retrospectivo permite clasificar la trayectoria que finalmente se consolidó frente a las hipótesis alternativas que barajaban los comités en aquel entonces:

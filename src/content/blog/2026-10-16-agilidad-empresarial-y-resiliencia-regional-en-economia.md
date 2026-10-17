@@ -5,7 +5,7 @@ pubDate: "2026-10-17"
 category: "Economy & Markets"
 tags: ["Intelligence", "Research Paper", "TEP Archive"]
 author: "TEP Intelligence Board & Historical Archive"
-heroImage: "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?auto=format&fit=crop&w=1200&h=630&q=85"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/High_Performance_Computing_Center_Stuttgart_HLRS_2015_05_NEC_SX-ACE_NEC_Cluster.jpg/1280px-High_Performance_Computing_Center_Stuttgart_HLRS_2015_05_NEC_SX-ACE_NEC_Cluster.jpg"
 canonicalSource: "https://international.newsinternacionaltep.com/category/economy"
 ---
 

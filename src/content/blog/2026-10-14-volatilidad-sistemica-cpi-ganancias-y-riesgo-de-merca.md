@@ -5,7 +5,7 @@ pubDate: "2026-10-14"
 category: "Economy & Markets"
 tags: ["Intelligence", "Research Paper", "TEP Archive"]
 author: "TEP Intelligence Board & Historical Archive"
-heroImage: "https://cdn.mos.cms.futurecdn.net/XVJqMJo7Jy4LpaiMjMucYU-1920-80.jpg"
+heroImage: "https://upload.wikimedia.org/wikipedia/commons/c/c2/1U_rack_mount_server_cooling_system_fan_heat-sink.jpg"
 canonicalSource: "https://international.newsinternacionaltep.com/category/economy"
 ---
 

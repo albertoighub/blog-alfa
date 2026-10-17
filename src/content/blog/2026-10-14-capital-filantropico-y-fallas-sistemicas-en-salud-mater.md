@@ -5,7 +5,7 @@ pubDate: "2026-10-14"
 category: "Economy & Markets"
 tags: ["Intelligence", "Research Paper", "TEP Archive"]
 author: "TEP Intelligence Board & Historical Archive"
-heroImage: "https://fortune.com/img-assets/wp-content/uploads/2026/10/55587218408_01dc807ef4_o-e1791910807634.jpg?w=2048"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/Airman_1st_Class_Nathalie_Olarte%2C_a_362nd_Training_Squadron_crew_chief_apprentice_course_student%2C_dons_a_virtual_reality_headset_during_a_training_session_at_Sheppard_Air_Force_Base%2C_Texas%2C_Jan._21%2C_2022.jpg/1280px-thumbnail.jpg"
 canonicalSource: "https://international.newsinternacionaltep.com/category/economy"
 ---
 

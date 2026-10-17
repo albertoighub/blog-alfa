@@ -5,7 +5,7 @@ pubDate: "2023-05-04"
 category: "Social Media & Dynamics"
 tags: ["Intelligence", "Research Paper", "TEP Archive"]
 author: "TEP Intelligence Board & Historical Archive"
-heroImage: "https://images.unsplash.com/photo-1534536281715-e28d76689b4d?auto=format&fit=crop&w=1200&h=630&q=82"
+heroImage: "https://upload.wikimedia.org/wikipedia/commons/8/8a/2017_%EC%8A%88%ED%8D%BC%EB%A7%81%ED%81%AC%EB%B0%B0_%EB%8B%88%EC%B9%B4%EC%BD%94%EB%A6%AC%EC%95%84_%EC%8A%A4%ED%8F%AC%EC%B8%A0_%ED%8E%98%EC%8A%A4%ED%8B%B0%EB%B2%8C_%EB%94%94%EB%B0%94%EB%B9%84%ED%82%A4%EB%8B%88_%EB%AF%B8%EB%94%94%EC%9B%80_%ED%86%A8%EB%B6%80%EB%AC%B8_%2842%29.jpg"
 canonicalSource: "https://international.newsinternacionaltep.com/category/trends"
 ---
 
@@ -21,7 +21,7 @@ Los reportes primarios recopilados por las corresponsalías y agencias de monito
 
 ## 2. Empirical State of Affairs and Structural Dynamics
 
-![Evidencia y Registro Documental Primario - La Regulación de Algoritmos Adictivos en Menores de Edad: Demandas de Estados y Fiscales Generales](https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=1200&h=630&q=82)
+![Evidencia y Registro Documental Primario - La Regulación de Algoritmos Adictivos en Menores de Edad: Demandas de Estados y Fiscales Generales](https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/7th_MSC_hosts_Black_History_Month_Fashion_Show_%288249512%29.jpg/1280px-7th_MSC_hosts_Black_History_Month_Fashion_Show_%288249512%29.jpg)
 *Figure 1: Archival photographic evidence documented in the News International TEP records.*
 
 La evolución empírica de los acontecimientos desmintió rápidamente los diagnósticos complacientes. La aceleración de las dinámicas en juego obligó a un reajuste de las previsiones institucionales, revelando una marcada correlación entre la exposición previa al riesgo y la celeridad del deterioro funcional en los sectores analizados.
@@ -40,7 +40,7 @@ El comportamiento de los indicadores determinantes durante este período histór
 
 ## 4. Scenario Evaluation and Risk Modeling
 
-![Modelado de Trayectorias y Riesgo Sistémico](https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=1200&h=630&q=82)
+![Modelado de Trayectorias y Riesgo Sistémico](https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/Blond_runway_model_with_a_lovely_smile_%28IMG_0137a%29_%283509760316%29.jpg/1280px-Blond_runway_model_with_a_lovely_smile_%28IMG_0137a%29_%283509760316%29.jpg)
 *Figure 2: Trajectory modeling and scenario dispersion prepared by the TEP Quantitative Unit.*
 
 El análisis retrospectivo permite clasificar la trayectoria que finalmente se consolidó frente a las hipótesis alternativas que barajaban los comités en aquel entonces:

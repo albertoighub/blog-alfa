@@ -5,7 +5,7 @@ pubDate: "2023-07-17"
 category: "Science & Medicine"
 tags: ["Science", "Research Paper", "TEP Archive"]
 author: "TEP Intelligence Board & Historical Archive"
-heroImage: "https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?auto=format&fit=crop&w=1200&h=630&q=82"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cd/President_Meeting_with_Ted_Kennedy_to_Discuss_The_Situation_in_Ireland_and_Gun_Control_in_Oval_Office_-_DPLA_-_fcd60a256683a490cf0b05624fdddb09.jpg/1280px-President_Meeting_with_Ted_Kennedy_to_Discuss_The_Situation_in_Ireland_and_Gun_Control_in_Oval_Office_-_DPLA_-_fcd60a256683a490cf0b05624fdddb09.jpg"
 canonicalSource: "https://international.newsinternacionaltep.com/category/science"
 ---
 
@@ -21,7 +21,7 @@ Los reportes primarios recopilados por las corresponsalías y agencias de monito
 
 ## 2. Empirical State of Affairs and Structural Dynamics
 
-![Evidencia y Registro Documental Primario - Células CAR-T Alogénicas Universales y la Reducción de Barreras de Coste en Hematología](https://images.unsplash.com/photo-1530497610245-94d3c16cda28?auto=format&fit=crop&w=1200&h=630&q=82)
+![Evidencia y Registro Documental Primario - Células CAR-T Alogénicas Universales y la Reducción de Barreras de Coste en Hematología](https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/President_Reagan_Holds_an_Oval_Office_Staff_Meeting_on_His_First_Full_Day_in_Office_with_Michael_Deaver%2C_Ed_Meese%2C_James_Baker_III%2C_and_James_Brady_-_DPLA_-_e47162eafaf753b87b3e1ef887b07410.jpg/1280px-thumbnail.jpg)
 *Figure 1: Archival photographic evidence documented in the News International TEP records.*
 
 La evolución empírica de los acontecimientos desmintió rápidamente los diagnósticos complacientes. La aceleración de las dinámicas en juego obligó a un reajuste de las previsiones institucionales, revelando una marcada correlación entre la exposición previa al riesgo y la celeridad del deterioro funcional en los sectores analizados.
@@ -40,7 +40,7 @@ El comportamiento de los indicadores determinantes durante este período histór
 
 ## 4. Scenario Evaluation and Risk Modeling
 
-![Modelado de Trayectorias y Riesgo Sistémico](https://images.unsplash.com/photo-1507668077129-56e32842fceb?auto=format&fit=crop&w=1200&h=630&q=82)
+![Modelado de Trayectorias y Riesgo Sistémico](https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/President_Richard_Nixon_and_Israeli_Prime_Minister_Golda_Meir_Meeting_in_the_White_House_Oval_Office_-_DPLA_-_af9bb4c689e2b7c87f733acc0bbc6280.jpg/1280px-President_Richard_Nixon_and_Israeli_Prime_Minister_Golda_Meir_Meeting_in_the_White_House_Oval_Office_-_DPLA_-_af9bb4c689e2b7c87f733acc0bbc6280.jpg)
 *Figure 2: Trajectory modeling and scenario dispersion prepared by the TEP Quantitative Unit.*
 
 El análisis retrospectivo permite clasificar la trayectoria que finalmente se consolidó frente a las hipótesis alternativas que barajaban los comités en aquel entonces:

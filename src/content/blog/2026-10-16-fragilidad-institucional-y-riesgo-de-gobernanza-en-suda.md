@@ -5,7 +5,7 @@ pubDate: "2026-10-16"
 category: "Politics & Defense"
 tags: ["Geopolitics", "Research Paper", "TEP Archive"]
 author: "TEP Intelligence Board & Historical Archive"
-heroImage: "https://images.newsteam.io/image/719/GbSdY1y2zckLqKcoXLj7yPLvscAPaNk2RQUGRYs9x3LjwfxkT48CFtcfz3Me25nV8yM8WRYGHcq9qjTLac9b3pnYoUGCA2trL9ByYFKW4PErR4HnxkiFfEGiJaqnsFuwY7FaCtw61wdmWYpwgYv5b"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/Pacific_HPC_night_-_Hillsboro%2C_Oregon.JPG/1280px-Pacific_HPC_night_-_Hillsboro%2C_Oregon.JPG"
 canonicalSource: "https://international.newsinternacionaltep.com/category/geopolitics"
 ---
 

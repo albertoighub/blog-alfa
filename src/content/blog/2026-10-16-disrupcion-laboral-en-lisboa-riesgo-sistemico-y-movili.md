@@ -5,7 +5,7 @@ pubDate: "2026-10-17"
 category: "Economy & Markets"
 tags: ["Intelligence", "Research Paper", "TEP Archive"]
 author: "TEP Intelligence Board & Historical Archive"
-heroImage: "https://images.unsplash.com/photo-1559526324-4b87b5e36e44?auto=format&fit=crop&w=1200&h=630&q=85"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/Place_Royale_and_Notre-Dame-des-Victoires_at_night.jpg/1280px-Place_Royale_and_Notre-Dame-des-Victoires_at_night.jpg"
 canonicalSource: "https://international.newsinternacionaltep.com/category/economy"
 ---
 

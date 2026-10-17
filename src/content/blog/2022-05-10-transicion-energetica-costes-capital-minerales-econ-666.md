@@ -5,7 +5,7 @@ pubDate: "2022-05-10"
 category: "Economy & Markets"
 tags: ["Intelligence", "Research Paper", "TEP Archive"]
 author: "TEP Intelligence Board & Historical Archive"
-heroImage: "https://images.unsplash.com/photo-1565372195458-9de0b320ef04?auto=format&fit=crop&w=1200&h=630&q=82"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/93/Eoliennes_du_parc_de_F%C3%A9camp_lors_de_la_mission_EMOI_%28Ifremer_01076-118787_-_506738%29.jpg/1280px-Eoliennes_du_parc_de_F%C3%A9camp_lors_de_la_mission_EMOI_%28Ifremer_01076-118787_-_506738%29.jpg"
 canonicalSource: "https://international.newsinternacionaltep.com/category/economy"
 ---
 
@@ -21,7 +21,7 @@ Los reportes primarios recopilados por las corresponsalías y agencias de monito
 
 ## 2. Empirical State of Affairs and Structural Dynamics
 
-![Evidencia y Registro Documental Primario - Los Costes de Capital de la Transición Energética y la Volatilidad de las Materias Primas Críticas](https://images.unsplash.com/photo-1526304640581-d334cdbbf45e?auto=format&fit=crop&w=1200&h=630&q=82)
+![Evidencia y Registro Documental Primario - Los Costes de Capital de la Transición Energética y la Volatilidad de las Materias Primas Críticas](https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/Eoliennes_du_parc_de_F%C3%A9camp_lors_de_la_mission_EMOI_%28Ifremer_01076-118787_-_506739%29.jpg/1280px-Eoliennes_du_parc_de_F%C3%A9camp_lors_de_la_mission_EMOI_%28Ifremer_01076-118787_-_506739%29.jpg)
 *Figure 1: Archival photographic evidence documented in the News International TEP records.*
 
 La evolución empírica de los acontecimientos desmintió rápidamente los diagnósticos complacientes. La aceleración de las dinámicas en juego obligó a un reajuste de las previsiones institucionales, revelando una marcada correlación entre la exposición previa al riesgo y la celeridad del deterioro funcional en los sectores analizados.
@@ -40,7 +40,7 @@ El comportamiento de los indicadores determinantes durante este período histór
 
 ## 4. Scenario Evaluation and Risk Modeling
 
-![Modelado de Trayectorias y Riesgo Sistémico](https://images.unsplash.com/photo-1579532537598-459ecdaf39cc?auto=format&fit=crop&w=1200&h=630&q=82)
+![Modelado de Trayectorias y Riesgo Sistémico](https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/Sandstone_Promontory_and_Coastal_Sunset_%E2%80%93_Hilbre_Island.jpg/1280px-Sandstone_Promontory_and_Coastal_Sunset_%E2%80%93_Hilbre_Island.jpg)
 *Figure 2: Trajectory modeling and scenario dispersion prepared by the TEP Quantitative Unit.*
 
 El análisis retrospectivo permite clasificar la trayectoria que finalmente se consolidó frente a las hipótesis alternativas que barajaban los comités en aquel entonces:

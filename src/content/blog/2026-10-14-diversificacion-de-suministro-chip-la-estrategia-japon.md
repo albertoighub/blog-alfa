@@ -5,7 +5,7 @@ pubDate: "2026-10-17"
 category: "Technology & AI"
 tags: ["Technology", "Research Paper", "TEP Archive"]
 author: "TEP Intelligence Board & Historical Archive"
-heroImage: "https://cdn.techinasia.com/wp-content/uploads/2023/09/1695706888_shutterstock_2360207741-scaled.jpg"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/DurovisDive.JPG/1280px-DurovisDive.JPG"
 canonicalSource: "https://international.newsinternacionaltep.com/category/technology"
 ---
 

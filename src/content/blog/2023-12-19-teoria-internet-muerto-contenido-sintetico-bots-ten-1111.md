@@ -5,7 +5,7 @@ pubDate: "2023-12-19"
 category: "Social Media & Dynamics"
 tags: ["Intelligence", "Research Paper", "TEP Archive"]
 author: "TEP Intelligence Board & Historical Archive"
-heroImage: "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=1200&h=630&q=82"
+heroImage: "https://upload.wikimedia.org/wikipedia/commons/7/72/Kim_Belair%2C_GDC_2024_5.jpg"
 canonicalSource: "https://international.newsinternacionaltep.com/category/trends"
 ---
 
@@ -21,7 +21,7 @@ Los reportes primarios recopilados por las corresponsalías y agencias de monito
 
 ## 2. Empirical State of Affairs and Structural Dynamics
 
-![Evidencia y Registro Documental Primario - La Crisis de la 'Teoría del Internet Muerto': Granjas de Bots, Contenido Sintético y Deterioro de Métricas](https://images.unsplash.com/photo-1534536281715-e28d76689b4d?auto=format&fit=crop&w=1200&h=630&q=82)
+![Evidencia y Registro Documental Primario - La Crisis de la 'Teoría del Internet Muerto': Granjas de Bots, Contenido Sintético y Deterioro de Métricas](https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/Level_Design_in_A_Day_%286961974633%29.jpg/1280px-Level_Design_in_A_Day_%286961974633%29.jpg)
 *Figure 1: Archival photographic evidence documented in the News International TEP records.*
 
 La evolución empírica de los acontecimientos desmintió rápidamente los diagnósticos complacientes. La aceleración de las dinámicas en juego obligó a un reajuste de las previsiones institucionales, revelando una marcada correlación entre la exposición previa al riesgo y la celeridad del deterioro funcional en los sectores analizados.
@@ -40,7 +40,7 @@ El comportamiento de los indicadores determinantes durante este período histór
 
 ## 4. Scenario Evaluation and Risk Modeling
 
-![Modelado de Trayectorias y Riesgo Sistémico](https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=1200&h=630&q=82)
+![Modelado de Trayectorias y Riesgo Sistémico](https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/Microsoft_Game_Studios%E2%80%99_Head_of_Audio_Mark_Yeend_visits_VFS_Sound_Design_for_Visual_Media_%285783925842%29.jpg/1280px-Microsoft_Game_Studios%E2%80%99_Head_of_Audio_Mark_Yeend_visits_VFS_Sound_Design_for_Visual_Media_%285783925842%29.jpg)
 *Figure 2: Trajectory modeling and scenario dispersion prepared by the TEP Quantitative Unit.*
 
 El análisis retrospectivo permite clasificar la trayectoria que finalmente se consolidó frente a las hipótesis alternativas que barajaban los comités en aquel entonces:

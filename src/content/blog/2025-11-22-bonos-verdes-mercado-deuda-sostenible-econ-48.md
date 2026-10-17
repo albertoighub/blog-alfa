@@ -5,7 +5,7 @@ pubDate: "2025-11-22"
 category: "Economy & Markets"
 tags: ["Intelligence", "Research Paper", "TEP Archive"]
 author: "TEP Intelligence Board & Historical Archive"
-heroImage: "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?auto=format&fit=crop&w=1200&h=630&q=82"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/db/Fiber-optic_cabling_is_installed_as_part_of_USDA_Rural_Development%E2%80%99s_work_in_rural_Utah_with_high-speed_internet_access_on_29_February_2024_-_19.jpg/1280px-Fiber-optic_cabling_is_installed_as_part_of_USDA_Rural_Development%E2%80%99s_work_in_rural_Utah_with_high-speed_internet_access_on_29_February_2024_-_19.jpg"
 canonicalSource: "https://international.newsinternacionaltep.com/category/economy"
 ---
 
@@ -21,7 +21,7 @@ Los reportes primarios recopilados por las corresponsalías y agencias de monito
 
 ## 2. Empirical State of Affairs and Structural Dynamics
 
-![Evidencia y Registro Documental Primario - Inversiones en Infraestructura Verde y el Mercado de Bonos de Impacto Sostenible](https://images.unsplash.com/photo-1565372195458-9de0b320ef04?auto=format&fit=crop&w=1200&h=630&q=82)
+![Evidencia y Registro Documental Primario - Inversiones en Infraestructura Verde y el Mercado de Bonos de Impacto Sostenible](https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/Fiber-optic_cabling_is_installed_as_part_of_USDA_Rural_Development%E2%80%99s_work_in_rural_Utah_with_high-speed_internet_access_on_29_February_2024_-_2.jpg/1280px-Fiber-optic_cabling_is_installed_as_part_of_USDA_Rural_Development%E2%80%99s_work_in_rural_Utah_with_high-speed_internet_access_on_29_February_2024_-_2.jpg)
 *Figure 1: Archival photographic evidence documented in the News International TEP records.*
 
 La evolución empírica de los acontecimientos desmintió rápidamente los diagnósticos complacientes. La aceleración de las dinámicas en juego obligó a un reajuste de las previsiones institucionales, revelando una marcada correlación entre la exposición previa al riesgo y la celeridad del deterioro funcional en los sectores analizados.
@@ -40,7 +40,7 @@ El comportamiento de los indicadores determinantes durante este período histór
 
 ## 4. Scenario Evaluation and Risk Modeling
 
-![Modelado de Trayectorias y Riesgo Sistémico](https://images.unsplash.com/photo-1526304640581-d334cdbbf45e?auto=format&fit=crop&w=1200&h=630&q=82)
+![Modelado de Trayectorias y Riesgo Sistémico](https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/Fiber-optic_cabling_is_installed_as_part_of_USDA_Rural_Development%E2%80%99s_work_in_rural_Utah_with_high-speed_internet_access_on_29_February_2024_-_20.jpg/1280px-Fiber-optic_cabling_is_installed_as_part_of_USDA_Rural_Development%E2%80%99s_work_in_rural_Utah_with_high-speed_internet_access_on_29_February_2024_-_20.jpg)
 *Figure 2: Trajectory modeling and scenario dispersion prepared by the TEP Quantitative Unit.*
 
 El análisis retrospectivo permite clasificar la trayectoria que finalmente se consolidó frente a las hipótesis alternativas que barajaban los comités en aquel entonces:

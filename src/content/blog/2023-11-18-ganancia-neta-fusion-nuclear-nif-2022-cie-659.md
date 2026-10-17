@@ -5,7 +5,7 @@ pubDate: "2023-11-18"
 category: "Science & Medicine"
 tags: ["Science", "Research Paper", "TEP Archive"]
 author: "TEP Intelligence Board & Historical Archive"
-heroImage: "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=1200&h=630&q=82"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/Peacekeepers_coordinate_security_details_%286126701621%29.jpg/1280px-Peacekeepers_coordinate_security_details_%286126701621%29.jpg"
 canonicalSource: "https://international.newsinternacionaltep.com/category/science"
 ---
 
@@ -21,7 +21,7 @@ Los reportes primarios recopilados por las corresponsalías y agencias de monito
 
 ## 2. Empirical State of Affairs and Structural Dynamics
 
-![Evidencia y Registro Documental Primario - Ganancia Neta de Energía en Fusión Nuclear por Confinamiento Inercial en el National Ignition Facility](https://images.unsplash.com/photo-1579165466791-788226ab77b6?auto=format&fit=crop&w=1200&h=630&q=82)
+![Evidencia y Registro Documental Primario - Ganancia Neta de Energía en Fusión Nuclear por Confinamiento Inercial en el National Ignition Facility](https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/President_Md_Abdul_Hamid_awards_honors_to_peacekeepers_families_at_International_Day_of_United_Nations_Peacekeepers_celebration_in_Dhaka_2016-05-29.jpg/1280px-President_Md_Abdul_Hamid_awards_honors_to_peacekeepers_families_at_International_Day_of_United_Nations_Peacekeepers_celebration_in_Dhaka_2016-05-29.jpg)
 *Figure 1: Archival photographic evidence documented in the News International TEP records.*
 
 La evolución empírica de los acontecimientos desmintió rápidamente los diagnósticos complacientes. La aceleración de las dinámicas en juego obligó a un reajuste de las previsiones institucionales, revelando una marcada correlación entre la exposición previa al riesgo y la celeridad del deterioro funcional en los sectores analizados.
@@ -40,7 +40,7 @@ El comportamiento de los indicadores determinantes durante este período histór
 
 ## 4. Scenario Evaluation and Risk Modeling
 
-![Modelado de Trayectorias y Riesgo Sistémico](https://images.unsplash.com/photo-1516549655169-df83a0774514?auto=format&fit=crop&w=1200&h=630&q=82)
+![Modelado de Trayectorias y Riesgo Sistémico](https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Prime_Minister_Sheikh_Hasina_awards_honors_to_injured_Bangladeshi_peacekeepers_at_Bangabandhu_International_Conference_Centre_Dhaka_2015-05-31_%28PID-0059362%29.jpg/1280px-Prime_Minister_Sheikh_Hasina_awards_honors_to_injured_Bangladeshi_peacekeepers_at_Bangabandhu_International_Conference_Centre_Dhaka_2015-05-31_%28PID-0059362%29.jpg)
 *Figure 2: Trajectory modeling and scenario dispersion prepared by the TEP Quantitative Unit.*
 
 El análisis retrospectivo permite clasificar la trayectoria que finalmente se consolidó frente a las hipótesis alternativas que barajaban los comités en aquel entonces:

@@ -5,7 +5,7 @@ pubDate: "2023-02-10"
 category: "Social Media & Dynamics"
 tags: ["Intelligence", "Research Paper", "TEP Archive"]
 author: "TEP Intelligence Board & Historical Archive"
-heroImage: "https://images.unsplash.com/photo-1534536281715-e28d76689b4d?auto=format&fit=crop&w=1200&h=630&q=82"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/Secretary_Blinken_Holds_a_Press_Conference_with_Canadian_Foreign_Minister_Joly_-_52395391044.jpg/1280px-Secretary_Blinken_Holds_a_Press_Conference_with_Canadian_Foreign_Minister_Joly_-_52395391044.jpg"
 canonicalSource: "https://international.newsinternacionaltep.com/category/trends"
 ---
 
@@ -21,7 +21,7 @@ Los reportes primarios recopilados por las corresponsalías y agencias de monito
 
 ## 2. Empirical State of Affairs and Structural Dynamics
 
-![Evidencia y Registro Documental Primario - El Lanzamiento Récord de Threads de Meta y la Fragmentación del Espacio Público Digital](https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=1200&h=630&q=82)
+![Evidencia y Registro Documental Primario - El Lanzamiento Récord de Threads de Meta y la Fragmentación del Espacio Público Digital](https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/The_Foreign_Press_Association_invited_Defence_Minister_Moshe_Dayan_for_a_press_conference_to_lecture_of_the_present_problems_%28FL45785643%29.jpg/1280px-The_Foreign_Press_Association_invited_Defence_Minister_Moshe_Dayan_for_a_press_conference_to_lecture_of_the_present_problems_%28FL45785643%29.jpg)
 *Figure 1: Archival photographic evidence documented in the News International TEP records.*
 
 La evolución empírica de los acontecimientos desmintió rápidamente los diagnósticos complacientes. La aceleración de las dinámicas en juego obligó a un reajuste de las previsiones institucionales, revelando una marcada correlación entre la exposición previa al riesgo y la celeridad del deterioro funcional en los sectores analizados.
@@ -40,7 +40,7 @@ El comportamiento de los indicadores determinantes durante este período histór
 
 ## 4. Scenario Evaluation and Risk Modeling
 
-![Modelado de Trayectorias y Riesgo Sistémico](https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=1200&h=630&q=82)
+![Modelado de Trayectorias y Riesgo Sistémico](https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Tsipras_Erdogan_press_conference_in_Greece%2C_December_7_2017.jpg/1280px-Tsipras_Erdogan_press_conference_in_Greece%2C_December_7_2017.jpg)
 *Figure 2: Trajectory modeling and scenario dispersion prepared by the TEP Quantitative Unit.*
 
 El análisis retrospectivo permite clasificar la trayectoria que finalmente se consolidó frente a las hipótesis alternativas que barajaban los comités en aquel entonces:

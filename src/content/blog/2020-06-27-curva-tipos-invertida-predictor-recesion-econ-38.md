@@ -5,7 +5,7 @@ pubDate: "2020-06-27"
 category: "Economy & Markets"
 tags: ["Intelligence", "Research Paper", "TEP Archive"]
 author: "TEP Intelligence Board & Historical Archive"
-heroImage: "https://images.unsplash.com/photo-1579532537598-459ecdaf39cc?auto=format&fit=crop&w=1200&h=630&q=82"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/HK_%E4%B8%AD%E7%92%B0%E8%87%B3%E5%8D%8A%E5%B1%B1%E6%89%B6%E6%89%8B%E9%9B%BB%E6%A2%AF%E5%A4%A9%E6%A9%8B_Central_Mid-levels_escalators_%E9%96%A3%E9%BA%9F%E8%A1%97_Cochrane_Street_view_Hang_Seng_Bank_HQ_August_2022_Px3.jpg/1280px-HK_%E4%B8%AD%E7%92%B0%E8%87%B3%E5%8D%8A%E5%B1%B1%E6%89%B6%E6%89%8B%E9%9B%BB%E6%A2%AF%E5%A4%A9%E6%A9%8B_Central_Mid-levels_escalators_%E9%96%A3%E9%BA%9F%E8%A1%97_Cochrane_Street_view_Hang_Seng_Bank_HQ_August_2022_Px3.jpg"
 canonicalSource: "https://international.newsinternacionaltep.com/category/economy"
 ---
 
@@ -21,7 +21,7 @@ Los reportes primarios recopilados por las corresponsalías y agencias de monito
 
 ## 2. Empirical State of Affairs and Structural Dynamics
 
-![Evidencia y Registro Documental Primario - El Dilema de la Curva de Tipos Invertida como Predictor Histórico de Recesión](https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?auto=format&fit=crop&w=1200&h=630&q=82)
+![Evidencia y Registro Documental Primario - El Dilema de la Curva de Tipos Invertida como Predictor Histórico de Recesión](https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/HK_%E4%B8%AD%E7%92%B0%E8%87%B3%E5%8D%8A%E5%B1%B1%E6%89%B6%E6%89%8B%E9%9B%BB%E6%A2%AF%E5%A4%A9%E6%A9%8B_Central_Mid-levels_escalators_%E9%96%A3%E9%BA%9F%E8%A1%97_Cochrane_Street_view_Hang_Seng_Bank_HQ_August_2022_Px3_31.jpg/1280px-HK_%E4%B8%AD%E7%92%B0%E8%87%B3%E5%8D%8A%E5%B1%B1%E6%89%B6%E6%89%8B%E9%9B%BB%E6%A2%AF%E5%A4%A9%E6%A9%8B_Central_Mid-levels_escalators_%E9%96%A3%E9%BA%9F%E8%A1%97_Cochrane_Street_view_Hang_Seng_Bank_HQ_August_2022_Px3_31.jpg)
 *Figure 1: Archival photographic evidence documented in the News International TEP records.*
 
 La evolución empírica de los acontecimientos desmintió rápidamente los diagnósticos complacientes. La aceleración de las dinámicas en juego obligó a un reajuste de las previsiones institucionales, revelando una marcada correlación entre la exposición previa al riesgo y la celeridad del deterioro funcional en los sectores analizados.
@@ -40,7 +40,7 @@ El comportamiento de los indicadores determinantes durante este período histór
 
 ## 4. Scenario Evaluation and Risk Modeling
 
-![Modelado de Trayectorias y Riesgo Sistémico](https://images.unsplash.com/photo-1565372195458-9de0b320ef04?auto=format&fit=crop&w=1200&h=630&q=82)
+![Modelado de Trayectorias y Riesgo Sistémico](https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/Melat_Bank_headquarters_1.jpg/1280px-Melat_Bank_headquarters_1.jpg)
 *Figure 2: Trajectory modeling and scenario dispersion prepared by the TEP Quantitative Unit.*
 
 El análisis retrospectivo permite clasificar la trayectoria que finalmente se consolidó frente a las hipótesis alternativas que barajaban los comités en aquel entonces:

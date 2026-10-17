@@ -5,7 +5,7 @@ pubDate: "2026-10-17"
 category: "Technology & AI"
 tags: ["Technology", "Research Paper", "TEP Archive"]
 author: "TEP Intelligence Board & Historical Archive"
-heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/Greater_coat_of_arms_of_the_United_States.svg/1280px-Greater_coat_of_arms_of_the_United_States.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/Festival_van_de_Journalistiek_2017_%2837049019940%29.jpg/1280px-Festival_van_de_Journalistiek_2017_%2837049019940%29.jpg"
 canonicalSource: "https://international.newsinternacionaltep.com/category/technology"
 ---
 

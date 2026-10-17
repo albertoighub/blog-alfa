@@ -5,7 +5,7 @@ pubDate: "2026-10-17"
 category: "Technology & AI"
 tags: ["Technology", "Research Paper", "TEP Archive"]
 author: "TEP Intelligence Board & Historical Archive"
-heroImage: "https://cdn.techinasia.com/wp-content/uploads/2026/10/1791331420_1789780812_1788835629_1787009304_1785209024_1783813319_1781257229_1776386292_1774400708_ant.png"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/HTC_Vive_Headset_-_Interpupillary_Distance_%28IPD%29_Knob.jpg/1280px-HTC_Vive_Headset_-_Interpupillary_Distance_%28IPD%29_Knob.jpg"
 canonicalSource: "https://international.newsinternacionaltep.com/category/technology"
 ---
 

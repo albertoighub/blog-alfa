@@ -5,7 +5,7 @@ pubDate: "2024-06-15"
 category: "Science & Medicine"
 tags: ["Science", "Research Paper", "TEP Archive"]
 author: "TEP Intelligence Board & Historical Archive"
-heroImage: "https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?auto=format&fit=crop&w=1200&h=630&q=82"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/Black_Sea_IMO_9180217_p1_at_the_%275e_Petroleumhaven%27%2C_Port_of_Rotterdam%2C_Holland_07-May-2006.jpg/1280px-Black_Sea_IMO_9180217_p1_at_the_%275e_Petroleumhaven%27%2C_Port_of_Rotterdam%2C_Holland_07-May-2006.jpg"
 canonicalSource: "https://international.newsinternacionaltep.com/category/science"
 ---
 
@@ -21,7 +21,7 @@ Los reportes primarios recopilados por las corresponsalías y agencias de monito
 
 ## 2. Empirical State of Affairs and Structural Dynamics
 
-![Evidencia y Registro Documental Primario - Aprobación Histórica de Casgevy: Primera Terapia Médica con CRISPR para Anemia Falciforme](https://images.unsplash.com/photo-1530497610245-94d3c16cda28?auto=format&fit=crop&w=1200&h=630&q=82)
+![Evidencia y Registro Documental Primario - Aprobación Histórica de Casgevy: Primera Terapia Médica con CRISPR para Anemia Falciforme](https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/Black_Smoke_Plumes_From_Ship_Collision_in_the_North_Sea_%28CIRA_2025-03-10%29.png/1280px-Black_Smoke_Plumes_From_Ship_Collision_in_the_North_Sea_%28CIRA_2025-03-10%29.png)
 *Figure 1: Archival photographic evidence documented in the News International TEP records.*
 
 La evolución empírica de los acontecimientos desmintió rápidamente los diagnósticos complacientes. La aceleración de las dinámicas en juego obligó a un reajuste de las previsiones institucionales, revelando una marcada correlación entre la exposición previa al riesgo y la celeridad del deterioro funcional en los sectores analizados.
@@ -40,7 +40,7 @@ El comportamiento de los indicadores determinantes durante este período histór
 
 ## 4. Scenario Evaluation and Risk Modeling
 
-![Modelado de Trayectorias y Riesgo Sistémico](https://images.unsplash.com/photo-1507668077129-56e32842fceb?auto=format&fit=crop&w=1200&h=630&q=82)
+![Modelado de Trayectorias y Riesgo Sistémico](https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/Chemical_Oil_Products_Tanker_%27Stolt_Petrel%27_-_North_sea_-_Netherlands_%2829132081475%29.jpg/1280px-Chemical_Oil_Products_Tanker_%27Stolt_Petrel%27_-_North_sea_-_Netherlands_%2829132081475%29.jpg)
 *Figure 2: Trajectory modeling and scenario dispersion prepared by the TEP Quantitative Unit.*
 
 El análisis retrospectivo permite clasificar la trayectoria que finalmente se consolidó frente a las hipótesis alternativas que barajaban los comités en aquel entonces:

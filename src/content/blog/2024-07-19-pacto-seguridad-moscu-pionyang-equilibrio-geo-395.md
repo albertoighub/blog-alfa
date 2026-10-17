@@ -5,7 +5,7 @@ pubDate: "2024-07-19"
 category: "Politics & Defense"
 tags: ["Geopolitics", "Research Paper", "TEP Archive"]
 author: "TEP Intelligence Board & Historical Archive"
-heroImage: "https://images.unsplash.com/photo-1541872703-74c5e44368f9?auto=format&fit=crop&w=1200&h=630&q=82"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/US_Navy_110202-N-2907P-001_Suspected_pirate_skiffs_burn_from_weapons_fire_from_the_guided-missile_destroyer_USS_Momsen_%28DDG_92%29.jpg/1280px-US_Navy_110202-N-2907P-001_Suspected_pirate_skiffs_burn_from_weapons_fire_from_the_guided-missile_destroyer_USS_Momsen_%28DDG_92%29.jpg"
 canonicalSource: "https://international.newsinternacionaltep.com/category/geopolitics"
 ---
 
@@ -21,7 +21,7 @@ Los reportes primarios recopilados por las corresponsalías y agencias de monito
 
 ## 2. Empirical State of Affairs and Structural Dynamics
 
-![Evidencia y Registro Documental Primario - Pacto de Seguridad Moscú-Pionyang y la Alteración del Equilibrio en el Noreste Asiático](https://images.unsplash.com/photo-1526304640581-d334cdbbf45e?auto=format&fit=crop&w=1200&h=630&q=82)
+![Evidencia y Registro Documental Primario - Pacto de Seguridad Moscú-Pionyang y la Alteración del Equilibrio en el Noreste Asiático](https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/US_Navy_110202-N-2907P-002_A_skiff_being_towed_by_a_suspected_pirate_mothership_is_destroyed_by_weapons_fire_from_the_guided-missile_destroyer_USS.jpg/1280px-US_Navy_110202-N-2907P-002_A_skiff_being_towed_by_a_suspected_pirate_mothership_is_destroyed_by_weapons_fire_from_the_guided-missile_destroyer_USS.jpg)
 *Figure 1: Archival photographic evidence documented in the News International TEP records.*
 
 La evolución empírica de los acontecimientos desmintió rápidamente los diagnósticos complacientes. La aceleración de las dinámicas en juego obligó a un reajuste de las previsiones institucionales, revelando una marcada correlación entre la exposición previa al riesgo y la celeridad del deterioro funcional en los sectores analizados.
@@ -40,7 +40,7 @@ El comportamiento de los indicadores determinantes durante este período histór
 
 ## 4. Scenario Evaluation and Risk Modeling
 
-![Modelado de Trayectorias y Riesgo Sistémico](https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1200&h=630&q=82)
+![Modelado de Trayectorias y Riesgo Sistémico](https://upload.wikimedia.org/wikipedia/commons/4/44/US_Navy_110202-N-2907P-003_kiffs_being_towed_by_a_suspected_pirate_mothership_are_destroyed_by_weapons_fire_from_the_guided-missile_destroyer_USS_M.jpg)
 *Figure 2: Trajectory modeling and scenario dispersion prepared by the TEP Quantitative Unit.*
 
 El análisis retrospectivo permite clasificar la trayectoria que finalmente se consolidó frente a las hipótesis alternativas que barajaban los comités en aquel entonces:

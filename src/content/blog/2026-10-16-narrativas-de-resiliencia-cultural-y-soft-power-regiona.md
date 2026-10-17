@@ -5,7 +5,7 @@ pubDate: "2026-10-16"
 category: "Politics & Defense"
 tags: ["Geopolitics", "Research Paper", "TEP Archive"]
 author: "TEP Intelligence Board & Historical Archive"
-heroImage: "https://images.newsteam.io/image/1890/2Bq28FuGKoMVL7nZ2YbSNgMyCM85djSTytTvtdgnkaQNaAP3St2FVCApvMsnuxYdWSPif1TDaM5XwrM5ht49HtLki6q1GYpumL7urAncT1bgJaedJWSDyqRdxWYfyiSnrMDGQcXVR2vJSnAHcvnDG8u"
+heroImage: "https://upload.wikimedia.org/wikipedia/commons/c/c3/HPC_000981_%2826506746944%29.jpg"
 canonicalSource: "https://international.newsinternacionaltep.com/category/geopolitics"
 ---
 

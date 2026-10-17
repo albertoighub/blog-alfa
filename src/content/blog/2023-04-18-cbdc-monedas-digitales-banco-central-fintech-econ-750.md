@@ -5,7 +5,7 @@ pubDate: "2023-04-18"
 category: "Economy & Markets"
 tags: ["Intelligence", "Research Paper", "TEP Archive"]
 author: "TEP Intelligence Board & Historical Archive"
-heroImage: "https://images.unsplash.com/photo-1579532537598-459ecdaf39cc?auto=format&fit=crop&w=1200&h=630&q=82"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/Stanley_Fischer%2C_Governor_of_the_Central_Bank_of_Israel_%282%29_%28cropped%29.jpg/1280px-Stanley_Fischer%2C_Governor_of_the_Central_Bank_of_Israel_%282%29_%28cropped%29.jpg"
 canonicalSource: "https://international.newsinternacionaltep.com/category/economy"
 ---
 
@@ -21,7 +21,7 @@ Los reportes primarios recopilados por las corresponsalías y agencias de monito
 
 ## 2. Empirical State of Affairs and Structural Dynamics
 
-![Evidencia y Registro Documental Primario - Fintech y Dinero Programable: La Evolución de las Monedas Digitales de Banco Central (CBDC)](https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?auto=format&fit=crop&w=1200&h=630&q=82)
+![Evidencia y Registro Documental Primario - Fintech y Dinero Programable: La Evolución de las Monedas Digitales de Banco Central (CBDC)](https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/The_Governor_of_Norges_Bank_%28Norway%E2%80%99s_Central_Bank%29_Mr._Svein_Gjredram_meeting_with_the_Union_Minister_for_Commerce_and_Industry%2C_Shri_Kamal_Nath%2C_in_New_Delhi_on_March_21%2C_2006.jpg/1280px-thumbnail.jpg)
 *Figure 1: Archival photographic evidence documented in the News International TEP records.*
 
 La evolución empírica de los acontecimientos desmintió rápidamente los diagnósticos complacientes. La aceleración de las dinámicas en juego obligó a un reajuste de las previsiones institucionales, revelando una marcada correlación entre la exposición previa al riesgo y la celeridad del deterioro funcional en los sectores analizados.
@@ -40,7 +40,7 @@ El comportamiento de los indicadores determinantes durante este período histór
 
 ## 4. Scenario Evaluation and Risk Modeling
 
-![Modelado de Trayectorias y Riesgo Sistémico](https://images.unsplash.com/photo-1565372195458-9de0b320ef04?auto=format&fit=crop&w=1200&h=630&q=82)
+![Modelado de Trayectorias y Riesgo Sistémico](https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/The_Governor_of_Reserve_Bank_of_India%2C_Dr._Raghuram_G._Rajan_at_the_RBI_Central_Board_meeting%2C_in_Kolkata_on_December_11%2C_2015.jpg/1280px-The_Governor_of_Reserve_Bank_of_India%2C_Dr._Raghuram_G._Rajan_at_the_RBI_Central_Board_meeting%2C_in_Kolkata_on_December_11%2C_2015.jpg)
 *Figure 2: Trajectory modeling and scenario dispersion prepared by the TEP Quantitative Unit.*
 
 El análisis retrospectivo permite clasificar la trayectoria que finalmente se consolidó frente a las hipótesis alternativas que barajaban los comités en aquel entonces:

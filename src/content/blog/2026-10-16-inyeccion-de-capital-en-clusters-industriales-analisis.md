@@ -5,7 +5,7 @@ pubDate: "2026-10-16"
 category: "Economy & Markets"
 tags: ["Intelligence", "Research Paper", "TEP Archive"]
 author: "TEP Intelligence Board & Historical Archive"
-heroImage: "https://images.unsplash.com/photo-1559526324-4b87b5e36e44?auto=format&fit=crop&w=1200&h=630&q=85"
+heroImage: "https://upload.wikimedia.org/wikipedia/commons/f/fd/HPC_-_missal_4.jpg"
 canonicalSource: "https://international.newsinternacionaltep.com/category/economy"
 ---
 

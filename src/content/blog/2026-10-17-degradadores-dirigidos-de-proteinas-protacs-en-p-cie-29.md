@@ -5,7 +5,7 @@ pubDate: "2026-10-17"
 category: "Science & Medicine"
 tags: ["Science", "Research Paper", "TEP Archive"]
 author: "TEP Intelligence Board & Historical Archive"
-heroImage: "https://images.unsplash.com/photo-1507668077129-56e32842fceb?auto=format&fit=crop&w=1200&h=630&q=82"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/CRS-9_mission_%2828348649546%29.jpg/1280px-CRS-9_mission_%2828348649546%29.jpg"
 canonicalSource: "https://international.newsinternacionaltep.com/category/science"
 ---
 
@@ -21,7 +21,7 @@ Diversos ensayos clínicos fase II y III han evidenciado que la interacción mol
 
 ## 2. State of the Art and Structural Dynamics
 
-![Análisis Documental Primario - Degradadores Dirigidos de Proteínas (PROTACs) en Proteínas Onc](https://images.unsplash.com/photo-1584515933487-779824d29309?auto=format&fit=crop&w=1000&h=500&q=82)
+![Análisis Documental Primario - Degradadores Dirigidos de Proteínas (PROTACs) en Proteínas Onc](https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/Dragon_2_hover_test_%2824159153709%29.jpg/1280px-Dragon_2_hover_test_%2824159153709%29.jpg)
 *Figura 1: Representación técnica y mapeo contextual del fenómeno analizado.*
 Históricamente, la investigación en este segmento estuvo restringida por la baja sensibilidad de las plataformas de detección y los cuellos de botella en la manufactura biológica. La adopción de técnicas de secuenciación masiva y microfluídica ha transformado radicalmente el panorama experimental, permitiendo aislar variables con un error analítico inferior al 1.5%.
 
@@ -39,7 +39,7 @@ El núcleo funcional opera mediante la estabilización de gradientes electroquí
 
 ## 4. Scenario Evaluation and Risk Modeling
 
-![Modelado de Trayectorias y Riesgo Sistémico](https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=1000&h=500&q=82)
+![Modelado de Trayectorias y Riesgo Sistémico](https://upload.wikimedia.org/wikipedia/commons/5/5d/Falcon_9_-_Installing_rocket_motors.jpg)
 *Figura 2: Telemetría de variables y dispersión de escenarios probabilísticos.*
 Para dimensionar el impacto de su adopción a escala macro-sanitaria, se modelaron tres trayectorias prospectivas bajo condiciones de heterogeneidad clínica:
 

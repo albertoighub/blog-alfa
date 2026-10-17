@@ -5,7 +5,7 @@ pubDate: "2020-05-12"
 category: "Social Media & Dynamics"
 tags: ["Intelligence", "Research Paper", "TEP Archive"]
 author: "TEP Intelligence Board & Historical Archive"
-heroImage: "https://images.unsplash.com/photo-1573164713988-8665fc963095?auto=format&fit=crop&w=1200&h=630&q=82"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/Audience_in_front_of_The_Porch_Stage%2C_AURA_Music_%26_Arts_Festival_%282016%29_at_Suwannee_Music_Park.jpg/1280px-Audience_in_front_of_The_Porch_Stage%2C_AURA_Music_%26_Arts_Festival_%282016%29_at_Suwannee_Music_Park.jpg"
 canonicalSource: "https://international.newsinternacionaltep.com/category/trends"
 ---
 
@@ -21,7 +21,7 @@ Los reportes primarios recopilados por las corresponsalías y agencias de monito
 
 ## 2. Empirical State of Affairs and Structural Dynamics
 
-![Evidencia y Registro Documental Primario - El Fenómeno Efímero de Clubhouse y el Auge de las Salas de Audio Síncronas durante el Confinamiento](https://images.unsplash.com/photo-1611162617474-5b21e879e113?auto=format&fit=crop&w=1200&h=630&q=82)
+![Evidencia y Registro Documental Primario - El Fenómeno Efímero de Clubhouse y el Auge de las Salas de Audio Síncronas durante el Confinamiento](https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/Band_performs_live_on_stage_with_bright_lights_at_music_festival_in_summer.jpg/1280px-Band_performs_live_on_stage_with_bright_lights_at_music_festival_in_summer.jpg)
 *Figure 1: Archival photographic evidence documented in the News International TEP records.*
 
 La evolución empírica de los acontecimientos desmintió rápidamente los diagnósticos complacientes. La aceleración de las dinámicas en juego obligó a un reajuste de las previsiones institucionales, revelando una marcada correlación entre la exposición previa al riesgo y la celeridad del deterioro funcional en los sectores analizados.
@@ -40,7 +40,7 @@ El comportamiento de los indicadores determinantes durante este período histór
 
 ## 4. Scenario Evaluation and Risk Modeling
 
-![Modelado de Trayectorias y Riesgo Sistémico](https://images.unsplash.com/photo-1563986768609-322da13575f3?auto=format&fit=crop&w=1200&h=630&q=82)
+![Modelado de Trayectorias y Riesgo Sistémico](https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/BeatBurger_in_2016_Spectrum_Dance_Music_Festival.jpg/1280px-BeatBurger_in_2016_Spectrum_Dance_Music_Festival.jpg)
 *Figure 2: Trajectory modeling and scenario dispersion prepared by the TEP Quantitative Unit.*
 
 El análisis retrospectivo permite clasificar la trayectoria que finalmente se consolidó frente a las hipótesis alternativas que barajaban los comités en aquel entonces:

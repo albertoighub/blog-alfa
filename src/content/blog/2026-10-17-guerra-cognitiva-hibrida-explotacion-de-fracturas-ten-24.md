@@ -5,7 +5,7 @@ pubDate: "2026-10-17"
 category: "Social Media & Dynamics"
 tags: ["Intelligence", "Research Paper", "TEP Archive"]
 author: "TEP Intelligence Board & Historical Archive"
-heroImage: "https://images.unsplash.com/photo-1531403009284-440f080d1e12?auto=format&fit=crop&w=1200&h=630&q=82"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/The_GOMA_Exhibition_Is_Cancelled_%2834952158632%29.jpg/1280px-The_GOMA_Exhibition_Is_Cancelled_%2834952158632%29.jpg"
 canonicalSource: "https://international.newsinternacionaltep.com/category/trends"
 ---
 
@@ -21,7 +21,7 @@ El análisis de series temporales de tráfico y engagement demuestra que los inc
 
 ## 2. State of the Art and Structural Dynamics
 
-![Análisis Documental Primario - Guerra Cognitiva Híbrida: Explotación de Fracturas Sociales Me](https://images.unsplash.com/photo-1573164713988-8665fc963095?auto=format&fit=crop&w=1000&h=500&q=82)
+![Análisis Documental Primario - Guerra Cognitiva Híbrida: Explotación de Fracturas Sociales Me](https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/The_Union_Culture_Minister%2C_Kumari_Selja_lighting_the_lamp_to_inaugurate_the_exhibition_%E2%80%9CSomething_That_I%E2%80%99ll_Never_Really_See%E2%80%9D%2C_presented_by_the_National_Gallery_of_Modern_Art%2C_Ministry_of_Culture.jpg/1280px-thumbnail.jpg)
 *Figura 1: Representación técnica y mapeo contextual del fenómeno analizado.*
 Durante la última década, el modelo de negocio publicitario digital evolucionó desde banners estáticos hacia arquitecturas de aprendizaje por refuerzo profundo. En este contexto, el fenómeno estudiado ha consolidado una economía donde la atención humana es cuantificada, microsegmentada y subastada en milisegundos.
 
@@ -39,7 +39,7 @@ El mecanismo operativo descansa sobre bucles de recompensa intermitente variable
 
 ## 4. Scenario Evaluation and Risk Modeling
 
-![Modelado de Trayectorias y Riesgo Sistémico](https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1000&h=500&q=82)
+![Modelado de Trayectorias y Riesgo Sistémico](https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/The_Union_Culture_Minister_Kumari_Selja_addressing_at_the_inauguration_of_the_exhibition_%E2%80%9CSomething_That_I%E2%80%99ll_Never_Really_See%E2%80%9D%2C_presented_by_the_National_Gallery_of_Modern_Art%2C_Ministry_of_Culture.jpg/1280px-thumbnail.jpg)
 *Figura 2: Telemetría de variables y dispersión de escenarios probabilísticos.*
 Se plantearon tres escenarios de evolución sociotécnica para evaluar las transformaciones en la cohesión cívica y regulatoria:
 

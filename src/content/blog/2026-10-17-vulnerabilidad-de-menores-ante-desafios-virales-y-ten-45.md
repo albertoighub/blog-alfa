@@ -5,7 +5,7 @@ pubDate: "2026-10-17"
 category: "Social Media & Dynamics"
 tags: ["Intelligence", "Research Paper", "TEP Archive"]
 author: "TEP Intelligence Board & Historical Archive"
-heroImage: "https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=1200&h=630&q=82"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/Exhibition_of_Alfrid_Shaimardanov_%282021-05-15%29_27.jpg/1280px-Exhibition_of_Alfrid_Shaimardanov_%282021-05-15%29_27.jpg"
 canonicalSource: "https://international.newsinternacionaltep.com/category/trends"
 ---
 
@@ -21,7 +21,7 @@ El análisis de series temporales de tráfico y engagement demuestra que los inc
 
 ## 2. State of the Art and Structural Dynamics
 
-![Análisis Documental Primario - Vulnerabilidad de Menores ante Desafíos Virales y la Responsab](https://images.unsplash.com/photo-1551836022-d5d88e9218df?auto=format&fit=crop&w=1000&h=500&q=82)
+![Análisis Documental Primario - Vulnerabilidad de Menores ante Desafíos Virales y la Responsab](https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/Girl_with_backpack_in_art_gallery_%28Unsplash%29.jpg/1280px-Girl_with_backpack_in_art_gallery_%28Unsplash%29.jpg)
 *Figura 1: Representación técnica y mapeo contextual del fenómeno analizado.*
 Durante la última década, el modelo de negocio publicitario digital evolucionó desde banners estáticos hacia arquitecturas de aprendizaje por refuerzo profundo. En este contexto, el fenómeno estudiado ha consolidado una economía donde la atención humana es cuantificada, microsegmentada y subastada en milisegundos.
 
@@ -39,7 +39,7 @@ El mecanismo operativo descansa sobre bucles de recompensa intermitente variable
 
 ## 4. Scenario Evaluation and Risk Modeling
 
-![Modelado de Trayectorias y Riesgo Sistémico](https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=1000&h=500&q=82)
+![Modelado de Trayectorias y Riesgo Sistémico](https://upload.wikimedia.org/wikipedia/commons/5/56/Matthew_Darbyshire%2C_An_Exhibition_for_Modern_Living%2C_Manchester_Art_Gallery%2C_24_Sept_2015.jpg)
 *Figura 2: Telemetría de variables y dispersión de escenarios probabilísticos.*
 Se plantearon tres escenarios de evolución sociotécnica para evaluar las transformaciones en la cohesión cívica y regulatoria:
 

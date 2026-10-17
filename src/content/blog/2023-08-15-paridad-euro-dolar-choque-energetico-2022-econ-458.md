@@ -5,7 +5,7 @@ pubDate: "2023-08-15"
 category: "Economy & Markets"
 tags: ["Intelligence", "Research Paper", "TEP Archive"]
 author: "TEP Intelligence Board & Historical Archive"
-heroImage: "https://images.unsplash.com/photo-1565372195458-9de0b320ef04?auto=format&fit=crop&w=1200&h=630&q=82"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/Urfa_museum_Wall_board_from_Hassek_H%C3%B6y%C3%BCk_Chalcolithic_Age_in_2024_7408.jpg/1280px-Urfa_museum_Wall_board_from_Hassek_H%C3%B6y%C3%BCk_Chalcolithic_Age_in_2024_7408.jpg"
 canonicalSource: "https://international.newsinternacionaltep.com/category/economy"
 ---
 
@@ -21,7 +21,7 @@ Los reportes primarios recopilados por las corresponsalías y agencias de monito
 
 ## 2. Empirical State of Affairs and Structural Dynamics
 
-![Evidencia y Registro Documental Primario - La Paridad Euro-Dólar en 2022 y el Impacto del Choque de Términos de Intercambio Energético](https://images.unsplash.com/photo-1526304640581-d334cdbbf45e?auto=format&fit=crop&w=1200&h=630&q=82)
+![Evidencia y Registro Documental Primario - La Paridad Euro-Dólar en 2022 y el Impacto del Choque de Términos de Intercambio Energético](https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/Victorian_Postbox%2C_Bulls_Corner%2C_Bramfield_Road%2CMells_-_geograph.org.uk_-_1138293.jpg/1280px-Victorian_Postbox%2C_Bulls_Corner%2C_Bramfield_Road%2CMells_-_geograph.org.uk_-_1138293.jpg)
 *Figure 1: Archival photographic evidence documented in the News International TEP records.*
 
 La evolución empírica de los acontecimientos desmintió rápidamente los diagnósticos complacientes. La aceleración de las dinámicas en juego obligó a un reajuste de las previsiones institucionales, revelando una marcada correlación entre la exposición previa al riesgo y la celeridad del deterioro funcional en los sectores analizados.
@@ -40,7 +40,7 @@ El comportamiento de los indicadores determinantes durante este período histór
 
 ## 4. Scenario Evaluation and Risk Modeling
 
-![Modelado de Trayectorias y Riesgo Sistémico](https://images.unsplash.com/photo-1579532537598-459ecdaf39cc?auto=format&fit=crop&w=1200&h=630&q=82)
+![Modelado de Trayectorias y Riesgo Sistémico](https://thumb.wikimedia.org/wikipedia/commons/thumb/7/75/Wall_painting_of_bulls_in_a_landscape_with_olive_trees_from_Knossos_%28West_Loggia_of_North_Entrance%29_-_Heraklion_AM_-_03.jpg/1280px-Wall_painting_of_bulls_in_a_landscape_with_olive_trees_from_Knossos_%28West_Loggia_of_North_Entrance%29_-_Heraklion_AM_-_03.jpg)
 *Figure 2: Trajectory modeling and scenario dispersion prepared by the TEP Quantitative Unit.*
 
 El análisis retrospectivo permite clasificar la trayectoria que finalmente se consolidó frente a las hipótesis alternativas que barajaban los comités en aquel entonces:

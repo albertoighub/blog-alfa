@@ -5,7 +5,7 @@ pubDate: "2025-05-22"
 category: "Social Media & Dynamics"
 tags: ["Intelligence", "Research Paper", "TEP Archive"]
 author: "TEP Intelligence Board & Historical Archive"
-heroImage: "https://images.unsplash.com/photo-1534536281715-e28d76689b4d?auto=format&fit=crop&w=1200&h=630&q=82"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/2010.12_-_%27Photo_of_a_Dutch_winter_still-life_in_snow_outdoors%2C_a_bicycle_wheel_in_the_snow%2C_Amsterdam_city%3B_Dutch_urban_photography_in_the_public_domain_by_Fons_Heijnsbroek%3B_The_Netherlands%2C_geotagged_photo_%2827625575802%29.jpg/1280px-thumbnail.jpg"
 canonicalSource: "https://international.newsinternacionaltep.com/category/trends"
 ---
 
@@ -21,7 +21,7 @@ Los reportes primarios recopilados por las corresponsalías y agencias de monito
 
 ## 2. Empirical State of Affairs and Structural Dynamics
 
-![Evidencia y Registro Documental Primario - El Ascenso de los Asistentes Conversacionales como Sustituto de los Motores de Búsqueda Tradicionales](https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=1200&h=630&q=82)
+![Evidencia y Registro Documental Primario - El Ascenso de los Asistentes Conversacionales como Sustituto de los Motores de Búsqueda Tradicionales](https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/2013.04_-_%27A_close-up_of_parked_bicycles_and_gentle_branches%27%2C_in_the_sun-light_of_Spring_-_on_the_corner_of_Hoogtekadijk_and_Matrozenhof%2C_in_district_Kadijken%2C_city_Amsterdam%3B_urban_photography%2C_Fons_Heijnsbroek_%2811176613523%29.jpg/1280px-thumbnail.jpg)
 *Figure 1: Archival photographic evidence documented in the News International TEP records.*
 
 La evolución empírica de los acontecimientos desmintió rápidamente los diagnósticos complacientes. La aceleración de las dinámicas en juego obligó a un reajuste de las previsiones institucionales, revelando una marcada correlación entre la exposición previa al riesgo y la celeridad del deterioro funcional en los sectores analizados.
@@ -40,7 +40,7 @@ El comportamiento de los indicadores determinantes durante este período histór
 
 ## 4. Scenario Evaluation and Risk Modeling
 
-![Modelado de Trayectorias y Riesgo Sistémico](https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=1200&h=630&q=82)
+![Modelado de Trayectorias y Riesgo Sistémico](https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/2016.03_-_Amsterdam_photo_of_street-painting_art_on_the_wall_at_the_canal-street_Prinsengracht%3B_geotagged_free_urban_picture%2C_in_public_domain_Commons%3B_Dutch_photography%2C_Fons_Heijnsbroek%2C_The_Netherlands_%2825919888942%29.jpg/1280px-thumbnail.jpg)
 *Figure 2: Trajectory modeling and scenario dispersion prepared by the TEP Quantitative Unit.*
 
 El análisis retrospectivo permite clasificar la trayectoria que finalmente se consolidó frente a las hipótesis alternativas que barajaban los comités en aquel entonces:

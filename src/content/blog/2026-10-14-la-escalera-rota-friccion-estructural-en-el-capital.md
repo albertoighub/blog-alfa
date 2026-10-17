@@ -5,7 +5,7 @@ pubDate: "2026-10-14"
 category: "Economy & Markets"
 tags: ["Intelligence", "Research Paper", "TEP Archive"]
 author: "TEP Intelligence Board & Historical Archive"
-heroImage: "https://fortune.com/img-assets/wp-content/uploads/2026/10/55588180488_3027552754_o-e1791996484706.jpg?w=2048"
+heroImage: "https://upload.wikimedia.org/wikipedia/commons/2/26/VR_szem%C3%BCveg.jpg"
 canonicalSource: "https://international.newsinternacionaltep.com/category/economy"
 ---
 

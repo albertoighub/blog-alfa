@@ -5,7 +5,7 @@ pubDate: "2026-10-15"
 category: "Economy & Markets"
 tags: ["Intelligence", "Research Paper", "TEP Archive"]
 author: "TEP Intelligence Board & Historical Archive"
-heroImage: "https://i2.res.24o.it/images2010/S24/Documenti/2026/10/14/Immagini/Ritagli/AdobeStock_176208823-U28607436165tVs-1440x752@IlSole24Ore-Web.jpeg"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/COM-HPC_Sizes.jpg/1280px-COM-HPC_Sizes.jpg"
 canonicalSource: "https://international.newsinternacionaltep.com/category/economy"
 ---
 

@@ -5,7 +5,7 @@ pubDate: "2025-05-23"
 category: "Social Media & Dynamics"
 tags: ["Intelligence", "Research Paper", "TEP Archive"]
 author: "TEP Intelligence Board & Historical Archive"
-heroImage: "https://images.unsplash.com/photo-1573164713988-8665fc963095?auto=format&fit=crop&w=1200&h=630&q=82"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/2016.04_-_Amsterdam_photo%2C_Urban_nature%3B_a_street-view_over_Sarphatistraat_in_Amsterdam%2C_in_the_light_of_Spring_-_geotagged_free_urban_picture%2C_in_public_domain_Commons%3B_Dutch_photography%2C_Fons_Heijnsbroek%2C_The_Netherlands_%2825637863963%29.jpg/1280px-thumbnail.jpg"
 canonicalSource: "https://international.newsinternacionaltep.com/category/trends"
 ---
 
@@ -21,7 +21,7 @@ Los reportes primarios recopilados por las corresponsalías y agencias de monito
 
 ## 2. Empirical State of Affairs and Structural Dynamics
 
-![Evidencia y Registro Documental Primario - La Crisis de la 'Teoría del Internet Muerto': Granjas de Bots, Contenido Sintético y Deterioro de Métricas](https://images.unsplash.com/photo-1611162617474-5b21e879e113?auto=format&fit=crop&w=1200&h=630&q=82)
+![Evidencia y Registro Documental Primario - La Crisis de la 'Teoría del Internet Muerto': Granjas de Bots, Contenido Sintético y Deterioro de Métricas](https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/A_Late_Walk_Howth_Ireland_Color_Street_Photography_%28199507437%29.jpeg/1280px-A_Late_Walk_Howth_Ireland_Color_Street_Photography_%28199507437%29.jpeg)
 *Figure 1: Archival photographic evidence documented in the News International TEP records.*
 
 La evolución empírica de los acontecimientos desmintió rápidamente los diagnósticos complacientes. La aceleración de las dinámicas en juego obligó a un reajuste de las previsiones institucionales, revelando una marcada correlación entre la exposición previa al riesgo y la celeridad del deterioro funcional en los sectores analizados.
@@ -40,7 +40,7 @@ El comportamiento de los indicadores determinantes durante este período histór
 
 ## 4. Scenario Evaluation and Risk Modeling
 
-![Modelado de Trayectorias y Riesgo Sistémico](https://images.unsplash.com/photo-1563986768609-322da13575f3?auto=format&fit=crop&w=1200&h=630&q=82)
+![Modelado de Trayectorias y Riesgo Sistémico](https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/Clarendon_Street_Dublin_Ireland_Color_Street_Photography_%28188936417%29.jpeg/1280px-Clarendon_Street_Dublin_Ireland_Color_Street_Photography_%28188936417%29.jpeg)
 *Figure 2: Trajectory modeling and scenario dispersion prepared by the TEP Quantitative Unit.*
 
 El análisis retrospectivo permite clasificar la trayectoria que finalmente se consolidó frente a las hipótesis alternativas que barajaban los comités en aquel entonces:

@@ -5,7 +5,7 @@ pubDate: "2022-06-10"
 category: "Economy & Markets"
 tags: ["Intelligence", "Research Paper", "TEP Archive"]
 author: "TEP Intelligence Board & Historical Archive"
-heroImage: "https://images.unsplash.com/photo-1565372195458-9de0b320ef04?auto=format&fit=crop&w=1200&h=630&q=82"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/Parc_d%27%C3%A9oliennes_offshore_%28s%C3%A9rie_5-5%29_%28Ifremer_00776-88812_-_48439%29.jpg/1280px-Parc_d%27%C3%A9oliennes_offshore_%28s%C3%A9rie_5-5%29_%28Ifremer_00776-88812_-_48439%29.jpg"
 canonicalSource: "https://international.newsinternacionaltep.com/category/economy"
 ---
 
@@ -21,7 +21,7 @@ Los reportes primarios recopilados por las corresponsalías y agencias de monito
 
 ## 2. Empirical State of Affairs and Structural Dynamics
 
-![Evidencia y Registro Documental Primario - La Fragilidad Financiera de las Economías de Frontera frente al Fortalecimiento del Dólar](https://images.unsplash.com/photo-1526304640581-d334cdbbf45e?auto=format&fit=crop&w=1200&h=630&q=82)
+![Evidencia y Registro Documental Primario - La Fragilidad Financiera de las Economías de Frontera frente al Fortalecimiento del Dólar](https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Sunset_over_Hilbre_Island_%E2%80%93_Solar_Beacon_and_Wind_Farm.jpg/1280px-Sunset_over_Hilbre_Island_%E2%80%93_Solar_Beacon_and_Wind_Farm.jpg)
 *Figure 1: Archival photographic evidence documented in the News International TEP records.*
 
 La evolución empírica de los acontecimientos desmintió rápidamente los diagnósticos complacientes. La aceleración de las dinámicas en juego obligó a un reajuste de las previsiones institucionales, revelando una marcada correlación entre la exposición previa al riesgo y la celeridad del deterioro funcional en los sectores analizados.
@@ -40,7 +40,7 @@ El comportamiento de los indicadores determinantes durante este período histór
 
 ## 4. Scenario Evaluation and Risk Modeling
 
-![Modelado de Trayectorias y Riesgo Sistémico](https://images.unsplash.com/photo-1579532537598-459ecdaf39cc?auto=format&fit=crop&w=1200&h=630&q=82)
+![Modelado de Trayectorias y Riesgo Sistémico](https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/US-WY_-_Gleason_-_Train_-_Road_Trip_-_Energy_-_The_West_-_Rocky_Mountains_%284892471342%29.jpg/1280px-US-WY_-_Gleason_-_Train_-_Road_Trip_-_Energy_-_The_West_-_Rocky_Mountains_%284892471342%29.jpg)
 *Figure 2: Trajectory modeling and scenario dispersion prepared by the TEP Quantitative Unit.*
 
 El análisis retrospectivo permite clasificar la trayectoria que finalmente se consolidó frente a las hipótesis alternativas que barajaban los comités en aquel entonces:

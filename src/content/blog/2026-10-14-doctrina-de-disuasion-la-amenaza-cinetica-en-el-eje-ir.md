@@ -5,7 +5,7 @@ pubDate: "2026-10-14"
 category: "Politics & Defense"
 tags: ["Geopolitics", "Research Paper", "TEP Archive"]
 author: "TEP Intelligence Board & Historical Archive"
-heroImage: "https://cdn.prod.www.spiegel.de/images/ea7788ed-0001-0004-0000-000001130050_w520_r2.08_fpx63.74_fpy50.7.jpg"
+heroImage: "https://upload.wikimedia.org/wikipedia/commons/4/4f/Durovis_Dive.JPG"
 canonicalSource: "https://international.newsinternacionaltep.com/category/geopolitics"
 ---
 

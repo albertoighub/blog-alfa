@@ -5,7 +5,7 @@ pubDate: "2023-08-30"
 category: "Science & Medicine"
 tags: ["Science", "Research Paper", "TEP Archive"]
 author: "TEP Intelligence Board & Historical Archive"
-heroImage: "https://images.unsplash.com/photo-1576086213369-97a306d36557?auto=format&fit=crop&w=1200&h=630&q=82"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/Secretary_Kerry_Holds_News_Conference_Following_Address_to_UN_Human_Rights_Council_in_Switzerland_%2816668081046%29.jpg/1280px-Secretary_Kerry_Holds_News_Conference_Following_Address_to_UN_Human_Rights_Council_in_Switzerland_%2816668081046%29.jpg"
 canonicalSource: "https://international.newsinternacionaltep.com/category/science"
 ---
 
@@ -21,7 +21,7 @@ Los reportes primarios recopilados por las corresponsalías y agencias de monito
 
 ## 2. Empirical State of Affairs and Structural Dynamics
 
-![Evidencia y Registro Documental Primario - Bioimpresión 3D Vascularizada y la Fabricación de Matrices Tisulares para Medicina Regenerativa](https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=1200&h=630&q=82)
+![Evidencia y Registro Documental Primario - Bioimpresión 3D Vascularizada y la Fabricación de Matrices Tisulares para Medicina Regenerativa](https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/Secretary_Kerry_Holds_News_Conference_Following_Address_to_UN_Human_Rights_Council_in_Switzerland_%2816694015945%29.jpg/1280px-Secretary_Kerry_Holds_News_Conference_Following_Address_to_UN_Human_Rights_Council_in_Switzerland_%2816694015945%29.jpg)
 *Figure 1: Archival photographic evidence documented in the News International TEP records.*
 
 La evolución empírica de los acontecimientos desmintió rápidamente los diagnósticos complacientes. La aceleración de las dinámicas en juego obligó a un reajuste de las previsiones institucionales, revelando una marcada correlación entre la exposición previa al riesgo y la celeridad del deterioro funcional en los sectores analizados.
@@ -40,7 +40,7 @@ El comportamiento de los indicadores determinantes durante este período histór
 
 ## 4. Scenario Evaluation and Risk Modeling
 
-![Modelado de Trayectorias y Riesgo Sistémico](https://images.unsplash.com/photo-1579165466791-788226ab77b6?auto=format&fit=crop&w=1200&h=630&q=82)
+![Modelado de Trayectorias y Riesgo Sistémico](https://upload.wikimedia.org/wikipedia/commons/a/aa/The_Minister_of_State_for_External_Affairs%2C_Shri_Anand_Sharma_addressing_the_first_session_of_the_Human_Rights_Council_in_Geneva_on_June_19%2C_2006.jpg)
 *Figure 2: Trajectory modeling and scenario dispersion prepared by the TEP Quantitative Unit.*
 
 El análisis retrospectivo permite clasificar la trayectoria que finalmente se consolidó frente a las hipótesis alternativas que barajaban los comités en aquel entonces:

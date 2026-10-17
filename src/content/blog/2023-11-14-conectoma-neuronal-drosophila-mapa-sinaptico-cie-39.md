@@ -5,7 +5,7 @@ pubDate: "2023-11-14"
 category: "Science & Medicine"
 tags: ["Science", "Research Paper", "TEP Archive"]
 author: "TEP Intelligence Board & Historical Archive"
-heroImage: "https://images.unsplash.com/photo-1507668077129-56e32842fceb?auto=format&fit=crop&w=1200&h=630&q=82"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/Burundi_peacekeepers_prepare_for_next_rotation_to_Somalia%2C_Bjumbura%2C_Burundi_012210_%284325489334%29.jpg/1280px-Burundi_peacekeepers_prepare_for_next_rotation_to_Somalia%2C_Bjumbura%2C_Burundi_012210_%284325489334%29.jpg"
 canonicalSource: "https://international.newsinternacionaltep.com/category/science"
 ---
 
@@ -21,7 +21,7 @@ Los reportes primarios recopilados por las corresponsalías y agencias de monito
 
 ## 2. Empirical State of Affairs and Structural Dynamics
 
-![Evidencia y Registro Documental Primario - El Mapeo Completo del Conectoma Neuronal de Drosophila melanogaster y la Arquitectura Sináptica](https://images.unsplash.com/photo-1576086213369-97a306d36557?auto=format&fit=crop&w=1200&h=630&q=82)
+![Evidencia y Registro Documental Primario - El Mapeo Completo del Conectoma Neuronal de Drosophila melanogaster y la Arquitectura Sináptica](https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/Burundi_peacekeepers_prepare_for_next_rotation_to_Somalia%2C_Bjumbura%2C_Burundi_012210_%284325496416%29.jpg/1280px-Burundi_peacekeepers_prepare_for_next_rotation_to_Somalia%2C_Bjumbura%2C_Burundi_012210_%284325496416%29.jpg)
 *Figure 1: Archival photographic evidence documented in the News International TEP records.*
 
 La evolución empírica de los acontecimientos desmintió rápidamente los diagnósticos complacientes. La aceleración de las dinámicas en juego obligó a un reajuste de las previsiones institucionales, revelando una marcada correlación entre la exposición previa al riesgo y la celeridad del deterioro funcional en los sectores analizados.
@@ -40,7 +40,7 @@ El comportamiento de los indicadores determinantes durante este período histór
 
 ## 4. Scenario Evaluation and Risk Modeling
 
-![Modelado de Trayectorias y Riesgo Sistémico](https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=1200&h=630&q=82)
+![Modelado de Trayectorias y Riesgo Sistémico](https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/Burundi_peacekeepers_prepare_for_next_rotation_to_Somalia%2C_Bjumbura%2C_Burundi_012210_%284325504666%29.jpg/1280px-Burundi_peacekeepers_prepare_for_next_rotation_to_Somalia%2C_Bjumbura%2C_Burundi_012210_%284325504666%29.jpg)
 *Figure 2: Trajectory modeling and scenario dispersion prepared by the TEP Quantitative Unit.*
 
 El análisis retrospectivo permite clasificar la trayectoria que finalmente se consolidó frente a las hipótesis alternativas que barajaban los comités en aquel entonces:

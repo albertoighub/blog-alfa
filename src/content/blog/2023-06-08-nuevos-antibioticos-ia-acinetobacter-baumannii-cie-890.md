@@ -5,7 +5,7 @@ pubDate: "2023-06-08"
 category: "Science & Medicine"
 tags: ["Science", "Research Paper", "TEP Archive"]
 author: "TEP Intelligence Board & Historical Archive"
-heroImage: "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=1200&h=630&q=82"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0a/U.S._Defense_Secretary_Ash_Carter%2C_left%2C_and_Indian_Defense_Minister_Manohar_Parrikar_conduct_a_joint_news_conference_at_the_Pentagon.JPG/1280px-U.S._Defense_Secretary_Ash_Carter%2C_left%2C_and_Indian_Defense_Minister_Manohar_Parrikar_conduct_a_joint_news_conference_at_the_Pentagon.JPG"
 canonicalSource: "https://international.newsinternacionaltep.com/category/science"
 ---
 
@@ -21,7 +21,7 @@ Los reportes primarios recopilados por las corresponsalías y agencias de monito
 
 ## 2. Empirical State of Affairs and Structural Dynamics
 
-![Evidencia y Registro Documental Primario - Descubrimiento de Nuevos Antibióticos Mediante Modelos de Aprendizaje Profundo contra Acinetobacter](https://images.unsplash.com/photo-1579165466791-788226ab77b6?auto=format&fit=crop&w=1200&h=630&q=82)
+![Evidencia y Registro Documental Primario - Descubrimiento de Nuevos Antibióticos Mediante Modelos de Aprendizaje Profundo contra Acinetobacter](https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/U.S._Defense_Secretary_Ash_Carter%2C_second_from_left%2C_participates_in_a_combined_press_conference_with_Lithuanian_Defense_Minister_Juozas_Olekas%2C_far_left%2C_Estonian_Defense_Minister_Sven_Mikser%2C_third_from_left_150623-D-DT527-228d.jpg/1280px-thumbnail.jpg)
 *Figure 1: Archival photographic evidence documented in the News International TEP records.*
 
 La evolución empírica de los acontecimientos desmintió rápidamente los diagnósticos complacientes. La aceleración de las dinámicas en juego obligó a un reajuste de las previsiones institucionales, revelando una marcada correlación entre la exposición previa al riesgo y la celeridad del deterioro funcional en los sectores analizados.
@@ -40,7 +40,7 @@ El comportamiento de los indicadores determinantes durante este período histór
 
 ## 4. Scenario Evaluation and Risk Modeling
 
-![Modelado de Trayectorias y Riesgo Sistémico](https://images.unsplash.com/photo-1516549655169-df83a0774514?auto=format&fit=crop&w=1200&h=630&q=82)
+![Modelado de Trayectorias y Riesgo Sistémico](https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/U.S._Defense_Secretary_Ash_Carter_speaks_during_a_combined_news_conference_with_Dutch_Defense_Minister_Jeanine_Hennis-Plasschaert%2C_left%2C_German_Defense_Minister_Ursula_von_der_Leyen%2C_second_from_left%2C_and_Norwe_150622-D-DT527-829.jpg/1280px-thumbnail.jpg)
 *Figure 2: Trajectory modeling and scenario dispersion prepared by the TEP Quantitative Unit.*
 
 El análisis retrospectivo permite clasificar la trayectoria que finalmente se consolidó frente a las hipótesis alternativas que barajaban los comités en aquel entonces:

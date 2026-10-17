@@ -5,7 +5,7 @@ pubDate: "2025-07-19"
 category: "Technology & AI"
 tags: ["Technology", "Research Paper", "TEP Archive"]
 author: "TEP Intelligence Board & Historical Archive"
-heroImage: "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&w=1200&h=630&q=82"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/US_Navy_100531-N-7676W-111_Lauren_Gates%2C_left%2C_from_the_Office_of_Naval_Research%2C_and_Greg_Trafton%2C_right%2C_cognitive_scientist_with_the_Naval_Research_Laboratory%2C_introduce_Octavia_to_visitors_during_Fleet_Week_New_York_2010.jpg/1280px-thumbnail.jpg"
 canonicalSource: "https://international.newsinternacionaltep.com/category/technology"
 ---
 
@@ -21,7 +21,7 @@ Los reportes primarios recopilados por las corresponsalías y agencias de monito
 
 ## 2. Empirical State of Affairs and Structural Dynamics
 
-![Evidencia y Registro Documental Primario - Computación Cuántica con Corrección de Errores Lógicos: El Tránsito hacia Sistemas Tolerantes a Fallos](https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1200&h=630&q=82)
+![Evidencia y Registro Documental Primario - Computación Cuántica con Corrección de Errores Lógicos: El Tránsito hacia Sistemas Tolerantes a Fallos](https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/US_Navy_100531-N-7676W-181_Lauren_Gates%2C_right%2C_from_the_Office_of_Naval_Research%2C_and_Greg_Trafton%2C_left%2C_cognitive_scientist_with_the_Naval_Research_Laboratory%2C_answer_visitors_questions_about_Octavia_during_Fleet_Week_New_Yo.jpg/1280px-thumbnail.jpg)
 *Figure 1: Archival photographic evidence documented in the News International TEP records.*
 
 La evolución empírica de los acontecimientos desmintió rápidamente los diagnósticos complacientes. La aceleración de las dinámicas en juego obligó a un reajuste de las previsiones institucionales, revelando una marcada correlación entre la exposición previa al riesgo y la celeridad del deterioro funcional en los sectores analizados.
@@ -40,7 +40,7 @@ El comportamiento de los indicadores determinantes durante este período histór
 
 ## 4. Scenario Evaluation and Risk Modeling
 
-![Modelado de Trayectorias y Riesgo Sistémico](https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&w=1200&h=630&q=82)
+![Modelado de Trayectorias y Riesgo Sistémico](https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/US_Navy_110817-N-PO203-062_Paul_Raphel_from_Fox_5_News_talks_about_CHARLI%2C_or_Cognitive_Humanoid_Autonomous_Robot_with_Learning_Intelligence.jpg/1280px-US_Navy_110817-N-PO203-062_Paul_Raphel_from_Fox_5_News_talks_about_CHARLI%2C_or_Cognitive_Humanoid_Autonomous_Robot_with_Learning_Intelligence.jpg)
 *Figure 2: Trajectory modeling and scenario dispersion prepared by the TEP Quantitative Unit.*
 
 El análisis retrospectivo permite clasificar la trayectoria que finalmente se consolidó frente a las hipótesis alternativas que barajaban los comités en aquel entonces:

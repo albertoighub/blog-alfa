@@ -5,7 +5,7 @@ pubDate: "2022-05-28"
 category: "Social Media & Dynamics"
 tags: ["Intelligence", "Research Paper", "TEP Archive"]
 author: "TEP Intelligence Board & Historical Archive"
-heroImage: "https://images.unsplash.com/photo-1563986768609-322da13575f3?auto=format&fit=crop&w=1200&h=630&q=82"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/Screen_Door_Ybor_Microcinema_screening_room_in_Ybor_City%2C_Tampa%2C_Florida%2C_US%2C_on_28_October_2023_%2802%29.jpg/1280px-Screen_Door_Ybor_Microcinema_screening_room_in_Ybor_City%2C_Tampa%2C_Florida%2C_US%2C_on_28_October_2023_%2802%29.jpg"
 canonicalSource: "https://international.newsinternacionaltep.com/category/trends"
 ---
 
@@ -21,7 +21,7 @@ Los reportes primarios recopilados por las corresponsalías y agencias de monito
 
 ## 2. Empirical State of Affairs and Structural Dynamics
 
-![Evidencia y Registro Documental Primario - La Monetización de la Furia: Cómo los Algoritmos de Recomendación Premian el Contenido Hiperpolarizado](https://images.unsplash.com/photo-1573164713988-8665fc963095?auto=format&fit=crop&w=1200&h=630&q=82)
+![Evidencia y Registro Documental Primario - La Monetización de la Furia: Cómo los Algoritmos de Recomendación Premian el Contenido Hiperpolarizado](https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/Sean_Baker_at_the_Gardena_Cinema.jpg/1280px-Sean_Baker_at_the_Gardena_Cinema.jpg)
 *Figure 1: Archival photographic evidence documented in the News International TEP records.*
 
 La evolución empírica de los acontecimientos desmintió rápidamente los diagnósticos complacientes. La aceleración de las dinámicas en juego obligó a un reajuste de las previsiones institucionales, revelando una marcada correlación entre la exposición previa al riesgo y la celeridad del deterioro funcional en los sectores analizados.
@@ -40,7 +40,7 @@ El comportamiento de los indicadores determinantes durante este período histór
 
 ## 4. Scenario Evaluation and Risk Modeling
 
-![Modelado de Trayectorias y Riesgo Sistémico](https://images.unsplash.com/photo-1611162617474-5b21e879e113?auto=format&fit=crop&w=1200&h=630&q=82)
+![Modelado de Trayectorias y Riesgo Sistémico](https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d0/The_Hospital_at_Mahemdia_-_for_a_mile_along_the_beach_stretch_the_tents_of_a_Stationary_Hospital._Beyond_the_boat_is_the_screen_of_an_open-air_cinema._Art.IWMART1458.jpg/1280px-thumbnail.jpg)
 *Figure 2: Trajectory modeling and scenario dispersion prepared by the TEP Quantitative Unit.*
 
 El análisis retrospectivo permite clasificar la trayectoria que finalmente se consolidó frente a las hipótesis alternativas que barajaban los comités en aquel entonces:

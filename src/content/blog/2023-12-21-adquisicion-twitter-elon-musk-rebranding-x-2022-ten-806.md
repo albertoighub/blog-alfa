@@ -5,7 +5,7 @@ pubDate: "2023-12-21"
 category: "Social Media & Dynamics"
 tags: ["Intelligence", "Research Paper", "TEP Archive"]
 author: "TEP Intelligence Board & Historical Archive"
-heroImage: "https://images.unsplash.com/photo-1563986768609-322da13575f3?auto=format&fit=crop&w=1200&h=630&q=82"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/PR_%26_Marketing_Lessons_Learned_from_%27Goat_Simulator%27_-_GDC_2016_%2825873290925%29.jpg/1280px-PR_%26_Marketing_Lessons_Learned_from_%27Goat_Simulator%27_-_GDC_2016_%2825873290925%29.jpg"
 canonicalSource: "https://international.newsinternacionaltep.com/category/trends"
 ---
 
@@ -21,7 +21,7 @@ Los reportes primarios recopilados por las corresponsalías y agencias de monito
 
 ## 2. Empirical State of Affairs and Structural Dynamics
 
-![Evidencia y Registro Documental Primario - La Adquisición de Twitter por Elon Musk: Despidos Masivos, Suscripción de Verificación y Rebranding a X](https://images.unsplash.com/photo-1573164713988-8665fc963095?auto=format&fit=crop&w=1200&h=630&q=82)
+![Evidencia y Registro Documental Primario - La Adquisición de Twitter por Elon Musk: Despidos Masivos, Suscripción de Verificación y Rebranding a X](https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/Perugino_madonn_with_child_1500_%2822331023166%29.jpg/1280px-Perugino_madonn_with_child_1500_%2822331023166%29.jpg)
 *Figure 1: Archival photographic evidence documented in the News International TEP records.*
 
 La evolución empírica de los acontecimientos desmintió rápidamente los diagnósticos complacientes. La aceleración de las dinámicas en juego obligó a un reajuste de las previsiones institucionales, revelando una marcada correlación entre la exposición previa al riesgo y la celeridad del deterioro funcional en los sectores analizados.
@@ -40,7 +40,7 @@ El comportamiento de los indicadores determinantes durante este período histór
 
 ## 4. Scenario Evaluation and Risk Modeling
 
-![Modelado de Trayectorias y Riesgo Sistémico](https://images.unsplash.com/photo-1611162617474-5b21e879e113?auto=format&fit=crop&w=1200&h=630&q=82)
+![Modelado de Trayectorias y Riesgo Sistémico](https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/Raj_Joshi_of_Galak-Z_at_GDC_2016_%2825209667774%29.jpg/1280px-Raj_Joshi_of_Galak-Z_at_GDC_2016_%2825209667774%29.jpg)
 *Figure 2: Trajectory modeling and scenario dispersion prepared by the TEP Quantitative Unit.*
 
 El análisis retrospectivo permite clasificar la trayectoria que finalmente se consolidó frente a las hipótesis alternativas que barajaban los comités en aquel entonces:

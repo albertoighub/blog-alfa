@@ -5,7 +5,7 @@ pubDate: "2026-10-14"
 category: "Economy & Markets"
 tags: ["Intelligence", "Research Paper", "TEP Archive"]
 author: "TEP Intelligence Board & Historical Archive"
-heroImage: "https://cdn.mos.cms.futurecdn.net/HBLmWTCUhmbejKbRZbdFvZ-1920-80.jpg"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/DE-CIX_GERMANY_-_Switch_Rack_%286218137120%29.jpg/1280px-DE-CIX_GERMANY_-_Switch_Rack_%286218137120%29.jpg"
 canonicalSource: "https://international.newsinternacionaltep.com/category/economy"
 ---
 

@@ -5,7 +5,7 @@ pubDate: "2023-02-15"
 category: "Science & Medicine"
 tags: ["Science", "Research Paper", "TEP Archive"]
 author: "TEP Intelligence Board & Historical Archive"
-heroImage: "https://images.unsplash.com/photo-1516549655169-df83a0774514?auto=format&fit=crop&w=1200&h=630&q=82"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/Prime_Minister_Boris_Johnson_-_NATO_Summit_%26_G7_Leaders_Meeting_%2851958872940%29.jpg/1280px-Prime_Minister_Boris_Johnson_-_NATO_Summit_%26_G7_Leaders_Meeting_%2851958872940%29.jpg"
 canonicalSource: "https://international.newsinternacionaltep.com/category/science"
 ---
 
@@ -21,7 +21,7 @@ Los reportes primarios recopilados por las corresponsalías y agencias de monito
 
 ## 2. Empirical State of Affairs and Structural Dynamics
 
-![Evidencia y Registro Documental Primario - Terapias con Senolíticos y la Eliminación Selectiva de Células Envejecidas en Tejidos Crónicos](https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?auto=format&fit=crop&w=1200&h=630&q=82)
+![Evidencia y Registro Documental Primario - Terapias con Senolíticos y la Eliminación Selectiva de Células Envejecidas en Tejidos Crónicos](https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/Prime_Minister_Boris_Johnson_-_NATO_Summit_%26_G7_Leaders_Meeting_%2851958995700%29.jpg/1280px-Prime_Minister_Boris_Johnson_-_NATO_Summit_%26_G7_Leaders_Meeting_%2851958995700%29.jpg)
 *Figure 1: Archival photographic evidence documented in the News International TEP records.*
 
 La evolución empírica de los acontecimientos desmintió rápidamente los diagnósticos complacientes. La aceleración de las dinámicas en juego obligó a un reajuste de las previsiones institucionales, revelando una marcada correlación entre la exposición previa al riesgo y la celeridad del deterioro funcional en los sectores analizados.
@@ -40,7 +40,7 @@ El comportamiento de los indicadores determinantes durante este período histór
 
 ## 4. Scenario Evaluation and Risk Modeling
 
-![Modelado de Trayectorias y Riesgo Sistémico](https://images.unsplash.com/photo-1530497610245-94d3c16cda28?auto=format&fit=crop&w=1200&h=630&q=82)
+![Modelado de Trayectorias y Riesgo Sistémico](https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/Prime_minister_Rishi_Sunak_attends_the_NATO_Summit_in_Lithuania_%2853041025889%29.jpg/1280px-Prime_minister_Rishi_Sunak_attends_the_NATO_Summit_in_Lithuania_%2853041025889%29.jpg)
 *Figure 2: Trajectory modeling and scenario dispersion prepared by the TEP Quantitative Unit.*
 
 El análisis retrospectivo permite clasificar la trayectoria que finalmente se consolidó frente a las hipótesis alternativas que barajaban los comités en aquel entonces:

@@ -5,7 +5,7 @@ pubDate: "2023-10-26"
 category: "Science & Medicine"
 tags: ["Science", "Research Paper", "TEP Archive"]
 author: "TEP Intelligence Board & Historical Archive"
-heroImage: "https://images.unsplash.com/photo-1579165466791-788226ab77b6?auto=format&fit=crop&w=1200&h=630&q=82"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/Kgalema_Motlanthe%2C_12th_AU_Summit%2C_090202-N-0506A-140.jpg/1280px-Kgalema_Motlanthe%2C_12th_AU_Summit%2C_090202-N-0506A-140.jpg"
 canonicalSource: "https://international.newsinternacionaltep.com/category/science"
 ---
 
@@ -21,7 +21,7 @@ Los reportes primarios recopilados por las corresponsalías y agencias de monito
 
 ## 2. Empirical State of Affairs and Structural Dynamics
 
-![Evidencia y Registro Documental Primario - Bioimpresión 3D Vascularizada y la Fabricación de Matrices Tisulares para Medicina Regenerativa](https://images.unsplash.com/photo-1516549655169-df83a0774514?auto=format&fit=crop&w=1200&h=630&q=82)
+![Evidencia y Registro Documental Primario - Bioimpresión 3D Vascularizada y la Fabricación de Matrices Tisulares para Medicina Regenerativa](https://thumb.wikimedia.org/wikipedia/commons/thumb/9/93/Manmohan_Singh_along_with_the_Chairman%2C_African_Union_Commission%2C_Dr._Jean_Ping_and_the_President_of_Equatorial_Guinea%2C_Mr._Obiang_Nguema_Mbasogo_attended_the_Opening_Plenary_Session_of_2nd_Africa-India_Forum_Summit_%28AIFS%29.jpg/1280px-thumbnail.jpg)
 *Figure 1: Archival photographic evidence documented in the News International TEP records.*
 
 La evolución empírica de los acontecimientos desmintió rápidamente los diagnósticos complacientes. La aceleración de las dinámicas en juego obligó a un reajuste de las previsiones institucionales, revelando una marcada correlación entre la exposición previa al riesgo y la celeridad del deterioro funcional en los sectores analizados.
@@ -40,7 +40,7 @@ El comportamiento de los indicadores determinantes durante este período histór
 
 ## 4. Scenario Evaluation and Risk Modeling
 
-![Modelado de Trayectorias y Riesgo Sistémico](https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?auto=format&fit=crop&w=1200&h=630&q=82)
+![Modelado de Trayectorias y Riesgo Sistémico](https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/Manmohan_Singh_at_the_Retreat_Lunch_with_the_Chairman%2C_African_Union_Commission%2C_Dr._Jean_Ping_and_the_President_of_Equatorial_Guinea%2C_Mr._Obiang_Nguema_Mbasogo%2C_during_the_2nd_Africa-India_Forum_Summit_%28AIFS%29.jpg/1280px-thumbnail.jpg)
 *Figure 2: Trajectory modeling and scenario dispersion prepared by the TEP Quantitative Unit.*
 
 El análisis retrospectivo permite clasificar la trayectoria que finalmente se consolidó frente a las hipótesis alternativas que barajaban los comités en aquel entonces:

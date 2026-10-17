@@ -5,7 +5,7 @@ pubDate: "2023-11-04"
 category: "Science & Medicine"
 tags: ["Science", "Research Paper", "TEP Archive"]
 author: "TEP Intelligence Board & Historical Archive"
-heroImage: "https://images.unsplash.com/photo-1579165466791-788226ab77b6?auto=format&fit=crop&w=1200&h=630&q=82"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Narendra_Modi_addressing_the_gathering_at_the_Civic_Reception%2C_at_City_Hall%2C_in_Brisbane%2C_Australia._The_Premier_of_Queensland%2C_Mr._Campbell_Newman_and_the_Lord_Mayor_of_Brisbane%2C_Mr._Graham_Quirk_is_also_seen.jpg/1280px-thumbnail.jpg"
 canonicalSource: "https://international.newsinternacionaltep.com/category/science"
 ---
 
@@ -21,7 +21,7 @@ Los reportes primarios recopilados por las corresponsalías y agencias de monito
 
 ## 2. Empirical State of Affairs and Structural Dynamics
 
-![Evidencia y Registro Documental Primario - La Identificación de Microplásticos en Placenta y Sistema Circulatorio Humano](https://images.unsplash.com/photo-1516549655169-df83a0774514?auto=format&fit=crop&w=1200&h=630&q=82)
+![Evidencia y Registro Documental Primario - La Identificación de Microplásticos en Placenta y Sistema Circulatorio Humano](https://thumb.wikimedia.org/wikipedia/commons/thumb/e/eb/Narendra_Modi_at_the_Civic_Reception_hosted_by_the_Premier_of_Queensland%2C_Mr._Campbell_Newman_and_the_Lord_Mayor_of_Brisbane%2C_Mr._Graham_Quirk%2C_at_City_Hall%2C_in_Brisbane%2C_Australia_on_November_16%2C_2014.jpg/1280px-thumbnail.jpg)
 *Figure 1: Archival photographic evidence documented in the News International TEP records.*
 
 La evolución empírica de los acontecimientos desmintió rápidamente los diagnósticos complacientes. La aceleración de las dinámicas en juego obligó a un reajuste de las previsiones institucionales, revelando una marcada correlación entre la exposición previa al riesgo y la celeridad del deterioro funcional en los sectores analizados.
@@ -40,7 +40,7 @@ El comportamiento de los indicadores determinantes durante este período histór
 
 ## 4. Scenario Evaluation and Risk Modeling
 
-![Modelado de Trayectorias y Riesgo Sistémico](https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?auto=format&fit=crop&w=1200&h=630&q=82)
+![Modelado de Trayectorias y Riesgo Sistémico](https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/Narendra_Modi_watching_the_cultural_performances_at_the_Civic_Reception%2C_at_City_Hall%2C_in_Brisbane%2C_Australia._The_Premier_of_Queensland%2C_Mr._Campbell_Newman_and_the_Lord_Mayor_of_Brisbane%2C_Mr._Graham_Quirk_are_also_seen.jpg/1280px-thumbnail.jpg)
 *Figure 2: Trajectory modeling and scenario dispersion prepared by the TEP Quantitative Unit.*
 
 El análisis retrospectivo permite clasificar la trayectoria que finalmente se consolidó frente a las hipótesis alternativas que barajaban los comités en aquel entonces:

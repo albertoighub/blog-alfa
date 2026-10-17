@@ -5,7 +5,7 @@ pubDate: "2024-11-23"
 category: "Science & Medicine"
 tags: ["Science", "Research Paper", "TEP Archive"]
 author: "TEP Intelligence Board & Historical Archive"
-heroImage: "https://images.unsplash.com/photo-1507668077129-56e32842fceb?auto=format&fit=crop&w=1200&h=630&q=82"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/Sloss-Sheffield_Steel_and_Iron%2C_First_Avenue_North_Viaduct_at_Thirty-second_Street%2C_Birmingham%2C_Jefferson_County%2C_AL_HAER_ALA%2C37-BIRM%2C4-_%28sheet_12_of_20%29.png/1280px-Sloss-Sheffield_Steel_and_Iron%2C_First_Avenue_North_Viaduct_at_Thirty-second_Street%2C_Birmingham%2C_Jefferson_County%2C_AL_HAER_ALA%2C37-BIRM%2C4-_%28sheet_12_of_20%29.png"
 canonicalSource: "https://international.newsinternacionaltep.com/category/science"
 ---
 
@@ -21,7 +21,7 @@ Los reportes primarios recopilados por las corresponsalías y agencias de monito
 
 ## 2. Empirical State of Affairs and Structural Dynamics
 
-![Evidencia y Registro Documental Primario - Edición de Bases y Edición Primaria: Corrección de Mutaciones Puntuales sin Roturas de Doble Cadena](https://images.unsplash.com/photo-1576086213369-97a306d36557?auto=format&fit=crop&w=1200&h=630&q=82)
+![Evidencia y Registro Documental Primario - Edición de Bases y Edición Primaria: Corrección de Mutaciones Puntuales sin Roturas de Doble Cadena](https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/Sloss-Sheffield_Steel_and_Iron%2C_First_Avenue_North_Viaduct_at_Thirty-second_Street%2C_Birmingham%2C_Jefferson_County%2C_AL_HAER_ALA%2C37-BIRM%2C4-_%28sheet_13_of_20%29.png/1280px-Sloss-Sheffield_Steel_and_Iron%2C_First_Avenue_North_Viaduct_at_Thirty-second_Street%2C_Birmingham%2C_Jefferson_County%2C_AL_HAER_ALA%2C37-BIRM%2C4-_%28sheet_13_of_20%29.png)
 *Figure 1: Archival photographic evidence documented in the News International TEP records.*
 
 La evolución empírica de los acontecimientos desmintió rápidamente los diagnósticos complacientes. La aceleración de las dinámicas en juego obligó a un reajuste de las previsiones institucionales, revelando una marcada correlación entre la exposición previa al riesgo y la celeridad del deterioro funcional en los sectores analizados.
@@ -40,7 +40,7 @@ El comportamiento de los indicadores determinantes durante este período histór
 
 ## 4. Scenario Evaluation and Risk Modeling
 
-![Modelado de Trayectorias y Riesgo Sistémico](https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=1200&h=630&q=82)
+![Modelado de Trayectorias y Riesgo Sistémico](https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/Sloss-Sheffield_Steel_and_Iron%2C_First_Avenue_North_Viaduct_at_Thirty-second_Street%2C_Birmingham%2C_Jefferson_County%2C_AL_HAER_ALA%2C37-BIRM%2C4-_%28sheet_14_of_20%29.png/1280px-Sloss-Sheffield_Steel_and_Iron%2C_First_Avenue_North_Viaduct_at_Thirty-second_Street%2C_Birmingham%2C_Jefferson_County%2C_AL_HAER_ALA%2C37-BIRM%2C4-_%28sheet_14_of_20%29.png)
 *Figure 2: Trajectory modeling and scenario dispersion prepared by the TEP Quantitative Unit.*
 
 El análisis retrospectivo permite clasificar la trayectoria que finalmente se consolidó frente a las hipótesis alternativas que barajaban los comités en aquel entonces:

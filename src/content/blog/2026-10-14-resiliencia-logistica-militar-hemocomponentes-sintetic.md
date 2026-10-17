@@ -5,7 +5,7 @@ pubDate: "2026-10-14"
 category: "Technology & AI"
 tags: ["Technology", "Research Paper", "TEP Archive"]
 author: "TEP Intelligence Board & Historical Archive"
-heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/Seal_of_the_United_States_Department_of_War_%282025%29.svg/1280px-Seal_of_the_United_States_Department_of_War_%282025%29.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/LCM_-_DEC_VAX_11-780-5_-_01.jpg/1280px-LCM_-_DEC_VAX_11-780-5_-_01.jpg"
 canonicalSource: "https://international.newsinternacionaltep.com/category/technology"
 ---
 

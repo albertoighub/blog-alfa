@@ -5,7 +5,7 @@ pubDate: "2026-10-14"
 category: "Politics & Defense"
 tags: ["Geopolitics", "Research Paper", "TEP Archive"]
 author: "TEP Intelligence Board & Historical Archive"
-heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/US-TradeRepresentative-Seal.svg/1280px-US-TradeRepresentative-Seal.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/Beard-eyewear-htc-vive-373905.jpg/1280px-Beard-eyewear-htc-vive-373905.jpg"
 canonicalSource: "https://international.newsinternacionaltep.com/category/geopolitics"
 ---
 

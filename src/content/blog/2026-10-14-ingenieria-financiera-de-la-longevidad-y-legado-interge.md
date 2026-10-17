@@ -5,7 +5,7 @@ pubDate: "2026-10-14"
 category: "Economy & Markets"
 tags: ["Intelligence", "Research Paper", "TEP Archive"]
 author: "TEP Intelligence Board & Historical Archive"
-heroImage: "https://cdn.mos.cms.futurecdn.net/U7ReHP3GpoFkVSkRB2WWvD-1920-80.jpg"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/VR_Headset_Facebook_Oculus_Gamescom_2019%2C_Cologne_%2848605657501%29.jpg/1280px-VR_Headset_Facebook_Oculus_Gamescom_2019%2C_Cologne_%2848605657501%29.jpg"
 canonicalSource: "https://international.newsinternacionaltep.com/category/economy"
 ---
 

@@ -5,7 +5,7 @@ pubDate: "2026-10-17"
 category: "Technology & AI"
 tags: ["Technology", "Research Paper", "TEP Archive"]
 author: "TEP Intelligence Board & Historical Archive"
-heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/Bruce_Schneier_at_CoPS2013-IMG_9174.jpg/1280px-Bruce_Schneier_at_CoPS2013-IMG_9174.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/At_La_Palma_2023_425.jpg/1280px-At_La_Palma_2023_425.jpg"
 canonicalSource: "https://international.newsinternacionaltep.com/category/technology"
 ---
 

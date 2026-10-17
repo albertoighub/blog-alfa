@@ -5,7 +5,7 @@ pubDate: "2020-10-29"
 category: "Politics & Defense"
 tags: ["Geopolitics", "Research Paper", "TEP Archive"]
 author: "TEP Intelligence Board & Historical Archive"
-heroImage: "https://images.unsplash.com/photo-1577495508048-b635879837f1?auto=format&fit=crop&w=1200&h=630&q=82"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/The_Prime_Minister%2C_Shri_Narendra_Modi_delivers_his_Opening_Remarks_at_the_BRICS_leaders%E2%80%99_meeting%2C_on_the_sidelines_of_G20_Summit_2015%2C_in_Turkey_on_November_15%2C_2015_%281%29.jpg/1280px-thumbnail.jpg"
 canonicalSource: "https://international.newsinternacionaltep.com/category/geopolitics"
 ---
 
@@ -21,7 +21,7 @@ Los reportes primarios recopilados por las corresponsalías y agencias de monito
 
 ## 2. Empirical State of Affairs and Structural Dynamics
 
-![Evidencia y Registro Documental Primario - Tensiones Nucleares en la Península de Corea y Modernización Balística](https://images.unsplash.com/photo-1541872703-74c5e44368f9?auto=format&fit=crop&w=1200&h=630&q=82)
+![Evidencia y Registro Documental Primario - Tensiones Nucleares en la Península de Corea y Modernización Balística](https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/The_Prime_Minister%2C_Shri_Narendra_Modi_with_other_BRICS_leaders_at_a_meeting%2C_on_the_sidelines_of_G20_Summit_2015%2C_in_Turkey_on_November_15%2C_2015_%281%29.jpg/1280px-The_Prime_Minister%2C_Shri_Narendra_Modi_with_other_BRICS_leaders_at_a_meeting%2C_on_the_sidelines_of_G20_Summit_2015%2C_in_Turkey_on_November_15%2C_2015_%281%29.jpg)
 *Figure 1: Archival photographic evidence documented in the News International TEP records.*
 
 La evolución empírica de los acontecimientos desmintió rápidamente los diagnósticos complacientes. La aceleración de las dinámicas en juego obligó a un reajuste de las previsiones institucionales, revelando una marcada correlación entre la exposición previa al riesgo y la celeridad del deterioro funcional en los sectores analizados.
@@ -40,7 +40,7 @@ El comportamiento de los indicadores determinantes durante este período histór
 
 ## 4. Scenario Evaluation and Risk Modeling
 
-![Modelado de Trayectorias y Riesgo Sistémico](https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=1200&h=630&q=82)
+![Modelado de Trayectorias y Riesgo Sistémico](https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/The_Prime_Minister%2C_Shri_Narendra_Modi_with_other_world_leaders_in_a_family_photograph%2C_at_G20_Summit_2016%2C_in_Hangzhou%2C_China_on_September_04%2C_2016.jpg/1280px-The_Prime_Minister%2C_Shri_Narendra_Modi_with_other_world_leaders_in_a_family_photograph%2C_at_G20_Summit_2016%2C_in_Hangzhou%2C_China_on_September_04%2C_2016.jpg)
 *Figure 2: Trajectory modeling and scenario dispersion prepared by the TEP Quantitative Unit.*
 
 El análisis retrospectivo permite clasificar la trayectoria que finalmente se consolidó frente a las hipótesis alternativas que barajaban los comités en aquel entonces:
