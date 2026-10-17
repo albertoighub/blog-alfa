@@ -1,7 +1,7 @@
 ---
 // Formato de fecha exacto: "miércoles, 14 de Octubre de 2026"
 const today = new Date();
-const formattedDate = today.toLocaleDateString('es-MX', {
+const formattedDate = today.toLocaleDateString('zh-CN', {
 weekday: 'long',
 day: 'numeric',
 month: 'long',
@@ -13,12 +13,12 @@ const marketData = [
 { asset: 'USD / MXN', val: '19.342', change: '-0.42%', up: false },
 { asset: 'USD / JPY', val: '149.25', change: '+0.31%', up: true },
 { asset: 'GBP / USD', val: '1.3060', change: '-0.15%', up: false },
-{ asset: 'ORO (XAU/USD)', val: '$2,654.80', change: '+0.64%', up: true },
-{ asset: 'BRENT CRUDO', val: '$77.40', change: '-1.15%', up: false },
+{ asset: '现货黄金 (XAU/USD)', val: '$2,654.80', change: '+0.64%', up: true },
+{ asset: '布伦特原油', val: '$77.40', change: '-1.15%', up: false },
 { asset: 'BITCOIN', val: '$64,280', change: '+2.10%', up: true },
 { asset: 'S&P 500', val: '5,815.20', change: '+0.45%', up: true },
 { asset: 'NASDAQ 100', val: '20,240.10', change: '+0.72%', up: true },
-{ asset: 'BONO EE.UU. 10A', val: '4.08%', change: '-0.03%', up: false },
+{ asset: '美债10年期', val: '4.08%', change: '-0.03%', up: false },
 ];
 ---
 
@@ -26,26 +26,26 @@ const marketData = [
 <header class="tep-global-header">
 <!-- 1. Ticker Horario Mundial (Ajuste de bordes cero) -->
 <div class="ticker-time-wrapper">
-<div class="ticker-label-time">HORA GLOBAL</div>
+<div class="ticker-label-time">全球标准时间</div>
 <div class="ticker-viewport">
 <div class="ticker-track-loop time-track">
 <div class="ticker-group">
-<div class="time-item"><span class="time-city">Nueva York:</span> <span class="time-val" data-tz="America/New_York">--:--:--</span></div>
-<div class="time-item"><span class="time-city">Londres:</span> <span class="time-val" data-tz="Europe/London">--:--:--</span></div>
-<div class="time-item"><span class="time-city">Fráncfort:</span> <span class="time-val" data-tz="Europe/Berlin">--:--:--</span></div>
-<div class="time-item"><span class="time-city">Tokio:</span> <span class="time-val" data-tz="Asia/Tokyo">--:--:--</span></div>
-<div class="time-item"><span class="time-city">Singapur:</span> <span class="time-val" data-tz="Asia/Singapore">--:--:--</span></div>
-<div class="time-item"><span class="time-city">Dubái:</span> <span class="time-val" data-tz="Asia/Dubai">--:--:--</span></div>
-<div class="time-item"><span class="time-city">Cd. de México:</span> <span class="time-val" data-tz="America/Mexico_City">--:--:--</span></div>
+<div class="time-item"><span class="time-city">纽约:</span> <span class="time-val" data-tz="America/New_York">--:--:--</span></div>
+<div class="time-item"><span class="time-city">伦敦:</span> <span class="time-val" data-tz="Europe/London">--:--:--</span></div>
+<div class="time-item"><span class="time-city">法兰克福:</span> <span class="time-val" data-tz="Europe/Berlin">--:--:--</span></div>
+<div class="time-item"><span class="time-city">东京:</span> <span class="time-val" data-tz="Asia/Tokyo">--:--:--</span></div>
+<div class="time-item"><span class="time-city">新加坡:</span> <span class="time-val" data-tz="Asia/Singapore">--:--:--</span></div>
+<div class="time-item"><span class="time-city">迪拜:</span> <span class="time-val" data-tz="Asia/Dubai">--:--:--</span></div>
+<div class="time-item"><span class="time-city">墨西哥城:</span> <span class="time-val" data-tz="America/Mexico_City">--:--:--</span></div>
 </div>
 <div class="ticker-group" aria-hidden="true">
-<div class="time-item"><span class="time-city">Nueva York:</span> <span class="time-val" data-tz="America/New_York">--:--:--</span></div>
-<div class="time-item"><span class="time-city">Londres:</span> <span class="time-val" data-tz="Europe/London">--:--:--</span></div>
-<div class="time-item"><span class="time-city">Fráncfort:</span> <span class="time-val" data-tz="Europe/Berlin">--:--:--</span></div>
-<div class="time-item"><span class="time-city">Tokio:</span> <span class="time-val" data-tz="Asia/Tokyo">--:--:--</span></div>
-<div class="time-item"><span class="time-city">Singapur:</span> <span class="time-val" data-tz="Asia/Singapore">--:--:--</span></div>
-<div class="time-item"><span class="time-city">Dubái:</span> <span class="time-val" data-tz="Asia/Dubai">--:--:--</span></div>
-<div class="time-item"><span class="time-city">Cd. de México:</span> <span class="time-val" data-tz="America/Mexico_City">--:--:--</span></div>
+<div class="time-item"><span class="time-city">纽约:</span> <span class="time-val" data-tz="America/New_York">--:--:--</span></div>
+<div class="time-item"><span class="time-city">伦敦:</span> <span class="time-val" data-tz="Europe/London">--:--:--</span></div>
+<div class="time-item"><span class="time-city">法兰克福:</span> <span class="time-val" data-tz="Europe/Berlin">--:--:--</span></div>
+<div class="time-item"><span class="time-city">东京:</span> <span class="time-val" data-tz="Asia/Tokyo">--:--:--</span></div>
+<div class="time-item"><span class="time-city">新加坡:</span> <span class="time-val" data-tz="Asia/Singapore">--:--:--</span></div>
+<div class="time-item"><span class="time-city">迪拜:</span> <span class="time-val" data-tz="Asia/Dubai">--:--:--</span></div>
+<div class="time-item"><span class="time-city">墨西哥城:</span> <span class="time-val" data-tz="America/Mexico_City">--:--:--</span></div>
 </div>
 </div>
 </div>
@@ -53,7 +53,7 @@ const marketData = [
 
 <!-- 2. Ticker Mercados & Divisas (Ajuste de bordes cero) -->
 <div class="ticker-market-wrapper">
-<div class="ticker-label-market">MERCADOS & DIVISAS</div>
+<div class="ticker-label-market">全球金融市场与外汇</div>
 <div class="ticker-viewport">
 <div class="ticker-track-loop market-track">
 <div class="ticker-group">
@@ -109,7 +109,7 @@ id="quick-search-input"
 placeholder="Buscar investigaciones, cifras, informes..."
 autocomplete="off"
 />
-<button type="button" class="advanced-filter-btn" id="open-advanced-modal-btn" title="Abrir Búsqueda Avanzada">
+<button type="button" class="advanced-filter-btn" id="open-advanced-modal-btn" title="Abrir 深度检索">
 <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
 <line x1="4" y1="21" x2="4" y2="14"/>
 <line x1="4" y1="10" x2="4" y2="3"/>
@@ -121,7 +121,7 @@ autocomplete="off"
 <line x1="9" y1="8" x2="15" y2="8"/>
 <line x1="17" y1="16" x2="23" y2="16"/>
 </svg>
-<span>Búsqueda Avanzada</span>
+<span>深度检索</span>
 </button>
 </div>
 </div>
@@ -140,7 +140,7 @@ onerror="if(!this.dataset.retry){this.dataset.retry=1;this.src='/logo.jpg';}else
 />
 <div class="brand-text-wrap">
 <h1 class="main-title">
-NEWS INTERNACIONAL <span class="brand-badge-tep">TEP</span>
+NEWS INTERNATIONAL <span class="brand-badge-tep">CHINA TEP</span>
 </h1>
 </div>
 </a>
@@ -151,14 +151,14 @@ NEWS INTERNACIONAL <span class="brand-badge-tep">TEP</span>
 <!-- 5. NAVEGACIÓN ADHERENTE (STICKY) -->
 <nav class="nav-sections sticky-nav">
 <div class="nav-wrap">
-<a href="/" class="nav-link active">Inicio</a>
-<a href="/categoria/geopolitica" class="nav-link nav-geo">Política</a>
-<a href="/categoria/economia" class="nav-link nav-econ">Economía & Mercados</a>
-<a href="/categoria/tecnologia" class="nav-link nav-tech">Tecnología & IA</a>
-<a href="/categoria/ciencia" class="nav-link nav-sci">Ciencia & Medicina</a>
-<a href="/categoria/tendencias" class="nav-link nav-trend">Redes & Revuelo</a>
-<a href="/about" class="nav-link">Nosotros</a>
-<a href="https://paypal.me/newsinternacional" target="_blank" rel="noopener noreferrer" class="nav-link nav-donate" style="color: #dc2626; font-weight: 900;">♥ Apoyar</a>
+<a href="/" class="nav-link active">首页</a>
+<a href="/categoria/geopolitica" class="nav-link nav-geo">政治与防务</a>
+<a href="/categoria/economia" class="nav-link nav-econ">经济与市场</a>
+<a href="/categoria/tecnologia" class="nav-link nav-tech">科技与AI</a>
+<a href="/categoria/ciencia" class="nav-link nav-sci">科学与医学</a>
+<a href="/categoria/tendencias" class="nav-link nav-trend">社交媒体与动态</a>
+<a href="/about" class="nav-link">关于我们</a>
+<a href="https://paypal.me/newsinternacional" target="_blank" rel="noopener noreferrer" class="nav-link nav-donate" style="color: #dc2626; font-weight: 900;">♥ 赞助支持</a>
 </div>
 </nav>
 
@@ -167,8 +167,8 @@ NEWS INTERNACIONAL <span class="brand-badge-tep">TEP</span>
 <div class="search-modal-window">
 <div class="modal-top-bar">
 <div class="modal-title-wrap">
-<div class="modal-badge-red">FILTROS DE INTELIGENCIA</div>
-<h3 class="modal-title">Búsqueda Avanzada en Archivo TEP</h3>
+<div class="modal-badge-red">智能情报分析检索</div>
+<h3 class="modal-title">深度检索 en Archivo TEP</h3>
 </div>
 <button type="button" id="close-advanced-modal-btn" class="modal-close-icon" aria-label="Cerrar modal">✕</button>
 </div>
@@ -184,9 +184,9 @@ NEWS INTERNACIONAL <span class="brand-badge-tep">TEP</span>
 <select id="adv-select-cat">
 <option value="all">Todas las Secciones</option>
 <option value="geopolitica">Política & Orden Global</option>
-<option value="economia">Economía & Mercados</option>
-<option value="tecnologia">Tecnología & IA</option>
-<option value="ciencia">Ciencia & Medicina</option>
+<option value="economia">经济与市场</option>
+<option value="tecnologia">科技与AI</option>
+<option value="ciencia">科学与医学</option>
 <option value="tendencias">Redes Sociales & Revuelo</option>
 </select>
 </div>
@@ -1017,7 +1017,7 @@ function updateLiveDate() {
 const el = document.getElementById('live-header-date');
 if (el) {
 const now = new Date();
-const str = now.toLocaleDateString('es-MX', {
+const str = now.toLocaleDateString('zh-CN', {
 weekday: 'long',
 day: 'numeric',
 month: 'long',
@@ -1036,7 +1036,7 @@ const elements = document.querySelectorAll('[data-tz]');
 elements.forEach((el) => {
 const tz = el.getAttribute('data-tz');
 if (tz) {
-try { el.textContent = new Intl.DateTimeFormat('es-MX', { ...opts, timeZone: tz }).format(now); } catch (e) {}
+try { el.textContent = new Intl.DateTimeFormat('zh-CN', { ...opts, timeZone: tz }).format(now); } catch (e) {}
 }
 });
 }
@@ -1071,9 +1071,9 @@ const state = {
 'NASDAQ 100': { val: 20240.10, pct: 0.72, prefix: '' },
 'USD / EUR': { val: 0.9241, pct: 0.18, prefix: '' },
 'USD / MXN': { val: 19.342, pct: -0.42, prefix: '' },
-'ORO (XAU/USD)': { val: 2654.80, pct: 0.64, prefix: '$' },
-'BRENT CRUDO': { val: 77.40, pct: -1.15, prefix: '$' },
-'BONO EE.UU. 10A': { val: 4.08, pct: -0.03, suffix: '%' }
+'现货黄金 (XAU/USD)': { val: 2654.80, pct: 0.64, prefix: '$' },
+'布伦特原油': { val: 77.40, pct: -1.15, prefix: '$' },
+'美债10年期': { val: 4.08, pct: -0.03, suffix: '%' }
 };
 
 // Intento de datos reales de Bitcoin
@@ -1198,7 +1198,7 @@ else if (catLower.includes('tend') || catLower.includes('red') || catLower.inclu
 
 // Formatear la fecha en el resultado
 const postDate = new Date(post.pubDate + 'T12:00:00Z');
-const displayDate = postDate.toLocaleDateString('es-MX', { day: 'numeric', month: 'short', year: 'numeric' });
+const displayDate = postDate.toLocaleDateString('zh-CN', { day: 'numeric', month: 'short', year: 'numeric' });
 const imgUrl = post.heroImage || '/og-image.jpg';
 
 return `
