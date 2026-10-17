@@ -491,7 +491,22 @@ def run_historical_expansion():
             if state["total_generated"] % 500 == 0 and state["total_generated"] < total_target:
                 print("  ================================================================")
                 print(f"  [PAUSA DE SEGURIDAD] 500 publicaciones alcanzadas.")
-                print(f"  Descansando 5 minutos (300 segundos) para optimizar recursos...")
+                print(f"  [AUTO-DEPLOY] Sincronizando lote con GitHub & Cloudflare Pages...")
+                try:
+                    import subprocess
+                    subprocess.run(["git", "add", "src/content/blog", "historical_archive_state.json"], check=False)
+                    subprocess.run(["git", "commit", "-m", f"feat(archive): historical expansion batch {state['total_generated']} posts"], check=False)
+                    subprocess.run(["git", "push", "origin", "main"], check=False)
+                    print(f"  [AUTO-DEPLOY ✓] Lote {state['total_generated']} sincronizado en GitHub & Cloudflare.")
+                    # Sincronización automática de la edición gemela en inglés
+                    int_sync = r"C:\BIONIC_CORE\blog-international\sync_and_translate_archive.py"
+                    if os.path.exists(int_sync):
+                        print(f"  [TWIN SYNC] Sincronizando edición gemela en inglés (News International TEP)...")
+                        subprocess.run([sys.executable, int_sync], check=False)
+                        print(f"  [TWIN SYNC ✓] Edición gemela actualizada con éxito.")
+                except Exception as ex:
+                    print(f"  [AUTO-DEPLOY !] Nota: {ex}")
+                print(f"  Descansando 5 minutos (300 segundos) para optimizar recursos de cómputo y pipelines...")
                 print("  ================================================================")
                 time.sleep(300)
             else:
