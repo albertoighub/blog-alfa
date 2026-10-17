@@ -8,7 +8,7 @@ import time
 
 SITE_BASE_URL = "https://newsinternacionaltep.com"
 SITEMAP_URL = f"{SITE_BASE_URL}/sitemap-index.xml"
-INDEXNOW_KEY = "69c4800tepindexnowkey"
+INDEXNOW_KEY = "eaead898f86547568039b4c7c52111ee"
 
 INDEXNOW_ENDPOINTS = [
     "https://www.bing.com/indexnow",
