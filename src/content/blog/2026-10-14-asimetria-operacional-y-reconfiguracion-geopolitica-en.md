@@ -5,7 +5,7 @@ pubDate: "2026-10-14"
 category: "Geopolítica"
 tags: ["Guerra H\u00edbrida", "Seguridad Energ\u00e9tica", "Doctrina Militar", "Relaciones Internacionales"]
 author: "Comité Analítico TEP & Prospectiva"
-heroImage: "https://assets.kyivindependent.com/content/images/2026/10/GettyImages-2291020190_20261014-172405_20261014-172508.jpg"
+heroImage: "https://images.unsplash.com/photo-1541872703-74c5e44368f9?auto=format&fit=crop&w=1200&h=630&q=85"
 canonicalSource: "https://kyivindependent.com/ukraine-war-latest-operation-vivaldi-liberates-another-101-square-kilometers-in-donetsk-oblast/"
 ---
 

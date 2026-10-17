@@ -5,7 +5,7 @@ pubDate: "2026-10-16"
 category: "Economía"
 tags: ["Fintech", "Banca Digital", "Regulaci\u00f3n Financiera", "Mercados Europeos", "Eficiencia Operativa"]
 author: "Comité Analítico TEP & Prospectiva"
-heroImage: "https://cdn.jornaldenegocios.pt/images/2026-10/img_100x100uu2026-10-15-14-46-06-531160.jpg"
+heroImage: "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?auto=format&fit=crop&w=1200&h=630&q=85"
 canonicalSource: "https://www.jornaldenegocios.pt/mercados/detalhe/n26-proposta-de-conta-poupanca-em-portugal-e-mais-simples-do-que-em-espanha"
 ---
 

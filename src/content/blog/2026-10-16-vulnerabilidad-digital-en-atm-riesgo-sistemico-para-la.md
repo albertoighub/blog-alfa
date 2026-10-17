@@ -5,7 +5,7 @@ pubDate: "2026-10-16"
 category: "Economía"
 tags: ["Gesti\u00f3n del Tr\u00e1fico A\u00e9reo (ATM)", "Riesgo Sist\u00e9mico", "Infraestructura Cr\u00edtica", "Log\u00edstica Global", "Digitalizaci\u00f3n Operacional"]
 author: "Comité Analítico TEP & Prospectiva"
-heroImage: "https://cdn.jornaldenegocios.pt/images/2026-10/img_100x100uu2026-10-16-10-00-36-531213.jpg"
+heroImage: "https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?auto=format&fit=crop&w=1200&h=630&q=85"
 canonicalSource: "https://www.jornaldenegocios.pt/empresas/transportes/aviacao/detalhe/problemas-de-transmissao-de-dados-provocaram-atrasos-nos-aeroportos-de-italia"
 ---
 

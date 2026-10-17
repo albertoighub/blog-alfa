@@ -5,7 +5,7 @@ pubDate: "2026-10-16"
 category: "Economía"
 tags: ["Regulaci\u00f3n Financiera", "Tasas Cero (ZIRP)", "Protecci\u00f3n al Consumidor", "Estabilidad Bancaria"]
 author: "Comité Analítico TEP & Prospectiva"
-heroImage: "https://static.bonniernews.se/ba/d42df434-eaab-4e48-8401-1542d472279b.jpg?width=600"
+heroImage: "https://images.unsplash.com/photo-1559526324-4b87b5e36e44?auto=format&fit=crop&w=1200&h=630&q=85"
 canonicalSource: "https://www.di.se/live/nordea-stams-for-nollranta/"
 ---
 

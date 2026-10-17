@@ -5,7 +5,7 @@ pubDate: "2026-10-14"
 category: "Geopolítica"
 tags: ["Uni\u00f3n Europea", "Seguridad Internacional", "Integraci\u00f3n Regional", "Guerra Ucrania"]
 author: "Comité Analítico TEP & Prospectiva"
-heroImage: "https://assets.kyivindependent.com/content/images/2026/10/GettyImages-2242386469_20261014-160752_20261014-162016.jpg"
+heroImage: "https://images.unsplash.com/photo-1526304640581-d334cdbbf45e?auto=format&fit=crop&w=1200&h=630&q=85"
 canonicalSource: "https://kyivindependent.com/exclusive-draft-eu-summit-conclusions-reveal-what-leaders-will-and-will-not-say-on-ukraine/"
 ---
 

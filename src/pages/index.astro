@@ -665,29 +665,31 @@ const getCatColor = (cat: string) => {
     .broadcast-grid {
       display: grid;
       grid-template-columns: 1fr;
-      gap: 1.15rem;
+      gap: 1rem;
     }
     .broadcast-item-card {
-      display: grid;
-      grid-template-columns: 1fr 1.35fr;
-      gap: 1.2rem;
+      display: flex;
+      flex-direction: row;
+      gap: 1.15rem;
       background: #f8fafc;
       border: 1px solid #e2e8f0;
       border-radius: 8px;
       overflow: hidden;
-      padding: 0.85rem;
+      padding: 0.75rem 0.85rem;
       align-items: center;
       transition: transform 0.25s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.25s cubic-bezier(0.16, 1, 0.3, 1), border-color 0.25s ease;
     }
     .broadcast-item-card:hover {
-      transform: translateY(-3px);
+      transform: translateY(-2px);
       box-shadow: 0 8px 20px rgba(0,0,0,0.06);
       border-color: #cbd5e1;
       background: #ffffff;
     }
     .broadcast-col-video {
       position: relative;
-      width: 100%;
+      width: 260px;
+      max-width: 260px;
+      flex-shrink: 0;
       border-radius: 6px;
       overflow: hidden;
       background: #050505;
@@ -706,12 +708,14 @@ const getCatColor = (cat: string) => {
       display: flex;
       flex-direction: column;
       justify-content: space-between;
-      gap: 0.45rem;
+      gap: 0.35rem;
+      flex: 1;
+      min-width: 0;
     }
     .broadcast-meta-row {
       display: flex;
       align-items: center;
-      gap: 0.6rem;
+      gap: 0.5rem;
       flex-wrap: wrap;
     }
     .broadcast-cat-pill {
@@ -729,9 +733,9 @@ const getCatColor = (cat: string) => {
       font-weight: 700;
     }
     .broadcast-card-title {
-      font-size: 0.95rem;
+      font-size: 0.88rem;
       font-weight: 850;
-      line-height: 1.3;
+      line-height: 1.28;
       margin: 0;
       color: #050505;
     }
@@ -744,39 +748,45 @@ const getCatColor = (cat: string) => {
       color: #dc2626;
     }
     .broadcast-card-desc {
-      font-size: 0.76rem;
-      line-height: 1.45;
+      font-size: 0.74rem;
+      line-height: 1.4;
       color: #475569;
       margin: 0;
       display: -webkit-box;
-      -webkit-line-clamp: 3;
+      -webkit-line-clamp: 2;
       -webkit-box-orient: vertical;
       overflow: hidden;
     }
     .broadcast-action-row {
-      margin-top: 0.3rem;
+      margin-top: 0.2rem;
     }
     .broadcast-dossier-btn {
       display: inline-flex;
       align-items: center;
-      gap: 0.4rem;
+      gap: 0.35rem;
       background: #050505;
       color: #ffffff;
-      font-size: 0.72rem;
+      font-size: 0.7rem;
       font-weight: 850;
-      padding: 0.35rem 0.75rem;
+      padding: 0.28rem 0.65rem;
       border-radius: 4px;
       text-decoration: none;
       transition: all 0.2s ease;
+      width: fit-content;
     }
     .broadcast-dossier-btn:hover {
       background: #dc2626;
       color: #ffffff;
       transform: translateX(3px);
     }
-    @media (max-width: 900px) {
+    @media (max-width: 680px) {
       .broadcast-item-card {
-        grid-template-columns: 1fr;
+        flex-direction: column;
+        align-items: stretch;
+      }
+      .broadcast-col-video {
+        width: 100%;
+        max-width: 100%;
       }
     }
 
@@ -1272,7 +1282,7 @@ const getCatColor = (cat: string) => {
             <div class="broadcast-item-card">
               <div class="broadcast-col-video">
                 <iframe
-                  src="https://www.youtube-nocookie.com/embed/fT323_y6sC0"
+                  src="https://www.youtube-nocookie.com/embed/5F_i53q_g48"
                   title="The Global Race For Microchips and Tech Sovereignty"
                   loading="lazy"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -1305,7 +1315,7 @@ const getCatColor = (cat: string) => {
             <div class="broadcast-item-card">
               <div class="broadcast-col-video">
                 <iframe
-                  src="https://www.youtube-nocookie.com/embed/jAhjPd4uNFY"
+                  src="https://www.youtube-nocookie.com/embed/UKbrwZ1qJ14"
                   title="CRISPR and Next-Gen Molecular Oncology"
                   loading="lazy"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -1371,7 +1381,7 @@ const getCatColor = (cat: string) => {
             <div class="broadcast-item-card">
               <div class="broadcast-col-video">
                 <iframe
-                  src="https://www.youtube-nocookie.com/embed/hTzZrnf_t6c"
+                  src="https://www.youtube-nocookie.com/embed/aircAruvnKk"
                   title="Inside Hyperscale AI Data Centers and Infrastructure"
                   loading="lazy"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"

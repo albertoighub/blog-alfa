@@ -5,7 +5,7 @@ pubDate: "2026-10-17"
 category: "Economía"
 tags: ["Log\u00edstica urbana", "Relaciones laborales", "Productividad regional", "Infraestructura cr\u00edtica"]
 author: "Comité Analítico TEP & Prospectiva"
-heroImage: "https://cdn.jornaldenegocios.pt/images/2025-09/img_100x100uu2025-09-08-09-22-43-508789.jpg"
+heroImage: "https://images.unsplash.com/photo-1559526324-4b87b5e36e44?auto=format&fit=crop&w=1200&h=630&q=85"
 canonicalSource: "https://www.jornaldenegocios.pt/empresas/transportes/detalhe/trabalhadores-do-metro-de-lisboa-cumprem-greves-parciais-a-28-e-30-de-outubro"
 ---
 

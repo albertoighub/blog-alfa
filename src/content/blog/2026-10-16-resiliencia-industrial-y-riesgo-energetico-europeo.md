@@ -5,7 +5,7 @@ pubDate: "2026-10-16"
 category: "Economía"
 tags: ["Seguridad Energ\u00e9tica", "Transici\u00f3n Clim\u00e1tica", "Volatilidad de Precios", "Competitividad Industrial"]
 author: "Comité Analítico TEP & Prospectiva"
-heroImage: "https://static.bonniernews.se/ba/27f9cfc1-ec96-4140-a79a-09fc06543b4c.jpeg?width=600"
+heroImage: "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?auto=format&fit=crop&w=1200&h=630&q=85"
 canonicalSource: "https://www.di.se/ledare/gaskrisen-far-inte-sanka-svenska-foretag/"
 ---
 

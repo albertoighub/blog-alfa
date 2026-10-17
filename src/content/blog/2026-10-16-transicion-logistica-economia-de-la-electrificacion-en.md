@@ -5,7 +5,7 @@ pubDate: "2026-10-16"
 category: "Economía"
 tags: ["Electromovilidad", "Log\u00edstica Sostenible", "Transici\u00f3n Energ\u00e9tica", "Costos Operacionales"]
 author: "Comité Analítico TEP & Prospectiva"
-heroImage: "https://cdn.jornaldenegocios.pt/images/2020-07/img_100x100uu2020-07-15-22-21-09-379988.jpg"
+heroImage: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1200&h=630&q=85"
 canonicalSource: "https://www.jornaldenegocios.pt/empresas/transportes/detalhe/grupo-barraqueiro-investe-50-milhoes-na-eletrificacao-da-frota"
 ---
 

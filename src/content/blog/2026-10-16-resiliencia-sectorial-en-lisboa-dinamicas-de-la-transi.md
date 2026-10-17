@@ -5,7 +5,7 @@ pubDate: "2026-10-16"
 category: "Economía"
 tags: ["Mercados Burs\u00e1tiles", "Transici\u00f3n Energ\u00e9tica", "Capitalizaci\u00f3n Sectorial", "Portugal", "Macroeconom\u00eda Europea"]
 author: "Comité Analítico TEP & Prospectiva"
-heroImage: "https://cdn.jornaldenegocios.pt/images/2025-08/img_100x100uu2025-08-04-12-28-59-506867.jpg"
+heroImage: "https://images.unsplash.com/photo-1563986768609-322da13575f3?auto=format&fit=crop&w=1200&h=630&q=85"
 canonicalSource: "https://www.jornaldenegocios.pt/mercados/bolsa/detalhe/ibersol-e-grupo-edp-lideram-subidas-em-arranque-positivo-na-bolsa-de-lisboa"
 ---
 

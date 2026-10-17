@@ -5,7 +5,7 @@ pubDate: "2026-10-16"
 category: "Economía"
 tags: ["Finanzas Corporativas", "Aviaci\u00f3n Econ\u00f3mica", "Fusiones y Adquisiciones (M&A)", "Capitalismo de Estado"]
 author: "Comité Analítico TEP & Prospectiva"
-heroImage: "https://cdn.jornaldenegocios.pt/images/2015-05/img_100x100uu2015-05-01-15-48-00-252212.jpg"
+heroImage: "https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?auto=format&fit=crop&w=1200&h=630&q=85"
 canonicalSource: "https://www.jornaldenegocios.pt/empresas/transportes/aviacao/detalhe/estado-quer-118-milhoes-de-euros-dos-trabalhadores-da-tap"
 ---
 

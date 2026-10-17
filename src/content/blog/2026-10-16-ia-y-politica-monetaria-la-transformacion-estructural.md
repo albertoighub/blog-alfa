@@ -5,7 +5,7 @@ pubDate: "2026-10-16"
 category: "Economía"
 tags: ["Inteligencia Artificial", "Pol\u00edtica Monetaria", "Macroeconom\u00eda", "Riesgo Sist\u00e9mico"]
 author: "Comité Analítico TEP & Prospectiva"
-heroImage: "https://cdn.jornaldenegocios.pt/images/2026-10/img_100x100uu2026-10-16-09-00-56-531205.jpg"
+heroImage: "https://images.unsplash.com/photo-1563986768609-322da13575f3?auto=format&fit=crop&w=1200&h=630&q=85"
 canonicalSource: "https://www.jornaldenegocios.pt/economia/politica-monetaria/detalhe/presidente-da-fed-diz-que-ia-vai-mudar-fundamentalmente-o-trabalho-dos-bancos-centrais"
 ---
 

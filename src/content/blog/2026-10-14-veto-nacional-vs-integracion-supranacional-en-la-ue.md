@@ -5,7 +5,7 @@ pubDate: "2026-10-14"
 category: "Geopolítica"
 tags: ["Uni\u00f3n Europea", "Integraci\u00f3n Regional", "Pol\u00edtica H\u00fangara", "Seguridad Oriental"]
 author: "Comité Analítico TEP & Prospectiva"
-heroImage: "https://assets.kyivindependent.com/content/images/2026/10/GettyImages-2298711656_20261014-204703_20261014-204739.jpg"
+heroImage: "https://images.unsplash.com/photo-1541872703-74c5e44368f9?auto=format&fit=crop&w=1200&h=630&q=85"
 canonicalSource: "https://kyivindependent.com/hungarys-magyar-to-meet-zelensky-for-first-time-at-upcoming-eu-summit/"
 ---
 
