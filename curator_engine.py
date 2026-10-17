@@ -63,6 +63,7 @@ FEEDS_RESPALDO = {
         "https://www.theverge.com/rss/index.xml",
         "https://spectrum.ieee.org/rss/rocs/robotics",
         "https://venturebeat.com/feed/",
+    ],
     "Ciencia": [
         "https://www.nature.com/nature.rss",
         "https://www.sciencedaily.com/rss/top/science.xml",
@@ -461,7 +462,7 @@ def ejecutar_pipeline():
 
     historial = cargar_historial()
     catalogo_infokeys = cargar_infokeys_por_seccion()
-    categorias = ["Geopolítica", "Economía", "Tecnología"]
+    categorias = ["Geopolítica", "Economía", "Tecnología", "Ciencia", "Tendencias"]
     total_publicaciones = 0
 
     for categoria in categorias:

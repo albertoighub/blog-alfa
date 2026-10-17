@@ -6,584 +6,1099 @@ import Footer from '../components/Footer.astro';
 
 const allPosts = await getCollection('blog');
 const sortedPosts = allPosts.sort(
-(a, b) => new Date(b.data.pubDate).valueOf() - new Date(a.data.pubDate).valueOf()
+  (a, b) => new Date(b.data.pubDate).valueOf() - new Date(a.data.pubDate).valueOf()
 );
 
 const leadStory = sortedPosts[0];
-const sideStories = sortedPosts.slice(1, 5); // Mostramos 4 en el radar lateral
+const sideStories = sortedPosts.slice(1, 5); // 4 en radar
+const carouselStories = sortedPosts.slice(5, 17); // 12 en slider interactivo
 
-const matchesCat = (post, terms) => {
-const c = (post.data.category || '').toLowerCase();
-return terms.some((t) => c.includes(t));
+const matchesCat = (post: any, terms: string[]) => {
+  const c = (post.data.category || '').toLowerCase();
+  const t = (post.data.tags || []).join(' ').toLowerCase();
+  const tit = (post.data.title || '').toLowerCase();
+  return terms.some((term) => c.includes(term) || t.includes(term) || tit.includes(term));
 };
 
-const postsGeopolitica = sortedPosts.filter((p) => matchesCat(p, ['política', 'politica', 'geopolítica', 'geopolitica']));
-const postsEconomia = sortedPosts.filter((p) => matchesCat(p, ['economía', 'economia', 'mercados', 'finanzas']));
-const postsTecnologia = sortedPosts.filter((p) => matchesCat(p, ['tecnología', 'tecnologia', 'ia', 'inteligencia']));
-const postsCiencia = sortedPosts.filter((p) => matchesCat(p, ['ciencia', 'medicina', 'salud', 'biotecnología', 'fármacos', 'cáncer', 'investigación']));
-const postsTendencias = sortedPosts.filter((p) => matchesCat(p, ['tendencias', 'redes', 'viral', 'cultura digital', 'revuelo', 'plataformas', 'debates', 'audiencias', 'creadores']));
+const postsGeopolitica = sortedPosts.filter((p) => matchesCat(p, ['política', 'politica', 'geopolítica', 'geopolitica', 'defensa', 'seguridad', 'estado', 'soberanía']));
+const postsEconomia = sortedPosts.filter((p) => matchesCat(p, ['economía', 'economia', 'mercados', 'finanzas', 'banc', 'fiscal', 'deuda', 'arancel']));
+const postsTecnologia = sortedPosts.filter((p) => matchesCat(p, ['tecnología', 'tecnologia', 'ia', 'inteligencia', 'semiconductor', 'chip', 'software', 'hardware', 'ciber', 'kernel']));
+const postsCiencia = sortedPosts.filter((p) => matchesCat(p, ['ciencia', 'medicina', 'salud', 'biotecnología', 'fármacos', 'cáncer', 'investigación', 'sanitario', 'genom', 'clínic']));
+const postsTendencias = sortedPosts.filter((p) => matchesCat(p, ['tendencias', 'redes', 'viral', 'cultura digital', 'revuelo', 'plataformas', 'debates', 'audiencias', 'creadores', 'algoritmo', 'fragmentación']));
 
-// 12 historias dinámicas para el ticker continuo
+// 12 historias para el ticker dinámico continuo
 const breakingList = sortedPosts.slice(0, 12).map((p) => ({
-title: p.data.title,
-category: p.data.category || 'Actualidad',
-url: `/blog/${p.slug ?? p.id}/`,
+  title: p.data.title,
+  category: p.data.category || 'Actualidad',
+  url: `/blog/${p.slug ?? p.id}/`,
 }));
+
+// Función auxiliar para color de badge de categoría
+const getCatColor = (cat: string) => {
+  const c = (cat || '').toLowerCase();
+  if (c.includes('econ') || c.includes('mercad')) return '#059669';
+  if (c.includes('tecn') || c.includes('ia')) return '#2563eb';
+  if (c.includes('cien') || c.includes('med') || c.includes('salud')) return '#06b6d4';
+  if (c.includes('tend') || c.includes('red') || c.includes('viral')) return '#ec4899';
+  return '#dc2626';
+};
 ---
 
 <!doctype html>
 <html lang="es">
 <head>
-<BaseHead title="News Internacional TEP | Investigación & Mercados Globales" description="Diario analítico global de alta precisión en Tecnología, Mercados Financieros y Geopolítica." />
-<style>
-:global(body) { margin: 0 !important; padding: 0 !important; width: 100vw !important; max-width: 100% !important; overflow-x: hidden !important;
-background-color: #f8fafc;
-color: #050505;
-font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-}
-main {
-max-width: 1580px;
-width: 94%;
-margin: 0 auto;
-padding: 1.5rem 0 6rem;
-}
+  <BaseHead title="News Internacional TEP | Investigación & Mercados Globales" description="Diario analítico global de alta precisión en Tecnología, Mercados Financieros, Geopolítica, Ciencia y Dinámica Digital." />
+  <style>
+    :global(body) { 
+      margin: 0 !important; 
+      padding: 0 !important; 
+      width: 100vw !important; 
+      max-width: 100% !important; 
+      overflow-x: hidden !important;
+      background-color: #f8fafc;
+      color: #050505;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    }
+    
+    /* Layout compacto para visualización óptima al 100% de zoom */
+    main {
+      max-width: 1440px;
+      width: 93%;
+      margin: 0 auto;
+      padding: 0.85rem 0 4rem;
+    }
 
-/* 1. ÚLTIMA HORA */
-.breaking-marquee-strip {
-background: #b91c1c;
-color: #ffffff;
-display: flex;
-align-items: center;
-height: 44px;
-border-radius: 6px;
-margin-bottom: 3rem;
-overflow: hidden;
-box-shadow: 0 4px 15px rgba(185, 28, 28, 0.2);
-width: 100%;
-}
-.breaking-fixed-tag {
-background: #050505;
-height: 100%;
-padding: 0 1.4rem;
-display: flex;
-align-items: center;
-gap: 8px;
-font-size: 0.74rem;
-font-weight: 900;
-letter-spacing: 0.1em;
-text-transform: uppercase;
-flex-shrink: 0;
-z-index: 3;
-border-right: 2px solid #dc2626;
-}
-.breaking-pulse-dot {
-width: 8px;
-height: 8px;
-border-radius: 50%;
-background: #dc2626;
-box-shadow: 0 0 8px #dc2626;
-animation: pulseDot 1.4s infinite ease-in-out;
-}
-@keyframes pulseDot {
-0%, 100% { transform: scale(0.9); opacity: 0.8; }
-50% { transform: scale(1.25); opacity: 1; }
-}
-.breaking-track-container {
-flex: 1;
-height: 100%;
-overflow: hidden;
-white-space: nowrap;
-position: relative;
-display: flex;
-align-items: center;
-}
-.ticker-news-group {
-display: inline-flex;
-align-items: center;
-gap: 2.5rem;
-padding-right: 2.5rem;
-flex-shrink: 0;
-}
-.breaking-animated-track {
-display: flex;
-align-items: center;
-width: max-content;
-will-change: transform;
-animation: marqueeNews 45s linear infinite;
-}
-.breaking-marquee-strip:hover .breaking-animated-track {
-animation-play-state: paused;
-}
-.breaking-link-item {
-color: #ffffff;
-text-decoration: none;
-font-size: 0.88rem;
-font-weight: 700;
-display: inline-flex;
-align-items: center;
-gap: 0.7rem;
-transition: opacity 0.15s ease;
-}
-.breaking-link-item:hover {
-opacity: 0.85;
-}
-.breaking-category-pill {
-background: #ffffff;
-color: #050505;
-font-size: 0.68rem;
-font-weight: 900;
-padding: 0.2rem 0.55rem;
-border-radius: 3px;
-text-transform: uppercase;
-letter-spacing: 0.05em;
-line-height: 1;
-flex-shrink: 0;
-}
-.breaking-dot-sep {
-color: rgba(255, 255, 255, 0.45);
-margin-left: 1.5rem;
-font-size: 1.1rem;
-}
-@keyframes marqueeNews {
-0% { transform: translateX(0); }
-100% { transform: translateX(-50%); }
-}
+    /* 1. TICKER ÚLTIMA HORA COMPACTO */
+    .breaking-marquee-strip {
+      background: #b91c1c;
+      color: #ffffff;
+      display: flex;
+      align-items: center;
+      height: 38px;
+      border-radius: 6px;
+      margin-bottom: 1.25rem;
+      overflow: hidden;
+      box-shadow: 0 4px 15px rgba(185, 28, 28, 0.2);
+      width: 100%;
+    }
+    .breaking-fixed-tag {
+      background: #050505;
+      height: 100%;
+      padding: 0 1.1rem;
+      display: flex;
+      align-items: center;
+      gap: 7px;
+      font-size: 0.72rem;
+      font-weight: 900;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      flex-shrink: 0;
+      z-index: 3;
+      border-right: 2px solid #dc2626;
+    }
+    .breaking-pulse-dot {
+      width: 7px;
+      height: 7px;
+      border-radius: 50%;
+      background: #dc2626;
+      box-shadow: 0 0 8px #dc2626;
+      animation: pulseDot 1.4s infinite ease-in-out;
+    }
+    @keyframes pulseDot {
+      0%, 100% { transform: scale(0.9); opacity: 0.8; }
+      50% { transform: scale(1.25); opacity: 1; }
+    }
+    .breaking-track-container {
+      flex: 1;
+      height: 100%;
+      overflow: hidden;
+      white-space: nowrap;
+      position: relative;
+      display: flex;
+      align-items: center;
+    }
+    .ticker-news-group {
+      display: inline-flex;
+      align-items: center;
+      gap: 2rem;
+      padding-right: 2rem;
+      flex-shrink: 0;
+    }
+    .breaking-animated-track {
+      display: flex;
+      align-items: center;
+      width: max-content;
+      will-change: transform;
+      animation: marqueeNews 50s linear infinite;
+    }
+    .breaking-marquee-strip:hover .breaking-animated-track {
+      animation-play-state: paused;
+    }
+    .breaking-link-item {
+      color: #ffffff;
+      text-decoration: none;
+      font-size: 0.84rem;
+      font-weight: 700;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.6rem;
+      transition: opacity 0.15s ease;
+    }
+    .breaking-link-item:hover { opacity: 0.85; }
+    .breaking-category-pill {
+      background: #ffffff;
+      color: #050505;
+      font-size: 0.65rem;
+      font-weight: 900;
+      padding: 0.15rem 0.45rem;
+      border-radius: 3px;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+      line-height: 1;
+      flex-shrink: 0;
+    }
+    .breaking-dot-sep {
+      color: rgba(255, 255, 255, 0.45);
+      margin-left: 1.2rem;
+      font-size: 0.95rem;
+    }
+    @keyframes marqueeNews {
+      0% { transform: translateX(0); }
+      100% { transform: translateX(-50%); }
+    }
 
-/* 2. BROADSHEET (Más compacta) */
-.broadsheet-layout {
-display: grid;
-grid-template-columns: 2.7fr 1.1fr;
-gap: 2.5rem;
-padding-bottom: 3.5rem;
-border-bottom: 2px solid #050505;
-margin-bottom: 3.5rem;
-width: 100%;
-}
-.lead-box {
-background: #ffffff;
-border: 1px solid #e2e8f0;
-border-radius: 8px;
-padding: 2rem;
-box-shadow: 0 8px 20px rgba(0,0,0,0.03);
-}
-.lead-cat {
-font-size: 0.74rem;
-font-weight: 900;
-color: #dc2626;
-text-transform: uppercase;
-letter-spacing: 0.1em;
-margin-bottom: 0.8rem;
-display: block;
-}
-.lead-title {
-font-size: clamp(1.8rem, 3vw, 2.6rem);
-line-height: 1.15;
-font-weight: 950;
-margin: 0 0 1.2rem;
-letter-spacing: -0.03em;
-color: #050505;
-}
-.lead-title a { color: inherit; text-decoration: none; }
-.lead-title a:hover { color: #dc2626; }
-.lead-media {
-margin-bottom: 1.2rem;
-border-radius: 6px;
-overflow: hidden;
-max-height: 460px;
-}
-.lead-media img {
-width: 100%;
-height: 100%;
-max-height: 460px;
-object-fit: cover;
-display: block;
-transition: transform 0.4s ease;
-}
-.lead-box:hover .lead-media img { transform: scale(1.02); }
-.lead-summary {
-font-size: 1.1rem;
-line-height: 1.6;
-color: #334155;
-margin: 0 0 1.2rem;
-}
-.lead-meta {
-font-size: 0.8rem;
-color: #64748b;
-font-weight: 700;
-border-top: 1px solid #f1f5f9;
-padding-top: 1rem;
-}
+    /* 2. BROADSHEET COMPACTA Y SIN HUECOS */
+    .broadsheet-layout {
+      display: grid;
+      grid-template-columns: 2.3fr 1.15fr;
+      gap: 1.5rem;
+      padding-bottom: 2rem;
+      border-bottom: 2px solid #050505;
+      margin-bottom: 2rem;
+      width: 100%;
+    }
 
-.radar-box {
-display: flex;
-flex-direction: column;
-gap: 1.4rem;
-}
-.radar-heading {
-font-size: 0.84rem;
-font-weight: 900;
-text-transform: uppercase;
-letter-spacing: 0.1em;
-border-bottom: 2px solid #050505;
-padding-bottom: 0.5rem;
-margin: 0;
-color: #050505;
-}
-.radar-card {
-background: #ffffff;
-border: 1px solid #e2e8f0;
-border-radius: 8px;
-overflow: hidden;
-padding: 1rem;
-transition: transform 0.2s ease, box-shadow 0.2s ease;
-}
-.radar-card:hover {
-transform: translateY(-3px);
-box-shadow: 0 8px 16px -4px rgba(0,0,0,0.06);
-}
-.radar-img {
-width: 100%;
-height: 140px;
-object-fit: cover;
-border-radius: 6px;
-margin-bottom: 0.6rem;
-}
-.radar-cat {
-font-size: 0.68rem;
-font-weight: 900;
-color: #dc2626;
-text-transform: uppercase;
-margin-bottom: 0.3rem;
-}
-.radar-title {
-font-size: 1rem;
-line-height: 1.35;
-font-weight: 800;
-margin: 0 0 0.4rem;
-}
-.radar-title a { color: #050505; text-decoration: none; }
-.radar-title a:hover { color: #dc2626; }
-.radar-desc {
-font-size: 0.82rem;
-color: #64748b;
-line-height: 1.45;
-margin: 0;
-display: -webkit-box;
--webkit-line-clamp: 2;
--webkit-box-orient: vertical;
-overflow: hidden;
-}
+    .lead-column-stack {
+      display: flex;
+      flex-direction: column;
+      gap: 1.25rem;
+    }
 
-/* 3. SECCIONES PANORÁMICAS COMPACTADAS */
-.category-section-wrap {
-margin-bottom: 4rem;
-width: 100%;
-}
-.section-bar {
-display: flex;
-justify-content: space-between;
-align-items: center;
-border-bottom: 2px solid #050505;
-padding-bottom: 0.8rem;
-margin-bottom: 2rem;
-position: relative;
-}
-.section-name {
-font-size: 1.55rem;
-font-weight: 950;
-letter-spacing: -0.02em;
-color: #050505;
-margin: 0;
-display: flex;
-align-items: center;
-gap: 0.6rem;
-}
-.section-link {
-font-size: 0.78rem;
-font-weight: 850;
-text-transform: uppercase;
-letter-spacing: 0.08em;
-color: #050505;
-text-decoration: none;
-padding: 0.35rem 0.9rem;
-border-radius: 20px;
-border: 1px solid #cbd5e1;
-background: #ffffff;
-transition: all 0.2s ease;
-}
-.section-link:hover {
-color: #ffffff;
-background: #050505;
-border-color: #050505;
-transform: translateX(3px);
-}
-.articles-grid {
-display: grid;
-/* Reducido a 260px para acomodar más artículos por fila */
-grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
-gap: 2rem;
-width: 100%;
-}
-.article-card {
-background: #ffffff;
-border: 1px solid #e2e8f0;
-border-radius: 8px;
-overflow: hidden;
-display: flex;
-flex-direction: column;
-justify-content: space-between;
-transition: transform 0.25s ease, box-shadow 0.25s ease;
-}
-.article-card:hover {
-transform: translateY(-4px);
-box-shadow: 0 12px 24px -6px rgba(0, 0, 0, 0.08);
-}
-.article-img-wrap {
-width: 100%;
-height: 160px; /* Reducido para ahorrar espacio */
-overflow: hidden;
-}
-.article-img {
-width: 100%;
-height: 100%;
-object-fit: cover;
-display: block;
-transition: transform 0.4s ease;
-}
-.article-card:hover .article-img { transform: scale(1.04); }
-.article-body {
-padding: 1.2rem;
-display: flex;
-flex-direction: column;
-flex: 1;
-justify-content: space-between;
-}
-.article-title {
-font-size: 1.1rem;
-line-height: 1.35;
-font-weight: 850;
-letter-spacing: -0.02em;
-margin: 0 0 0.6rem;
-color: #050505;
-}
-.article-title a { color: inherit; text-decoration: none; }
-.article-title a:hover { color: #dc2626; }
-.article-desc {
-font-size: 0.88rem;
-color: #475569;
-line-height: 1.5;
-margin-bottom: 1.2rem;
-display: -webkit-box;
--webkit-line-clamp: 3;
--webkit-box-orient: vertical;
-overflow: hidden;
-}
-.article-date {
-font-size: 0.74rem;
-color: #94a3b8;
-font-weight: 700;
-border-top: 1px solid #f8fafc;
-padding-top: 0.6rem;
-}
+    .lead-box {
+      background: #ffffff;
+      border: 1px solid #e2e8f0;
+      border-radius: 8px;
+      padding: 1.25rem;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.03);
+    }
+    .lead-cat {
+      font-size: 0.72rem;
+      font-weight: 900;
+      color: #dc2626;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      margin-bottom: 0.5rem;
+      display: block;
+    }
+    .lead-title {
+      font-size: clamp(1.4rem, 2.2vw, 2.05rem);
+      line-height: 1.18;
+      font-weight: 950;
+      margin: 0 0 0.8rem;
+      letter-spacing: -0.025em;
+      color: #050505;
+    }
+    .lead-title a { color: inherit; text-decoration: none; }
+    .lead-title a:hover { color: #dc2626; }
+    .lead-media {
+      margin-bottom: 0.9rem;
+      border-radius: 6px;
+      overflow: hidden;
+      max-height: 310px;
+      background: #f1f5f9;
+    }
+    .lead-media img {
+      width: 100%;
+      height: 100%;
+      max-height: 310px;
+      object-fit: cover;
+      display: block;
+      transition: transform 0.3s ease;
+    }
+    .lead-box:hover .lead-media img { transform: scale(1.02); }
+    .lead-summary {
+      font-size: 0.96rem;
+      line-height: 1.55;
+      color: #334155;
+      margin: 0 0 0.8rem;
+    }
+    .lead-meta {
+      font-size: 0.76rem;
+      color: #64748b;
+      font-weight: 700;
+      border-top: 1px solid #f1f5f9;
+      padding-top: 0.6rem;
+    }
 
-@media (max-width: 1024px) {
-.broadsheet-layout { grid-template-columns: 1fr; gap: 2rem; }
-}
-            /* ANIMACION DE MATERIALIZACION ESCALONADA (Portada) */
-            main > * {
-                animation: materialize 0.9s cubic-bezier(0.16, 1, 0.3, 1) both;
-                will-change: transform, opacity, filter;
-            }
-            main > *:nth-child(1) { animation-delay: 0.1s; }
-            main > *:nth-child(2) { animation-delay: 0.25s; }
-            main > *:nth-child(3) { animation-delay: 0.4s; }
-            main > *:nth-child(4) { animation-delay: 0.55s; }
-            main > *:nth-child(5) { animation-delay: 0.7s; }
-            main > *:nth-child(6) { animation-delay: 0.85s; }
+    /* CAROUSEL DINÁMICO HORIZONTAL (LLENA EL HUECO Y ROTAN NOTICIAS) */
+    .interactive-carousel-wrapper {
+      background: #ffffff;
+      border: 1px solid #e2e8f0;
+      border-radius: 8px;
+      padding: 1.1rem 1.25rem;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.03);
+    }
+    .carousel-header-bar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 0.85rem;
+      border-bottom: 1px solid #e2e8f0;
+      padding-bottom: 0.5rem;
+    }
+    .carousel-title-group {
+      display: flex;
+      align-items: center;
+      gap: 0.6rem;
+    }
+    .carousel-badge-pulse {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: #dc2626;
+      box-shadow: 0 0 6px #dc2626;
+      animation: pulseDot 1.2s infinite ease-in-out;
+    }
+    .carousel-title {
+      font-size: 0.8rem;
+      font-weight: 900;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      margin: 0;
+      color: #050505;
+    }
+    .carousel-controls {
+      display: flex;
+      gap: 0.4rem;
+    }
+    .carousel-nav-btn {
+      background: #f1f5f9;
+      border: 1px solid #cbd5e1;
+      width: 28px;
+      height: 28px;
+      border-radius: 4px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.1rem;
+      font-weight: 900;
+      color: #334155;
+      cursor: pointer;
+      transition: all 0.15s ease;
+      line-height: 1;
+    }
+    .carousel-nav-btn:hover {
+      background: #050505;
+      color: #ffffff;
+      border-color: #050505;
+    }
+    .carousel-track-container {
+      display: flex;
+      gap: 0.9rem;
+      overflow-x: auto;
+      scroll-snap-type: x mandatory;
+      scrollbar-width: thin;
+      padding-bottom: 0.4rem;
+      scroll-behavior: smooth;
+    }
+    .carousel-track-container::-webkit-scrollbar {
+      height: 4px;
+    }
+    .carousel-track-container::-webkit-scrollbar-thumb {
+      background: #cbd5e1;
+      border-radius: 4px;
+    }
+    .carousel-card {
+      flex: 0 0 240px;
+      scroll-snap-align: start;
+      background: #f8fafc;
+      border: 1px solid #e2e8f0;
+      border-radius: 6px;
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      text-decoration: none;
+      color: inherit;
+      transition: all 0.2s ease;
+    }
+    .carousel-card:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 6px 14px rgba(0,0,0,0.06);
+      border-color: #050505;
+    }
+    .carousel-img-wrap {
+      width: 100%;
+      height: 110px;
+      overflow: hidden;
+      background: #e2e8f0;
+    }
+    .carousel-img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+      transition: transform 0.3s ease;
+    }
+    .carousel-card:hover .carousel-img {
+      transform: scale(1.04);
+    }
+    .carousel-body {
+      padding: 0.7rem;
+      display: flex;
+      flex-direction: column;
+      flex: 1;
+      justify-content: space-between;
+    }
+    .carousel-meta-row {
+      display: flex;
+      align-items: center;
+      gap: 0.4rem;
+      font-size: 0.65rem;
+      font-weight: 850;
+      text-transform: uppercase;
+      margin-bottom: 0.35rem;
+    }
+    .carousel-cat-badge {
+      padding: 0.15rem 0.4rem;
+      border-radius: 3px;
+      color: #ffffff;
+      font-size: 0.62rem;
+      line-height: 1;
+    }
+    .carousel-item-title {
+      font-size: 0.85rem;
+      font-weight: 850;
+      line-height: 1.3;
+      margin: 0 0 0.4rem;
+      color: #050505;
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+    }
+    .carousel-item-desc {
+      font-size: 0.74rem;
+      color: #64748b;
+      line-height: 1.35;
+      margin: 0;
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+    }
 
-            @keyframes materialize {
-                0% { opacity: 0; transform: translateY(25px) scale(0.98); filter: blur(5px); }
-                100% { opacity: 1; transform: translateY(0) scale(1); filter: blur(0); }
-            }
-</style>
+    /* IN-FEED AD SLOT EN LA COLUMNA PRINCIPAL */
+    .lead-inline-ad {
+      background: #ffffff;
+      border: 1px dashed #cbd5e1;
+      border-radius: 8px;
+      padding: 0.75rem;
+      text-align: center;
+    }
+
+    /* RADAR DE COBERTURA LATERAL */
+    .radar-box {
+      display: flex;
+      flex-direction: column;
+      gap: 0.75rem;
+    }
+    .radar-heading {
+      font-size: 0.8rem;
+      font-weight: 900;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      border-bottom: 2px solid #050505;
+      padding-bottom: 0.4rem;
+      margin: 0;
+      color: #050505;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .radar-card {
+      background: #ffffff;
+      border: 1px solid #e2e8f0;
+      border-radius: 6px;
+      overflow: hidden;
+      padding: 0.75rem;
+      transition: transform 0.15s ease, box-shadow 0.15s ease;
+    }
+    .radar-card:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 6px 14px rgba(0,0,0,0.06);
+    }
+    .radar-img {
+      width: 100%;
+      height: 95px;
+      object-fit: cover;
+      border-radius: 4px;
+      margin-bottom: 0.45rem;
+      background: #f1f5f9;
+    }
+    .radar-cat {
+      font-size: 0.65rem;
+      font-weight: 900;
+      color: #dc2626;
+      text-transform: uppercase;
+      margin-bottom: 0.2rem;
+    }
+    .radar-title {
+      font-size: 0.88rem;
+      line-height: 1.3;
+      font-weight: 800;
+      margin: 0 0 0.3rem;
+    }
+    .radar-title a { color: #050505; text-decoration: none; }
+    .radar-title a:hover { color: #dc2626; }
+    .radar-desc {
+      font-size: 0.76rem;
+      color: #64748b;
+      line-height: 1.38;
+      margin: 0;
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+    }
+
+    /* BLOQUE DE ANUNCIO EN RADAR */
+    .radar-ad-card {
+      background: #ffffff;
+      border: 1px solid #e2e8f0;
+      border-radius: 6px;
+      padding: 0.75rem;
+      text-align: center;
+    }
+    .ad-label-pill {
+      display: block;
+      font-size: 0.62rem;
+      font-weight: 800;
+      text-transform: uppercase;
+      color: #94a3b8;
+      letter-spacing: 0.08em;
+      margin-bottom: 0.4rem;
+    }
+
+    /* 3. BANNER HORIZONTAL PUBLICITARIO LEADERBOARD */
+    .institutional-ad-strip {
+      background: #ffffff;
+      border: 1px solid #e2e8f0;
+      border-radius: 8px;
+      padding: 0.9rem 1.2rem;
+      margin: 0 0 2rem;
+      text-align: center;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.02);
+    }
+    .ad-placement-inner {
+      min-height: 90px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    /* 4. SECCIONES PANORÁMICAS COMPACTAS CON REACCIÓN DE COLOR AL CURSOR */
+    .category-section-wrap {
+      margin-bottom: 2.5rem;
+      width: 100%;
+    }
+    .section-bar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 2px solid #050505;
+      padding-bottom: 0.6rem;
+      margin-bottom: 1.4rem;
+      position: relative;
+    }
+    .section-name {
+      font-size: 1.35rem;
+      font-weight: 950;
+      letter-spacing: -0.02em;
+      color: #050505;
+      margin: 0;
+      display: flex;
+      align-items: center;
+      gap: 0.6rem;
+    }
+    .section-link {
+      font-size: 0.74rem;
+      font-weight: 850;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      color: #050505;
+      text-decoration: none;
+      padding: 0.3rem 0.8rem;
+      border-radius: 16px;
+      border: 1px solid #cbd5e1;
+      background: #ffffff;
+      transition: all 0.2s ease;
+    }
+
+    /* Reacciones de Color al Cursor por Sección */
+    .section-geo .section-name { border-left: 4px solid #dc2626; padding-left: 0.7rem; }
+    .section-geo .section-link:hover { background: #dc2626; border-color: #dc2626; color: #ffffff; transform: translateX(3px); }
+    .section-geo .article-card:hover { border-color: #dc2626; box-shadow: 0 10px 22px rgba(220, 38, 38, 0.08); }
+    .section-geo .article-card:hover .article-title a { color: #dc2626; }
+
+    .section-econ .section-name { border-left: 4px solid #059669; padding-left: 0.7rem; }
+    .section-econ .section-link:hover { background: #059669; border-color: #059669; color: #ffffff; transform: translateX(3px); }
+    .section-econ .article-card:hover { border-color: #059669; box-shadow: 0 10px 22px rgba(5, 150, 105, 0.08); }
+    .section-econ .article-card:hover .article-title a { color: #059669; }
+
+    .section-tech .section-name { border-left: 4px solid #2563eb; padding-left: 0.7rem; }
+    .section-tech .section-link:hover { background: #2563eb; border-color: #2563eb; color: #ffffff; transform: translateX(3px); }
+    .section-tech .article-card:hover { border-color: #2563eb; box-shadow: 0 10px 22px rgba(37, 99, 235, 0.08); }
+    .section-tech .article-card:hover .article-title a { color: #2563eb; }
+
+    .section-sci .section-name { border-left: 4px solid #06b6d4; padding-left: 0.7rem; }
+    .section-sci .section-link:hover { background: #06b6d4; border-color: #06b6d4; color: #ffffff; transform: translateX(3px); }
+    .section-sci .article-card:hover { border-color: #06b6d4; box-shadow: 0 10px 22px rgba(6, 182, 212, 0.08); }
+    .section-sci .article-card:hover .article-title a { color: #06b6d4; }
+
+    .section-trend .section-name { border-left: 4px solid #ec4899; padding-left: 0.7rem; }
+    .section-trend .section-link:hover { background: #ec4899; border-color: #ec4899; color: #ffffff; transform: translateX(3px); }
+    .section-trend .article-card:hover { border-color: #ec4899; box-shadow: 0 10px 22px rgba(236, 72, 153, 0.08); }
+    .section-trend .article-card:hover .article-title a { color: #ec4899; }
+
+    .articles-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+      gap: 1.25rem;
+      width: 100%;
+    }
+    .article-card {
+      background: #ffffff;
+      border: 1px solid #e2e8f0;
+      border-radius: 8px;
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+    }
+    .article-card:hover {
+      transform: translateY(-3px);
+    }
+    .article-img-wrap {
+      width: 100%;
+      height: 135px;
+      overflow: hidden;
+      background: #f1f5f9;
+    }
+    .article-img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+      transition: transform 0.35s ease;
+    }
+    .article-card:hover .article-img { transform: scale(1.04); }
+    .article-body {
+      padding: 0.95rem;
+      display: flex;
+      flex-direction: column;
+      flex: 1;
+      justify-content: space-between;
+    }
+    .article-title {
+      font-size: 0.96rem;
+      line-height: 1.35;
+      font-weight: 850;
+      letter-spacing: -0.015em;
+      margin: 0 0 0.5rem;
+      color: #050505;
+    }
+    .article-title a { color: inherit; text-decoration: none; }
+    .article-desc {
+      font-size: 0.8rem;
+      color: #475569;
+      line-height: 1.45;
+      margin-bottom: 0.8rem;
+      display: -webkit-box;
+      -webkit-line-clamp: 3;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+    }
+    .article-date {
+      font-size: 0.72rem;
+      color: #94a3b8;
+      font-weight: 700;
+      border-top: 1px solid #f8fafc;
+      padding-top: 0.5rem;
+    }
+
+    /* 5. SECCIÓN INSTITUCIONAL DE APOYO Y DONACIONES DIRECTO PAYPAL */
+    .donor-support-strip {
+      background: linear-gradient(135deg, #050505 0%, #1e1b4b 100%);
+      color: #ffffff;
+      border-radius: 10px;
+      padding: 2rem 2.5rem;
+      margin: 2.5rem 0 3rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 1.5rem;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+      border: 1px solid #312e81;
+    }
+    .donor-content {
+      max-width: 650px;
+    }
+    .donor-badge {
+      font-size: 0.68rem;
+      font-weight: 900;
+      letter-spacing: 0.12em;
+      color: #f87171;
+      text-transform: uppercase;
+      margin-bottom: 0.35rem;
+    }
+    .donor-content h3 {
+      font-size: 1.4rem;
+      font-weight: 900;
+      margin: 0 0 0.5rem;
+      color: #ffffff;
+    }
+    .donor-content p {
+      font-size: 0.88rem;
+      line-height: 1.55;
+      color: #cbd5e1;
+      margin: 0;
+    }
+    .donor-action {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 0.4rem;
+    }
+    .donor-paypal-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: #0070ba;
+      color: #ffffff;
+      text-decoration: none;
+      padding: 0.75rem 1.6rem;
+      border-radius: 30px;
+      font-weight: 850;
+      font-size: 0.95rem;
+      transition: all 0.2s ease;
+      box-shadow: 0 4px 15px rgba(0, 112, 186, 0.4);
+    }
+    .donor-paypal-btn:hover {
+      background: #005ea6;
+      transform: translateY(-2px);
+      box-shadow: 0 6px 20px rgba(0, 112, 186, 0.6);
+    }
+    .donor-email-note {
+      font-size: 0.72rem;
+      color: #94a3b8;
+    }
+
+    @media (max-width: 1024px) {
+      .broadsheet-layout { grid-template-columns: 1fr; gap: 1.5rem; }
+      .donor-support-strip { flex-direction: column; text-align: center; }
+    }
+  </style>
 </head>
 <body>
 <Header />
 
 <main>
-<!-- Ticker Última Hora Centrado Continuo y Autodesplazable -->
-{breakingList.length > 0 && (
-<div class="breaking-marquee-strip">
-<div class="breaking-fixed-tag">
-<span class="breaking-pulse-dot"></span>
-<span>EN DIRECTO</span>
-</div>
-<div class="breaking-track-container">
-<div class="breaking-animated-track" id="breaking-track">
-<div class="ticker-news-group">
-{breakingList.map((item) => (
-  <a href={item.url} class="breaking-link-item">
-    <span class="breaking-category-pill">{item.category}</span>
-    <span class="breaking-text-title">{item.title}</span>
-    <span class="breaking-dot-sep">•</span>
-  </a>
-))}
-</div>
-<div class="ticker-news-group" aria-hidden="true">
-{breakingList.map((item) => (
-  <a href={item.url} class="breaking-link-item">
-    <span class="breaking-category-pill">{item.category}</span>
-    <span class="breaking-text-title">{item.title}</span>
-    <span class="breaking-dot-sep">•</span>
-  </a>
-))}
-</div>
-</div>
-</div>
-</div>
-)}
+  <!-- 1. Ticker Última Hora Centrado Continuo y Autodesplazable -->
+  {breakingList.length > 0 && (
+    <div class="breaking-marquee-strip">
+      <div class="breaking-fixed-tag">
+        <span class="breaking-pulse-dot"></span>
+        <span>EN DIRECTO</span>
+      </div>
+      <div class="breaking-track-container">
+        <div class="breaking-animated-track" id="breaking-track">
+          <div class="ticker-news-group">
+            {breakingList.map((item) => (
+              <a href={item.url} class="breaking-link-item">
+                <span class="breaking-category-pill">{item.category}</span>
+                <span class="breaking-text-title">{item.title}</span>
+                <span class="breaking-dot-sep">•</span>
+              </a>
+            ))}
+          </div>
+          <div class="ticker-news-group" aria-hidden="true">
+            {breakingList.map((item) => (
+              <a href={item.url} class="breaking-link-item">
+                <span class="breaking-category-pill">{item.category}</span>
+                <span class="breaking-text-title">{item.title}</span>
+                <span class="breaking-dot-sep">•</span>
+              </a>
+            ))}
+          </div>
+        </div>
+      </div>
+    </div>
+  )}
 
-<!-- (Pilares eliminados para despejar la vista) -->
+  <!-- 2. Portada Principal Broadsheet (Sin huecos, densa y balanceada) -->
+  {leadStory && (
+    <div class="broadsheet-layout">
+      <!-- Columna Principal: Portada Central + Carrusel de Rotación Dinámica + Ad In-Feed -->
+      <div class="lead-column-stack">
+        <section class="lead-box">
+          <span class="lead-cat">{leadStory.data.category || 'Análisis Especial'}</span>
+          <h2 class="lead-title">
+            <a href={`/blog/${leadStory.slug ?? leadStory.id}/`}>{leadStory.data.title}</a>
+          </h2>
+          {leadStory.data.heroImage && (
+            <div class="lead-media">
+              <img src={leadStory.data.heroImage} alt={leadStory.data.title} loading="eager" />
+            </div>
+          )}
+          <p class="lead-summary">{leadStory.data.description}</p>
+          <div class="lead-meta">
+            Por {leadStory.data.author || 'Redacción News Internacional TEP'} • {leadStory.data.pubDate.toLocaleDateString('es-MX', { year: 'numeric', month: 'long', day: 'numeric' })}
+          </div>
+        </section>
 
-<!-- Portada Principal Broadsheet -->
-{leadStory && (
-<div class="broadsheet-layout">
-<section class="lead-box">
-<span class="lead-cat">{leadStory.data.category || 'Análisis Especial'}</span>
-<h2 class="lead-title">
-<a href={`/blog/${leadStory.slug ?? leadStory.id}/`}>{leadStory.data.title}</a>
-</h2>
-{leadStory.data.heroImage && (
-<div class="lead-media">
-<img src={leadStory.data.heroImage} alt={leadStory.data.title} />
-</div>
-)}
-<p class="lead-summary">{leadStory.data.description}</p>
-<div class="lead-meta">
-Por Redacción News Internacional TEP • {leadStory.data.pubDate.toLocaleDateString('es-MX', { year: 'numeric', month: 'long', day: 'numeric' })}
-</div>
-</section>
+        <!-- CARRUSEL INTERACTIVO DINÁMICO (Rotación automática y desplazamiento manual) -->
+        <div class="interactive-carousel-wrapper">
+          <div class="carousel-header-bar">
+            <div class="carousel-title-group">
+              <span class="carousel-badge-pulse"></span>
+              <h3 class="carousel-title">Publicaciones en Rotación Continua</h3>
+            </div>
+            <div class="carousel-controls">
+              <button id="carousel-prev" class="carousel-nav-btn" aria-label="Desplazar a la izquierda">‹</button>
+              <button id="carousel-next" class="carousel-nav-btn" aria-label="Desplazar a la derecha">›</button>
+            </div>
+          </div>
 
-<aside class="radar-box">
-<h3 class="radar-heading">RADAR DE COBERTURA</h3>
-{sideStories.map((post) => (
-<article class="radar-card">
-{post.data.heroImage && (
-<img src={post.data.heroImage} alt={post.data.title} class="radar-img" />
-)}
-<div class="radar-cat">{post.data.category || 'Global'}</div>
-<h4 class="radar-title">
-<a href={`/blog/${post.slug ?? post.id}/`}>{post.data.title}</a>
-</h4>
-<p class="radar-desc">{post.data.description}</p>
-</article>
-))}
-</aside>
-</div>
-)}
+          <div class="carousel-track-container" id="carousel-container">
+            {carouselStories.map((post) => {
+              const cat = post.data.category || 'Investigación';
+              const catColor = getCatColor(cat);
+              const postUrl = `/blog/${post.slug ?? post.id}/`;
+              return (
+                <a href={postUrl} class="carousel-card">
+                  {post.data.heroImage && (
+                    <div class="carousel-img-wrap">
+                      <img src={post.data.heroImage} alt={post.data.title} class="carousel-img" loading="lazy" />
+                    </div>
+                  )}
+                  <div class="carousel-body">
+                    <div>
+                      <div class="carousel-meta-row">
+                        <span class="carousel-cat-badge" style={`background-color: ${catColor};`}>{cat}</span>
+                        <span style="color: #94a3b8;">•</span>
+                        <span style="color: #64748b;">TEP Dossier</span>
+                      </div>
+                      <h4 class="carousel-item-title">{post.data.title}</h4>
+                      <p class="carousel-item-desc">{post.data.description}</p>
+                    </div>
+                  </div>
+                </a>
+              );
+            })}
+          </div>
+        </div>
 
-<!-- Cuadrículas por Sección Compactas -->
-{postsGeopolitica.length > 0 && (
-<section class="category-section-wrap">
-<div class="section-bar">
-<h3 class="section-name" style="border-left: 4px solid #dc2626; padding-left: 0.8rem;">Política & Orden Global</h3>
-<a href="/categoria/geopolitica" class="section-link">Ver sección completa ({postsGeopolitica.length}) →</a>
-</div>
-<div class="articles-grid">
-{postsGeopolitica.map((post) => (
-<article class="article-card">
-{post.data.heroImage && (
-<div class="article-img-wrap">
-<img src={post.data.heroImage} alt={post.data.title} class="article-img" loading="lazy" />
-</div>
-)}
-<div class="article-body">
-<div>
-<h4 class="article-title">
-<a href={`/blog/${post.slug ?? post.id}/`}>{post.data.title}</a>
-</h4>
-<p class="article-desc">{post.data.description}</p>
-</div>
-<div class="article-date">
-{post.data.pubDate.toLocaleDateString('es-MX', { month: 'short', day: 'numeric', year: 'numeric' })} • TEP Política
-</div>
-</div>
-</article>
-))}
-</div>
-</section>
-)}
+        <!-- ESPACIO PUBLICITARIO IN-FEED (GOOGLE ADSENSE) -->
+        <div class="lead-inline-ad">
+          <span class="ad-label-pill">Publicidad Patrocinada • Google AdSense</span>
+          <ins class="adsbygoogle"
+               style="display:block"
+               data-ad-client="ca-pub-3739732712037306"
+               data-ad-slot="1234567890"
+               data-ad-format="auto"
+               data-full-width-responsive="true"></ins>
+          <script is:inline>
+               (adsbygoogle = window.adsbygoogle || []).push({});
+          </script>
+        </div>
+      </div>
 
-{postsEconomia.length > 0 && (
-<section class="category-section-wrap">
-<div class="section-bar">
-<h3 class="section-name" style="border-left: 4px solid #059669; padding-left: 0.8rem;">Economía & Mercados</h3>
-<a href="/categoria/economia" class="section-link">Ver sección completa ({postsEconomia.length}) →</a>
-</div>
-<div class="articles-grid">
-{postsEconomia.map((post) => (
-<article class="article-card">
-{post.data.heroImage && (
-<div class="article-img-wrap">
-<img src={post.data.heroImage} alt={post.data.title} class="article-img" loading="lazy" />
-</div>
-)}
-<div class="article-body">
-<div>
-<h4 class="article-title">
-<a href={`/blog/${post.slug ?? post.id}/`}>{post.data.title}</a>
-</h4>
-<p class="article-desc">{post.data.description}</p>
-</div>
-<div class="article-date">
-{post.data.pubDate.toLocaleDateString('es-MX', { month: 'short', day: 'numeric', year: 'numeric' })} • TEP Mercados
-</div>
-</div>
-</article>
-))}
-</div>
-</section>
-)}
+      <!-- Columna Lateral: Radar de Cobertura + AdSense Rectángulo -->
+      <aside class="radar-box">
+        <h3 class="radar-heading">
+          <span>RADAR DE COBERTURA</span>
+          <span style="font-size: 0.65rem; color: #dc2626;">EN VIVO</span>
+        </h3>
+        
+        {sideStories.map((post) => (
+          <article class="radar-card">
+            {post.data.heroImage && (
+              <img src={post.data.heroImage} alt={post.data.title} class="radar-img" loading="lazy" />
+            )}
+            <div class="radar-cat">{post.data.category || 'Global'}</div>
+            <h4 class="radar-title">
+              <a href={`/blog/${post.slug ?? post.id}/`}>{post.data.title}</a>
+            </h4>
+            <p class="radar-desc">{post.data.description}</p>
+          </article>
+        ))}
 
-{postsTecnologia.length > 0 && (
-<section class="category-section-wrap">
-<div class="section-bar">
-<h3 class="section-name" style="border-left: 4px solid #2563eb; padding-left: 0.8rem;">Tecnología & IA</h3>
-<a href="/categoria/tecnologia" class="section-link">Ver sección completa ({postsTecnologia.length}) →</a>
-</div>
-<div class="articles-grid">
-{postsTecnologia.map((post) => (
-<article class="article-card">
-{post.data.heroImage && (
-<div class="article-img-wrap">
-<img src={post.data.heroImage} alt={post.data.title} class="article-img" loading="lazy" />
-</div>
-)}
-<div class="article-body">
-<div>
-<h4 class="article-title">
-<a href={`/blog/${post.slug ?? post.id}/`}>{post.data.title}</a>
-</h4>
-<p class="article-desc">{post.data.description}</p>
-</div>
-<div class="article-date">
-{post.data.pubDate.toLocaleDateString('es-MX', { month: 'short', day: 'numeric', year: 'numeric' })} • TEP Tecnología
-</div>
-</div>
-</article>
-))}
-</div>
-</section>
-)}
+        <!-- ANUNCIO LATERAL RECTANGULAR EN RADAR -->
+        <div class="radar-ad-card">
+          <span class="ad-label-pill">Anuncio de Red • ca-pub-3739732712037306</span>
+          <ins class="adsbygoogle"
+               style="display:block"
+               data-ad-client="ca-pub-3739732712037306"
+               data-ad-slot="9876543210"
+               data-ad-format="rectangle,auto"
+               data-full-width-responsive="true"></ins>
+          <script is:inline>
+               (adsbygoogle = window.adsbygoogle || []).push({});
+          </script>
+        </div>
+      </aside>
+    </div>
+  )}
+
+  <!-- 3. BANNER HORIZONTAL PUBLICITARIO LEADERBOARD -->
+  <div class="institutional-ad-strip">
+    <span class="ad-label-pill">ESPACIO PUBLICITARIO INSTITUCIONAL • PATROCINIO GLOBAL</span>
+    <div class="ad-placement-inner">
+      <ins class="adsbygoogle"
+           style="display:block"
+           data-ad-client="ca-pub-3739732712037306"
+           data-ad-slot="3344556677"
+           data-ad-format="horizontal"
+           data-full-width-responsive="true"></ins>
+      <script is:inline>
+           (adsbygoogle = window.adsbygoogle || []).push({});
+      </script>
+    </div>
+  </div>
+
+  <!-- 4. CUADRÍCULAS POR SECCIÓN (5 SECCIONES COMPLETAS CON EFECTOS DE CURSOR) -->
+  
+  <!-- SECCIÓN 1: POLÍTICA & ORDEN GLOBAL -->
+  {postsGeopolitica.length > 0 && (
+    <section class="category-section-wrap section-geo">
+      <div class="section-bar">
+        <h3 class="section-name">Política & Orden Global</h3>
+        <a href="/categoria/geopolitica" class="section-link">Ver sección completa ({postsGeopolitica.length}) →</a>
+      </div>
+      <div class="articles-grid">
+        {postsGeopolitica.slice(0, 4).map((post) => (
+          <article class="article-card">
+            {post.data.heroImage && (
+              <div class="article-img-wrap">
+                <img src={post.data.heroImage} alt={post.data.title} class="article-img" loading="lazy" />
+              </div>
+            )}
+            <div class="article-body">
+              <div>
+                <h4 class="article-title">
+                  <a href={`/blog/${post.slug ?? post.id}/`}>{post.data.title}</a>
+                </h4>
+                <p class="article-desc">{post.data.description}</p>
+              </div>
+              <div class="article-date">
+                {post.data.pubDate.toLocaleDateString('es-MX', { month: 'short', day: 'numeric', year: 'numeric' })} • TEP Política
+              </div>
+            </div>
+          </article>
+        ))}
+      </div>
+    </section>
+  )}
+
+  <!-- SECCIÓN 2: ECONOMÍA & MERCADOS -->
+  {postsEconomia.length > 0 && (
+    <section class="category-section-wrap section-econ">
+      <div class="section-bar">
+        <h3 class="section-name">Economía & Mercados Financieros</h3>
+        <a href="/categoria/economia" class="section-link">Ver sección completa ({postsEconomia.length}) →</a>
+      </div>
+      <div class="articles-grid">
+        {postsEconomia.slice(0, 4).map((post) => (
+          <article class="article-card">
+            {post.data.heroImage && (
+              <div class="article-img-wrap">
+                <img src={post.data.heroImage} alt={post.data.title} class="article-img" loading="lazy" />
+              </div>
+            )}
+            <div class="article-body">
+              <div>
+                <h4 class="article-title">
+                  <a href={`/blog/${post.slug ?? post.id}/`}>{post.data.title}</a>
+                </h4>
+                <p class="article-desc">{post.data.description}</p>
+              </div>
+              <div class="article-date">
+                {post.data.pubDate.toLocaleDateString('es-MX', { month: 'short', day: 'numeric', year: 'numeric' })} • TEP Mercados
+              </div>
+            </div>
+          </article>
+        ))}
+      </div>
+    </section>
+  )}
+
+  <!-- SECCIÓN 3: TECNOLOGÍA & IA -->
+  {postsTecnologia.length > 0 && (
+    <section class="category-section-wrap section-tech">
+      <div class="section-bar">
+        <h3 class="section-name">Tecnología & Inteligencia Artificial</h3>
+        <a href="/categoria/tecnologia" class="section-link">Ver sección completa ({postsTecnologia.length}) →</a>
+      </div>
+      <div class="articles-grid">
+        {postsTecnologia.slice(0, 4).map((post) => (
+          <article class="article-card">
+            {post.data.heroImage && (
+              <div class="article-img-wrap">
+                <img src={post.data.heroImage} alt={post.data.title} class="article-img" loading="lazy" />
+              </div>
+            )}
+            <div class="article-body">
+              <div>
+                <h4 class="article-title">
+                  <a href={`/blog/${post.slug ?? post.id}/`}>{post.data.title}</a>
+                </h4>
+                <p class="article-desc">{post.data.description}</p>
+              </div>
+              <div class="article-date">
+                {post.data.pubDate.toLocaleDateString('es-MX', { month: 'short', day: 'numeric', year: 'numeric' })} • TEP Tecnología
+              </div>
+            </div>
+          </article>
+        ))}
+      </div>
+    </section>
+  )}
+
+  <!-- SECCIÓN 4: CIENCIA & MEDICINA -->
+  {postsCiencia.length > 0 && (
+    <section class="category-section-wrap section-sci">
+      <div class="section-bar">
+        <h3 class="section-name">Ciencia & Medicina de Frontera</h3>
+        <a href="/categoria/ciencia" class="section-link">Ver sección completa ({postsCiencia.length}) →</a>
+      </div>
+      <div class="articles-grid">
+        {postsCiencia.slice(0, 4).map((post) => (
+          <article class="article-card">
+            {post.data.heroImage && (
+              <div class="article-img-wrap">
+                <img src={post.data.heroImage} alt={post.data.title} class="article-img" loading="lazy" />
+              </div>
+            )}
+            <div class="article-body">
+              <div>
+                <h4 class="article-title">
+                  <a href={`/blog/${post.slug ?? post.id}/`}>{post.data.title}</a>
+                </h4>
+                <p class="article-desc">{post.data.description}</p>
+              </div>
+              <div class="article-date">
+                {post.data.pubDate.toLocaleDateString('es-MX', { month: 'short', day: 'numeric', year: 'numeric' })} • TEP Ciencia
+              </div>
+            </div>
+          </article>
+        ))}
+      </div>
+    </section>
+  )}
+
+  <!-- SECCIÓN 5: REDES SOCIALES & NOTICIAS DE ALTO REVUELO -->
+  {postsTendencias.length > 0 && (
+    <section class="category-section-wrap section-trend">
+      <div class="section-bar">
+        <h3 class="section-name">Redes Sociales & Noticias de Alto Revuelo</h3>
+        <a href="/categoria/tendencias" class="section-link">Ver sección completa ({postsTendencias.length}) →</a>
+      </div>
+      <div class="articles-grid">
+        {postsTendencias.slice(0, 4).map((post) => (
+          <article class="article-card">
+            {post.data.heroImage && (
+              <div class="article-img-wrap">
+                <img src={post.data.heroImage} alt={post.data.title} class="article-img" loading="lazy" />
+              </div>
+            )}
+            <div class="article-body">
+              <div>
+                <h4 class="article-title">
+                  <a href={`/blog/${post.slug ?? post.id}/`}>{post.data.title}</a>
+                </h4>
+                <p class="article-desc">{post.data.description}</p>
+              </div>
+              <div class="article-date">
+                {post.data.pubDate.toLocaleDateString('es-MX', { month: 'short', day: 'numeric', year: 'numeric' })} • TEP Dinámica Digital
+              </div>
+            </div>
+          </article>
+        ))}
+      </div>
+    </section>
+  )}
+
+  <!-- 5. SECCIÓN INSTITUCIONAL DE APOYO Y DONACIONES DIRECTO PAYPAL -->
+  <section class="donor-support-strip">
+    <div class="donor-content">
+      <div class="donor-badge">INDEPENDENCIA ANALÍTICA & RIGOR EDITORIAL</div>
+      <h3>Impulsa el Archivo Libre de News Internacional TEP</h3>
+      <p>Nuestra redacción e infraestructura técnica operan sin subsidios corporativos ni censura partidista. Tu contribución directa a través de PayPal fortalece nuestros servidores de análisis, la ingesta continua de cables de datos y el acceso abierto a la inteligencia global.</p>
+    </div>
+    <div class="donor-action">
+      <a href="https://paypal.me/newsinternacional" target="_blank" rel="noopener noreferrer" class="donor-paypal-btn">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M7.076 21.337H2.47a.641.641 0 0 1-.633-.74L4.944 3.72a.784.784 0 0 1 .773-.654h6.708c3.085 0 5.378.673 6.46 2.054 1.01 1.288 1.136 3.03.364 5.318-.847 2.496-2.585 4.14-5.027 4.755a10.02 10.02 0 0 1-2.518.293H9.27a.936.936 0 0 0-.924.786l-.837 5.065h-.433z"/></svg>
+        <span>Donar con PayPal Oficial</span>
+      </a>
+      <span class="donor-email-note">Titular: andredateig@gmail.com</span>
+    </div>
+  </section>
 </main>
 
 <Footer />
 
+<!-- SCRIPT DE ROTACIÓN Y CONTROL DEL CARRUSEL -->
 <script is:inline>
-// Auto-rotación y refresco sutil cada 4 minutos para mantener siempre el feed en vivo
-setInterval(() => {
-  console.log('[TEP Stream] Sincronizando despachos en vivo...');
-}, 240000);
+document.addEventListener("DOMContentLoaded", () => {
+  const container = document.getElementById("carousel-container");
+  const prevBtn = document.getElementById("carousel-prev");
+  const nextBtn = document.getElementById("carousel-next");
+
+  if (container) {
+    let isHovered = false;
+    const cardStep = 260; // Ancho tarjeta + gap
+
+    if (prevBtn) {
+      prevBtn.addEventListener("click", () => {
+        container.scrollBy({ left: -cardStep, behavior: "smooth" });
+      });
+    }
+
+    if (nextBtn) {
+      nextBtn.addEventListener("click", () => {
+        container.scrollBy({ left: cardStep, behavior: "smooth" });
+      });
+    }
+
+    container.addEventListener("mouseenter", () => { isHovered = true; });
+    container.addEventListener("mouseleave", () => { isHovered = false; });
+    container.addEventListener("touchstart", () => { isHovered = true; }, { passive: true });
+    container.addEventListener("touchend", () => { isHovered = false; });
+
+    // Auto-rotación sutil cada 4.5 segundos si el usuario no está interactuando
+    setInterval(() => {
+      if (isHovered) return;
+      const maxScrollLeft = container.scrollWidth - container.clientWidth;
+      if (container.scrollLeft >= maxScrollLeft - 10) {
+        container.scrollTo({ left: 0, behavior: "smooth" });
+      } else {
+        container.scrollBy({ left: cardStep, behavior: "smooth" });
+      }
+    }, 4500);
+  }
+});
 </script>
 </body>
 </html>

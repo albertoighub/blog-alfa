@@ -158,7 +158,7 @@ NEWS INTERNACIONAL <span class="brand-badge-tep">TEP</span>
 <a href="/categoria/ciencia" class="nav-link nav-sci">Ciencia & Medicina</a>
 <a href="/categoria/tendencias" class="nav-link nav-trend">Redes & Revuelo</a>
 <a href="/about" class="nav-link">Nosotros</a>
-<a href="https://www.paypal.com/donate/?business=albertoigdeveloper@gmail.com&no_recurring=0&currency_code=USD" target="_blank" rel="noopener noreferrer" class="nav-link nav-donate" style="color: #dc2626; font-weight: 900;">♥ Apoyar</a>
+<a href="https://paypal.me/newsinternacional" target="_blank" rel="noopener noreferrer" class="nav-link nav-donate" style="color: #dc2626; font-weight: 900;">♥ Apoyar</a>
 </div>
 </nav>
 
@@ -186,6 +186,8 @@ NEWS INTERNACIONAL <span class="brand-badge-tep">TEP</span>
 <option value="geopolitica">Política & Orden Global</option>
 <option value="economia">Economía & Mercados</option>
 <option value="tecnologia">Tecnología & IA</option>
+<option value="ciencia">Ciencia & Medicina</option>
+<option value="tendencias">Redes Sociales & Revuelo</option>
 </select>
 </div>
 
@@ -221,6 +223,77 @@ NEWS INTERNACIONAL <span class="brand-badge-tep">TEP</span>
 </div>
 
 <style>
+        /* RESULTADOS DINÁMICOS DE BÚSQUEDA (GLOBAL) */
+        :global(.results-container) {
+            display: flex !important;
+            flex-direction: column !important;
+            gap: 0.9rem !important;
+        }
+        :global(.result-item-card) {
+            display: grid !important;
+            grid-template-columns: 140px 1fr !important;
+            align-items: center !important;
+            gap: 1.2rem !important;
+            padding: 0.85rem !important;
+            border-radius: 8px !important;
+            border: 1px solid #e2e8f0 !important;
+            background: #ffffff !important;
+            text-decoration: none !important;
+            color: inherit !important;
+            transition: all 0.2s ease !important;
+        }
+        :global(.result-item-card:hover) {
+            border-color: #050505 !important;
+            background: #f8fafc !important;
+            transform: translateX(4px) !important;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.05) !important;
+        }
+        :global(.result-thumb) {
+            width: 140px !important;
+            height: 85px !important;
+            max-width: 140px !important;
+            max-height: 85px !important;
+            object-fit: cover !important;
+            border-radius: 6px !important;
+            flex-shrink: 0 !important;
+            border: 1px solid #e2e8f0 !important;
+            display: block !important;
+        }
+        :global(.result-details) {
+            display: flex !important;
+            flex-direction: column !important;
+            justify-content: center !important;
+            min-width: 0 !important;
+        }
+        :global(.result-meta-row) {
+            display: flex !important;
+            align-items: center !important;
+            gap: 0.6rem !important;
+            font-size: 0.7rem !important;
+            font-weight: 800 !important;
+            text-transform: uppercase !important;
+            margin-bottom: 0.3rem !important;
+            color: #94a3b8 !important;
+        }
+        :global(.result-title) {
+            font-size: 0.96rem !important;
+            font-weight: 850 !important;
+            margin: 0 0 0.35rem 0 !important;
+            color: #050505 !important;
+            line-height: 1.3 !important;
+            white-space: normal !important;
+        }
+        :global(.result-snippet) {
+            font-size: 0.82rem !important;
+            color: #64748b !important;
+            margin: 0 !important;
+            line-height: 1.45 !important;
+            display: -webkit-box !important;
+            -webkit-line-clamp: 2 !important;
+            -webkit-box-orient: vertical !important;
+            overflow: hidden !important;
+        }
+
         /* RESET GLOBAL FULL-WIDTH */
         :global(body), :global(html) {
             margin: 0 !important;
@@ -594,6 +667,9 @@ border-bottom-color: #dc2626;
 .nav-link.nav-tech:hover { color: #2563eb; border-bottom-color: #2563eb; }
 .nav-link.nav-econ:hover { color: #059669; border-bottom-color: #059669; }
 .nav-link.nav-geo:hover  { color: #dc2626; border-bottom-color: #dc2626; }
+.nav-link.nav-sci:hover  { color: #06b6d4; border-bottom-color: #06b6d4; }
+.nav-link.nav-trend:hover{ color: #ec4899; border-bottom-color: #ec4899; }
+.nav-link.nav-donate:hover{ color: #ef4444; border-bottom-color: #ef4444; }
 
 /* MODAL DE BÚSQUEDA AVANZADA */
 .search-backdrop {
@@ -856,6 +932,8 @@ const itemCat = item.category.toLowerCase();
 if (catFilter === 'geopolitica' && !itemCat.includes('polít') && !itemCat.includes('polit') && !itemCat.includes('geopol')) return false;
 if (catFilter === 'economia' && !itemCat.includes('econ') && !itemCat.includes('mercad') && !itemCat.includes('finan')) return false;
 if (catFilter === 'tecnologia' && !itemCat.includes('tecn') && !itemCat.includes('ia') && !itemCat.includes('intel')) return false;
+if (catFilter === 'ciencia' && !itemCat.includes('cien') && !itemCat.includes('med') && !itemCat.includes('salud') && !itemCat.includes('biotec')) return false;
+if (catFilter === 'tendencias' && !itemCat.includes('tend') && !itemCat.includes('red') && !itemCat.includes('viral') && !itemCat.includes('revuel')) return false;
 }
 // Filtro de fecha exacta por día, mes y año
 if (dateSpecific) {
@@ -886,25 +964,31 @@ return;
 container.innerHTML = items.map((post) => {
 const catLower = post.category.toLowerCase();
 let catClass = 'badge-cat-geo';
-if (catLower.includes('econ') || catLower.includes('mercad')) catClass = 'badge-cat-econ';
-if (catLower.includes('tecn') || catLower.includes('ia')) catClass = 'badge-cat-tech';
+let catColor = '#dc2626';
+if (catLower.includes('econ') || catLower.includes('mercad')) { catClass = 'badge-cat-econ'; catColor = '#059669'; }
+else if (catLower.includes('tecn') || catLower.includes('ia')) { catClass = 'badge-cat-tech'; catColor = '#2563eb'; }
+else if (catLower.includes('cien') || catLower.includes('med') || catLower.includes('salud') || catLower.includes('biotec')) { catClass = 'badge-cat-sci'; catColor = '#06b6d4'; }
+else if (catLower.includes('tend') || catLower.includes('red') || catLower.includes('viral') || catLower.includes('revuel')) { catClass = 'badge-cat-trend'; catColor = '#ec4899'; }
 
 // Formatear la fecha en el resultado
 const postDate = new Date(post.pubDate + 'T12:00:00Z');
 const displayDate = postDate.toLocaleDateString('es-MX', { day: 'numeric', month: 'short', year: 'numeric' });
+const imgUrl = post.heroImage || '/og-image.jpg';
 
 return `
-<a href="${post.url}" class="result-item-card">
-${post.heroImage ? `<img src="${post.heroImage}" alt="${post.title}" class="result-thumb" loading="lazy" />` : ''}
-<div class="result-details">
-<div class="result-meta-row">
-<span class="${catClass}">${post.category}</span>
-<span>•</span>
-<span>${displayDate}</span>
-</div>
-<h4 class="result-title">${post.title}</h4>
-<p class="result-snippet">${post.description}</p>
-</div>
+<a href="${post.url}" class="result-item-card" style="display:grid !important; grid-template-columns:130px 1fr !important; align-items:center !important; gap:1.1rem !important; padding:0.85rem !important; border-radius:8px !important; border:1px solid #e2e8f0 !important; background:#ffffff !important; text-decoration:none !important; color:inherit !important; transition:all 0.2s ease !important; margin-bottom:0.75rem !important;">
+  <div style="width:130px !important; height:85px !important; min-width:130px !important; max-width:130px !important; max-height:85px !important; border-radius:6px !important; overflow:hidden !important; flex-shrink:0 !important; background:#f1f5f9 !important;">
+    <img src="${imgUrl}" alt="${post.title}" class="result-thumb" style="width:100% !important; height:100% !important; max-width:130px !important; max-height:85px !important; object-fit:cover !important; display:block !important;" loading="lazy" onerror="this.src='/og-image.jpg'" />
+  </div>
+  <div class="result-details" style="display:flex !important; flex-direction:column !important; justify-content:center !important; min-width:0 !important; overflow:hidden !important;">
+    <div class="result-meta-row" style="display:flex !important; align-items:center !important; gap:0.5rem !important; font-size:0.7rem !important; font-weight:850 !important; text-transform:uppercase !important; margin-bottom:0.25rem !important; color:#94a3b8 !important;">
+      <span class="${catClass}" style="color:${catColor} !important; font-weight:900 !important;">${post.category}</span>
+      <span>•</span>
+      <span>${displayDate}</span>
+    </div>
+    <h4 class="result-title" style="font-size:0.95rem !important; font-weight:850 !important; margin:0 0 0.35rem 0 !important; color:#050505 !important; line-height:1.3 !important; white-space:normal !important;">${post.title}</h4>
+    <p class="result-snippet" style="font-size:0.82rem !important; color:#64748b !important; margin:0 !important; line-height:1.45 !important; display:-webkit-box !important; -webkit-line-clamp:2 !important; -webkit-box-orient:vertical !important; overflow:hidden !important;">${post.description}</p>
+  </div>
 </a>
 `;
 }).join('');
