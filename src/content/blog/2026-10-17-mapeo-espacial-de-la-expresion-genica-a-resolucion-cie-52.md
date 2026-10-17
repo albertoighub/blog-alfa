@@ -5,7 +5,7 @@ pubDate: "2026-10-17"
 category: "Ciencia"
 tags: ["Biomedicina", "Investigaci\u00f3n Cl\u00ednica", "Mecanismos Moleculares", "Salud P\u00fablica", "Biotecnolog\u00eda"]
 author: "Comité Analítico TEP & Prospectiva"
-heroImage: "https://image.pollinations.ai/prompt/Scientific%20laboratory%20research%20on%20Mapeo%20Espacial%20de%20la%20Expresi%C3%B3n%20G%C3%A9ni%2C%20high%20precision%20biomedical%20equipment%2C%20electron%20microscopy%2C%20clinical%20setting%2C%2035mm%20documentary%20photography%2C%20no%20words?seed=100885&width=1200&height=630&nologo=true"
+heroImage: "https://images.unsplash.com/photo-1584515933487-779824d29309?auto=format&fit=crop&w=1200&h=630&q=82"
 canonicalSource: "https://newsinternacionaltep.com/categoria/ciencia"
 ---
 
@@ -21,7 +21,7 @@ Diversos ensayos clínicos fase II y III han evidenciado que la interacción mol
 
 ## 2. Estado del Arte y Dinámica Estructural
 
-![Análisis Documental Primario - Mapeo Espacial de la Expresión Génica a Resolución Subcelular ](https://image.pollinations.ai/prompt/Molecular%20cellular%20visualization%20of%20Mapeo%20Espacial%20de%20la%20Expresi%C3%B3n%20G%C3%A9ni%2C%20biological%20pathway%2C%20microscopic%20scale%2C%20crisp%20medical%20illustration?seed=201199&width=1000&height=500&nologo=true)
+![Análisis Documental Primario - Mapeo Espacial de la Expresión Génica a Resolución Subcelular ](https://images.unsplash.com/photo-1530497610245-94d3c16cda28?auto=format&fit=crop&w=1000&h=500&q=82)
 *Figura 1: Representación técnica y mapeo contextual del fenómeno analizado.*
 Históricamente, la investigación en este segmento estuvo restringida por la baja sensibilidad de las plataformas de detección y los cuellos de botella en la manufactura biológica. La adopción de técnicas de secuenciación masiva y microfluídica ha transformado radicalmente el panorama experimental, permitiendo aislar variables con un error analítico inferior al 1.5%.
 
@@ -39,7 +39,7 @@ El núcleo funcional opera mediante la estabilización de gradientes electroquí
 
 ## 4. Evaluación de Escenarios y Modelado de Riesgo
 
-![Modelado de Trayectorias y Riesgo Sistémico](https://image.pollinations.ai/prompt/Medical%20data%20analytics%20dashboard%2C%20clinical%20trial%20telemetry%2C%20scientific%20visualization%2C%20clean%20editorial%20lighting?seed=301617&width=1000&height=500&nologo=true)
+![Modelado de Trayectorias y Riesgo Sistémico](https://images.unsplash.com/photo-1507668077129-56e32842fceb?auto=format&fit=crop&w=1000&h=500&q=82)
 *Figura 2: Telemetría de variables y dispersión de escenarios probabilísticos.*
 Para dimensionar el impacto de su adopción a escala macro-sanitaria, se modelaron tres trayectorias prospectivas bajo condiciones de heterogeneidad clínica:
 

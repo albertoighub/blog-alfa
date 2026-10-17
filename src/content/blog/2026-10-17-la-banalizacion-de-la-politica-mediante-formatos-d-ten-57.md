@@ -5,7 +5,7 @@ pubDate: "2026-10-17"
 category: "Tendencias"
 tags: ["Sociolog\u00eda Digital", "Algoritmos de Atenci\u00f3n", "Econom\u00eda de Plataformas", "Polarizaci\u00f3n", "Cultura Digital"]
 author: "Comité Analítico TEP & Prospectiva"
-heroImage: "https://image.pollinations.ai/prompt/Documentary%20photojournalism%20about%20digital%20culture%2C%20social%20media%20networks%2C%20modern%20smartphone%20interfaces%20in%20urban%20setting%2C%20subtle%20lighting%2C%20editorial%20photography%2C%20no%20text?seed=100971&width=1200&height=630&nologo=true"
+heroImage: "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?auto=format&fit=crop&w=1200&h=630&q=82"
 canonicalSource: "https://newsinternacionaltep.com/categoria/tendencias"
 ---
 
@@ -21,7 +21,7 @@ El análisis de series temporales de tráfico y engagement demuestra que los inc
 
 ## 2. Estado del Arte y Dinámica Estructural
 
-![Análisis Documental Primario - La Banalización de la Política Mediante Formatos de Comedia Co](https://image.pollinations.ai/prompt/Sociological%20network%20graph%2C%20digital%20data%20flows%2C%20information%20architecture%20visualization%2C%20clean%20modern%20lines?seed=201315&width=1000&height=500&nologo=true)
+![Análisis Documental Primario - La Banalización de la Política Mediante Formatos de Comedia Co](https://images.unsplash.com/photo-1529156069898-49953e39b3ac?auto=format&fit=crop&w=1000&h=500&q=82)
 *Figura 1: Representación técnica y mapeo contextual del fenómeno analizado.*
 Durante la última década, el modelo de negocio publicitario digital evolucionó desde banners estáticos hacia arquitecturas de aprendizaje por refuerzo profundo. En este contexto, el fenómeno estudiado ha consolidado una economía donde la atención humana es cuantificada, microsegmentada y subastada en milisegundos.
 
@@ -39,7 +39,7 @@ El mecanismo operativo descansa sobre bucles de recompensa intermitente variable
 
 ## 4. Evaluación de Escenarios y Modelado de Riesgo
 
-![Modelado de Trayectorias y Riesgo Sistémico](https://image.pollinations.ai/prompt/Modern%20broadcast%20studio%2C%20content%20creator%20workspace%2C%20digital%20media%20production%2C%20professional%20documentary%20photography?seed=301773&width=1000&height=500&nologo=true)
+![Modelado de Trayectorias y Riesgo Sistémico](https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=1000&h=500&q=82)
 *Figura 2: Telemetría de variables y dispersión de escenarios probabilísticos.*
 Se plantearon tres escenarios de evolución sociotécnica para evaluar las transformaciones en la cohesión cívica y regulatoria:
 

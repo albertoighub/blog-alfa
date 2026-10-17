@@ -310,90 +310,17 @@ document.addEventListener("DOMContentLoaded", () => {
   ];
 
   const currentSlug = window.location.pathname.replace(/\/$/, "");
-  const storageKey = "tep_comments_v3_" + currentSlug;
-  const votesKey = "tep_votes_v3_" + currentSlug;
+  const storageKey = "tep_real_comments_v1_" + currentSlug;
+  const votesKey = "tep_real_votes_v1_" + currentSlug;
 
-  const defaultComments = [
-    {
-      id: "seed_1",
-      author: "Dr. A. Valenzuela (Macro-Econometría & Deuda Soberana, Instituto de Finanzas Globales)",
-      type: "Análisis Crítico / Matiz Técnico",
-      text: "La proyección causal señalada en la tabla metodológica se alinea con los diferenciales de spread de rendimiento del último trimestre. Recomiendo cruzarlo con la curva de rendimientos de los bonos a 10 años para evaluar el riesgo de contracción de liquidez en la banca regional.",
-      date: "Hace 2 horas",
-      upvotes: 28,
-      downvotes: 1
-    },
-    {
-      id: "seed_2",
-      author: "Ing. Elena Rostov (Arquitectura de Semiconductores, TSMC Fellow)",
-      type: "Aporte de Fuente Primaria",
-      text: "En los nodos GAAFET sub-2nm y empaquetado 2.5D/3D (CoWoS), el cuello de botella físico dejó de ser únicamente la fotolitografía High-NA EUV y pasó a ser la disipación térmica por mm² y la inductancia parásita de interconexión. Imprescindible un dossier dedicado a refrigeración por inmersión bifásica y microcanales de diamante sintético.",
-      date: "Hace 4 horas",
-      upvotes: 35,
-      downvotes: 0
-    },
-    {
-      id: "seed_3",
-      author: "Lic. Carlos Méndez (Analista de Inteligencia Geopolítica & Logística Naval)",
-      type: "Propuesta para Investigación Futura",
-      text: "Excelente perspectiva sobre las rutas logísticas del estrecho de Malaca y el puerto de Chancay. Sugiero investigar la creciente triangulación arancelaria y los nuevos acuerdos bilaterales de liquidación en yuanes digitales dentro del bloque ASEAN y BRICS+.",
-      date: "Hace 7 horas",
-      upvotes: 19,
-      downvotes: 2
-    },
-    {
-      id: "seed_4",
-      author: "Dra. Sofía Benítez (Biotecnología & Medicina Molecular, Lab. Genómica Comparada)",
-      type: "Análisis Crítico / Matiz Técnico",
-      text: "Respecto a los avances en oncología dirigida y CRISPR prime editing, la verdadera barrera no es molecular sino regulatoria y de manufactura de vectores AAV. La escala de costos sistémicos que modela TEP es el análisis más certero en habla hispana.",
-      date: "Ayer a las 14:15",
-      upvotes: 24,
-      downvotes: 0
-    },
-    {
-      id: "seed_5",
-      author: "Mtro. Sebastián Thorne (Sociología de Medios Digitales & Análisis Algorítmico)",
-      type: "Aporte de Fuente Primaria",
-      text: "El fenómeno de fragmentación de audiencias y amplificación de polarización afectiva en plataformas de video vertical demuestra que los bucles de retroalimentación de dopamina aceleran la volatilidad electoral. Es crucial seguir tratando estos temas con el rigor sociológico que mantiene TEP, sin caer en el sensacionalismo hueco.",
-      date: "Ayer a las 18:30",
-      upvotes: 17,
-      downvotes: 1
-    },
-    {
-      id: "seed_6",
-      author: "Dra. Miriam K. Al-Hassan (Sistemas Distribuidos & Descarbonización de Centros de Datos)",
-      type: "Propuesta para Investigación Futura",
-      text: "Los clústeres de entrenamiento para modelos de más de un billón de parámetros enfrentan un límite infranqueable de red eléctrica. La integración de microrreactores nucleares modulares (SMR) en el campus de servidores será el mayor catalizador de fusiones entre Big Tech y el sector energético.",
-      date: "15 oct 2026",
-      upvotes: 31,
-      downvotes: 0
-    },
-    {
-      id: "seed_7",
-      author: "Comandante (R.) H. Lindqvist (Ciberseguridad & Protocolos Criptográficos)",
-      type: "Análisis Crítico / Matiz Técnico",
-      text: "Con la publicación de los estándares finales del NIST sobre algoritmos resistentes al cómputo cuántico (FIPS 203/204), la ventana de migración para infraestructuras financieras críticas es de menos de 36 meses. El espionaje 'cosechar ahora, desencriptar después' ya es una amenaza latente.",
-      date: "14 oct 2026",
-      upvotes: 22,
-      downvotes: 1
-    },
-    {
-      id: "seed_8",
-      author: "Geól. Roberto De la Vega (Geoeconomía de Tierras Raras & Baterías)",
-      type: "Aporte de Fuente Primaria",
-      text: "El monopolio del procesamiento de grafito esférico y neodimio crea una vulnerabilidad asimétrica superior a la crisis del petróleo de 1973. Sería enriquecedor un gráfico interactivo sobre las cuotas de refinación por país para contrastar la soberanía industrial europea.",
-      date: "13 oct 2026",
-      upvotes: 26,
-      downvotes: 0
-    }
-  ];
+  const defaultComments = [];
 
   function getStoredComments() {
     try {
       const data = localStorage.getItem(storageKey);
-      return data ? JSON.parse(data) : defaultComments;
+      return data ? JSON.parse(data) : [];
     } catch (e) {
-      return defaultComments;
+      return [];
     }
   }
 
@@ -425,7 +352,13 @@ document.addEventListener("DOMContentLoaded", () => {
     if (!container) return;
 
     if (list.length === 0) {
-      container.innerHTML = '<p style="color:#94a3b8; font-size:0.9rem; text-align:center; padding: 2rem;">Aún no hay aportaciones registradas. Sea el primero en emitir una evaluación profesional.</p>';
+      container.innerHTML = `
+        <div class="empty-comments-state" style="text-align: center; padding: 2.5rem 1rem; color: #94a3b8; background: #f8fafc; border-radius: 8px; border: 1px dashed #cbd5e1;">
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#94a3b8" stroke-width="1.8" style="margin: 0 auto 0.6rem; display: block;"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+          <p style="margin: 0; font-size: 0.88rem; font-weight: 600; color: #64748b;">Aún no hay intervenciones registradas para este paper.</p>
+          <span style="display: block; font-size: 0.76rem; color: #94a3b8; margin-top: 0.25rem;">Sé el primero en aportar una corrección cuantitativa, réplica analítica o propuesta metodológica en el formulario superior.</span>
+        </div>
+      `;
       return;
     }
 
