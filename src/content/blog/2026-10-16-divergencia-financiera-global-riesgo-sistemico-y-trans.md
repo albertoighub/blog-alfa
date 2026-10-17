@@ -1,7 +1,7 @@
 ---
 title: "Divergencia Financiera Global: Riesgo Sistémico y Transición Energética"
 description: "Análisis de la bifurcación entre el optimismo sectorial europeo, la volatilidad asiática y la presión inflacionaria en metales preciosos."
-pubDate: "2026-10-16"
+pubDate: "2026-10-17"
 category: "Economía"
 tags: ["Mercados Financieros", "Transici\u00f3n Energ\u00e9tica", "Riesgo Sist\u00e9mico", "Inflaci\u00f3n Global"]
 author: "Comité Analítico TEP & Prospectiva"

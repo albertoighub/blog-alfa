@@ -1,7 +1,7 @@
 ---
 title: "Agentes de Consumo: De la Promesa LLM a la Agencia Autónoma"
 description: "Análisis prospectivo sobre la viabilidad sistémica y los riesgos regulatorios de los agentes de IA autónomos en entornos digitales."
-pubDate: "2026-10-14"
+pubDate: "2026-10-17"
 category: "Tecnología"
 tags: ["Inteligencia Artificial", "Agentes Aut\u00f3nomos", "Prospectiva Tecnol\u00f3gica", "LLMs", "Automatizaci\u00f3n"]
 author: "Comité Analítico TEP & Prospectiva"

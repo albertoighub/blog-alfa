@@ -1,7 +1,7 @@
 ---
 title: "Decadencia Infraestructural y Fragilidad Estatal en Sudáfrica"
 description: "Análisis de la intersección entre el crimen organizado, la extracción ilegal de recursos y el colapso de servicios críticos de salud pública."
-pubDate: "2026-10-16"
+pubDate: "2026-10-17"
 category: "Geopolítica"
 tags: ["Seguridad Cr\u00edtica", "Gobernanza Estatal", "Crimen Organizado", "Infraestructura Sanitaria"]
 author: "Comité Analítico TEP & Prospectiva"

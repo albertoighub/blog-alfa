@@ -1,7 +1,7 @@
 ---
 title: "F1 en África: Geopolítica de la Infraestructura y Liderazgo Regional"
 description: "Análisis del acuerdo de Rwanda para albergar el GP Africano, examinando su impacto en la proyección de poder regional y los modelos de desarrollo continental."
-pubDate: "2026-10-16"
+pubDate: "2026-10-17"
 category: "Geopolítica"
 tags: ["Soft Power", "Desarrollo Africano", "Competencia Regional", "Infraestructura Global"]
 author: "Comité Analítico TEP & Prospectiva"
@@ -31,7 +31,10 @@ Los marcos tradicionales de desarrollo se encuentran bajo estrés debido al asce
 El análisis crítico revela que la apuesta por el GP Africano representa un cambio paradigmático: se pasa de buscar financiación para *supervivencia* a invertir en activos para *dominio estratégico*.
 
 ## 3. Mecanismos Operativos y Núcleo Técnico
-La implementación exitosa de un Gran Premio requiere una arquitectura técnica compleja que abarca la logística de precisión, la seguridad de alto nivel y la integración con ecosistemas turísticos preexistentes. El mecanismo causal es el siguiente: **Estabilidad Política $ightarrow$ Atracción de Capital Global (F1) $ightarrow$ Modernización de Infraestructura (Aeropuertos/Carreteras) $ightarrow$ Diversificación Económica y Posicionamiento Geopolítico.**
+La implementación exitosa de un Gran Premio requiere una arquitectura técnica compleja que abarca la logística de precisión, la seguridad de alto nivel y la integración con ecosistemas turísticos preexistentes. El mecanismo causal es el siguiente: **Estabilidad Política $
+ightarrow$ Atracción de Capital Global (F1) $
+ightarrow$ Modernización de Infraestructura (Aeropuertos/Carreteras) $
+ightarrow$ Diversificación Económica y Posicionamiento Geopolítico.**
 
 La ventaja competitiva de Ruanda reside en su alta estabilidad política, baja corrupción percibida y una planificación urbana centralizada que facilita la ejecución de proyectos a gran escala. Sudáfrica, si bien posee mayor masa crítica económica, enfrenta desafíos estructurales relacionados con la infraestructura energética y las dinámicas sociales complejas.
 

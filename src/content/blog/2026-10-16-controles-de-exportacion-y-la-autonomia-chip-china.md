@@ -1,7 +1,7 @@
 ---
 title: "Controles de Exportación y la Autonomía Chip China"
 description: "Análisis de cómo las restricciones tecnológicas occidentales han catalizado el desarrollo acelerado del ecosistema semiconductor e IA chino."
-pubDate: "2026-10-16"
+pubDate: "2026-10-17"
 category: "Economía"
 tags: ["Semiconductores", "Geopol\u00edtica Tecnol\u00f3gica", "Pol\u00edtica Industrial", "IA Econ\u00f3mica"]
 author: "Comité Analítico TEP & Prospectiva"

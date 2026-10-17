@@ -1,7 +1,7 @@
 ---
 title: "El Vacío Regulatorio de la IA y el Riesgo Sistémico"
 description: "Análisis de la disonancia entre la urgencia tecnológica en IA y la inercia política estadounidense, proyectando riesgos geopolíticos."
-pubDate: "2026-10-14"
+pubDate: "2026-10-17"
 category: "Tecnología"
 tags: ["Inteligencia Artificial", "Regulaci\u00f3n Tecnol\u00f3gica", "Geopol\u00edtica Digital", "Riesgo Sist\u00e9mico"]
 author: "Comité Analítico TEP & Prospectiva"

@@ -39,7 +39,7 @@ El núcleo funcional opera mediante la estabilización de gradientes electroquí
 
 ## 4. Evaluación de Escenarios y Modelado de Riesgo
 
-![Modelado de Trayectorias y Riesgo Sistémico](https://images.unsplash.com/photo-1581093458791-9f3c3900df4b?auto=format&fit=crop&w=1000&h=500&q=82)
+![Modelado de Trayectorias y Riesgo Sistémico](https://images.unsplash.com/photo-1530497610245-94d3c16cda28?auto=format&fit=crop&w=1200&h=630&q=82
 *Figura 2: Telemetría de variables y dispersión de escenarios probabilísticos.*
 Para dimensionar el impacto de su adopción a escala macro-sanitaria, se modelaron tres trayectorias prospectivas bajo condiciones de heterogeneidad clínica:
 

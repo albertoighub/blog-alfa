@@ -1,7 +1,7 @@
 ---
 title: "Empleo Juvenil en SA: La Fragilidad de la Intervención Estatal"
 description: "Análisis geopolítico del rol de los programas públicos como amortiguador estructural ante el desempleo masivo juvenil en Sudáfrica."
-pubDate: "2026-10-16"
+pubDate: "2026-10-17"
 category: "Geopolítica"
 tags: ["Desempleo Estructural", "Econom\u00eda Pol\u00edtica", "Pol\u00edtica Laboral", "Sud\u00e1frica", "Desarrollo Regional"]
 author: "Comité Analítico TEP & Prospectiva"

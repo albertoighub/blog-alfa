@@ -1,7 +1,7 @@
 ---
 title: "Crisis Fiscal en Cosatu: Desafío a la Movilización Laboral SA"
 description: "Análisis de déficits sistémicos en el movimiento obrero sudafricano, examinando cómo la fragilidad financiera compromete la legitimidad institucional y la capacidad de influencia política."
-pubDate: "2026-10-16"
+pubDate: "2026-10-17"
 category: "Geopolítica"
 tags: ["Movimientos Obreros", "Sudafr\u00edca", "Gobernanza Laboral", "Econom\u00eda Pol\u00edtica"]
 author: "Comité Analítico TEP & Prospectiva"

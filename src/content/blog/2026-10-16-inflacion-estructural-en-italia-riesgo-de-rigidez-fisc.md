@@ -5,7 +5,7 @@ pubDate: "2026-10-16"
 category: "Economía"
 tags: ["Inflaci\u00f3n", "Eurozona", "Sostenibilidad Fiscal", "Rigidez Estructural"]
 author: "Comité Analítico TEP & Prospectiva"
-heroImage: "https://78466ee82f05689387a6d37e0edfc469-cdn0-70016-downedge0.dna.contentdelivery.net/70016-downedge0/assets/nx/nxtedition-VYCJpJgN8xZlKa-1792140241/nxtedition-VYCJpJgN8xZlKa-1792140241_1080p.mp4"
+heroImage: "https://images.unsplash.com/photo-1563986768609-322da13575f3?auto=format&fit=crop&w=1200&h=630&q=82"
 canonicalSource: "https://www.di.se/nyheter/inflationen-stiger-i-italien-jk2n5/"
 ---
 

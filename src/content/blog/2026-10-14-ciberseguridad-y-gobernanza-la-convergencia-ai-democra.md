@@ -1,7 +1,7 @@
 ---
 title: "Ciberseguridad y Gobernanza: La Convergencia AI-Democracia"
 description: "Análisis prospectivo de la intersección entre vulnerabilidades sistémicas, inteligencia artificial avanzada y marcos regulatorios globales."
-pubDate: "2026-10-14"
+pubDate: "2026-10-17"
 category: "Tecnología"
 tags: ["Ciberseguridad", "Inteligencia Artificial", "Gobernanza Digital", "Riesgo Sist\u00e9mico"]
 author: "Comité Analítico TEP & Prospectiva"

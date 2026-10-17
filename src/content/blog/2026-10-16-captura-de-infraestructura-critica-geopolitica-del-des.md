@@ -1,7 +1,7 @@
 ---
 title: "Captura de Infraestructura Crítica: Geopolítica del Desmantelamiento Sanitario"
 description: "Análisis de la penetración criminal en sistemas hospitalarios, examinando el colapso de servicios esenciales como síntoma de falla estatal y captura de recursos."
-pubDate: "2026-10-16"
+pubDate: "2026-10-17"
 category: "Geopolítica"
 tags: ["Falla Estatal", "Crimen Organizado", "Infraestructura Cr\u00edtica", "Seguridad Sanitaria"]
 author: "Comité Analítico TEP & Prospectiva"

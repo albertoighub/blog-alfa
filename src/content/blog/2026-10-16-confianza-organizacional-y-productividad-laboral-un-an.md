@@ -1,7 +1,7 @@
 ---
 title: "Confianza Organizacional y Productividad Laboral: Un Análisis de Capital Psicológico"
 description: "Modelado económico del impacto de la confianza en el liderazgo sobre el compromiso laboral, redefiniendo las métricas de capital humano."
-pubDate: "2026-10-16"
+pubDate: "2026-10-17"
 category: "Economía"
 tags: ["Capital Humano", "Productividad Laboral", "Teor\u00eda de Agencias", "Comportamiento Organizacional"]
 author: "Comité Analítico TEP & Prospectiva"

@@ -1,7 +1,7 @@
 ---
 title: "Declive ANC: Reconfiguración del Poder en Sudáfrica"
 description: "Análisis de la erosión hegemónica del ANC y sus implicaciones sistémicas en la dinámica política, económica y regional sudafricana."
-pubDate: "2026-10-16"
+pubDate: "2026-10-17"
 category: "Geopolítica"
 tags: ["Sud\u00e1frica", "ANC", "Realineamiento Pol\u00edtico", "Gobernanza Cr\u00edtica", "\u00c1frica Austral"]
 author: "Comité Analítico TEP & Prospectiva"

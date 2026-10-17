@@ -1,7 +1,7 @@
 ---
 title: "Diversificación de Suministro Chip: La Estrategia Japonesa en GF"
 description: "Análisis del impacto geopolítico y técnico de la inversión japonesa en GlobalFoundries para mitigar riesgos sistémicos en la cadena de valor semiconductora."
-pubDate: "2026-10-14"
+pubDate: "2026-10-17"
 category: "Tecnología"
 tags: ["Semiconductores", "Geopol\u00edtica Industrial", "Resiliencia de Suministro", "GlobalFoundries", "Pol\u00edtica Tecnol\u00f3gica"]
 author: "Comité Analítico TEP & Prospectiva"

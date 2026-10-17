@@ -5,7 +5,7 @@ pubDate: "2026-10-17"
 category: "Ciencia"
 tags: ["Biomedicina", "Investigaci\u00f3n Cl\u00ednica", "Mecanismos Moleculares", "Salud P\u00fablica", "Biotecnolog\u00eda"]
 author: "Comité Analítico TEP & Prospectiva"
-heroImage: "https://images.unsplash.com/photo-1583912267749-011867160320?auto=format&fit=crop&w=1200&h=630&q=82"
+heroImage: "https://images.unsplash.com/photo-1579684385127-1ef15d508118?auto=format&fit=crop&w=1200&h=630&q=82"
 canonicalSource: "https://newsinternacionaltep.com/categoria/ciencia"
 ---
 

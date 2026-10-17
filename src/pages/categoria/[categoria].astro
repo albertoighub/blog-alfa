@@ -1,4 +1,4 @@
-﻿---
+---
 import { getCollection } from 'astro:content';
 import BaseHead from '../../components/BaseHead.astro';
 import Header from '../../components/Header.astro';
@@ -66,7 +66,11 @@ const filteredPosts = allPosts
 const postCat = (post.data.category || '').toLowerCase();
 return cat.match.some((m) => postCat.includes(m));
 })
-.sort((a, b) => new Date(b.data.pubDate).valueOf() - new Date(a.data.pubDate).valueOf());
+.sort((a, b) => {
+  const diff = new Date(b.data.pubDate).valueOf() - new Date(a.data.pubDate).valueOf();
+  if (diff !== 0) return diff;
+  return (b.slug ?? b.id ?? '').localeCompare(a.slug ?? a.id ?? '');
+});
 
 return {
 params: { categoria: cat.slug },
@@ -411,7 +415,7 @@ color: #64748b;
 <div class="lead-grid">
 <div class="lead-img-box">
 {leadStory.data.heroImage && (
-<img src={leadStory.data.heroImage} alt={leadStory.data.title} class="lead-img" />
+<img src={leadStory.data.heroImage} alt={leadStory.data.title} class="lead-img" onerror="this.onerror=null;this.src='https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=1200&h=630&q=80';" />
 )}
 </div>
 <div>
@@ -441,7 +445,7 @@ color: #64748b;
 <article class="story-card">
 {post.data.heroImage && (
 <div class="story-img-wrap">
-<img src={post.data.heroImage} alt={post.data.title} class="story-img" loading="lazy" />
+<img src={post.data.heroImage} alt={post.data.title} class="story-img" loading="lazy" onerror="this.onerror=null;this.src='https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=1200&h=630&q=80';" />
 </div>
 )}
 <div class="story-body">

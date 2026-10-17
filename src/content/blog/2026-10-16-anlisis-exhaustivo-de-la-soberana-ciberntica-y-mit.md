@@ -1,7 +1,7 @@
 ---
 title: "Análisis Exhaustivo de la Soberanía Cibernética y Mitigación en Infraestructuras Críticas"
 description: "Evaluación técnica sin censura sobre los vectores de ataque avanzados, el marco Zero Trust y las implicaciones geopolíticas del desacoplamiento tecnológico nacional."
-pubDate: "2026-10-16"
+pubDate: "2026-10-17"
 category: "Tecnología"
 author: "Comité Analítico TEP & Prospectiva"
 heroImage: "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&w=1200&q=80"

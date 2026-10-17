@@ -1,7 +1,7 @@
 ---
 title: "Agilidad Empresarial y Resiliencia Regional en Economía Nórdica"
 description: "Análisis de la dinámica de crecimiento desproporcionado de PYMEs en el Este de Suecia, examinando los mecanismos causales de su ventaja competitiva estructural."
-pubDate: "2026-10-16"
+pubDate: "2026-10-17"
 category: "Economía"
 tags: ["PYMES", "Desarrollo Regional", "Agilidad Empresarial", "Econom\u00eda N\u00f3rdica", "Ventaja Competitiva"]
 author: "Comité Analítico TEP & Prospectiva"

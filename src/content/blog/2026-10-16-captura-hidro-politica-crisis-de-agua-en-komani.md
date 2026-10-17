@@ -1,7 +1,7 @@
 ---
 title: "Captura Hidro-Política: Crisis de Agua en Komani"
 description: "Análisis de cómo la falla infraestructural municipal facilita el acaparamiento de rentas privadas en entornos urbanos con escasez hídrica."
-pubDate: "2026-10-16"
+pubDate: "2026-10-17"
 category: "Geopolítica"
 tags: ["Hidro-pol\u00edtica", "Gobernanza Urbana", "Rent-Seeking", "Fragilidad Sist\u00e9mica"]
 author: "Comité Analítico TEP & Prospectiva"

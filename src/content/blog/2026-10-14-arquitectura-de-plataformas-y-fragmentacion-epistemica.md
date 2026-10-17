@@ -1,7 +1,7 @@
 ---
 title: "Arquitectura de Plataformas y Fragmentación Epistémica"
 description: "Análisis del tránsito de espacios digitales abiertos a ecosistemas propietarios, redefiniendo la gobernanza social en la era post-Web 2.0."
-pubDate: "2026-10-14"
+pubDate: "2026-10-17"
 category: "Tecnología"
 tags: ["Gobernanza Digital", "Econom\u00eda de Plataformas", "Fragmentaci\u00f3n Social", "Arquitectura Algor\u00edtmica"]
 author: "Comité Analítico TEP & Prospectiva"

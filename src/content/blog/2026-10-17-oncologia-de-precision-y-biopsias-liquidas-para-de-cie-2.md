@@ -21,7 +21,7 @@ Diversos ensayos clínicos fase II y III han evidenciado que la interacción mol
 
 ## 2. Estado del Arte y Dinámica Estructural
 
-![Análisis Documental Primario - Oncología de Precisión y Biopsias Líquidas para Detección Ultr](https://images.unsplash.com/photo-1581093458791-9f3c3900df4b?auto=format&fit=crop&w=1000&h=500&q=82)
+![Análisis Documental Primario - Oncología de Precisión y Biopsias Líquidas para Detección Ultr](https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=1200&h=630&q=82
 *Figura 1: Representación técnica y mapeo contextual del fenómeno analizado.*
 Históricamente, la investigación en este segmento estuvo restringida por la baja sensibilidad de las plataformas de detección y los cuellos de botella en la manufactura biológica. La adopción de técnicas de secuenciación masiva y microfluídica ha transformado radicalmente el panorama experimental, permitiendo aislar variables con un error analítico inferior al 1.5%.
 

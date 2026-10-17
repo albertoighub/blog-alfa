@@ -1,7 +1,7 @@
 ---
 title: "Escalabilidad de LLMs: La Transición Financiera del AI"
 description: "Análisis de la aceleración de ingresos en modelos fundacionales, examinando el balance entre crecimiento exponencial y costos computacionales sistémicos."
-pubDate: "2026-10-14"
+pubDate: "2026-10-17"
 category: "Tecnología"
 tags: ["Inteligencia Artificial", "Modelos Fundacionales", "Finanzas Tecnol\u00f3gicas", "Computaci\u00f3n de Alto Rendimiento"]
 author: "Comité Analítico TEP & Prospectiva"

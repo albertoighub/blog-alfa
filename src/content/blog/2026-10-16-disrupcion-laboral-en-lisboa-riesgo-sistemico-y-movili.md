@@ -1,7 +1,7 @@
 ---
 title: "Disrupción Laboral en Lisboa: Riesgo Sistémico y Movilidad Urbana"
 description: "Análisis de la inestabilidad laboral en redes de transporte público, evaluando las pérdidas de productividad y el riesgo sistémico para la función económica metropolitana."
-pubDate: "2026-10-16"
+pubDate: "2026-10-17"
 category: "Economía"
 tags: ["Log\u00edstica urbana", "Relaciones laborales", "Productividad regional", "Infraestructura cr\u00edtica"]
 author: "Comité Analítico TEP & Prospectiva"

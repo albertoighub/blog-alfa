@@ -1,7 +1,7 @@
 ---
 title: "Capital Cultural y Resiliencia Geopolítica en Sudáfrica"
 description: "Análisis de cómo la infraestructura cultural (festivales, literatura) actúa como vector de estabilidad socioeconómica frente a riesgos sistémicos post-apartheid."
-pubDate: "2026-10-16"
+pubDate: "2026-10-17"
 category: "Geopolítica"
 tags: ["Soft Power", "Econom\u00eda Creativa", "Desarrollo Regional", "Sud\u00e1frica"]
 author: "Comité Analítico TEP & Prospectiva"

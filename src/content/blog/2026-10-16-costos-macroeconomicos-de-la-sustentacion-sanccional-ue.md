@@ -1,7 +1,7 @@
 ---
 title: "Costos Macroeconómicos de la Sustentación Sanccional UE"
 description: "Análisis de la divergencia económica inducida por el conflicto Rusia-Ucrania y la sostenibilidad fiscal del régimen sancionatorio europeo."
-pubDate: "2026-10-16"
+pubDate: "2026-10-17"
 category: "Economía"
 tags: ["Geoeconom\u00eda", "Sanctions Regime", "Inflaci\u00f3n Energ\u00e9tica", "Riesgo Sist\u00e9mico", "Pol\u00edtica Fiscal"]
 author: "Comité Analítico TEP & Prospectiva"

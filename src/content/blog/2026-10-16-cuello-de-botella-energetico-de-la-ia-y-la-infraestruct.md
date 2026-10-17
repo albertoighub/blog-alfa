@@ -1,7 +1,7 @@
 ---
 title: "Cuello de Botella Energético de la IA y la Infraestructura Global"
 description: "Análisis de cómo la infraestructura energética obsoleta restringe el crecimiento exponencial de los modelos de inteligencia artificial, planteando riesgos sistémicos económicos."
-pubDate: "2026-10-16"
+pubDate: "2026-10-17"
 category: "Economía"
 tags: ["Energ\u00eda Digital", "Infraestructura Cr\u00edtica", "Inteligencia Artificial", "Transici\u00f3n Energ\u00e9tica"]
 author: "Comité Analítico TEP & Prospectiva"

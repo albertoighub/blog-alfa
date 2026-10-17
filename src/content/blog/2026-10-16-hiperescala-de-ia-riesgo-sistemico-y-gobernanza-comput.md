@@ -5,7 +5,7 @@ pubDate: "2026-10-16"
 category: "Economía"
 tags: ["Inteligencia Artificial", "Riesgo Sist\u00e9mico", "Gobernanza Tecnol\u00f3gica", "Capital de Riesgo"]
 author: "Comité Analítico TEP & Prospectiva"
-heroImage: "https://847570d23bb21675b96c188162ea954e-cdn0-70016-downedge0.dna.contentdelivery.net/70016-downedge0/assets/nx/nxtedition-VYBdXLp45RPlnr-1792129767/nxtedition-VYBdXLp45RPlnr-1792129767_1080p.mp4"
+heroImage: "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&w=1200&h=630&q=82"
 canonicalSource: "https://www.di.se/nyheter/nvidia-bossens-svar-pa-di-s-fraga-vi-bygger-ai-sakerhet/"
 ---
 

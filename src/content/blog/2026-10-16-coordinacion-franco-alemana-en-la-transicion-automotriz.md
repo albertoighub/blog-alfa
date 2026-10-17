@@ -1,11 +1,11 @@
 ---
 title: "Coordinación Franco-Alemana en la Transición Automotriz Europea"
 description: "Análisis de la estrategia bilateral para mitigar riesgos sistémicos y asegurar la competitividad industrial europea frente a disrupciones tecnológicas y geopolíticas."
-pubDate: "2026-10-16"
+pubDate: "2026-10-17"
 category: "Economía"
 tags: ["Industria 4.0", "Pol\u00edtica Industrial Europea", "Electromovilidad", "Cadenas de Suministro Cr\u00edticas"]
 author: "Comité Analítico TEP & Prospectiva"
-heroImage: "https://8a4692ffc97fc0c7f2523bf00f14c540-cdn0-70016-downedge0.dna.contentdelivery.net/70016-downedge0/assets/nx/nxtedition-VYC7wPKgyHyEMZ-1792139292/nxtedition-VYC7wPKgyHyEMZ-1792139292_1080p.mp4"
+heroImage: "https://images.unsplash.com/photo-1565043589221-1a6fd9ae45c7?auto=format&fit=crop&w=1200&h=630&q=82"
 canonicalSource: "https://www.di.se/live/frankrike-och-tyskland-i-fordonssamarbete/"
 ---
 

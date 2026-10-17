@@ -5,7 +5,7 @@ pubDate: "2026-10-16"
 category: "Economía"
 tags: ["Regulaci\u00f3n Financiera", "Gobernanza Corporativa", "Manipulaci\u00f3n de Mercado", "Asimetr\u00eda Informativa"]
 author: "Comité Analítico TEP & Prospectiva"
-heroImage: "https://90b0da07447e2295b9053c398000ae87-cdn0-70016-downedge0.dna.contentdelivery.net/70016-downedge0/assets/nx/nxtedition-VYCF2CkN79zi11-1792137048/nxtedition-VYCF2CkN79zi11-1792137048_1080p.mp4"
+heroImage: "https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?auto=format&fit=crop&w=1200&h=630&q=82"
 canonicalSource: "https://www.di.se/live/nfo-drives-ordforande-doms-avgar/"
 ---
 

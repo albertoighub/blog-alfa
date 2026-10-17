@@ -1,7 +1,7 @@
 ---
 title: "Agentes Autónomos: De la Investigación al Capitalismo de Riesgo"
 description: "Análisis de la transición de modelos LLM a sistemas ejecutores autónomos y sus implicaciones en gobernanza, mercado laboral y riesgo sistémico."
-pubDate: "2026-10-14"
+pubDate: "2026-10-17"
 category: "Tecnología"
 tags: ["Inteligencia Artificial", "Agentes Aut\u00f3nomos", "Gobernanza Tecnol\u00f3gica", "LLMs", "Prospectiva Cient\u00edfica"]
 author: "Comité Analítico TEP & Prospectiva"
