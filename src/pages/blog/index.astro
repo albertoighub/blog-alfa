@@ -1,0 +1,116 @@
+﻿---
+import { getCollection } from 'astro:content';
+import BaseHead from '../../components/BaseHead.astro';
+import Header from '../../components/Header.astro';
+import Footer from '../../components/Footer.astro';
+
+const posts = (await getCollection('blog')).sort(
+(a, b) => new Date(b.data.pubDate).valueOf() - new Date(a.data.pubDate).valueOf()
+);
+---
+
+<!doctype html>
+<html lang="es">
+<head>
+<BaseHead title="Archivo de Noticias | News Internacional TEP" description="Cobertura analítica completa de noticias en Tecnología, Economía y Política." />
+<style>
+main {
+max-width: 1100px;
+margin: 0 auto;
+padding: 2.5rem 1rem;
+}
+.page-header {
+border-bottom: 2px solid #0f172a;
+padding-bottom: 1rem;
+margin-bottom: 2rem;
+}
+.page-title {
+font-size: 2rem;
+font-weight: 900;
+color: #0f172a;
+margin: 0 0 0.5rem;
+}
+.page-subtitle {
+font-size: 1rem;
+color: #64748b;
+margin: 0;
+}
+.posts-grid {
+display: grid;
+grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+gap: 1.5rem;
+}
+.post-card {
+background: #ffffff;
+border: 1px solid #e2e8f0;
+border-radius: 8px;
+padding: 1.5rem;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+.post-card:hover {
+transform: translateY(-3px);
+box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05);
+}
+.badge {
+display: inline-block;
+font-size: 0.72rem;
+font-weight: 800;
+text-transform: uppercase;
+color: #2563eb;
+margin-bottom: 0.6rem;
+}
+.title {
+font-size: 1.2rem;
+font-weight: 700;
+line-height: 1.35;
+margin: 0 0 0.75rem;
+}
+.title a {
+color: #0f172a;
+text-decoration: none;
+}
+.title a:hover {
+color: #2563eb;
+}
+.desc {
+font-size: 0.92rem;
+color: #64748b;
+line-height: 1.5;
+margin: 0 0 1.25rem;
+}
+.date {
+font-size: 0.8rem;
+color: #94a3b8;
+}
+</style>
+</head>
+<body>
+<Header />
+<main>
+<div class="page-header">
+<h1 class="page-title">Archivo Periodístico</h1>
+<p class="page-subtitle">Seguimiento analítico e imparcial de acontecimientos globales.</p>
+</div>
+<div class="posts-grid">
+{posts.map((post) => (
+<article class="post-card">
+<div>
+<span class="badge">{post.data.category || 'Análisis'}</span>
+<h2 class="title">
+<a href={`/blog/${post.slug ?? post.id}/`}>{post.data.title}</a>
+</h2>
+<p class="desc">{post.data.description}</p>
+</div>
+<div class="date">
+{post.data.pubDate.toLocaleDateString('es-MX', { year: 'numeric', month: 'long', day: 'numeric' })}
+</div>
+</article>
+))}
+</div>
+</main>
+<Footer />
+</body>
+</html>

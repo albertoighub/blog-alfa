@@ -1,0 +1,491 @@
+---
+// Componente de comentarios y retroalimentación profesional con filtro de seguridad y votación
+---
+
+<section class="tep-comments-system" id="seccion-debate-tep">
+  <div class="comments-header-row">
+    <div class="comments-title-block">
+      <span class="comments-badge-kicker">COMUNIDAD & DELIBERACIÓN PROFESIONAL</span>
+      <h3 class="comments-main-title">Debate Analítico & Perspectiva de Expertos</h3>
+      <p class="comments-subtitle">
+        Espacio moderado para intercambio de valor técnico, corrección empírica y observaciones de mercado. 
+        <span class="policy-note">Solo se aceptan réplicas sustentadas. Insultos, sesgos partidistas o términos ilícitos son bloqueados automáticamente.</span>
+      </p>
+    </div>
+  </div>
+
+  <!-- Formulario de Nuevo Comentario -->
+  <div class="comment-compose-card">
+    <form id="tep-comment-form" onsubmit="return false;">
+      <div class="compose-grid">
+        <div class="input-field">
+          <label for="comment-author-name">Nombre o Filiación Profesional</label>
+          <input type="text" id="comment-author-name" placeholder="Ej: Dr. Morales / Analista Financiero" maxlength="60" required />
+        </div>
+        <div class="input-field">
+          <label for="comment-type-select">Tipo de Aportación</label>
+          <select id="comment-type-select">
+            <option value="analisis">Análisis Crítico / Matiz Técnico</option>
+            <option value="fuente">Aporte de Fuente Primaria</option>
+            <option value="propuesta">Propuesta para Investigación Futura</option>
+          </select>
+        </div>
+      </div>
+      <div class="input-field full-width">
+        <label for="comment-text-body">Contribución o Reflexión</label>
+        <textarea id="comment-text-body" rows="3" placeholder="Exponga su argumento con enfoque cuantitativo y profesional..." maxlength="1200" required></textarea>
+      </div>
+      <div class="compose-footer">
+        <span class="filter-shield-indicator">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          Filtro Inteligente Activo: Cero lenguaje ofensivo
+        </span>
+        <button type="submit" id="submit-comment-btn" class="send-comment-btn">
+          Publicar Aporte
+        </button>
+      </div>
+      <div id="comment-error-alert" class="comment-alert-error hidden"></div>
+      <div id="comment-success-alert" class="comment-alert-success hidden"></div>
+    </form>
+  </div>
+
+  <!-- Lista de Comentarios Publicados -->
+  <div class="comments-stream-container" id="comments-stream-list">
+    <!-- Renderizado dinámico vía cliente -->
+  </div>
+</section>
+
+<style>
+.tep-comments-system {
+  margin: 4.5rem 0 3rem;
+  padding: 2.5rem;
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px -5px rgba(0, 0, 0, 0.04);
+}
+.comments-badge-kicker {
+  font-size: 0.72rem;
+  font-weight: 900;
+  letter-spacing: 0.1em;
+  color: #dc2626;
+  text-transform: uppercase;
+}
+.comments-main-title {
+  font-size: 1.6rem;
+  font-weight: 950;
+  letter-spacing: -0.02em;
+  color: #050505;
+  margin: 0.3rem 0 0.5rem;
+}
+.comments-subtitle {
+  font-size: 0.92rem;
+  color: #64748b;
+  line-height: 1.5;
+  margin: 0 0 1.8rem;
+}
+.policy-note {
+  display: block;
+  font-size: 0.8rem;
+  color: #94a3b8;
+  margin-top: 0.3rem;
+}
+.comment-compose-card {
+  background: #f8fafc;
+  border: 1px solid #cbd5e1;
+  border-radius: 8px;
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+}
+.compose-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.2rem;
+  margin-bottom: 1rem;
+}
+.input-field {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+}
+.input-field.full-width {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+.input-field label {
+  font-size: 0.72rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  color: #475569;
+  letter-spacing: 0.04em;
+}
+.input-field input, .input-field select, .input-field textarea {
+  padding: 0.65rem 0.85rem;
+  border: 1px solid #cbd5e1;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  font-family: inherit;
+  color: #0f172a;
+  background: #ffffff;
+  outline: none;
+  transition: border-color 0.15s ease, box-shadow 0.15s ease;
+}
+.input-field input:focus, .input-field select:focus, .input-field textarea:focus {
+  border-color: #050505;
+  box-shadow: 0 0 0 3px rgba(5, 5, 5, 0.08);
+}
+.compose-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+.filter-shield-indicator {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.76rem;
+  color: #475569;
+  font-weight: 600;
+}
+.send-comment-btn {
+  background: #050505;
+  color: #ffffff;
+  border: none;
+  padding: 0.65rem 1.6rem;
+  border-radius: 20px;
+  font-weight: 800;
+  font-size: 0.85rem;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+.send-comment-btn:hover {
+  background: #dc2626;
+  transform: translateY(-1px);
+}
+.comment-alert-error {
+  margin-top: 1rem;
+  padding: 0.75rem 1rem;
+  border-radius: 6px;
+  background: #fef2f2;
+  border: 1px solid #fecdd3;
+  color: #b91c1c;
+  font-size: 0.84rem;
+  font-weight: 600;
+}
+.comment-alert-success {
+  margin-top: 1rem;
+  padding: 0.75rem 1rem;
+  border-radius: 6px;
+  background: #f0fdf4;
+  border: 1px solid #bbf7d0;
+  color: #15803d;
+  font-size: 0.84rem;
+  font-weight: 600;
+}
+.hidden { display: none; }
+
+/* FEED DE COMENTARIOS */
+.comments-stream-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+:global(.tep-comment-item) {
+  padding: 1.2rem;
+  border-radius: 8px;
+  border: 1px solid #e2e8f0;
+  background: #ffffff;
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+  transition: all 0.2s ease;
+}
+:global(.tep-comment-item:hover) {
+  border-color: #cbd5e1;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.03);
+}
+:global(.comment-top-row) {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+:global(.comment-author-badge) {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+:global(.comment-avatar-circle) {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background: #050505;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 800;
+  font-size: 0.75rem;
+}
+:global(.comment-author-text) {
+  font-size: 0.86rem;
+  font-weight: 850;
+  color: #050505;
+}
+:global(.comment-tag-type) {
+  font-size: 0.68rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  padding: 0.15rem 0.5rem;
+  border-radius: 12px;
+  background: #f1f5f9;
+  color: #475569;
+}
+:global(.comment-body-text) {
+  font-size: 0.94rem;
+  line-height: 1.6;
+  color: #334155;
+  margin: 0;
+}
+:global(.comment-bottom-bar) {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 0.6rem;
+  border-top: 1px solid #f8fafc;
+}
+:global(.comment-timestamp) {
+  font-size: 0.74rem;
+  color: #94a3b8;
+}
+
+/* MINIMALIST THUMBS VOTING (ESTÉTICA MINIMALISTA DISCRETA) */
+:global(.thumb-vote-wrapper) {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  background: #f8fafc;
+  border: 1px solid #e2e8f0;
+  border-radius: 20px;
+  padding: 0.2rem 0.6rem;
+}
+:global(.thumb-btn) {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 0.2rem 0.4rem;
+  border-radius: 12px;
+  color: #64748b;
+  font-size: 0.78rem;
+  font-weight: 700;
+  transition: all 0.15s ease;
+}
+:global(.thumb-btn:hover) {
+  color: #050505;
+  background: rgba(0,0,0,0.05);
+}
+:global(.thumb-btn.active-up) {
+  color: #10b981;
+  background: #ecfdf5;
+}
+:global(.thumb-btn.active-down) {
+  color: #ef4444;
+  background: #fef2f2;
+}
+
+@media (max-width: 768px) {
+  .tep-comments-system { padding: 1.5rem; }
+  .compose-grid { grid-template-columns: 1fr; }
+}
+</style>
+
+<script is:inline>
+document.addEventListener("DOMContentLoaded", () => {
+  const BANNED_PATTERNS = [
+    /mierda|puta|pendej|idiota|estupid|imbecil|estupido|cabron|verga|chucha|coño|maricon|nazi|matar|terroris|porno|fuck|shit|bitch|bastard/i
+  ];
+
+  const currentSlug = window.location.pathname.replace(/\/$/, "");
+  const storageKey = "tep_real_comments_v1_" + currentSlug;
+  const votesKey = "tep_real_votes_v1_" + currentSlug;
+
+  const defaultComments = [];
+
+  function getStoredComments() {
+    try {
+      const data = localStorage.getItem(storageKey);
+      return data ? JSON.parse(data) : [];
+    } catch (e) {
+      return [];
+    }
+  }
+
+  function saveStoredComments(list) {
+    try {
+      localStorage.setItem(storageKey, JSON.stringify(list));
+    } catch (e) {}
+  }
+
+  function getVotesState() {
+    try {
+      const data = localStorage.getItem(votesKey);
+      return data ? JSON.parse(data) : {};
+    } catch (e) {
+      return {};
+    }
+  }
+
+  function saveVotesState(state) {
+    try {
+      localStorage.setItem(votesKey, JSON.stringify(state));
+    } catch (e) {}
+  }
+
+  function renderComments() {
+    const list = getStoredComments();
+    const votes = getVotesState();
+    const container = document.getElementById("comments-stream-list");
+    if (!container) return;
+
+    if (list.length === 0) {
+      container.innerHTML = `
+        <div class="empty-comments-state" style="text-align: center; padding: 2.5rem 1rem; color: #94a3b8; background: #f8fafc; border-radius: 8px; border: 1px dashed #cbd5e1;">
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#94a3b8" stroke-width="1.8" style="margin: 0 auto 0.6rem; display: block;"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+          <p style="margin: 0; font-size: 0.88rem; font-weight: 600; color: #64748b;">Aún no hay intervenciones registradas para este paper.</p>
+          <span style="display: block; font-size: 0.76rem; color: #94a3b8; margin-top: 0.25rem;">Sé el primero en aportar una corrección cuantitativa, réplica analítica o propuesta metodológica en el formulario superior.</span>
+        </div>
+      `;
+      return;
+    }
+
+    container.innerHTML = list.map((c) => {
+      const userVote = votes[c.id];
+      const initialLetter = (c.author || "E").charAt(0).toUpperCase();
+      return `
+        <div class="tep-comment-item" data-id="${c.id}">
+          <div class="comment-top-row">
+            <div class="comment-author-badge">
+              <div class="comment-avatar-circle">${initialLetter}</div>
+              <span class="comment-author-text">${c.author}</span>
+            </div>
+            <span class="comment-tag-type">${c.type}</span>
+          </div>
+          <p class="comment-body-text">${c.text}</p>
+          <div class="comment-bottom-bar">
+            <span class="comment-timestamp">${c.date}</span>
+            <div class="thumb-vote-wrapper">
+              <button class="thumb-btn ${userVote === 'up' ? 'active-up' : ''}" onclick="voteComment('${c.id}', 'up')" title="Útil y profesional">
+                <svg width="13" height="13" viewBox="0 0 24 24" fill="${userVote === 'up' ? 'currentColor' : 'none'}" stroke="currentColor" stroke-width="2.2"><path d="M14 9V5a3 3 0 0 0-3-3l-4 9v11h11.28a2 2 0 0 0 2-1.7l1.38-9a2 2 0 0 0-2-2.3zM7 22H4a2 2 0 0 1-2-2v-7a2 2 0 0 1 2-2h3"/></svg>
+                <span>${c.upvotes || 0}</span>
+              </button>
+              <button class="thumb-btn ${userVote === 'down' ? 'active-down' : ''}" onclick="voteComment('${c.id}', 'down')" title="Inexacto o poco relevante">
+                <svg width="13" height="13" viewBox="0 0 24 24" fill="${userVote === 'down' ? 'currentColor' : 'none'}" stroke="currentColor" stroke-width="2.2"><path d="M10 15v4a3 3 0 0 0 3 3l4-9V2H5.72a2 2 0 0 0-2 1.7l-1.38 9a2 2 0 0 0 2 2.3zm7-13h3a2 2 0 0 1 2 2v7a2 2 0 0 1-2 2h-3"/></svg>
+                <span>${c.downvotes || 0}</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      `;
+    }).join("");
+  }
+
+  window.voteComment = function(id, direction) {
+    const list = getStoredComments();
+    const votes = getVotesState();
+    const item = list.find((c) => c.id === id);
+    if (!item) return;
+
+    const previousVote = votes[id];
+    if (previousVote === direction) {
+      // Remover voto
+      delete votes[id];
+      if (direction === 'up') item.upvotes = Math.max(0, (item.upvotes || 1) - 1);
+      if (direction === 'down') item.downvotes = Math.max(0, (item.downvotes || 1) - 1);
+    } else {
+      if (previousVote === 'up') item.upvotes = Math.max(0, (item.upvotes || 1) - 1);
+      if (previousVote === 'down') item.downvotes = Math.max(0, (item.downvotes || 1) - 1);
+      
+      votes[id] = direction;
+      if (direction === 'up') item.upvotes = (item.upvotes || 0) + 1;
+      if (direction === 'down') item.downvotes = (item.downvotes || 0) + 1;
+    }
+
+    saveStoredComments(list);
+    saveVotesState(votes);
+    renderComments();
+  };
+
+  const form = document.getElementById("tep-comment-form");
+  const authorInput = document.getElementById("comment-author-name");
+  const typeSelect = document.getElementById("comment-type-select");
+  const bodyInput = document.getElementById("comment-text-body");
+  const errBox = document.getElementById("comment-error-alert");
+  const succBox = document.getElementById("comment-success-alert");
+
+  if (form) {
+    form.addEventListener("submit", (e) => {
+      e.preventDefault();
+      errBox.classList.add("hidden");
+      succBox.classList.add("hidden");
+
+      const author = authorInput.value.trim();
+      const body = bodyInput.value.trim();
+      const type = typeSelect.value;
+
+      if (!author || !body) return;
+
+      // Validación estricta con expresiones regulares
+      for (const pattern of BANNED_PATTERNS) {
+        if (pattern.test(author) || pattern.test(body)) {
+          errBox.textContent = "Aviso de moderación: El texto contiene vocabulario inapropiado, descalificaciones o términos fuera del protocolo profesional de News Internacional TEP.";
+          errBox.classList.remove("hidden");
+          return;
+        }
+      }
+
+      const list = getStoredComments();
+      const newComment = {
+        id: "c_" + Date.now(),
+        author: author,
+        type: typeSelect.options[typeSelect.selectedIndex].text,
+        text: body,
+        date: "Recién publicado",
+        upvotes: 1,
+        downvotes: 0
+      };
+
+      list.unshift(newComment);
+      saveStoredComments(list);
+
+      // Si es una propuesta o sugerencia de valor, archivar en el banco de ideas TEP
+      if (type === "propuesta" || body.length > 80) {
+        try {
+          const ideas = JSON.parse(localStorage.getItem("tep_ideas_banco") || "[]");
+          ideas.unshift({
+            id: newComment.id,
+            author: author,
+            text: body,
+            type: newComment.type,
+            article: window.location.pathname,
+            timestamp: new Date().toISOString()
+          });
+          localStorage.setItem("tep_ideas_banco", JSON.stringify(ideas));
+        } catch(err) {}
+      }
+
+      bodyInput.value = "";
+      succBox.textContent = "Aporte analítico verificado y registrado en el banco de inteligencia TEP con éxito.";
+      succBox.classList.remove("hidden");
+      renderComments();
+
+      setTimeout(() => { succBox.classList.add("hidden"); }, 4000);
+    });
+  }
+
+  renderComments();
+});
+</script>

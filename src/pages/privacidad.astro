@@ -1,0 +1,48 @@
+﻿---
+import BaseHead from '../components/BaseHead.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+---
+
+<!doctype html>
+<html lang="es">
+<head>
+<BaseHead title="Aviso de Privacidad | News Internacional TEP" description="Política de protección de datos y cookies." />
+<style>
+:global(body) { background-color: #f8fafc; color: #0f172a; font-family: system-ui, sans-serif; }
+main { max-width: 860px; margin: 0 auto; padding: 3rem 1rem 6rem; }
+.legal-header { border-bottom: 2px solid #0f172a; padding-bottom: 1.5rem; margin-bottom: 2.5rem; }
+.kicker { font-size: 0.8rem; font-weight: 900; color: #1e3a8a; text-transform: uppercase; letter-spacing: 0.1em; }
+.title { font-size: clamp(2.2rem, 4vw, 3rem); font-weight: 900; margin: 0.5rem 0 0; letter-spacing: -0.03em; }
+.prose { font-size: 1.15rem; line-height: 1.8; color: #1e293b; }
+.prose h2 { font-size: 1.6rem; font-weight: 800; margin-top: 2.5rem; margin-bottom: 1rem; border-bottom: 1px solid #e2e8f0; padding-bottom: 0.5rem; }
+.prose p { margin-bottom: 1.5rem; }
+</style>
+</head>
+<body>
+<Header />
+<main>
+<header class="legal-header">
+<span class="kicker">LEGAL Y PROTECCIÓN DE DATOS</span>
+<h1 class="title">Aviso de Privacidad</h1>
+</header>
+<div class="prose">
+<p>Este documento regula el tratamiento de datos personales en el portal <strong>News Internacional TEP</strong>, en cumplimiento con los estándares internacionales de protección de la información (GDPR, CCPA).</p>
+
+<h2>1. Recopilación de Información</h2>
+<p>La plataforma está diseñada como una herramienta de lectura abierta. No exigimos creación de cuentas, inicio de sesión ni recabamos nombres o correos electrónicos de forma directa. La única vinculación externa se realiza de forma voluntaria a través de nuestro canal de Telegram, sujeto a las políticas de privacidad de dicha aplicación.</p>
+
+<h2>2. Uso de Cookies (Analytics y AdSense)</h2>
+<p>Para financiar y optimizar la infraestructura de monitoreo, implementamos tecnologías de seguimiento estándar:</p>
+<ul>
+<li><strong>Cookies de rendimiento:</strong> Utilizadas para medir el tráfico agregado de lectura.</li>
+<li><strong>Cookies de terceros (Google AdSense):</strong> Los proveedores asociados pueden utilizar cookies para mostrar anuncios relevantes basados en las visitas previas de un usuario a este u otros sitios web.</li>
+</ul>
+
+<h2>3. Derechos del Usuario</h2>
+<p>Cualquier usuario puede desactivar el uso de cookies personalizadas a través de la configuración de su navegador web o accediendo a las herramientas de exclusión de publicidad de Google (Ads Settings).</p>
+</div>
+</main>
+<Footer />
+</body>
+</html>

@@ -1,0 +1,64 @@
+---
+import BaseHead from '../components/BaseHead.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+---
+
+<!doctype html>
+<html lang="es">
+<head>
+<BaseHead title="Línea Editorial (E-E-A-T) | News Internacional TEP" description="Metodología periodística, rigor analítico y manifiesto editorial." />
+<style>
+:global(body) { background-color: #f8fafc; color: #0f172a; font-family: system-ui, sans-serif; }
+main { max-width: 860px; margin: 0 auto; padding: 3rem 1rem 6rem; }
+.legal-header { border-bottom: 2px solid #0f172a; padding-bottom: 1.5rem; margin-bottom: 2.5rem; }
+.kicker { font-size: 0.8rem; font-weight: 900; color: #1e3a8a; text-transform: uppercase; letter-spacing: 0.1em; }
+.title { font-size: clamp(2.2rem, 4vw, 3rem); font-weight: 900; margin: 0.5rem 0 0; letter-spacing: -0.03em; }
+.prose { font-size: 1.15rem; line-height: 1.8; color: #1e293b; }
+.prose h2 { font-size: 1.6rem; font-weight: 800; margin-top: 2.5rem; margin-bottom: 1rem; border-bottom: 1px solid #e2e8f0; padding-bottom: 0.5rem; }
+.prose h3 { font-size: 1.25rem; font-weight: 700; margin-top: 1.5rem; margin-bottom: 0.5rem; }
+.prose p { margin-bottom: 1.5rem; }
+.prose ul { margin-bottom: 1.5rem; padding-left: 1.5rem; }
+.prose li { margin-bottom: 0.5rem; }
+</style>
+</head>
+<body>
+<Header />
+<main>
+<header class="legal-header">
+<span class="kicker">MANIFIESTO INSTITUCIONAL</span>
+<h1 class="title">Línea Editorial & Transparencia (E-E-A-T)</h1>
+</header>
+<div class="prose">
+<p><strong>News Internacional TEP</strong> nació como una iniciativa editorial y tecnológica independiente con una misión innegociable: <strong>desafiar el monopolio informativo de los conglomerados mediáticos tradicionales</strong>. Frente al sensacionalismo degradado y las agendas corporativas opacas, TEP ofrece inteligencia prospectiva, rigurosidad econométrica y análisis estructural amoral de alta fidelidad.</p>
+
+<h2>Misión: Desafiar el Monopolio Informativo</h2>
+<p>El ecosistema mediático global contemporáneo padece de dos distorsiones sistémicas: la censura partidista y la trivialización clickbait. News Internacional TEP combina modelos de computación avanzada, ingestión de fuentes primarias y curaduría de estándar académico (MIT y Harvard) para desglosar la realidad sin filtros: desde macroeconomía y semiconductores hasta medicina de frontera y fenómenos sociológicos de alto impacto en redes sociales.</p>
+
+<h2>Campos Estratégicos de Cobertura</h2>
+<ul>
+<li><strong>Política & Orden Global:</strong> Dinámicas de balance de poder, tratados bilaterales, conflictos y reconfiguración diplomática.</li>
+<li><strong>Economía, Mercados & Finanzas:</strong> Liquidez de bancos centrales, tipos de interés, renta fija, commodities y deuda soberana.</li>
+<li><strong>Tecnología & IA:</strong> Semiconductores, centros de datos, computación cuántica y agentes autónomos.</li>
+<li><strong>Ciencia & Medicina:</strong> Innovación biotecnológica, oncología, neurociencias y salud pública global con evidencia empírica.</li>
+<li><strong>Tendencias & Redes Sociales:</strong> Radiografía cautelosa y rigurosa de los fenómenos virales, debates públicos y polémicas digitales que mueven a las masas.</li>
+</ul>
+
+<h2>Apoyo y Financiamiento Independiente (Donaciones)</h2>
+<p>Para garantizar nuestra absoluta independencia editorial, cero subordinación a lobbies corporativos y el mantenimiento de la infraestructura técnica de inteligencia artificial, este proyecto es impulsado y dirigido de forma soberana por su fundador y desarrollador principal.</p>
+
+<div style="background: linear-gradient(135deg, #050505 0%, #1e1b4b 100%); color: #ffffff; padding: 2.2rem; border-radius: 12px; margin: 2.5rem 0; border: 1px solid #312e81; text-align: center; box-shadow: 0 10px 25px -5px rgba(0,0,0,0.3);">
+  <h3 style="color: #ffffff; margin-top: 0; font-size: 1.4rem;">Apoya la Investigación Soberana e Independiente</h3>
+  <p style="color: #cbd5e1; font-size: 0.95rem; max-width: 600px; margin: 0.5rem auto 1.8rem; line-height: 1.6;">
+    Tu contribución directa permite expandir los servidores de análisis, la ingesta de cables de datos internacionales y el desarrollo de nuevas herramientas analíticas libres de censura mediática.
+  </p>
+  <a href="https://paypal.me/newsinternacional" target="_blank" rel="noopener noreferrer" style="display: inline-flex; align-items: center; gap: 10px; background: #0070ba; color: #ffffff; text-decoration: none; padding: 0.85rem 2rem; border-radius: 30px; font-weight: 800; font-size: 1rem; transition: transform 0.2s ease, background 0.2s ease; box-shadow: 0 4px 15px rgba(0,112,186,0.4);" onmouseover="this.style.background='#005ea6'; this.style.transform='translateY(-2px)'" onmouseout="this.style.background='#0070ba'; this.style.transform='translateY(0)'">
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M7.076 21.337H2.47a.641.641 0 0 1-.633-.74L4.944 3.72a.784.784 0 0 1 .773-.654h6.708c3.085 0 5.378.673 6.46 2.054 1.01 1.288 1.136 3.03.364 5.318-.847 2.496-2.585 4.14-5.027 4.755a10.02 10.02 0 0 1-2.518.293H9.27a.936.936 0 0 0-.924.786l-.837 5.065h-.433z"/></svg>
+    Donar vía PayPal Oficial (newsinternacional)
+  </a>
+</div>
+</div>
+</main>
+<Footer />
+</body>
+</html>

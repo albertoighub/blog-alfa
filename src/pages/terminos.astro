@@ -1,0 +1,55 @@
+---
+import BaseHead from '../components/BaseHead.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+---
+
+<!doctype html>
+<html lang="es">
+<head>
+<BaseHead title="Términos de Servicio | News Internacional TEP" description="Condiciones de uso de la plataforma." />
+<style>
+:global(body) { background-color: #f8fafc; color: #0f172a; font-family: system-ui, sans-serif; }
+main { max-width: 860px; margin: 0 auto; padding: 3rem 1rem 6rem; }
+.legal-header { border-bottom: 2px solid #0f172a; padding-bottom: 1.5rem; margin-bottom: 2.5rem; }
+.kicker { font-size: 0.8rem; font-weight: 900; color: #1e3a8a; text-transform: uppercase; letter-spacing: 0.1em; }
+.title { font-size: clamp(2.2rem, 4vw, 3rem); font-weight: 900; margin: 0.5rem 0 0; letter-spacing: -0.03em; }
+.prose { font-size: 1.15rem; line-height: 1.8; color: #1e293b; }
+.prose h2 { font-size: 1.6rem; font-weight: 800; margin-top: 2.5rem; margin-bottom: 1rem; border-bottom: 1px solid #e2e8f0; padding-bottom: 0.5rem; }
+.prose p { margin-bottom: 1.5rem; }
+</style>
+</head>
+<body>
+<Header />
+<main>
+<header class="legal-header">
+<span class="kicker">LEGAL Y PROTECCIÓN DE DATOS</span>
+<h1 class="title">Términos de Servicio</h1>
+</header>
+<div class="prose">
+<h2>1. Naturaleza del Servicio y Objeto Informativo</h2>
+<p><strong>News Internacional TEP</strong> es una plataforma de análisis estratégico, prospección cuantitativa e inteligencia editorial global. El acceso, navegación y uso continuado del sitio web atribuye inequívocamente la condición de usuario e implica la aceptación irrestricta de la totalidad de las cláusulas aquí estipuladas.</p>
+
+<h2>2. Exención Total y Descargo de Responsabilidad Financiera, Legal y Médica</h2>
+<p><strong>NINGÚN CONTENIDO PUBLICADO CONSTITUYE ASESORÍA FINANCIERA, JURÍDICA, FISCAL, DE INVERSIÓN NI MÉDICA.</strong> Las cotizaciones bursátiles, indicadores de divisas, proyecciones econométricas, artículos de ciencia, biotecnología o medicina se difunden estrictamente con propósitos periodísticos, académicos y de divulgación prospectiva.</p>
+<p>El usuario reconoce y acepta de manera expresa que cualquier decisión de inversión patrimonial, transacción comercial, tratamiento de salud o posicionamiento jurídico adoptado con base en la lectura de este sitio es asumida <strong>bajo su exclusivo y total riesgo</strong>. News Internacional TEP, sus fundadores, directores, colaboradores y algoritmos automatizados quedan exonerados de cualquier responsabilidad por pérdidas de capital, daños emergentes o perjuicios directos o indirectos.</p>
+
+<h2>3. Descargo sobre Contenidos de Tendencias, Fenómenos Virales y Redes Sociales</h2>
+<p>Las investigaciones y coberturas sobre fenómenos de alto revuelo, narrativas de internet o controversias digitales se conducen bajo la doctrina de libertad de prensa y análisis del comportamiento colectivo. News Internacional TEP no se responsabiliza por las expresiones, afirmaciones o conductas de terceros en redes sociales que sean objeto de crónica o estudio sociológico.</p>
+
+<h2>4. Política de Moderación y Exención de Responsabilidad en Comentarios de Usuarios</h2>
+<p>La plataforma pone a disposición de la comunidad módulos interactivos de comentarios y votación por pulgares. Los comentarios expresan única y exclusivamente la postura particular del usuario emisor, sin que News Internacional TEP comparta o avale dichas opiniones. Queda terminantemente prohibida la publicación de insultos, difamación, incitación a la violencia, discursos de odio o contenido ilícito. La dirección del sitio se reserva el derecho absoluto de filtrar, suspender o suprimir cualquier mensaje que vulnere estas directrices sin previo aviso.</p>
+
+<h2>5. Propiedad Intelectual, Licencias y Citas</h2>
+<p>Los textos, estructuras de síntesis, algoritmos de curaduría y diseños visuales son titularidad de News Internacional TEP. Se autoriza la cita académica y difusión pública bajo la condición ineludible de otorgar el debido crédito bibliográfico mediante enlace hipertextual directo a la publicación fuente.</p>
+
+<h2>6. Publicidad Programática y Servicios de Terceros (Google AdSense)</h2>
+<p>Este sitio exhibe espacios publicitarios gestionados por redes programáticas de terceros (incluyendo Google AdSense). News Internacional TEP no controla ni garantiza la exactitud de los bienes o servicios promovidos por anunciantes externos, rigiéndose dichas interacciones por las políticas de privacidad de los respectivos proveedores publicitarios.</p>
+
+<h2>7. Jurisdicción y Resolución de Conflictos</h2>
+<p>Para la resolución de cualquier controversia jurídica derivada del uso de este portal, las partes convienen someterse expresamente a los mecanismos de arbitraje internacional y la legislación aplicable con renuncia expresa a cualquier otro fuero que pudiera corresponderles.</p>
+</div>
+</main>
+<Footer />
+</body>
+</html>

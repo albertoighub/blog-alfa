@@ -1,0 +1,142 @@
+---
+const today = new Date();
+---
+
+<footer class="tep-global-footer">
+<div class="footer-wrap">
+<div class="footer-brand">
+<div class="footer-logo-row">
+<img 
+src="/logo.png" 
+alt="TEP NEWS" 
+class="footer-emblem" 
+width="42" 
+height="42" 
+loading="lazy" 
+onerror="if(!this.dataset.retry){this.dataset.retry=1;this.src='/logo.jpg';}else if(this.dataset.retry==1){this.dataset.retry=2;this.src='/Logo.jpg';}else if(this.dataset.retry==2){this.dataset.retry=3;this.src='/Logo.png';}"
+/>
+<h3 class="footer-title">NEWS INTERNATIONAL <span class="footer-badge">TEP</span></h3>
+</div>
+<p class="footer-mission">
+Global scientific journal and intelligence platform focused on structural research, quantitative market analytics, and technological sovereignty free of media bias.
+</p>
+<p class="footer-copy">&copy; {today.getFullYear()} News International TEP. All rights reserved.</p>
+</div>
+
+<div class="footer-links-col">
+<h4 class="col-heading">FIELDS OF COVERAGE</h4>
+<ul>
+<li><a href="/category/geopolitics" class="link-geo">Politics & Global Order</a></li>
+<li><a href="/category/economy" class="link-econ">Economy & Financial Markets</a></li>
+<li><a href="/category/technology" class="link-tech">Technology & AI</a></li>
+<li><a href="/category/science" style="color: #06b6d4;">Science & Precision Medicine</a></li>
+<li><a href="/category/trends" style="color: #ec4899;">Social Media & Viral Trends</a></li>
+</ul>
+</div>
+
+<div class="footer-links-col">
+<h4 class="col-heading">INSTITUTIONAL & SUPPORT</h4>
+<ul>
+<li><a href="/about">About Us & Editorial Standards</a></li>
+<li><a href="/terms">Terms and Conditions</a></li>
+<li><a href="/privacy">Privacy Policy</a></li>
+<li><a href="https://paypal.me/newsinternacional" target="_blank" rel="noopener noreferrer" style="color: #38bdf8; font-weight: 800;">Donate via PayPal (Founder)</a></li>
+<li><a href="https://newsinternacionaltep.com" target="_blank" rel="noopener noreferrer">Spanish Edition (newsinternacionaltep.com)</a></li>
+</ul>
+</div>
+</div>
+</footer>
+
+<style>
+.tep-global-footer {
+background: #050505;
+color: #94a3b8;
+border-top: 3px solid #dc2626;
+padding: 4rem 1rem 3rem;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+.footer-wrap {
+max-width: 1580px;
+width: 94%;
+margin: 0 auto;
+display: grid;
+grid-template-columns: 2fr 1fr 1fr;
+gap: 3.5rem;
+}
+.footer-logo-row {
+display: flex;
+align-items: center;
+gap: 0.9rem;
+margin-bottom: 0.9rem;
+}
+.footer-emblem {
+border-radius: 50%;
+border: 1px solid #1f2937;
+background: #050505;
+object-fit: cover;
+}
+.footer-title {
+font-size: 1.35rem;
+font-weight: 950;
+color: #ffffff;
+letter-spacing: -0.02em;
+margin: 0;
+}
+.footer-badge {
+color: #ffffff;
+background: #dc2626;
+padding: 0 0.4rem;
+border-radius: 3px;
+font-size: 1.1rem;
+}
+.footer-mission {
+font-size: 0.88rem;
+line-height: 1.65;
+max-width: 480px;
+margin: 0 0 1.2rem;
+color: #94a3b8;
+}
+.footer-copy {
+font-size: 0.78rem;
+color: #64748b;
+margin: 0;
+}
+.col-heading {
+font-size: 0.74rem;
+font-weight: 900;
+color: #ffffff;
+letter-spacing: 0.1em;
+text-transform: uppercase;
+margin: 0 0 1rem;
+border-bottom: 1px solid #1f2937;
+padding-bottom: 0.4rem;
+}
+.footer-links-col ul {
+list-style: none;
+padding: 0;
+margin: 0;
+}
+.footer-links-col li {
+margin-bottom: 0.65rem;
+}
+.footer-links-col a {
+color: #cbd5e1;
+text-decoration: none;
+font-size: 0.85rem;
+font-weight: 600;
+transition: color 0.15s ease;
+}
+.footer-links-col a:hover {
+color: #dc2626;
+}
+.footer-links-col .link-tech:hover { color: #2563eb; }
+.footer-links-col .link-econ:hover { color: #059669; }
+.footer-links-col .link-geo:hover  { color: #dc2626; }
+
+@media (max-width: 768px) {
+.footer-wrap {
+grid-template-columns: 1fr;
+gap: 2rem;
+}
+}
+</style>

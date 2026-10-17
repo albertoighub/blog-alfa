@@ -1,0 +1,68 @@
+---
+import BaseHead from '../components/BaseHead.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import { SITE_TITLE } from '../consts';
+---
+
+<!doctype html>
+<html lang="es">
+	<head>
+		<BaseHead title={`Política de Privacidad | ${SITE_TITLE}`} description="Políticas de privacidad y tratamiento de datos de News Internacional TEP." />
+		<style>
+			main {
+				width: 960px;
+				max-width: calc(100% - 2em);
+				margin: auto;
+				padding: 2em 1em;
+				line-height: 1.6;
+			}
+			h1 {
+				margin-bottom: 1rem;
+			}
+			h2 {
+				margin-top: 1.8rem;
+				font-size: 1.4rem;
+			}
+		</style>
+	</head>
+	<body>
+		<Header />
+		<main>
+			<h1>Política de Privacidad</h1>
+			<p>Última actualización: 12 de octubre de 2026</p>
+
+			<section>
+				<h2>1. Identidad y Propósito del Sitio</h2>
+				<p>
+					News Internacional TEP es un portal de análisis e información independiente enfocado en acontecimientos globales de tecnología, economía y política internacional. Valoramos y respetamos la privacidad de nuestros usuarios y nos comprometemos a proteger los datos personales recopilados durante la navegación.
+				</p>
+			</section>
+
+			<section>
+				<h2>2. Recopilación y Uso de Cookies Publicitarias (Google AdSense)</h2>
+				<p>
+					Este sitio web puede utilizar proveedores externos, incluido <strong>Google</strong>, que emplean cookies para publicar anuncios basados en las visitas previas del usuario a este u otros sitios web en Internet.
+				</p>
+				<p>
+					El uso de cookies publicitarias permite a Google y a sus socios mostrar anuncios a los visitantes en función de sus intereses legítimos de navegación. Los usuarios pueden inhabilitar la publicidad personalizada accediendo a la <a href="https://www.google.com/settings/ads" target="_blank" rel="noopener noreferrer">Configuración de anuncios de Google</a>.
+				</p>
+			</section>
+
+			<section>
+				<h2>3. Datos de Registro y Analítica</h2>
+				<p>
+					Al igual que la mayoría de plataformas web, recopilamos información estadística no identificable que los navegadores envían automáticamente (direcciones IP, tipo de navegador, páginas de referencia/salida y sellos de fecha/hora) con el único fin de analizar tendencias técnicas y optimizar el rendimiento del sitio.
+				</p>
+			</section>
+
+			<section>
+				<h2>4. Enlaces a Fuentes Externas</h2>
+				<p>
+					Nuestros artículos contienen enlaces a fuentes informativas primarias y medios de comunicación oficiales. News Internacional TEP no se responsabiliza de las prácticas de privacidad ni del contenido alojado en sitios de terceros.
+				</p>
+			</section>
+		</main>
+		<Footer />
+	</body>
+</html>

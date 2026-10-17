@@ -1,0 +1,529 @@
+---
+import { getCollection } from 'astro:content';
+import BaseHead from '../../components/BaseHead.astro';
+import Header from '../../components/Header.astro';
+import Footer from '../../components/Footer.astro';
+
+export async function getStaticPaths() {
+const allPosts = await getCollection('blog');
+
+const categories = [
+{
+slug: 'technology',
+label: 'Technology & Artificial Intelligence',
+desc: 'Semiconductor monitoring, quantum computing, hyperscale data centers, and frontier algorithmic development.',
+accentColor: '#2563eb',
+bgHero: 'linear-gradient(135deg, #050505 0%, #0a1228 100%)',
+tags: ['Semiconductors', 'Frontier Models', 'Cyber Defense', 'Quantum Computing'],
+iconType: 'tech',
+match: ['tecnología', 'tecnologia', 'ia', 'inteligencia', 'tech', 'technology', 'ai', 'software', 'hardware']
+},
+{
+slug: 'economy',
+label: 'Economy, Financial Markets & Forecasting',
+desc: 'Global liquidity tracking, central bank policies, fixed income, critical commodities, and sovereign debt.',
+accentColor: '#059669',
+bgHero: 'linear-gradient(135deg, #050505 0%, #04140d 100%)',
+tags: ['Central Banks', 'Equities', 'Commodities', 'Sovereign Debt'],
+iconType: 'finance',
+match: ['economía', 'economia', 'mercados', 'finanzas', 'economy', 'markets', 'finance', 'inflation']
+},
+{
+slug: 'geopolitics',
+label: 'Politics & Global Security Architecture',
+desc: 'Power balance assessment, Euro-Atlantic security, multilateral treaties, naval chokepoints, and sanctions.',
+accentColor: '#dc2626',
+bgHero: 'linear-gradient(135deg, #050505 0%, #1a0505 100%)',
+tags: ['Collective Security', 'Indo-Pacific', 'Hybrid Warfare', 'Sanctions'],
+iconType: 'geopolitics',
+match: ['política', 'politica', 'geopolítica', 'geopolitica', 'politics', 'geopolitics', 'defense', 'diplomacy']
+},
+{
+slug: 'science',
+label: 'Frontier Science & Precision Medicine',
+desc: 'Biomedical discoveries, neurobiology, molecular oncology, public health, and verifiable scientific milestones.',
+accentColor: '#06b6d4',
+bgHero: 'linear-gradient(135deg, #050505 0%, #082f49 100%)',
+tags: ['Biotechnology', 'Molecular Medicine', 'Public Health', 'Neuroscience'],
+iconType: 'science',
+match: ['ciencia', 'medicina', 'salud', 'biotecnología', 'science', 'medicine', 'health', 'cancer', 'vaccines']
+},
+{
+slug: 'trends',
+label: 'Social Media & High-Impact Digital Dynamics',
+desc: 'Critical, rigorous, and unfiltered analysis of viral trends, platform algorithms, and mass collective behavior.',
+accentColor: '#ec4899',
+bgHero: 'linear-gradient(135deg, #050505 0%, #500724 100%)',
+tags: ['Digital Culture', 'Viral Phenomena', 'Public Discourse', 'Platforms'],
+iconType: 'trends',
+match: ['tendencias', 'redes', 'viral', 'trends', 'social media', 'digital', 'audiences']
+},
+];
+
+return categories.map((cat) => {
+const filteredPosts = allPosts
+.filter((post) => {
+const postCat = (post.data.category || '').toLowerCase();
+return cat.match.some((m) => postCat.includes(m));
+})
+.sort((a, b) => {
+  const diff = new Date(b.data.pubDate).valueOf() - new Date(a.data.pubDate).valueOf();
+  if (diff !== 0) return diff;
+  return (b.slug ?? b.id ?? '').localeCompare(a.slug ?? a.id ?? '');
+});
+
+return {
+params: { categoria: cat.slug },
+props: { meta: cat, posts: filteredPosts },
+};
+});
+}
+
+const { meta, posts } = Astro.props;
+const leadStory = posts[0];
+const otherStories = posts.slice(1);
+---
+
+<!doctype html>
+<html lang="en">
+<head>
+<BaseHead
+title={meta.label + " | News International TEP"}
+description={meta.desc}
+/>
+<style define:vars={{
+accent: meta.accentColor,
+bgHero: meta.bgHero
+}}>
+:global(body) { margin: 0 !important; padding: 0 !important; width: 100vw !important; max-width: 100% !important; overflow-x: hidden !important;
+background-color: #f8fafc;
+color: #050505;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+main {
+max-width: 1580px;
+width: 94%;
+margin: 0 auto;
+padding: 2rem 0 6rem;
+}
+
+/* BANNER HORIZONTAL */
+.section-header-banner {
+background: var(--bgHero);
+color: #ffffff;
+border-left: 6px solid var(--accent);
+border-radius: 8px;
+padding: 1.6rem 2.2rem;
+margin-bottom: 3.5rem;
+display: flex;
+align-items: center;
+gap: 2rem;
+box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.4);
+width: 100%;
+box-sizing: border-box;
+min-height: 120px;
+}
+
+.banner-side-icon {
+width: 72px;
+height: 72px;
+border-radius: 12px;
+background: rgba(255, 255, 255, 0.08);
+border: 1px solid rgba(255, 255, 255, 0.15);
+display: flex;
+align-items: center;
+justify-content: center;
+color: var(--accent);
+flex-shrink: 0;
+}
+.icon-currency-sign {
+font-size: 2.8rem;
+font-weight: 900;
+font-family: system-ui, sans-serif;
+color: #10b981;
+}
+
+.banner-content-body {
+flex: 1;
+display: flex;
+flex-direction: column;
+justify-content: center;
+}
+.banner-badge-indicator {
+display: inline-flex;
+align-items: center;
+gap: 6px;
+font-size: 0.7rem;
+font-weight: 900;
+text-transform: uppercase;
+letter-spacing: 0.12em;
+color: var(--accent);
+margin-bottom: 0.35rem;
+}
+.live-pulse-dot {
+width: 6px;
+height: 6px;
+border-radius: 50%;
+background: var(--accent);
+box-shadow: 0 0 8px var(--accent);
+animation: pulseDot 1.4s infinite ease-in-out;
+}
+@keyframes pulseDot {
+0%, 100% { opacity: 0.4; transform: scale(0.9); }
+50% { opacity: 1; transform: scale(1.2); }
+}
+
+.banner-title-text {
+font-size: 2.4rem;
+font-weight: 950;
+letter-spacing: -0.03em;
+margin: 0 0 0.4rem;
+color: #ffffff;
+line-height: 1.1;
+}
+.banner-desc-text {
+font-size: 0.95rem;
+color: #cbd5e1;
+line-height: 1.5;
+margin: 0;
+max-width: 850px;
+}
+
+.category-tags-row {
+display: flex;
+flex-wrap: wrap;
+gap: 0.5rem;
+margin-top: 0.8rem;
+}
+.tag-badge-item {
+background: rgba(255, 255, 255, 0.08);
+border: 1px solid rgba(255, 255, 255, 0.15);
+color: #f1f5f9;
+font-size: 0.72rem;
+font-weight: 800;
+padding: 0.2rem 0.6rem;
+border-radius: 4px;
+text-transform: uppercase;
+letter-spacing: 0.05em;
+}
+
+/* PORTADA PRINCIPAL / LEAD STORY */
+.category-lead-card {
+background: #ffffff;
+border: 1px solid #e2e8f0;
+border-radius: 8px;
+overflow: hidden;
+margin-bottom: 3.5rem;
+display: grid;
+grid-template-columns: 1.3fr 1fr;
+box-shadow: 0 4px 20px -2px rgba(0, 0, 0, 0.05);
+transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.category-lead-card:hover {
+transform: translateY(-3px);
+box-shadow: 0 12px 30px -4px rgba(0, 0, 0, 0.08);
+border-color: #cbd5e1;
+}
+.lead-card-content {
+padding: 2.5rem;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+}
+.lead-card-tag {
+font-size: 0.75rem;
+font-weight: 900;
+color: var(--accent);
+text-transform: uppercase;
+letter-spacing: 0.1em;
+margin-bottom: 0.5rem;
+}
+.lead-card-title {
+font-size: 2rem;
+font-weight: 950;
+line-height: 1.2;
+letter-spacing: -0.02em;
+margin: 0 0 1rem;
+color: #050505;
+}
+.lead-card-title a {
+color: inherit;
+text-decoration: none;
+transition: color 0.15s ease;
+}
+.lead-card-title a:hover {
+color: var(--accent);
+}
+.lead-card-desc {
+font-size: 1rem;
+line-height: 1.6;
+color: #475569;
+margin-bottom: 1.5rem;
+display: -webkit-box;
+-webkit-line-clamp: 4;
+-webkit-box-orient: vertical;
+overflow: hidden;
+}
+.lead-card-meta {
+font-size: 0.8rem;
+font-weight: 700;
+color: #94a3b8;
+display: flex;
+align-items: center;
+gap: 0.8rem;
+border-top: 1px solid #f1f5f9;
+padding-top: 1.2rem;
+}
+.lead-card-img-wrap {
+width: 100%;
+height: 100%;
+min-height: 380px;
+background: #0f172a;
+overflow: hidden;
+}
+.lead-card-img {
+width: 100%;
+height: 100%;
+object-fit: cover;
+transition: transform 0.4s ease;
+}
+.category-lead-card:hover .lead-card-img {
+transform: scale(1.03);
+}
+
+/* REJILLA DE ARTÍCULOS */
+.articles-subheading {
+font-size: 1.4rem;
+font-weight: 900;
+letter-spacing: -0.02em;
+border-bottom: 2px solid #050505;
+padding-bottom: 0.5rem;
+margin-bottom: 2rem;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.articles-subheading-count {
+font-size: 0.8rem;
+color: #64748b;
+font-weight: 700;
+}
+.category-grid {
+display: grid;
+grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+gap: 2rem;
+}
+.cat-article-card {
+background: #ffffff;
+border: 1px solid #e2e8f0;
+border-radius: 8px;
+overflow: hidden;
+display: flex;
+flex-direction: column;
+transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+}
+.cat-article-card:hover {
+transform: translateY(-4px);
+box-shadow: 0 10px 25px -3px rgba(0, 0, 0, 0.08);
+border-color: var(--accent);
+}
+.cat-card-img-wrap {
+width: 100%;
+height: 200px;
+background: #f1f5f9;
+overflow: hidden;
+}
+.cat-card-img {
+width: 100%;
+height: 100%;
+object-fit: cover;
+transition: transform 0.35s ease;
+}
+.cat-article-card:hover .cat-card-img {
+transform: scale(1.05);
+}
+.cat-card-body {
+padding: 1.5rem;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+flex: 1;
+}
+.cat-card-title {
+font-size: 1.15rem;
+font-weight: 850;
+line-height: 1.35;
+letter-spacing: -0.015em;
+margin: 0 0 0.8rem;
+color: #050505;
+}
+.cat-card-title a {
+color: inherit;
+text-decoration: none;
+transition: color 0.15s ease;
+}
+.cat-card-title a:hover {
+color: var(--accent);
+}
+.cat-card-desc {
+font-size: 0.85rem;
+line-height: 1.55;
+color: #475569;
+margin-bottom: 1.2rem;
+display: -webkit-box;
+-webkit-line-clamp: 3;
+-webkit-box-orient: vertical;
+overflow: hidden;
+}
+.cat-card-date {
+font-size: 0.75rem;
+font-weight: 700;
+color: #94a3b8;
+border-top: 1px solid #f8fafc;
+padding-top: 0.8rem;
+}
+
+@media (max-width: 900px) {
+.section-header-banner { flex-direction: column; align-items: flex-start; gap: 1rem; padding: 1.5rem; }
+.banner-title-text { font-size: 1.8rem; }
+.category-lead-card { grid-template-columns: 1fr; }
+.lead-card-img-wrap { min-height: 240px; }
+.lead-card-content { padding: 1.5rem; }
+.lead-card-title { font-size: 1.5rem; }
+}
+</style>
+</head>
+<body>
+<Header />
+
+<main>
+<!-- BANNER CABECERA DE SECCIÓN -->
+<div class="section-header-banner">
+<div class="banner-side-icon">
+{meta.iconType === 'tech' && (
+<svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+<rect x="4" y="4" width="16" height="16" rx="2"/>
+<rect x="9" y="9" width="6" height="6"/>
+<line x1="9" y1="1" x2="9" y2="4"/>
+<line x1="15" y1="1" x2="15" y2="4"/>
+<line x1="9" y1="20" x2="9" y2="23"/>
+<line x1="15" y1="20" x2="15" y2="23"/>
+<line x1="20" y1="9" x2="23" y2="9"/>
+<line x1="20" y1="14" x2="23" y2="14"/>
+<line x1="1" y1="9" x2="4" y2="9"/>
+<line x1="1" y1="14" x2="4" y2="14"/>
+</svg>
+)}
+{meta.iconType === 'finance' && (
+<span class="icon-currency-sign">$</span>
+)}
+{meta.iconType === 'geopolitics' && (
+<svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+<circle cx="12" cy="12" r="10"/>
+<line x1="2" y1="12" x2="22" y2="12"/>
+<path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>
+</svg>
+)}
+{meta.iconType === 'science' && (
+<svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+<line x1="18" y1="6" x2="6" y2="18"/>
+<line x1="6" y1="6" x2="18" y2="18"/>
+<circle cx="12" cy="12" r="3"/>
+<circle cx="6" cy="6" r="2"/>
+<circle cx="18" cy="6" r="2"/>
+<circle cx="6" cy="18" r="2"/>
+<circle cx="18" cy="18" r="2"/>
+</svg>
+)}
+{meta.iconType === 'trends' && (
+<svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+<path d="M23 6l-9.5 9.5-5-5L1 18"/>
+<path d="M17 6h6v6"/>
+</svg>
+)}
+</div>
+
+<div class="banner-content-body">
+<div class="banner-badge-indicator">
+<span class="live-pulse-dot"></span>
+<span>INTELLIGENCE RADAR • SPECIALIZED ARCHIVE</span>
+</div>
+<h1 class="banner-title-text">{meta.label}</h1>
+<p class="banner-desc-text">{meta.desc}</p>
+<div class="category-tags-row">
+{meta.tags.map((tag) => (
+<span class="tag-badge-item">#{tag}</span>
+))}
+</div>
+</div>
+</div>
+
+<!-- PORTADA LEAD DE LA SECCIÓN -->
+{leadStory && (
+<article class="category-lead-card">
+<div class="lead-card-content">
+<div>
+<div class="lead-card-tag">LEAD INVESTIGATION • HIGH IMPACT</div>
+<h2 class="lead-card-title">
+<a href={`/blog/${leadStory.slug ?? leadStory.id}/`}>{leadStory.data.title}</a>
+</h2>
+<p class="lead-card-desc">{leadStory.data.description}</p>
+</div>
+<div class="lead-card-meta">
+<span>By {leadStory.data.author || 'TEP Intelligence Board'}</span>
+<span>•</span>
+<span>{leadStory.data.pubDate.toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' })}</span>
+</div>
+</div>
+{leadStory.data.heroImage && (
+<div class="lead-card-img-wrap">
+<img 
+src={leadStory.data.heroImage} 
+alt={leadStory.data.title} 
+class="lead-card-img"
+onerror="this.onerror=null;this.src='https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=1200&h=630&q=80';"
+/>
+</div>
+)}
+</article>
+)}
+
+<!-- REJILLA DE ARTÍCULOS DE LA SECCIÓN -->
+<div class="articles-subheading">
+<span>Historical Dossiers & Research Papers</span>
+<span class="articles-subheading-count">{posts.length} papers recorded</span>
+</div>
+
+<div class="category-grid">
+{otherStories.map((post) => (
+<article class="cat-article-card">
+{post.data.heroImage && (
+<div class="cat-card-img-wrap">
+<img 
+src={post.data.heroImage} 
+alt={post.data.title} 
+class="cat-card-img" 
+loading="lazy"
+onerror="this.onerror=null;this.src='https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=1200&h=630&q=80';"
+/>
+</div>
+)}
+<div class="cat-card-body">
+<div>
+<h3 class="cat-card-title">
+<a href={`/blog/${post.slug ?? post.id}/`}>{post.data.title}</a>
+</h3>
+<p class="cat-card-desc">{post.data.description}</p>
+</div>
+<div class="cat-card-date">
+{post.data.pubDate.toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' })} • TEP Intelligence
+</div>
+</div>
+</article>
+))}
+</div>
+</main>
+
+<Footer />
+</body>
+</html>

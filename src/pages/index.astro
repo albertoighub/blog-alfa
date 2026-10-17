@@ -1,0 +1,1686 @@
+---
+import { getCollection } from 'astro:content';
+import BaseHead from '../components/BaseHead.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+
+const allPosts = await getCollection('blog');
+const sortedPosts = allPosts.sort((a, b) => {
+  const diff = new Date(b.data.pubDate).valueOf() - new Date(a.data.pubDate).valueOf();
+  if (diff !== 0) return diff;
+  return (b.slug ?? b.id ?? '').localeCompare(a.slug ?? a.id ?? '');
+});
+
+// CONJUNTO GLOBAL DE SLUGS USADOS: GARANTÍA MATEMÁTICA DE CERO REPETICIÓN
+const usedSlugs = new Set();
+
+// 1. Noticia Líder (1 post único)
+const leadStory = sortedPosts[0];
+if (leadStory) {
+  usedSlugs.add(leadStory.slug ?? leadStory.id);
+}
+
+// 2. Radar de Cobertura (4 posts únicos, ninguno repetido)
+const sideStories = [];
+for (const p of sortedPosts) {
+  const s = p.slug ?? p.id;
+  if (!usedSlugs.has(s)) {
+    sideStories.push(p);
+    usedSlugs.add(s);
+    if (sideStories.length === 4) break;
+  }
+}
+
+// 3. Carrusel Interactivo en Rotación (8 posts únicos, ninguno repetido)
+const carouselStories = [];
+for (const p of sortedPosts) {
+  const s = p.slug ?? p.id;
+  if (!usedSlugs.has(s)) {
+    carouselStories.push(p);
+    usedSlugs.add(s);
+    if (carouselStories.length === 8) break;
+  }
+}
+
+// 4. Selector estricto de artículos únicos por sección (Sin duplicaciones cruzadas)
+const pickUniqueCategoryPosts = (matcher: (p: any) => boolean, count = 4) => {
+  const list = [];
+  for (const p of sortedPosts) {
+    const s = p.slug ?? p.id;
+    if (!usedSlugs.has(s) && matcher(p)) {
+      list.push(p);
+      usedSlugs.add(s);
+      if (list.length === count) break;
+    }
+  }
+  return list;
+};
+
+// Secciones temáticas con asignación estricta y única
+const postsGeopolitica = pickUniqueCategoryPosts((p) => {
+  const c = (p.data.category || '').toLowerCase();
+  return c.includes('polít') || c.includes('polit') || c.includes('geopol');
+}, 4);
+
+const postsEconomia = pickUniqueCategoryPosts((p) => {
+  const c = (p.data.category || '').toLowerCase();
+  return c.includes('econ') || c.includes('mercad') || c.includes('finan');
+}, 4);
+
+const postsTecnologia = pickUniqueCategoryPosts((p) => {
+  const c = (p.data.category || '').toLowerCase();
+  return c.includes('tecn') || c.includes('ia') || c.includes('intel') || c.includes('ciber');
+}, 4);
+
+const postsCiencia = pickUniqueCategoryPosts((p) => {
+  const c = (p.data.category || '').toLowerCase();
+  const t = (p.data.tags || []).join(' ').toLowerCase();
+  return c.includes('cien') || c.includes('med') || c.includes('salud') || c.includes('biotec') || t.includes('salud') || t.includes('medic');
+}, 4);
+
+const postsTendencias = pickUniqueCategoryPosts((p) => {
+  const c = (p.data.category || '').toLowerCase();
+  const t = (p.data.tags || []).join(' ').toLowerCase();
+  return c.includes('tend') || c.includes('red') || c.includes('viral') || c.includes('plataform') || t.includes('digital') || t.includes('redes');
+}, 4);
+
+// 12 historias para el ticker dinámico continuo
+const breakingList = sortedPosts.slice(0, 12).map((p) => ({
+  title: p.data.title,
+  category: p.data.category || 'Actualidad',
+  url: `/blog/${p.slug ?? p.id}/`,
+}));
+
+// Colores de identificación cromática por sección
+const getCatColor = (cat: string) => {
+  const c = (cat || '').toLowerCase();
+  if (c.includes('econ') || c.includes('mercad')) return '#059669';
+  if (c.includes('tecn') || c.includes('ia')) return '#2563eb';
+  if (c.includes('cien') || c.includes('med') || c.includes('salud')) return '#06b6d4';
+  if (c.includes('tend') || c.includes('red') || c.includes('viral')) return '#ec4899';
+  return '#dc2626';
+};
+---
+
+<!doctype html>
+<html lang="es">
+<head>
+  <BaseHead title="News Internacional TEP | Investigación & Mercados Globales" description="Diario analítico global de alta precisión en Tecnología, Mercados Financieros, Geopolítica, Ciencia y Dinámica Digital." />
+  <style>
+    :global(body) { 
+      margin: 0 !important; 
+      padding: 0 !important; 
+      width: 100vw !important; 
+      max-width: 100% !important; 
+      overflow-x: hidden !important;
+      background-color: #f8fafc;
+      color: #050505;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    }
+    
+    main {
+      max-width: 1440px;
+      width: 93%;
+      margin: 0 auto;
+      padding: 0.85rem 0 3.5rem;
+    }
+
+    /* 1. TICKER EN DIRECTO COMPACTO */
+    .breaking-marquee-strip {
+      background: #b91c1c;
+      color: #ffffff;
+      display: flex;
+      align-items: center;
+      height: 38px;
+      border-radius: 6px;
+      margin-bottom: 1.25rem;
+      overflow: hidden;
+      box-shadow: 0 4px 15px rgba(185, 28, 28, 0.2);
+      width: 100%;
+    }
+    .breaking-fixed-tag {
+      background: #050505;
+      height: 100%;
+      padding: 0 1.1rem;
+      display: flex;
+      align-items: center;
+      gap: 7px;
+      font-size: 0.72rem;
+      font-weight: 900;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      flex-shrink: 0;
+      z-index: 3;
+      border-right: 2px solid #dc2626;
+    }
+    .breaking-pulse-dot {
+      width: 7px;
+      height: 7px;
+      border-radius: 50%;
+      background: #dc2626;
+      box-shadow: 0 0 8px #dc2626;
+      animation: pulseDot 1.4s infinite ease-in-out;
+    }
+    @keyframes pulseDot {
+      0%, 100% { transform: scale(0.9); opacity: 0.8; }
+      50% { transform: scale(1.25); opacity: 1; }
+    }
+    .breaking-track-container {
+      flex: 1;
+      height: 100%;
+      overflow: hidden;
+      white-space: nowrap;
+      position: relative;
+      display: flex;
+      align-items: center;
+    }
+    .ticker-news-group {
+      display: inline-flex;
+      align-items: center;
+      gap: 2rem;
+      padding-right: 2rem;
+      flex-shrink: 0;
+    }
+    .breaking-animated-track {
+      display: flex;
+      align-items: center;
+      width: max-content;
+      will-change: transform;
+      animation: marqueeNews 55s linear infinite;
+    }
+    .breaking-marquee-strip:hover .breaking-animated-track {
+      animation-play-state: paused;
+    }
+    .breaking-link-item {
+      color: #ffffff;
+      text-decoration: none;
+      font-size: 0.84rem;
+      font-weight: 700;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.6rem;
+      transition: opacity 0.15s ease;
+    }
+    .breaking-link-item:hover { opacity: 0.85; }
+    .breaking-category-pill {
+      background: #ffffff;
+      color: #050505;
+      font-size: 0.65rem;
+      font-weight: 900;
+      padding: 0.15rem 0.45rem;
+      border-radius: 3px;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+      line-height: 1;
+      flex-shrink: 0;
+    }
+    .breaking-dot-sep {
+      color: rgba(255, 255, 255, 0.45);
+      margin-left: 1.2rem;
+      font-size: 0.95rem;
+    }
+    @keyframes marqueeNews {
+      0% { transform: translateX(0); }
+      100% { transform: translateX(-50%); }
+    }
+
+    /* BARRA DE TÓPICOS Y TENDENCIAS EN VIVO */
+    .trending-pills-bar {
+      display: flex;
+      align-items: center;
+      gap: 0.8rem;
+      background: #ffffff;
+      border: 1px solid #e2e8f0;
+      border-radius: 8px;
+      padding: 0.45rem 1rem;
+      margin-bottom: 1.4rem;
+      overflow-x: auto;
+      scrollbar-width: none;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.02);
+    }
+    .trending-pills-bar::-webkit-scrollbar { display: none; }
+    .trending-pills-label {
+      font-size: 0.68rem;
+      font-weight: 900;
+      color: #dc2626;
+      letter-spacing: 0.08em;
+      flex-shrink: 0;
+    }
+    .trending-pills-scroll {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      flex-wrap: nowrap;
+    }
+    .trending-pill-tag {
+      background: #f1f5f9;
+      color: #334155;
+      font-size: 0.68rem;
+      font-weight: 800;
+      padding: 0.2rem 0.65rem;
+      border-radius: 14px;
+      text-decoration: none;
+      white-space: nowrap;
+      border: 1px solid #e2e8f0;
+      transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+    .trending-pill-tag:hover {
+      background: #050505;
+      color: #ffffff;
+      border-color: #050505;
+      transform: translateY(-2px);
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.12);
+    }
+
+    /* 2. BROADSHEET EDITORIAL COMPACTA & SIN HUECOS */
+    .broadsheet-layout {
+      display: grid;
+      grid-template-columns: 2.25fr 1.15fr;
+      gap: 1.4rem;
+      align-items: start;
+      padding-bottom: 1.8rem;
+      border-bottom: 2px solid #050505;
+      margin-bottom: 1.8rem;
+      width: 100%;
+    }
+
+    .lead-column-stack {
+      display: flex;
+      flex-direction: column;
+      gap: 1.2rem;
+    }
+
+    /* PORTADA PRINCIPAL SPLIT MAGAZINE (IMAGEN ACOTADA Y PROPORCIONADA) */
+    .lead-box {
+      background: #ffffff;
+      border: 1px solid #e2e8f0;
+      border-radius: 10px;
+      padding: 1.35rem;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.03);
+      transition: box-shadow 0.25s ease, border-color 0.25s ease;
+    }
+    .lead-box:hover {
+      border-color: #cbd5e1;
+      box-shadow: 0 8px 25px rgba(0,0,0,0.06);
+    }
+    .lead-box-split {
+      display: grid;
+      grid-template-columns: 1.25fr 1fr;
+      gap: 1.4rem;
+      align-items: center;
+    }
+    .lead-badge-row {
+      display: flex;
+      align-items: center;
+      gap: 0.8rem;
+      margin-bottom: 0.6rem;
+    }
+    .lead-cat-badge {
+      font-size: 0.72rem;
+      font-weight: 900;
+      color: #dc2626;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+    }
+    .lead-pulse-indicator {
+      display: inline-flex;
+      align-items: center;
+      gap: 5px;
+      font-size: 0.65rem;
+      font-weight: 800;
+      color: #475569;
+      background: #f1f5f9;
+      padding: 0.2rem 0.5rem;
+      border-radius: 12px;
+      text-transform: uppercase;
+    }
+    .pulse-ring {
+      width: 6px;
+      height: 6px;
+      border-radius: 50%;
+      background: #dc2626;
+    }
+    .lead-title {
+      font-size: clamp(1.25rem, 1.9vw, 1.7rem);
+      line-height: 1.22;
+      font-weight: 950;
+      margin: 0 0 0.65rem;
+      letter-spacing: -0.025em;
+      color: #050505;
+    }
+    .lead-title a { color: inherit; text-decoration: none; transition: color 0.15s ease; }
+    .lead-title a:hover { color: #dc2626; }
+    .lead-summary {
+      font-size: 0.88rem;
+      line-height: 1.5;
+      color: #334155;
+      margin: 0 0 0.85rem;
+      display: -webkit-box;
+      -webkit-line-clamp: 3;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+    }
+    .lead-meta-row {
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+      font-size: 0.72rem;
+      color: #64748b;
+      font-weight: 700;
+      margin-bottom: 0.85rem;
+    }
+    .lead-read-badge {
+      background: #fef2f2;
+      color: #dc2626;
+      padding: 0.15rem 0.45rem;
+      border-radius: 4px;
+      font-weight: 850;
+    }
+    .lead-read-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      font-size: 0.78rem;
+      font-weight: 850;
+      color: #050505;
+      text-decoration: none;
+      padding: 0.4rem 0.85rem;
+      border-radius: 20px;
+      background: #f1f5f9;
+      border: 1px solid #cbd5e1;
+      transition: all 0.2s ease;
+      width: fit-content;
+    }
+    .lead-read-btn:hover {
+      background: #050505;
+      color: #ffffff;
+      border-color: #050505;
+      transform: translateX(3px);
+    }
+    .lead-image-side {
+      width: 100%;
+      height: 100%;
+    }
+    .lead-image-link {
+      display: block;
+      position: relative;
+      border-radius: 8px;
+      overflow: hidden;
+      height: 225px;
+      background: #f1f5f9;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.06);
+    }
+    .lead-split-img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+      transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+    .lead-image-link:hover .lead-split-img {
+      transform: scale(1.04);
+    }
+    .lead-image-overlay {
+      position: absolute;
+      bottom: 8px;
+      left: 8px;
+      background: rgba(5, 5, 5, 0.75);
+      backdrop-filter: blur(4px);
+      padding: 0.25rem 0.6rem;
+      border-radius: 4px;
+    }
+    .lead-overlay-tag {
+      font-size: 0.62rem;
+      font-weight: 850;
+      color: #ffffff;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+    }
+
+    /* 1. CARRUSEL EN ROTACIÓN CONTINUA (DESPLAZAMIENTO FLUIDO TIPO TICKER BURSÁTIL) */
+    .interactive-carousel-wrapper {
+      background: #ffffff;
+      border: 1px solid #e2e8f0;
+      border-radius: 8px;
+      padding: 1rem 1.2rem;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.03);
+      overflow: hidden;
+    }
+    .carousel-header-bar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 0.75rem;
+      border-bottom: 1px solid #e2e8f0;
+      padding-bottom: 0.5rem;
+    }
+    .carousel-title-group {
+      display: flex;
+      align-items: center;
+      gap: 0.6rem;
+    }
+    .carousel-badge-pulse {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: #dc2626;
+      box-shadow: 0 0 6px #dc2626;
+      animation: pulseDot 1.2s infinite ease-in-out;
+    }
+    .carousel-title {
+      font-size: 0.78rem;
+      font-weight: 900;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      margin: 0;
+      color: #050505;
+    }
+    .carousel-flow-badge {
+      background: #f1f5f9;
+      color: #475569;
+      font-size: 0.62rem;
+      font-weight: 850;
+      padding: 0.15rem 0.45rem;
+      border-radius: 3px;
+      letter-spacing: 0.05em;
+    }
+    .carousel-control-toggle {
+      background: #f8fafc;
+      border: 1px solid #cbd5e1;
+      padding: 0.2rem 0.55rem;
+      border-radius: 4px;
+      font-size: 0.68rem;
+      font-weight: 800;
+      color: #334155;
+      cursor: pointer;
+      transition: all 0.15s ease;
+    }
+    .carousel-control-toggle:hover {
+      background: #050505;
+      color: #ffffff;
+      border-color: #050505;
+    }
+    .carousel-marquee-viewport {
+      overflow: hidden;
+      position: relative;
+      width: 100%;
+      mask-image: linear-gradient(to right, transparent, black 1.5%, black 98.5%, transparent);
+      -webkit-mask-image: linear-gradient(to right, transparent, black 1.5%, black 98.5%, transparent);
+    }
+    .carousel-marquee-track {
+      display: flex;
+      width: max-content;
+      animation: carouselContinuousScroll 48s linear infinite;
+      will-change: transform;
+    }
+    .carousel-marquee-track:hover,
+    .carousel-marquee-track.is-paused {
+      animation-play-state: paused;
+    }
+    @keyframes carouselContinuousScroll {
+      0% { transform: translateX(0); }
+      100% { transform: translateX(-50%); }
+    }
+    .carousel-cards-group {
+      display: flex;
+      gap: 0.9rem;
+      padding-right: 0.9rem;
+      flex-shrink: 0;
+    }
+    .carousel-card {
+      width: 235px;
+      flex-shrink: 0;
+      background: #f8fafc;
+      border: 1px solid #e2e8f0;
+      border-radius: 6px;
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      text-decoration: none;
+      color: inherit;
+      transition: transform 0.25s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.25s cubic-bezier(0.16, 1, 0.3, 1), border-color 0.25s ease;
+    }
+    .carousel-card:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 8px 18px rgba(0,0,0,0.08);
+      border-color: #050505;
+    }
+    .carousel-img-wrap {
+      width: 100%;
+      height: 105px;
+      overflow: hidden;
+      background: #e2e8f0;
+    }
+    .carousel-img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+      transition: transform 0.35s ease;
+    }
+    .carousel-card:hover .carousel-img {
+      transform: scale(1.05);
+    }
+    .carousel-body {
+      padding: 0.65rem;
+      display: flex;
+      flex-direction: column;
+      flex: 1;
+      justify-content: space-between;
+    }
+    .carousel-meta-row {
+      display: flex;
+      align-items: center;
+      gap: 0.35rem;
+      font-size: 0.62rem;
+      font-weight: 850;
+      text-transform: uppercase;
+      margin-bottom: 0.3rem;
+    }
+    .carousel-cat-badge {
+      padding: 0.12rem 0.35rem;
+      border-radius: 3px;
+      color: #ffffff;
+      font-size: 0.6rem;
+      line-height: 1;
+    }
+    .carousel-item-title {
+      font-size: 0.82rem;
+      font-weight: 850;
+      line-height: 1.3;
+      margin: 0 0 0.35rem;
+      color: #050505;
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+    }
+    .carousel-item-desc {
+      font-size: 0.72rem;
+      color: #64748b;
+      line-height: 1.35;
+      margin: 0;
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+    }
+
+    /* ----------------------------------------------------
+       2. MÓDULO AUDIOVISUAL & REPORTAJES EN VIDEO (TEP BROADCAST)
+       ---------------------------------------------------- */
+    .video-broadcast-wrapper {
+      background: #ffffff;
+      border: 1px solid #e2e8f0;
+      border-radius: 8px;
+      padding: 1.2rem;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.03);
+    }
+    .broadcast-header-bar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 1.1rem;
+      border-bottom: 2px solid #050505;
+      padding-bottom: 0.6rem;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+    }
+    .broadcast-title-group {
+      display: flex;
+      align-items: center;
+      gap: 0.6rem;
+    }
+    .live-recording-dot {
+      width: 9px;
+      height: 9px;
+      border-radius: 50%;
+      background: #dc2626;
+      box-shadow: 0 0 8px #dc2626;
+      animation: pulseDot 1.2s infinite ease-in-out;
+    }
+    .broadcast-main-title {
+      font-size: 0.82rem;
+      font-weight: 950;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      margin: 0;
+      color: #050505;
+    }
+    .broadcast-badge {
+      background: #050505;
+      color: #ffffff;
+      font-size: 0.62rem;
+      font-weight: 900;
+      padding: 0.15rem 0.5rem;
+      border-radius: 3px;
+      letter-spacing: 0.06em;
+    }
+    .broadcast-subtitle {
+      font-size: 0.72rem;
+      color: #64748b;
+      font-weight: 600;
+    }
+    .broadcast-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 1rem;
+    }
+    .broadcast-item-card {
+      display: flex;
+      flex-direction: row;
+      gap: 1.15rem;
+      background: #f8fafc;
+      border: 1px solid #e2e8f0;
+      border-radius: 8px;
+      overflow: hidden;
+      padding: 0.75rem 0.85rem;
+      align-items: center;
+      transition: transform 0.25s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.25s cubic-bezier(0.16, 1, 0.3, 1), border-color 0.25s ease;
+    }
+    .broadcast-item-card:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 8px 20px rgba(0,0,0,0.06);
+      border-color: #cbd5e1;
+      background: #ffffff;
+    }
+    .broadcast-col-video {
+      position: relative;
+      width: 260px;
+      max-width: 260px;
+      flex-shrink: 0;
+      border-radius: 6px;
+      overflow: hidden;
+      background: #050505;
+      aspect-ratio: 16 / 9;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.12);
+    }
+    .broadcast-col-video iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      border: 0;
+    }
+    .broadcast-col-info {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      gap: 0.35rem;
+      flex: 1;
+      min-width: 0;
+    }
+    .broadcast-meta-row {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      flex-wrap: wrap;
+    }
+    .broadcast-cat-pill {
+      font-size: 0.62rem;
+      font-weight: 900;
+      color: #ffffff;
+      padding: 0.15rem 0.45rem;
+      border-radius: 3px;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+    .broadcast-date-pill {
+      font-size: 0.68rem;
+      color: #64748b;
+      font-weight: 700;
+    }
+    .broadcast-card-title {
+      font-size: 0.88rem;
+      font-weight: 850;
+      line-height: 1.28;
+      margin: 0;
+      color: #050505;
+    }
+    .broadcast-card-title a {
+      color: inherit;
+      text-decoration: none;
+      transition: color 0.15s ease;
+    }
+    .broadcast-card-title a:hover {
+      color: #dc2626;
+    }
+    .broadcast-card-desc {
+      font-size: 0.74rem;
+      line-height: 1.4;
+      color: #475569;
+      margin: 0;
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+    }
+    .broadcast-action-row {
+      margin-top: 0.2rem;
+    }
+    .broadcast-dossier-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.35rem;
+      background: #050505;
+      color: #ffffff;
+      font-size: 0.7rem;
+      font-weight: 850;
+      padding: 0.28rem 0.65rem;
+      border-radius: 4px;
+      text-decoration: none;
+      transition: all 0.2s ease;
+      width: fit-content;
+    }
+    .broadcast-dossier-btn:hover {
+      background: #dc2626;
+      color: #ffffff;
+      transform: translateX(3px);
+    }
+    @media (max-width: 680px) {
+      .broadcast-item-card {
+        flex-direction: column;
+        align-items: stretch;
+      }
+      .broadcast-col-video {
+        width: 100%;
+        max-width: 100%;
+      }
+    }
+
+    /* RADAR DE COBERTURA LATERAL */
+    .radar-box {
+      display: flex;
+      flex-direction: column;
+      gap: 0.7rem;
+    }
+    .radar-heading {
+      font-size: 0.78rem;
+      font-weight: 900;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      border-bottom: 2px solid #050505;
+      padding-bottom: 0.4rem;
+      margin: 0;
+      color: #050505;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .radar-card {
+      background: #ffffff;
+      border: 1px solid #e2e8f0;
+      border-radius: 6px;
+      overflow: hidden;
+      padding: 0.65rem;
+      transition: transform 0.15s ease, box-shadow 0.15s ease, border-color 0.15s ease;
+    }
+    .radar-card:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 6px 14px rgba(0,0,0,0.06);
+      border-color: #cbd5e1;
+    }
+    .radar-img {
+      width: 100%;
+      height: 90px;
+      object-fit: cover;
+      border-radius: 4px;
+      margin-bottom: 0.4rem;
+      background: #f1f5f9;
+    }
+    .radar-cat {
+      font-size: 0.62rem;
+      font-weight: 900;
+      color: #dc2626;
+      text-transform: uppercase;
+      margin-bottom: 0.15rem;
+    }
+    .radar-title {
+      font-size: 0.86rem;
+      line-height: 1.28;
+      font-weight: 800;
+      margin: 0 0 0.25rem;
+    }
+    .radar-title a { color: #050505; text-decoration: none; }
+    .radar-title a:hover { color: #dc2626; }
+    .radar-desc {
+      font-size: 0.74rem;
+      color: #64748b;
+      line-height: 1.35;
+      margin: 0;
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+    }
+
+    /* BANNER HORIZONTAL PUBLICITARIO LEADERBOARD */
+    .institutional-ad-strip {
+      background: #ffffff;
+      border: 1px solid #e2e8f0;
+      border-radius: 6px;
+      padding: 0.6rem 1rem;
+      margin: 0 0 2rem;
+      text-align: center;
+    }
+    .ad-label-pill {
+      display: block;
+      font-size: 0.6rem;
+      font-weight: 800;
+      text-transform: uppercase;
+      color: #94a3b8;
+      letter-spacing: 0.08em;
+      margin-bottom: 0.25rem;
+    }
+
+    /* 3. SECCIONES PANORÁMICAS COMPACTAS CON REACCIÓN DE COLOR AL CURSOR */
+    .category-section-wrap {
+      margin-bottom: 2.2rem;
+      width: 100%;
+    }
+    .section-bar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 2px solid #050505;
+      padding-bottom: 0.5rem;
+      margin-bottom: 1.2rem;
+      position: relative;
+    }
+    .section-name {
+      font-size: 1.28rem;
+      font-weight: 950;
+      letter-spacing: -0.02em;
+      color: #050505;
+      margin: 0;
+      display: flex;
+      align-items: center;
+      gap: 0.6rem;
+      transition: transform 0.2s ease;
+    }
+    .section-link {
+      font-size: 0.72rem;
+      font-weight: 850;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      color: #050505;
+      text-decoration: none;
+      padding: 0.28rem 0.75rem;
+      border-radius: 16px;
+      border: 1px solid #cbd5e1;
+      background: #ffffff;
+      transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+
+    /* Reacciones de Color al Cursor por Sección */
+    .section-geo .section-name { border-left: 4px solid #dc2626; padding-left: 0.65rem; }
+    .section-geo .section-link:hover { background: #dc2626; border-color: #dc2626; color: #ffffff; transform: translateX(3px); }
+    .section-geo .article-card:hover { border-color: #dc2626; box-shadow: 0 8px 20px rgba(220, 38, 38, 0.08); }
+    .section-geo .article-card:hover .article-title a { color: #dc2626; }
+
+    .section-econ .section-name { border-left: 4px solid #059669; padding-left: 0.65rem; }
+    .section-econ .section-link:hover { background: #059669; border-color: #059669; color: #ffffff; transform: translateX(3px); }
+    .section-econ .article-card:hover { border-color: #059669; box-shadow: 0 8px 20px rgba(5, 150, 105, 0.08); }
+    .section-econ .article-card:hover .article-title a { color: #059669; }
+
+    .section-tech .section-name { border-left: 4px solid #2563eb; padding-left: 0.65rem; }
+    .section-tech .section-link:hover { background: #2563eb; border-color: #2563eb; color: #ffffff; transform: translateX(3px); }
+    .section-tech .article-card:hover { border-color: #2563eb; box-shadow: 0 8px 20px rgba(37, 99, 235, 0.08); }
+    .section-tech .article-card:hover .article-title a { color: #2563eb; }
+
+    .section-sci .section-name { border-left: 4px solid #06b6d4; padding-left: 0.65rem; }
+    .section-sci .section-link:hover { background: #06b6d4; border-color: #06b6d4; color: #ffffff; transform: translateX(3px); }
+    .section-sci .article-card:hover { border-color: #06b6d4; box-shadow: 0 8px 20px rgba(6, 182, 212, 0.08); }
+    .section-sci .article-card:hover .article-title a { color: #06b6d4; }
+
+    .section-trend .section-name { border-left: 4px solid #ec4899; padding-left: 0.65rem; }
+    .section-trend .section-link:hover { background: #ec4899; border-color: #ec4899; color: #ffffff; transform: translateX(3px); }
+    .section-trend .article-card:hover { border-color: #ec4899; box-shadow: 0 8px 20px rgba(236, 72, 153, 0.08); }
+    .section-trend .article-card:hover .article-title a { color: #ec4899; }
+
+    .articles-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(225px, 1fr));
+      gap: 1.15rem;
+      width: 100%;
+    }
+    .article-card {
+      background: #ffffff;
+      border: 1px solid #e2e8f0;
+      border-radius: 8px;
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+    }
+    .article-card:hover {
+      transform: translateY(-3px);
+    }
+    .article-img-wrap {
+      width: 100%;
+      height: 125px;
+      overflow: hidden;
+      background: #f1f5f9;
+    }
+    .article-img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+      transition: transform 0.35s ease;
+    }
+    .article-card:hover .article-img { transform: scale(1.04); }
+    .article-body {
+      padding: 0.85rem;
+      display: flex;
+      flex-direction: column;
+      flex: 1;
+      justify-content: space-between;
+    }
+    .article-title {
+      font-size: 0.92rem;
+      line-height: 1.32;
+      font-weight: 850;
+      letter-spacing: -0.015em;
+      margin: 0 0 0.4rem;
+      color: #050505;
+    }
+    .article-title a { color: inherit; text-decoration: none; }
+    .article-desc {
+      font-size: 0.78rem;
+      color: #475569;
+      line-height: 1.4;
+      margin-bottom: 0.65rem;
+      display: -webkit-box;
+      -webkit-line-clamp: 3;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+    }
+    .article-date {
+      font-size: 0.7rem;
+      color: #94a3b8;
+      font-weight: 700;
+      border-top: 1px solid #f8fafc;
+      padding-top: 0.45rem;
+    }
+
+    /* 4. SECCIÓN INSTITUCIONAL DE APOYO Y DONACIONES DIRECTO PAYPAL */
+    .donor-support-strip {
+      background: linear-gradient(135deg, #050505 0%, #1e1b4b 100%);
+      color: #ffffff;
+      border-radius: 10px;
+      padding: 1.8rem 2.2rem;
+      margin: 2.2rem 0 2.5rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 1.2rem;
+      box-shadow: 0 8px 25px rgba(0,0,0,0.12);
+      border: 1px solid #312e81;
+    }
+    .donor-content {
+      max-width: 650px;
+    }
+    .donor-badge {
+      font-size: 0.65rem;
+      font-weight: 900;
+      letter-spacing: 0.1em;
+      color: #f87171;
+      text-transform: uppercase;
+      margin-bottom: 0.3rem;
+    }
+    .donor-content h3 {
+      font-size: 1.3rem;
+      font-weight: 900;
+      margin: 0 0 0.4rem;
+      color: #ffffff;
+    }
+    .donor-content p {
+      font-size: 0.85rem;
+      line-height: 1.5;
+      color: #cbd5e1;
+      margin: 0;
+    }
+    .donor-action {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 0.35rem;
+    }
+    .donor-paypal-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: #0070ba;
+      color: #ffffff;
+      text-decoration: none;
+      padding: 0.7rem 1.5rem;
+      border-radius: 30px;
+      font-weight: 850;
+      font-size: 0.92rem;
+      transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+      box-shadow: 0 4px 15px rgba(0, 112, 186, 0.4);
+    }
+    .donor-paypal-btn:hover {
+      background: #005ea6;
+      transform: translateY(-2px) scale(1.02);
+      box-shadow: 0 6px 20px rgba(0, 112, 186, 0.6);
+    }
+    .donor-email-note {
+      font-size: 0.7rem;
+      color: #94a3b8;
+    }
+
+    @media (max-width: 1024px) {
+      .broadsheet-layout { grid-template-columns: 1fr; gap: 1.4rem; }
+      .lead-box-split { grid-template-columns: 1fr; }
+      .lead-image-link { height: 180px; }
+      .donor-support-strip { flex-direction: column; text-align: center; }
+    }
+
+    /* ANIMACIONES DE ENTRADA Y FLUIDEZ GLOBAL */
+    .fade-in-up {
+      animation: fadeInUpAnim 0.55s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+    }
+    @keyframes fadeInUpAnim {
+      from {
+        opacity: 0;
+        transform: translateY(14px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+  </style>
+</head>
+<body>
+<Header />
+
+<main>
+  <!-- 1. Ticker Última Hora Centrado Continuo y Autodesplazable -->
+  {breakingList.length > 0 && (
+    <div class="breaking-marquee-strip">
+      <div class="breaking-fixed-tag">
+        <span class="breaking-pulse-dot"></span>
+        <span>EN DIRECTO</span>
+      </div>
+      <div class="breaking-track-container">
+        <div class="breaking-animated-track" id="breaking-track">
+          <div class="ticker-news-group">
+            {breakingList.map((item) => (
+              <a href={item.url} class="breaking-link-item">
+                <span class="breaking-category-pill">{item.category}</span>
+                <span class="breaking-text-title">{item.title}</span>
+                <span class="breaking-dot-sep">•</span>
+              </a>
+            ))}
+          </div>
+          <div class="ticker-news-group" aria-hidden="true">
+            {breakingList.map((item) => (
+              <a href={item.url} class="breaking-link-item">
+                <span class="breaking-category-pill">{item.category}</span>
+                <span class="breaking-text-title">{item.title}</span>
+                <span class="breaking-dot-sep">•</span>
+              </a>
+            ))}
+          </div>
+        </div>
+      </div>
+    </div>
+  )}
+
+  <!-- TÓPICOS DE ALTO IMPACTO Y TENDENCIAS EN VIVO -->
+  <div class="trending-pills-bar">
+    <span class="trending-pills-label">TENDENCIAS EN VIVO:</span>
+    <div class="trending-pills-scroll">
+      <a href="/categoria/tecnologia" class="trending-pill-tag">#SemiconductoresDUV</a>
+      <a href="/categoria/economia" class="trending-pill-tag">#BancosCentrales2026</a>
+      <a href="/categoria/ciencia" class="trending-pill-tag">#BiopsiasLíquidas</a>
+      <a href="/categoria/geopolitica" class="trending-pill-tag">#LitografíaChina</a>
+      <a href="/categoria/tendencias" class="trending-pill-tag">#AlgoritmosRRSS</a>
+      <a href="/categoria/ciencia" class="trending-pill-tag">#CRISPRClonal</a>
+      <a href="/categoria/economia" class="trending-pill-tag">#DeudaSoberanaUE</a>
+      <a href="/categoria/tecnologia" class="trending-pill-tag">#HiperescalaIA</a>
+      <a href="/categoria/tendencias" class="trending-pill-tag">#GuerraCognitiva</a>
+    </div>
+  </div>
+
+  <!-- 2. Portada Principal Broadsheet (Split Magazine: Imagen Proporcionada & Cero Repetición) -->
+  {leadStory && (
+    <div class="broadsheet-layout">
+      <!-- Columna Principal: Portada Split + Carrusel Interactivo Dinámico -->
+      <div class="lead-column-stack">
+        <section class="lead-box">
+          <div class="lead-box-split">
+            <div class="lead-text-side">
+              <div class="lead-badge-row">
+                <span class="lead-cat-badge">{leadStory.data.category || 'Análisis Especial'}</span>
+                <span class="lead-pulse-indicator"><span class="pulse-ring"></span> INVESTIGACIÓN PRINCIPAL</span>
+              </div>
+              <h2 class="lead-title">
+                <a href={`/blog/${leadStory.slug ?? leadStory.id}/`}>{leadStory.data.title}</a>
+              </h2>
+              <p class="lead-summary">{leadStory.data.description}</p>
+              <div class="lead-meta-row">
+                <span>Por {leadStory.data.author || 'Comité Analítico TEP'}</span>
+                <span>•</span>
+                <span>{leadStory.data.pubDate.toLocaleDateString('es-MX', { year: 'numeric', month: 'short', day: 'numeric' })}</span>
+                <span>•</span>
+                <span class="lead-read-badge">Paper Arbitrado</span>
+              </div>
+              <a href={`/blog/${leadStory.slug ?? leadStory.id}/`} class="lead-read-btn">
+                <span>Acceder al Dossier Completo</span>
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+              </a>
+            </div>
+            {leadStory.data.heroImage && (
+              <div class="lead-image-side">
+                <a href={`/blog/${leadStory.slug ?? leadStory.id}/`} class="lead-image-link" aria-label={leadStory.data.title}>
+                  <img src={leadStory.data.heroImage} alt={leadStory.data.title} loading="eager" class="lead-split-img" onerror="this.onerror=null;this.src='https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=1200&h=630&q=80';" />
+                  <div class="lead-image-overlay">
+                    <span class="lead-overlay-tag">TEP Intelligence Archive</span>
+                  </div>
+                </a>
+              </div>
+            )}
+          </div>
+        </section>
+
+        <!-- 1. PUBLICACIONES EN ROTACIÓN CONTINUA (DESPLAZAMIENTO FLUIDO TIPO TICKER BURSÁTIL) -->
+        {carouselStories.length > 0 && (
+          <div class="interactive-carousel-wrapper">
+            <div class="carousel-header-bar">
+              <div class="carousel-title-group">
+                <span class="carousel-badge-pulse"></span>
+                <h3 class="carousel-title">Publicaciones en Rotación Continua</h3>
+                <span class="carousel-flow-badge">FLUJO EN VIVO</span>
+              </div>
+              <div class="carousel-controls">
+                <button id="carousel-marquee-toggle" class="carousel-control-toggle" aria-label="Pausar o Reanudar rotación">⏸ Pausar</button>
+              </div>
+            </div>
+
+            <div class="carousel-marquee-viewport" id="carousel-marquee-viewport">
+              <div class="carousel-marquee-track" id="carousel-marquee-track">
+                <div class="carousel-cards-group">
+                  {carouselStories.map((post) => {
+                    const cat = post.data.category || 'Investigación';
+                    const catColor = getCatColor(cat);
+                    const postUrl = `/blog/${post.slug ?? post.id}/`;
+                    return (
+                      <a href={postUrl} class="carousel-card">
+                        {post.data.heroImage && (
+                          <div class="carousel-img-wrap">
+                            <img src={post.data.heroImage} alt={post.data.title} class="carousel-img" loading="lazy" onerror="this.onerror=null;this.src='https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=1200&h=630&q=80';" />
+                          </div>
+                        )}
+                        <div class="carousel-body">
+                          <div>
+                            <div class="carousel-meta-row">
+                              <span class="carousel-cat-badge" style={`background-color: ${catColor};`}>{cat}</span>
+                              <span style="color: #94a3b8;">•</span>
+                              <span style="color: #64748b;">TEP Dossier</span>
+                            </div>
+                            <h4 class="carousel-item-title">{post.data.title}</h4>
+                            <p class="carousel-item-desc">{post.data.description}</p>
+                          </div>
+                        </div>
+                      </a>
+                    );
+                  })}
+                </div>
+                <div class="carousel-cards-group" aria-hidden="true">
+                  {carouselStories.map((post) => {
+                    const cat = post.data.category || 'Investigación';
+                    const catColor = getCatColor(cat);
+                    const postUrl = `/blog/${post.slug ?? post.id}/`;
+                    return (
+                      <a href={postUrl} class="carousel-card">
+                        {post.data.heroImage && (
+                          <div class="carousel-img-wrap">
+                            <img src={post.data.heroImage} alt={post.data.title} class="carousel-img" loading="lazy" onerror="this.onerror=null;this.src='https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=1200&h=630&q=80';" />
+                          </div>
+                        )}
+                        <div class="carousel-body">
+                          <div>
+                            <div class="carousel-meta-row">
+                              <span class="carousel-cat-badge" style={`background-color: ${catColor};`}>{cat}</span>
+                              <span style="color: #94a3b8;">•</span>
+                              <span style="color: #64748b;">TEP Dossier</span>
+                            </div>
+                            <h4 class="carousel-item-title">{post.data.title}</h4>
+                            <p class="carousel-item-desc">{post.data.description}</p>
+                          </div>
+                        </div>
+                      </a>
+                    );
+                  })}
+                </div>
+              </div>
+            </div>
+          </div>
+        )}
+
+        <!-- 2. MÓDULO AUDIOVISUAL & COBERTURA EN VIDEO (TEP BROADCAST & DOSSIERS) -->
+        <section class="video-broadcast-wrapper">
+          <div class="broadcast-header-bar">
+            <div class="broadcast-title-group">
+              <span class="live-recording-dot"></span>
+              <h3 class="broadcast-main-title">ANÁLISIS AUDIOVISUAL & COBERTURA DOCUMENTAL</h3>
+              <span class="broadcast-badge">TEP MULTIMEDIA</span>
+            </div>
+            <span class="broadcast-subtitle">Dossiers documentales sincronizados con publicaciones de alto impacto</span>
+          </div>
+
+          <div class="broadcast-grid">
+            <!-- VIDEO 1: Semiconductores y Soberanía Tecnológica -->
+            <div class="broadcast-item-card">
+              <div class="broadcast-col-video">
+                <iframe
+                  src="https://www.youtube-nocookie.com/embed/5F_i53q_g48"
+                  title="The Global Race For Microchips and Tech Sovereignty"
+                  loading="lazy"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen>
+                </iframe>
+              </div>
+              <div class="broadcast-col-info">
+                <div class="broadcast-meta-row">
+                  <span class="broadcast-cat-pill" style="background: #2563eb;">TECNOLOGÍA & IA</span>
+                  <span class="broadcast-date-pill">17 oct 2026 • Paper TEP</span>
+                </div>
+                <h4 class="broadcast-card-title">
+                  <a href="/blog/2026-10-16-controles-de-exportacion-y-la-autonomia-chip-china/">
+                    Controles de Exportación y la Autonomía Chip China: Litografía y Soberanía
+                  </a>
+                </h4>
+                <p class="broadcast-card-desc">
+                  Análisis exhaustivo sobre cómo las restricciones occidentales aceleraron el desarrollo de ecosistemas independientes de manufactura de silicio y litografía DUV propia.
+                </p>
+                <div class="broadcast-action-row">
+                  <a href="/blog/2026-10-16-controles-de-exportacion-y-la-autonomia-chip-china/" class="broadcast-dossier-btn">
+                    <span>Acceder al Dossier Completo</span>
+                    <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <!-- VIDEO 2: Oncología Molecular y Biopsias Líquidas -->
+            <div class="broadcast-item-card">
+              <div class="broadcast-col-video">
+                <iframe
+                  src="https://www.youtube-nocookie.com/embed/UKbrwZ1qJ14"
+                  title="CRISPR and Next-Gen Molecular Oncology"
+                  loading="lazy"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen>
+                </iframe>
+              </div>
+              <div class="broadcast-col-info">
+                <div class="broadcast-meta-row">
+                  <span class="broadcast-cat-pill" style="background: #06b6d4;">CIENCIA & MEDICINA</span>
+                  <span class="broadcast-date-pill">17 oct 2026 • Paper TEP</span>
+                </div>
+                <h4 class="broadcast-card-title">
+                  <a href="/blog/2026-10-17-oncologia-de-precision-y-biopsias-liquidas-para-de-cie-2/">
+                    Oncología de Precisión y Biopsias Líquidas: Detección Temprana de ADN Tumoral
+                  </a>
+                </h4>
+                <p class="broadcast-card-desc">
+                  Monografía científica de vanguardia sobre biomarcadores plasmáticos de ultra-sensibilidad y secuenciación genómica clonal para erradicación selectiva sin toxicidad.
+                </p>
+                <div class="broadcast-action-row">
+                  <a href="/blog/2026-10-17-oncologia-de-precision-y-biopsias-liquidas-para-de-cie-2/" class="broadcast-dossier-btn">
+                    <span>Acceder al Dossier Completo</span>
+                    <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <!-- VIDEO 3: Eurozona, Tipos de Interés y Deuda Soberana -->
+            <div class="broadcast-item-card">
+              <div class="broadcast-col-video">
+                <iframe
+                  src="https://www.youtube-nocookie.com/embed/PHe0bXAIuk8"
+                  title="Global Debt and Central Bank Monetary Architecture"
+                  loading="lazy"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen>
+                </iframe>
+              </div>
+              <div class="broadcast-col-info">
+                <div class="broadcast-meta-row">
+                  <span class="broadcast-cat-pill" style="background: #059669;">ECONOMÍA & MERCADOS</span>
+                  <span class="broadcast-date-pill">17 oct 2026 • Paper TEP</span>
+                </div>
+                <h4 class="broadcast-card-title">
+                  <a href="/blog/2026-10-16-persistencia-inflacionaria-en-la-eurozona-desafios-est/">
+                    Persistencia Inflacionaria en la Eurozona: Desafíos Estructurales y Tipos
+                  </a>
+                </h4>
+                <p class="broadcast-card-desc">
+                  Dilema operativo del BCE: anclaje de expectativas de precios frente a la contracción del crédito soberano y divergencias fiscales entre estados miembros.
+                </p>
+                <div class="broadcast-action-row">
+                  <a href="/blog/2026-10-16-persistencia-inflacionaria-en-la-eurozona-desafios-est/" class="broadcast-dossier-btn">
+                    <span>Acceder al Dossier Completo</span>
+                    <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <!-- VIDEO 4: Algoritmos de Redes y Centros de Datos -->
+            <div class="broadcast-item-card">
+              <div class="broadcast-col-video">
+                <iframe
+                  src="https://www.youtube-nocookie.com/embed/aircAruvnKk"
+                  title="Inside Hyperscale AI Data Centers and Infrastructure"
+                  loading="lazy"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen>
+                </iframe>
+              </div>
+              <div class="broadcast-col-info">
+                <div class="broadcast-meta-row">
+                  <span class="broadcast-cat-pill" style="background: #ec4899;">REDES & REVUELO</span>
+                  <span class="broadcast-date-pill">17 oct 2026 • Paper TEP</span>
+                </div>
+                <h4 class="broadcast-card-title">
+                  <a href="/blog/2026-10-17-algoritmos-de-contratacion-laboral-basados-en-scrapeo-de-ten-1/">
+                    Algoritmos de Contratación Laboral y Scrapeo de Redes Sociales
+                  </a>
+                </h4>
+                <p class="broadcast-card-desc">
+                  Investigación crítica sobre perfilamiento algorítmico no consentido, filtros de sesgo automatizados y la vulnerabilidad sociológica de los postulantes en la era digital.
+                </p>
+                <div class="broadcast-action-row">
+                  <a href="/blog/2026-10-17-algoritmos-de-contratacion-laboral-basados-en-scrapeo-de-ten-1/" class="broadcast-dossier-btn">
+                    <span>Acceder al Dossier Completo</span>
+                    <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+
+      <!-- Columna Lateral: Radar de Cobertura (4 Noticias Únicas) -->
+      <aside class="radar-box">
+        <h3 class="radar-heading">
+          <span>RADAR DE COBERTURA</span>
+          <span style="font-size: 0.65rem; color: #dc2626;">MONITOREO EN VIVO</span>
+        </h3>
+        
+        {sideStories.map((post) => (
+          <article class="radar-card">
+            {post.data.heroImage && (
+              <img src={post.data.heroImage} alt={post.data.title} class="radar-img" loading="lazy" onerror="this.onerror=null;this.src='https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=1200&h=630&q=80';" />
+            )}
+            <div class="radar-cat">{post.data.category || 'Global'}</div>
+            <h4 class="radar-title">
+              <a href={`/blog/${post.slug ?? post.id}/`}>{post.data.title}</a>
+            </h4>
+            <p class="radar-desc">{post.data.description}</p>
+          </article>
+        ))}
+      </aside>
+    </div>
+  )}
+
+  <!-- 3. BANNER HORIZONTAL PUBLICITARIO LEADERBOARD -->
+  <div class="institutional-ad-strip">
+    <span class="ad-label-pill">ESPACIO PUBLICITARIO INSTITUCIONAL • GOOGLE ADSENSE (ca-pub-3739732712037306)</span>
+    <ins class="adsbygoogle"
+         style="display:block"
+         data-ad-client="ca-pub-3739732712037306"
+         data-ad-slot="3344556677"
+         data-ad-format="horizontal"
+         data-full-width-responsive="true"></ins>
+    <script is:inline>
+         (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
+  </div>
+
+  <!-- 4. CUADRÍCULAS POR SECCIÓN (5 SECCIONES CON NOTICIAS 100% ÚNICAS Y REACCIÓN DE COLOR) -->
+  
+  <!-- SECCIÓN 1: POLÍTICA & ORDEN GLOBAL -->
+  {postsGeopolitica.length > 0 && (
+    <section class="category-section-wrap section-geo">
+      <div class="section-bar">
+        <h3 class="section-name">Política & Orden Global</h3>
+        <a href="/categoria/geopolitica" class="section-link">Ver sección completa →</a>
+      </div>
+      <div class="articles-grid">
+        {postsGeopolitica.map((post) => (
+          <article class="article-card">
+            {post.data.heroImage && (
+              <div class="article-img-wrap">
+                <img src={post.data.heroImage} alt={post.data.title} class="article-img" loading="lazy" onerror="this.onerror=null;this.src='https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=1200&h=630&q=80';" />
+              </div>
+            )}
+            <div class="article-body">
+              <div>
+                <h4 class="article-title">
+                  <a href={`/blog/${post.slug ?? post.id}/`}>{post.data.title}</a>
+                </h4>
+                <p class="article-desc">{post.data.description}</p>
+              </div>
+              <div class="article-date">
+                {post.data.pubDate.toLocaleDateString('es-MX', { month: 'short', day: 'numeric', year: 'numeric' })} • TEP Política
+              </div>
+            </div>
+          </article>
+        ))}
+      </div>
+    </section>
+  )}
+
+  <!-- SECCIÓN 2: ECONOMÍA & MERCADOS -->
+  {postsEconomia.length > 0 && (
+    <section class="category-section-wrap section-econ">
+      <div class="section-bar">
+        <h3 class="section-name">Economía & Mercados Financieros</h3>
+        <a href="/categoria/economia" class="section-link">Ver sección completa →</a>
+      </div>
+      <div class="articles-grid">
+        {postsEconomia.map((post) => (
+          <article class="article-card">
+            {post.data.heroImage && (
+              <div class="article-img-wrap">
+                <img src={post.data.heroImage} alt={post.data.title} class="article-img" loading="lazy" onerror="this.onerror=null;this.src='https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=1200&h=630&q=80';" />
+              </div>
+            )}
+            <div class="article-body">
+              <div>
+                <h4 class="article-title">
+                  <a href={`/blog/${post.slug ?? post.id}/`}>{post.data.title}</a>
+                </h4>
+                <p class="article-desc">{post.data.description}</p>
+              </div>
+              <div class="article-date">
+                {post.data.pubDate.toLocaleDateString('es-MX', { month: 'short', day: 'numeric', year: 'numeric' })} • TEP Mercados
+              </div>
+            </div>
+          </article>
+        ))}
+      </div>
+    </section>
+  )}
+
+  <!-- SECCIÓN 3: TECNOLOGÍA & IA -->
+  {postsTecnologia.length > 0 && (
+    <section class="category-section-wrap section-tech">
+      <div class="section-bar">
+        <h3 class="section-name">Tecnología & Inteligencia Artificial</h3>
+        <a href="/categoria/tecnologia" class="section-link">Ver sección completa →</a>
+      </div>
+      <div class="articles-grid">
+        {postsTecnologia.map((post) => (
+          <article class="article-card">
+            {post.data.heroImage && (
+              <div class="article-img-wrap">
+                <img src={post.data.heroImage} alt={post.data.title} class="article-img" loading="lazy" onerror="this.onerror=null;this.src='https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=1200&h=630&q=80';" />
+              </div>
+            )}
+            <div class="article-body">
+              <div>
+                <h4 class="article-title">
+                  <a href={`/blog/${post.slug ?? post.id}/`}>{post.data.title}</a>
+                </h4>
+                <p class="article-desc">{post.data.description}</p>
+              </div>
+              <div class="article-date">
+                {post.data.pubDate.toLocaleDateString('es-MX', { month: 'short', day: 'numeric', year: 'numeric' })} • TEP Tecnología
+              </div>
+            </div>
+          </article>
+        ))}
+      </div>
+    </section>
+  )}
+
+  <!-- SECCIÓN 4: CIENCIA & MEDICINA -->
+  {postsCiencia.length > 0 && (
+    <section class="category-section-wrap section-sci">
+      <div class="section-bar">
+        <h3 class="section-name">Ciencia & Medicina de Frontera</h3>
+        <a href="/categoria/ciencia" class="section-link">Ver sección completa →</a>
+      </div>
+      <div class="articles-grid">
+        {postsCiencia.map((post) => (
+          <article class="article-card">
+            {post.data.heroImage && (
+              <div class="article-img-wrap">
+                <img src={post.data.heroImage} alt={post.data.title} class="article-img" loading="lazy" onerror="this.onerror=null;this.src='https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=1200&h=630&q=80';" />
+              </div>
+            )}
+            <div class="article-body">
+              <div>
+                <h4 class="article-title">
+                  <a href={`/blog/${post.slug ?? post.id}/`}>{post.data.title}</a>
+                </h4>
+                <p class="article-desc">{post.data.description}</p>
+              </div>
+              <div class="article-date">
+                {post.data.pubDate.toLocaleDateString('es-MX', { month: 'short', day: 'numeric', year: 'numeric' })} • TEP Ciencia
+              </div>
+            </div>
+          </article>
+        ))}
+      </div>
+    </section>
+  )}
+
+  <!-- SECCIÓN 5: REDES SOCIALES & NOTICIAS DE ALTO REVUELO -->
+  {postsTendencias.length > 0 && (
+    <section class="category-section-wrap section-trend">
+      <div class="section-bar">
+        <h3 class="section-name">Redes Sociales & Noticias de Alto Revuelo</h3>
+        <a href="/categoria/tendencias" class="section-link">Ver sección completa →</a>
+      </div>
+      <div class="articles-grid">
+        {postsTendencias.map((post) => (
+          <article class="article-card">
+            {post.data.heroImage && (
+              <div class="article-img-wrap">
+                <img src={post.data.heroImage} alt={post.data.title} class="article-img" loading="lazy" onerror="this.onerror=null;this.src='https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=1200&h=630&q=80';" />
+              </div>
+            )}
+            <div class="article-body">
+              <div>
+                <h4 class="article-title">
+                  <a href={`/blog/${post.slug ?? post.id}/`}>{post.data.title}</a>
+                </h4>
+                <p class="article-desc">{post.data.description}</p>
+              </div>
+              <div class="article-date">
+                {post.data.pubDate.toLocaleDateString('es-MX', { month: 'short', day: 'numeric', year: 'numeric' })} • TEP Dinámica Digital
+              </div>
+            </div>
+          </article>
+        ))}
+      </div>
+    </section>
+  )}
+
+  <!-- 5. SECCIÓN INSTITUCIONAL DE APOYO Y DONACIONES DIRECTO PAYPAL -->
+  <section class="donor-support-strip">
+    <div class="donor-content">
+      <div class="donor-badge">INDEPENDENCIA ANALÍTICA & RIGOR EDITORIAL</div>
+      <h3>Impulsa el Archivo Libre de News Internacional TEP</h3>
+      <p>Nuestra redacción e infraestructura técnica operan sin subsidios corporativos ni censura partidista. Tu contribución directa a través de PayPal fortalece nuestros servidores de análisis, la ingesta continua de cables de datos y el acceso abierto a la inteligencia global.</p>
+    </div>
+    <div class="donor-action">
+      <a href="https://paypal.me/newsinternacional" target="_blank" rel="noopener noreferrer" class="donor-paypal-btn">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M7.076 21.337H2.47a.641.641 0 0 1-.633-.74L4.944 3.72a.784.784 0 0 1 .773-.654h6.708c3.085 0 5.378.673 6.46 2.054 1.01 1.288 1.136 3.03.364 5.318-.847 2.496-2.585 4.14-5.027 4.755a10.02 10.02 0 0 1-2.518.293H9.27a.936.936 0 0 0-.924.786l-.837 5.065h-.433z"/></svg>
+        <span>Donar con PayPal Oficial</span>
+      </a>
+      <span class="donor-email-note">Titular: andredateig@gmail.com</span>
+    </div>
+  </section>
+</main>
+
+<Footer />
+
+<!-- SCRIPT DE ROTACIÓN Y CONTROL DEL CARRUSEL -->
+<script is:inline>
+document.addEventListener("DOMContentLoaded", () => {
+  // 1. CONTROL DE ROTACIÓN CONTINUA DEL CARRUSEL
+  const track = document.getElementById("carousel-marquee-track");
+  const toggleBtn = document.getElementById("carousel-marquee-toggle");
+  const viewport = document.getElementById("carousel-marquee-viewport");
+
+  if (track && toggleBtn) {
+    let isPausedByUser = false;
+
+    toggleBtn.addEventListener("click", () => {
+      isPausedByUser = !isPausedByUser;
+      if (isPausedByUser) {
+        track.classList.add("is-paused");
+        toggleBtn.textContent = "▶ Reanudar";
+      } else {
+        track.classList.remove("is-paused");
+        toggleBtn.textContent = "⏸ Pausar";
+      }
+    });
+
+    if (viewport) {
+      viewport.addEventListener("touchstart", () => {
+        if (!isPausedByUser) track.classList.add("is-paused");
+      }, { passive: true });
+
+      viewport.addEventListener("touchend", () => {
+        if (!isPausedByUser) track.classList.remove("is-paused");
+      });
+    }
+  }
+
+  // 2. OBSERVADOR DE ENTRADA FLUIDA Y MICRO-ANIMACIONES
+  if ("IntersectionObserver" in window) {
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add("fade-in-up");
+          observer.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.08 });
+
+    const animatedItems = document.querySelectorAll(".article-card, .broadcast-item-card, .radar-card, .category-section-wrap");
+    animatedItems.forEach((el) => {
+      observer.observe(el);
+    });
+  }
+});
+</script>
+</body>
+</html>
