@@ -5,7 +5,7 @@ pubDate: "2026-10-14"
 category: "Geopolítica"
 tags: ["Seguridad Mar\u00edtima", "Ir\u00e1n", "Estrecho de Ormuz", "Geopol\u00edtica Energ\u00e9tica", "Riesgo de Suministro"]
 author: "Comité Analítico TEP & Prospectiva"
-heroImage: "https://cdn.prod.www.spiegel.de/images/3e820765-d23a-4cdd-bb91-fc7bc1fe03d0_w520_r2.08_fpx54_fpy54.97.jpg"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/LICHTER_2019_pascal_jackel.jpg/1280px-LICHTER_2019_pascal_jackel.jpg"
 canonicalSource: "https://www.spiegel.de/ausland/iran-krieg-zwei-containerschiffe-nach-beschuss-in-strasse-von-hormus-gesunken-a-6bcef342-1cb3-4165-8f66-ee486eca979d#ref=rss"
 ---
 

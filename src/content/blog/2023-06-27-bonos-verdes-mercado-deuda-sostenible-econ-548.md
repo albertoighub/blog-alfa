@@ -5,7 +5,7 @@ pubDate: "2023-06-27"
 category: "Economía"
 tags: ["Economía Global", "Bancos Centrales", "Mercados Financieros", "Política Monetaria", "Comercio Internacional"]
 author: "Comité Analítico TEP & Archivo Histórico"
-heroImage: "https://images.unsplash.com/photo-1526304640581-d334cdbbf45e?auto=format&fit=crop&w=1200&h=630&q=82"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/Lamp_post_and_surveillance_cameras_and_tourists_making_selfies_of_the_Charging_Bull_derived_from_20230102023120%21Charging_Bull_%2828919670730%29_%28pixelated%29.jpg/1280px-Lamp_post_and_surveillance_cameras_and_tourists_making_selfies_of_the_Charging_Bull_derived_from_20230102023120%21Charging_Bull_%2828919670730%29_%28pixelated%29.jpg"
 canonicalSource: "https://newsinternacionaltep.com/categoria/economia"
 ---
 
@@ -21,7 +21,7 @@ Los reportes primarios recopilados por las corresponsalías y agencias de monito
 
 ## 2. Estado de la Situación y Dinámica Estructural
 
-![Evidencia y Registro Documental Primario - Inversiones en Infraestructura Verde y el Mercado de Bonos de Impacto Sostenible](https://images.unsplash.com/photo-1579532537598-459ecdaf39cc?auto=format&fit=crop&w=1200&h=630&q=82)
+![Evidencia y Registro Documental Primario - Inversiones en Infraestructura Verde y el Mercado de Bonos de Impacto Sostenible](https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Realt_na_Mara%2C_North_Bull_Wall_-_geograph.org.uk_-_8178181.jpg/1280px-Realt_na_Mara%2C_North_Bull_Wall_-_geograph.org.uk_-_8178181.jpg)
 *Figura 1: Mapeo y registro fotográfico documental archivado en la hemeroteca de News Internacional TEP.*
 
 La evolución empírica de los acontecimientos desmintió rápidamente los diagnósticos complacientes. La aceleración de las dinámicas en juego obligó a un reajuste de las previsiones institucionales, revelando una marcada correlación entre la exposición previa al riesgo y la celeridad del deterioro funcional en los sectores analizados.
@@ -40,7 +40,7 @@ El comportamiento de los indicadores determinantes durante este período histór
 
 ## 4. Evaluación de Escenarios y Modelado de Riesgo
 
-![Modelado de Trayectorias y Riesgo Sistémico](https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?auto=format&fit=crop&w=1200&h=630&q=82)
+![Modelado de Trayectorias y Riesgo Sistémico](https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/Shooting_Charging_Bull.jpg/1280px-Shooting_Charging_Bull.jpg)
 *Figura 2: Proyección de trayectorias y modelado de dispersión elaborado por la Unidad Cuantitativa TEP.*
 
 El análisis retrospectivo permite clasificar la trayectoria que finalmente se consolidó frente a las hipótesis alternativas que barajaban los comités en aquel entonces:

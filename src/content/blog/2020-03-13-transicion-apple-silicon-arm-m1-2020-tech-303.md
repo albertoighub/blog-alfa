@@ -5,7 +5,7 @@ pubDate: "2020-03-13"
 category: "Tecnología"
 tags: ["Tecnología", "Inteligencia Artificial", "Semiconductores", "Ciberseguridad", "Computación Avanzada"]
 author: "Comité Analítico TEP & Archivo Histórico"
-heroImage: "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&w=1200&h=630&q=82"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/Comparison_of_Intel_and_AMD_Microprocessor_Integrated_Heatspreaders.JPG/1280px-Comparison_of_Intel_and_AMD_Microprocessor_Integrated_Heatspreaders.JPG"
 canonicalSource: "https://newsinternacionaltep.com/categoria/tecnologia"
 ---
 
@@ -21,7 +21,7 @@ Los reportes primarios recopilados por las corresponsalías y agencias de monito
 
 ## 2. Estado de la Situación y Dinámica Estructural
 
-![Evidencia y Registro Documental Primario - La Transición de Apple hacia Silicon (M1) y el Renacimiento de la Arquitectura ARM](https://images.unsplash.com/photo-1531297484001-80022131f5a1?auto=format&fit=crop&w=1200&h=630&q=82)
+![Evidencia y Registro Documental Primario - La Transición de Apple hacia Silicon (M1) y el Renacimiento de la Arquitectura ARM](https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/David_Goodall_Michael_de_Nil_Angus_Taylor_MP_Andrew_Terry_-_holding_Wi-Fi_HaLow_chip_prototype_-_in_Picton_30_june_2017_taken_by_Claire_Medway.jpg/1280px-David_Goodall_Michael_de_Nil_Angus_Taylor_MP_Andrew_Terry_-_holding_Wi-Fi_HaLow_chip_prototype_-_in_Picton_30_june_2017_taken_by_Claire_Medway.jpg)
 *Figura 1: Mapeo y registro fotográfico documental archivado en la hemeroteca de News Internacional TEP.*
 
 La evolución empírica de los acontecimientos desmintió rápidamente los diagnósticos complacientes. La aceleración de las dinámicas en juego obligó a un reajuste de las previsiones institucionales, revelando una marcada correlación entre la exposición previa al riesgo y la celeridad del deterioro funcional en los sectores analizados.
@@ -40,7 +40,7 @@ El comportamiento de los indicadores determinantes durante este período histór
 
 ## 4. Evaluación de Escenarios y Modelado de Riesgo
 
-![Modelado de Trayectorias y Riesgo Sistémico](https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=1200&h=630&q=82)
+![Modelado de Trayectorias y Riesgo Sistémico](https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Die_%28the_%27heart%27%29_of_a_microprocessor_Intel_80486_with_1.2_millions_of_transistors%2C_ca._1990_%28turned_horizontal%29.jpg/960px-Die_%28the_%27heart%27%29_of_a_microprocessor_Intel_80486_with_1.2_millions_of_transistors%2C_ca._1990_%28turned_horizontal%29.jpg)
 *Figura 2: Proyección de trayectorias y modelado de dispersión elaborado por la Unidad Cuantitativa TEP.*
 
 El análisis retrospectivo permite clasificar la trayectoria que finalmente se consolidó frente a las hipótesis alternativas que barajaban los comités en aquel entonces:

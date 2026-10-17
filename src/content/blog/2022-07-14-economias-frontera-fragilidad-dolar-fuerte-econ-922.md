@@ -5,7 +5,7 @@ pubDate: "2022-07-14"
 category: "Economía"
 tags: ["Economía Global", "Bancos Centrales", "Mercados Financieros", "Política Monetaria", "Comercio Internacional"]
 author: "Comité Analítico TEP & Archivo Histórico"
-heroImage: "https://images.unsplash.com/photo-1565372195458-9de0b320ef04?auto=format&fit=crop&w=1200&h=630&q=82"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/Witznitz_Solar_Park%2C_Europe%E2%80%99s_largest_photovoltaic_plant_%28Copernicus_2024-12-01%29.webp/1280px-Witznitz_Solar_Park%2C_Europe%E2%80%99s_largest_photovoltaic_plant_%28Copernicus_2024-12-01%29.webp"
 canonicalSource: "https://newsinternacionaltep.com/categoria/economia"
 ---
 
@@ -21,7 +21,7 @@ Los reportes primarios recopilados por las corresponsalías y agencias de monito
 
 ## 2. Estado de la Situación y Dinámica Estructural
 
-![Evidencia y Registro Documental Primario - La Fragilidad Financiera de las Economías de Frontera frente al Fortalecimiento del Dólar](https://images.unsplash.com/photo-1526304640581-d334cdbbf45e?auto=format&fit=crop&w=1200&h=630&q=82)
+![Evidencia y Registro Documental Primario - La Fragilidad Financiera de las Economías de Frontera frente al Fortalecimiento del Dólar](https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2b/Witznitz_Solar_Park%2C_Europe%E2%80%99s_largest_photovoltaic_plant_%28Copernicus_2025-01-03%29.png/1280px-Witznitz_Solar_Park%2C_Europe%E2%80%99s_largest_photovoltaic_plant_%28Copernicus_2025-01-03%29.png)
 *Figura 1: Mapeo y registro fotográfico documental archivado en la hemeroteca de News Internacional TEP.*
 
 La evolución empírica de los acontecimientos desmintió rápidamente los diagnósticos complacientes. La aceleración de las dinámicas en juego obligó a un reajuste de las previsiones institucionales, revelando una marcada correlación entre la exposición previa al riesgo y la celeridad del deterioro funcional en los sectores analizados.
@@ -40,7 +40,7 @@ El comportamiento de los indicadores determinantes durante este período histór
 
 ## 4. Evaluación de Escenarios y Modelado de Riesgo
 
-![Modelado de Trayectorias y Riesgo Sistémico](https://images.unsplash.com/photo-1579532537598-459ecdaf39cc?auto=format&fit=crop&w=1200&h=630&q=82)
+![Modelado de Trayectorias y Riesgo Sistémico](https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9b/World_PVOUT_Photovoltaic-power-potential-map_lang-ES_GlobalSolarAtlas_World-Bank-Esmap-Solargis.png/1280px-World_PVOUT_Photovoltaic-power-potential-map_lang-ES_GlobalSolarAtlas_World-Bank-Esmap-Solargis.png)
 *Figura 2: Proyección de trayectorias y modelado de dispersión elaborado por la Unidad Cuantitativa TEP.*
 
 El análisis retrospectivo permite clasificar la trayectoria que finalmente se consolidó frente a las hipótesis alternativas que barajaban los comités en aquel entonces:

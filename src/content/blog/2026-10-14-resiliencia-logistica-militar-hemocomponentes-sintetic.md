@@ -5,7 +5,7 @@ pubDate: "2026-10-14"
 category: "Tecnología"
 tags: ["Biomim\u00e9tica", "Log\u00edstica Militar", "Almacenamiento Energ\u00e9tico", "Hemocomponentes Sint\u00e9ticos"]
 author: "Comité Analítico TEP & Prospectiva"
-heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/Seal_of_the_United_States_Department_of_War_%282025%29.svg/1280px-Seal_of_the_United_States_Department_of_War_%282025%29.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/LCM_-_DEC_VAX_11-780-5_-_01.jpg/1280px-LCM_-_DEC_VAX_11-780-5_-_01.jpg"
 canonicalSource: "https://www.technologyreview.com/2026/10/14/1146452/the-download-military-fake-blood-future-batteries/"
 ---
 

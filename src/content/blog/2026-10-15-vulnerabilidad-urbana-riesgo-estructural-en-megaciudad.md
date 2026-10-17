@@ -5,7 +5,7 @@ pubDate: "2026-10-15"
 category: "Geopolítica"
 tags: ["Resiliencia Urbana", "Riesgo S\u00edsmico", "Planificaci\u00f3n Territorial", "Patrimonio Hist\u00f3rico"]
 author: "Comité Analítico TEP & Prospectiva"
-heroImage: "https://www.latercera.com/resizer/v2/TVE7BYZOURGVLEC2ZBOVTSRNJI.png?auth=2d01774692125276b36d54ea1f23b479b4476fe6ff8202c7945a6377c07eee9f&smart=true&width=1269&height=1240"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/High_Performance_Computing_Center_Stuttgart_HLRS_2015_04_Cray_XC40_Hazel_Hen_blades.jpg/1280px-High_Performance_Computing_Center_Stuttgart_HLRS_2015_04_Cray_XC40_Hazel_Hen_blades.jpg"
 canonicalSource: "https://www.latercera.com/nacional/noticia/derrumbe-en-antigua-casona-en-santiago-centro-obliga-a-evacuar-edificio-vecino-de-12-pisos-para-resguardar-a-sus-habitantes/"
 ---
 

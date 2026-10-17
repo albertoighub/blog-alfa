@@ -5,7 +5,7 @@ pubDate: "2026-10-15"
 category: "Economía Aplicada / Prospectiva Científica"
 tags: ["Capital Humano", "STEM", "Polarizaci\u00f3n Laboral", "Retorno de Inversi\u00f3n (ROI)", "Movilidad Internacional"]
 author: "Comité Analítico TEP & Prospectiva"
-heroImage: "https://i2.res.24o.it/images2010/S24/Documenti/2026/10/16/Immagini/Ritagli/phd-U87863176048XCL-1440x752@IlSole24Ore-Web.jpg"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/IBM_T42_rack_tower.jpg/1280px-IBM_T42_rack_tower.jpg"
 canonicalSource: "https://www.ilsole24ore.com/art/occupazione-boom-i-dottori-ricerca-941percento-un-anno-bene-stem-AJEECRkB"
 ---
 

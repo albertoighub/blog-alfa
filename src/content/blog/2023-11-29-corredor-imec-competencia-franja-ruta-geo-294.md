@@ -5,7 +5,7 @@ pubDate: "2023-11-29"
 category: "Geopolítica"
 tags: ["Geopolítica", "Seguridad Internacional", "Diplomacia", "Defensa", "Gobernanza Global"]
 author: "Comité Analítico TEP & Archivo Histórico"
-heroImage: "https://images.unsplash.com/photo-1572949645841-094f3a9c4c94?auto=format&fit=crop&w=1200&h=630&q=82"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/President_Md_Shahabuddin_Speech_Christmas_Reception_Durbar_Hall_Bangabhaban_2024-12-25_%28PID-0004346%29.jpg/1280px-President_Md_Shahabuddin_Speech_Christmas_Reception_Durbar_Hall_Bangabhaban_2024-12-25_%28PID-0004346%29.jpg"
 canonicalSource: "https://newsinternacionaltep.com/categoria/geopolitica"
 ---
 
@@ -21,7 +21,7 @@ Los reportes primarios recopilados por las corresponsalías y agencias de monito
 
 ## 2. Estado de la Situación y Dinámica Estructural
 
-![Evidencia y Registro Documental Primario - El Corredor Económico India-Medio Oriente-Europa (IMEC) y la Competencia con la Franja y la Ruta](https://images.unsplash.com/photo-1541872703-74c5e44368f9?auto=format&fit=crop&w=1200&h=630&q=82)
+![Evidencia y Registro Documental Primario - El Corredor Económico India-Medio Oriente-Europa (IMEC) y la Competencia con la Franja y la Ruta](https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/Sheikh_Hasina_Red_Carpet_Reception_And_Guard_Of_Honor_At_Great_Hall_Of_The_People_Beijing_2024-07-10_%28PID-0007290%29.jpg/1280px-Sheikh_Hasina_Red_Carpet_Reception_And_Guard_Of_Honor_At_Great_Hall_Of_The_People_Beijing_2024-07-10_%28PID-0007290%29.jpg)
 *Figura 1: Mapeo y registro fotográfico documental archivado en la hemeroteca de News Internacional TEP.*
 
 La evolución empírica de los acontecimientos desmintió rápidamente los diagnósticos complacientes. La aceleración de las dinámicas en juego obligó a un reajuste de las previsiones institucionales, revelando una marcada correlación entre la exposición previa al riesgo y la celeridad del deterioro funcional en los sectores analizados.
@@ -40,7 +40,7 @@ El comportamiento de los indicadores determinantes durante este período histór
 
 ## 4. Evaluación de Escenarios y Modelado de Riesgo
 
-![Modelado de Trayectorias y Riesgo Sistémico](https://images.unsplash.com/photo-1526304640581-d334cdbbf45e?auto=format&fit=crop&w=1200&h=630&q=82)
+![Modelado de Trayectorias y Riesgo Sistémico](https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/The_Prime_Minister%2C_Shri_Narendra_Modi_addressing_the_gathering_at_the_Civic_Reception%2C_at_City_Hall%2C_in_Brisbane%2C_Australia_on_November_16%2C_2014.jpg/1280px-The_Prime_Minister%2C_Shri_Narendra_Modi_addressing_the_gathering_at_the_Civic_Reception%2C_at_City_Hall%2C_in_Brisbane%2C_Australia_on_November_16%2C_2014.jpg)
 *Figura 2: Proyección de trayectorias y modelado de dispersión elaborado por la Unidad Cuantitativa TEP.*
 
 El análisis retrospectivo permite clasificar la trayectoria que finalmente se consolidó frente a las hipótesis alternativas que barajaban los comités en aquel entonces:

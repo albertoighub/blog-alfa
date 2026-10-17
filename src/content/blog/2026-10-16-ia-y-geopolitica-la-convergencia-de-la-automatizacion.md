@@ -5,7 +5,7 @@ pubDate: "2026-10-16"
 category: "Geopolítica"
 tags: ["Inteligencia Artificial", "Automatizaci\u00f3n", "Desarrollo Econ\u00f3mico", "Soberan\u00eda Tecnol\u00f3gica"]
 author: "Comité Analítico TEP & Prospectiva"
-heroImage: "https://images.newsteam.io/image/4800/2Bq28FuGKoJitBCR4ivQbz86kZRfDJ19miA88UiXpgdhfJV1tyazGrzCyx6RTcEh4zjFjkQiKb8BgHqPq2ie59uBpwxFZFEMsFpYfckssjFiLHxp1mFWvQkxEMWvpXjJTLGtsxaqN1dZQGmiCdCQVjU"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/IPEM_studio_synthesizer_%28ca.1960-1980%29_-_MIM_Brussels_%282015-05-30_07.36.09_by_chibicode%29_edit.jpg/1280px-IPEM_studio_synthesizer_%28ca.1960-1980%29_-_MIM_Brussels_%282015-05-30_07.36.09_by_chibicode%29_edit.jpg"
 canonicalSource: "https://mg.co.za/partner-content/2026-10-16-singularity-summit-south-africa-2026-all-you-need-to-know/"
 ---
 

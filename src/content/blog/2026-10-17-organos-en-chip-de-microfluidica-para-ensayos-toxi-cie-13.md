@@ -5,7 +5,7 @@ pubDate: "2026-10-17"
 category: "Ciencia"
 tags: ["Biomedicina", "Investigaci\u00f3n Cl\u00ednica", "Mecanismos Moleculares", "Salud P\u00fablica", "Biotecnolog\u00eda"]
 author: "Comité Analítico TEP & Prospectiva"
-heroImage: "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=1200&h=630&q=82"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/52/Falcon_9_in_flight.jpg/1280px-Falcon_9_in_flight.jpg"
 canonicalSource: "https://newsinternacionaltep.com/categoria/ciencia"
 ---
 
@@ -21,7 +21,7 @@ Diversos ensayos clínicos fase II y III han evidenciado que la interacción mol
 
 ## 2. Estado del Arte y Dinámica Estructural
 
-![Análisis Documental Primario - Órganos en Chip de Microfluídica para Ensayos Toxicológicos de](https://images.unsplash.com/photo-1507668077129-56e32842fceb?auto=format&fit=crop&w=1000&h=500&q=82)
+![Análisis Documental Primario - Órganos en Chip de Microfluídica para Ensayos Toxicológicos de](https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Falcon_9_in_vertical_position.jpg/1280px-Falcon_9_in_vertical_position.jpg)
 *Figura 1: Representación técnica y mapeo contextual del fenómeno analizado.*
 Históricamente, la investigación en este segmento estuvo restringida por la baja sensibilidad de las plataformas de detección y los cuellos de botella en la manufactura biológica. La adopción de técnicas de secuenciación masiva y microfluídica ha transformado radicalmente el panorama experimental, permitiendo aislar variables con un error analítico inferior al 1.5%.
 
@@ -39,7 +39,7 @@ El núcleo funcional opera mediante la estabilización de gradientes electroquí
 
 ## 4. Evaluación de Escenarios y Modelado de Riesgo
 
-![Modelado de Trayectorias y Riesgo Sistémico](https://images.unsplash.com/photo-1579154204601-01588f351e67?auto=format&fit=crop&w=1000&h=500&q=82)
+![Modelado de Trayectorias y Riesgo Sistémico](https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/Flight_19_of_the_Falcon_9_rocket_which_will_launch_the_SpaceX_CRS-7_spacecraft_on_28_June_2015.jpg/1280px-Flight_19_of_the_Falcon_9_rocket_which_will_launch_the_SpaceX_CRS-7_spacecraft_on_28_June_2015.jpg)
 *Figura 2: Telemetría de variables y dispersión de escenarios probabilísticos.*
 Para dimensionar el impacto de su adopción a escala macro-sanitaria, se modelaron tres trayectorias prospectivas bajo condiciones de heterogeneidad clínica:
 

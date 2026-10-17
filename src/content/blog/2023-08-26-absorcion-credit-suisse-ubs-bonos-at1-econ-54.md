@@ -5,7 +5,7 @@ pubDate: "2023-08-26"
 category: "Economía"
 tags: ["Economía Global", "Bancos Centrales", "Mercados Financieros", "Política Monetaria", "Comercio Internacional"]
 author: "Comité Analítico TEP & Archivo Histórico"
-heroImage: "https://images.unsplash.com/photo-1579532537598-459ecdaf39cc?auto=format&fit=crop&w=1200&h=630&q=82"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/U.S._Sailors_with_Navy_Cargo_Handling_Battalion_1%2C_based_in_Williamsburg%2C_Va.%2C_prepare_a_crane_to_lift_a_modular_warping_tug_from_the_deck_of_the_container_and_roll-on-roll-off_ship_USNS_2nd_Lt._John_P._Bobo_130415-N-LO372-674.jpg/1280px-thumbnail.jpg"
 canonicalSource: "https://newsinternacionaltep.com/categoria/economia"
 ---
 
@@ -21,7 +21,7 @@ Los reportes primarios recopilados por las corresponsalías y agencias de monito
 
 ## 2. Estado de la Situación y Dinámica Estructural
 
-![Evidencia y Registro Documental Primario - La Absorción Forzada de Credit Suisse por UBS y la Amortización de Bonos AT1](https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?auto=format&fit=crop&w=1200&h=630&q=82)
+![Evidencia y Registro Documental Primario - La Absorción Forzada de Credit Suisse por UBS y la Amortización de Bonos AT1](https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cd/U.S._Sailors_with_Navy_Cargo_Handling_Battalion_1%2C_based_in_Williamsburg%2C_Va.%2C_prepare_a_crane_to_lift_a_modular_warping_tug_from_the_deck_of_the_container_and_roll-on-roll-off_ship_USNS_2nd_Lt._John_P._Bobo_130415-N-LO372-687.jpg/1280px-thumbnail.jpg)
 *Figura 1: Mapeo y registro fotográfico documental archivado en la hemeroteca de News Internacional TEP.*
 
 La evolución empírica de los acontecimientos desmintió rápidamente los diagnósticos complacientes. La aceleración de las dinámicas en juego obligó a un reajuste de las previsiones institucionales, revelando una marcada correlación entre la exposición previa al riesgo y la celeridad del deterioro funcional en los sectores analizados.
@@ -40,7 +40,7 @@ El comportamiento de los indicadores determinantes durante este período histór
 
 ## 4. Evaluación de Escenarios y Modelado de Riesgo
 
-![Modelado de Trayectorias y Riesgo Sistémico](https://images.unsplash.com/photo-1565372195458-9de0b320ef04?auto=format&fit=crop&w=1200&h=630&q=82)
+![Modelado de Trayectorias y Riesgo Sistémico](https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/U.S._Sailors_with_Navy_Cargo_Handling_Battalion_1%2C_based_in_Williamsburg%2C_Va.%2C_prepare_a_crane_to_lift_a_modular_warping_tug_from_the_deck_of_the_container_and_roll-on-roll-off_ship_USNS_2nd_Lt._John_P._Bobo_130415-N-LO372-696.jpg/1280px-thumbnail.jpg)
 *Figura 2: Proyección de trayectorias y modelado de dispersión elaborado por la Unidad Cuantitativa TEP.*
 
 El análisis retrospectivo permite clasificar la trayectoria que finalmente se consolidó frente a las hipótesis alternativas que barajaban los comités en aquel entonces:

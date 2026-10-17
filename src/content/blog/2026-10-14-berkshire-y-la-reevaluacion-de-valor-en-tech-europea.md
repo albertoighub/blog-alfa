@@ -5,7 +5,7 @@ pubDate: "2026-10-14"
 category: "Economía"
 tags: ["Venture Capital", "Valoraci\u00f3n Tecnol\u00f3gica", "Inversi\u00f3n Institucional", "Mercados Privados"]
 author: "Comité Analítico TEP & Prospectiva"
-heroImage: "https://i2.res.24o.it/images2010/S24/Documenti/2026/10/15/Immagini/Ritagli/0F761184-72E3-422E-8FDA-529FD15EC830-U27165006503SAM-1440x752@IlSole24Ore-Web.jpg"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/86_SFS_provides_VR_training_for_HN_partners_%287105407%29.jpg/1280px-86_SFS_provides_VR_training_for_HN_partners_%287105407%29.jpg"
 canonicalSource: "https://www.ilsole24ore.com/art/bending-spoons-vola-wall-street-52percento-nuovo-investimento-berkshire-AJglogjB"
 ---
 

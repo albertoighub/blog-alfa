@@ -5,7 +5,7 @@ pubDate: "2024-09-10"
 category: "Ciencia"
 tags: ["Ciencia", "Medicina", "Biotecnología", "Investigación Clínica", "Salud Pública"]
 author: "Comité Analítico TEP & Archivo Histórico"
-heroImage: "https://images.unsplash.com/photo-1507668077129-56e32842fceb?auto=format&fit=crop&w=1200&h=630&q=82"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Harvesting_in_the_great_West%2C_combined_reaper_and_thresher%2C_Washington%2C_U.S.A%2C_by_Keystone_View_Company.jpg/1280px-Harvesting_in_the_great_West%2C_combined_reaper_and_thresher%2C_Washington%2C_U.S.A%2C_by_Keystone_View_Company.jpg"
 canonicalSource: "https://newsinternacionaltep.com/categoria/ciencia"
 ---
 
@@ -21,7 +21,7 @@ Los reportes primarios recopilados por las corresponsalías y agencias de monito
 
 ## 2. Estado de la Situación y Dinámica Estructural
 
-![Evidencia y Registro Documental Primario - Aprobación Histórica de Casgevy: Primera Terapia Médica con CRISPR para Anemia Falciforme](https://images.unsplash.com/photo-1576086213369-97a306d36557?auto=format&fit=crop&w=1200&h=630&q=82)
+![Evidencia y Registro Documental Primario - Aprobación Histórica de Casgevy: Primera Terapia Médica con CRISPR para Anemia Falciforme](https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/Harvesting_in_the_great_West%2C_combined_reaper_and_thresher%2C_Washington%2C_U.S.A%2C_by_Keystone_View_Company.png/1280px-Harvesting_in_the_great_West%2C_combined_reaper_and_thresher%2C_Washington%2C_U.S.A%2C_by_Keystone_View_Company.png)
 *Figura 1: Mapeo y registro fotográfico documental archivado en la hemeroteca de News Internacional TEP.*
 
 La evolución empírica de los acontecimientos desmintió rápidamente los diagnósticos complacientes. La aceleración de las dinámicas en juego obligó a un reajuste de las previsiones institucionales, revelando una marcada correlación entre la exposición previa al riesgo y la celeridad del deterioro funcional en los sectores analizados.
@@ -40,7 +40,7 @@ El comportamiento de los indicadores determinantes durante este período histór
 
 ## 4. Evaluación de Escenarios y Modelado de Riesgo
 
-![Modelado de Trayectorias y Riesgo Sistémico](https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=1200&h=630&q=82)
+![Modelado de Trayectorias y Riesgo Sistémico](https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Harvesting_in_the_great_West%2C_combined_reaper_and_thresher%2C_Washington%2C_U.S.A%2C_by_Singley%2C_B._L._%28Benjamin_Lloyd%29.jpg/1280px-Harvesting_in_the_great_West%2C_combined_reaper_and_thresher%2C_Washington%2C_U.S.A%2C_by_Singley%2C_B._L._%28Benjamin_Lloyd%29.jpg)
 *Figura 2: Proyección de trayectorias y modelado de dispersión elaborado por la Unidad Cuantitativa TEP.*
 
 El análisis retrospectivo permite clasificar la trayectoria que finalmente se consolidó frente a las hipótesis alternativas que barajaban los comités en aquel entonces:

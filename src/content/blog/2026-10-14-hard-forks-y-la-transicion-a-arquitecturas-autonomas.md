@@ -5,7 +5,7 @@ pubDate: "2026-10-14"
 category: "Tecnología"
 tags: ["Blockchain", "Hard Fork", "Gobernanza Algor\u00edtmica", "Criptoeconom\u00eda"]
 author: "Comité Analítico TEP & Prospectiva"
-heroImage: "https://storage.ghost.io/c/a0/4c/a04c7225-d919-4d78-9b7c-a3fdd071349b/content/images/2026/09/EB08A327-4595-4C33-985F-BAF496D96996.jpg"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/Samuel-zeller-158996-unsplash.jpg/1280px-Samuel-zeller-158996-unsplash.jpg"
 canonicalSource: "https://www.platformer.news/hard-fork-machine-gods/"
 ---
 

@@ -5,7 +5,7 @@ pubDate: "2026-10-17"
 category: "Ciencia"
 tags: ["Biomedicina", "Investigaci\u00f3n Cl\u00ednica", "Mecanismos Moleculares", "Salud P\u00fablica", "Biotecnolog\u00eda"]
 author: "Comité Analítico TEP & Prospectiva"
-heroImage: "https://images.unsplash.com/photo-1530497610245-94d3c16cda28?auto=format&fit=crop&w=1200&h=630&q=82"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/SpaceX_CRS-14_Falcon_9_rocket_lifts_off_%28KSC-20180402-PH_AWG02_0023%29.jpg/1280px-SpaceX_CRS-14_Falcon_9_rocket_lifts_off_%28KSC-20180402-PH_AWG02_0023%29.jpg"
 canonicalSource: "https://newsinternacionaltep.com/categoria/ciencia"
 ---
 
@@ -21,7 +21,7 @@ Diversos ensayos clínicos fase II y III han evidenciado que la interacción mol
 
 ## 2. Estado del Arte y Dinámica Estructural
 
-![Análisis Documental Primario - Metabolismo del Lactato y Plasticidad Tumoral en Microambiente](https://images.unsplash.com/photo-1584515979956-d9f6e5d09982?auto=format&fit=crop&w=1000&h=500&q=82)
+![Análisis Documental Primario - Metabolismo del Lactato y Plasticidad Tumoral en Microambiente](https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/SpaceX_CRS-14_Falcon_9_rocket_lifts_off_%28KSC-20180402-PH_AWG03_0014%29.jpg/1280px-SpaceX_CRS-14_Falcon_9_rocket_lifts_off_%28KSC-20180402-PH_AWG03_0014%29.jpg)
 *Figura 1: Representación técnica y mapeo contextual del fenómeno analizado.*
 Históricamente, la investigación en este segmento estuvo restringida por la baja sensibilidad de las plataformas de detección y los cuellos de botella en la manufactura biológica. La adopción de técnicas de secuenciación masiva y microfluídica ha transformado radicalmente el panorama experimental, permitiendo aislar variables con un error analítico inferior al 1.5%.
 
@@ -39,7 +39,7 @@ El núcleo funcional opera mediante la estabilización de gradientes electroquí
 
 ## 4. Evaluación de Escenarios y Modelado de Riesgo
 
-![Modelado de Trayectorias y Riesgo Sistémico](https://images.unsplash.com/photo-1584515933487-779824d29309?auto=format&fit=crop&w=1000&h=500&q=82)
+![Modelado de Trayectorias y Riesgo Sistémico](https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/SpaceX_CRS-14_Falcon_9_rocket_lifts_off_%28KSC-20180402-PH_AWG04_0011%29.jpg/1280px-SpaceX_CRS-14_Falcon_9_rocket_lifts_off_%28KSC-20180402-PH_AWG04_0011%29.jpg)
 *Figura 2: Telemetría de variables y dispersión de escenarios probabilísticos.*
 Para dimensionar el impacto de su adopción a escala macro-sanitaria, se modelaron tres trayectorias prospectivas bajo condiciones de heterogeneidad clínica:
 

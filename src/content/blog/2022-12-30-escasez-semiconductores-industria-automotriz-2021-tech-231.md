@@ -5,7 +5,7 @@ pubDate: "2022-12-30"
 category: "Tecnología"
 tags: ["Tecnología", "Inteligencia Artificial", "Semiconductores", "Ciberseguridad", "Computación Avanzada"]
 author: "Comité Analítico TEP & Archivo Histórico"
-heroImage: "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1200&h=630&q=82"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/Music_Recital_in_the_Founders_Room%2C_c1981.jpg/1280px-Music_Recital_in_the_Founders_Room%2C_c1981.jpg"
 canonicalSource: "https://newsinternacionaltep.com/categoria/tecnologia"
 ---
 
@@ -21,7 +21,7 @@ Los reportes primarios recopilados por las corresponsalías y agencias de monito
 
 ## 2. Estado de la Situación y Dinámica Estructural
 
-![Evidencia y Registro Documental Primario - La Escasez Global de Semiconductores de 2021 y el Parón de las Líneas de Ensamblaje Automotriz](https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&w=1200&h=630&q=82)
+![Evidencia y Registro Documental Primario - La Escasez Global de Semiconductores de 2021 y el Parón de las Líneas de Ensamblaje Automotriz](https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/Oil_Room_Fixtures_-_NARA_-_116763957.jpg/1280px-Oil_Room_Fixtures_-_NARA_-_116763957.jpg)
 *Figura 1: Mapeo y registro fotográfico documental archivado en la hemeroteca de News Internacional TEP.*
 
 La evolución empírica de los acontecimientos desmintió rápidamente los diagnósticos complacientes. La aceleración de las dinámicas en juego obligó a un reajuste de las previsiones institucionales, revelando una marcada correlación entre la exposición previa al riesgo y la celeridad del deterioro funcional en los sectores analizados.
@@ -40,7 +40,7 @@ El comportamiento de los indicadores determinantes durante este período histór
 
 ## 4. Evaluación de Escenarios y Modelado de Riesgo
 
-![Modelado de Trayectorias y Riesgo Sistémico](https://images.unsplash.com/photo-1531297484001-80022131f5a1?auto=format&fit=crop&w=1200&h=630&q=82)
+![Modelado de Trayectorias y Riesgo Sistémico](https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/PL-DS%2C_pow._trzebnicki%2C_gm._Oborniki_%C5%9Al%C4%85skie%2C_Bagno%3B_Zesp%C3%B3%C5%82_pa%C5%82acowy%2C_ob._klasztor_salwatorian%C3%B3w-_pa%C5%82ac_%28jadalnia%29%3B_A-3912-1203.jpg/1280px-PL-DS%2C_pow._trzebnicki%2C_gm._Oborniki_%C5%9Al%C4%85skie%2C_Bagno%3B_Zesp%C3%B3%C5%82_pa%C5%82acowy%2C_ob._klasztor_salwatorian%C3%B3w-_pa%C5%82ac_%28jadalnia%29%3B_A-3912-1203.jpg)
 *Figura 2: Proyección de trayectorias y modelado de dispersión elaborado por la Unidad Cuantitativa TEP.*
 
 El análisis retrospectivo permite clasificar la trayectoria que finalmente se consolidó frente a las hipótesis alternativas que barajaban los comités en aquel entonces:

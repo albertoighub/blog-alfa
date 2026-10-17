@@ -5,7 +5,7 @@ pubDate: "2023-11-15"
 category: "Geopolítica"
 tags: ["Geopolítica", "Seguridad Internacional", "Diplomacia", "Defensa", "Gobernanza Global"]
 author: "Comité Analítico TEP & Archivo Histórico"
-heroImage: "https://images.unsplash.com/photo-1507679799987-c73779587ccf?auto=format&fit=crop&w=1200&h=630&q=82"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/Indonesian_MONUSCO_Peacekeepers_patrol_a_farm_during_operations_in_Ituri_Province.jpg/1280px-Indonesian_MONUSCO_Peacekeepers_patrol_a_farm_during_operations_in_Ituri_Province.jpg"
 canonicalSource: "https://newsinternacionaltep.com/categoria/geopolitica"
 ---
 
@@ -21,7 +21,7 @@ Los reportes primarios recopilados por las corresponsalías y agencias de monito
 
 ## 2. Estado de la Situación y Dinámica Estructural
 
-![Evidencia y Registro Documental Primario - Expansión BRICS+ y la Creación de Plataformas Multilaterales Alternativas](https://images.unsplash.com/photo-1572949645841-094f3a9c4c94?auto=format&fit=crop&w=1200&h=630&q=82)
+![Evidencia y Registro Documental Primario - Expansión BRICS+ y la Creación de Plataformas Multilaterales Alternativas](https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/Indonesian_MONUSCO_peacekeepers_driving_in_a_patrol_to_Bunia_in_Ituri_Province.jpg/1280px-Indonesian_MONUSCO_peacekeepers_driving_in_a_patrol_to_Bunia_in_Ituri_Province.jpg)
 *Figura 1: Mapeo y registro fotográfico documental archivado en la hemeroteca de News Internacional TEP.*
 
 La evolución empírica de los acontecimientos desmintió rápidamente los diagnósticos complacientes. La aceleración de las dinámicas en juego obligó a un reajuste de las previsiones institucionales, revelando una marcada correlación entre la exposición previa al riesgo y la celeridad del deterioro funcional en los sectores analizados.
@@ -40,7 +40,7 @@ El comportamiento de los indicadores determinantes durante este período histór
 
 ## 4. Evaluación de Escenarios y Modelado de Riesgo
 
-![Modelado de Trayectorias y Riesgo Sistémico](https://images.unsplash.com/photo-1541872703-74c5e44368f9?auto=format&fit=crop&w=1200&h=630&q=82)
+![Modelado de Trayectorias y Riesgo Sistémico](https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/International_UN_Peacekeepers_Day_2022%2C_Anisul_Huq_presents_medals_to_families_and_injured_peacekeepers%2C_Dhaka%2C_2022-05-29_%28PID-0022954%29.jpg/1280px-International_UN_Peacekeepers_Day_2022%2C_Anisul_Huq_presents_medals_to_families_and_injured_peacekeepers%2C_Dhaka%2C_2022-05-29_%28PID-0022954%29.jpg)
 *Figura 2: Proyección de trayectorias y modelado de dispersión elaborado por la Unidad Cuantitativa TEP.*
 
 El análisis retrospectivo permite clasificar la trayectoria que finalmente se consolidó frente a las hipótesis alternativas que barajaban los comités en aquel entonces:

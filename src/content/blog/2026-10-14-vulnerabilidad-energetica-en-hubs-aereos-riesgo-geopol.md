@@ -5,7 +5,7 @@ pubDate: "2026-10-14"
 category: "Geopolítica"
 tags: ["Seguridad Energ\u00e9tica", "Log\u00edstica Aeron\u00e1utica", "Resiliencia de Suministro", "Geoeconom\u00eda Europea"]
 author: "Comité Analítico TEP & Prospectiva"
-heroImage: "https://cdn.prod.www.spiegel.de/images/484410b2-c68d-4045-9dd9-d509e329bfd5_w520_r2.08_fpx34.66_fpy50.jpg"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0a/Amps_%28QuadFest%29_%28edited%29.jpg/1280px-Amps_%28QuadFest%29_%28edited%29.jpg"
 canonicalSource: "https://www.spiegel.de/wirtschaft/frankfurt-airport-lufthansa-reagiert-wegen-moeglichen-kerosin-engpaessen-a-3e3e5829-e3d8-4b55-8386-756b92b44937#ref=rss"
 ---
 
@@ -29,7 +29,10 @@ El estado del arte en gestión de riesgos aeronáuticos tiende a enfocarse en va
 > "La resiliencia moderna en logística crítica no se mide por la capacidad máxima, sino por la velocidad y eficiencia con que el sistema puede reconfigurar sus fuentes de aprovisionamiento ante un fallo nodal." — Dra. Helena Vogel, Experta en Infraestructura Crítica, Instituto Europeo de Estudios Energéticos.
 
 ## 3. Mecanismos Operativos y Núcleo Técnico (The Science)
-El mecanismo causal se articula a través de una cascada de fallas: la reducción de capacidad en las tuberías principales $ightarrow$ disminución del *throughput* disponible en el punto de distribución FRA $ightarrow$ incremento inmediato de la presión sobre los mercados spot de combustible alternativo o desviado $ightarrow$ imposibilidad operativa para cumplir con los horarios programados por aerolíneas como Lufthansa.
+El mecanismo causal se articula a través de una cascada de fallas: la reducción de capacidad en las tuberías principales $
+ightarrow$ disminución del *throughput* disponible en el punto de distribución FRA $
+ightarrow$ incremento inmediato de la presión sobre los mercados spot de combustible alternativo o desviado $
+ightarrow$ imposibilidad operativa para cumplir con los horarios programados por aerolíneas como Lufthansa.
 
 Este fenómeno se modela bajo un marco de riesgo de cuello de botella (Bottleneck Risk Model), donde el punto de estrangulamiento no es la demanda, sino la capacidad física del transporte primario. La transición hacia combustibles sostenibles de aviación (SAF) añade una capa de complejidad al balance táctico, ya que su disponibilidad y coste son altamente volátiles.
 

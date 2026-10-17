@@ -5,7 +5,7 @@ pubDate: "2024-12-17"
 category: "Tecnología"
 tags: ["Tecnología", "Inteligencia Artificial", "Semiconductores", "Ciberseguridad", "Computación Avanzada"]
 author: "Comité Analítico TEP & Archivo Histórico"
-heroImage: "https://images.unsplash.com/photo-1531297484001-80022131f5a1?auto=format&fit=crop&w=1200&h=630&q=82"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/NASA%27s_Artemis_II_SLS_Rocket_and_Orion_Spacecraft_Rollout_to_Launch_Pad_39B_%28KSC-01172026-Artemis_II_Rollout-8%29.jpg/1280px-NASA%27s_Artemis_II_SLS_Rocket_and_Orion_Spacecraft_Rollout_to_Launch_Pad_39B_%28KSC-01172026-Artemis_II_Rollout-8%29.jpg"
 canonicalSource: "https://newsinternacionaltep.com/categoria/tecnologia"
 ---
 
@@ -21,7 +21,7 @@ Los reportes primarios recopilados por las corresponsalías y agencias de monito
 
 ## 2. Estado de la Situación y Dinámica Estructural
 
-![Evidencia y Registro Documental Primario - La Demanda Exponencial de Aceleradores GPU Nvidia H100 y el Monopolio de Cómputo de Hiperescala](https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=1200&h=630&q=82)
+![Evidencia y Registro Documental Primario - La Demanda Exponencial de Aceleradores GPU Nvidia H100 y el Monopolio de Cómputo de Hiperescala](https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/NASA%27s_SLS_Rocket_and_Orion_Spacecraft_Rollout_to_Launch_Pad_39B_%28KSC-03202026-Artemis_II_Second_Rollout-1%29.jpg/1280px-NASA%27s_SLS_Rocket_and_Orion_Spacecraft_Rollout_to_Launch_Pad_39B_%28KSC-03202026-Artemis_II_Second_Rollout-1%29.jpg)
 *Figura 1: Mapeo y registro fotográfico documental archivado en la hemeroteca de News Internacional TEP.*
 
 La evolución empírica de los acontecimientos desmintió rápidamente los diagnósticos complacientes. La aceleración de las dinámicas en juego obligó a un reajuste de las previsiones institucionales, revelando una marcada correlación entre la exposición previa al riesgo y la celeridad del deterioro funcional en los sectores analizados.
@@ -40,7 +40,7 @@ El comportamiento de los indicadores determinantes durante este período histór
 
 ## 4. Evaluación de Escenarios y Modelado de Riesgo
 
-![Modelado de Trayectorias y Riesgo Sistémico](https://images.unsplash.com/photo-1525547719571-a2d4ac8945e2?auto=format&fit=crop&w=1200&h=630&q=82)
+![Modelado de Trayectorias y Riesgo Sistémico](https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/NASA%27s_SLS_Rocket_and_Orion_Spacecraft_Rollout_to_Launch_Pad_39B_%28KSC-03202026-Artemis_II_Second_Rollout-10%29.jpg/1280px-NASA%27s_SLS_Rocket_and_Orion_Spacecraft_Rollout_to_Launch_Pad_39B_%28KSC-03202026-Artemis_II_Second_Rollout-10%29.jpg)
 *Figura 2: Proyección de trayectorias y modelado de dispersión elaborado por la Unidad Cuantitativa TEP.*
 
 El análisis retrospectivo permite clasificar la trayectoria que finalmente se consolidó frente a las hipótesis alternativas que barajaban los comités en aquel entonces:

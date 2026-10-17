@@ -5,7 +5,7 @@ pubDate: "2023-06-27"
 category: "Ciencia"
 tags: ["Ciencia", "Medicina", "Biotecnología", "Investigación Clínica", "Salud Pública"]
 author: "Comité Analítico TEP & Archivo Histórico"
-heroImage: "https://images.unsplash.com/photo-1530497610245-94d3c16cda28?auto=format&fit=crop&w=1200&h=630&q=82"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/Secretary_of_Defense_Donald_H._Rumsfeld_responds_to_a_reporter%E2%80%99s_question_during_a_joint_press_conference_with_Australian_Prime_Minister_John_Howard_in_the_Pentagon_on_Feb._10%2C_2003.jpg/1280px-thumbnail.jpg"
 canonicalSource: "https://newsinternacionaltep.com/categoria/ciencia"
 ---
 
@@ -21,7 +21,7 @@ Los reportes primarios recopilados por las corresponsalías y agencias de monito
 
 ## 2. Estado de la Situación y Dinámica Estructural
 
-![Evidencia y Registro Documental Primario - La Identificación de Microplásticos en Placenta y Sistema Circulatorio Humano](https://images.unsplash.com/photo-1507668077129-56e32842fceb?auto=format&fit=crop&w=1200&h=630&q=82)
+![Evidencia y Registro Documental Primario - La Identificación de Microplásticos en Placenta y Sistema Circulatorio Humano](https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/Secretary_of_defense%2C_Secretary_of_State_for_Defense_Michael_Fallon_and_German_Minister_of_Defense_Ursula_von_der_Leyen_exit_Lancaster_House_151009-D-LN567-144.jpg/1280px-thumbnail.jpg)
 *Figura 1: Mapeo y registro fotográfico documental archivado en la hemeroteca de News Internacional TEP.*
 
 La evolución empírica de los acontecimientos desmintió rápidamente los diagnósticos complacientes. La aceleración de las dinámicas en juego obligó a un reajuste de las previsiones institucionales, revelando una marcada correlación entre la exposición previa al riesgo y la celeridad del deterioro funcional en los sectores analizados.
@@ -40,7 +40,7 @@ El comportamiento de los indicadores determinantes durante este período histór
 
 ## 4. Evaluación de Escenarios y Modelado de Riesgo
 
-![Modelado de Trayectorias y Riesgo Sistémico](https://images.unsplash.com/photo-1576086213369-97a306d36557?auto=format&fit=crop&w=1200&h=630&q=82)
+![Modelado de Trayectorias y Riesgo Sistémico](https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/U.S._Secretary_of_Defense_Chuck_Hagel%2C_left_foreground%2C_walks_to_a_press_conference_with_Japanese_Minister_of_Defense_Itsunori_Onodera%2C_right_foreground%2C_in_Tokyo_Oct._3%2C_2013_131003-D-BW835-1721.jpg/1280px-thumbnail.jpg)
 *Figura 2: Proyección de trayectorias y modelado de dispersión elaborado por la Unidad Cuantitativa TEP.*
 
 El análisis retrospectivo permite clasificar la trayectoria que finalmente se consolidó frente a las hipótesis alternativas que barajaban los comités en aquel entonces:

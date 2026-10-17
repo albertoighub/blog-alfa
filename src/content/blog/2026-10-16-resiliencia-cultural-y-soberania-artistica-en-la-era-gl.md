@@ -5,7 +5,7 @@ pubDate: "2026-10-16"
 category: "Geopolítica"
 tags: ["Resiliencia Cultural", "Di\u00e1spora Africana", "Econom\u00eda Creativa Global", "Identidad Transnacional"]
 author: "Comité Analítico TEP & Prospectiva"
-heroImage: "https://images.newsteam.io/image/2302/2Bq28FuGKoJnGu3TJNH5poP8jP57kQbHWKPJ2xYJymrsD4jZMTVzPaGiKxPFK99wkbhKW7o3wUGgWAtxACMpiP4yQq3nTHDzbEstL9JFtKPyXqgk7AagD3ap3tEiRKifrZvVMokEWyKMj3cATXnXLi7"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/aa/Atari_Portfolio_HPC-004_-_display_part_-_board_-_JRC_324-4660.jpg/1280px-Atari_Portfolio_HPC-004_-_display_part_-_board_-_JRC_324-4660.jpg"
 canonicalSource: "https://mg.co.za/friday/2026-10-15-sisonke-xonti-finds-his-way-back-to-the-light/"
 ---
 

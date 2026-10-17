@@ -5,7 +5,7 @@ pubDate: "2022-01-17"
 category: "Economía"
 tags: ["Economía Global", "Bancos Centrales", "Mercados Financieros", "Política Monetaria", "Comercio Internacional"]
 author: "Comité Analítico TEP & Archivo Histórico"
-heroImage: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1200&h=630&q=82"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d8/Beach_Master_Unit_1_removes_a_conex_box_from_a_floating_causeway_during_the_Joint_Logistics_Over-the-Shore_exercise._%2826951190163%29.jpg/1280px-Beach_Master_Unit_1_removes_a_conex_box_from_a_floating_causeway_during_the_Joint_Logistics_Over-the-Shore_exercise._%2826951190163%29.jpg"
 canonicalSource: "https://newsinternacionaltep.com/categoria/economia"
 ---
 
@@ -21,7 +21,7 @@ Los reportes primarios recopilados por las corresponsalías y agencias de monito
 
 ## 2. Estado de la Situación y Dinámica Estructural
 
-![Evidencia y Registro Documental Primario - Los Costes de Capital de la Transición Energética y la Volatilidad de las Materias Primas Críticas](https://images.unsplash.com/photo-1526304640581-d334cdbbf45e?auto=format&fit=crop&w=1200&h=630&q=82)
+![Evidencia y Registro Documental Primario - Los Costes de Capital de la Transición Energética y la Volatilidad de las Materias Primas Críticas](https://thumb.wikimedia.org/wikipedia/commons/thumb/6/64/RAF_Welford_Conducts_Port_Operations_in_Wales_%288347825%29.jpg/1280px-RAF_Welford_Conducts_Port_Operations_in_Wales_%288347825%29.jpg)
 *Figura 1: Mapeo y registro fotográfico documental archivado en la hemeroteca de News Internacional TEP.*
 
 La evolución empírica de los acontecimientos desmintió rápidamente los diagnósticos complacientes. La aceleración de las dinámicas en juego obligó a un reajuste de las previsiones institucionales, revelando una marcada correlación entre la exposición previa al riesgo y la celeridad del deterioro funcional en los sectores analizados.
@@ -40,7 +40,7 @@ El comportamiento de los indicadores determinantes durante este período histór
 
 ## 4. Evaluación de Escenarios y Modelado de Riesgo
 
-![Modelado de Trayectorias y Riesgo Sistémico](https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?auto=format&fit=crop&w=1200&h=630&q=82)
+![Modelado de Trayectorias y Riesgo Sistémico](https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9b/U.S._Army_Pfc._Jonathan_Johnson%2C_a_cargo_specialist%2C_is_part_of_a_team_working_the_Joint_Logistics_Over-the-Shore_%28JLOTS%29_system_to_get_cargo_ashore_in_Port-au-Prince%2C_Haiti_100208-N-HX866-003.jpg/1280px-thumbnail.jpg)
 *Figura 2: Proyección de trayectorias y modelado de dispersión elaborado por la Unidad Cuantitativa TEP.*
 
 El análisis retrospectivo permite clasificar la trayectoria que finalmente se consolidó frente a las hipótesis alternativas que barajaban los comités en aquel entonces:

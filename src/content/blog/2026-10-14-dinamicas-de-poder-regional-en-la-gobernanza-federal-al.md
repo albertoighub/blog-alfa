@@ -5,7 +5,7 @@ pubDate: "2026-10-14"
 category: "Geopolítica"
 tags: ["Alemania", "Gobernanza Federal", "SPD", "Coalici\u00f3n Pol\u00edtica", "Prospectiva"]
 author: "Comité Analítico TEP & Prospectiva"
-heroImage: "https://cdn.prod.www.spiegel.de/images/db86a41d-dcd8-47d0-93e2-4325efec41b5_w520_r2.08_fpx51_fpy54.jpg"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/Collision_2024_-_DFZ_2972_%2853804442633%29.jpg/1280px-Collision_2024_-_DFZ_2972_%2853804442633%29.jpg"
 canonicalSource: "https://www.spiegel.de/politik/deutschland/manuela-schwesig-dieser-frau-trauen-sie-im-umfeld-des-kanzlers-alles-zu-a-ada8f2d7-ce7f-4bd1-bece-d0bfdf76b1f3#ref=rss"
 ---
 

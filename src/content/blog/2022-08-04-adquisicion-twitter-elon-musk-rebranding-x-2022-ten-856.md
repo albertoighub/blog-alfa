@@ -5,7 +5,7 @@ pubDate: "2022-08-04"
 category: "Tendencias"
 tags: ["Redes Sociales", "Dinámica Digital", "Cultura Algorítmica", "Plataformas", "Comportamiento Colectivo"]
 author: "Comité Analítico TEP & Archivo Histórico"
-heroImage: "https://images.unsplash.com/photo-1573164713988-8665fc963095?auto=format&fit=crop&w=1200&h=630&q=82"
+heroImage: "https://upload.wikimedia.org/wikipedia/commons/5/5d/To_All_the_Boys_-_P.S._I_Still_Love_You_interview_in_Brazil_01.jpg"
 canonicalSource: "https://newsinternacionaltep.com/categoria/tendencias"
 ---
 
@@ -21,7 +21,7 @@ Los reportes primarios recopilados por las corresponsalías y agencias de monito
 
 ## 2. Estado de la Situación y Dinámica Estructural
 
-![Evidencia y Registro Documental Primario - La Adquisición de Twitter por Elon Musk: Despidos Masivos, Suscripción de Verificación y Rebranding a X](https://images.unsplash.com/photo-1611162617474-5b21e879e113?auto=format&fit=crop&w=1200&h=630&q=82)
+![Evidencia y Registro Documental Primario - La Adquisición de Twitter por Elon Musk: Despidos Masivos, Suscripción de Verificación y Rebranding a X](https://upload.wikimedia.org/wikipedia/commons/2/21/To_All_the_Boys_-_P.S._I_Still_Love_You_interview_in_Brazil_02.jpg)
 *Figura 1: Mapeo y registro fotográfico documental archivado en la hemeroteca de News Internacional TEP.*
 
 La evolución empírica de los acontecimientos desmintió rápidamente los diagnósticos complacientes. La aceleración de las dinámicas en juego obligó a un reajuste de las previsiones institucionales, revelando una marcada correlación entre la exposición previa al riesgo y la celeridad del deterioro funcional en los sectores analizados.
@@ -40,7 +40,7 @@ El comportamiento de los indicadores determinantes durante este período histór
 
 ## 4. Evaluación de Escenarios y Modelado de Riesgo
 
-![Modelado de Trayectorias y Riesgo Sistémico](https://images.unsplash.com/photo-1563986768609-322da13575f3?auto=format&fit=crop&w=1200&h=630&q=82)
+![Modelado de Trayectorias y Riesgo Sistémico](https://upload.wikimedia.org/wikipedia/commons/0/0e/To_All_the_Boys_-_P.S._I_Still_Love_You_interview_in_Brazil_03.jpg)
 *Figura 2: Proyección de trayectorias y modelado de dispersión elaborado por la Unidad Cuantitativa TEP.*
 
 El análisis retrospectivo permite clasificar la trayectoria que finalmente se consolidó frente a las hipótesis alternativas que barajaban los comités en aquel entonces:

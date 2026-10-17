@@ -5,7 +5,7 @@ pubDate: "2026-10-17"
 category: "Tecnología"
 tags: ["Ciberseguridad", "Inteligencia Artificial", "Gobernanza Digital", "Riesgo Sist\u00e9mico"]
 author: "Comité Analítico TEP & Prospectiva"
-heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/Bruce_Schneier_at_CoPS2013-IMG_9174.jpg/1280px-Bruce_Schneier_at_CoPS2013-IMG_9174.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/At_La_Palma_2023_425.jpg/1280px-At_La_Palma_2023_425.jpg"
 canonicalSource: "https://www.schneier.com/blog/archives/2026/10/upcoming-speaking-engagements-61.html"
 ---
 

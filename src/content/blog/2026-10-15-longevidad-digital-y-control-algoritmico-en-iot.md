@@ -5,7 +5,7 @@ pubDate: "2026-10-15"
 category: "Tecnología"
 tags: ["IoT", "Inteligencia Artificial", "Ciberseguridad", "Ecosistema Digital", "Hardware Legacy"]
 author: "Comité Analítico TEP & Prospectiva"
-heroImage: "https://www.01net.com/app/uploads/2017/07/MEA-Google-Home-1024x577.jpg"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/aa/Atari_Portfolio_HPC-004-2383.jpg/1280px-Atari_Portfolio_HPC-004-2383.jpg"
 canonicalSource: "https://www.01net.com/actualites/dix-ans-apres-leur-sortie-les-vieilles-enceintes-google-home-sont-toujours-mises-a-jour.html"
 ---
 

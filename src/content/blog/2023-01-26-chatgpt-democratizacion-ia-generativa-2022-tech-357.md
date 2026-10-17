@@ -5,7 +5,7 @@ pubDate: "2023-01-26"
 category: "Tecnología"
 tags: ["Tecnología", "Inteligencia Artificial", "Semiconductores", "Ciberseguridad", "Computación Avanzada"]
 author: "Comité Analítico TEP & Archivo Histórico"
-heroImage: "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1200&h=630&q=82"
+heroImage: "https://upload.wikimedia.org/wikipedia/commons/2/29/EFTA00002627_-_Cluttered_server_rack_filled_with_tangled_cables_and_networking_equipment_in_a_basement_room.jpg"
 canonicalSource: "https://newsinternacionaltep.com/categoria/tecnologia"
 ---
 
@@ -21,7 +21,7 @@ Los reportes primarios recopilados por las corresponsalías y agencias de monito
 
 ## 2. Estado de la Situación y Dinámica Estructural
 
-![Evidencia y Registro Documental Primario - El Fenómeno ChatGPT y la Democratización Acelerada de la Inteligencia Artificial Generativa](https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&w=1200&h=630&q=82)
+![Evidencia y Registro Documental Primario - El Fenómeno ChatGPT y la Democratización Acelerada de la Inteligencia Artificial Generativa](https://upload.wikimedia.org/wikipedia/commons/c/c7/EFTA00002633_-_Cluttered_server_rack_filled_with_colorful_cables_and_electronic_equipment_in_a_basement_room.jpg)
 *Figura 1: Mapeo y registro fotográfico documental archivado en la hemeroteca de News Internacional TEP.*
 
 La evolución empírica de los acontecimientos desmintió rápidamente los diagnósticos complacientes. La aceleración de las dinámicas en juego obligó a un reajuste de las previsiones institucionales, revelando una marcada correlación entre la exposición previa al riesgo y la celeridad del deterioro funcional en los sectores analizados.
@@ -40,7 +40,7 @@ El comportamiento de los indicadores determinantes durante este período histór
 
 ## 4. Evaluación de Escenarios y Modelado de Riesgo
 
-![Modelado de Trayectorias y Riesgo Sistémico](https://images.unsplash.com/photo-1531297484001-80022131f5a1?auto=format&fit=crop&w=1200&h=630&q=82)
+![Modelado de Trayectorias y Riesgo Sistémico](https://upload.wikimedia.org/wikipedia/commons/6/6d/EFTA00002636_-_Cluttered_server_rack_filled_with_tangled_cables_and_equipment_in_a_dimly_lit_utility_room.jpg)
 *Figura 2: Proyección de trayectorias y modelado de dispersión elaborado por la Unidad Cuantitativa TEP.*
 
 El análisis retrospectivo permite clasificar la trayectoria que finalmente se consolidó frente a las hipótesis alternativas que barajaban los comités en aquel entonces:

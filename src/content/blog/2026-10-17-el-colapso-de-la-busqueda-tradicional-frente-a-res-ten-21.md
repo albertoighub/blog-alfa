@@ -5,7 +5,7 @@ pubDate: "2026-10-17"
 category: "Tendencias"
 tags: ["Sociolog\u00eda Digital", "Algoritmos de Atenci\u00f3n", "Econom\u00eda de Plataformas", "Polarizaci\u00f3n", "Cultura Digital"]
 author: "Comité Analítico TEP & Prospectiva"
-heroImage: "https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=1200&h=630&q=82"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/Mikhail_Zakharov_%282023-04-07%29_04.jpg/1280px-Mikhail_Zakharov_%282023-04-07%29_04.jpg"
 canonicalSource: "https://newsinternacionaltep.com/categoria/tendencias"
 ---
 
@@ -21,7 +21,7 @@ El análisis de series temporales de tráfico y engagement demuestra que los inc
 
 ## 2. Estado del Arte y Dinámica Estructural
 
-![Análisis Documental Primario - El Colapso de la Búsqueda Tradicional Frente a Respuestas Sint](https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=1000&h=500&q=82)
+![Análisis Documental Primario - El Colapso de la Búsqueda Tradicional Frente a Respuestas Sint](https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/Odilon_Redon_-_Roger_et_Angelica_-_Google_Art_Project.jpg/1280px-Odilon_Redon_-_Roger_et_Angelica_-_Google_Art_Project.jpg)
 *Figura 1: Representación técnica y mapeo contextual del fenómeno analizado.*
 Durante la última década, el modelo de negocio publicitario digital evolucionó desde banners estáticos hacia arquitecturas de aprendizaje por refuerzo profundo. En este contexto, el fenómeno estudiado ha consolidado una economía donde la atención humana es cuantificada, microsegmentada y subastada en milisegundos.
 
@@ -39,7 +39,7 @@ El mecanismo operativo descansa sobre bucles de recompensa intermitente variable
 
 ## 4. Evaluación de Escenarios y Modelado de Riesgo
 
-![Modelado de Trayectorias y Riesgo Sistémico](https://images.unsplash.com/photo-1542744173-8e7e53415bb0?auto=format&fit=crop&w=1000&h=500&q=82)
+![Modelado de Trayectorias y Riesgo Sistémico](https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/Raghu_Rai_exhibition_opening.jpg/1280px-Raghu_Rai_exhibition_opening.jpg)
 *Figura 2: Telemetría de variables y dispersión de escenarios probabilísticos.*
 Se plantearon tres escenarios de evolución sociotécnica para evaluar las transformaciones en la cohesión cívica y regulatoria:
 

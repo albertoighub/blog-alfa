@@ -5,7 +5,7 @@ pubDate: "2026-10-14"
 category: "Geopolítica"
 tags: ["Seguridad Nacional", "Modelos Penales", "Autoritarismo Suave", "Am\u00e9rica Latina"]
 author: "Comité Analítico TEP & Prospectiva"
-heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/Laura_Fernandez_Delgado_presidential_inauguration_20260508_0515_%28cropped%29.jpg/1280px-Laura_Fernandez_Delgado_presidential_inauguration_20260508_0515_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/Rear_panel_of_mixing_console_and_amplifiers_at_concert_of_band_%27Dead_Can_Dance%27_in_Barcelona%2C_May_2022.jpg/1280px-Rear_panel_of_mixing_console_and_amplifiers_at_concert_of_band_%27Dead_Can_Dance%27_in_Barcelona%2C_May_2022.jpg"
 canonicalSource: "https://www.elnacional.com/2026/10/costa-rica-inaugura-el-cacco-prision-de-maxima-seguridad-inspirada-en-el-modelo-de-bukele/"
 ---
 

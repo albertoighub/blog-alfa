@@ -5,7 +5,7 @@ pubDate: "2026-10-14"
 category: "Economía"
 tags: ["Macroeconom\u00eda", "Mercados Financieros", "Inflaci\u00f3n", "Ciclos Econ\u00f3micos"]
 author: "Comité Analítico TEP & Prospectiva"
-heroImage: "https://cdn.mos.cms.futurecdn.net/XVJqMJo7Jy4LpaiMjMucYU-1920-80.jpg"
+heroImage: "https://upload.wikimedia.org/wikipedia/commons/c/c2/1U_rack_mount_server_cooling_system_fan_heat-sink.jpg"
 canonicalSource: "https://www.kiplinger.com/investing/stocks/stocks-churn-ahead-of-cpi-earnings-season-stock-market-today"
 ---
 

@@ -5,7 +5,7 @@ pubDate: "2026-10-17"
 category: "Economía"
 tags: ["Energ\u00eda Digital", "Infraestructura Cr\u00edtica", "Inteligencia Artificial", "Transici\u00f3n Energ\u00e9tica"]
 author: "Comité Analítico TEP & Prospectiva"
-heroImage: "https://fortune.com/img-assets/wp-content/uploads/2026/10/55589489741_9a53e4dac4_o-e1792095433760.jpg?w=2048"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/NVIDIA_GPU_workstation_2.webp/1280px-NVIDIA_GPU_workstation_2.webp"
 canonicalSource: "https://fortune.com/2026/10/15/flex-ceo-revathi-advaithi-says-infrastructure-grid-needs-to-scale-with-ai-or-else-forget-all-the-frontier-models/"
 ---
 

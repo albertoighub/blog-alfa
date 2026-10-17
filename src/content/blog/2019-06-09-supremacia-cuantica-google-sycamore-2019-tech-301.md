@@ -5,7 +5,7 @@ pubDate: "2019-06-09"
 category: "Tecnología"
 tags: ["Tecnología", "Inteligencia Artificial", "Semiconductores", "Ciberseguridad", "Computación Avanzada"]
 author: "Comité Analítico TEP & Archivo Histórico"
-heroImage: "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1200&h=630&q=82"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/New_Discoveries_Within_%E2%80%98SIGHT%E2%80%99_-_26372558768.jpg/1280px-New_Discoveries_Within_%E2%80%98SIGHT%E2%80%99_-_26372558768.jpg"
 canonicalSource: "https://newsinternacionaltep.com/categoria/tecnologia"
 ---
 
@@ -21,7 +21,7 @@ Los reportes primarios recopilados por las corresponsalías y agencias de monito
 
 ## 2. Estado de la Situación y Dinámica Estructural
 
-![Evidencia y Registro Documental Primario - La Supremacía Cuántica de Google Sycamore y el Hito de la Computación No Lineal](https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&w=1200&h=630&q=82)
+![Evidencia y Registro Documental Primario - La Supremacía Cuántica de Google Sycamore y el Hito de la Computación No Lineal](https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/Nuclear_Physicists_Wield_HPC_to_Uncover_Magic_Isotopes_-_41111903604.jpg/1280px-Nuclear_Physicists_Wield_HPC_to_Uncover_Magic_Isotopes_-_41111903604.jpg)
 *Figura 1: Mapeo y registro fotográfico documental archivado en la hemeroteca de News Internacional TEP.*
 
 La evolución empírica de los acontecimientos desmintió rápidamente los diagnósticos complacientes. La aceleración de las dinámicas en juego obligó a un reajuste de las previsiones institucionales, revelando una marcada correlación entre la exposición previa al riesgo y la celeridad del deterioro funcional en los sectores analizados.
@@ -40,7 +40,7 @@ El comportamiento de los indicadores determinantes durante este período histór
 
 ## 4. Evaluación de Escenarios y Modelado de Riesgo
 
-![Modelado de Trayectorias y Riesgo Sistémico](https://images.unsplash.com/photo-1531297484001-80022131f5a1?auto=format&fit=crop&w=1200&h=630&q=82)
+![Modelado de Trayectorias y Riesgo Sistémico](https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Oak_Ridge_-_Kraken_%28Cray_XT5%29.JPG/1280px-Oak_Ridge_-_Kraken_%28Cray_XT5%29.JPG)
 *Figura 2: Proyección de trayectorias y modelado de dispersión elaborado por la Unidad Cuantitativa TEP.*
 
 El análisis retrospectivo permite clasificar la trayectoria que finalmente se consolidó frente a las hipótesis alternativas que barajaban los comités en aquel entonces:

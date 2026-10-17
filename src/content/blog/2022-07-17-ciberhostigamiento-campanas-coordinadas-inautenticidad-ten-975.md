@@ -5,7 +5,7 @@ pubDate: "2022-07-17"
 category: "Tendencias"
 tags: ["Redes Sociales", "Dinámica Digital", "Cultura Algorítmica", "Plataformas", "Comportamiento Colectivo"]
 author: "Comité Analítico TEP & Archivo Histórico"
-heroImage: "https://images.unsplash.com/photo-1534536281715-e28d76689b4d?auto=format&fit=crop&w=1200&h=630&q=82"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Young_Man_in_a_Interview.jpg/1280px-Young_Man_in_a_Interview.jpg"
 canonicalSource: "https://newsinternacionaltep.com/categoria/tendencias"
 ---
 
@@ -21,7 +21,7 @@ Los reportes primarios recopilados por las corresponsalías y agencias de monito
 
 ## 2. Estado de la Situación y Dinámica Estructural
 
-![Evidencia y Registro Documental Primario - Ciberhostigamiento Organizado y el Uso de Campañas Coordinadas de Inautenticidad en Twitter y Reddit](https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=1200&h=630&q=82)
+![Evidencia y Registro Documental Primario - Ciberhostigamiento Organizado y el Uso de Campañas Coordinadas de Inautenticidad en Twitter y Reddit](https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/%E6%BA%AB%E6%8B%BF%E6%A8%82%E9%9A%8A%E3%80%81%E9%8D%BE%E6%87%BF.png/1280px-%E6%BA%AB%E6%8B%BF%E6%A8%82%E9%9A%8A%E3%80%81%E9%8D%BE%E6%87%BF.png)
 *Figura 1: Mapeo y registro fotográfico documental archivado en la hemeroteca de News Internacional TEP.*
 
 La evolución empírica de los acontecimientos desmintió rápidamente los diagnósticos complacientes. La aceleración de las dinámicas en juego obligó a un reajuste de las previsiones institucionales, revelando una marcada correlación entre la exposición previa al riesgo y la celeridad del deterioro funcional en los sectores analizados.
@@ -40,7 +40,7 @@ El comportamiento de los indicadores determinantes durante este período histór
 
 ## 4. Evaluación de Escenarios y Modelado de Riesgo
 
-![Modelado de Trayectorias y Riesgo Sistémico](https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=1200&h=630&q=82)
+![Modelado de Trayectorias y Riesgo Sistémico](https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/Dr._Goldston_interview_with_ASCM_CEO_Abe_Eshkenazi_for_the_Georgetown_University_Master%27s_in_Supply_Chain_Management_program_development.jpg/1280px-Dr._Goldston_interview_with_ASCM_CEO_Abe_Eshkenazi_for_the_Georgetown_University_Master%27s_in_Supply_Chain_Management_program_development.jpg)
 *Figura 2: Proyección de trayectorias y modelado de dispersión elaborado por la Unidad Cuantitativa TEP.*
 
 El análisis retrospectivo permite clasificar la trayectoria que finalmente se consolidó frente a las hipótesis alternativas que barajaban los comités en aquel entonces:

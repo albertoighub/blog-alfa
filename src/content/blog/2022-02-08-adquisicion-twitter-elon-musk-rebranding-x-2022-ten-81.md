@@ -5,7 +5,7 @@ pubDate: "2022-02-08"
 category: "Tendencias"
 tags: ["Redes Sociales", "Dinámica Digital", "Cultura Algorítmica", "Plataformas", "Comportamiento Colectivo"]
 author: "Comité Analítico TEP & Archivo Histórico"
-heroImage: "https://images.unsplash.com/photo-1534536281715-e28d76689b4d?auto=format&fit=crop&w=1200&h=630&q=82"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/Nitin_Gadkari_briefing_the_media_on_the_Cabinet_approval_for_upgradation_and_widening_of_Imphal-Moreh_Section_of_NH-39_in_Manipur_%26_other_projects%2C_in_New_Delhi.jpg/1280px-thumbnail.jpg"
 canonicalSource: "https://newsinternacionaltep.com/categoria/tendencias"
 ---
 
@@ -21,7 +21,7 @@ Los reportes primarios recopilados por las corresponsalías y agencias de monito
 
 ## 2. Estado de la Situación y Dinámica Estructural
 
-![Evidencia y Registro Documental Primario - La Adquisición de Twitter por Elon Musk: Despidos Masivos, Suscripción de Verificación y Rebranding a X](https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=1200&h=630&q=82)
+![Evidencia y Registro Documental Primario - La Adquisición de Twitter por Elon Musk: Despidos Masivos, Suscripción de Verificación y Rebranding a X](https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/Nitin_Gadkari_briefing_the_media_on_the_Cabinet_approval_for_upgradation_and_widening_of_Imphal-Moreh_Section_of_NH-39_in_Manipur_%26_other_projects%2C_in_New_Delhi_%281%29.jpg/1280px-thumbnail.jpg)
 *Figura 1: Mapeo y registro fotográfico documental archivado en la hemeroteca de News Internacional TEP.*
 
 La evolución empírica de los acontecimientos desmintió rápidamente los diagnósticos complacientes. La aceleración de las dinámicas en juego obligó a un reajuste de las previsiones institucionales, revelando una marcada correlación entre la exposición previa al riesgo y la celeridad del deterioro funcional en los sectores analizados.
@@ -40,7 +40,7 @@ El comportamiento de los indicadores determinantes durante este período histór
 
 ## 4. Evaluación de Escenarios y Modelado de Riesgo
 
-![Modelado de Trayectorias y Riesgo Sistémico](https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=1200&h=630&q=82)
+![Modelado de Trayectorias y Riesgo Sistémico](https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/Sabrina_Carpenter_-_Disney_Social_Media_Moms_Conference_-_4.jpg/1280px-Sabrina_Carpenter_-_Disney_Social_Media_Moms_Conference_-_4.jpg)
 *Figura 2: Proyección de trayectorias y modelado de dispersión elaborado por la Unidad Cuantitativa TEP.*
 
 El análisis retrospectivo permite clasificar la trayectoria que finalmente se consolidó frente a las hipótesis alternativas que barajaban los comités en aquel entonces:

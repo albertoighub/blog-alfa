@@ -5,7 +5,7 @@ pubDate: "2026-10-14"
 category: "Geopolítica"
 tags: ["Riesgo Clim\u00e1tico", "Urbanismo Sostenible", "Gobernanza de Riesgos", "Turqu\u00eda", "Seguridad Ambiental"]
 author: "Comité Analítico TEP & Prospectiva"
-heroImage: "https://cdn.prod.www.spiegel.de/images/4a821942-6c5a-4d6b-af24-b9cae90ba782_w520_r2.08_fpx66.67_fpy50.jpg"
+heroImage: "https://upload.wikimedia.org/wikipedia/commons/0/01/Butterflyverschluss.jpg"
 canonicalSource: "https://www.spiegel.de/panorama/unwetter-in-der-tuerkei-extreme-regenfaelle-ueberfluten-istanbul-ein-toter-a-07049c6d-06ef-4f0d-bfba-982e4ba0e0c0#ref=rss"
 ---
 

@@ -5,7 +5,7 @@ pubDate: "2023-07-20"
 category: "Ciencia"
 tags: ["Ciencia", "Medicina", "Biotecnología", "Investigación Clínica", "Salud Pública"]
 author: "Comité Analítico TEP & Archivo Histórico"
-heroImage: "https://images.unsplash.com/photo-1579165466791-788226ab77b6?auto=format&fit=crop&w=1200&h=630&q=82"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/75/President_Ronald_Reagan_Meeting_with_Joseph_Coors_in_The_Oval_Office_Regarding_Australia_-_DPLA_-_482e6cbec98c636dc9f314a8daf06870.jpg/1280px-President_Ronald_Reagan_Meeting_with_Joseph_Coors_in_The_Oval_Office_Regarding_Australia_-_DPLA_-_482e6cbec98c636dc9f314a8daf06870.jpg"
 canonicalSource: "https://newsinternacionaltep.com/categoria/ciencia"
 ---
 
@@ -21,7 +21,7 @@ Los reportes primarios recopilados por las corresponsalías y agencias de monito
 
 ## 2. Estado de la Situación y Dinámica Estructural
 
-![Evidencia y Registro Documental Primario - Fármacos Anti-Amiloide de Segunda Generación (Lecanemab) para la Ralentización del Alzheimer](https://images.unsplash.com/photo-1516549655169-df83a0774514?auto=format&fit=crop&w=1200&h=630&q=82)
+![Evidencia y Registro Documental Primario - Fármacos Anti-Amiloide de Segunda Generación (Lecanemab) para la Ralentización del Alzheimer](https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/President_Ronald_Reagan_Meeting_with_Judge_Anthony_Kennedy_in_The_Oval_Office_-_DPLA_-_006612ef2478f82384bf02784bca984b.jpg/1280px-President_Ronald_Reagan_Meeting_with_Judge_Anthony_Kennedy_in_The_Oval_Office_-_DPLA_-_006612ef2478f82384bf02784bca984b.jpg)
 *Figura 1: Mapeo y registro fotográfico documental archivado en la hemeroteca de News Internacional TEP.*
 
 La evolución empírica de los acontecimientos desmintió rápidamente los diagnósticos complacientes. La aceleración de las dinámicas en juego obligó a un reajuste de las previsiones institucionales, revelando una marcada correlación entre la exposición previa al riesgo y la celeridad del deterioro funcional en los sectores analizados.
@@ -40,7 +40,7 @@ El comportamiento de los indicadores determinantes durante este período histór
 
 ## 4. Evaluación de Escenarios y Modelado de Riesgo
 
-![Modelado de Trayectorias y Riesgo Sistémico](https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?auto=format&fit=crop&w=1200&h=630&q=82)
+![Modelado de Trayectorias y Riesgo Sistémico](https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/President_Ronald_Reagan_Meeting_with_Judge_Robert_Bork_in_The_Oval_Office_-_DPLA_-_103bb1951c9c57b772c950d30537de00.jpg/1280px-President_Ronald_Reagan_Meeting_with_Judge_Robert_Bork_in_The_Oval_Office_-_DPLA_-_103bb1951c9c57b772c950d30537de00.jpg)
 *Figura 2: Proyección de trayectorias y modelado de dispersión elaborado por la Unidad Cuantitativa TEP.*
 
 El análisis retrospectivo permite clasificar la trayectoria que finalmente se consolidó frente a las hipótesis alternativas que barajaban los comités en aquel entonces:

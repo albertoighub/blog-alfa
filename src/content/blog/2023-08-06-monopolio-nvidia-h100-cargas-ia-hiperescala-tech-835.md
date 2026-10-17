@@ -5,7 +5,7 @@ pubDate: "2023-08-06"
 category: "Tecnología"
 tags: ["Tecnología", "Inteligencia Artificial", "Semiconductores", "Ciberseguridad", "Computación Avanzada"]
 author: "Comité Analítico TEP & Archivo Histórico"
-heroImage: "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&w=1200&h=630&q=82"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/03.06_%E7%B8%BD%E7%B5%B1%E5%87%BA%E5%B8%AD%E3%80%8C%E9%AB%98%E9%80%9F%E9%87%8F%E5%AD%90%E9%81%8B%E7%AE%97%E5%9C%8B%E5%AE%B6%E6%88%B0%E7%95%A5%E7%99%BC%E5%B8%83%E6%9C%83%E3%80%8D_-_55130587747.jpg/1280px-03.06_%E7%B8%BD%E7%B5%B1%E5%87%BA%E5%B8%AD%E3%80%8C%E9%AB%98%E9%80%9F%E9%87%8F%E5%AD%90%E9%81%8B%E7%AE%97%E5%9C%8B%E5%AE%B6%E6%88%B0%E7%95%A5%E7%99%BC%E5%B8%83%E6%9C%83%E3%80%8D_-_55130587747.jpg"
 canonicalSource: "https://newsinternacionaltep.com/categoria/tecnologia"
 ---
 
@@ -21,7 +21,7 @@ Los reportes primarios recopilados por las corresponsalías y agencias de monito
 
 ## 2. Estado de la Situación y Dinámica Estructural
 
-![Evidencia y Registro Documental Primario - La Demanda Exponencial de Aceleradores GPU Nvidia H100 y el Monopolio de Cómputo de Hiperescala](https://images.unsplash.com/photo-1531297484001-80022131f5a1?auto=format&fit=crop&w=1200&h=630&q=82)
+![Evidencia y Registro Documental Primario - La Demanda Exponencial de Aceleradores GPU Nvidia H100 y el Monopolio de Cómputo de Hiperescala](https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/03.06_%E7%B8%BD%E7%B5%B1%E5%87%BA%E5%B8%AD%E3%80%8C%E9%AB%98%E9%80%9F%E9%87%8F%E5%AD%90%E9%81%8B%E7%AE%97%E5%9C%8B%E5%AE%B6%E6%88%B0%E7%95%A5%E7%99%BC%E5%B8%83%E6%9C%83%E3%80%8D_-_55130590182.jpg/1280px-03.06_%E7%B8%BD%E7%B5%B1%E5%87%BA%E5%B8%AD%E3%80%8C%E9%AB%98%E9%80%9F%E9%87%8F%E5%AD%90%E9%81%8B%E7%AE%97%E5%9C%8B%E5%AE%B6%E6%88%B0%E7%95%A5%E7%99%BC%E5%B8%83%E6%9C%83%E3%80%8D_-_55130590182.jpg)
 *Figura 1: Mapeo y registro fotográfico documental archivado en la hemeroteca de News Internacional TEP.*
 
 La evolución empírica de los acontecimientos desmintió rápidamente los diagnósticos complacientes. La aceleración de las dinámicas en juego obligó a un reajuste de las previsiones institucionales, revelando una marcada correlación entre la exposición previa al riesgo y la celeridad del deterioro funcional en los sectores analizados.
@@ -40,7 +40,7 @@ El comportamiento de los indicadores determinantes durante este período histór
 
 ## 4. Evaluación de Escenarios y Modelado de Riesgo
 
-![Modelado de Trayectorias y Riesgo Sistémico](https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=1200&h=630&q=82)
+![Modelado de Trayectorias y Riesgo Sistémico](https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/03.06_%E7%B8%BD%E7%B5%B1%E5%87%BA%E5%B8%AD%E3%80%8C%E9%AB%98%E9%80%9F%E9%87%8F%E5%AD%90%E9%81%8B%E7%AE%97%E5%9C%8B%E5%AE%B6%E6%88%B0%E7%95%A5%E7%99%BC%E5%B8%83%E6%9C%83%E3%80%8D_-_55131481971.jpg/1280px-03.06_%E7%B8%BD%E7%B5%B1%E5%87%BA%E5%B8%AD%E3%80%8C%E9%AB%98%E9%80%9F%E9%87%8F%E5%AD%90%E9%81%8B%E7%AE%97%E5%9C%8B%E5%AE%B6%E6%88%B0%E7%95%A5%E7%99%BC%E5%B8%83%E6%9C%83%E3%80%8D_-_55131481971.jpg)
 *Figura 2: Proyección de trayectorias y modelado de dispersión elaborado por la Unidad Cuantitativa TEP.*
 
 El análisis retrospectivo permite clasificar la trayectoria que finalmente se consolidó frente a las hipótesis alternativas que barajaban los comités en aquel entonces:

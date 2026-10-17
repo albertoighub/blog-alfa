@@ -5,7 +5,7 @@ pubDate: "2026-10-16"
 category: "Economía"
 tags: ["Integraci\u00f3n Europea", "Capital Riesgo", "Regulaci\u00f3n Digital", "Fragmentaci\u00f3n de Mercados"]
 author: "Comité Analítico TEP & Prospectiva"
-heroImage: "https://fortune.com/img-assets/wp-content/uploads/2026/10/GettyImages-1243572299-e1792068161658.jpg?w=2048"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/1964_Imperial_Crown_Coupe_%2828267886990%29.jpg/1280px-1964_Imperial_Crown_Coupe_%2828267886990%29.jpg"
 canonicalSource: "https://fortune.com/2026/10/16/europtimism-clashes-with-1-in-3-founders-wanting-out-we-need-the-eu-to-finally-become-a-true-single-market/"
 ---
 

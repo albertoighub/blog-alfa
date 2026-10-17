@@ -5,7 +5,7 @@ pubDate: "2026-10-16"
 category: "Economía"
 tags: ["IA Gobernanza", "Riesgo Operacional", "FinTech", "Autonom\u00eda Algor\u00edtmica"]
 author: "Comité Analítico TEP & Prospectiva"
-heroImage: "https://fortune.com/img-assets/wp-content/uploads/2026/10/GettyImages-2298278770-e1792085131474.jpg?w=2048"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/Atari_Portfolio_HPC-004_-_keypad-4652.jpg/1280px-Atari_Portfolio_HPC-004_-_keypad-4652.jpg"
 canonicalSource: "https://fortune.com/2026/10/15/jamie-dimon-ai-agents-meta-muse-jpmorgan/"
 ---
 

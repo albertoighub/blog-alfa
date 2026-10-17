@@ -5,7 +5,7 @@ pubDate: "2026-10-15"
 category: "Tecnología"
 tags: ["Ciberseguridad", "Inteligencia Artificial", "Software Engineering", "Gesti\u00f3n de Riesgos Digitales"]
 author: "Comité Analítico TEP & Prospectiva"
-heroImage: "https://www.01net.com/app/uploads/2026/01/google-Chrome-1344x896.jpg"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/de/Wikimedia_Foundation_Servers-8055_03_square.jpg/1280px-Wikimedia_Foundation_Servers-8055_03_square.jpg"
 canonicalSource: "https://www.01net.com/actualites/google-corrige-37-nouvelles-failles-chrome-lia-accelere-encore-la-cadence-des-mises-a-jour.html"
 ---
 

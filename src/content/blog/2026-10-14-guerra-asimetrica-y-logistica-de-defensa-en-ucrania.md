@@ -5,7 +5,7 @@ pubDate: "2026-10-14"
 category: "Geopolítica"
 tags: ["Guerra Asim\u00e9trica", "Seguridad Europea", "Tecnolog\u00eda Militar", "Relaciones Internacionales"]
 author: "Comité Analítico TEP & Prospectiva"
-heroImage: "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=crop&w=1200&h=630&q=85"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/Safety_and_Health_Showcase_%28KSC-20240509-PH-GEB01_0023%29.jpg/1280px-Safety_and_Health_Showcase_%28KSC-20240509-PH-GEB01_0023%29.jpg"
 canonicalSource: "https://kyivindependent.com/zelensky-arrives-in-uk-as-london-vows-to-speed-up-anti-drone-missile-deliveries/"
 ---
 

@@ -5,7 +5,7 @@ pubDate: "2023-11-04"
 category: "Ciencia"
 tags: ["Ciencia", "Medicina", "Biotecnología", "Investigación Clínica", "Salud Pública"]
 author: "Comité Analítico TEP & Archivo Histórico"
-heroImage: "https://images.unsplash.com/photo-1530497610245-94d3c16cda28?auto=format&fit=crop&w=1200&h=630&q=82"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/68th_Anniversary_of_Normandy_Reception_120606-A-LR102-232.jpg/1280px-68th_Anniversary_of_Normandy_Reception_120606-A-LR102-232.jpg"
 canonicalSource: "https://newsinternacionaltep.com/categoria/ciencia"
 ---
 
@@ -21,7 +21,7 @@ Los reportes primarios recopilados por las corresponsalías y agencias de monito
 
 ## 2. Estado de la Situación y Dinámica Estructural
 
-![Evidencia y Registro Documental Primario - Ganancia Neta de Energía en Fusión Nuclear por Confinamiento Inercial en el National Ignition Facility](https://images.unsplash.com/photo-1507668077129-56e32842fceb?auto=format&fit=crop&w=1200&h=630&q=82)
+![Evidencia y Registro Documental Primario - Ganancia Neta de Energía en Fusión Nuclear por Confinamiento Inercial en el National Ignition Facility](https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f5/Commission_-_From_Foreign_Nations_-_Belgium_-_Belgian_Mission_arrives_in_New_York_city._Members_of_Belgian_Mission_and_Reception_Committee_leaving_Battery_to_motor_to_City_Hall_where_they_were_officially_welcomed%28...%29_-_NARA_-_26431648.jpg/1280px-thumbnail.jpg)
 *Figura 1: Mapeo y registro fotográfico documental archivado en la hemeroteca de News Internacional TEP.*
 
 La evolución empírica de los acontecimientos desmintió rápidamente los diagnósticos complacientes. La aceleración de las dinámicas en juego obligó a un reajuste de las previsiones institucionales, revelando una marcada correlación entre la exposición previa al riesgo y la celeridad del deterioro funcional en los sectores analizados.
@@ -40,7 +40,7 @@ El comportamiento de los indicadores determinantes durante este período histór
 
 ## 4. Evaluación de Escenarios y Modelado de Riesgo
 
-![Modelado de Trayectorias y Riesgo Sistémico](https://images.unsplash.com/photo-1576086213369-97a306d36557?auto=format&fit=crop&w=1200&h=630&q=82)
+![Modelado de Trayectorias y Riesgo Sistémico](https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/Long_Gallery_on_the_Second_Floor_of_Independence_Hall_%288b8fd1ad-155d-451f-67d8-778c8d7cc9d0%29.jpg/1280px-Long_Gallery_on_the_Second_Floor_of_Independence_Hall_%288b8fd1ad-155d-451f-67d8-778c8d7cc9d0%29.jpg)
 *Figura 2: Proyección de trayectorias y modelado de dispersión elaborado por la Unidad Cuantitativa TEP.*
 
 El análisis retrospectivo permite clasificar la trayectoria que finalmente se consolidó frente a las hipótesis alternativas que barajaban los comités en aquel entonces:

@@ -5,7 +5,7 @@ pubDate: "2026-10-16"
 category: "Economía"
 tags: ["Infraestructura AI", "Neocloud", "Capital Riesgo", "C\u00f3mputo Especializado", "Finanzas Tecnol\u00f3gicas"]
 author: "Comité Analítico TEP & Prospectiva"
-heroImage: "https://fortune.com/img-assets/wp-content/uploads/2025/11/GettyImages-2207352805-e1762554281237.jpg?w=2048"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/SX-HPC_over_Athens.jpg/1280px-SX-HPC_over_Athens.jpg"
 canonicalSource: "https://fortune.com/2026/10/16/coreweave-investor-explains-ai-neocloud-debt/"
 ---
 

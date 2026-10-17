@@ -5,7 +5,7 @@ pubDate: "2023-11-09"
 category: "Ciencia"
 tags: ["Ciencia", "Medicina", "Biotecnología", "Investigación Clínica", "Salud Pública"]
 author: "Comité Analítico TEP & Archivo Histórico"
-heroImage: "https://images.unsplash.com/photo-1507668077129-56e32842fceb?auto=format&fit=crop&w=1200&h=630&q=82"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/2019-10-03_Prime_Minister_Sheikh_Hasina_greets_guests_at_reception_Bangladesh_High_Commission_Maitri_Hall_New_Delhi_India_%28PID-0036719%29.jpg/1280px-2019-10-03_Prime_Minister_Sheikh_Hasina_greets_guests_at_reception_Bangladesh_High_Commission_Maitri_Hall_New_Delhi_India_%28PID-0036719%29.jpg"
 canonicalSource: "https://newsinternacionaltep.com/categoria/ciencia"
 ---
 
@@ -21,7 +21,7 @@ Los reportes primarios recopilados por las corresponsalías y agencias de monito
 
 ## 2. Estado de la Situación y Dinámica Estructural
 
-![Evidencia y Registro Documental Primario - El Mapeo Completo del Conectoma Neuronal de Drosophila melanogaster y la Arquitectura Sináptica](https://images.unsplash.com/photo-1576086213369-97a306d36557?auto=format&fit=crop&w=1200&h=630&q=82)
+![Evidencia y Registro Documental Primario - El Mapeo Completo del Conectoma Neuronal de Drosophila melanogaster y la Arquitectura Sináptica](https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/New_USAFE-UK_director_hosts_summer_reception%2C_welcomes_civic_leaders_%284509105%29.jpg/1280px-New_USAFE-UK_director_hosts_summer_reception%2C_welcomes_civic_leaders_%284509105%29.jpg)
 *Figura 1: Mapeo y registro fotográfico documental archivado en la hemeroteca de News Internacional TEP.*
 
 La evolución empírica de los acontecimientos desmintió rápidamente los diagnósticos complacientes. La aceleración de las dinámicas en juego obligó a un reajuste de las previsiones institucionales, revelando una marcada correlación entre la exposición previa al riesgo y la celeridad del deterioro funcional en los sectores analizados.
@@ -40,7 +40,7 @@ El comportamiento de los indicadores determinantes durante este período histór
 
 ## 4. Evaluación de Escenarios y Modelado de Riesgo
 
-![Modelado de Trayectorias y Riesgo Sistémico](https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=1200&h=630&q=82)
+![Modelado de Trayectorias y Riesgo Sistémico](https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/President_John_F._Kennedy_wears_a_stroller_suit_to_a_diplomatic_reception_in_1961.jpg/1280px-President_John_F._Kennedy_wears_a_stroller_suit_to_a_diplomatic_reception_in_1961.jpg)
 *Figura 2: Proyección de trayectorias y modelado de dispersión elaborado por la Unidad Cuantitativa TEP.*
 
 El análisis retrospectivo permite clasificar la trayectoria que finalmente se consolidó frente a las hipótesis alternativas que barajaban los comités en aquel entonces:

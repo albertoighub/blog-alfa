@@ -5,7 +5,7 @@ pubDate: "2026-10-14"
 category: "Economía"
 tags: ["Capital Social", "Comoditizaci\u00f3n Aspiracional", "Estrategia de Marca", "Mercado DTC"]
 author: "Comité Analítico TEP & Prospectiva"
-heroImage: "https://fortune.com/img-assets/wp-content/uploads/2026/10/55590031160_204817c45f_o-e1792002952361.jpg?w=2048"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/86_SFS_provides_VR_training_for_HN_partners_%287105406%29.jpg/1280px-86_SFS_provides_VR_training_for_HN_partners_%287105406%29.jpg"
 canonicalSource: "https://fortune.com/2026/10/14/hailey-bieber-sold-rhode-e-l-f-beauty-after-she-and-co-founder-lauren-ratner-addressed-their-main-fear-in-an-acquisition/"
 ---
 

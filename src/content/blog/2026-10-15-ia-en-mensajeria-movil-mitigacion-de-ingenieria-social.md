@@ -5,7 +5,7 @@ pubDate: "2026-10-15"
 category: "Tecnología"
 tags: ["Ciberseguridad", "Inteligencia Artificial", "Comunicaci\u00f3n M\u00f3vil", "Fraude Digital"]
 author: "Comité Analítico TEP & Prospectiva"
-heroImage: "https://www.01net.com/app/uploads/2026/10/Google-securite-1344x756.jpg"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Wikimedia_Foundation_Servers-8055_03.jpg/1280px-Wikimedia_Foundation_Servers-8055_03.jpg"
 canonicalSource: "https://www.01net.com/actualites/google-messages-va-avoir-droit-a-sa-protection-renforcee.html"
 ---
 

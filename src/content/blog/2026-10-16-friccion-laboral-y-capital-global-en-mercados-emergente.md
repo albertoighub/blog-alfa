@@ -5,7 +5,7 @@ pubDate: "2026-10-16"
 category: "Geopolítica"
 tags: ["Econom\u00eda Pol\u00edtica", "Desarrollo Institucional", "Movilidad de Capital", "Derecho Laboral Global"]
 author: "Comité Analítico TEP & Prospectiva"
-heroImage: "https://images.newsteam.io/image/2744/2Bq28FuGKoK8KqqWQRwFcQjbA6q3gmwbxz2gh1awUbG5gvH44hK2MkZfuDrXMfV4CtDLbhqLn3RhHcmGza6x5L3DyxsDaSCr5NB4bRxngsKhTjh6qUTxVvdAkCGwXTPW7BkEznZQcqeQbPH7wPgQVPR"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/64/1964_Imperial_Crown_Coupe_%2826813757511%29.jpg/1280px-1964_Imperial_Crown_Coupe_%2826813757511%29.jpg"
 canonicalSource: "https://mg.co.za/news/south-africa/2026-10-15-r73k-relocation-row-lands-in-court/"
 ---
 

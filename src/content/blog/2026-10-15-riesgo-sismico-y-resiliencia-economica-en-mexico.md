@@ -5,7 +5,7 @@ pubDate: "2026-10-15"
 category: "Economía"
 tags: ["Geo-riesgo", "Resiliencia Econ\u00f3mica", "Riesgo Sist\u00e9mico", "Infraestructura Cr\u00edtica", "Cat\u00e1strofe Financiera"]
 author: "Comité Analítico TEP & Prospectiva"
-heroImage: "https://gestion.pe/resizer/v2/VPE4EV4DTJBVTOBNJYZY73CTPY.jpg?auth=75923d8265dbd35b04d1566e2174fe6ceb28dddccada15091ae5b46857854e75&smart=true&width=2400&height=1620"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/HPC_Cluster_at_Kerala_University.jpg/1280px-HPC_Cluster_at_Kerala_University.jpg"
 canonicalSource: "https://gestion.pe/mix/respuestas/temblor-en-mexico-en-vivo-hoy-15-y-16-de-octubre-2026-hora-exacta-magnitud-y-donde-fue-el-epicentro-del-ultimo-sismo-segun-el-ssn-nnda-nnrt-noticia/"
 ---
 

@@ -5,7 +5,7 @@ pubDate: "2026-10-15"
 category: "Economía"
 tags: ["Soberan\u00eda Econ\u00f3mica", "Capitalismo Mixto", "Finanzas Corporativas", "Pol\u00edtica Industrial"]
 author: "Comité Analítico TEP & Prospectiva"
-heroImage: "https://i2.res.24o.it/images2010/S24/Documenti/2026/10/16/Immagini/Ritagli/Imagoeconomica_1922302-U77247520254OFu-1440x752@IlSole24Ore-Web.jpg"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/IBM_eServer_xSeries_366_clusters_with_storage_-_IMG_0987.jpg/1280px-IBM_eServer_xSeries_366_clusters_with_storage_-_IMG_0987.jpg"
 canonicalSource: "https://www.ilsole24ore.com/art/cdp-cala-l-asso-mercati-milano-primo-investor-day-oltre-150-big-finanza-AJ1cgmkB"
 ---
 

@@ -5,7 +5,7 @@ pubDate: "2023-11-09"
 category: "Ciencia"
 tags: ["Ciencia", "Medicina", "Biotecnología", "Investigación Clínica", "Salud Pública"]
 author: "Comité Analítico TEP & Archivo Histórico"
-heroImage: "https://images.unsplash.com/photo-1516549655169-df83a0774514?auto=format&fit=crop&w=1200&h=630&q=82"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/President_Shaking_Hands_with_Skater_Peggy_Fleming_at_Reception_Sponsored_By_Women%27S_Sports_Foundation_to_Honor_Inductees_Into_Hall_of_Fame._Waldorf_Astoria_Hotel%2C_New_York%2C_New_York_-_DPLA_-_83b57fe14d2d3354808acd4f5b30d7df.jpg/1280px-thumbnail.jpg"
 canonicalSource: "https://newsinternacionaltep.com/categoria/ciencia"
 ---
 
@@ -21,7 +21,7 @@ Los reportes primarios recopilados por las corresponsalías y agencias de monito
 
 ## 2. Estado de la Situación y Dinámica Estructural
 
-![Evidencia y Registro Documental Primario - Misión DART de la NASA y la Demostración de Deflexión Cinética de Asteroides Peligrosos](https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?auto=format&fit=crop&w=1200&h=630&q=82)
+![Evidencia y Registro Documental Primario - Misión DART de la NASA y la Demostración de Deflexión Cinética de Asteroides Peligrosos](https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8e/Red_Carpet_Reception_And_Guard_Of_Honour_For_Prime_Minister_Sheikh_Hasina_At_Great_Hall_Of_The_People_Beijing_China_July_10_2024_%28PID-0007288%29.jpg/1280px-Red_Carpet_Reception_And_Guard_Of_Honour_For_Prime_Minister_Sheikh_Hasina_At_Great_Hall_Of_The_People_Beijing_China_July_10_2024_%28PID-0007288%29.jpg)
 *Figura 1: Mapeo y registro fotográfico documental archivado en la hemeroteca de News Internacional TEP.*
 
 La evolución empírica de los acontecimientos desmintió rápidamente los diagnósticos complacientes. La aceleración de las dinámicas en juego obligó a un reajuste de las previsiones institucionales, revelando una marcada correlación entre la exposición previa al riesgo y la celeridad del deterioro funcional en los sectores analizados.
@@ -40,7 +40,7 @@ El comportamiento de los indicadores determinantes durante este período histór
 
 ## 4. Evaluación de Escenarios y Modelado de Riesgo
 
-![Modelado de Trayectorias y Riesgo Sistémico](https://images.unsplash.com/photo-1530497610245-94d3c16cda28?auto=format&fit=crop&w=1200&h=630&q=82)
+![Modelado de Trayectorias y Riesgo Sistémico](https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/The_Prime_Minister%2C_Shri_Narendra_Modi_watching_the_cultural_performances_at_the_Civic_Reception%2C_at_City_Hall%2C_in_Brisbane%2C_Australia_on_November_16%2C_2014.jpg/1280px-The_Prime_Minister%2C_Shri_Narendra_Modi_watching_the_cultural_performances_at_the_Civic_Reception%2C_at_City_Hall%2C_in_Brisbane%2C_Australia_on_November_16%2C_2014.jpg)
 *Figura 2: Proyección de trayectorias y modelado de dispersión elaborado por la Unidad Cuantitativa TEP.*
 
 El análisis retrospectivo permite clasificar la trayectoria que finalmente se consolidó frente a las hipótesis alternativas que barajaban los comités en aquel entonces:

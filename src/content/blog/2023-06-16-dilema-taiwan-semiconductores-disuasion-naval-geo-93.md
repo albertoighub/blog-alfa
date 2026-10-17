@@ -5,7 +5,7 @@ pubDate: "2023-06-16"
 category: "Geopolítica"
 tags: ["Geopolítica", "Seguridad Internacional", "Diplomacia", "Defensa", "Gobernanza Global"]
 author: "Comité Analítico TEP & Archivo Histórico"
-heroImage: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1200&h=630&q=82"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/Secretary_of_Defense_Lloyd_Austin_meets_Saudi_Arabian_Defense_Minister_Prince_Khalid_bin_Salman_Al_Saud_during_a_bilateral_exchange_at_the_Pentagon_on_November_1%2C_2023_%285%29.jpg/1280px-thumbnail.jpg"
 canonicalSource: "https://newsinternacionaltep.com/categoria/geopolitica"
 ---
 
@@ -21,7 +21,7 @@ Los reportes primarios recopilados por las corresponsalías y agencias de monito
 
 ## 2. Estado de la Situación y Dinámica Estructural
 
-![Evidencia y Registro Documental Primario - El Dilema de Taiwán: Cadenas de Suministro de Semiconductores y Disuasión Naval](https://images.unsplash.com/photo-1521791136064-7986c2920216?auto=format&fit=crop&w=1200&h=630&q=82)
+![Evidencia y Registro Documental Primario - El Dilema de Taiwán: Cadenas de Suministro de Semiconductores y Disuasión Naval](https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ac/Secretary_of_Defense_Robert_M._Gates%2C_center%2C_shares_a_laugh_with_U.K._Defense_Minister_Des_Browne%2C_left%2C_and_Australian_Defense_Minister_Joel_Fitzgibbon_prior_to_the_start_of_the_Regional_Command_-_South_071214-D-LB417-001.jpg/1280px-thumbnail.jpg)
 *Figura 1: Mapeo y registro fotográfico documental archivado en la hemeroteca de News Internacional TEP.*
 
 La evolución empírica de los acontecimientos desmintió rápidamente los diagnósticos complacientes. La aceleración de las dinámicas en juego obligó a un reajuste de las previsiones institucionales, revelando una marcada correlación entre la exposición previa al riesgo y la celeridad del deterioro funcional en los sectores analizados.
@@ -40,7 +40,7 @@ El comportamiento de los indicadores determinantes durante este período histór
 
 ## 4. Evaluación de Escenarios y Modelado de Riesgo
 
-![Modelado de Trayectorias y Riesgo Sistémico](https://images.unsplash.com/photo-1577495508048-b635879837f1?auto=format&fit=crop&w=1200&h=630&q=82)
+![Modelado de Trayectorias y Riesgo Sistémico](https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/Spanish_Defense_Minister_Narciso_Serra_and_aides_arrive_at_the_airport_for_the_NATO_Nuclear_Planning_Group_conference.jpg/1280px-Spanish_Defense_Minister_Narciso_Serra_and_aides_arrive_at_the_airport_for_the_NATO_Nuclear_Planning_Group_conference.jpg)
 *Figura 2: Proyección de trayectorias y modelado de dispersión elaborado por la Unidad Cuantitativa TEP.*
 
 El análisis retrospectivo permite clasificar la trayectoria que finalmente se consolidó frente a las hipótesis alternativas que barajaban los comités en aquel entonces:

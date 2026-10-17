@@ -5,7 +5,7 @@ pubDate: "2026-10-14"
 category: "Geopolítica"
 tags: ["Resiliencia Regional", "Soft Power", "Conflict Studies", "Econom\u00eda Deportiva", "Eastern Europe"]
 author: "Comité Analítico TEP & Prospectiva"
-heroImage: "https://thumb.wikimedia.org/wikipedia/en/thumb/a/a1/FC_Shakhtar_Donetsk.svg/1280px-FC_Shakhtar_Donetsk.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+heroImage: "https://upload.wikimedia.org/wikipedia/commons/e/eb/HP_BladeSystem_c7000_Enclosure.jpg"
 canonicalSource: "https://www.elnacional.com/2026/10/gleiker-mendoza-sella-la-remontada-del-shakhtar-donetsk-ante-el-aek-en-la-champions-league/"
 ---
 

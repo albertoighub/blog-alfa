@@ -5,7 +5,7 @@ pubDate: "2023-06-20"
 category: "Tendencias"
 tags: ["Redes Sociales", "Dinámica Digital", "Cultura Algorítmica", "Plataformas", "Comportamiento Colectivo"]
 author: "Comité Analítico TEP & Archivo Histórico"
-heroImage: "https://images.unsplash.com/photo-1611162617474-5b21e879e113?auto=format&fit=crop&w=1200&h=630&q=82"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/T%C3%B6%C3%B6l%C3%B6n_Pallokentt%C3%A4._Olympiastadion._-_Helsinki_1947_-_N159131_-_hkm.HKMS000005-00000304.jpg/1280px-T%C3%B6%C3%B6l%C3%B6n_Pallokentt%C3%A4._Olympiastadion._-_Helsinki_1947_-_N159131_-_hkm.HKMS000005-00000304.jpg"
 canonicalSource: "https://newsinternacionaltep.com/categoria/tendencias"
 ---
 
@@ -21,7 +21,7 @@ Los reportes primarios recopilados por las corresponsalías y agencias de monito
 
 ## 2. Estado de la Situación y Dinámica Estructural
 
-![Evidencia y Registro Documental Primario - La Adquisición de Twitter por Elon Musk: Despidos Masivos, Suscripción de Verificación y Rebranding a X](https://images.unsplash.com/photo-1563986768609-322da13575f3?auto=format&fit=crop&w=1200&h=630&q=82)
+![Evidencia y Registro Documental Primario - La Adquisición de Twitter por Elon Musk: Despidos Masivos, Suscripción de Verificación y Rebranding a X](https://thumb.wikimedia.org/wikipedia/commons/thumb/7/75/U.S._Army_Maj._Gen._David_J._Conboy%2C_left%2C_the_commander_of_the_416th_Theater_Engineer_Command%2C_waves_to_the_crowd_while_being_introduced_to_the_crowd_alongside_Capt._Curtis_Miller_and_Sgt._John_Pudowski%2C_right_140301-A-TI382-725.jpg/1280px-thumbnail.jpg)
 *Figura 1: Mapeo y registro fotográfico documental archivado en la hemeroteca de News Internacional TEP.*
 
 La evolución empírica de los acontecimientos desmintió rápidamente los diagnósticos complacientes. La aceleración de las dinámicas en juego obligó a un reajuste de las previsiones institucionales, revelando una marcada correlación entre la exposición previa al riesgo y la celeridad del deterioro funcional en los sectores analizados.
@@ -40,7 +40,7 @@ El comportamiento de los indicadores determinantes durante este período histór
 
 ## 4. Evaluación de Escenarios y Modelado de Riesgo
 
-![Modelado de Trayectorias y Riesgo Sistémico](https://images.unsplash.com/photo-1573164713988-8665fc963095?auto=format&fit=crop&w=1200&h=630&q=82)
+![Modelado de Trayectorias y Riesgo Sistémico](https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/US_Navy_090520-N-9013W-006_Members_of_the_U.S._Navy_Band_perform_for_the_crowd_at_the_start_of_a_New_York_Yankees_baseball_game_against_the_Baltimore_Orioles_during_a_Fleet_Week_New_York_City_2009_event.jpg/1280px-thumbnail.jpg)
 *Figura 2: Proyección de trayectorias y modelado de dispersión elaborado por la Unidad Cuantitativa TEP.*
 
 El análisis retrospectivo permite clasificar la trayectoria que finalmente se consolidó frente a las hipótesis alternativas que barajaban los comités en aquel entonces:

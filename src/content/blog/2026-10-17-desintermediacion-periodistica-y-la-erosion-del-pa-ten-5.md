@@ -5,7 +5,7 @@ pubDate: "2026-10-17"
 category: "Tendencias"
 tags: ["Sociolog\u00eda Digital", "Algoritmos de Atenci\u00f3n", "Econom\u00eda de Plataformas", "Polarizaci\u00f3n", "Cultura Digital"]
 author: "Comité Analítico TEP & Prospectiva"
-heroImage: "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&w=1200&h=630&q=82"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/Hector_Guimard_-_Design_for_the_Facade_of_Societ%C3%A9_Immobili%C3%A8re_de_la_Rue_Modern%2C_No._6_-_Google_Art_Project.jpg/1280px-Hector_Guimard_-_Design_for_the_Facade_of_Societ%C3%A9_Immobili%C3%A8re_de_la_Rue_Modern%2C_No._6_-_Google_Art_Project.jpg"
 canonicalSource: "https://newsinternacionaltep.com/categoria/tendencias"
 ---
 
@@ -21,7 +21,7 @@ El análisis de series temporales de tráfico y engagement demuestra que los inc
 
 ## 2. Estado del Arte y Dinámica Estructural
 
-![Análisis Documental Primario - Desintermediación Periodística y la Erosión del Papel Instituc](https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=1000&h=500&q=82)
+![Análisis Documental Primario - Desintermediación Periodística y la Erosión del Papel Instituc](https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/Henri_Rousseau_-_Le_R%C3%AAve_-_Google_Art_ProjectFXD.jpg/1280px-Henri_Rousseau_-_Le_R%C3%AAve_-_Google_Art_ProjectFXD.jpg)
 *Figura 1: Representación técnica y mapeo contextual del fenómeno analizado.*
 Durante la última década, el modelo de negocio publicitario digital evolucionó desde banners estáticos hacia arquitecturas de aprendizaje por refuerzo profundo. En este contexto, el fenómeno estudiado ha consolidado una economía donde la atención humana es cuantificada, microsegmentada y subastada en milisegundos.
 
@@ -39,7 +39,7 @@ El mecanismo operativo descansa sobre bucles de recompensa intermitente variable
 
 ## 4. Evaluación de Escenarios y Modelado de Riesgo
 
-![Modelado de Trayectorias y Riesgo Sistémico](https://images.unsplash.com/photo-1573164713988-8665fc963095?auto=format&fit=crop&w=1000&h=500&q=82)
+![Modelado de Trayectorias y Riesgo Sistémico](https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/Hled%C3%A1_se_mistrovsk%C3%A9_d%C3%ADlo%2C_do_19._stolet%C3%AD.jpg/1280px-Hled%C3%A1_se_mistrovsk%C3%A9_d%C3%ADlo%2C_do_19._stolet%C3%AD.jpg)
 *Figura 2: Telemetría de variables y dispersión de escenarios probabilísticos.*
 Se plantearon tres escenarios de evolución sociotécnica para evaluar las transformaciones en la cohesión cívica y regulatoria:
 

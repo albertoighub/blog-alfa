@@ -5,7 +5,7 @@ pubDate: "2026-10-14"
 category: "Tecnología"
 tags: ["IoT Security", "Operational Technology (OT)", "Supply Chain Risk", "Cyber-Physical Systems", "Digital Resilience"]
 author: "Comité Analítico TEP & Prospectiva"
-heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/Danfoss_Hauptgeb%C3%A4ude_in_Nordborg.jpg/1280px-Danfoss_Hauptgeb%C3%A4ude_in_Nordborg.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/Automatic_fan_controller_for_server_racks_%2838933511880%29.jpg/1280px-Automatic_fan_controller_for_server_racks_%2838933511880%29.jpg"
 canonicalSource: "https://www.schneier.com/blog/archives/2026/10/cyberattack-on-connected-fridges-in-france.html"
 ---
 

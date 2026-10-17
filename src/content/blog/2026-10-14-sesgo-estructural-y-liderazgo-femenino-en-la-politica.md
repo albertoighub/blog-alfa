@@ -5,7 +5,7 @@ pubDate: "2026-10-14"
 category: "Geopolítica"
 tags: ["G\u00e9nero y Poder", "Institucionalismo Pol\u00edtico", "Sesgo Sist\u00e9mico", "Gobernanza Global"]
 author: "Comité Analítico TEP & Prospectiva"
-heroImage: "https://cdn.prod.www.spiegel.de/images/370ba01f-4734-407c-b299-ec07a59d1852_w520_r2.08_fpx37.68_fpy44.99.jpg"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/64/Regatron_-_Model_238_AMB_-_Rowan_Controller_Co_-_Electronic_Measurements_-_front_panel.jpg/1280px-Regatron_-_Model_238_AMB_-_Rowan_Controller_Co_-_Electronic_Measurements_-_front_panel.jpg"
 canonicalSource: "https://www.spiegel.de/politik/deutschland/baerbel-bas-die-kluegere-gibt-auf-sexismus-in-der-politik-a-2be43c1b-e58b-44c8-9bd9-341f19e104af#ref=rss"
 ---
 

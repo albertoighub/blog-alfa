@@ -5,7 +5,7 @@ pubDate: "2023-06-26"
 category: "Geopolítica"
 tags: ["Geopolítica", "Seguridad Internacional", "Diplomacia", "Defensa", "Gobernanza Global"]
 author: "Comité Analítico TEP & Archivo Histórico"
-heroImage: "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=1200&h=630&q=82"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/Secretary_of_Defense_Chuck_Hagel%2C_left%2C_listens_to_Japan%27s_Minister_of_Defense_Itsunori_Onodera_answer_a_reporter%27s_question_during_a_joint_press_conference_in_the_Pentagon_on_April_29%2C_2013_130429-M-EV637-413.jpg/1280px-thumbnail.jpg"
 canonicalSource: "https://newsinternacionaltep.com/categoria/geopolitica"
 ---
 
@@ -21,7 +21,7 @@ Los reportes primarios recopilados por las corresponsalías y agencias de monito
 
 ## 2. Estado de la Situación y Dinámica Estructural
 
-![Evidencia y Registro Documental Primario - Expansión BRICS+ y la Creación de Plataformas Multilaterales Alternativas](https://images.unsplash.com/photo-1507679799987-c73779587ccf?auto=format&fit=crop&w=1200&h=630&q=82)
+![Evidencia y Registro Documental Primario - Expansión BRICS+ y la Creación de Plataformas Multilaterales Alternativas](https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/Secretary_of_Defense_Chuck_Hagel%2C_right%2C_and_Japan%27s_Minister_of_Defense_Itsunori_Onodera_leave_the_Pentagon_Press_Briefing_Room_after_their_joint_press_conference_on_April_29%2C_2013_130429-M-EV637-467.jpg/1280px-thumbnail.jpg)
 *Figura 1: Mapeo y registro fotográfico documental archivado en la hemeroteca de News Internacional TEP.*
 
 La evolución empírica de los acontecimientos desmintió rápidamente los diagnósticos complacientes. La aceleración de las dinámicas en juego obligó a un reajuste de las previsiones institucionales, revelando una marcada correlación entre la exposición previa al riesgo y la celeridad del deterioro funcional en los sectores analizados.
@@ -40,7 +40,7 @@ El comportamiento de los indicadores determinantes durante este período histór
 
 ## 4. Evaluación de Escenarios y Modelado de Riesgo
 
-![Modelado de Trayectorias y Riesgo Sistémico](https://images.unsplash.com/photo-1572949645841-094f3a9c4c94?auto=format&fit=crop&w=1200&h=630&q=82)
+![Modelado de Trayectorias y Riesgo Sistémico](https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/Secretary_of_Defense_Chuck_Hagel_listens_as_a_reporter_with_People%27s_Daily%2C_a_Chinese_newspaper%2C_asks_a_question_during_a_joint_news_conference_that_Hagel_and_China%27s_Minister_of_National_Defense_Gen._Chang_130819-D-NI589-855.jpg/1280px-thumbnail.jpg)
 *Figura 2: Proyección de trayectorias y modelado de dispersión elaborado por la Unidad Cuantitativa TEP.*
 
 El análisis retrospectivo permite clasificar la trayectoria que finalmente se consolidó frente a las hipótesis alternativas que barajaban los comités en aquel entonces:

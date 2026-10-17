@@ -5,7 +5,7 @@ pubDate: "2026-10-16"
 category: "Economía"
 tags: ["Riesgo Soberano", "Expropiaci\u00f3n", "Inversi\u00f3n Extranjera Directa (IED)", "Geopol\u00edtica Econ\u00f3mica"]
 author: "Comité Analítico TEP & Prospectiva"
-heroImage: "https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?auto=format&fit=crop&w=1200&h=630&q=85"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/The_catalyst_high_performance_computing_%28HPC%29.jpg/1280px-The_catalyst_high_performance_computing_%28HPC%29.jpg"
 canonicalSource: "https://www.di.se/nyheter/putins-nya-drag-det-ar-bara-sa-sjukt/"
 ---
 

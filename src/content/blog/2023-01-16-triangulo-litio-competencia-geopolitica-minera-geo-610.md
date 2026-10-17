@@ -5,7 +5,7 @@ pubDate: "2023-01-16"
 category: "Geopolítica"
 tags: ["Geopolítica", "Seguridad Internacional", "Diplomacia", "Defensa", "Gobernanza Global"]
 author: "Comité Analítico TEP & Archivo Histórico"
-heroImage: "https://images.unsplash.com/photo-1577495508048-b635879837f1?auto=format&fit=crop&w=1200&h=630&q=82"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/The_Official_Japan_State_Visit_of_Prime_Minister_Shinzo_Abe_-_DPLA_-_f3b7001a949af2bed1147e4d61986556.jpg/1280px-The_Official_Japan_State_Visit_of_Prime_Minister_Shinzo_Abe_-_DPLA_-_f3b7001a949af2bed1147e4d61986556.jpg"
 canonicalSource: "https://newsinternacionaltep.com/categoria/geopolitica"
 ---
 
@@ -21,7 +21,7 @@ Los reportes primarios recopilados por las corresponsalías y agencias de monito
 
 ## 2. Estado de la Situación y Dinámica Estructural
 
-![Evidencia y Registro Documental Primario - Diplomacia Minera: El Triángulo del Litio y la Competencia entre Grandes Potencias](https://images.unsplash.com/photo-1541872703-74c5e44368f9?auto=format&fit=crop&w=1200&h=630&q=82)
+![Evidencia y Registro Documental Primario - Diplomacia Minera: El Triángulo del Litio y la Competencia entre Grandes Potencias](https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/The_Prime_Minister%2C_Dr._Manmohan_Singh_with_the_Prime_Minister_of_United_Kingdom%2C_Mr._Gordon_Brown%2C_during_his_visit_to_the_United_States%2C_in_New_York_on_September_26%2C_2008.jpg/1280px-thumbnail.jpg)
 *Figura 1: Mapeo y registro fotográfico documental archivado en la hemeroteca de News Internacional TEP.*
 
 La evolución empírica de los acontecimientos desmintió rápidamente los diagnósticos complacientes. La aceleración de las dinámicas en juego obligó a un reajuste de las previsiones institucionales, revelando una marcada correlación entre la exposición previa al riesgo y la celeridad del deterioro funcional en los sectores analizados.
@@ -40,7 +40,7 @@ El comportamiento de los indicadores determinantes durante este período histór
 
 ## 4. Evaluación de Escenarios y Modelado de Riesgo
 
-![Modelado de Trayectorias y Riesgo Sistémico](https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=1200&h=630&q=82)
+![Modelado de Trayectorias y Riesgo Sistémico](https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/The_Prime_Minister%2C_Shri_Narendra_Modi_and_the_Prime_Minister_of_Japan%2C_Mr._Shinzo_Abe_visit_Dandi_Kutir%2C_in_Gandhinagar%2C_Gujarat_on_September_14%2C_2017.jpg/1280px-The_Prime_Minister%2C_Shri_Narendra_Modi_and_the_Prime_Minister_of_Japan%2C_Mr._Shinzo_Abe_visit_Dandi_Kutir%2C_in_Gandhinagar%2C_Gujarat_on_September_14%2C_2017.jpg)
 *Figura 2: Proyección de trayectorias y modelado de dispersión elaborado por la Unidad Cuantitativa TEP.*
 
 El análisis retrospectivo permite clasificar la trayectoria que finalmente se consolidó frente a las hipótesis alternativas que barajaban los comités en aquel entonces:

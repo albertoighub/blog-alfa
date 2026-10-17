@@ -5,7 +5,7 @@ pubDate: "2026-10-16"
 category: "Economía"
 tags: ["Finanzas Corporativas", "Aviaci\u00f3n Econ\u00f3mica", "Fusiones y Adquisiciones (M&A)", "Capitalismo de Estado"]
 author: "Comité Analítico TEP & Prospectiva"
-heroImage: "https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?auto=format&fit=crop&w=1200&h=630&q=85"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/Atari_Portfolio_HPC-004_-_display_part_-_board_-_Hitachi_HD61200-4666.jpg/1280px-Atari_Portfolio_HPC-004_-_display_part_-_board_-_Hitachi_HD61200-4666.jpg"
 canonicalSource: "https://www.jornaldenegocios.pt/empresas/transportes/aviacao/detalhe/estado-quer-118-milhoes-de-euros-dos-trabalhadores-da-tap"
 ---
 

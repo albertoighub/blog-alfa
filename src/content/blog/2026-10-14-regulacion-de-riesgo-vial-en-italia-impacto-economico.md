@@ -5,7 +5,7 @@ pubDate: "2026-10-14"
 category: "Economía"
 tags: ["Derecho Regulatorio", "Externalidades Negativas", "Teor\u00eda de Deterrencia", "Movilidad Urbana"]
 author: "Comité Analítico TEP & Prospectiva"
-heroImage: "https://i2.res.24o.it/images2010/S24/Documenti/2026/10/15/Immagini/Ritagli/Imagoeconomica_2442257-U05873317317qSC-1440x752@IlSole24Ore-Web.jpg"
+heroImage: "https://upload.wikimedia.org/wikipedia/commons/f/fa/HP_9101A_extended_memory_unit.-_magnetic_core_memory_module_-_macro_detail.jpg"
 canonicalSource: "https://www.ilsole24ore.com/art/nuovo-codice-strada-ecco-come-cambiano-sanzioni-multe-piu-alte-le-condotte-pericolose-AJDBeZjB"
 ---
 

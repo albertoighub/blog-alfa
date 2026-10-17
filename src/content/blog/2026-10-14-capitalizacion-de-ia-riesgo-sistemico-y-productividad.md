@@ -5,7 +5,7 @@ pubDate: "2026-10-14"
 category: "Economía"
 tags: ["Inteligencia Artificial", "Burbuja Econ\u00f3mica", "Productividad Total de Factores", "Riesgo Sist\u00e9mico"]
 author: "Comité Analítico TEP & Prospectiva"
-heroImage: "https://cdn.mos.cms.futurecdn.net/q4KTEJUJXQFxvjUiJQUEjF-1920-80.jpg"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/At_La_Palma_2023_420.jpg/1280px-At_La_Palma_2023_420.jpg"
 canonicalSource: "https://www.kiplinger.com/business/the-risks-of-an-ai-bubble"
 ---
 

@@ -5,7 +5,7 @@ pubDate: "2024-11-26"
 category: "Geopolítica"
 tags: ["Geopolítica", "Seguridad Internacional", "Diplomacia", "Defensa", "Gobernanza Global"]
 author: "Comité Analítico TEP & Archivo Histórico"
-heroImage: "https://images.unsplash.com/photo-1572949645841-094f3a9c4c94?auto=format&fit=crop&w=1200&h=630&q=82"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/Casting_Process_1995_-_Southern_Ductile_Casting_Company%2C_Bessemer_Foundry%2C_2217_Carolina_Avenue%2C_Bessemer%2C_Jefferson_County%2C_AL_HAER_ALA%2C37-BES%2C5-_%28sheet_3_of_9%29.png/1280px-thumbnail.png"
 canonicalSource: "https://newsinternacionaltep.com/categoria/geopolitica"
 ---
 
@@ -21,7 +21,7 @@ Los reportes primarios recopilados por las corresponsalías y agencias de monito
 
 ## 2. Estado de la Situación y Dinámica Estructural
 
-![Evidencia y Registro Documental Primario - Misiones de Paz de la ONU en Crisis: Desafíos Operativos y Legitimidad Multilateral](https://images.unsplash.com/photo-1541872703-74c5e44368f9?auto=format&fit=crop&w=1200&h=630&q=82)
+![Evidencia y Registro Documental Primario - Misiones de Paz de la ONU en Crisis: Desafíos Operativos y Legitimidad Multilateral](https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/Columbus-Lazarus_Warehouse_Property_%28Whittier%29_%28COAF%29.jpg/1280px-Columbus-Lazarus_Warehouse_Property_%28Whittier%29_%28COAF%29.jpg)
 *Figura 1: Mapeo y registro fotográfico documental archivado en la hemeroteca de News Internacional TEP.*
 
 La evolución empírica de los acontecimientos desmintió rápidamente los diagnósticos complacientes. La aceleración de las dinámicas en juego obligó a un reajuste de las previsiones institucionales, revelando una marcada correlación entre la exposición previa al riesgo y la celeridad del deterioro funcional en los sectores analizados.
@@ -40,7 +40,7 @@ El comportamiento de los indicadores determinantes durante este período histór
 
 ## 4. Evaluación de Escenarios y Modelado de Riesgo
 
-![Modelado de Trayectorias y Riesgo Sistémico](https://images.unsplash.com/photo-1526304640581-d334cdbbf45e?auto=format&fit=crop&w=1200&h=630&q=82)
+![Modelado de Trayectorias y Riesgo Sistémico](https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/Columbus-Lazarus_Warehouse_Property_%28Whittier%29_%28COAF%29_-_5926261565.jpg/1280px-Columbus-Lazarus_Warehouse_Property_%28Whittier%29_%28COAF%29_-_5926261565.jpg)
 *Figura 2: Proyección de trayectorias y modelado de dispersión elaborado por la Unidad Cuantitativa TEP.*
 
 El análisis retrospectivo permite clasificar la trayectoria que finalmente se consolidó frente a las hipótesis alternativas que barajaban los comités en aquel entonces:

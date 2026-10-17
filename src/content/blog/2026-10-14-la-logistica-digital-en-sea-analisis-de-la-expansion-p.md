@@ -5,7 +5,7 @@ pubDate: "2026-10-14"
 category: "Tecnología"
 tags: ["Log\u00edstica 4.0", "E-commerce SEA", "Supply Chain Digital", "Econom\u00eda de Plataformas"]
 author: "Comité Analítico TEP & Prospectiva"
-heroImage: "https://cdn.techinasia.com/wp-content/uploads/2025/05/1747014927_JT-Express-.jpg"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/Virtual_Training_part_of_42nd_Infantry_Division_annual_training_at_Fort_Drum_150617-A-FR744-004.jpg/1280px-Virtual_Training_part_of_42nd_Infantry_Division_annual_training_at_Fort_Drum_150617-A-FR744-004.jpg"
 canonicalSource: "https://www.techinasia.com/jt-southeast-asia-parcel-volume-jumps-80-in-q1"
 ---
 

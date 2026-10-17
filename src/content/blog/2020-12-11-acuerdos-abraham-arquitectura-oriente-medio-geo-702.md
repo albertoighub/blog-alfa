@@ -5,7 +5,7 @@ pubDate: "2020-12-11"
 category: "Geopolítica"
 tags: ["Geopolítica", "Seguridad Internacional", "Diplomacia", "Defensa", "Gobernanza Global"]
 author: "Comité Analítico TEP & Archivo Histórico"
-heroImage: "https://images.unsplash.com/photo-1541872703-74c5e44368f9?auto=format&fit=crop&w=1200&h=630&q=82"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/aa/Refugees_and_Raqqa_to_Resilience_and_Renewal_180618-D-SW162-1043_%2841985682975%29.jpg/1280px-Refugees_and_Raqqa_to_Resilience_and_Renewal_180618-D-SW162-1043_%2841985682975%29.jpg"
 canonicalSource: "https://newsinternacionaltep.com/categoria/geopolitica"
 ---
 
@@ -21,7 +21,7 @@ Los reportes primarios recopilados por las corresponsalías y agencias de monito
 
 ## 2. Estado de la Situación y Dinámica Estructural
 
-![Evidencia y Registro Documental Primario - Acuerdos de Abraham y la Nueva Arquitectura Diplomática en Oriente Medio](https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=1200&h=630&q=82)
+![Evidencia y Registro Documental Primario - Acuerdos de Abraham y la Nueva Arquitectura Diplomática en Oriente Medio](https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/Secretary_Clinton_Poses_for_a_Photo_With_Indian_Ambassador_to_the_U.S._Rao%2C_Indian_Minister_for_Human_Resource_Development_Sibal%2CUnder_Secretary_Sonenshine%2C_Assistant_Secretary_Blake%2C_and_U.S._Ambassador_to_India_Powell_%287182038377%29.jpg/1280px-thumbnail.jpg)
 *Figura 1: Mapeo y registro fotográfico documental archivado en la hemeroteca de News Internacional TEP.*
 
 La evolución empírica de los acontecimientos desmintió rápidamente los diagnósticos complacientes. La aceleración de las dinámicas en juego obligó a un reajuste de las previsiones institucionales, revelando una marcada correlación entre la exposición previa al riesgo y la celeridad del deterioro funcional en los sectores analizados.
@@ -40,7 +40,7 @@ El comportamiento de los indicadores determinantes durante este período histór
 
 ## 4. Evaluación de Escenarios y Modelado de Riesgo
 
-![Modelado de Trayectorias y Riesgo Sistémico](https://images.unsplash.com/photo-1507679799987-c73779587ccf?auto=format&fit=crop&w=1200&h=630&q=82)
+![Modelado de Trayectorias y Riesgo Sistémico](https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/Thanks_to_Cooperation%2C_Relations_Between_Our_States_Have_Become_the_Most_Meaningful_%E2%80%93_Volodymyr_Zelenskyy_Following_the_Meeting_with_the_President_of_Slovakia._%2853711561101%29.jpg/1280px-thumbnail.jpg)
 *Figura 2: Proyección de trayectorias y modelado de dispersión elaborado por la Unidad Cuantitativa TEP.*
 
 El análisis retrospectivo permite clasificar la trayectoria que finalmente se consolidó frente a las hipótesis alternativas que barajaban los comités en aquel entonces:

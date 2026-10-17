@@ -5,7 +5,7 @@ pubDate: "2026-10-17"
 category: "Geopolítica"
 tags: ["Movimientos Obreros", "Sudafr\u00edca", "Gobernanza Laboral", "Econom\u00eda Pol\u00edtica"]
 author: "Comité Analítico TEP & Prospectiva"
-heroImage: "https://images.newsteam.io/image/1920/2Bq28FuGKoJixaxm7BdYNabXwfKJ3TSN9S5VokmW99GNxiVfupwbZq9MPPHVQRmt9dvWt7Ak6ZLqafQBg6zK5nR7rwgHJtWWCaLgaoMBGVzRyquP5dtQdQuaJnJkYorsc3aZkq5yywHb7v2bCSmng5T"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/NVIDIA_GPU_workstation.webp/1280px-NVIDIA_GPU_workstation.webp"
 canonicalSource: "https://mg.co.za/news/south-africa/2026-10-15-cosatu-numbers-do-not-add-up/"
 ---
 

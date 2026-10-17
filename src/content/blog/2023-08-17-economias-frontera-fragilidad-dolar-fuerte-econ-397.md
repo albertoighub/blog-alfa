@@ -5,7 +5,7 @@ pubDate: "2023-08-17"
 category: "Economía"
 tags: ["Economía Global", "Bancos Centrales", "Mercados Financieros", "Política Monetaria", "Comercio Internacional"]
 author: "Comité Analítico TEP & Archivo Histórico"
-heroImage: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1200&h=630&q=82"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/A_UH-60_Black_Hawk_%28Blackhawk%29_helicopter_is_lowered%2C_by_a_crane%2C_into_the_cargo_area_of_the_merchant_ship_TRANSCOLUMBIA._The_helicopter_is_being_transported_to_Egypt_for_use_during_-_DPLA_-_f70c3071e13beadf39b0791b809feb01.jpeg/1280px-thumbnail.jpeg"
 canonicalSource: "https://newsinternacionaltep.com/categoria/economia"
 ---
 
@@ -21,7 +21,7 @@ Los reportes primarios recopilados por las corresponsalías y agencias de monito
 
 ## 2. Estado de la Situación y Dinámica Estructural
 
-![Evidencia y Registro Documental Primario - La Fragilidad Financiera de las Economías de Frontera frente al Fortalecimiento del Dólar](https://images.unsplash.com/photo-1526304640581-d334cdbbf45e?auto=format&fit=crop&w=1200&h=630&q=82)
+![Evidencia y Registro Documental Primario - La Fragilidad Financiera de las Economías de Frontera frente al Fortalecimiento del Dólar](https://upload.wikimedia.org/wikipedia/commons/a/a4/A_handling_crane_for_an_autonomous_underwater_vehicle_sits_in_a_cargo_aircraft_at_John_F._Kennedy_International_Airport_in_New_York_City_March_24%2C_2014%2C_before_being_transported_to_the_Indian_Ocean_to_support_140324-N-ZZ999-102.jpg)
 *Figura 1: Mapeo y registro fotográfico documental archivado en la hemeroteca de News Internacional TEP.*
 
 La evolución empírica de los acontecimientos desmintió rápidamente los diagnósticos complacientes. La aceleración de las dinámicas en juego obligó a un reajuste de las previsiones institucionales, revelando una marcada correlación entre la exposición previa al riesgo y la celeridad del deterioro funcional en los sectores analizados.
@@ -40,7 +40,7 @@ El comportamiento de los indicadores determinantes durante este período histór
 
 ## 4. Evaluación de Escenarios y Modelado de Riesgo
 
-![Modelado de Trayectorias y Riesgo Sistémico](https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?auto=format&fit=crop&w=1200&h=630&q=82)
+![Modelado de Trayectorias y Riesgo Sistémico](https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/Belgium-6313_-_Treadmill_Crane_%2813896820810%29.jpg/1280px-Belgium-6313_-_Treadmill_Crane_%2813896820810%29.jpg)
 *Figura 2: Proyección de trayectorias y modelado de dispersión elaborado por la Unidad Cuantitativa TEP.*
 
 El análisis retrospectivo permite clasificar la trayectoria que finalmente se consolidó frente a las hipótesis alternativas que barajaban los comités en aquel entonces:

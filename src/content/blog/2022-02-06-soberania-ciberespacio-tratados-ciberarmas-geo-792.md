@@ -5,7 +5,7 @@ pubDate: "2022-02-06"
 category: "Geopolítica"
 tags: ["Geopolítica", "Seguridad Internacional", "Diplomacia", "Defensa", "Gobernanza Global"]
 author: "Comité Analítico TEP & Archivo Histórico"
-heroImage: "https://images.unsplash.com/photo-1541872703-74c5e44368f9?auto=format&fit=crop&w=1200&h=630&q=82"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/52/Abul_Hassan_Mahmood_Ali_Speech_At_Press_Conference_Ministry_Of_Foreign_Affairs_Dhaka_2015-10-18_%28PID-0057656%29.jpg/1280px-Abul_Hassan_Mahmood_Ali_Speech_At_Press_Conference_Ministry_Of_Foreign_Affairs_Dhaka_2015-10-18_%28PID-0057656%29.jpg"
 canonicalSource: "https://newsinternacionaltep.com/categoria/geopolitica"
 ---
 
@@ -21,7 +21,7 @@ Los reportes primarios recopilados por las corresponsalías y agencias de monito
 
 ## 2. Estado de la Situación y Dinámica Estructural
 
-![Evidencia y Registro Documental Primario - Soberanía del Ciberespacio y Tratados de No Proliferación de Ciberarmas](https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=1200&h=630&q=82)
+![Evidencia y Registro Documental Primario - Soberanía del Ciberespacio y Tratados de No Proliferación de Ciberarmas](https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/Assistant_Campbell_and_Adm._Walsh_address_at_a_press_conference_at_Tonga%27s_Ministry_of_Foreign_Affairs_%285885842893%29.jpg/1280px-Assistant_Campbell_and_Adm._Walsh_address_at_a_press_conference_at_Tonga%27s_Ministry_of_Foreign_Affairs_%285885842893%29.jpg)
 *Figura 1: Mapeo y registro fotográfico documental archivado en la hemeroteca de News Internacional TEP.*
 
 La evolución empírica de los acontecimientos desmintió rápidamente los diagnósticos complacientes. La aceleración de las dinámicas en juego obligó a un reajuste de las previsiones institucionales, revelando una marcada correlación entre la exposición previa al riesgo y la celeridad del deterioro funcional en los sectores analizados.
@@ -40,7 +40,7 @@ El comportamiento de los indicadores determinantes durante este período histór
 
 ## 4. Evaluación de Escenarios y Modelado de Riesgo
 
-![Modelado de Trayectorias y Riesgo Sistémico](https://images.unsplash.com/photo-1507679799987-c73779587ccf?auto=format&fit=crop&w=1200&h=630&q=82)
+![Modelado de Trayectorias y Riesgo Sistémico](https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/Brussels_International_Conference%2C_November_18%2C_1889_July_2%2C_1890%2C_protocols_and_final_act_Ministry_of_Foreign_Affairs_France.png/1280px-Brussels_International_Conference%2C_November_18%2C_1889_July_2%2C_1890%2C_protocols_and_final_act_Ministry_of_Foreign_Affairs_France.png)
 *Figura 2: Proyección de trayectorias y modelado de dispersión elaborado por la Unidad Cuantitativa TEP.*
 
 El análisis retrospectivo permite clasificar la trayectoria que finalmente se consolidó frente a las hipótesis alternativas que barajaban los comités en aquel entonces:

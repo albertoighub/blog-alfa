@@ -5,7 +5,7 @@ pubDate: "2026-10-14"
 category: "Geopolítica"
 tags: ["Nigeria", "Pol\u00edtica Africana", "Estabilidad Institucional", "Patrimonialismo Pol\u00edtico"]
 author: "Comité Analítico TEP & Prospectiva"
-heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1f/Godswill_Obot_Akpabio_%282012%29_%28cropped%29.jpg/1280px-Godswill_Obot_Akpabio_%282012%29_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/DJI_Goggles.jpg/1280px-DJI_Goggles.jpg"
 canonicalSource: "https://www.premiumtimesng.com/news/headlines/917192-11th-senate-race-akpabio-courts-tinubu-warns-uzodimma-over-ambition.html"
 ---
 

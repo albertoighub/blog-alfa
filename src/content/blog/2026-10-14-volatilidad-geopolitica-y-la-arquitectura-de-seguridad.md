@@ -5,7 +5,7 @@ pubDate: "2026-10-14"
 category: "Geopolítica"
 tags: ["Seguridad Internacional", "Relaciones Transatl\u00e1nticas", "Populismo Global", "Guerra H\u00edbrida"]
 author: "Comité Analítico TEP & Prospectiva"
-heroImage: "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=1200&h=630&q=85"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/19_inch_racks_MIT.agr.jpg/1280px-19_inch_racks_MIT.agr.jpg"
 canonicalSource: "https://kyivindependent.com/zelensky-says-he-feels-betrayed-over-trump-russia-deal/"
 ---
 

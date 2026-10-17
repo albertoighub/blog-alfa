@@ -5,7 +5,7 @@ pubDate: "2026-10-14"
 category: "Economía"
 tags: ["Finanzas Conductuales", "Asimetr\u00eda Informativa", "Regulaci\u00f3n Financiera", "Teor\u00eda de Agencias"]
 author: "Comité Analítico TEP & Prospectiva"
-heroImage: "https://cdn.mos.cms.futurecdn.net/w8FdYoyf6AeEgCKViUnYQM-1920-80.jpg"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/7%C2%AA_MOSTRA_BID_BRASIL_2022_%2852548553966%29.jpg/1280px-7%C2%AA_MOSTRA_BID_BRASIL_2022_%2852548553966%29.jpg"
 canonicalSource: "https://www.kiplinger.com/investing/wealth-creation/meeting-with-a-financial-adviser-for-the-first-time-how-to-prepare"
 ---
 

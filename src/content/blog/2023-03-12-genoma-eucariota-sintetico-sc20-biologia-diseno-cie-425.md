@@ -5,7 +5,7 @@ pubDate: "2023-03-12"
 category: "Ciencia"
 tags: ["Ciencia", "Medicina", "Biotecnología", "Investigación Clínica", "Salud Pública"]
 author: "Comité Analítico TEP & Archivo Histórico"
-heroImage: "https://images.unsplash.com/photo-1516549655169-df83a0774514?auto=format&fit=crop&w=1200&h=630&q=82"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/Anand_Sharma_addressing_a_press_conference_at_the_signing_ceremony_of_the_2009_India-Nepal_Treaty_of_Trade_and_Agreement_of_Cooperation_to_Control_Unauthorized_Trade%2C_in_Kathmandu%2C_Nepal_on_October_27%2C_2009.jpg/1280px-thumbnail.jpg"
 canonicalSource: "https://newsinternacionaltep.com/categoria/ciencia"
 ---
 
@@ -21,7 +21,7 @@ Los reportes primarios recopilados por las corresponsalías y agencias de monito
 
 ## 2. Estado de la Situación y Dinámica Estructural
 
-![Evidencia y Registro Documental Primario - La Síntesis Química del Genoma Eucariota Sintético Sc2.0 y el Futuro de la Biología de Diseño](https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?auto=format&fit=crop&w=1200&h=630&q=82)
+![Evidencia y Registro Documental Primario - La Síntesis Química del Genoma Eucariota Sintético Sc2.0 y el Futuro de la Biología de Diseño](https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/Ashwani_Kumar_interacting_with_the_media_at_the_signing_ceremony_of_a_Treaty_between_India_and_Azerbaijan_on_mutual_legal_assistance_in_civil_matters%2C_in_New_Delhi._The_Minister_of_Justice_of_Azerbaijan.jpg/1280px-thumbnail.jpg)
 *Figura 1: Mapeo y registro fotográfico documental archivado en la hemeroteca de News Internacional TEP.*
 
 La evolución empírica de los acontecimientos desmintió rápidamente los diagnósticos complacientes. La aceleración de las dinámicas en juego obligó a un reajuste de las previsiones institucionales, revelando una marcada correlación entre la exposición previa al riesgo y la celeridad del deterioro funcional en los sectores analizados.
@@ -40,7 +40,7 @@ El comportamiento de los indicadores determinantes durante este período histór
 
 ## 4. Evaluación de Escenarios y Modelado de Riesgo
 
-![Modelado de Trayectorias y Riesgo Sistémico](https://images.unsplash.com/photo-1530497610245-94d3c16cda28?auto=format&fit=crop&w=1200&h=630&q=82)
+![Modelado de Trayectorias y Riesgo Sistémico](https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/Flickr_-_Government_Press_Office_%28GPO%29_-_THE_ISRAELI-JORDANIAN_PEACE_TREATY_%281%29.jpg/1280px-Flickr_-_Government_Press_Office_%28GPO%29_-_THE_ISRAELI-JORDANIAN_PEACE_TREATY_%281%29.jpg)
 *Figura 2: Proyección de trayectorias y modelado de dispersión elaborado por la Unidad Cuantitativa TEP.*
 
 El análisis retrospectivo permite clasificar la trayectoria que finalmente se consolidó frente a las hipótesis alternativas que barajaban los comités en aquel entonces:

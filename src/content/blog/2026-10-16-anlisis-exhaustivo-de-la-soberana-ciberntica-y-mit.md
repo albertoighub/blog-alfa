@@ -4,7 +4,7 @@ description: "Evaluación técnica sin censura sobre los vectores de ataque avan
 pubDate: "2026-10-17"
 category: "Tecnología"
 author: "Comité Analítico TEP & Prospectiva"
-heroImage: "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&w=1200&q=80"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/High_Performance_Computing_Center_Stuttgart_HLRS_2015_06_Cray_XC40_Hazel_Hen_wiring.jpg/1280px-High_Performance_Computing_Center_Stuttgart_HLRS_2015_06_Cray_XC40_Hazel_Hen_wiring.jpg"
 tags: ["ciberseguridad", "infraestructuras críticas", "geopolitica", "riesgo operativo"]
 ---
 

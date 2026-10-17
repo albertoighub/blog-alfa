@@ -5,7 +5,7 @@ pubDate: "2021-12-04"
 category: "Tecnología"
 tags: ["Tecnología", "Inteligencia Artificial", "Semiconductores", "Ciberseguridad", "Computación Avanzada"]
 author: "Comité Analítico TEP & Archivo Histórico"
-heroImage: "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&w=1200&h=630&q=82"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/Robotic_hand_design.jpg/1280px-Robotic_hand_design.jpg"
 canonicalSource: "https://newsinternacionaltep.com/categoria/tecnologia"
 ---
 
@@ -21,7 +21,7 @@ Los reportes primarios recopilados por las corresponsalías y agencias de monito
 
 ## 2. Estado de la Situación y Dinámica Estructural
 
-![Evidencia y Registro Documental Primario - El Lanzamiento de GPT-3 y la Demostración del Escalado de Parámetros en Modelos del Lenguaje](https://images.unsplash.com/photo-1531297484001-80022131f5a1?auto=format&fit=crop&w=1200&h=630&q=82)
+![Evidencia y Registro Documental Primario - El Lanzamiento de GPT-3 y la Demostración del Escalado de Parámetros en Modelos del Lenguaje](https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c6/Roboty_z_klock%C3%B3w_Lego%2C_laboratorium_robotyczne%2C_Centrum_Nauki_Kopernik_w_Warszawie.jpg/1280px-Roboty_z_klock%C3%B3w_Lego%2C_laboratorium_robotyczne%2C_Centrum_Nauki_Kopernik_w_Warszawie.jpg)
 *Figura 1: Mapeo y registro fotográfico documental archivado en la hemeroteca de News Internacional TEP.*
 
 La evolución empírica de los acontecimientos desmintió rápidamente los diagnósticos complacientes. La aceleración de las dinámicas en juego obligó a un reajuste de las previsiones institucionales, revelando una marcada correlación entre la exposición previa al riesgo y la celeridad del deterioro funcional en los sectores analizados.
@@ -40,7 +40,7 @@ El comportamiento de los indicadores determinantes durante este período histór
 
 ## 4. Evaluación de Escenarios y Modelado de Riesgo
 
-![Modelado de Trayectorias y Riesgo Sistémico](https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=1200&h=630&q=82)
+![Modelado de Trayectorias y Riesgo Sistémico](https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/Sting_for_the_future%2C_Marine_Corps_Warfighting_Laboratory_160709-M-KA224-067.jpg/1280px-Sting_for_the_future%2C_Marine_Corps_Warfighting_Laboratory_160709-M-KA224-067.jpg)
 *Figura 2: Proyección de trayectorias y modelado de dispersión elaborado por la Unidad Cuantitativa TEP.*
 
 El análisis retrospectivo permite clasificar la trayectoria que finalmente se consolidó frente a las hipótesis alternativas que barajaban los comités en aquel entonces:

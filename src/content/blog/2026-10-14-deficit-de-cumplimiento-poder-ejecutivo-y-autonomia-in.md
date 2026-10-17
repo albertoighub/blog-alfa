@@ -5,7 +5,7 @@ pubDate: "2026-10-14"
 category: "Geopolítica"
 tags: ["Rule of Law", "Gobernanza P\u00fablica", "Control Judicial", "Financiamiento Estatal"]
 author: "Comité Analítico TEP & Prospectiva"
-heroImage: "https://resizer.glanacion.com/resizer/v2/7BQGOEHJGRDF3OF366YU22P7VU.JPG?auth=e7fed3c5c73bdbbbe5bda425fc5d7afe2721aa9bdb7feae3706531dd90dc3b73&smart=true&width=2500&height=1667"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/Collision_2024_-_DFZ_2958_%2853804442563%29.jpg/1280px-Collision_2024_-_DFZ_2958_%2853804442563%29.jpg"
 canonicalSource: "https://www.lanacion.com.ar/sociedad/con-pasado-y-amigos-en-la-campora-el-gobierno-cruzo-al-juez-que-lo-multo-por-incumplir-el-nid14102026/"
 ---
 

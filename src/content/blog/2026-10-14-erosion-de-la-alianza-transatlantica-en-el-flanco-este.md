@@ -5,7 +5,7 @@ pubDate: "2026-10-14"
 category: "Geopolítica"
 tags: ["Seguridad Internacional", "Relaciones EE. UU.-Ucrania", "Volatilidad Pol\u00edtica", "Estrategia Transnacional"]
 author: "Comité Analítico TEP & Prospectiva"
-heroImage: "https://cdn.prod.www.spiegel.de/images/c8033c92-ac1a-4107-8444-00753120dace_w520_r2.08_fpx51_fpy44.jpg"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/Google-Cardboard.jpg/1280px-Google-Cardboard.jpg"
 canonicalSource: "https://www.spiegel.de/ausland/russland-ukraine-krieg-wolodymyr-selenskyj-erklaert-er-fuehle-sich-von-donald-trump-verraten-a-154bfb87-108f-4784-a45e-10610f43d8f9#ref=rss"
 ---
 

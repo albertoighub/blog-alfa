@@ -5,7 +5,7 @@ pubDate: "2023-04-19"
 category: "Ciencia"
 tags: ["Ciencia", "Medicina", "Biotecnología", "Investigación Clínica", "Salud Pública"]
 author: "Comité Analítico TEP & Archivo Histórico"
-heroImage: "https://images.unsplash.com/photo-1530497610245-94d3c16cda28?auto=format&fit=crop&w=1200&h=630&q=82"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/United_Nations_Security_Council_on_Food_Security_and_Climate_Change_on_13_February_2024_-_10.jpg/1280px-United_Nations_Security_Council_on_Food_Security_and_Climate_Change_on_13_February_2024_-_10.jpg"
 canonicalSource: "https://newsinternacionaltep.com/categoria/ciencia"
 ---
 
@@ -21,7 +21,7 @@ Los reportes primarios recopilados por las corresponsalías y agencias de monito
 
 ## 2. Estado de la Situación y Dinámica Estructural
 
-![Evidencia y Registro Documental Primario - Descubrimiento de Fósforo en los Océanos de Encélado: Implicaciones para la Astrobiología](https://images.unsplash.com/photo-1507668077129-56e32842fceb?auto=format&fit=crop&w=1200&h=630&q=82)
+![Evidencia y Registro Documental Primario - Descubrimiento de Fósforo en los Océanos de Encélado: Implicaciones para la Astrobiología](https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6c/United_Nations_Security_Council_on_Food_Security_and_Climate_Change_on_13_February_2024_-_11.jpg/1280px-United_Nations_Security_Council_on_Food_Security_and_Climate_Change_on_13_February_2024_-_11.jpg)
 *Figura 1: Mapeo y registro fotográfico documental archivado en la hemeroteca de News Internacional TEP.*
 
 La evolución empírica de los acontecimientos desmintió rápidamente los diagnósticos complacientes. La aceleración de las dinámicas en juego obligó a un reajuste de las previsiones institucionales, revelando una marcada correlación entre la exposición previa al riesgo y la celeridad del deterioro funcional en los sectores analizados.
@@ -40,7 +40,7 @@ El comportamiento de los indicadores determinantes durante este período histór
 
 ## 4. Evaluación de Escenarios y Modelado de Riesgo
 
-![Modelado de Trayectorias y Riesgo Sistémico](https://images.unsplash.com/photo-1576086213369-97a306d36557?auto=format&fit=crop&w=1200&h=630&q=82)
+![Modelado de Trayectorias y Riesgo Sistémico](https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/United_Nations_Security_Council_on_Food_Security_and_Climate_Change_on_13_February_2024_-_13.jpg/1280px-United_Nations_Security_Council_on_Food_Security_and_Climate_Change_on_13_February_2024_-_13.jpg)
 *Figura 2: Proyección de trayectorias y modelado de dispersión elaborado por la Unidad Cuantitativa TEP.*
 
 El análisis retrospectivo permite clasificar la trayectoria que finalmente se consolidó frente a las hipótesis alternativas que barajaban los comités en aquel entonces:

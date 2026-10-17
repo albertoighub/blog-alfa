@@ -5,7 +5,7 @@ pubDate: "2022-11-08"
 category: "Economía"
 tags: ["Economía Global", "Bancos Centrales", "Mercados Financieros", "Política Monetaria", "Comercio Internacional"]
 author: "Comité Analítico TEP & Archivo Histórico"
-heroImage: "https://images.unsplash.com/photo-1526304640581-d334cdbbf45e?auto=format&fit=crop&w=1200&h=630&q=82"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/NASA_Administrator_Rings_NYSE_Opening_Bell_%28NHQ202604300010%29.jpg/1280px-NASA_Administrator_Rings_NYSE_Opening_Bell_%28NHQ202604300010%29.jpg"
 canonicalSource: "https://newsinternacionaltep.com/categoria/economia"
 ---
 
@@ -21,7 +21,7 @@ Los reportes primarios recopilados por las corresponsalías y agencias de monito
 
 ## 2. Estado de la Situación y Dinámica Estructural
 
-![Evidencia y Registro Documental Primario - El Mercado Laboral Post-Pandemia: Pleno Empleo Estadístico frente a la Pérdida de Poder Adquisitivo Real](https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?auto=format&fit=crop&w=1200&h=630&q=82)
+![Evidencia y Registro Documental Primario - El Mercado Laboral Post-Pandemia: Pleno Empleo Estadístico frente a la Pérdida de Poder Adquisitivo Real](https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/NASA_Administrator_Rings_NYSE_Opening_Bell_%28NHQ202604300011%29.jpg/1280px-NASA_Administrator_Rings_NYSE_Opening_Bell_%28NHQ202604300011%29.jpg)
 *Figura 1: Mapeo y registro fotográfico documental archivado en la hemeroteca de News Internacional TEP.*
 
 La evolución empírica de los acontecimientos desmintió rápidamente los diagnósticos complacientes. La aceleración de las dinámicas en juego obligó a un reajuste de las previsiones institucionales, revelando una marcada correlación entre la exposición previa al riesgo y la celeridad del deterioro funcional en los sectores analizados.
@@ -40,7 +40,7 @@ El comportamiento de los indicadores determinantes durante este período histór
 
 ## 4. Evaluación de Escenarios y Modelado de Riesgo
 
-![Modelado de Trayectorias y Riesgo Sistémico](https://images.unsplash.com/photo-1559526324-4b87b5e36e44?auto=format&fit=crop&w=1200&h=630&q=82)
+![Modelado de Trayectorias y Riesgo Sistémico](https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1c/STS-125_Crew_Visits_the_Stock_Exchange.jpg/1280px-STS-125_Crew_Visits_the_Stock_Exchange.jpg)
 *Figura 2: Proyección de trayectorias y modelado de dispersión elaborado por la Unidad Cuantitativa TEP.*
 
 El análisis retrospectivo permite clasificar la trayectoria que finalmente se consolidó frente a las hipótesis alternativas que barajaban los comités en aquel entonces:

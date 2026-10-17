@@ -5,7 +5,7 @@ pubDate: "2026-10-15"
 category: "Tecnología"
 tags: ["Ciberseguridad", "Sistemas Operativos", "Gaming Ecosystems", "Anti-Cheat Technology"]
 author: "Comité Analítico TEP & Prospectiva"
-heroImage: "https://www.01net.com/app/uploads/2026/05/Fortnite-1344x896.jpg"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/eb/4X-HPC_LLRS_15-09-2017b.jpg/1280px-4X-HPC_LLRS_15-09-2017b.jpg"
 canonicalSource: "https://www.01net.com/actualites/fortnite-arrive-sur-linux-mais-il-va-falloir-se-montrer-patient.html"
 ---
 

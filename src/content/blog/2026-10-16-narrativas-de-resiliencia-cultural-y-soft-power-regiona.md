@@ -5,7 +5,7 @@ pubDate: "2026-10-16"
 category: "Geopolítica"
 tags: ["Soft Power", "Narrativa Cultural", "Resiliencia Social", "Econom\u00eda Creativa"]
 author: "Comité Analítico TEP & Prospectiva"
-heroImage: "https://images.newsteam.io/image/1890/2Bq28FuGKoMVL7nZ2YbSNgMyCM85djSTytTvtdgnkaQNaAP3St2FVCApvMsnuxYdWSPif1TDaM5XwrM5ht49HtLki6q1GYpumL7urAncT1bgJaedJWSDyqRdxWYfyiSnrMDGQcXVR2vJSnAHcvnDG8u"
+heroImage: "https://upload.wikimedia.org/wikipedia/commons/c/c3/HPC_000981_%2826506746944%29.jpg"
 canonicalSource: "https://mg.co.za/friday/2026-10-15-langa-mavuso-is-on-the-other-side-of-grief/"
 ---
 

@@ -5,7 +5,7 @@ pubDate: "2026-10-14"
 category: "Tecnología"
 tags: ["Inteligencia Artificial", "Regulaci\u00f3n Tecnol\u00f3gica", "Responsabilidad Legal", "Modelos Fundacionales"]
 author: "Comité Analítico TEP & Prospectiva"
-heroImage: "https://storage.ghost.io/c/a0/4c/a04c7225-d919-4d78-9b7c-a3fdd071349b/content/images/2026/10/shutterstock_2719900129.jpg"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/Re-publica_22_-_Tag_1_%2852131708098%29.jpg/1280px-Re-publica_22_-_Tag_1_%2852131708098%29.jpg"
 canonicalSource: "https://www.platformer.news/openai-states-lawsuit-liability/"
 ---
 

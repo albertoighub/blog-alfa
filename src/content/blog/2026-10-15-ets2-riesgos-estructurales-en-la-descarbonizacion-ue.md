@@ -5,7 +5,7 @@ pubDate: "2026-10-15"
 category: "Economía"
 tags: ["Carbon Pricing", "ETS2", "Transici\u00f3n Energ\u00e9tica", "Pol\u00edtica Clim\u00e1tica UE"]
 author: "Comité Analítico TEP & Prospectiva"
-heroImage: "https://i2.res.24o.it/images2010/S24/Documenti/2026/10/17/Immagini/Ritagli/9d580987fee340d6da6ac01dce9882f4-U37073487382OLA-1440x752@IlSole24Ore-Web.jpg"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/Ritchey%E2%80%93Chr%C3%A9tien_imaging_in_a_tennis_court.jpg/1280px-Ritchey%E2%80%93Chr%C3%A9tien_imaging_in_a_tennis_court.jpg"
 canonicalSource: "https://www.ilsole24ore.com/art/vertice-ue-leader-commissione-valuti-l-impatto-sistema-ets2-AJfPSalB"
 ---
 

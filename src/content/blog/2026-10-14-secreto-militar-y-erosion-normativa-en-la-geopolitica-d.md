@@ -5,7 +5,7 @@ pubDate: "2026-10-14"
 category: "Geopolítica"
 tags: ["Seguridad Nacional", "Gobernanza Global", "Discurso Pol\u00edtico", "Inteligencia Estrat\u00e9gica"]
 author: "Comité Analítico TEP & Prospectiva"
-heroImage: "https://cdn.prod.www.spiegel.de/images/0b889d76-37db-4ea0-b8f9-7448694e57c5_w520_r2.08_fpx24_fpy40.jpg"
+heroImage: "https://upload.wikimedia.org/wikipedia/commons/d/d0/Professional_sound_card_fireface_uc_back_side_with_connectors.jpg"
 canonicalSource: "https://www.spiegel.de/ausland/usa-donald-trump-wuerde-informanten-fuer-geheimnisverrat-erschiessen-lassen-a-0714e940-291d-49d3-92ac-1da6cbacbe51#ref=rss"
 ---
 

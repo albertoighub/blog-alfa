@@ -5,7 +5,7 @@ pubDate: "2026-10-17"
 category: "Economía"
 tags: ["Geoeconom\u00eda", "Sanctions Regime", "Inflaci\u00f3n Energ\u00e9tica", "Riesgo Sist\u00e9mico", "Pol\u00edtica Fiscal"]
 author: "Comité Analítico TEP & Prospectiva"
-heroImage: "https://images.unsplash.com/photo-1563986768609-322da13575f3?auto=format&fit=crop&w=1200&h=630&q=85"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/NVIDIA_Cube.webp/1280px-NVIDIA_Cube.webp"
 canonicalSource: "https://www.jornaldenegocios.pt/economia/europa/invasao-da-ucrania/detalhe/ue-recusa-levantar-sancoes-a-russia-sem-fim-da-guerra-zelensky-pede-fim-do-conflito-o-quanto-antes"
 ---
 

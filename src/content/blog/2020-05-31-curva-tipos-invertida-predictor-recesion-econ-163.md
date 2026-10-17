@@ -5,7 +5,7 @@ pubDate: "2020-05-31"
 category: "Economía"
 tags: ["Economía Global", "Bancos Centrales", "Mercados Financieros", "Política Monetaria", "Comercio Internacional"]
 author: "Comité Analítico TEP & Archivo Histórico"
-heroImage: "https://images.unsplash.com/photo-1559526324-4b87b5e36e44?auto=format&fit=crop&w=1200&h=630&q=82"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/Disabled_Access_and_Reception_Room%2C_ROC_Central_Bank_20190525.jpg/1280px-Disabled_Access_and_Reception_Room%2C_ROC_Central_Bank_20190525.jpg"
 canonicalSource: "https://newsinternacionaltep.com/categoria/economia"
 ---
 
@@ -21,7 +21,7 @@ Los reportes primarios recopilados por las corresponsalías y agencias de monito
 
 ## 2. Estado de la Situación y Dinámica Estructural
 
-![Evidencia y Registro Documental Primario - El Dilema de la Curva de Tipos Invertida como Predictor Histórico de Recesión](https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1200&h=630&q=82)
+![Evidencia y Registro Documental Primario - El Dilema de la Curva de Tipos Invertida como Predictor Histórico de Recesión](https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/European_Central_Bank_-_new_building_under_construction_-_Frankfurt_-_Germany_-_07.jpg/1280px-European_Central_Bank_-_new_building_under_construction_-_Frankfurt_-_Germany_-_07.jpg)
 *Figura 1: Mapeo y registro fotográfico documental archivado en la hemeroteca de News Internacional TEP.*
 
 La evolución empírica de los acontecimientos desmintió rápidamente los diagnósticos complacientes. La aceleración de las dinámicas en juego obligó a un reajuste de las previsiones institucionales, revelando una marcada correlación entre la exposición previa al riesgo y la celeridad del deterioro funcional en los sectores analizados.
@@ -40,7 +40,7 @@ El comportamiento de los indicadores determinantes durante este período histór
 
 ## 4. Evaluación de Escenarios y Modelado de Riesgo
 
-![Modelado de Trayectorias y Riesgo Sistémico](https://images.unsplash.com/photo-1526304640581-d334cdbbf45e?auto=format&fit=crop&w=1200&h=630&q=82)
+![Modelado de Trayectorias y Riesgo Sistémico](https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/European_Central_Bank_Headquarters_%28Ank_Kumar%2C_Infosys_Limited%29_02.jpg/1280px-European_Central_Bank_Headquarters_%28Ank_Kumar%2C_Infosys_Limited%29_02.jpg)
 *Figura 2: Proyección de trayectorias y modelado de dispersión elaborado por la Unidad Cuantitativa TEP.*
 
 El análisis retrospectivo permite clasificar la trayectoria que finalmente se consolidó frente a las hipótesis alternativas que barajaban los comités en aquel entonces:

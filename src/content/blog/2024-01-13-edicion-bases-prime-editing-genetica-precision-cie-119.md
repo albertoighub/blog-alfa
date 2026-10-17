@@ -5,7 +5,7 @@ pubDate: "2024-01-13"
 category: "Ciencia"
 tags: ["Ciencia", "Medicina", "Biotecnología", "Investigación Clínica", "Salud Pública"]
 author: "Comité Analítico TEP & Archivo Histórico"
-heroImage: "https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?auto=format&fit=crop&w=1200&h=630&q=82"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/Jairam_Ramesh_briefing_the_media_to_introduce_Youth_Tiger_Ambassadors%2C_who_will_represent_India_at_International_Youth_Tiger_Summit_in_Vladivostok%2C_Russia%2C_in_New_Delhi_on_November_12%2C_2010.jpg/1280px-thumbnail.jpg"
 canonicalSource: "https://newsinternacionaltep.com/categoria/ciencia"
 ---
 
@@ -21,7 +21,7 @@ Los reportes primarios recopilados por las corresponsalías y agencias de monito
 
 ## 2. Estado de la Situación y Dinámica Estructural
 
-![Evidencia y Registro Documental Primario - Edición de Bases y Edición Primaria: Corrección de Mutaciones Puntuales sin Roturas de Doble Cadena](https://images.unsplash.com/photo-1530497610245-94d3c16cda28?auto=format&fit=crop&w=1200&h=630&q=82)
+![Evidencia y Registro Documental Primario - Edición de Bases y Edición Primaria: Corrección de Mutaciones Puntuales sin Roturas de Doble Cadena](https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/President_George_W._Bush%2C_Prime_Minister_Jose_Manuel_Durao_Barroso%2C_Prime_Minister_Tony_Blair%2C_and_Prime_Minister_Jose_Maria_Aznar_conduct_a_joint_press_briefing.jpg/1280px-thumbnail.jpg)
 *Figura 1: Mapeo y registro fotográfico documental archivado en la hemeroteca de News Internacional TEP.*
 
 La evolución empírica de los acontecimientos desmintió rápidamente los diagnósticos complacientes. La aceleración de las dinámicas en juego obligó a un reajuste de las previsiones institucionales, revelando una marcada correlación entre la exposición previa al riesgo y la celeridad del deterioro funcional en los sectores analizados.
@@ -40,7 +40,7 @@ El comportamiento de los indicadores determinantes durante este período histór
 
 ## 4. Evaluación de Escenarios y Modelado de Riesgo
 
-![Modelado de Trayectorias y Riesgo Sistémico](https://images.unsplash.com/photo-1507668077129-56e32842fceb?auto=format&fit=crop&w=1200&h=630&q=82)
+![Modelado de Trayectorias y Riesgo Sistémico](https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/Press_Briefing_%2849166929933%29.jpg/1280px-Press_Briefing_%2849166929933%29.jpg)
 *Figura 2: Proyección de trayectorias y modelado de dispersión elaborado por la Unidad Cuantitativa TEP.*
 
 El análisis retrospectivo permite clasificar la trayectoria que finalmente se consolidó frente a las hipótesis alternativas que barajaban los comités en aquel entonces:

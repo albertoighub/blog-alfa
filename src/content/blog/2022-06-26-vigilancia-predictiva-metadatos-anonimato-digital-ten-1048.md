@@ -5,7 +5,7 @@ pubDate: "2022-06-26"
 category: "Tendencias"
 tags: ["Redes Sociales", "Dinámica Digital", "Cultura Algorítmica", "Plataformas", "Comportamiento Colectivo"]
 author: "Comité Analítico TEP & Archivo Histórico"
-heroImage: "https://images.unsplash.com/photo-1573164713988-8665fc963095?auto=format&fit=crop&w=1200&h=630&q=82"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/Stadsarchief_Amsterdam%2C_Afb_ANWG00545000001.jpg/1280px-Stadsarchief_Amsterdam%2C_Afb_ANWG00545000001.jpg"
 canonicalSource: "https://newsinternacionaltep.com/categoria/tendencias"
 ---
 
@@ -21,7 +21,7 @@ Los reportes primarios recopilados por las corresponsalías y agencias de monito
 
 ## 2. Estado de la Situación y Dinámica Estructural
 
-![Evidencia y Registro Documental Primario - La Vigilancia Predictiva Basada en Metadatos y el Fin del Anonimato Digital](https://images.unsplash.com/photo-1611162617474-5b21e879e113?auto=format&fit=crop&w=1200&h=630&q=82)
+![Evidencia y Registro Documental Primario - La Vigilancia Predictiva Basada en Metadatos y el Fin del Anonimato Digital](https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/The_Director_of_the_film_%E2%80%9CNana%E2%80%9D%2C_Valeria_Massadian_addressing_at_the_special_screening_of_her_film%2C_during_the_42nd_International_Film_Festival_of_India_%28IFFI-2011%29%2C_in_Panaji%2C_Goa_on_December_02%2C_2011.jpg/1280px-thumbnail.jpg)
 *Figura 1: Mapeo y registro fotográfico documental archivado en la hemeroteca de News Internacional TEP.*
 
 La evolución empírica de los acontecimientos desmintió rápidamente los diagnósticos complacientes. La aceleración de las dinámicas en juego obligó a un reajuste de las previsiones institucionales, revelando una marcada correlación entre la exposición previa al riesgo y la celeridad del deterioro funcional en los sectores analizados.
@@ -40,7 +40,7 @@ El comportamiento de los indicadores determinantes durante este período histór
 
 ## 4. Evaluación de Escenarios y Modelado de Riesgo
 
-![Modelado de Trayectorias y Riesgo Sistémico](https://images.unsplash.com/photo-1563986768609-322da13575f3?auto=format&fit=crop&w=1200&h=630&q=82)
+![Modelado de Trayectorias y Riesgo Sistémico](https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/The_Director_of_the_film_%E2%80%9CThe_Winner%E2%80%9D%2C_Wieslaw_Saniewski_along_with_the_Producer%2C_Grazyna_Molska_addressing_at_the_special_screening_of_the_film%2C_during_the_42nd_International_Film_Festival_of_India_%28IFFI-2011%29%2C_in_Panaji.jpg/1280px-thumbnail.jpg)
 *Figura 2: Proyección de trayectorias y modelado de dispersión elaborado por la Unidad Cuantitativa TEP.*
 
 El análisis retrospectivo permite clasificar la trayectoria que finalmente se consolidó frente a las hipótesis alternativas que barajaban los comités en aquel entonces:

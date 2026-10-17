@@ -5,7 +5,7 @@ pubDate: "2026-10-17"
 category: "Tecnología"
 tags: ["Inteligencia Artificial", "Regulaci\u00f3n Tecnol\u00f3gica", "Geopol\u00edtica Digital", "Riesgo Sist\u00e9mico"]
 author: "Comité Analítico TEP & Prospectiva"
-heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/Greater_coat_of_arms_of_the_United_States.svg/1280px-Greater_coat_of_arms_of_the_United_States.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/Festival_van_de_Journalistiek_2017_%2837049019940%29.jpg/1280px-Festival_van_de_Journalistiek_2017_%2837049019940%29.jpg"
 canonicalSource: "https://www.platformer.news/trump-johnson-ai-safety-regulation/"
 ---
 

@@ -5,7 +5,7 @@ pubDate: "2020-02-01"
 category: "Tendencias"
 tags: ["Redes Sociales", "Dinámica Digital", "Cultura Algorítmica", "Plataformas", "Comportamiento Colectivo"]
 author: "Comité Analítico TEP & Archivo Histórico"
-heroImage: "https://images.unsplash.com/photo-1611162617474-5b21e879e113?auto=format&fit=crop&w=1200&h=630&q=82"
+heroImage: "https://upload.wikimedia.org/wikipedia/commons/9/9e/Major_General_Zaw_Min_Tun_at_a_Tatmadaw_True_News_Information_Team_special_press_conference_to_address_the_media_on_January_26%2C_2021.jpg"
 canonicalSource: "https://newsinternacionaltep.com/categoria/tendencias"
 ---
 
@@ -21,7 +21,7 @@ Los reportes primarios recopilados por las corresponsalías y agencias de monito
 
 ## 2. Estado de la Situación y Dinámica Estructural
 
-![Evidencia y Registro Documental Primario - La Decisión de Ocultar los Contadores de 'Likes' en Instagram y el Debate sobre Salud Mental Juvenil](https://images.unsplash.com/photo-1563986768609-322da13575f3?auto=format&fit=crop&w=1200&h=630&q=82)
+![Evidencia y Registro Documental Primario - La Decisión de Ocultar los Contadores de 'Likes' en Instagram y el Debate sobre Salud Mental Juvenil](https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/Media_at_the_2017_Invictus_Games_opening_press_conference_%2837011342580%29.jpg/1280px-Media_at_the_2017_Invictus_Games_opening_press_conference_%2837011342580%29.jpg)
 *Figura 1: Mapeo y registro fotográfico documental archivado en la hemeroteca de News Internacional TEP.*
 
 La evolución empírica de los acontecimientos desmintió rápidamente los diagnósticos complacientes. La aceleración de las dinámicas en juego obligó a un reajuste de las previsiones institucionales, revelando una marcada correlación entre la exposición previa al riesgo y la celeridad del deterioro funcional en los sectores analizados.
@@ -40,7 +40,7 @@ El comportamiento de los indicadores determinantes durante este período histór
 
 ## 4. Evaluación de Escenarios y Modelado de Riesgo
 
-![Modelado de Trayectorias y Riesgo Sistémico](https://images.unsplash.com/photo-1573164713988-8665fc963095?auto=format&fit=crop&w=1200&h=630&q=82)
+![Modelado de Trayectorias y Riesgo Sistémico](https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/Mille_Miglia_2018_press_conference%2C_Le_Grand-Saconnex_%281X7A9509%29.jpg/1280px-Mille_Miglia_2018_press_conference%2C_Le_Grand-Saconnex_%281X7A9509%29.jpg)
 *Figura 2: Proyección de trayectorias y modelado de dispersión elaborado por la Unidad Cuantitativa TEP.*
 
 El análisis retrospectivo permite clasificar la trayectoria que finalmente se consolidó frente a las hipótesis alternativas que barajaban los comités en aquel entonces:

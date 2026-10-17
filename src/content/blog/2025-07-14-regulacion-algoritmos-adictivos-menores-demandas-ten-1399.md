@@ -5,7 +5,7 @@ pubDate: "2025-07-14"
 category: "Tendencias"
 tags: ["Redes Sociales", "Dinámica Digital", "Cultura Algorítmica", "Plataformas", "Comportamiento Colectivo"]
 author: "Comité Analítico TEP & Archivo Histórico"
-heroImage: "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=1200&h=630&q=82"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/View_on_the_Ferdinand_Bolstraat_and_its_many_trees_-_with_a_red-colored_building-barn_for_metro-constructions%3B_city_center_of_Amsterdam%3B_-_urban_photography_by_Fons_Heijnsbroek%2C_the_Netherlands%2C_2013_%2811521791545%29.jpg/1280px-thumbnail.jpg"
 canonicalSource: "https://newsinternacionaltep.com/categoria/tendencias"
 ---
 
@@ -21,7 +21,7 @@ Los reportes primarios recopilados por las corresponsalías y agencias de monito
 
 ## 2. Estado de la Situación y Dinámica Estructural
 
-![Evidencia y Registro Documental Primario - La Regulación de Algoritmos Adictivos en Menores de Edad: Demandas de Estados y Fiscales Generales](https://images.unsplash.com/photo-1534536281715-e28d76689b4d?auto=format&fit=crop&w=1200&h=630&q=82)
+![Evidencia y Registro Documental Primario - La Regulación de Algoritmos Adictivos en Menores de Edad: Demandas de Estados y Fiscales Generales](https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8e/Worshop_wikimedia_a_terni%2C_23.24-7-2022%2C_esperimenti_di_urban_e_street_photography%2C_arco_di_vico_del_pozzo.jpg/1280px-Worshop_wikimedia_a_terni%2C_23.24-7-2022%2C_esperimenti_di_urban_e_street_photography%2C_arco_di_vico_del_pozzo.jpg)
 *Figura 1: Mapeo y registro fotográfico documental archivado en la hemeroteca de News Internacional TEP.*
 
 La evolución empírica de los acontecimientos desmintió rápidamente los diagnósticos complacientes. La aceleración de las dinámicas en juego obligó a un reajuste de las previsiones institucionales, revelando una marcada correlación entre la exposición previa al riesgo y la celeridad del deterioro funcional en los sectores analizados.
@@ -40,7 +40,7 @@ El comportamiento de los indicadores determinantes durante este período histór
 
 ## 4. Evaluación de Escenarios y Modelado de Riesgo
 
-![Modelado de Trayectorias y Riesgo Sistémico](https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=1200&h=630&q=82)
+![Modelado de Trayectorias y Riesgo Sistémico](https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/Worshop_wikimedia_a_terni%2C_23.24-7-2022%2C_esperimenti_di_urban_e_street_photography%2C_impalcature_in_corso_tacito.jpg/1280px-Worshop_wikimedia_a_terni%2C_23.24-7-2022%2C_esperimenti_di_urban_e_street_photography%2C_impalcature_in_corso_tacito.jpg)
 *Figura 2: Proyección de trayectorias y modelado de dispersión elaborado por la Unidad Cuantitativa TEP.*
 
 El análisis retrospectivo permite clasificar la trayectoria que finalmente se consolidó frente a las hipótesis alternativas que barajaban los comités en aquel entonces:

@@ -5,7 +5,7 @@ pubDate: "2023-07-25"
 category: "Ciencia"
 tags: ["Ciencia", "Medicina", "Biotecnología", "Investigación Clínica", "Salud Pública"]
 author: "Comité Analítico TEP & Archivo Histórico"
-heroImage: "https://images.unsplash.com/photo-1507668077129-56e32842fceb?auto=format&fit=crop&w=1200&h=630&q=82"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/President_Ronald_Reagan_During_a_Meeting_with_Alexandre_De_Marenches_in_The_Oval_Office_-_DPLA_-_e716cddcba58363d0c2c2986186d9b21.jpg/1280px-President_Ronald_Reagan_During_a_Meeting_with_Alexandre_De_Marenches_in_The_Oval_Office_-_DPLA_-_e716cddcba58363d0c2c2986186d9b21.jpg"
 canonicalSource: "https://newsinternacionaltep.com/categoria/ciencia"
 ---
 
@@ -21,7 +21,7 @@ Los reportes primarios recopilados por las corresponsalías y agencias de monito
 
 ## 2. Estado de la Situación y Dinámica Estructural
 
-![Evidencia y Registro Documental Primario - La Revolución de los Fármacos Agonistas de GLP-1 (Semaglutida) en el Tratamiento Metabólico](https://images.unsplash.com/photo-1576086213369-97a306d36557?auto=format&fit=crop&w=1200&h=630&q=82)
+![Evidencia y Registro Documental Primario - La Revolución de los Fármacos Agonistas de GLP-1 (Semaglutida) en el Tratamiento Metabólico](https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/President_Ronald_Reagan_Meeting_in_The_Oval_Office_with_Staff_%28Left_to_Right%29_Don_Regan_Caspar_Weinberger_President_Ronald_Reagan_Admiral_Poindexter_Regarding_The_Libya_Air_Strike_-_DPLA_-_aefdd85dc7dcbe7b4fdbdb3836162922.jpg/1280px-thumbnail.jpg)
 *Figura 1: Mapeo y registro fotográfico documental archivado en la hemeroteca de News Internacional TEP.*
 
 La evolución empírica de los acontecimientos desmintió rápidamente los diagnósticos complacientes. La aceleración de las dinámicas en juego obligó a un reajuste de las previsiones institucionales, revelando una marcada correlación entre la exposición previa al riesgo y la celeridad del deterioro funcional en los sectores analizados.
@@ -40,7 +40,7 @@ El comportamiento de los indicadores determinantes durante este período histór
 
 ## 4. Evaluación de Escenarios y Modelado de Riesgo
 
-![Modelado de Trayectorias y Riesgo Sistémico](https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=1200&h=630&q=82)
+![Modelado de Trayectorias y Riesgo Sistémico](https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/President_Ronald_Reagan_Meeting_in_the_Oval_Office_with_Henry_Kissinger_and_former_National_Security_Officials_-_DPLA_-_235a9f95ec449bbabb5640ac0527297e.jpg/1280px-President_Ronald_Reagan_Meeting_in_the_Oval_Office_with_Henry_Kissinger_and_former_National_Security_Officials_-_DPLA_-_235a9f95ec449bbabb5640ac0527297e.jpg)
 *Figura 2: Proyección de trayectorias y modelado de dispersión elaborado por la Unidad Cuantitativa TEP.*
 
 El análisis retrospectivo permite clasificar la trayectoria que finalmente se consolidó frente a las hipótesis alternativas que barajaban los comités en aquel entonces:

@@ -5,7 +5,7 @@ pubDate: "2026-10-14"
 category: "Economía"
 tags: ["Yield Management", "Segmentaci\u00f3n de Mercado", "Servicios A\u00e9reos", "Lujo Discreto"]
 author: "Comité Analítico TEP & Prospectiva"
-heroImage: "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/10/p-1-91623127-delta-one-update.jpg"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/VR_Kiosk_For_Ankara_Metropolitan_Municipality.jpg/1280px-VR_Kiosk_For_Ankara_Metropolitan_Municipality.jpg"
 canonicalSource: "https://www.fastcompany.com/91623127/delta-air-lines-one-premium-suite-upgrade-biggest-redesign-30-years"
 ---
 

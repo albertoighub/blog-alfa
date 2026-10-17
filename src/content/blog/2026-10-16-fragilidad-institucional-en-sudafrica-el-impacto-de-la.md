@@ -5,7 +5,7 @@ pubDate: "2026-10-16"
 category: "Geopolítica"
 tags: ["Democracia Sudafricana", "Derecho Constitucional", "Estabilidad Pol\u00edtica", "Gobernanza Electoral"]
 author: "Comité Analítico TEP & Prospectiva"
-heroImage: "https://images.newsteam.io/image/1000/2Bq28FuGKoJnuDN6tsLkacPSRoUY5HYGDbZz4TcPP54z2rtMT5zNuc9sn9kPYtUCUnwnG39wyqD68Z8wN896153uKmgqCUhpZQYR3omDAa8hMtJQZHfozThGXHoCaLVLg24PazgJkehspKWbWgPWkrS"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/HPC_001703_grayscale_%2827511557816%29.jpg/1280px-HPC_001703_grayscale_%2827511557816%29.jpg"
 canonicalSource: "https://mg.co.za/news/south-africa/2026-10-15-constitutional-court-rules-in-favour-of-anc-in-iec-candidate-nomination-dispute/"
 ---
 

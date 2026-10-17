@@ -5,7 +5,7 @@ pubDate: "2026-10-15"
 category: "Economía"
 tags: ["Inflaci\u00f3n", "Valoraci\u00f3n Tecnol\u00f3gica", "Tasas de Inter\u00e9s", "Riesgo Sist\u00e9mico", "Inteligencia Artificial"]
 author: "Comité Analítico TEP & Prospectiva"
-heroImage: "https://i2.res.24o.it/images2010/S24/Documenti/2026/10/16/Immagini/Ritagli/borsa%20azioni-U22725018105Rww-1440x752@IlSole24Ore-Web.jpg"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/db/Professional_PA_power_amps_from_Crest_Audio_and_QSC_with_control_modules_in_rack.jpg/1280px-Professional_PA_power_amps_from_Crest_Audio_and_QSC_with_control_modules_in_rack.jpg"
 canonicalSource: "https://www.ilsole24ore.com/art/borse-asia-crolla-trainata-vendite-settore-tech-giu-kospi-8percento-e-nikkei-5percento-AJXEIKkB"
 ---
 

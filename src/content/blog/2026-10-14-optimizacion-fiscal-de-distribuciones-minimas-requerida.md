@@ -5,7 +5,7 @@ pubDate: "2026-10-14"
 category: "Economía"
 tags: ["Pol\u00edtica Fiscal", "Finanzas Personales", "Planificaci\u00f3n Retiro", "Optimizaci\u00f3n Tributaria"]
 author: "Comité Analítico TEP & Prospectiva"
-heroImage: "https://cdn.mos.cms.futurecdn.net/9twREeaf6v4C8ipU5mhJEK-1920-80.jpg"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/Computer_DEC_VAX_11-780-5_in_Living_Computer_Museum%2C_Seattle_%28strongly_edited_image%29.jpg/1280px-Computer_DEC_VAX_11-780-5_in_Living_Computer_Museum%2C_Seattle_%28strongly_edited_image%29.jpg"
 canonicalSource: "https://www.kiplinger.com/retirement/retirement-plans/required-minimum-distributions-rmds/smart-ways-to-handle-rmds"
 ---
 

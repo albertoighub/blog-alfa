@@ -5,7 +5,7 @@ pubDate: "2026-10-15"
 category: "Tecnología"
 tags: ["Veh\u00edculos El\u00e9ctricos", "Geopol\u00edtica Comercial", "Arbitraje Regulatorio", "Sostenibilidad Industrial"]
 author: "Comité Analítico TEP & Prospectiva"
-heroImage: "https://www.01net.com/app/uploads/2026/07/Jaecoo-5-statiques_18-1344x896.jpg"
+heroImage: "https://upload.wikimedia.org/wikipedia/commons/3/3d/Chassis-Plans-Transit-Case.jpg"
 canonicalSource: "https://www.01net.com/actualites/bonus-ecologique-ce-suv-electrique-chinois-a-de-tres-bonnes-chances-detre-eligible.html"
 ---
 

@@ -5,7 +5,7 @@ pubDate: "2026-10-17"
 category: "Geopolítica"
 tags: ["Sud\u00e1frica", "ANC", "Realineamiento Pol\u00edtico", "Gobernanza Cr\u00edtica", "\u00c1frica Austral"]
 author: "Comité Analítico TEP & Prospectiva"
-heroImage: "https://images.newsteam.io/image/1440/2Bq28FuGKoMigXEWxL5hx9MLN88S5cX8PRgEpo6oqxmRfinP9MQLBjqds4xoYrJnLE2mp2xN5NotvijjZQs5cjqu5xuMtCUFMmqeJFomeb2nu1xRRRj1B6dxFNMTLH7tCxVXcLCUMpDKP3uDBYoWsGC"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/OH-HPC_in_Heliport_City_Hall_Tallinn_3_June_2019.jpg/1280px-OH-HPC_in_Heliport_City_Hall_Tallinn_3_June_2019.jpg"
 canonicalSource: "https://mg.co.za/thought-leader/2026-10-15-ramifications-of-an-anc-electoral-decline/"
 ---
 

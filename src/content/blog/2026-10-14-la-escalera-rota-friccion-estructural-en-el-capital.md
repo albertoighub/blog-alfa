@@ -5,7 +5,7 @@ pubDate: "2026-10-14"
 category: "Economía"
 tags: ["Capital Humano", "Paridad Salarial", "Gobernanza Corporativa", "Econom\u00eda de G\u00e9nero"]
 author: "Comité Analítico TEP & Prospectiva"
-heroImage: "https://fortune.com/img-assets/wp-content/uploads/2026/10/55588180488_3027552754_o-e1791996484706.jpg?w=2048"
+heroImage: "https://upload.wikimedia.org/wikipedia/commons/2/26/VR_szem%C3%BCveg.jpg"
 canonicalSource: "https://fortune.com/2026/10/14/gen-z-ceo-lean-in-bridget-griswold-says-broken-rung-one-of-most-pervasive-issues-women-face-in-careers/"
 ---
 

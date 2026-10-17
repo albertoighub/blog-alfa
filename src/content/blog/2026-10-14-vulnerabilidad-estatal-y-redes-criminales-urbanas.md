@@ -5,7 +5,7 @@ pubDate: "2026-10-14"
 category: "Geopolítica"
 tags: ["Crimen Organizado", "Estado de Derecho", "Seguridad Interna", "Gobernanza Urbana"]
 author: "Comité Analítico TEP & Prospectiva"
-heroImage: "https://cdn.prod.www.spiegel.de/images/af94b8a3-a645-4332-a84a-6c7970d96ac2_w520_r2.08_fpx57.22_fpy49.86.jpg"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/Amps_Amps_Amps_PA.jpg/1280px-Amps_Amps_Amps_PA.jpg"
 canonicalSource: "https://www.spiegel.de/panorama/justiz/essen-haeftling-befreit-polizei-fahndet-nach-drei-maennern-a-2093fab7-5bdf-4d71-92bd-a152932ec130#ref=rss"
 ---
 

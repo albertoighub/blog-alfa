@@ -5,7 +5,7 @@ pubDate: "2026-10-15"
 category: "Tecnología"
 tags: ["Bitcoin Mining", "Infraestructura Digital", "Macroeconom\u00eda", "Inteligencia Artificial", "Riesgo Sist\u00e9mico"]
 author: "Comité Analítico TEP & Prospectiva"
-heroImage: "https://s3-images.ctmedia.io/media/article-covers/2026/10/01M4YSG3DXFXJ6NSHP3JM0EBPS/stocks.jpg"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/Skrzynia_transportowa_ACF-SP_ABS_Rack_Case_firmy_American_DJ.jpg/1280px-Skrzynia_transportowa_ACF-SP_ABS_Rack_Case_firmy_American_DJ.jpg"
 canonicalSource: "https://cointelegraph.com/markets/bitcoin-miners-plunge-up-to-13-in-wall-streets-worst-selloff-since-july?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
 ---
 

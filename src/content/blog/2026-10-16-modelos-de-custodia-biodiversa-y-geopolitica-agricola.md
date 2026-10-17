@@ -5,7 +5,7 @@ pubDate: "2026-10-16"
 category: "Geopolítica"
 tags: ["Conservaci\u00f3n", "Gobernanza Ambiental", "Desarrollo Sostenible", "Socio-Ecolog\u00eda"]
 author: "Comité Analítico TEP & Prospectiva"
-heroImage: "https://images.newsteam.io/image/2598/2Bq28FuGKoJfbEUSo56ZwnEpAky3VKrgq8wEVTMD6iUd2hgbaBvt9DFcJkF2u6UQFCbuJMLPjbZDYkBLxcoVb7QWy1ZgvFcaHmaeWiLxtSX3CBbbP1BWPu16cM4tS8PsvrcJ4U5AzXUD8nxtYCXa2h6"
+heroImage: "https://upload.wikimedia.org/wikipedia/commons/4/45/HPC_000564_%2827511558166%29.jpg"
 canonicalSource: "https://mg.co.za/the-green-guardian/2026-10-15-a-new-kind-of-national-park/"
 ---
 

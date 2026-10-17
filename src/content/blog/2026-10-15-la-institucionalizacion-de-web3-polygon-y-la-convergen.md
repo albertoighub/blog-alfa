@@ -5,7 +5,7 @@ pubDate: "2026-10-15"
 category: "Tecnología"
 tags: ["FinTech", "Regulaci\u00f3n Blockchain", "MTL", "Descentralizaci\u00f3n", "Riesgo Sist\u00e9mico"]
 author: "Comité Analítico TEP & Prospectiva"
-heroImage: "https://s3-images.ctmedia.io/media/article-covers/2026/10/01M4YGMAKBQ7H9BQG4RR5WN0J2/polygon.jpg"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/4X-HPC_Micha_barlev.jpg/1280px-4X-HPC_Micha_barlev.jpg"
 canonicalSource: "https://cointelegraph.com/news/polygon-gains-us-payments-licenses-after-closing-coinme-deal?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
 ---
 

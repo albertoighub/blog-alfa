@@ -5,7 +5,7 @@ pubDate: "2023-06-13"
 category: "Geopolítica"
 tags: ["Geopolítica", "Seguridad Internacional", "Diplomacia", "Defensa", "Gobernanza Global"]
 author: "Comité Analítico TEP & Archivo Histórico"
-heroImage: "https://images.unsplash.com/photo-1577495508048-b635879837f1?auto=format&fit=crop&w=1200&h=630&q=82"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/Defense.gov_News_Photo_120423-D-TT977-311_-_Secretary_of_Defense_Leon_E._Panetta_answers_a_question_during_a_joint_press_conference_with_Colombian_Minister_of_Defense_Juan_Carlos_Pinzon_Bueno.jpg/1280px-thumbnail.jpg"
 canonicalSource: "https://newsinternacionaltep.com/categoria/geopolitica"
 ---
 
@@ -21,7 +21,7 @@ Los reportes primarios recopilados por las corresponsalías y agencias de monito
 
 ## 2. Estado de la Situación y Dinámica Estructural
 
-![Evidencia y Registro Documental Primario - Vulnerabilidad del Estrecho de Bab el-Mandeb y la Seguridad del Comercio Marítimo](https://images.unsplash.com/photo-1541872703-74c5e44368f9?auto=format&fit=crop&w=1200&h=630&q=82)
+![Evidencia y Registro Documental Primario - Vulnerabilidad del Estrecho de Bab el-Mandeb y la Seguridad del Comercio Marítimo](https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/Defense.gov_News_Photo_120507-D-TT977-218_-_China_s_Minister_of_National_Defense_Gen._Liang_Guanglie_answers_a_question_during_a_joint_press_conference_with_Secretary_of_Defense_Leon_E.jpg/1280px-thumbnail.jpg)
 *Figura 1: Mapeo y registro fotográfico documental archivado en la hemeroteca de News Internacional TEP.*
 
 La evolución empírica de los acontecimientos desmintió rápidamente los diagnósticos complacientes. La aceleración de las dinámicas en juego obligó a un reajuste de las previsiones institucionales, revelando una marcada correlación entre la exposición previa al riesgo y la celeridad del deterioro funcional en los sectores analizados.
@@ -40,7 +40,7 @@ El comportamiento de los indicadores determinantes durante este período histór
 
 ## 4. Evaluación de Escenarios y Modelado de Riesgo
 
-![Modelado de Trayectorias y Riesgo Sistémico](https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=1200&h=630&q=82)
+![Modelado de Trayectorias y Riesgo Sistémico](https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/Defense.gov_News_Photo_120604-D-BW835-023_-_Secretary_of_Defense_Leon_E._Panetta_and_Vietnamese_Minister_of_National_Defense_Senior_Lt._Gen._Phuong_Quang_Thanh_hold_a_joint_press_conference_in.jpg/1280px-thumbnail.jpg)
 *Figura 2: Proyección de trayectorias y modelado de dispersión elaborado por la Unidad Cuantitativa TEP.*
 
 El análisis retrospectivo permite clasificar la trayectoria que finalmente se consolidó frente a las hipótesis alternativas que barajaban los comités en aquel entonces:

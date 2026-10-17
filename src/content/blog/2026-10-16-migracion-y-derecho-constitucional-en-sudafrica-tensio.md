@@ -5,7 +5,7 @@ pubDate: "2026-10-16"
 category: "Geopolítica"
 tags: ["Migraciones Forzadas", "Derecho Constitucional", "Estabilidad Regional", "Gobernanza Global"]
 author: "Comité Analítico TEP & Prospectiva"
-heroImage: "https://images.newsteam.io/image/1200/2Bq28FuGKoJu2K8GHZaqmfNfHwD15pb5FDBTcBpVhYsQeFLWEHwHaAyff8nmDuRxeNDBrvtAvSsTiqWwDuhX9qtSz4C7ZqpFRYpwSG1H3XU3t7uNsWZ9B5EsrPveYx5N2MsFziXHfHegYkgpJmvBkPn"
+heroImage: "https://upload.wikimedia.org/wikipedia/commons/a/a1/HPC_000292_%2827270689180%29.jpg"
 canonicalSource: "https://mg.co.za/thought-leader/2026-10-15-the-constitution-has-the-last-word-for-now/"
 ---
 

@@ -5,7 +5,7 @@ pubDate: "2024-05-20"
 category: "Ciencia"
 tags: ["Ciencia", "Medicina", "Biotecnología", "Investigación Clínica", "Salud Pública"]
 author: "Comité Analítico TEP & Archivo Histórico"
-heroImage: "https://images.unsplash.com/photo-1516549655169-df83a0774514?auto=format&fit=crop&w=1200&h=630&q=82"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/%CE%A5%CF%80%CE%BF%CF%85%CF%81%CE%B3%CE%B9%CE%BA%CE%AE_%CE%94%CE%B9%CE%AC%CF%83%CE%BA%CE%B5%CF%88%CE%B7_%CE%A5%CE%A0%CE%95%CE%9E_%CE%BA%CF%81%CE%B1%CF%84%CF%8E%CE%BD-%CE%BC%CE%B5%CE%BB%CF%8E%CE%BD_%CE%95.%CE%95._%CE%BA%CE%B1%CE%B9_%CE%94%CF%85%CF%84%CE%B9%CE%BA%CF%8E%CE%BD_%CE%92%CE%B1%CE%BB%CE%BA%CE%B1%CE%BD%CE%AF%CF%89%CE%BD_%28%CE%98%CE%B5%CF%83-%CE%BD%CE%AF%CE%BA%CE%B7_8.05.2014%29_%2814137978605%29.jpg/1280px-thumbnail.jpg"
 canonicalSource: "https://newsinternacionaltep.com/categoria/ciencia"
 ---
 
@@ -21,7 +21,7 @@ Los reportes primarios recopilados por las corresponsalías y agencias de monito
 
 ## 2. Estado de la Situación y Dinámica Estructural
 
-![Evidencia y Registro Documental Primario - La Revolución de los Fármacos Agonistas de GLP-1 (Semaglutida) en el Tratamiento Metabólico](https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?auto=format&fit=crop&w=1200&h=630&q=82)
+![Evidencia y Registro Documental Primario - La Revolución de los Fármacos Agonistas de GLP-1 (Semaglutida) en el Tratamiento Metabólico](https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9b/%CE%A5%CF%80%CE%BF%CF%85%CF%81%CE%B3%CE%B9%CE%BA%CE%AE_%CE%94%CE%B9%CE%AC%CF%83%CE%BA%CE%B5%CF%88%CE%B7_%CE%A5%CE%A0%CE%95%CE%9E_%CE%BA%CF%81%CE%B1%CF%84%CF%8E%CE%BD-%CE%BC%CE%B5%CE%BB%CF%8E%CE%BD_%CE%95.%CE%95._%CE%BA%CE%B1%CE%B9_%CE%94%CF%85%CF%84%CE%B9%CE%BA%CF%8E%CE%BD_%CE%92%CE%B1%CE%BB%CE%BA%CE%B1%CE%BD%CE%AF%CF%89%CE%BD_%28%CE%98%CE%B5%CF%83-%CE%BD%CE%AF%CE%BA%CE%B7_8.05.2014%29_%2814138237674%29.jpg/1280px-thumbnail.jpg)
 *Figura 1: Mapeo y registro fotográfico documental archivado en la hemeroteca de News Internacional TEP.*
 
 La evolución empírica de los acontecimientos desmintió rápidamente los diagnósticos complacientes. La aceleración de las dinámicas en juego obligó a un reajuste de las previsiones institucionales, revelando una marcada correlación entre la exposición previa al riesgo y la celeridad del deterioro funcional en los sectores analizados.
@@ -40,7 +40,7 @@ El comportamiento de los indicadores determinantes durante este período histór
 
 ## 4. Evaluación de Escenarios y Modelado de Riesgo
 
-![Modelado de Trayectorias y Riesgo Sistémico](https://images.unsplash.com/photo-1530497610245-94d3c16cda28?auto=format&fit=crop&w=1200&h=630&q=82)
+![Modelado de Trayectorias y Riesgo Sistémico](https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/%CE%A5%CF%80%CE%BF%CF%85%CF%81%CE%B3%CE%B9%CE%BA%CE%AE_%CE%94%CE%B9%CE%AC%CF%83%CE%BA%CE%B5%CF%88%CE%B7_%CE%A5%CE%A0%CE%95%CE%9E_%CE%BA%CF%81%CE%B1%CF%84%CF%8E%CE%BD-%CE%BC%CE%B5%CE%BB%CF%8E%CE%BD_%CE%95.%CE%95._%CE%BA%CE%B1%CE%B9_%CE%94%CF%85%CF%84%CE%B9%CE%BA%CF%8E%CE%BD_%CE%92%CE%B1%CE%BB%CE%BA%CE%B1%CE%BD%CE%AF%CF%89%CE%BD_%28%CE%98%CE%B5%CF%83-%CE%BD%CE%AF%CE%BA%CE%B7_8.05.2014%29_%2814158032493%29.jpg/1280px-thumbnail.jpg)
 *Figura 2: Proyección de trayectorias y modelado de dispersión elaborado por la Unidad Cuantitativa TEP.*
 
 El análisis retrospectivo permite clasificar la trayectoria que finalmente se consolidó frente a las hipótesis alternativas que barajaban los comités en aquel entonces:

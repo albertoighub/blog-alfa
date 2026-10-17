@@ -5,7 +5,7 @@ pubDate: "2026-10-14"
 category: "Geopolítica"
 tags: ["Guerra Asim\u00e9trica", "Seguridad Regional", "Derecho Internacional Humanitario", "Conflictos H\u00edbridos"]
 author: "Comité Analítico TEP & Prospectiva"
-heroImage: "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=1200&h=630&q=85"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/7%C2%AA_MOSTRA_BID_BRASIL_2022_%2852549100473%29.jpg/1280px-7%C2%AA_MOSTRA_BID_BRASIL_2022_%2852549100473%29.jpg"
 canonicalSource: "https://kyivindependent.com/russian-pow-reportedly-escapes-in-kharkiv-oblast-kills-5-ukrainian-soldiers/"
 ---
 

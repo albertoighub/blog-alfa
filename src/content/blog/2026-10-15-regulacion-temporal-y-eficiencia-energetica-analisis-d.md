@@ -5,7 +5,7 @@ pubDate: "2026-10-15"
 category: "Economía"
 tags: ["Energ\u00eda", "Macroeconom\u00eda", "Regulaci\u00f3n Temporal", "Sostenibilidad"]
 author: "Comité Analítico TEP & Prospectiva"
-heroImage: "https://i2.res.24o.it/images2010/S24/Documenti/2026/10/14/Immagini/Ritagli/AdobeStock_176208823-U28607436165tVs-1440x752@IlSole24Ore-Web.jpeg"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/COM-HPC_Sizes.jpg/1280px-COM-HPC_Sizes.jpg"
 canonicalSource: "https://www.ilsole24ore.com/art/torna-l-ora-solare-ecco-motivi-cui-conviene-abolirla-AJwg8miB"
 ---
 

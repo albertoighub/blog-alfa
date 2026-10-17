@@ -5,7 +5,7 @@ pubDate: "2026-10-16"
 category: "Geopolítica"
 tags: ["Identidad Digital", "Gobernanza Africana", "Biometr\u00eda", "Desigualdad Estructural", "Soberan\u00eda de Datos"]
 author: "Comité Analítico TEP & Prospectiva"
-heroImage: "https://images.newsteam.io/image/684/GbSdY1y2zdN4A94orTY3ygKoLGPtTRfENnhUSQrR5yCxca9TxMXt23i9hgKrEjW3gwS1aQYsmufD77saEeya98Y9nLobYxUpHkK6szGQvXMZtH81wv8jho7ahz9gB5zP5N1JvekVtejK8Uyoo5wem"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/PROJECT_X_ROUND_ROBIN_RACKS%2C_NEVADA_TEST_SITE_-_DPLA_-_e0229515739f418d71833795e8007cf9.jpg/1280px-PROJECT_X_ROUND_ROBIN_RACKS%2C_NEVADA_TEST_SITE_-_DPLA_-_e0229515739f418d71833795e8007cf9.jpg"
 canonicalSource: "https://mg.co.za/thought-leader/2026-10-16-digitising-national-identity-is-not-the-solution-you-think-it-is/"
 ---
 

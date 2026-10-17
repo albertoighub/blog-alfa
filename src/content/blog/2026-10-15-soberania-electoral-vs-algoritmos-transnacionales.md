@@ -5,7 +5,7 @@ pubDate: "2026-10-15"
 category: "Geopolítica"
 tags: ["Regulaci\u00f3n Digital", "Democracia Algor\u00edtmica", "Soberan\u00eda Tecnol\u00f3gica", "Brasil"]
 author: "Comité Analítico TEP & Prospectiva"
-heroImage: "https://www.latercera.com/resizer/v2/WG5JCY44TBAKNAKXOBJQPHK5MY.jpg?auth=8914e6aa2efee53a07f2d4e2249bf87850066296f3e66edf7ae2f6ac1cf53dcb&smart=true&width=2122&height=1200"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/High_Performance_Computing_Center_Stuttgart_HLRS_2015_01_Interior.jpg/1280px-High_Performance_Computing_Center_Stuttgart_HLRS_2015_01_Interior.jpg"
 canonicalSource: "https://www.latercera.com/mundo/noticia/autoridad-electoral-de-brasil-prohibe-a-meta-limitar-contenidos-de-las-campanas-politicas-para-el-balotaje-presidencial/"
 ---
 

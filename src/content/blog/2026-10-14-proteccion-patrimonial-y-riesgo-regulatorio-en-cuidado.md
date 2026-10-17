@@ -5,7 +5,7 @@ pubDate: "2026-10-14"
 category: "Economía"
 tags: ["Finanzas Gerontol\u00f3gicas", "Planificaci\u00f3n Patrimonial", "Riesgo Regulatorio", "Seguridad Social"]
 author: "Comité Analítico TEP & Prospectiva"
-heroImage: "https://cdn.mos.cms.futurecdn.net/NbzmSHddAaw7wiNDYKwaEa-1920-80.jpg"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/HP_9101A_extended_memory_unit.-_magnetic_core_memory_module-_opened.jpg/1280px-HP_9101A_extended_memory_unit.-_magnetic_core_memory_module-_opened.jpg"
 canonicalSource: "https://www.kiplinger.com/retirement/estate-planning/shield-assets-from-long-term-care-costs-medicaid-trust"
 ---
 

@@ -5,7 +5,7 @@ pubDate: "2026-10-14"
 category: "Economía"
 tags: ["Inflaci\u00f3n", "Pol\u00edtica Monetaria", "CPI", "Ciclo Econ\u00f3mico", "Tasa de Inter\u00e9s"]
 author: "Comité Analítico TEP & Prospectiva"
-heroImage: "https://cdn.mos.cms.futurecdn.net/HBLmWTCUhmbejKbRZbdFvZ-1920-80.jpg"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/DE-CIX_GERMANY_-_Switch_Rack_%286218137120%29.jpg/1280px-DE-CIX_GERMANY_-_Switch_Rack_%286218137120%29.jpg"
 canonicalSource: "https://www.kiplinger.com/investing/economy/cpi-report-september-2026-what-to-expect"
 ---
 

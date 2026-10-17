@@ -5,7 +5,7 @@ pubDate: "2026-10-14"
 category: "Geopolítica"
 tags: ["Neurodiversidad", "Capital Humano", "Pol\u00edtica P\u00fablica", "Econom\u00eda Cognitiva"]
 author: "Comité Analítico TEP & Prospectiva"
-heroImage: "https://cdn.prod.www.spiegel.de/images/95c06c28-05e3-46fc-9457-594c8aeb3e42_w520_r2.08_fpx49_fpy38.png"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/Woman_Using_a_Samsung_VR_Headset_at_SXSW_2015_%282015-03-15_14.10.24_by_Nan_Palmero%29.jpg/1280px-Woman_Using_a_Samsung_VR_Headset_at_SXSW_2015_%282015-03-15_14.10.24_by_Nan_Palmero%29.jpg"
 canonicalSource: "https://www.spiegel.de/gesundheit/neurodiversitaet-wie-autisten-die-welt-sehen-tony-attwood-im-gespraech-a-8fe620f8-f1b3-48ba-baa9-fb2f14b5738c#ref=rss"
 ---
 

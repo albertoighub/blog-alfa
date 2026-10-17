@@ -5,7 +5,7 @@ pubDate: "2025-05-20"
 category: "Tendencias"
 tags: ["Redes Sociales", "Dinámica Digital", "Cultura Algorítmica", "Plataformas", "Comportamiento Colectivo"]
 author: "Comité Analítico TEP & Archivo Histórico"
-heroImage: "https://images.unsplash.com/photo-1563986768609-322da13575f3?auto=format&fit=crop&w=1200&h=630&q=82"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/Vancouver_%28BC%2C_Canada%29%2C_Comox_Street%2C_Urban_gardening_--_2022_--_1938.jpg/1280px-Vancouver_%28BC%2C_Canada%29%2C_Comox_Street%2C_Urban_gardening_--_2022_--_1938.jpg"
 canonicalSource: "https://newsinternacionaltep.com/categoria/tendencias"
 ---
 
@@ -21,7 +21,7 @@ Los reportes primarios recopilados por las corresponsalías y agencias de monito
 
 ## 2. Estado de la Situación y Dinámica Estructural
 
-![Evidencia y Registro Documental Primario - La Regulación de Algoritmos Adictivos en Menores de Edad: Demandas de Estados y Fiscales Generales](https://images.unsplash.com/photo-1573164713988-8665fc963095?auto=format&fit=crop&w=1200&h=630&q=82)
+![Evidencia y Registro Documental Primario - La Regulación de Algoritmos Adictivos en Menores de Edad: Demandas de Estados y Fiscales Generales](https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e4/Vancouver_%28BC%2C_Canada%29%2C_Comox_Street%2C_Urban_gardening_--_2022_--_1939.jpg/1280px-Vancouver_%28BC%2C_Canada%29%2C_Comox_Street%2C_Urban_gardening_--_2022_--_1939.jpg)
 *Figura 1: Mapeo y registro fotográfico documental archivado en la hemeroteca de News Internacional TEP.*
 
 La evolución empírica de los acontecimientos desmintió rápidamente los diagnósticos complacientes. La aceleración de las dinámicas en juego obligó a un reajuste de las previsiones institucionales, revelando una marcada correlación entre la exposición previa al riesgo y la celeridad del deterioro funcional en los sectores analizados.
@@ -40,7 +40,7 @@ El comportamiento de los indicadores determinantes durante este período histór
 
 ## 4. Evaluación de Escenarios y Modelado de Riesgo
 
-![Modelado de Trayectorias y Riesgo Sistémico](https://images.unsplash.com/photo-1611162617474-5b21e879e113?auto=format&fit=crop&w=1200&h=630&q=82)
+![Modelado de Trayectorias y Riesgo Sistémico](https://thumb.wikimedia.org/wikipedia/commons/thumb/7/75/2010.04_-_%27Photo_of_people_and_Spring_in_the_city%27%2C_walking_along_the_street_Prins_Hendrikkade%2C_near_Central_Station_Amsterdam_city%3B_Dutch_urban_photography_by_Fons_Heijnsbroek%2C_Netherlands%2C_geotagged_%2827456703400%29.jpg/1280px-thumbnail.jpg)
 *Figura 2: Proyección de trayectorias y modelado de dispersión elaborado por la Unidad Cuantitativa TEP.*
 
 El análisis retrospectivo permite clasificar la trayectoria que finalmente se consolidó frente a las hipótesis alternativas que barajaban los comités en aquel entonces:

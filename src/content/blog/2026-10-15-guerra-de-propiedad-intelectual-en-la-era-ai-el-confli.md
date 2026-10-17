@@ -5,7 +5,7 @@ pubDate: "2026-10-15"
 category: "Tecnología"
 tags: ["Inteligencia Artificial", "Espionaje Corporativo", "Propiedad Intelectual", "Gobernanza Tecnol\u00f3gica"]
 author: "Comité Analítico TEP & Prospectiva"
-heroImage: "https://www.01net.com/app/uploads/2026/08/Canva-1920x1440-73-1344x896.jpeg"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/The_Gathering_2019_-_Distro_rack_%2846813725685%29.jpg/1280px-The_Gathering_2019_-_Distro_rack_%2846813725685%29.jpg"
 canonicalSource: "https://www.01net.com/actualites/openai-accuse-a-son-tour-apple-de-vol-et-despionnage.html"
 ---
 

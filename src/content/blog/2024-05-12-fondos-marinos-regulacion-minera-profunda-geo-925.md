@@ -5,7 +5,7 @@ pubDate: "2024-05-12"
 category: "Geopolítica"
 tags: ["Geopolítica", "Seguridad Internacional", "Diplomacia", "Defensa", "Gobernanza Global"]
 author: "Comité Analítico TEP & Archivo Histórico"
-heroImage: "https://images.unsplash.com/photo-1577495508048-b635879837f1?auto=format&fit=crop&w=1200&h=630&q=82"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/Secretaries_Kerry_and_Carter_Hold_2%2B2_Ministerial_Meeting_With_South_Korean_Ministers_Yun_and_Han_%2830317042382%29.jpg/1280px-Secretaries_Kerry_and_Carter_Hold_2%2B2_Ministerial_Meeting_With_South_Korean_Ministers_Yun_and_Han_%2830317042382%29.jpg"
 canonicalSource: "https://newsinternacionaltep.com/categoria/geopolitica"
 ---
 
@@ -21,7 +21,7 @@ Los reportes primarios recopilados por las corresponsalías y agencias de monito
 
 ## 2. Estado de la Situación y Dinámica Estructural
 
-![Evidencia y Registro Documental Primario - La Disputa por los Fondos Marinos Internacionales y la Regulación Minera en Aguas Profundas](https://images.unsplash.com/photo-1541872703-74c5e44368f9?auto=format&fit=crop&w=1200&h=630&q=82)
+![Evidencia y Registro Documental Primario - La Disputa por los Fondos Marinos Internacionales y la Regulación Minera en Aguas Profundas](https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Secretary_Kerry_Arrives_at_British_Foreign_Office_for_Meetings.jpg/1280px-Secretary_Kerry_Arrives_at_British_Foreign_Office_for_Meetings.jpg)
 *Figura 1: Mapeo y registro fotográfico documental archivado en la hemeroteca de News Internacional TEP.*
 
 La evolución empírica de los acontecimientos desmintió rápidamente los diagnósticos complacientes. La aceleración de las dinámicas en juego obligó a un reajuste de las previsiones institucionales, revelando una marcada correlación entre la exposición previa al riesgo y la celeridad del deterioro funcional en los sectores analizados.
@@ -40,7 +40,7 @@ El comportamiento de los indicadores determinantes durante este período histór
 
 ## 4. Evaluación de Escenarios y Modelado de Riesgo
 
-![Modelado de Trayectorias y Riesgo Sistémico](https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=1200&h=630&q=82)
+![Modelado de Trayectorias y Riesgo Sistémico](https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Secretary_Kerry_and_South_Korean_Foreign_Minister_Yun_Pose_for_a_Photo_Before_2%2B2_Ministerial_in_Washington_%2829801813933%29.jpg/1280px-Secretary_Kerry_and_South_Korean_Foreign_Minister_Yun_Pose_for_a_Photo_Before_2%2B2_Ministerial_in_Washington_%2829801813933%29.jpg)
 *Figura 2: Proyección de trayectorias y modelado de dispersión elaborado por la Unidad Cuantitativa TEP.*
 
 El análisis retrospectivo permite clasificar la trayectoria que finalmente se consolidó frente a las hipótesis alternativas que barajaban los comités en aquel entonces:

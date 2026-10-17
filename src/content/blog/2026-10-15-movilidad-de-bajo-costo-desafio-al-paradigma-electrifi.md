@@ -5,7 +5,7 @@ pubDate: "2026-10-15"
 category: "Tecnología"
 tags: ["Econom\u00eda Energ\u00e9tica", "Movilidad Sostenible", "GPL/LPG", "An\u00e1lisis TCO", "Transici\u00f3n Automotriz"]
 author: "Comité Analítico TEP & Prospectiva"
-heroImage: "https://www.01net.com/app/uploads/2026/10/dacia-striker-1-1344x896.jpg"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/Atari_Portfolio_HPC-004-2386.jpg/1280px-Atari_Portfolio_HPC-004-2386.jpg"
 canonicalSource: "https://www.01net.com/actualites/23-490-euros-1-600-km-autonomie-1-euro-litre-dacia-striker-tout-simplement-meilleure-affaire-annee.html"
 ---
 

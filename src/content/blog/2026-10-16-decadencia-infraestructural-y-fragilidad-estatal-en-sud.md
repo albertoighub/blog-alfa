@@ -5,7 +5,7 @@ pubDate: "2026-10-17"
 category: "Geopolítica"
 tags: ["Seguridad Cr\u00edtica", "Gobernanza Estatal", "Crimen Organizado", "Infraestructura Sanitaria"]
 author: "Comité Analítico TEP & Prospectiva"
-heroImage: "https://images.newsteam.io/image/1600/2Bq28FuGKoMc42vmw7v8vTEoJPG3nmf6De358DbjSWgPX1w2yAdimq71B2GKaEYDe8JbcK5rvSJDDPQcpzRVQN1hivFq9ayeHXCfxkJWoE1FRPc6gQr6xAbekRG5JVXLDxHzxrPtXvkj6uqGvL7WxnM"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/Nanoscience_High-Performance_Computing_Facility.jpg/1280px-Nanoscience_High-Performance_Computing_Facility.jpg"
 canonicalSource: "https://mg.co.za/news/south-africa/2026-10-15-criminals-target-free-state-hospitals/"
 ---
 

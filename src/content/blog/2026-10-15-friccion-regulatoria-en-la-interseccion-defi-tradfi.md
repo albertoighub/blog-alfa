@@ -5,7 +5,7 @@ pubDate: "2026-10-15"
 category: "Tecnología"
 tags: ["DeFi", "Regulaci\u00f3n Financiera", "Liquid Staking Derivatives (LSD)", "ETFs Cripto", "VanEck"]
 author: "Comité Analítico TEP & Prospectiva"
-heroImage: "https://s3-images.ctmedia.io/media/article-covers/2026/10/01M4YJ7E5P377C783E6HEWNS55/hi-using-proprietary-indicators-vaneck.jpg"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/Stacked_Power_Amplifiers_at_Music_Festival_Quadfest%2C_front_and_backside.jpg/1280px-Stacked_Power_Amplifiers_at_Music_Festival_Quadfest%2C_front_and_backside.jpg"
 canonicalSource: "https://cointelegraph.com/news/vaneck-seeks-to-withdraw-application-for-lido-staked-ether-etf?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
 ---
 

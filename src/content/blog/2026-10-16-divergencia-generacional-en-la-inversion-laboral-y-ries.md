@@ -5,7 +5,7 @@ pubDate: "2026-10-16"
 category: "Economía"
 tags: ["Emprendimiento", "Mercado Laboral", "Generacional", "Capital de Riesgo", "Macroeconom\u00eda"]
 author: "Comité Analítico TEP & Prospectiva"
-heroImage: "https://fortune.com/img-assets/wp-content/uploads/2026/10/GettyImages-2285896103.jpg?w=2048"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/SX-HPC_%2853678090631%29.jpg/1280px-SX-HPC_%2853678090631%29.jpg"
 canonicalSource: "https://fortune.com/2026/10/16/gen-z-millennial-small-business-owners-hiring-boomers-low-hire-low-fire-job-market/"
 ---
 

@@ -5,7 +5,7 @@ pubDate: "2024-05-20"
 category: "Ciencia"
 tags: ["Ciencia", "Medicina", "Biotecnología", "Investigación Clínica", "Salud Pública"]
 author: "Comité Analítico TEP & Archivo Histórico"
-heroImage: "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=1200&h=630&q=82"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/2023-04-13_Md_Shahriar_Alam_chief_guest_D-8_Youth_Ministerial_Meeting_website_launch_press_briefing_Ministry_of_Youth_and_Sports_Dhaka_%28PID-0016601%29.jpg/1280px-2023-04-13_Md_Shahriar_Alam_chief_guest_D-8_Youth_Ministerial_Meeting_website_launch_press_briefing_Ministry_of_Youth_and_Sports_Dhaka_%28PID-0016601%29.jpg"
 canonicalSource: "https://newsinternacionaltep.com/categoria/ciencia"
 ---
 
@@ -21,7 +21,7 @@ Los reportes primarios recopilados por las corresponsalías y agencias de monito
 
 ## 2. Estado de la Situación y Dinámica Estructural
 
-![Evidencia y Registro Documental Primario - Descubrimiento de Nuevos Antibióticos Mediante Modelos de Aprendizaje Profundo contra Acinetobacter](https://images.unsplash.com/photo-1579165466791-788226ab77b6?auto=format&fit=crop&w=1200&h=630&q=82)
+![Evidencia y Registro Documental Primario - Descubrimiento de Nuevos Antibióticos Mediante Modelos de Aprendizaje Profundo contra Acinetobacter](https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/Acting_Undersecretary%2C_Director-General_of_the_Political_Department%2C_Paul_Teesalu_and_Parliamentary_Secretary_to_the_Minister_of_Foreign_Affairs_of_Canada%2C_Matthew_DeCourcey_%2835689240292%29.jpg/1280px-thumbnail.jpg)
 *Figura 1: Mapeo y registro fotográfico documental archivado en la hemeroteca de News Internacional TEP.*
 
 La evolución empírica de los acontecimientos desmintió rápidamente los diagnósticos complacientes. La aceleración de las dinámicas en juego obligó a un reajuste de las previsiones institucionales, revelando una marcada correlación entre la exposición previa al riesgo y la celeridad del deterioro funcional en los sectores analizados.
@@ -40,7 +40,7 @@ El comportamiento de los indicadores determinantes durante este período histór
 
 ## 4. Evaluación de Escenarios y Modelado de Riesgo
 
-![Modelado de Trayectorias y Riesgo Sistémico](https://images.unsplash.com/photo-1516549655169-df83a0774514?auto=format&fit=crop&w=1200&h=630&q=82)
+![Modelado de Trayectorias y Riesgo Sistémico](https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/R%C3%A9unions_informelles_des_ministres_de_l%E2%80%99Environnement_et_de_l%E2%80%99%C3%89nergie%2C_Amiens%2C_20-22_janvier_2022_-_03.jpg/1280px-R%C3%A9unions_informelles_des_ministres_de_l%E2%80%99Environnement_et_de_l%E2%80%99%C3%89nergie%2C_Amiens%2C_20-22_janvier_2022_-_03.jpg)
 *Figura 2: Proyección de trayectorias y modelado de dispersión elaborado por la Unidad Cuantitativa TEP.*
 
 El análisis retrospectivo permite clasificar la trayectoria que finalmente se consolidó frente a las hipótesis alternativas que barajaban los comités en aquel entonces:

@@ -5,7 +5,7 @@ pubDate: "2026-10-14"
 category: "Tecnología"
 tags: ["Tokenizaci\u00f3n", "Finanzas Descentralizadas (DeFi)", "RegTech", "Mercados de Capitales", "Blockchain Institucional"]
 author: "Comité Analítico TEP & Prospectiva"
-heroImage: "https://cdn.techinasia.com/wp-content/uploads/2026/04/1777451886_1749541615_shutterstock_2002007354-scaled-1.jpg"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/Sound_System_01_at_The_Grove.jpg/1280px-Sound_System_01_at_The_Grove.jpg"
 canonicalSource: "https://www.techinasia.com/endowus-ceo-gregory-van-optimistic-profitability"
 ---
 

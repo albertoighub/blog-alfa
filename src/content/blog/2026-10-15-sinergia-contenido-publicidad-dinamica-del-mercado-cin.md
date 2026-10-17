@@ -5,7 +5,7 @@ pubDate: "2026-10-15"
 category: "Economía"
 tags: ["Industrias Culturales", "Marketing Digital", "Econom\u00eda Medi\u00e1tica", "ROI Publicitario"]
 author: "Comité Analítico TEP & Prospectiva"
-heroImage: "https://i2.res.24o.it/images2010/S24/Documenti/2026/10/16/Immagini/Ritagli/AdobeStock_225395390-U88718777653cEZ-1440x752@IlSole24Ore-Web.jpeg"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/High_Performance_Computing_Center_Stuttgart_2013.jpg/1280px-High_Performance_Computing_Center_Stuttgart_2013.jpg"
 canonicalSource: "https://www.ilsole24ore.com/art/cinema-sale-ripresa-e-pubblicita-accelerazione-68percento-AJvZMHlB"
 ---
 

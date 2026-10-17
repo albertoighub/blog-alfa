@@ -5,7 +5,7 @@ pubDate: "2020-06-04"
 category: "Tendencias"
 tags: ["Redes Sociales", "Dinámica Digital", "Cultura Algorítmica", "Plataformas", "Comportamiento Colectivo"]
 author: "Comité Analítico TEP & Archivo Histórico"
-heroImage: "https://images.unsplash.com/photo-1573164713988-8665fc963095?auto=format&fit=crop&w=1200&h=630&q=82"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/Music_for_Plants_2011_Bikes_Blues_and_BBQ_Festival_Fayetteville_AR_September_2011.jpg/1280px-Music_for_Plants_2011_Bikes_Blues_and_BBQ_Festival_Fayetteville_AR_September_2011.jpg"
 canonicalSource: "https://newsinternacionaltep.com/categoria/tendencias"
 ---
 
@@ -21,7 +21,7 @@ Los reportes primarios recopilados por las corresponsalías y agencias de monito
 
 ## 2. Estado de la Situación y Dinámica Estructural
 
-![Evidencia y Registro Documental Primario - El Auge de TikTok y la Transición de la Web Basada en Grafo Social a la Distribución Algorítmica](https://images.unsplash.com/photo-1611162617474-5b21e879e113?auto=format&fit=crop&w=1200&h=630&q=82)
+![Evidencia y Registro Documental Primario - El Auge de TikTok y la Transición de la Web Basada en Grafo Social a la Distribución Algorítmica](https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/Musicians_perform_at_an_outdoor_music_festival%2C_captivating_the_crowd_with_energetic_guitar_riffs_and_dynamic_stage_presence.jpg/1280px-Musicians_perform_at_an_outdoor_music_festival%2C_captivating_the_crowd_with_energetic_guitar_riffs_and_dynamic_stage_presence.jpg)
 *Figura 1: Mapeo y registro fotográfico documental archivado en la hemeroteca de News Internacional TEP.*
 
 La evolución empírica de los acontecimientos desmintió rápidamente los diagnósticos complacientes. La aceleración de las dinámicas en juego obligó a un reajuste de las previsiones institucionales, revelando una marcada correlación entre la exposición previa al riesgo y la celeridad del deterioro funcional en los sectores analizados.
@@ -40,7 +40,7 @@ El comportamiento de los indicadores determinantes durante este período histór
 
 ## 4. Evaluación de Escenarios y Modelado de Riesgo
 
-![Modelado de Trayectorias y Riesgo Sistémico](https://images.unsplash.com/photo-1563986768609-322da13575f3?auto=format&fit=crop&w=1200&h=630&q=82)
+![Modelado de Trayectorias y Riesgo Sistémico](https://upload.wikimedia.org/wikipedia/commons/5/55/Old_Crow_Medicine_Show_Cambridge_Music_Festival_Cambridge_UK_July_2005.jpg)
 *Figura 2: Proyección de trayectorias y modelado de dispersión elaborado por la Unidad Cuantitativa TEP.*
 
 El análisis retrospectivo permite clasificar la trayectoria que finalmente se consolidó frente a las hipótesis alternativas que barajaban los comités en aquel entonces:

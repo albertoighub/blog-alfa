@@ -5,7 +5,7 @@ pubDate: "2026-10-16"
 category: "Geopolítica"
 tags: ["Gobernanza Africana", "Desarrollo Institucional", "Crisis Municipal", "Teor\u00eda Electoral"]
 author: "Comité Analítico TEP & Prospectiva"
-heroImage: "https://images.newsteam.io/image/2622/2Bq28FuGKoJqZhAHUv3mUY2FmuLCSgA7x2dS7qkYpqWsfMtwTNXFBDdxFLBippRWFNRtwtrJgGvfEFRqdpFRRdmzhdeuYQVSr56XahUK2wATxVSHPQRLJzqFiDd8VoyqPp8XL87x613ZJ9nEMDv6Bku"
+heroImage: "https://upload.wikimedia.org/wikipedia/commons/9/9e/Arriva_YE06_HPC.jpg"
 canonicalSource: "https://mg.co.za/thought-leader/2026-10-15-why-elections-prove-to-be-a-faustian-pact-more-than-anything/"
 ---
 

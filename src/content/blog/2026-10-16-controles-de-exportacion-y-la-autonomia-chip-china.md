@@ -5,7 +5,7 @@ pubDate: "2026-10-17"
 category: "Economía"
 tags: ["Semiconductores", "Geopol\u00edtica Tecnol\u00f3gica", "Pol\u00edtica Industrial", "IA Econ\u00f3mica"]
 author: "Comité Analítico TEP & Prospectiva"
-heroImage: "https://fortune.com/img-assets/wp-content/uploads/2026/10/Asia-CEO-Interviews-Rakesh-Kumar.jpg?w=2048"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/High_performance_computing_%28HPC%29_data_center_%289091835239%29.jpg/1280px-High_performance_computing_%28HPC%29_data_center_%289091835239%29.jpg"
 canonicalSource: "https://fortune.com/2026/10/16/china-chip-export-controls-failed-rakesh-kumar/"
 ---
 

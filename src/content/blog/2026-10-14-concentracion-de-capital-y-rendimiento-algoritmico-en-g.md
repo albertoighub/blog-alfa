@@ -5,7 +5,7 @@ pubDate: "2026-10-14"
 category: "Economía Financiera / Prospectiva Sistémica"
 tags: ["Gesti\u00f3n de Activos", "Liquidez Global", "Riesgo Sist\u00e9mico", "Inversi\u00f3n Pasiva"]
 author: "Comité Analítico TEP & Prospectiva"
-heroImage: "https://i2.res.24o.it/images2010/S24/Documenti/2026/10/15/Immagini/Ritagli/Imagoeconomica_2352003-Collage-U07716480626dQp-U34857467807PhL-1440x752@IlSole24Ore-Web.JPEG"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/Cellphone_VR_%2818879024901%29.jpg/1280px-Cellphone_VR_%2818879024901%29.jpg"
 canonicalSource: "https://www.ilsole24ore.com/art/blackrock-iii-trim-eps-sale-1047-$-patrimonio-gestione-155-trilioni-AJLWoVjB"
 ---
 

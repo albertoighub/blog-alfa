@@ -5,7 +5,7 @@ pubDate: "2026-10-15"
 category: "Geopolítica"
 tags: ["Estabilidad Financiera", "Derivados", "Riesgo Sist\u00e9mico", "Pol\u00edtica Monetaria Global"]
 author: "Comité Analítico TEP & Prospectiva"
-heroImage: "https://www.latercera.com/resizer/v2/JZGVQA5L6BBIBKNHPGDSR5UPI4.jpg?auth=18391fca11c57c046ed14bc6320a8eb25a47ffb169687f4923388c3b3aceb81d&smart=true&width=3744&height=2496"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/High_Performance_Computing_Center_Stuttgart_HLRS_2015_02_NEC_Cluster.jpg/1280px-High_Performance_Computing_Center_Stuttgart_HLRS_2015_02_NEC_Cluster.jpg"
 canonicalSource: "https://www.latercera.com/pulso/noticia/caida-del-fondo-e-banco-central-afirma-que-alerto-por-riesgos-en-las-inversiones-de-las-afp-en-derivados/"
 ---
 

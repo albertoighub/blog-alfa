@@ -5,7 +5,7 @@ pubDate: "2026-10-14"
 category: "Tecnología"
 tags: ["Semiconductors", "Industrial Safety", "Supply Chain Resilience", "Advanced Manufacturing", "Chemical Hazards"]
 author: "Comité Analítico TEP & Prospectiva"
-heroImage: "https://cdn.wccftech.com/wp-content/uploads/2026/10/Intel-Fab-38-Kiryat-Gat-1-1456x819.jpeg"
+heroImage: "https://upload.wikimedia.org/wikipedia/commons/7/7d/Backside_of_stacks_of_professional_PA_power_amplifiers_at_festival_Quadfest_in_2009.jpg"
 canonicalSource: "https://wccftech.com/intels-fab-38-explosion-in-israel-injures-3-people-and-draws-8-rescue-teams-including-hazmat-units-as-authorities-suspect-a-nitrogen-trifluoride-cylinder/"
 ---
 

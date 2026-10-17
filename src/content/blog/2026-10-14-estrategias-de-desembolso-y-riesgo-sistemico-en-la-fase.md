@@ -5,7 +5,7 @@ pubDate: "2026-10-14"
 category: "Economía"
 tags: ["Finanzas Cuantitativas", "Riesgo Longevidad", "Optimizaci\u00f3n Intertemporal", "Pensiones Definidas"]
 author: "Comité Analítico TEP & Prospectiva"
-heroImage: "https://cdn.mos.cms.futurecdn.net/buqyBSKB7PH5FLJW4XNmWa-1920-80.jpg"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/LeTv_LeVR_COOL1_VR_Headset_%2824451161536%29.jpg/1280px-LeTv_LeVR_COOL1_VR_Headset_%2824451161536%29.jpg"
 canonicalSource: "https://www.kiplinger.com/retirement/retirement-planning/retirement-checklist-for-retiring-with-a-pension"
 ---
 

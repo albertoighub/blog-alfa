@@ -5,7 +5,7 @@ pubDate: "2026-10-15"
 category: "Tecnología"
 tags: ["Aeroespacial", "Geoeconom\u00eda", "Desacoplamiento Tecnol\u00f3gico", "COMAC", "Cadenas de Suministro"]
 author: "Comité Analítico TEP & Prospectiva"
-heroImage: "https://www.01net.com/app/uploads/2026/10/Canva1920_1280-25-1344x896.jpeg"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/Professional_equalizer_from_dbx_for_19_inch_rack.jpg/1280px-Professional_equalizer_from_dbx_for_19_inch_rack.jpg"
 canonicalSource: "https://www.01net.com/actualites/apres-boeing-airbus-doit-composer-nouvel-adversaire-chine.html"
 ---
 

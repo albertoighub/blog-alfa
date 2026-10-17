@@ -5,7 +5,7 @@ pubDate: "2022-09-12"
 category: "Tecnología"
 tags: ["Tecnología", "Inteligencia Artificial", "Semiconductores", "Ciberseguridad", "Computación Avanzada"]
 author: "Comité Analítico TEP & Archivo Histórico"
-heroImage: "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&w=1200&h=630&q=82"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/75/USCG%2C_Peruvian_Coast_Guard_conduct_joint_riverine_operations_training_during_Resolute_Sentinel_2024_%288447478%29.jpg/1280px-USCG%2C_Peruvian_Coast_Guard_conduct_joint_riverine_operations_training_during_Resolute_Sentinel_2024_%288447478%29.jpg"
 canonicalSource: "https://newsinternacionaltep.com/categoria/tecnologia"
 ---
 
@@ -21,7 +21,7 @@ Los reportes primarios recopilados por las corresponsalías y agencias de monito
 
 ## 2. Estado de la Situación y Dinámica Estructural
 
-![Evidencia y Registro Documental Primario - La Ley CHIPS and Science Act y la Relocalización de Fundiciones de Silicio Avanzado](https://images.unsplash.com/photo-1531297484001-80022131f5a1?auto=format&fit=crop&w=1200&h=630&q=82)
+![Evidencia y Registro Documental Primario - La Ley CHIPS and Science Act y la Relocalización de Fundiciones de Silicio Avanzado](https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/USSPACECOM_hosts_third_wargame_series_focused_on_maneuver_warfare_in_the_space_domain_%289967313%29.jpg/1280px-USSPACECOM_hosts_third_wargame_series_focused_on_maneuver_warfare_in_the_space_domain_%289967313%29.jpg)
 *Figura 1: Mapeo y registro fotográfico documental archivado en la hemeroteca de News Internacional TEP.*
 
 La evolución empírica de los acontecimientos desmintió rápidamente los diagnósticos complacientes. La aceleración de las dinámicas en juego obligó a un reajuste de las previsiones institucionales, revelando una marcada correlación entre la exposición previa al riesgo y la celeridad del deterioro funcional en los sectores analizados.
@@ -40,7 +40,7 @@ El comportamiento de los indicadores determinantes durante este período histór
 
 ## 4. Evaluación de Escenarios y Modelado de Riesgo
 
-![Modelado de Trayectorias y Riesgo Sistémico](https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=1200&h=630&q=82)
+![Modelado de Trayectorias y Riesgo Sistémico](https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/U_S_Marines%2C_Sailors_with_MRF-D_25_3_conduct_an_integration_check_%289117267%29.jpg/1280px-U_S_Marines%2C_Sailors_with_MRF-D_25_3_conduct_an_integration_check_%289117267%29.jpg)
 *Figura 2: Proyección de trayectorias y modelado de dispersión elaborado por la Unidad Cuantitativa TEP.*
 
 El análisis retrospectivo permite clasificar la trayectoria que finalmente se consolidó frente a las hipótesis alternativas que barajaban los comités en aquel entonces:

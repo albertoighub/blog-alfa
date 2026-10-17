@@ -5,7 +5,7 @@ pubDate: "2026-10-14"
 category: "Tecnología"
 tags: ["IA Industrial", "Almacenamiento de Datos", "Veh\u00edculos Aut\u00f3nomos", "Infraestructura Cloud"]
 author: "Comité Analítico TEP & Prospectiva"
-heroImage: "https://cdn.techinasia.com/wp-content/uploads/2026/10/1792026671_1773109873_vast.jpg"
+heroImage: "https://upload.wikimedia.org/wikipedia/commons/a/a7/BlueGeneL_cabinet.jpg"
 canonicalSource: "https://www.techinasia.com/nvidia-backed-ai-firm-vast-data-raises-1b-at-30b-valuation"
 ---
 

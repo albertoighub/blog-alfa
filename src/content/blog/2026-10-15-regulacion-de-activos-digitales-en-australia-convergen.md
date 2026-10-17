@@ -5,7 +5,7 @@ pubDate: "2026-10-15"
 category: "Tecnología"
 tags: ["FinTech", "Regulaci\u00f3n Cripto", "Activos Digitales", "Estabilidad Financiera"]
 author: "Comité Analítico TEP & Prospectiva"
-heroImage: "https://s3-images.ctmedia.io/media/article-covers/2026/10/01M4YYDDF50Q9P09A46TZD9523/hi-world-bank-blockchain-bond-for-australia.jpg"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/COM-HPC_Size_A_Module_Top_Side.png/1280px-COM-HPC_Size_A_Module_Top_Side.png"
 canonicalSource: "https://cointelegraph.com/news/australia-seeks-feedback-on-crypto-platform-rules-ahead-of-2027-rollout?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
 ---
 

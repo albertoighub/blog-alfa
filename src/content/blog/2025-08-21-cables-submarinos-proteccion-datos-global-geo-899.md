@@ -5,7 +5,7 @@ pubDate: "2025-08-21"
 category: "Geopolítica"
 tags: ["Geopolítica", "Seguridad Internacional", "Diplomacia", "Defensa", "Gobernanza Global"]
 author: "Comité Analítico TEP & Archivo Histórico"
-heroImage: "https://images.unsplash.com/photo-1541872703-74c5e44368f9?auto=format&fit=crop&w=1200&h=630&q=82"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/2018_%EB%8C%80%EC%A0%84%EB%A1%9C%EB%B4%87%EC%9C%B5%ED%95%A9%ED%8E%98%EC%8A%A4%ED%8B%B0%EB%B2%8C_4.jpg/1280px-2018_%EB%8C%80%EC%A0%84%EB%A1%9C%EB%B4%87%EC%9C%B5%ED%95%A9%ED%8E%98%EC%8A%A4%ED%8B%B0%EB%B2%8C_4.jpg"
 canonicalSource: "https://newsinternacionaltep.com/categoria/geopolitica"
 ---
 
@@ -21,7 +21,7 @@ Los reportes primarios recopilados por las corresponsalías y agencias de monito
 
 ## 2. Estado de la Situación y Dinámica Estructural
 
-![Evidencia y Registro Documental Primario - Geopolítica de los Cables Submarinos y la Protección del Tráfico Global de Datos](https://images.unsplash.com/photo-1526304640581-d334cdbbf45e?auto=format&fit=crop&w=1200&h=630&q=82)
+![Evidencia y Registro Documental Primario - Geopolítica de los Cables Submarinos y la Protección del Tráfico Global de Datos](https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/2_Saturday_March_14th_2026_SXSW_Hilton_-_Humanoid_Robots_Are_Clocking_In.jpg/1280px-2_Saturday_March_14th_2026_SXSW_Hilton_-_Humanoid_Robots_Are_Clocking_In.jpg)
 *Figura 1: Mapeo y registro fotográfico documental archivado en la hemeroteca de News Internacional TEP.*
 
 La evolución empírica de los acontecimientos desmintió rápidamente los diagnósticos complacientes. La aceleración de las dinámicas en juego obligó a un reajuste de las previsiones institucionales, revelando una marcada correlación entre la exposición previa al riesgo y la celeridad del deterioro funcional en los sectores analizados.
@@ -40,7 +40,7 @@ El comportamiento de los indicadores determinantes durante este período histór
 
 ## 4. Evaluación de Escenarios y Modelado de Riesgo
 
-![Modelado de Trayectorias y Riesgo Sistémico](https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1200&h=630&q=82)
+![Modelado de Trayectorias y Riesgo Sistémico](https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/3_Saturday_March_14th_2026_SXSW_Hilton_-_Humanoid_Robots_Are_Clocking_In.jpg/1280px-3_Saturday_March_14th_2026_SXSW_Hilton_-_Humanoid_Robots_Are_Clocking_In.jpg)
 *Figura 2: Proyección de trayectorias y modelado de dispersión elaborado por la Unidad Cuantitativa TEP.*
 
 El análisis retrospectivo permite clasificar la trayectoria que finalmente se consolidó frente a las hipótesis alternativas que barajaban los comités en aquel entonces:

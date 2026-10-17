@@ -5,7 +5,7 @@ pubDate: "2026-10-17"
 category: "Tendencias"
 tags: ["Sociolog\u00eda Digital", "Algoritmos de Atenci\u00f3n", "Econom\u00eda de Plataformas", "Polarizaci\u00f3n", "Cultura Digital"]
 author: "Comité Analítico TEP & Prospectiva"
-heroImage: "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&w=1200&h=630&q=82"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8e/Cow_by_Theo_van_Doesburg_Museum_of_Modern_Art_227.1948.6.jpg/1280px-Cow_by_Theo_van_Doesburg_Museum_of_Modern_Art_227.1948.6.jpg"
 canonicalSource: "https://newsinternacionaltep.com/categoria/tendencias"
 ---
 
@@ -21,7 +21,7 @@ El análisis de series temporales de tráfico y engagement demuestra que los inc
 
 ## 2. Estado del Arte y Dinámica Estructural
 
-![Análisis Documental Primario - Erosión de la Empatía en Foros Anónimos y la Normalización del](https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=1000&h=500&q=82)
+![Análisis Documental Primario - Erosión de la Empatía en Foros Anónimos y la Normalización del](https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/Dan_Flavin%2C_Untitled_%28to_Don_Judd%2C_Colorist%29_1%E2%80%935_%281987%29%2C_Tate_Modern%2C_London%2C_UK.jpg/1280px-Dan_Flavin%2C_Untitled_%28to_Don_Judd%2C_Colorist%29_1%E2%80%935_%281987%29%2C_Tate_Modern%2C_London%2C_UK.jpg)
 *Figura 1: Representación técnica y mapeo contextual del fenómeno analizado.*
 Durante la última década, el modelo de negocio publicitario digital evolucionó desde banners estáticos hacia arquitecturas de aprendizaje por refuerzo profundo. En este contexto, el fenómeno estudiado ha consolidado una economía donde la atención humana es cuantificada, microsegmentada y subastada en milisegundos.
 
@@ -39,7 +39,7 @@ El mecanismo operativo descansa sobre bucles de recompensa intermitente variable
 
 ## 4. Evaluación de Escenarios y Modelado de Riesgo
 
-![Modelado de Trayectorias y Riesgo Sistémico](https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=1000&h=500&q=82)
+![Modelado de Trayectorias y Riesgo Sistémico](https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/Entrance_to_GoMA_-_21st_Century_-_Art_in_the_First_Decade.jpg/1280px-Entrance_to_GoMA_-_21st_Century_-_Art_in_the_First_Decade.jpg)
 *Figura 2: Telemetría de variables y dispersión de escenarios probabilísticos.*
 Se plantearon tres escenarios de evolución sociotécnica para evaluar las transformaciones en la cohesión cívica y regulatoria:
 

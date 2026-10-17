@@ -5,7 +5,7 @@ pubDate: "2023-07-28"
 category: "Economía"
 tags: ["Economía Global", "Bancos Centrales", "Mercados Financieros", "Política Monetaria", "Comercio Internacional"]
 author: "Comité Analítico TEP & Archivo Histórico"
-heroImage: "https://images.unsplash.com/photo-1559526324-4b87b5e36e44?auto=format&fit=crop&w=1200&h=630&q=82"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e2/The_Tomb_from_Tigrane_Pasha_Street%2C_Apis_Bull_bull_from_right_wall_of_entrance%2C_Catacombs_of_Kom_El_Shoqafa%2C_Alexandria%2C_Egypt.jpg/1280px-The_Tomb_from_Tigrane_Pasha_Street%2C_Apis_Bull_bull_from_right_wall_of_entrance%2C_Catacombs_of_Kom_El_Shoqafa%2C_Alexandria%2C_Egypt.jpg"
 canonicalSource: "https://newsinternacionaltep.com/categoria/economia"
 ---
 
@@ -21,7 +21,7 @@ Los reportes primarios recopilados por las corresponsalías y agencias de monito
 
 ## 2. Estado de la Situación y Dinámica Estructural
 
-![Evidencia y Registro Documental Primario - Nearshoring en América del Norte: La Reconfiguración de las Redes de Manufactura del T-MEC](https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1200&h=630&q=82)
+![Evidencia y Registro Documental Primario - Nearshoring en América del Norte: La Reconfiguración de las Redes de Manufactura del T-MEC](https://upload.wikimedia.org/wikipedia/commons/2/23/The_exposed_section_of_the_Bull_Wall_-_geograph.org.uk_-_2071646.jpg)
 *Figura 1: Mapeo y registro fotográfico documental archivado en la hemeroteca de News Internacional TEP.*
 
 La evolución empírica de los acontecimientos desmintió rápidamente los diagnósticos complacientes. La aceleración de las dinámicas en juego obligó a un reajuste de las previsiones institucionales, revelando una marcada correlación entre la exposición previa al riesgo y la celeridad del deterioro funcional en los sectores analizados.
@@ -40,7 +40,7 @@ El comportamiento de los indicadores determinantes durante este período histór
 
 ## 4. Evaluación de Escenarios y Modelado de Riesgo
 
-![Modelado de Trayectorias y Riesgo Sistémico](https://images.unsplash.com/photo-1526304640581-d334cdbbf45e?auto=format&fit=crop&w=1200&h=630&q=82)
+![Modelado de Trayectorias y Riesgo Sistémico](https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/Twenty_years_among_the_bulls_and_bears_of_Wall_street_%281870%29_%2814592405628%29.jpg/1280px-Twenty_years_among_the_bulls_and_bears_of_Wall_street_%281870%29_%2814592405628%29.jpg)
 *Figura 2: Proyección de trayectorias y modelado de dispersión elaborado por la Unidad Cuantitativa TEP.*
 
 El análisis retrospectivo permite clasificar la trayectoria que finalmente se consolidó frente a las hipótesis alternativas que barajaban los comités en aquel entonces:

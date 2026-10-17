@@ -5,7 +5,7 @@ pubDate: "2026-10-15"
 category: "Economía"
 tags: ["Seguridad Energ\u00e9tica", "Log\u00edstica Aeron\u00e1utica", "Riesgo Operacional", "Mercados de Combustibles"]
 author: "Comité Analítico TEP & Prospectiva"
-heroImage: "https://i2.res.24o.it/images2010/S24/Documenti/2026/10/16/Immagini/Ritagli/Lufthansa3-U01144151107PnC-1440x752@IlSole24Ore-Web.jpg"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/High_Performance_Computing_Center_Stuttgart_HLRS_2015_03_Cray_XC40_Hazel_Hen_blades.jpg/1280px-High_Performance_Computing_Center_Stuttgart_HLRS_2015_03_Cray_XC40_Hazel_Hen_blades.jpg"
 canonicalSource: "https://www.ilsole24ore.com/art/lufthansa-carenza-jet-fuel-francoforte-piu-carburante-bordo-AJKvWzkB"
 ---
 

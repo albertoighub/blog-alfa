@@ -5,7 +5,7 @@ pubDate: "2021-08-23"
 category: "Geopolítica"
 tags: ["Geopolítica", "Seguridad Internacional", "Diplomacia", "Defensa", "Gobernanza Global"]
 author: "Comité Analítico TEP & Archivo Histórico"
-heroImage: "https://images.unsplash.com/photo-1521791136064-7986c2920216?auto=format&fit=crop&w=1200&h=630&q=82"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/Ukraine%27s_Peace_Formula_-_point_8_at_International_Conference_on_Environmental_Safety_in_Helsinki%2C_Finland_on_19_October_2024_-_25.jpg/1280px-Ukraine%27s_Peace_Formula_-_point_8_at_International_Conference_on_Environmental_Safety_in_Helsinki%2C_Finland_on_19_October_2024_-_25.jpg"
 canonicalSource: "https://newsinternacionaltep.com/categoria/geopolitica"
 ---
 
@@ -21,7 +21,7 @@ Los reportes primarios recopilados por las corresponsalías y agencias de monito
 
 ## 2. Estado de la Situación y Dinámica Estructural
 
-![Evidencia y Registro Documental Primario - La Crisis de Retirada de Afganistán y el Vacío Operativo en Asia Central](https://images.unsplash.com/photo-1577495508048-b635879837f1?auto=format&fit=crop&w=1200&h=630&q=82)
+![Evidencia y Registro Documental Primario - La Crisis de Retirada de Afganistán y el Vacío Operativo en Asia Central](https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/Ukraine%27s_Peace_Formula_-_point_8_at_International_Conference_on_Environmental_Safety_in_Helsinki%2C_Finland_on_19_October_2024_-_26.jpg/1280px-Ukraine%27s_Peace_Formula_-_point_8_at_International_Conference_on_Environmental_Safety_in_Helsinki%2C_Finland_on_19_October_2024_-_26.jpg)
 *Figura 1: Mapeo y registro fotográfico documental archivado en la hemeroteca de News Internacional TEP.*
 
 La evolución empírica de los acontecimientos desmintió rápidamente los diagnósticos complacientes. La aceleración de las dinámicas en juego obligó a un reajuste de las previsiones institucionales, revelando una marcada correlación entre la exposición previa al riesgo y la celeridad del deterioro funcional en los sectores analizados.
@@ -40,7 +40,7 @@ El comportamiento de los indicadores determinantes durante este período histór
 
 ## 4. Evaluación de Escenarios y Modelado de Riesgo
 
-![Modelado de Trayectorias y Riesgo Sistémico](https://images.unsplash.com/photo-1541872703-74c5e44368f9?auto=format&fit=crop&w=1200&h=630&q=82)
+![Modelado de Trayectorias y Riesgo Sistémico](https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/Ukraine%27s_Peace_Formula_-_point_8_at_International_Conference_on_Environmental_Safety_in_Helsinki%2C_Finland_on_19_October_2024_-_28.jpg/1280px-Ukraine%27s_Peace_Formula_-_point_8_at_International_Conference_on_Environmental_Safety_in_Helsinki%2C_Finland_on_19_October_2024_-_28.jpg)
 *Figura 2: Proyección de trayectorias y modelado de dispersión elaborado por la Unidad Cuantitativa TEP.*
 
 El análisis retrospectivo permite clasificar la trayectoria que finalmente se consolidó frente a las hipótesis alternativas que barajaban los comités en aquel entonces:

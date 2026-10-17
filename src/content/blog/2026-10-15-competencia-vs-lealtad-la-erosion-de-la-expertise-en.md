@@ -5,7 +5,7 @@ pubDate: "2026-10-15"
 category: "Geopolítica"
 tags: ["Gobierno Global", "Pol\u00edtica Dom\u00e9stica EE. UU.", "Teor\u00eda Institucional", "Comunicaci\u00f3n Estrat\u00e9gica"]
 author: "Comité Analítico TEP & Prospectiva"
-heroImage: "https://www.latercera.com/resizer/v2/AFFHJJ7XVJDZPAAEUIV6EOXSRQ.jpg?auth=2380553d3c87028aced289481ede2a96699cd9b7fab69aa179658b14462b7462&smart=true&width=2048&height=1365"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/Internet_Archive_servers_5034_-_Jason_Scott.jpg/1280px-Internet_Archive_servers_5034_-_Jason_Scott.jpg"
 canonicalSource: "https://www.latercera.com/mundo/noticia/nueva-secretaria-de-prensa-de-la-casa-blanca-confirma-que-nunca-aprobo-el-examen-de-abogacia/"
 ---
 

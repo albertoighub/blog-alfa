@@ -5,7 +5,7 @@ pubDate: "2026-10-17"
 category: "Tecnología"
 tags: ["Inteligencia Artificial", "Agentes Aut\u00f3nomos", "Gobernanza Tecnol\u00f3gica", "LLMs", "Prospectiva Cient\u00edfica"]
 author: "Comité Analítico TEP & Prospectiva"
-heroImage: "https://storage.ghost.io/c/a0/4c/a04c7225-d919-4d78-9b7c-a3fdd071349b/content/images/2026/09/lKUB_Ynw.png"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/13/%E3%83%89%E3%82%B3%E3%83%A2%E3%83%BB%E3%82%B9%E3%83%9E%E3%83%BC%E3%83%88%E3%83%95%E3%82%A9%E3%83%B3%E3%83%BB%E3%83%A9%E3%82%A6%E3%83%B3%E3%82%B8%E5%90%8D%E5%8F%A4%E5%B1%8B%E3%81%A7%E3%82%82%E3%82%89%E3%81%A3%E3%81%9F%E3%80%8E%E3%82%A6%E3%82%A9%E3%83%BC%E3%82%AD%E3%83%B3%E3%82%B0%E3%83%BB%E3%83%87%E3%83%83%E3%83%89%E3%80%8F%E3%82%B3%E3%83%A9%E3%83%9C%E3%81%AEVR%E3%82%B9%E3%82%B3%E3%83%BC%E3%83%97%EF%BC%88%E3%83%8F%E3%82%B3%E3%82%B9%E3%82%B3%EF%BC%89_-_8.jpg/1280px-%E3%83%89%E3%82%B3%E3%83%A2%E3%83%BB%E3%82%B9%E3%83%9E%E3%83%BC%E3%83%88%E3%83%95%E3%82%A9%E3%83%B3%E3%83%BB%E3%83%A9%E3%82%A6%E3%83%B3%E3%82%B8%E5%90%8D%E5%8F%A4%E5%B1%8B%E3%81%A7%E3%82%82%E3%82%89%E3%81%A3%E3%81%9F%E3%80%8E%E3%82%A6%E3%82%A9%E3%83%BC%E3%82%AD%E3%83%B3%E3%82%B0%E3%83%BB%E3%83%87%E3%83%83%E3%83%89%E3%80%8F%E3%82%B3%E3%83%A9%E3%83%9C%E3%81%AEVR%E3%82%B9%E3%82%B3%E3%83%BC%E3%83%97%EF%BC%88%E3%83%8F%E3%82%B3%E3%82%B9%E3%82%B3%EF%BC%89_-_8.jpg"
 canonicalSource: "https://www.platformer.news/openai-dots-agents-devday-2026/"
 ---
 

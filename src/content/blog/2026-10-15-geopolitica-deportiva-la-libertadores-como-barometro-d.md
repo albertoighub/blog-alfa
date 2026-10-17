@@ -5,7 +5,7 @@ pubDate: "2026-10-15"
 category: "Geopolítica"
 tags: ["Soft Power", "Econom\u00eda Deportiva", "Am\u00e9rica Latina", "Din\u00e1mica Regional"]
 author: "Comité Analítico TEP & Prospectiva"
-heroImage: "https://www.latercera.com/resizer/v2/DM5XXC4T5FEZDPXSEL5GFRPFHE.jpg?auth=165abba715036726c7afd69418889d16eae836284facd570a421df8a36f369a6&smart=true&width=2922&height=1818"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/Tektronix_7903_oscilloscope_from_a_19-inch-rack_in_a_lab_in_the_Nevada_nuclear_test_site%2C_USA_%28edited%2C_white_background%29.jpg/1280px-Tektronix_7903_oscilloscope_from_a_19-inch-rack_in_a_lab_in_the_Nevada_nuclear_test_site%2C_USA_%28edited%2C_white_background%29.jpg"
 canonicalSource: "https://www.latercera.com/el-deportivo/noticia/copa-libertadores-flamengo-de-erick-pulgar-rescata-valioso-empate-en-casa-de-estudiantes-y-encamina-el-bicampeonato/"
 ---
 

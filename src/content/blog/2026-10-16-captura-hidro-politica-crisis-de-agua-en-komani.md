@@ -5,7 +5,7 @@ pubDate: "2026-10-17"
 category: "Geopolítica"
 tags: ["Hidro-pol\u00edtica", "Gobernanza Urbana", "Rent-Seeking", "Fragilidad Sist\u00e9mica"]
 author: "Comité Analítico TEP & Prospectiva"
-heroImage: "https://images.newsteam.io/image/4134/2Bq28FuGKoMfKvrv8eCEo5aWzsfsxL2fUSoEKf5WYVDySsMdAuaB72HautVL1FdxizYkfLGn4TGWeWMDJ4KFM84XozKiPR8uqge8eXU4At4kTg2yfGSbrPjD4F7q3TN2Q5fpVzmNoecFB5deV3rZ9vv"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/High_Performance_Computing_Center_Stuttgart_HLRS_2015_09_Cray_XC40_Hazel_Hen.jpg/1280px-High_Performance_Computing_Center_Stuttgart_HLRS_2015_09_Cray_XC40_Hazel_Hen.jpg"
 canonicalSource: "https://mg.co.za/thought-leader/2026-10-15-komani-s-water-crisis-when-a-public-failure-becomes-private-business/"
 ---
 

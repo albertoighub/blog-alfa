@@ -5,7 +5,7 @@ pubDate: "2023-07-21"
 category: "Ciencia"
 tags: ["Ciencia", "Medicina", "Biotecnología", "Investigación Clínica", "Salud Pública"]
 author: "Comité Analítico TEP & Archivo Histórico"
-heroImage: "https://images.unsplash.com/photo-1516549655169-df83a0774514?auto=format&fit=crop&w=1200&h=630&q=82"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/President_Ronald_Reagan_Meeting_with_KGB_Defector_Oleg_Gordievsky_in_The_Oval_Office_-_DPLA_-_07b7b577c3aec5d7e6adeb695b6a70e8.jpg/1280px-President_Ronald_Reagan_Meeting_with_KGB_Defector_Oleg_Gordievsky_in_The_Oval_Office_-_DPLA_-_07b7b577c3aec5d7e6adeb695b6a70e8.jpg"
 canonicalSource: "https://newsinternacionaltep.com/categoria/ciencia"
 ---
 
@@ -21,7 +21,7 @@ Los reportes primarios recopilados por las corresponsalías y agencias de monito
 
 ## 2. Estado de la Situación y Dinámica Estructural
 
-![Evidencia y Registro Documental Primario - Células CAR-T Alogénicas Universales y la Reducción de Barreras de Coste en Hematología](https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?auto=format&fit=crop&w=1200&h=630&q=82)
+![Evidencia y Registro Documental Primario - Células CAR-T Alogénicas Universales y la Reducción de Barreras de Coste en Hematología](https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2b/President_Ronald_Reagan_Meeting_with_Kenneth_Duberstein_in_The_Oval_Office_-_DPLA_-_b9e17b1fe51e0cc1bdd881e04c766807.jpg/1280px-President_Ronald_Reagan_Meeting_with_Kenneth_Duberstein_in_The_Oval_Office_-_DPLA_-_b9e17b1fe51e0cc1bdd881e04c766807.jpg)
 *Figura 1: Mapeo y registro fotográfico documental archivado en la hemeroteca de News Internacional TEP.*
 
 La evolución empírica de los acontecimientos desmintió rápidamente los diagnósticos complacientes. La aceleración de las dinámicas en juego obligó a un reajuste de las previsiones institucionales, revelando una marcada correlación entre la exposición previa al riesgo y la celeridad del deterioro funcional en los sectores analizados.
@@ -40,7 +40,7 @@ El comportamiento de los indicadores determinantes durante este período histór
 
 ## 4. Evaluación de Escenarios y Modelado de Riesgo
 
-![Modelado de Trayectorias y Riesgo Sistémico](https://images.unsplash.com/photo-1530497610245-94d3c16cda28?auto=format&fit=crop&w=1200&h=630&q=82)
+![Modelado de Trayectorias y Riesgo Sistémico](https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/President_Ronald_Reagan_Meeting_with_Martin_Anderson_in_The_Oval_Office_-_DPLA_-_8d39379c042496436f952d772cc9f1dd.jpg/1280px-President_Ronald_Reagan_Meeting_with_Martin_Anderson_in_The_Oval_Office_-_DPLA_-_8d39379c042496436f952d772cc9f1dd.jpg)
 *Figura 2: Proyección de trayectorias y modelado de dispersión elaborado por la Unidad Cuantitativa TEP.*
 
 El análisis retrospectivo permite clasificar la trayectoria que finalmente se consolidó frente a las hipótesis alternativas que barajaban los comités en aquel entonces:

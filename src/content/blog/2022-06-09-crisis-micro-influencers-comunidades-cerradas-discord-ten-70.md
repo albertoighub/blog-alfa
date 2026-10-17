@@ -5,7 +5,7 @@ pubDate: "2022-06-09"
 category: "Tendencias"
 tags: ["Redes Sociales", "Dinámica Digital", "Cultura Algorítmica", "Plataformas", "Comportamiento Colectivo"]
 author: "Comité Analítico TEP & Archivo Histórico"
-heroImage: "https://images.unsplash.com/photo-1573164713988-8665fc963095?auto=format&fit=crop&w=1200&h=630&q=82"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/Spotkanie_z_Ryszardem_Lenczewskim_w_%C5%81odzi.jpg/1280px-Spotkanie_z_Ryszardem_Lenczewskim_w_%C5%81odzi.jpg"
 canonicalSource: "https://newsinternacionaltep.com/categoria/tendencias"
 ---
 
@@ -21,7 +21,7 @@ Los reportes primarios recopilados por las corresponsalías y agencias de monito
 
 ## 2. Estado de la Situación y Dinámica Estructural
 
-![Evidencia y Registro Documental Primario - La Crisis de los Micro-Influencers y el Retorno a Comunidades Cerradas en Discord y Telegram](https://images.unsplash.com/photo-1611162617474-5b21e879e113?auto=format&fit=crop&w=1200&h=630&q=82)
+![Evidencia y Registro Documental Primario - La Crisis de los Micro-Influencers y el Retorno a Comunidades Cerradas en Discord y Telegram](https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/Tervetuloa_ainutlaatuiseen_Maximiin.jpg/1280px-Tervetuloa_ainutlaatuiseen_Maximiin.jpg)
 *Figura 1: Mapeo y registro fotográfico documental archivado en la hemeroteca de News Internacional TEP.*
 
 La evolución empírica de los acontecimientos desmintió rápidamente los diagnósticos complacientes. La aceleración de las dinámicas en juego obligó a un reajuste de las previsiones institucionales, revelando una marcada correlación entre la exposición previa al riesgo y la celeridad del deterioro funcional en los sectores analizados.
@@ -40,7 +40,7 @@ El comportamiento de los indicadores determinantes durante este período histór
 
 ## 4. Evaluación de Escenarios y Modelado de Riesgo
 
-![Modelado de Trayectorias y Riesgo Sistémico](https://images.unsplash.com/photo-1563986768609-322da13575f3?auto=format&fit=crop&w=1200&h=630&q=82)
+![Modelado de Trayectorias y Riesgo Sistémico](https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/The_Director%2C_Feroz_Abbas_Khan%2C_addressing_at_the_special_screening_of_the_film_%E2%80%9CGandhi%2C_My_Father%E2%80%9D%2C_during_the_42nd_International_Film_Festival_of_India_%28IFFI-2011%29%2C_in_Panaji%2C_Goa_on_November_27%2C_2011.jpg/1280px-thumbnail.jpg)
 *Figura 2: Proyección de trayectorias y modelado de dispersión elaborado por la Unidad Cuantitativa TEP.*
 
 El análisis retrospectivo permite clasificar la trayectoria que finalmente se consolidó frente a las hipótesis alternativas que barajaban los comités en aquel entonces:

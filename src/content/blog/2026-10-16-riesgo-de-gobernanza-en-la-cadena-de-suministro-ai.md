@@ -5,7 +5,7 @@ pubDate: "2026-10-16"
 category: "Economía"
 tags: ["Gobernanza Corporativa", "Semiconductores", "Riesgo Geopol\u00edtico", "Cadena de Suministro"]
 author: "Comité Analítico TEP & Prospectiva"
-heroImage: "https://fortune.com/img-assets/wp-content/uploads/2026/10/GettyImages-2223502567-1-e1792098648708.jpg?w=2048"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/Atari_Portfolio_HPC-004_-_display_part_-_board_-_Toshiba_TC54256AF-4668.jpg/1280px-Atari_Portfolio_HPC-004_-_display_part_-_board_-_Toshiba_TC54256AF-4668.jpg"
 canonicalSource: "https://fortune.com/2026/10/15/supermicro-new-cfo-mark-long-western-digital-nvidia-smuggling/"
 ---
 
@@ -29,7 +29,11 @@ La evolución del sector ha pasado de una competencia puramente basada en la efi
 ## 3. Mecanismos Operativos y Núcleo Técnico (The Science)
 La crisis en Supermicro opera como un caso de estudio sobre el fallo del mecanismo de control interno bajo presión de crecimiento acelerado. El reemplazo del CFO David Weigand por Mark Long, con experiencia previa en Western Digital y Nvidia, representa una intervención estratégica diseñada para mitigar la exposición legal y restaurar la confianza de los inversores institucionales.
 
-El desglosamiento causal es el siguiente: Presión de Demanda (IA) $ightarrow$ Crecimiento Acelerado $ightarrow$ Debilidad en Controles Internos $ightarrow$ Exposición Legal/Criminal $ightarrow$ Desaceleración del Capital y Reestructuración Ejecutiva. 
+El desglosamiento causal es el siguiente: Presión de Demanda (IA) $
+ightarrow$ Crecimiento Acelerado $
+ightarrow$ Debilidad en Controles Internos $
+ightarrow$ Exposición Legal/Criminal $
+ightarrow$ Desaceleración del Capital y Reestructuración Ejecutiva. 
 
 La tabla a continuación desglosa los parámetros clave que definen la transición de riesgo operacional a riesgo sistémico:
 

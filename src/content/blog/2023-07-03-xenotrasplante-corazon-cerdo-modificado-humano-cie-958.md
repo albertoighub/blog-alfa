@@ -5,7 +5,7 @@ pubDate: "2023-07-03"
 category: "Ciencia"
 tags: ["Ciencia", "Medicina", "Biotecnología", "Investigación Clínica", "Salud Pública"]
 author: "Comité Analítico TEP & Archivo Histórico"
-heroImage: "https://images.unsplash.com/photo-1576086213369-97a306d36557?auto=format&fit=crop&w=1200&h=630&q=82"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/Secretary_of_Defense_Ash_Carter_and_Indian_Defence_Minister_Manohar_Parrikar_conduct_a_joint_press_conference_in_the_Pentagon_Briefing_Room.jpg/1280px-Secretary_of_Defense_Ash_Carter_and_Indian_Defence_Minister_Manohar_Parrikar_conduct_a_joint_press_conference_in_the_Pentagon_Briefing_Room.jpg"
 canonicalSource: "https://newsinternacionaltep.com/categoria/ciencia"
 ---
 
@@ -21,7 +21,7 @@ Los reportes primarios recopilados por las corresponsalías y agencias de monito
 
 ## 2. Estado de la Situación y Dinámica Estructural
 
-![Evidencia y Registro Documental Primario - Hitos en Xenotrasplante: El Primer Injerto Cardíaco y Renal de Cerdo Modificado a Humano](https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=1200&h=630&q=82)
+![Evidencia y Registro Documental Primario - Hitos en Xenotrasplante: El Primer Injerto Cardíaco y Renal de Cerdo Modificado a Humano](https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/Secretary_of_Defense_Chuck_Hagel%2C_left%2C_and_Japan%27s_Minister_of_Defense_Itsunori_Onodera_shake_hands_before_the_beginning_of_their_joint_press_conference_in_the_Pentagon_on_April_29%2C_2013_130429-M-EV637-374.jpg/1280px-thumbnail.jpg)
 *Figura 1: Mapeo y registro fotográfico documental archivado en la hemeroteca de News Internacional TEP.*
 
 La evolución empírica de los acontecimientos desmintió rápidamente los diagnósticos complacientes. La aceleración de las dinámicas en juego obligó a un reajuste de las previsiones institucionales, revelando una marcada correlación entre la exposición previa al riesgo y la celeridad del deterioro funcional en los sectores analizados.
@@ -40,7 +40,7 @@ El comportamiento de los indicadores determinantes durante este período histór
 
 ## 4. Evaluación de Escenarios y Modelado de Riesgo
 
-![Modelado de Trayectorias y Riesgo Sistémico](https://images.unsplash.com/photo-1579165466791-788226ab77b6?auto=format&fit=crop&w=1200&h=630&q=82)
+![Modelado de Trayectorias y Riesgo Sistémico](https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/Secretary_of_Defense_Chuck_Hagel%2C_left%2C_conducts_a_joint_press_conference_with_Israeli_Minister_of_Defense_Moshe_Ya%27alon_in_Tel_Aviv%2C_Israel%2C_on_April_22%2C_2013_130422-D-BW835-470.jpg/1280px-thumbnail.jpg)
 *Figura 2: Proyección de trayectorias y modelado de dispersión elaborado por la Unidad Cuantitativa TEP.*
 
 El análisis retrospectivo permite clasificar la trayectoria que finalmente se consolidó frente a las hipótesis alternativas que barajaban los comités en aquel entonces:

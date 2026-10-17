@@ -5,7 +5,7 @@ pubDate: "2020-03-03"
 category: "Economía"
 tags: ["Economía Global", "Bancos Centrales", "Mercados Financieros", "Política Monetaria", "Comercio Internacional"]
 author: "Comité Analítico TEP & Archivo Histórico"
-heroImage: "https://images.unsplash.com/photo-1559526324-4b87b5e36e44?auto=format&fit=crop&w=1200&h=630&q=82"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/HK_%E5%B9%B2%E8%AB%BE%E9%81%93%E4%B8%AD_46_Connaught_Road_Central_%E6%81%86%E7%94%9F%E9%8A%80%E8%A1%8C%E7%B8%BD%E8%A1%8C%E5%A4%A7%E5%BB%88_Hang_Seng_Bank_Headquarters_April-2012.JPG/1280px-HK_%E5%B9%B2%E8%AB%BE%E9%81%93%E4%B8%AD_46_Connaught_Road_Central_%E6%81%86%E7%94%9F%E9%8A%80%E8%A1%8C%E7%B8%BD%E8%A1%8C%E5%A4%A7%E5%BB%88_Hang_Seng_Bank_Headquarters_April-2012.JPG"
 canonicalSource: "https://newsinternacionaltep.com/categoria/economia"
 ---
 
@@ -21,7 +21,7 @@ Los reportes primarios recopilados por las corresponsalías y agencias de monito
 
 ## 2. Estado de la Situación y Dinámica Estructural
 
-![Evidencia y Registro Documental Primario - El Shock de Precios Negativos del Petróleo WTI y el Colapso del Almacenamiento Global](https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1200&h=630&q=82)
+![Evidencia y Registro Documental Primario - El Shock de Precios Negativos del Petróleo WTI y el Colapso del Almacenamiento Global](https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Seattle_%28WA%2C_USA%29%2C_HomeStreet_Bank_Headquarters_--_2022_--_1454.jpg/1280px-Seattle_%28WA%2C_USA%29%2C_HomeStreet_Bank_Headquarters_--_2022_--_1454.jpg)
 *Figura 1: Mapeo y registro fotográfico documental archivado en la hemeroteca de News Internacional TEP.*
 
 La evolución empírica de los acontecimientos desmintió rápidamente los diagnósticos complacientes. La aceleración de las dinámicas en juego obligó a un reajuste de las previsiones institucionales, revelando una marcada correlación entre la exposición previa al riesgo y la celeridad del deterioro funcional en los sectores analizados.
@@ -40,7 +40,7 @@ El comportamiento de los indicadores determinantes durante este período histór
 
 ## 4. Evaluación de Escenarios y Modelado de Riesgo
 
-![Modelado de Trayectorias y Riesgo Sistémico](https://images.unsplash.com/photo-1526304640581-d334cdbbf45e?auto=format&fit=crop&w=1200&h=630&q=82)
+![Modelado de Trayectorias y Riesgo Sistémico](https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8e/Seattle_%28WA%2C_USA%29%2C_HomeStreet_Bank_Headquarters_--_2022_--_1455.jpg/1280px-Seattle_%28WA%2C_USA%29%2C_HomeStreet_Bank_Headquarters_--_2022_--_1455.jpg)
 *Figura 2: Proyección de trayectorias y modelado de dispersión elaborado por la Unidad Cuantitativa TEP.*
 
 El análisis retrospectivo permite clasificar la trayectoria que finalmente se consolidó frente a las hipótesis alternativas que barajaban los comités en aquel entonces:

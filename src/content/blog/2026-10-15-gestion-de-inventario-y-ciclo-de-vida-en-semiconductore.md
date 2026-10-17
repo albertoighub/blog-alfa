@@ -5,7 +5,7 @@ pubDate: "2026-10-15"
 category: "Tecnología"
 tags: ["Semiconductores", "Gesti\u00f3n de Inventario", "Arquitectura CPU", "Econom\u00eda Digital"]
 author: "Comité Analítico TEP & Prospectiva"
-heroImage: "https://www.01net.com/app/uploads/2026/10/Ryzen-7-9800X3D-1344x896.jpeg"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/Tektronix_oscilloscope_7603_in_19_inch_rack_version_with_three_plug-ins.jpg/1280px-Tektronix_oscilloscope_7603_in_19_inch_rack_version_with_three_plug-ins.jpg"
 canonicalSource: "https://www.01net.com/bons-plans/amd-se-debarrasse-du-ryzen-7-9800x3d-les-derniers-stocks-secoulent-par-palettes-a-40.html"
 ---
 

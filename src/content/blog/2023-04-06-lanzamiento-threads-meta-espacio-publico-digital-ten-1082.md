@@ -5,7 +5,7 @@ pubDate: "2023-04-06"
 category: "Tendencias"
 tags: ["Redes Sociales", "Dinámica Digital", "Cultura Algorítmica", "Plataformas", "Comportamiento Colectivo"]
 author: "Comité Analítico TEP & Archivo Histórico"
-heroImage: "https://images.unsplash.com/photo-1563986768609-322da13575f3?auto=format&fit=crop&w=1200&h=630&q=82"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/Landbouwtentoonstelling_Utrecht_vrouwen-modeshow%2C_Bestanddeelnr_905-0883.jpg/1280px-Landbouwtentoonstelling_Utrecht_vrouwen-modeshow%2C_Bestanddeelnr_905-0883.jpg"
 canonicalSource: "https://newsinternacionaltep.com/categoria/tendencias"
 ---
 
@@ -21,7 +21,7 @@ Los reportes primarios recopilados por las corresponsalías y agencias de monito
 
 ## 2. Estado de la Situación y Dinámica Estructural
 
-![Evidencia y Registro Documental Primario - El Lanzamiento Récord de Threads de Meta y la Fragmentación del Espacio Público Digital](https://images.unsplash.com/photo-1573164713988-8665fc963095?auto=format&fit=crop&w=1200&h=630&q=82)
+![Evidencia y Registro Documental Primario - El Lanzamiento Récord de Threads de Meta y la Fragmentación del Espacio Público Digital](https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/London_Fashion_Week_-_Roberta_Einer%27s_catwalk.jpg/1280px-London_Fashion_Week_-_Roberta_Einer%27s_catwalk.jpg)
 *Figura 1: Mapeo y registro fotográfico documental archivado en la hemeroteca de News Internacional TEP.*
 
 La evolución empírica de los acontecimientos desmintió rápidamente los diagnósticos complacientes. La aceleración de las dinámicas en juego obligó a un reajuste de las previsiones institucionales, revelando una marcada correlación entre la exposición previa al riesgo y la celeridad del deterioro funcional en los sectores analizados.
@@ -40,7 +40,7 @@ El comportamiento de los indicadores determinantes durante este período histór
 
 ## 4. Evaluación de Escenarios y Modelado de Riesgo
 
-![Modelado de Trayectorias y Riesgo Sistémico](https://images.unsplash.com/photo-1611162617474-5b21e879e113?auto=format&fit=crop&w=1200&h=630&q=82)
+![Modelado de Trayectorias y Riesgo Sistémico](https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/Najaarsmode_en_voor_de_winter_19661967%2C_Intercontex_presenteert_Hansopje%2C_Bestanddeelnr_918-9949.jpg/1280px-Najaarsmode_en_voor_de_winter_19661967%2C_Intercontex_presenteert_Hansopje%2C_Bestanddeelnr_918-9949.jpg)
 *Figura 2: Proyección de trayectorias y modelado de dispersión elaborado por la Unidad Cuantitativa TEP.*
 
 El análisis retrospectivo permite clasificar la trayectoria que finalmente se consolidó frente a las hipótesis alternativas que barajaban los comités en aquel entonces:

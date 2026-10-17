@@ -5,7 +5,7 @@ pubDate: "2026-10-16"
 category: "Geopolítica"
 tags: ["Su\u00e1frica", "Derecho Constitucional", "Fragilidad Estatal", "Gobernanza Local"]
 author: "Comité Analítico TEP & Prospectiva"
-heroImage: "https://images.newsteam.io/image/1600/2Bq28FuGKoK2EQK4hogA3XiUWn4dg21UeDPExamaSoJUjkc9tcA8ZSqKVpJT4aYhCcF9dQvp89eHDXfQxiCghyJ5gGQ9RK7oHQQ1XKrYsMJjFjMRdn1QDasvpdU7eNWQGA4ys9QouhpK3JrwCVcMLH4"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/HPc_GlPMnS0.jpg/1280px-HPc_GlPMnS0.jpg"
 canonicalSource: "https://mg.co.za/politics/2026-10-15-anc-exults-at-iec-reprieve/"
 ---
 

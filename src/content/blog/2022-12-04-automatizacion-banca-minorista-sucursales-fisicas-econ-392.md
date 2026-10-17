@@ -5,7 +5,7 @@ pubDate: "2022-12-04"
 category: "Economía"
 tags: ["Economía Global", "Bancos Centrales", "Mercados Financieros", "Política Monetaria", "Comercio Internacional"]
 author: "Comité Analítico TEP & Archivo Histórico"
-heroImage: "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?auto=format&fit=crop&w=1200&h=630&q=82"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/Informal_meeting_of_economic_and_financial_affairs_ministers_%28ECOFIN%29._Press_conference_V%C3%ADtor_Const%C3%A2ncio_%2836429787783%29.jpg/1280px-Informal_meeting_of_economic_and_financial_affairs_ministers_%28ECOFIN%29._Press_conference_V%C3%ADtor_Const%C3%A2ncio_%2836429787783%29.jpg"
 canonicalSource: "https://newsinternacionaltep.com/categoria/economia"
 ---
 
@@ -21,7 +21,7 @@ Los reportes primarios recopilados por las corresponsalías y agencias de monito
 
 ## 2. Estado de la Situación y Dinámica Estructural
 
-![Evidencia y Registro Documental Primario - Automatización de la Banca Minorista y la Reducción Estructural de Sucursales Físicas](https://images.unsplash.com/photo-1565372195458-9de0b320ef04?auto=format&fit=crop&w=1200&h=630&q=82)
+![Evidencia y Registro Documental Primario - Automatización de la Banca Minorista y la Reducción Estructural de Sucursales Físicas](https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/Informal_meeting_of_economic_and_financial_affairs_ministers_%28ECOFIN%29._Press_conference_V%C3%ADtor_Const%C3%A2ncio_and_Valdis_Dombrovskis_%2837244205725%29.jpg/1280px-Informal_meeting_of_economic_and_financial_affairs_ministers_%28ECOFIN%29._Press_conference_V%C3%ADtor_Const%C3%A2ncio_and_Valdis_Dombrovskis_%2837244205725%29.jpg)
 *Figura 1: Mapeo y registro fotográfico documental archivado en la hemeroteca de News Internacional TEP.*
 
 La evolución empírica de los acontecimientos desmintió rápidamente los diagnósticos complacientes. La aceleración de las dinámicas en juego obligó a un reajuste de las previsiones institucionales, revelando una marcada correlación entre la exposición previa al riesgo y la celeridad del deterioro funcional en los sectores analizados.
@@ -40,7 +40,7 @@ El comportamiento de los indicadores determinantes durante este período histór
 
 ## 4. Evaluación de Escenarios y Modelado de Riesgo
 
-![Modelado de Trayectorias y Riesgo Sistémico](https://images.unsplash.com/photo-1526304640581-d334cdbbf45e?auto=format&fit=crop&w=1200&h=630&q=82)
+![Modelado de Trayectorias y Riesgo Sistémico](https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/Nabiullina%2C_Mishustin_and_Naryshkin_before_the_meeting_on_the_outcomes_of_the_Russia-US_summit.jpg/1280px-Nabiullina%2C_Mishustin_and_Naryshkin_before_the_meeting_on_the_outcomes_of_the_Russia-US_summit.jpg)
 *Figura 2: Proyección de trayectorias y modelado de dispersión elaborado por la Unidad Cuantitativa TEP.*
 
 El análisis retrospectivo permite clasificar la trayectoria que finalmente se consolidó frente a las hipótesis alternativas que barajaban los comités en aquel entonces:

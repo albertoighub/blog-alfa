@@ -5,7 +5,7 @@ pubDate: "2026-10-17"
 category: "Tecnología"
 tags: ["Inteligencia Artificial", "Agentes Aut\u00f3nomos", "Prospectiva Tecnol\u00f3gica", "LLMs", "Automatizaci\u00f3n"]
 author: "Comité Analítico TEP & Prospectiva"
-heroImage: "https://storage.ghost.io/c/a0/4c/a04c7225-d919-4d78-9b7c-a3fdd071349b/content/images/2026/09/shutterstock_2842083295.jpg"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/%E3%83%89%E3%82%B3%E3%83%A2%E3%83%BB%E3%82%B9%E3%83%9E%E3%83%BC%E3%83%88%E3%83%95%E3%82%A9%E3%83%B3%E3%83%BB%E3%83%A9%E3%82%A6%E3%83%B3%E3%82%B8%E5%90%8D%E5%8F%A4%E5%B1%8B%E3%81%AE%E3%80%8CdTV_VR%E4%BD%93%E9%A8%93%E3%83%A9%E3%82%A6%E3%83%B3%E3%82%B8%E3%80%8D_-_3.jpg/1280px-%E3%83%89%E3%82%B3%E3%83%A2%E3%83%BB%E3%82%B9%E3%83%9E%E3%83%BC%E3%83%88%E3%83%95%E3%82%A9%E3%83%B3%E3%83%BB%E3%83%A9%E3%82%A6%E3%83%B3%E3%82%B8%E5%90%8D%E5%8F%A4%E5%B1%8B%E3%81%AE%E3%80%8CdTV_VR%E4%BD%93%E9%A8%93%E3%83%A9%E3%82%A6%E3%83%B3%E3%82%B8%E3%80%8D_-_3.jpg"
 canonicalSource: "https://www.platformer.news/meta-muse-consumer-agents/"
 ---
 

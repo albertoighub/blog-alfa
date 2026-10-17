@@ -5,7 +5,7 @@ pubDate: "2026-10-16"
 category: "Geopolítica"
 tags: ["Derecho Internacional", "ICC", "Sanciones", "Gaza", "Jurisdicci\u00f3n"]
 author: "Comité Analítico TEP & Prospectiva"
-heroImage: "https://images.newsteam.io/image/1000/2Bq28FuGKoK8JTuQdUXnPgNmHsWqXwFCKQywS29WAP82YRbp9rxbvm9waZScoc3tLGC2tiiAJPKMSVi3cS9HBoh3dB5nnhAUZiDkzqS5EUrDbbZvfPPNsRrQkRiHsGD8PUsB5EsVqBZKSnd8vH9LSpe"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/HPC_000013_%2827511558726%29.jpg/1280px-HPC_000013_%2827511558726%29.jpg"
 canonicalSource: "https://mg.co.za/news/international/2026-10-15-us-court-blocks-sanctions-on-groups-assisting-icc-gaza-investigation/"
 ---
 

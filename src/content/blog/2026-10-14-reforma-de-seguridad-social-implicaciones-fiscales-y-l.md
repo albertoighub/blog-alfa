@@ -5,7 +5,7 @@ pubDate: "2026-10-14"
 category: "Economía"
 tags: ["Seguridad Social", "Finanzas P\u00fablicas", "Demograf\u00eda", "Pol\u00edtica Laboral"]
 author: "Comité Analítico TEP & Prospectiva"
-heroImage: "https://cdn.mos.cms.futurecdn.net/doZ5C7qNNQvBN7J67G2Xv5-1920-80.jpg"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/HP_9101A_extended_memory_unit.-_magnetic_core_memory_module_-_details.jpg/1280px-HP_9101A_extended_memory_unit.-_magnetic_core_memory_module_-_details.jpg"
 canonicalSource: "https://www.kiplinger.com/retirement/social-security/2027-social-security-cola-is-3-6-percent"
 ---
 

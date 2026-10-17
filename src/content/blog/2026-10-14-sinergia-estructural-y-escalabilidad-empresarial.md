@@ -5,7 +5,7 @@ pubDate: "2026-10-14"
 category: "Economía Aplicada / Prospectiva"
 tags: ["Alianzas Estrat\u00e9gicas", "Escalabilidad Empresarial", "Ecosistemas de Negocio", "Teor\u00eda de Redes", "Complementariedad Productiva"]
 author: "Comité Analítico TEP & Prospectiva"
-heroImage: "https://cdn.mos.cms.futurecdn.net/abAjXqg3ULipdYrWvGFiJA-1920-80.jpg"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/SCOPE_FACES%2C_MINI_JADE_-_DPLA_-_9b935b41bfd65c9ecb4c73d9444e6304.jpg/1280px-SCOPE_FACES%2C_MINI_JADE_-_DPLA_-_9b935b41bfd65c9ecb4c73d9444e6304.jpg"
 canonicalSource: "https://www.kiplinger.com/business/small-business/scale-faster-through-strategic-partnerships"
 ---
 

@@ -5,7 +5,7 @@ pubDate: "2026-10-16"
 category: "Geopolítica"
 tags: ["Relaciones Laborales", "Sud\u00e1frica", "Econom\u00eda Pol\u00edtica", "Movimiento Sindical"]
 author: "Comité Analítico TEP & Prospectiva"
-heroImage: "https://images.newsteam.io/image/1600/2Bq28FuGKoJjYdtLd44qe2M2rPXkGrmTZ7yMfrbSYxhYNfBosNBVx5VcqJtTN9Eeh67ENVwA4cW8V7KHbxToB5HCuLitkL2S77VnSjEkAQhLCSQQZ59W7bAmix6qRgo9MgWSr6AFTZWJLqh9BNj5JSd"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/Atari_Portfolio_HPC-004_-_display_part_-_board-93572.jpg/1280px-Atari_Portfolio_HPC-004_-_display_part_-_board-93572.jpg"
 canonicalSource: "https://mg.co.za/news/south-africa/2026-10-14-new-cosa-national-leadership-elected/"
 ---
 

@@ -5,7 +5,7 @@ pubDate: "2023-07-25"
 category: "Ciencia"
 tags: ["Ciencia", "Medicina", "Biotecnología", "Investigación Clínica", "Salud Pública"]
 author: "Comité Analítico TEP & Archivo Histórico"
-heroImage: "https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?auto=format&fit=crop&w=1200&h=630&q=82"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/President_Ronald_Reagan_Meeting_with_Afghan_Freedom_Fighters_in_The_Oval_Office_to_Discuss_Soviet_Atrocities_in_Afghanistan_-_DPLA_-_30870f77aa80ae7d7173cfcff056870b.jpg/1280px-thumbnail.jpg"
 canonicalSource: "https://newsinternacionaltep.com/categoria/ciencia"
 ---
 
@@ -21,7 +21,7 @@ Los reportes primarios recopilados por las corresponsalías y agencias de monito
 
 ## 2. Estado de la Situación y Dinámica Estructural
 
-![Evidencia y Registro Documental Primario - Ganancia Neta de Energía en Fusión Nuclear por Confinamiento Inercial en el National Ignition Facility](https://images.unsplash.com/photo-1530497610245-94d3c16cda28?auto=format&fit=crop&w=1200&h=630&q=82)
+![Evidencia y Registro Documental Primario - Ganancia Neta de Energía en Fusión Nuclear por Confinamiento Inercial en el National Ignition Facility](https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/President_Ronald_Reagan_Meeting_with_Jeane_Kirkpatrick_in_The_Oval_Office_-_DPLA_-_b1cd83936108c9339d7970b65c5a2ecc.jpg/1280px-President_Ronald_Reagan_Meeting_with_Jeane_Kirkpatrick_in_The_Oval_Office_-_DPLA_-_b1cd83936108c9339d7970b65c5a2ecc.jpg)
 *Figura 1: Mapeo y registro fotográfico documental archivado en la hemeroteca de News Internacional TEP.*
 
 La evolución empírica de los acontecimientos desmintió rápidamente los diagnósticos complacientes. La aceleración de las dinámicas en juego obligó a un reajuste de las previsiones institucionales, revelando una marcada correlación entre la exposición previa al riesgo y la celeridad del deterioro funcional en los sectores analizados.
@@ -40,7 +40,7 @@ El comportamiento de los indicadores determinantes durante este período histór
 
 ## 4. Evaluación de Escenarios y Modelado de Riesgo
 
-![Modelado de Trayectorias y Riesgo Sistémico](https://images.unsplash.com/photo-1507668077129-56e32842fceb?auto=format&fit=crop&w=1200&h=630&q=82)
+![Modelado de Trayectorias y Riesgo Sistémico](https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/President_Ronald_Reagan_Meeting_with_Nicholas_Brady_in_The_Oval_Office_-_DPLA_-_ef8b26b68f218090562981d6fab0255c.jpg/1280px-President_Ronald_Reagan_Meeting_with_Nicholas_Brady_in_The_Oval_Office_-_DPLA_-_ef8b26b68f218090562981d6fab0255c.jpg)
 *Figura 2: Proyección de trayectorias y modelado de dispersión elaborado por la Unidad Cuantitativa TEP.*
 
 El análisis retrospectivo permite clasificar la trayectoria que finalmente se consolidó frente a las hipótesis alternativas que barajaban los comités en aquel entonces:

@@ -5,7 +5,7 @@ pubDate: "2020-10-23"
 category: "Geopolítica"
 tags: ["Geopolítica", "Seguridad Internacional", "Diplomacia", "Defensa", "Gobernanza Global"]
 author: "Comité Analítico TEP & Archivo Histórico"
-heroImage: "https://images.unsplash.com/photo-1572949645841-094f3a9c4c94?auto=format&fit=crop&w=1200&h=630&q=82"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/The_Prime_Minister%2C_Shri_Narendra_Modi_attending_the_BRICS_leaders%E2%80%99_meeting%2C_on_the_sidelines_of_G20_Summit_2016%2C_in_Hangzhou%2C_China_on_September_04%2C_2016_%281%29.jpg/1280px-thumbnail.jpg"
 canonicalSource: "https://newsinternacionaltep.com/categoria/geopolitica"
 ---
 
@@ -21,7 +21,7 @@ Los reportes primarios recopilados por las corresponsalías y agencias de monito
 
 ## 2. Estado de la Situación y Dinámica Estructural
 
-![Evidencia y Registro Documental Primario - Transición Hegemónica y el Deterioro del Sistema de Solución de Diferencias de la OMC](https://images.unsplash.com/photo-1541872703-74c5e44368f9?auto=format&fit=crop&w=1200&h=630&q=82)
+![Evidencia y Registro Documental Primario - Transición Hegemónica y el Deterioro del Sistema de Solución de Diferencias de la OMC](https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/The_Prime_Minister%2C_Shri_Narendra_Modi_attending_the_BRICS_leaders%E2%80%99_meeting%2C_on_the_sidelines_of_G20_Summit_2016%2C_in_Hangzhou%2C_China_on_September_04%2C_2016_%282%29.jpg/1280px-thumbnail.jpg)
 *Figura 1: Mapeo y registro fotográfico documental archivado en la hemeroteca de News Internacional TEP.*
 
 La evolución empírica de los acontecimientos desmintió rápidamente los diagnósticos complacientes. La aceleración de las dinámicas en juego obligó a un reajuste de las previsiones institucionales, revelando una marcada correlación entre la exposición previa al riesgo y la celeridad del deterioro funcional en los sectores analizados.
@@ -40,7 +40,7 @@ El comportamiento de los indicadores determinantes durante este período histór
 
 ## 4. Evaluación de Escenarios y Modelado de Riesgo
 
-![Modelado de Trayectorias y Riesgo Sistémico](https://images.unsplash.com/photo-1526304640581-d334cdbbf45e?auto=format&fit=crop&w=1200&h=630&q=82)
+![Modelado de Trayectorias y Riesgo Sistémico](https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/The_Prime_Minister%2C_Shri_Narendra_Modi_delivers_his_Opening_Remarks_at_the_BRICS_leaders%E2%80%99_meeting%2C_on_the_sidelines_of_G20_Summit_2015%2C_in_Turkey_on_November_15%2C_2015.jpg/1280px-thumbnail.jpg)
 *Figura 2: Proyección de trayectorias y modelado de dispersión elaborado por la Unidad Cuantitativa TEP.*
 
 El análisis retrospectivo permite clasificar la trayectoria que finalmente se consolidó frente a las hipótesis alternativas que barajaban los comités en aquel entonces:

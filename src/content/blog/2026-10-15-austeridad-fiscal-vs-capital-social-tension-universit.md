@@ -5,7 +5,7 @@ pubDate: "2026-10-15"
 category: "Geopolítica"
 tags: ["Financiamiento Universitario", "Austeridad Fiscal", "Movilizaci\u00f3n Social", "Gobernanza Latinoamericana"]
 author: "Comité Analítico TEP & Prospectiva"
-heroImage: "https://www.latercera.com/resizer/v2/DLDCSLTUVZEBLFG5JXQ35AZOAI.jpg?auth=c41c0fb742d98e997ea19be61272e03a7e75432100d857965e88e2c264be2501&smart=true&width=1104&height=649"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/Fujitsu_Siemens_19inch_rack_rail_system_20100621.jpg/1280px-Fujitsu_Siemens_19inch_rack_rail_system_20100621.jpg"
 canonicalSource: "https://www.latercera.com/mundo/noticia/mas-de-una-treintena-de-personas-detenidas-en-protestas-universitarias-en-buenos-aires/"
 ---
 
@@ -33,7 +33,11 @@ La dinámica actual se caracteriza por una 'path dependency' donde las demandas 
 ## 3. Mecanismos Operativos y Núcleo Técnico (The Science)
 El conflicto se desglosa en una arquitectura causal donde la restricción financiera actúa como variable independiente principal, generando efectos cascada en la estabilidad sociopolítica.
 
-**Arquitectura Causal:** La política de ajuste fiscal impone límites al gasto público $ightarrow$ Se reducen los presupuestos universitarios (violación de Ley) $ightarrow$ Aumenta el estrés institucional y la percepción de injusticia social $ightarrow$ Se intensifica la movilización estudiantil $ightarrow$ El Estado responde mediante el despliegue del aparato de seguridad para restaurar el orden público, lo que resulta en confrontación física.
+**Arquitectura Causal:** La política de ajuste fiscal impone límites al gasto público $
+ightarrow$ Se reducen los presupuestos universitarios (violación de Ley) $
+ightarrow$ Aumenta el estrés institucional y la percepción de injusticia social $
+ightarrow$ Se intensifica la movilización estudiantil $
+ightarrow$ El Estado responde mediante el despliegue del aparato de seguridad para restaurar el orden público, lo que resulta en confrontación física.
 
 La siguiente tabla desglosa los parámetros clave de esta dinámica sistémica:
 

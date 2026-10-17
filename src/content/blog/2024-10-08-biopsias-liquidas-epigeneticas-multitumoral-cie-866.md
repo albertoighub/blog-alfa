@@ -5,7 +5,7 @@ pubDate: "2024-10-08"
 category: "Ciencia"
 tags: ["Ciencia", "Medicina", "Biotecnología", "Investigación Clínica", "Salud Pública"]
 author: "Comité Analítico TEP & Archivo Histórico"
-heroImage: "https://images.unsplash.com/photo-1516549655169-df83a0774514?auto=format&fit=crop&w=1200&h=630&q=82"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/Seedtime_and_harvest_-_a_graphic_summary_of_seasonal_work_on_farm_crops_%281922%29_%2814779010212%29.jpg/1280px-Seedtime_and_harvest_-_a_graphic_summary_of_seasonal_work_on_farm_crops_%281922%29_%2814779010212%29.jpg"
 canonicalSource: "https://newsinternacionaltep.com/categoria/ciencia"
 ---
 
@@ -21,7 +21,7 @@ Los reportes primarios recopilados por las corresponsalías y agencias de monito
 
 ## 2. Estado de la Situación y Dinámica Estructural
 
-![Evidencia y Registro Documental Primario - Biopsias Líquidas Epigenéticas de Detección Multitumoral y Diagnóstico Preclínico](https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?auto=format&fit=crop&w=1200&h=630&q=82)
+![Evidencia y Registro Documental Primario - Biopsias Líquidas Epigenéticas de Detección Multitumoral y Diagnóstico Preclínico](https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/Twenty-six_horse_combined_harvester_at_work%2C_reaping%2C_threshing_and_sacking%2C_Wash.%2C_U.S.A%2C_from_Robert_N._Dennis_collection_of_stereoscopic_views.png/1280px-Twenty-six_horse_combined_harvester_at_work%2C_reaping%2C_threshing_and_sacking%2C_Wash.%2C_U.S.A%2C_from_Robert_N._Dennis_collection_of_stereoscopic_views.png)
 *Figura 1: Mapeo y registro fotográfico documental archivado en la hemeroteca de News Internacional TEP.*
 
 La evolución empírica de los acontecimientos desmintió rápidamente los diagnósticos complacientes. La aceleración de las dinámicas en juego obligó a un reajuste de las previsiones institucionales, revelando una marcada correlación entre la exposición previa al riesgo y la celeridad del deterioro funcional en los sectores analizados.
@@ -40,7 +40,7 @@ El comportamiento de los indicadores determinantes durante este período histór
 
 ## 4. Evaluación de Escenarios y Modelado de Riesgo
 
-![Modelado de Trayectorias y Riesgo Sistémico](https://images.unsplash.com/photo-1530497610245-94d3c16cda28?auto=format&fit=crop&w=1200&h=630&q=82)
+![Modelado de Trayectorias y Riesgo Sistémico](https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6c/Twenty-six_horse_combined_harvester_at_work%2C_reaping%2C_threshing_and_sacking%2C_Wash.%2C_U.S.A%2C_from_Robert_N._Dennis_collection_of_stereoscopic_views_2.png/1280px-Twenty-six_horse_combined_harvester_at_work%2C_reaping%2C_threshing_and_sacking%2C_Wash.%2C_U.S.A%2C_from_Robert_N._Dennis_collection_of_stereoscopic_views_2.png)
 *Figura 2: Proyección de trayectorias y modelado de dispersión elaborado por la Unidad Cuantitativa TEP.*
 
 El análisis retrospectivo permite clasificar la trayectoria que finalmente se consolidó frente a las hipótesis alternativas que barajaban los comités en aquel entonces:

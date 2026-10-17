@@ -5,7 +5,7 @@ pubDate: "2023-03-17"
 category: "Ciencia"
 tags: ["Ciencia", "Medicina", "Biotecnología", "Investigación Clínica", "Salud Pública"]
 author: "Comité Analítico TEP & Archivo Histórico"
-heroImage: "https://images.unsplash.com/photo-1516549655169-df83a0774514?auto=format&fit=crop&w=1200&h=630&q=82"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/Treaty_of_Rome_anniversary_Beata_Szyd%C5%82o_2017-03-25_09.jpg/1280px-Treaty_of_Rome_anniversary_Beata_Szyd%C5%82o_2017-03-25_09.jpg"
 canonicalSource: "https://newsinternacionaltep.com/categoria/ciencia"
 ---
 
@@ -21,7 +21,7 @@ Los reportes primarios recopilados por las corresponsalías y agencias de monito
 
 ## 2. Estado de la Situación y Dinámica Estructural
 
-![Evidencia y Registro Documental Primario - El Mapeo Completo del Conectoma Neuronal de Drosophila melanogaster y la Arquitectura Sináptica](https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?auto=format&fit=crop&w=1200&h=630&q=82)
+![Evidencia y Registro Documental Primario - El Mapeo Completo del Conectoma Neuronal de Drosophila melanogaster y la Arquitectura Sináptica](https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/US_Navy_100119-N-0807W-158_Capt._Francis_X._Martin%2C_commander_of_Fleet_Activities_Sasebo%2C_speaks_with_Japanese_media_at_a_ceremony_celebrating_the_50th_anniversary_of_the_signing_of_the_Treaty_of_Mutual_Cooperation_and_Security.jpg/1280px-thumbnail.jpg)
 *Figura 1: Mapeo y registro fotográfico documental archivado en la hemeroteca de News Internacional TEP.*
 
 La evolución empírica de los acontecimientos desmintió rápidamente los diagnósticos complacientes. La aceleración de las dinámicas en juego obligó a un reajuste de las previsiones institucionales, revelando una marcada correlación entre la exposición previa al riesgo y la celeridad del deterioro funcional en los sectores analizados.
@@ -40,7 +40,7 @@ El comportamiento de los indicadores determinantes durante este período histór
 
 ## 4. Evaluación de Escenarios y Modelado de Riesgo
 
-![Modelado de Trayectorias y Riesgo Sistémico](https://images.unsplash.com/photo-1530497610245-94d3c16cda28?auto=format&fit=crop&w=1200&h=630&q=82)
+![Modelado de Trayectorias y Riesgo Sistémico](https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/Vice_President_of_KAERI_In-Cheol_Lim_and_CTBTO_Executive_Secretary_Lassina_Zerbo_at_the_Radioxenon_Emissions_Pledge_Signing_Ceremony_%2810837102634%29.jpg/1280px-Vice_President_of_KAERI_In-Cheol_Lim_and_CTBTO_Executive_Secretary_Lassina_Zerbo_at_the_Radioxenon_Emissions_Pledge_Signing_Ceremony_%2810837102634%29.jpg)
 *Figura 2: Proyección de trayectorias y modelado de dispersión elaborado por la Unidad Cuantitativa TEP.*
 
 El análisis retrospectivo permite clasificar la trayectoria que finalmente se consolidó frente a las hipótesis alternativas que barajaban los comités en aquel entonces:

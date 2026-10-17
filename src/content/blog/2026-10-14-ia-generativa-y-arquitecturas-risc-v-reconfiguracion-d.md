@@ -5,7 +5,7 @@ pubDate: "2026-10-14"
 category: "Tecnología"
 tags: ["Semiconductores", "Inteligencia Artificial", "RISC-V", "Blockchain", "EDA"]
 author: "Comité Analítico TEP & Prospectiva"
-heroImage: "https://cdn.wccftech.com/wp-content/uploads/2026/10/RISC-V-1-1456x971.jpeg"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/Spectacles_2024_and_Meta_Quest_VR_Headset.jpg/1280px-Spectacles_2024_and_Meta_Quest_VR_Headset.jpg"
 canonicalSource: "https://wccftech.com/metas-muse-ai-agent-just-designed-a-crypto-specific-soc-on-the-risc-v-architecture-for-2000-to-transform-the-thru-blockchain-into-the-fastest-on-earth/"
 ---
 

@@ -5,7 +5,7 @@ pubDate: "2024-06-04"
 category: "Geopolítica"
 tags: ["Geopolítica", "Seguridad Internacional", "Diplomacia", "Defensa", "Gobernanza Global"]
 author: "Comité Analítico TEP & Archivo Histórico"
-heroImage: "https://images.unsplash.com/photo-1526304640581-d334cdbbf45e?auto=format&fit=crop&w=1200&h=630&q=82"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/Secretary_Tillerson_and_Foreign_Minister_Bishop_Hold_a_Bilateral_Meeting_During_AUSMIN_%2834295214973%29.jpg/1280px-Secretary_Tillerson_and_Foreign_Minister_Bishop_Hold_a_Bilateral_Meeting_During_AUSMIN_%2834295214973%29.jpg"
 canonicalSource: "https://newsinternacionaltep.com/categoria/geopolitica"
 ---
 
@@ -21,7 +21,7 @@ Los reportes primarios recopilados por las corresponsalías y agencias de monito
 
 ## 2. Estado de la Situación y Dinámica Estructural
 
-![Evidencia y Registro Documental Primario - El Corredor del Ártico y la Disputa Geopolítica por Rutas de Navegación Polar](https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1200&h=630&q=82)
+![Evidencia y Registro Documental Primario - El Corredor del Ártico y la Disputa Geopolítica por Rutas de Navegación Polar](https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/Secretary_Tillerson_and_Foreign_Minister_Bishop_Hold_a_Bilateral_Meeting_During_AUSMIN_%2834295215033%29.jpg/1280px-Secretary_Tillerson_and_Foreign_Minister_Bishop_Hold_a_Bilateral_Meeting_During_AUSMIN_%2834295215033%29.jpg)
 *Figura 1: Mapeo y registro fotográfico documental archivado en la hemeroteca de News Internacional TEP.*
 
 La evolución empírica de los acontecimientos desmintió rápidamente los diagnósticos complacientes. La aceleración de las dinámicas en juego obligó a un reajuste de las previsiones institucionales, revelando una marcada correlación entre la exposición previa al riesgo y la celeridad del deterioro funcional en los sectores analizados.
@@ -40,7 +40,7 @@ El comportamiento de los indicadores determinantes durante este período histór
 
 ## 4. Evaluación de Escenarios y Modelado de Riesgo
 
-![Modelado de Trayectorias y Riesgo Sistémico](https://images.unsplash.com/photo-1521791136064-7986c2920216?auto=format&fit=crop&w=1200&h=630&q=82)
+![Modelado de Trayectorias y Riesgo Sistémico](https://thumb.wikimedia.org/wikipedia/commons/thumb/d/de/Benching_Freight_Train_Graffiti_in_SoCal_%28July_24th_2021%29_%2851335017702%29.jpg/1280px-Benching_Freight_Train_Graffiti_in_SoCal_%28July_24th_2021%29_%2851335017702%29.jpg)
 *Figura 2: Proyección de trayectorias y modelado de dispersión elaborado por la Unidad Cuantitativa TEP.*
 
 El análisis retrospectivo permite clasificar la trayectoria que finalmente se consolidó frente a las hipótesis alternativas que barajaban los comités en aquel entonces:

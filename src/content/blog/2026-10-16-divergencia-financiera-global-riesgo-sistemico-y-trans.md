@@ -5,7 +5,7 @@ pubDate: "2026-10-17"
 category: "Economía"
 tags: ["Mercados Financieros", "Transici\u00f3n Energ\u00e9tica", "Riesgo Sist\u00e9mico", "Inflaci\u00f3n Global"]
 author: "Comité Analítico TEP & Prospectiva"
-heroImage: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1200&h=630&q=85"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cd/Ploeg_van_HPC_met_trainer%2C_Bestanddeelnr_919-4212.jpg/1280px-Ploeg_van_HPC_met_trainer%2C_Bestanddeelnr_919-4212.jpg"
 canonicalSource: "https://www.jornaldenegocios.pt/mercados/mercados-num-minuto/detalhe/bolsa-da-indonesia-afunda-mais-de-10-e-destaca-se-nas-pracas-asiaticas-ouro-mira-aos-4-200-dolares"
 ---
 

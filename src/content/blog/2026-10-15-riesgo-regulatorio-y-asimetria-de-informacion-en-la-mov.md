@@ -5,7 +5,7 @@ pubDate: "2026-10-15"
 category: "Economía"
 tags: ["Regulaci\u00f3n Financiera", "Riesgo Moral", "Seguros Automotrices", "Compliance Digital"]
 author: "Comité Analítico TEP & Prospectiva"
-heroImage: "https://i2.res.24o.it/images2010/S24/Documenti/2026/10/15/Immagini/Ritagli/Imagoeconomica_1551496-U07713714657dTs-1440x752@IlSole24Ore-Web.jpg"
+heroImage: "https://upload.wikimedia.org/wikipedia/commons/5/54/Foto_fachada_HPC_nueva.jpg"
 canonicalSource: "https://www.ilsole24ore.com/art/codice-strada-pugno-ferro-sull-rc-auto-multe-fino-4mila-euro-chi-circola-senza-polizza-AJRl3fjB"
 ---
 

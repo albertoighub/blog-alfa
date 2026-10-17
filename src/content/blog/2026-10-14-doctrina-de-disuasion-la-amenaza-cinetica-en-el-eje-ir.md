@@ -5,7 +5,7 @@ pubDate: "2026-10-14"
 category: "Geopolítica"
 tags: ["Seguridad Internacional", "Oriente Medio", "Disuasi\u00f3n Estrat\u00e9gica", "Energ\u00eda Nuclear"]
 author: "Comité Analítico TEP & Prospectiva"
-heroImage: "https://cdn.prod.www.spiegel.de/images/ea7788ed-0001-0004-0000-000001130050_w520_r2.08_fpx63.74_fpy50.7.jpg"
+heroImage: "https://upload.wikimedia.org/wikipedia/commons/4/4f/Durovis_Dive.JPG"
 canonicalSource: "https://www.spiegel.de/ausland/iran-donald-trump-regierung-erwaegt-offenbar-einsatz-von-mutter-aller-bomben-gegen-iran-a-9cafce66-ee72-4523-8dc7-1df18f3ce9a2#ref=rss"
 ---
 

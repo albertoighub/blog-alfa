@@ -5,7 +5,7 @@ pubDate: "2026-10-17"
 category: "Tecnología"
 tags: ["Semiconductores", "Geopol\u00edtica Industrial", "Resiliencia de Suministro", "GlobalFoundries", "Pol\u00edtica Tecnol\u00f3gica"]
 author: "Comité Analítico TEP & Prospectiva"
-heroImage: "https://cdn.techinasia.com/wp-content/uploads/2023/09/1695706888_shutterstock_2360207741-scaled.jpg"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/DurovisDive.JPG/1280px-DurovisDive.JPG"
 canonicalSource: "https://www.techinasia.com/invests-2b-quantum-firms-rival-china"
 ---
 

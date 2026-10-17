@@ -5,7 +5,7 @@ pubDate: "2023-11-04"
 category: "Geopolítica"
 tags: ["Geopolítica", "Seguridad Internacional", "Diplomacia", "Defensa", "Gobernanza Global"]
 author: "Comité Analítico TEP & Archivo Histórico"
-heroImage: "https://images.unsplash.com/photo-1526304640581-d334cdbbf45e?auto=format&fit=crop&w=1200&h=630&q=82"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/The_President%2C_Smt._Pratibha_Devisingh_Patil_inspecting_the_Guard_of_Honour_during_a_ceremonial_reception_given_to_her_at_Great_Hall_of_the_Peoples%2C_in_Beijing_on_May_27%2C_2010.jpg/1280px-thumbnail.jpg"
 canonicalSource: "https://newsinternacionaltep.com/categoria/geopolitica"
 ---
 
@@ -21,7 +21,7 @@ Los reportes primarios recopilados por las corresponsalías y agencias de monito
 
 ## 2. Estado de la Situación y Dinámica Estructural
 
-![Evidencia y Registro Documental Primario - Misiones de Paz de la ONU en Crisis: Desafíos Operativos y Legitimidad Multilateral](https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1200&h=630&q=82)
+![Evidencia y Registro Documental Primario - Misiones de Paz de la ONU en Crisis: Desafíos Operativos y Legitimidad Multilateral](https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0a/The_Prime_Minister%2C_Shri_Narendra_Modi%2C_the_Premier_of_Queensland%2C_Mr._Campbell_Newman_and_the_Lord_Mayor_of_Brisbane%2C_Mr._Graham_Quirk_at_the_Civic_Reception%2C_at_City_Hall%2C_in_Brisbane%2C_Australia_on_November_16%2C_2014.jpg/1280px-thumbnail.jpg)
 *Figura 1: Mapeo y registro fotográfico documental archivado en la hemeroteca de News Internacional TEP.*
 
 La evolución empírica de los acontecimientos desmintió rápidamente los diagnósticos complacientes. La aceleración de las dinámicas en juego obligó a un reajuste de las previsiones institucionales, revelando una marcada correlación entre la exposición previa al riesgo y la celeridad del deterioro funcional en los sectores analizados.
@@ -40,7 +40,7 @@ El comportamiento de los indicadores determinantes durante este período histór
 
 ## 4. Evaluación de Escenarios y Modelado de Riesgo
 
-![Modelado de Trayectorias y Riesgo Sistémico](https://images.unsplash.com/photo-1521791136064-7986c2920216?auto=format&fit=crop&w=1200&h=630&q=82)
+![Modelado de Trayectorias y Riesgo Sistémico](https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/The_Prime_Minister%2C_Shri_Narendra_Modi_being_received_by_the_Premier_of_Queensland%2C_Mr._Campbell_Newman_before_the_Civic_Reception%2C_at_City_Hall%2C_in_Brisbane%2C_Australia_on_November_16%2C_2014.jpg/1280px-thumbnail.jpg)
 *Figura 2: Proyección de trayectorias y modelado de dispersión elaborado por la Unidad Cuantitativa TEP.*
 
 El análisis retrospectivo permite clasificar la trayectoria que finalmente se consolidó frente a las hipótesis alternativas que barajaban los comités en aquel entonces:

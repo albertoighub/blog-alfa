@@ -5,7 +5,7 @@ pubDate: "2026-10-14"
 category: "Economía"
 tags: ["Finanzas Conductuales", "Transferencia de Riqueza", "Desigualdad Econ\u00f3mica", "Gesti\u00f3n Patrimonial"]
 author: "Comité Analítico TEP & Prospectiva"
-heroImage: "https://cdn.mos.cms.futurecdn.net/y3MEQH2gNHAJnB9nLieYSG-1920-80.jpg"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/Alcatel_Idol_4_with_VR_box.jpg/1280px-Alcatel_Idol_4_with_VR_box.jpg"
 canonicalSource: "https://www.kiplinger.com/retirement/inheritance/east-of-eden-stars-explain-the-wake-up-call-of-inheriting-wealth"
 ---
 
@@ -33,7 +33,9 @@ El estrés en los marcos tradicionales surge porque asumen una curva de aprendiz
 > "La transición de la dependencia al control financiero, cuando se inicia con capital heredado, es un proceso psicológico más que meramente contable. La falta de narrativa de esfuerzo productivo debilita el anclaje a las prácticas de gestión prudente." — Prof. Julian Thorne, Global Tax Policy Center.
 
 ## 3. Mecanismos Operativos y Núcleo Técnico
-El mecanismo causal principal se puede desglosar en una secuencia de tres etapas: Inyección de Capital $ightarrow$ Fricción Conductual $ightarrow$ Desviación Asignativa.
+El mecanismo causal principal se puede desglosar en una secuencia de tres etapas: Inyección de Capital $
+ightarrow$ Fricción Conductual $
+ightarrow$ Desviación Asignativa.
 
 La inyección de capital (I) genera un cambio abrupto en el umbral de riesgo percibido. La fricción conductual (F), impulsada por sesgos como la euforia del nuevo dinero, lleva a decisiones subóptimas: sobreinversión en activos especulativos o consumo excesivo no productivo. Finalmente, la desviación asignativa (D) resulta en una erosión neta de la riqueza potencial debido a costos transaccionales elevados, impuestos mal gestionados y malas decisiones estratégicas.
 

@@ -5,7 +5,7 @@ pubDate: "2023-11-24"
 category: "Geopolítica"
 tags: ["Geopolítica", "Seguridad Internacional", "Diplomacia", "Defensa", "Gobernanza Global"]
 author: "Comité Analítico TEP & Archivo Histórico"
-heroImage: "https://images.unsplash.com/photo-1577495508048-b635879837f1?auto=format&fit=crop&w=1200&h=630&q=82"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f5/Cerim%C3%B4nia_em_comemora%C3%A7%C3%A3o_ao_Dia_Internacional_dos_Peacekeepers_das_Na%C3%A7%C3%B5es_Unidas%2C_no_Comando_Militar_do_Planalto._%2817619022264%29.jpg/1280px-Cerim%C3%B4nia_em_comemora%C3%A7%C3%A3o_ao_Dia_Internacional_dos_Peacekeepers_das_Na%C3%A7%C3%B5es_Unidas%2C_no_Comando_Militar_do_Planalto._%2817619022264%29.jpg"
 canonicalSource: "https://newsinternacionaltep.com/categoria/geopolitica"
 ---
 
@@ -21,7 +21,7 @@ Los reportes primarios recopilados por las corresponsalías y agencias de monito
 
 ## 2. Estado de la Situación y Dinámica Estructural
 
-![Evidencia y Registro Documental Primario - La Disputa por los Fondos Marinos Internacionales y la Regulación Minera en Aguas Profundas](https://images.unsplash.com/photo-1541872703-74c5e44368f9?auto=format&fit=crop&w=1200&h=630&q=82)
+![Evidencia y Registro Documental Primario - La Disputa por los Fondos Marinos Internacionales y la Regulación Minera en Aguas Profundas](https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/Cerim%C3%B4nia_em_comemora%C3%A7%C3%A3o_ao_Dia_Internacional_dos_Peacekeepers_das_Na%C3%A7%C3%B5es_Unidas%2C_no_Comando_Militar_do_Planalto._%2817621024703%29.jpg/1280px-Cerim%C3%B4nia_em_comemora%C3%A7%C3%A3o_ao_Dia_Internacional_dos_Peacekeepers_das_Na%C3%A7%C3%B5es_Unidas%2C_no_Comando_Militar_do_Planalto._%2817621024703%29.jpg)
 *Figura 1: Mapeo y registro fotográfico documental archivado en la hemeroteca de News Internacional TEP.*
 
 La evolución empírica de los acontecimientos desmintió rápidamente los diagnósticos complacientes. La aceleración de las dinámicas en juego obligó a un reajuste de las previsiones institucionales, revelando una marcada correlación entre la exposición previa al riesgo y la celeridad del deterioro funcional en los sectores analizados.
@@ -40,7 +40,7 @@ El comportamiento de los indicadores determinantes durante este período histór
 
 ## 4. Evaluación de Escenarios y Modelado de Riesgo
 
-![Modelado de Trayectorias y Riesgo Sistémico](https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=1200&h=630&q=82)
+![Modelado de Trayectorias y Riesgo Sistémico](https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/Cerim%C3%B4nia_em_comemora%C3%A7%C3%A3o_ao_Dia_Internacional_dos_Peacekeepers_das_Na%C3%A7%C3%B5es_Unidas%2C_no_Comando_Militar_do_Planalto._%2818053799178%29.jpg/1280px-Cerim%C3%B4nia_em_comemora%C3%A7%C3%A3o_ao_Dia_Internacional_dos_Peacekeepers_das_Na%C3%A7%C3%B5es_Unidas%2C_no_Comando_Militar_do_Planalto._%2818053799178%29.jpg)
 *Figura 2: Proyección de trayectorias y modelado de dispersión elaborado por la Unidad Cuantitativa TEP.*
 
 El análisis retrospectivo permite clasificar la trayectoria que finalmente se consolidó frente a las hipótesis alternativas que barajaban los comités en aquel entonces:

@@ -5,7 +5,7 @@ pubDate: "2023-08-26"
 category: "Ciencia"
 tags: ["Ciencia", "Medicina", "Biotecnología", "Investigación Clínica", "Salud Pública"]
 author: "Comité Analítico TEP & Archivo Histórico"
-heroImage: "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=1200&h=630&q=82"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/H.E._Ms_Beatriz_Londo%C3%B1o_Soto%2C_Permanent_Representative_of_Colombia_in_Geneva_speaks_during_opening_panel_How_to_operationalize_the_Council%E2%80%99s_%E2%80%98prevention%E2%80%99_mandate_and_position_it_within_the_Secretary-G_%2834783183616%29.jpg/1280px-thumbnail.jpg"
 canonicalSource: "https://newsinternacionaltep.com/categoria/ciencia"
 ---
 
@@ -21,7 +21,7 @@ Los reportes primarios recopilados por las corresponsalías y agencias de monito
 
 ## 2. Estado de la Situación y Dinámica Estructural
 
-![Evidencia y Registro Documental Primario - La Síntesis Química del Genoma Eucariota Sintético Sc2.0 y el Futuro de la Biología de Diseño](https://images.unsplash.com/photo-1579165466791-788226ab77b6?auto=format&fit=crop&w=1200&h=630&q=82)
+![Evidencia y Registro Documental Primario - La Síntesis Química del Genoma Eucariota Sintético Sc2.0 y el Futuro de la Biología de Diseño](https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/High_Commissioner_Pillay_Addresses_HRC_Special_Session_on_Syria.jpg/1280px-High_Commissioner_Pillay_Addresses_HRC_Special_Session_on_Syria.jpg)
 *Figura 1: Mapeo y registro fotográfico documental archivado en la hemeroteca de News Internacional TEP.*
 
 La evolución empírica de los acontecimientos desmintió rápidamente los diagnósticos complacientes. La aceleración de las dinámicas en juego obligó a un reajuste de las previsiones institucionales, revelando una marcada correlación entre la exposición previa al riesgo y la celeridad del deterioro funcional en los sectores analizados.
@@ -40,7 +40,7 @@ El comportamiento de los indicadores determinantes durante este período histór
 
 ## 4. Evaluación de Escenarios y Modelado de Riesgo
 
-![Modelado de Trayectorias y Riesgo Sistémico](https://images.unsplash.com/photo-1516549655169-df83a0774514?auto=format&fit=crop&w=1200&h=630&q=82)
+![Modelado de Trayectorias y Riesgo Sistémico](https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/High_Commissioner_Pillay_Addresses_HRC_Special_Session_on_Syria_%283%29.jpg/1280px-High_Commissioner_Pillay_Addresses_HRC_Special_Session_on_Syria_%283%29.jpg)
 *Figura 2: Proyección de trayectorias y modelado de dispersión elaborado por la Unidad Cuantitativa TEP.*
 
 El análisis retrospectivo permite clasificar la trayectoria que finalmente se consolidó frente a las hipótesis alternativas que barajaban los comités en aquel entonces:

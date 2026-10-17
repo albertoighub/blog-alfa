@@ -5,7 +5,7 @@ pubDate: "2026-10-17"
 category: "Geopolítica"
 tags: ["Soft Power", "Econom\u00eda Creativa", "Desarrollo Regional", "Sud\u00e1frica"]
 author: "Comité Analítico TEP & Prospectiva"
-heroImage: "https://images.newsteam.io/image/1575/2Bq28FuGKoMVNP1pcGrEVyjiMSEL2xwwVFaV2Eqre6qsrnGmsdkUk1PRQTjUFxQuT3a2YnWmbmMJs18do8YBRDEsJF6zAtPzr8GqEGp6kiDa2B2VS81z7LJNwi1merDSw6b1TZMHipCADYyn9ihcdzs"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/High_Performance_Computing_Center_Stuttgart_HLRS_2015_07_Cray_XC40_Hazel_Hen_IO.jpg/1280px-High_Performance_Computing_Center_Stuttgart_HLRS_2015_07_Cray_XC40_Hazel_Hen_IO.jpg"
 canonicalSource: "https://mg.co.za/friday/2026-10-15-gig-guide-the-weekend-is-for-the-12th-african-women-writers-symposium-mimi-mtshali-to-perform-khaya-lami-ica-live-art-festival-returns-our-origin-festival-2026-and-zoe-modiga-returns-with-when-the-rain-comes/"
 ---
 

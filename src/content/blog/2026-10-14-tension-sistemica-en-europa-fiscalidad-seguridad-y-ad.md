@@ -5,7 +5,7 @@ pubDate: "2026-10-14"
 category: "Geopolítica"
 tags: ["Uni\u00f3n Europea", "Seguridad Energ\u00e9tica", "Finanzas P\u00fablicas", "Guerra H\u00edbrida"]
 author: "Comité Analítico TEP & Prospectiva"
-heroImage: "https://cdn.prod.www.spiegel.de/images/71bb7751-837f-4c89-ac5b-21c53c4cbf2c_w520_r2.08_fpx48.47_fpy54.97.jpg"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/Servers_at_LAAS_%28FDLS_2007%29_0392c.jpg/1280px-Servers_at_LAAS_%28FDLS_2007%29_0392c.jpg"
 canonicalSource: "https://www.spiegel.de/politik/deutschland/news-merz-verhandelt-ueber-eu-etat-kyjiw-bereitet-sich-auf-kriegswinter-vor-alkoholverbot-auf-bahnhoefen-a-faae7225-30a0-4a87-a0e8-6ea87cb78a10#ref=rss"
 ---
 

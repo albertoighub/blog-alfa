@@ -5,7 +5,7 @@ pubDate: "2026-10-15"
 category: "Tecnología"
 tags: ["Antitrust", "AGI", "AdTech", "Monopolios Digitales", "Regulaci\u00f3n Tecnol\u00f3gica"]
 author: "Comité Analítico TEP & Prospectiva"
-heroImage: "https://storage.ghost.io/c/a0/4c/a04c7225-d919-4d78-9b7c-a3fdd071349b/content/images/2026/09/shutterstock_2721011365.jpg"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/Atari_Portfolio_HPC-004-2385.jpg/1280px-Atari_Portfolio_HPC-004-2385.jpg"
 canonicalSource: "https://www.platformer.news/google-ad-tech-antitrust-futility/"
 ---
 

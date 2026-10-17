@@ -5,7 +5,7 @@ pubDate: "2023-07-24"
 category: "Ciencia"
 tags: ["Ciencia", "Medicina", "Biotecnología", "Investigación Clínica", "Salud Pública"]
 author: "Comité Analítico TEP & Archivo Histórico"
-heroImage: "https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?auto=format&fit=crop&w=1200&h=630&q=82"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/President_Gerald_R._Ford_and_President-Elect_Jimmy_Carter_Meeting_in_the_Oval_Office_to_Discuss_the_Presidential_Transition_-_NARA_-_45644329_%281%29.jpg/1280px-President_Gerald_R._Ford_and_President-Elect_Jimmy_Carter_Meeting_in_the_Oval_Office_to_Discuss_the_Presidential_Transition_-_NARA_-_45644329_%281%29.jpg"
 canonicalSource: "https://newsinternacionaltep.com/categoria/ciencia"
 ---
 
@@ -21,7 +21,7 @@ Los reportes primarios recopilados por las corresponsalías y agencias de monito
 
 ## 2. Estado de la Situación y Dinámica Estructural
 
-![Evidencia y Registro Documental Primario - Descubrimiento de Nuevos Antibióticos Mediante Modelos de Aprendizaje Profundo contra Acinetobacter](https://images.unsplash.com/photo-1530497610245-94d3c16cda28?auto=format&fit=crop&w=1200&h=630&q=82)
+![Evidencia y Registro Documental Primario - Descubrimiento de Nuevos Antibióticos Mediante Modelos de Aprendizaje Profundo contra Acinetobacter](https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/President_Gerald_R._Ford_and_President-Elect_Jimmy_Carter_Meeting_in_the_Oval_Office_to_Discuss_the_Presidential_Transition_-_NARA_-_45644329_%28%60%29.jpg/1280px-President_Gerald_R._Ford_and_President-Elect_Jimmy_Carter_Meeting_in_the_Oval_Office_to_Discuss_the_Presidential_Transition_-_NARA_-_45644329_%28%60%29.jpg)
 *Figura 1: Mapeo y registro fotográfico documental archivado en la hemeroteca de News Internacional TEP.*
 
 La evolución empírica de los acontecimientos desmintió rápidamente los diagnósticos complacientes. La aceleración de las dinámicas en juego obligó a un reajuste de las previsiones institucionales, revelando una marcada correlación entre la exposición previa al riesgo y la celeridad del deterioro funcional en los sectores analizados.
@@ -40,7 +40,7 @@ El comportamiento de los indicadores determinantes durante este período histór
 
 ## 4. Evaluación de Escenarios y Modelado de Riesgo
 
-![Modelado de Trayectorias y Riesgo Sistémico](https://images.unsplash.com/photo-1507668077129-56e32842fceb?auto=format&fit=crop&w=1200&h=630&q=82)
+![Modelado de Trayectorias y Riesgo Sistémico](https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/President_Ronald_Reagan_During_An_Oval_Office_Meeting_and_Working_Visit_of_Prime_Minister_Thatcher_of_The_United_Kingdom_-_DPLA_-_abaa33663278653460d0cd85dd9057ca.jpg/1280px-thumbnail.jpg)
 *Figura 2: Proyección de trayectorias y modelado de dispersión elaborado por la Unidad Cuantitativa TEP.*
 
 El análisis retrospectivo permite clasificar la trayectoria que finalmente se consolidó frente a las hipótesis alternativas que barajaban los comités en aquel entonces:

@@ -5,7 +5,7 @@ pubDate: "2021-04-12"
 category: "Tecnología"
 tags: ["Tecnología", "Inteligencia Artificial", "Semiconductores", "Ciberseguridad", "Computación Avanzada"]
 author: "Comité Analítico TEP & Archivo Histórico"
-heroImage: "https://images.unsplash.com/photo-1525547719571-a2d4ac8945e2?auto=format&fit=crop&w=1200&h=630&q=82"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/Milano%2C_piazza_della_Scala%2C_10_ottobre_2026%2C_manifestazione_di_protesta_contro_il_proliferare_incontrollato_di_nuovi_data_center_sul_territorio_nazionale_%282%29.jpg/1280px-thumbnail.jpg"
 canonicalSource: "https://newsinternacionaltep.com/categoria/tecnologia"
 ---
 
@@ -21,7 +21,7 @@ Los reportes primarios recopilados por las corresponsalías y agencias de monito
 
 ## 2. Estado de la Situación y Dinámica Estructural
 
-![Evidencia y Registro Documental Primario - Vulnerabilidad Log4j y los Riesgos Sistémicos de la Dependencia del Software de Código Abierto](https://images.unsplash.com/photo-1620712943543-bcc4688e7485?auto=format&fit=crop&w=1200&h=630&q=82)
+![Evidencia y Registro Documental Primario - Vulnerabilidad Log4j y los Riesgos Sistémicos de la Dependencia del Software de Código Abierto](https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Mural_in_Northeast_Pavilion%2C_Thomas_Jefferson_Building%2C_Washington_D.C.%2C_by_Elmer_E._Garnsey_11670u_edit.jpg/1280px-Mural_in_Northeast_Pavilion%2C_Thomas_Jefferson_Building%2C_Washington_D.C.%2C_by_Elmer_E._Garnsey_11670u_edit.jpg)
 *Figura 1: Mapeo y registro fotográfico documental archivado en la hemeroteca de News Internacional TEP.*
 
 La evolución empírica de los acontecimientos desmintió rápidamente los diagnósticos complacientes. La aceleración de las dinámicas en juego obligó a un reajuste de las previsiones institucionales, revelando una marcada correlación entre la exposición previa al riesgo y la celeridad del deterioro funcional en los sectores analizados.
@@ -40,7 +40,7 @@ El comportamiento de los indicadores determinantes durante este período histór
 
 ## 4. Evaluación de Escenarios y Modelado de Riesgo
 
-![Modelado de Trayectorias y Riesgo Sistémico](https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&w=1200&h=630&q=82)
+![Modelado de Trayectorias y Riesgo Sistémico](https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/Nowruz_Festival_DC_2016_%2825243738794%29.jpg/1280px-Nowruz_Festival_DC_2016_%2825243738794%29.jpg)
 *Figura 2: Proyección de trayectorias y modelado de dispersión elaborado por la Unidad Cuantitativa TEP.*
 
 El análisis retrospectivo permite clasificar la trayectoria que finalmente se consolidó frente a las hipótesis alternativas que barajaban los comités en aquel entonces:

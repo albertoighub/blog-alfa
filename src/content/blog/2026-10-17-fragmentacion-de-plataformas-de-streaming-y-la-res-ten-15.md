@@ -5,7 +5,7 @@ pubDate: "2026-10-17"
 category: "Tendencias"
 tags: ["Sociolog\u00eda Digital", "Algoritmos de Atenci\u00f3n", "Econom\u00eda de Plataformas", "Polarizaci\u00f3n", "Cultura Digital"]
 author: "Comité Analítico TEP & Prospectiva"
-heroImage: "https://images.unsplash.com/photo-1551836022-d5d88e9218df?auto=format&fit=crop&w=1200&h=630&q=82"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d8/Lorenzo_Angeloni_and_the_Director_General%2C_National_Gallery_of_Modern_Art%2C_Shri_Adwaita_Charan_Garanayak_at_the_inauguration_of_the_exhibition.jpg/1280px-Lorenzo_Angeloni_and_the_Director_General%2C_National_Gallery_of_Modern_Art%2C_Shri_Adwaita_Charan_Garanayak_at_the_inauguration_of_the_exhibition.jpg"
 canonicalSource: "https://newsinternacionaltep.com/categoria/tendencias"
 ---
 
@@ -21,7 +21,7 @@ El análisis de series temporales de tráfico y engagement demuestra que los inc
 
 ## 2. Estado del Arte y Dinámica Estructural
 
-![Análisis Documental Primario - Fragmentación de Plataformas de Streaming y la Resurgencia de ](https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=1000&h=500&q=82)
+![Análisis Documental Primario - Fragmentación de Plataformas de Streaming y la Resurgencia de ](https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/Manmohan_Singh_addressing_at_the_inauguration_of_the_exhibition_%22The_Master%27s_Strokes_Art_of_Rabindranath_Tagore%22%2C_on_the_occasion_of_Gurudev_Rabindranath_Tagore%E2%80%99s_150th_Birth_Anniversary%2C_at_National_Gallery_of_Modern_Art.jpg/1280px-thumbnail.jpg)
 *Figura 1: Representación técnica y mapeo contextual del fenómeno analizado.*
 Durante la última década, el modelo de negocio publicitario digital evolucionó desde banners estáticos hacia arquitecturas de aprendizaje por refuerzo profundo. En este contexto, el fenómeno estudiado ha consolidado una economía donde la atención humana es cuantificada, microsegmentada y subastada en milisegundos.
 
@@ -39,7 +39,7 @@ El mecanismo operativo descansa sobre bucles de recompensa intermitente variable
 
 ## 4. Evaluación de Escenarios y Modelado de Riesgo
 
-![Modelado de Trayectorias y Riesgo Sistémico](https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=1000&h=500&q=82)
+![Modelado de Trayectorias y Riesgo Sistémico](https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f1/Manmohan_Singh_going_round_the_exhibition_%22The_Master%27s_Strokes_Art_of_Rabindranath_Tagore%22%2C_on_the_occasion_of_Gurudev_Rabindranath_Tagore%E2%80%99s_150th_Birth_Anniversary%2C_at_National_Gallery_of_Modern_Art%2C_in_New_Delhi_%282%29.jpg/1280px-thumbnail.jpg)
 *Figura 2: Telemetría de variables y dispersión de escenarios probabilísticos.*
 Se plantearon tres escenarios de evolución sociotécnica para evaluar las transformaciones en la cohesión cívica y regulatoria:
 

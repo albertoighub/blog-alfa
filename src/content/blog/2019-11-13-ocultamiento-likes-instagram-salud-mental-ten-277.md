@@ -5,7 +5,7 @@ pubDate: "2019-11-13"
 category: "Tendencias"
 tags: ["Redes Sociales", "Dinámica Digital", "Cultura Algorítmica", "Plataformas", "Comportamiento Colectivo"]
 author: "Comité Analítico TEP & Archivo Histórico"
-heroImage: "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=1200&h=630&q=82"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/U.S._Air_Force_Senior_Airman_Daniel_Burkhardt%2C_an_Air_Force_broadcast_journalist_with_the_11th_Wing_Public_Affairs%2C_supporting_Joint_Task_Force_-_National_Capital_Region_57th_Presidential_Inauguration%2C_puts_130114-A-ZZ999-002.jpg/1280px-thumbnail.jpg"
 canonicalSource: "https://newsinternacionaltep.com/categoria/tendencias"
 ---
 
@@ -21,7 +21,7 @@ Los reportes primarios recopilados por las corresponsalías y agencias de monito
 
 ## 2. Estado de la Situación y Dinámica Estructural
 
-![Evidencia y Registro Documental Primario - La Decisión de Ocultar los Contadores de 'Likes' en Instagram y el Debate sobre Salud Mental Juvenil](https://images.unsplash.com/photo-1534536281715-e28d76689b4d?auto=format&fit=crop&w=1200&h=630&q=82)
+![Evidencia y Registro Documental Primario - La Decisión de Ocultar los Contadores de 'Likes' en Instagram y el Debate sobre Salud Mental Juvenil](https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/U.S._Air_Force_Senior_Airman_Daniel_Burkhardt%2C_left%2C_and_Staff_Sgt._Christopher_Bevins%2C_both_Air_Force_broadcast_journalists_with_the_11th_Wing_Public_Affairs%2C_supporting_Joint_Task_Force_-_National_Capital_130114-A-ZZ999-003.jpg/1280px-thumbnail.jpg)
 *Figura 1: Mapeo y registro fotográfico documental archivado en la hemeroteca de News Internacional TEP.*
 
 La evolución empírica de los acontecimientos desmintió rápidamente los diagnósticos complacientes. La aceleración de las dinámicas en juego obligó a un reajuste de las previsiones institucionales, revelando una marcada correlación entre la exposición previa al riesgo y la celeridad del deterioro funcional en los sectores analizados.
@@ -40,7 +40,7 @@ El comportamiento de los indicadores determinantes durante este período histór
 
 ## 4. Evaluación de Escenarios y Modelado de Riesgo
 
-![Modelado de Trayectorias y Riesgo Sistémico](https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=1200&h=630&q=82)
+![Modelado de Trayectorias y Riesgo Sistémico](https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/U.S._Air_Force_Senior_Airman_Daniel_Burkhardt%2C_right%2C_and_Staff_Sgt._Christopher_Bevins%2C_both_broadcast_journalists_supporting_Joint_Task_Force-National_Capital_Region%2C_put_the_finishing_touches_on_a_cell_phone_130116-A-MZ229-004.jpg/1280px-thumbnail.jpg)
 *Figura 2: Proyección de trayectorias y modelado de dispersión elaborado por la Unidad Cuantitativa TEP.*
 
 El análisis retrospectivo permite clasificar la trayectoria que finalmente se consolidó frente a las hipótesis alternativas que barajaban los comités en aquel entonces:

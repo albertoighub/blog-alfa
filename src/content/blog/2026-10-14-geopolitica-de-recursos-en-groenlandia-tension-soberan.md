@@ -5,7 +5,7 @@ pubDate: "2026-10-14"
 category: "Geopolítica"
 tags: ["\u00c1rtico", "Soberan\u00eda", "Recursos Cr\u00edticos", "Geoeconom\u00eda", "Descarbonizaci\u00f3n"]
 author: "Comité Analítico TEP & Prospectiva"
-heroImage: "https://cdn.prod.www.spiegel.de/images/ed418996-29e6-43a1-81fc-90805c354305_w520_r2.08_fpx47.33_fpy44.99.jpg"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/70/Plongeon_sur_une_chemin%C3%A9e_hydrothermale_en_r%C3%A9alit%C3%A9_virtuelle_%28Ifremer_00703-81530%29.jpg/1280px-Plongeon_sur_une_chemin%C3%A9e_hydrothermale_en_r%C3%A9alit%C3%A9_virtuelle_%28Ifremer_00703-81530%29.jpg"
 canonicalSource: "https://www.spiegel.de/ausland/donald-trump-groenlaendische-regierung-wiederspricht-aussagen-ueber-rohstoffe-a-33e14432-41be-428e-8630-fb866e3541c2#ref=rss"
 ---
 

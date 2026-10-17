@@ -5,7 +5,7 @@ pubDate: "2023-07-16"
 category: "Geopolítica"
 tags: ["Geopolítica", "Seguridad Internacional", "Diplomacia", "Defensa", "Gobernanza Global"]
 author: "Comité Analítico TEP & Archivo Histórico"
-heroImage: "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=1200&h=630&q=82"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/Meeting_with_Bipartisan_Members_of_Congress_to_Discuss_1983_Budget_in_Oval_Office_with_George_Bush_Tip_O%27Neill_Bob_Michel_Howard_Baker_-_DPLA_-_aa59a9b3541269d6314dd2783382810e.jpg/1280px-thumbnail.jpg"
 canonicalSource: "https://newsinternacionaltep.com/categoria/geopolitica"
 ---
 
@@ -21,7 +21,7 @@ Los reportes primarios recopilados por las corresponsalías y agencias de monito
 
 ## 2. Estado de la Situación y Dinámica Estructural
 
-![Evidencia y Registro Documental Primario - Geopolítica de los Cables Submarinos y la Protección del Tráfico Global de Datos](https://images.unsplash.com/photo-1507679799987-c73779587ccf?auto=format&fit=crop&w=1200&h=630&q=82)
+![Evidencia y Registro Documental Primario - Geopolítica de los Cables Submarinos y la Protección del Tráfico Global de Datos](https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/Meeting_with_Mother_Teresa_of_Calcutta_with_Sister_Priscilla_in_Oval_Office_-_DPLA_-_8eecb8f96742ffa50f67ef956b8f2e35.jpg/1280px-Meeting_with_Mother_Teresa_of_Calcutta_with_Sister_Priscilla_in_Oval_Office_-_DPLA_-_8eecb8f96742ffa50f67ef956b8f2e35.jpg)
 *Figura 1: Mapeo y registro fotográfico documental archivado en la hemeroteca de News Internacional TEP.*
 
 La evolución empírica de los acontecimientos desmintió rápidamente los diagnósticos complacientes. La aceleración de las dinámicas en juego obligó a un reajuste de las previsiones institucionales, revelando una marcada correlación entre la exposición previa al riesgo y la celeridad del deterioro funcional en los sectores analizados.
@@ -40,7 +40,7 @@ El comportamiento de los indicadores determinantes durante este período histór
 
 ## 4. Evaluación de Escenarios y Modelado de Riesgo
 
-![Modelado de Trayectorias y Riesgo Sistémico](https://images.unsplash.com/photo-1572949645841-094f3a9c4c94?auto=format&fit=crop&w=1200&h=630&q=82)
+![Modelado de Trayectorias y Riesgo Sistémico](https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/Meeting_with_William_Casey_and_George_Bush_John_Poindexter_Don_Fortier_Don_Regan_in_Oval_Office_-_DPLA_-_c987438ce22fa045374591b6aaa1f9ef.jpg/1280px-Meeting_with_William_Casey_and_George_Bush_John_Poindexter_Don_Fortier_Don_Regan_in_Oval_Office_-_DPLA_-_c987438ce22fa045374591b6aaa1f9ef.jpg)
 *Figura 2: Proyección de trayectorias y modelado de dispersión elaborado por la Unidad Cuantitativa TEP.*
 
 El análisis retrospectivo permite clasificar la trayectoria que finalmente se consolidó frente a las hipótesis alternativas que barajaban los comités en aquel entonces:

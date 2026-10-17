@@ -5,7 +5,7 @@ pubDate: "2026-10-16"
 category: "Economía"
 tags: ["Responsabilidad Estricta", "Inteligencia Artificial", "Regulaci\u00f3n Algor\u00edtmica", "Externalidades Negativas"]
 author: "Comité Analítico TEP & Prospectiva"
-heroImage: "https://fortune.com/img-assets/wp-content/uploads/2026/10/GettyImages-2297765991_574855-e1791918169970.jpg?w=2048"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/Atari_Portfolio_HPC-004_-_display_part_-_board_-_TDA7050T-4663.jpg/1280px-Atari_Portfolio_HPC-004_-_display_part_-_board_-_TDA7050T-4663.jpg"
 canonicalSource: "https://fortune.com/2026/10/13/strict-liability-is-gaining-traction-as-a-solution-to-force-ai-companies-to-institute-better-safety-controls-but-it-has-some-big-downsides-too/"
 ---
 

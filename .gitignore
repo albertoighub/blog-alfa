@@ -22,3 +22,8 @@ pnpm-debug.log*
 
 # jetbrains setting folder
 .idea/
+
+# Python cache & data
+__pycache__/
+*.pyc
+unique_images_pool.json

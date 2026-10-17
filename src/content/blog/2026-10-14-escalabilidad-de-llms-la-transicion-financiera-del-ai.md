@@ -5,7 +5,7 @@ pubDate: "2026-10-17"
 category: "Tecnología"
 tags: ["Inteligencia Artificial", "Modelos Fundacionales", "Finanzas Tecnol\u00f3gicas", "Computaci\u00f3n de Alto Rendimiento"]
 author: "Comité Analítico TEP & Prospectiva"
-heroImage: "https://cdn.techinasia.com/wp-content/uploads/2026/10/1791331420_1789780812_1788835629_1787009304_1785209024_1783813319_1781257229_1776386292_1774400708_ant.png"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/HTC_Vive_Headset_-_Interpupillary_Distance_%28IPD%29_Knob.jpg/1280px-HTC_Vive_Headset_-_Interpupillary_Distance_%28IPD%29_Knob.jpg"
 canonicalSource: "https://www.techinasia.com/anthropic-eyes-2t-valuation-ipo-filing-reveals-costs"
 ---
 

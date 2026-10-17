@@ -5,7 +5,7 @@ pubDate: "2026-10-15"
 category: "Tecnología"
 tags: ["E-mobility", "Smart Grids", "Pol\u00edtica Energ\u00e9tica", "Transici\u00f3n Digital"]
 author: "Comité Analítico TEP & Prospectiva"
-heroImage: "https://www.01net.com/app/uploads/2026/10/borne-recharge-voiture-electrique-1344x896.jpg"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/Wikimedia_Foundation_Servers-8055_31.jpg/1280px-Wikimedia_Foundation_Servers-8055_31.jpg"
 canonicalSource: "https://www.01net.com/actualites/500-e-pour-installer-une-borne-de-recharge-chez-soi-la-nouvelle-aide-de-2027-ne-sera-pas-pour-tout-le-monde.html"
 ---
 

@@ -5,7 +5,7 @@ pubDate: "2026-10-17"
 category: "Ciencia"
 tags: ["Biomedicina", "Investigaci\u00f3n Cl\u00ednica", "Mecanismos Moleculares", "Salud P\u00fablica", "Biotecnolog\u00eda"]
 author: "Comité Analítico TEP & Prospectiva"
-heroImage: "https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?auto=format&fit=crop&w=1200&h=630&q=82"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/SpaceX%2C_Falcon_9%2C_Amazonas_Nexus%2C_02-06-2023_%2852674350430%29.jpg/1280px-SpaceX%2C_Falcon_9%2C_Amazonas_Nexus%2C_02-06-2023_%2852674350430%29.jpg"
 canonicalSource: "https://newsinternacionaltep.com/categoria/ciencia"
 ---
 
@@ -21,25 +21,14 @@ Diversos ensayos clínicos fase II y III han evidenciado que la interacción mol
 
 ## 2. Estado del Arte y Dinámica Estructural
 
-![Análisis Documental Primario - Mecanismos Moleculares de la Terapia Fotodinámica en Infeccion](https://images.unsplash.com/photo-1576086213369-97a306d36557?auto=format&fit=crop&w=1200&h=630&q=82
-*Figura 1: Representación técnica y mapeo contextual del fenómeno analizado.*
-Históricamente, la investigación en este segmento estuvo restringida por la baja sensibilidad de las plataformas de detección y los cuellos de botella en la manufactura biológica. La adopción de técnicas de secuenciación masiva y microfluídica ha transformado radicalmente el panorama experimental, permitiendo aislar variables con un error analítico inferior al 1.5%.
-
-La tensión entre la regulación de biofármacos y la urgencia epidemiológica plantea desafíos institucionales sin precedentes, donde la reproducibilidad de los datos primarios se sitúa como el único filtro legítimo de validación científica.
-
-## 3. Mecanismos Operativos y Núcleo Técnico
-El núcleo funcional opera mediante la estabilización de gradientes electroquímicos y la inhibición competitiva de receptores diana, lo que modula la cascada de señalización intracelular con alta selectividad tisular.
-
-| Variable de Análisis | Parámetro Histórico / Base | Magnitud / Proyección de Impacto | Mecanismo Causal |
-| :--- | :--- | :--- | :--- |
-| **Afinidad de Unión (Kd)** | 14.8 nM | 0.42 nM (Afianzamiento x35) | Optimización conformacional de bolsillo hidrofóbico |
+![Análisis Documental Primario - Mecanismos Moleculares de la Terapia Fotodinámica en Infeccion](https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/SpaceX_CRS-14_Falcon_9_rocket_lifts_off_%28KSC-20180402-PH_AWG01_0021%29.jpg/1280px-SpaceX_CRS-14_Falcon_9_rocket_lifts_off_%28KSC-20180402-PH_AWG01_0021%29.jpg)** | 14.8 nM | 0.42 nM (Afianzamiento x35) | Optimización conformacional de bolsillo hidrofóbico |
 | **Tiempo de Vida Media Plasmática** | 4.2 horas | 28.6 horas (+580%) | Conjugación polimérica y evasión del aclaramiento renal |
 | **Tasa de Respuesta Global** | 26.5% | 71.4% (p < 0.001) | Sinergia combinatoria con agentes de modulación inmune |
 | **Índice de Toxicidad Limitante** | Grado 3 en 18% pacientes | Reducción a Grado 1 en <3% | Direccionamiento nanoparticulado mediante ligandos afines |
 
 ## 4. Evaluación de Escenarios y Modelado de Riesgo
 
-![Modelado de Trayectorias y Riesgo Sistémico](https://images.unsplash.com/photo-1563245372-f21724e3856d?auto=format&fit=crop&w=1000&h=500&q=82)
+![Modelado de Trayectorias y Riesgo Sistémico](https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/SpaceX_CRS-14_Falcon_9_rocket_lifts_off_%28KSC-20180402-PH_AWG01_0023%29.jpg/1280px-SpaceX_CRS-14_Falcon_9_rocket_lifts_off_%28KSC-20180402-PH_AWG01_0023%29.jpg)
 *Figura 2: Telemetría de variables y dispersión de escenarios probabilísticos.*
 Para dimensionar el impacto de su adopción a escala macro-sanitaria, se modelaron tres trayectorias prospectivas bajo condiciones de heterogeneidad clínica:
 

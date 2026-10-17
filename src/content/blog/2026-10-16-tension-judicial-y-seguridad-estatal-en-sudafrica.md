@@ -5,7 +5,7 @@ pubDate: "2026-10-16"
 category: "Geopolítica"
 tags: ["Derecho Penal", "Seguridad Estatal", "Gobernanza Judicial", "Sud\u00e1frica"]
 author: "Comité Analítico TEP & Prospectiva"
-heroImage: "https://images.newsteam.io/image/679/GbSdY1y2zcpt9JVj9pewCmd4NWEHDxQSJi755KXQdbnJubz58cpFdpeTiXUEXpExMsQHuz7r3g9VLmZ5NtWn1p1AcMnwddgLBUzF8ouv6JTUTv8fv2RDpMGXb1CiuWRCzxQFHmDv3bpZhqsYWJ4hL"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/Atari_Portfolio_HPC-004_-_keypad-4654.jpg/1280px-Atari_Portfolio_HPC-004_-_keypad-4654.jpg"
 canonicalSource: "https://mg.co.za/news/south-africa/2026-10-14-state-raises-witness-safety-concerns-as-sibiya-s-defence-challenges-detention/"
 ---
 
@@ -29,7 +29,11 @@ La evolución legal ha visto un tránsito desde el enfoque puramente penal hacia
 > "La securitización del derecho penal implica que las preocupaciones sobre la estabilidad social pueden primar sobre los principios fundamentales del debido proceso. Esto requiere una vigilancia metodológica constante por parte de los órganos de supervisión judicial." — Dr. Alistair Vance, Catedrático de Derecho Constitucional, Universidad de Oxford.
 
 ## 3. Mecanismos Operativos y Núcleo Técnico (The Science)
-El mecanismo causal en disputa opera a través de un ciclo de retroalimentación negativa: Alta criminalidad $ightarrow$ Intimidación de testigos $ightarrow$ Elevada percepción de riesgo estatal $ightarrow$ Restricción judicial de libertad $ightarrow$ Deterioro del proceso legal y desconfianza pública.
+El mecanismo causal en disputa opera a través de un ciclo de retroalimentación negativa: Alta criminalidad $
+ightarrow$ Intimidación de testigos $
+ightarrow$ Elevada percepción de riesgo estatal $
+ightarrow$ Restricción judicial de libertad $
+ightarrow$ Deterioro del proceso legal y desconfianza pública.
 
 La arquitectura técnica subyacente es la tensión entre el *Modelo Liberal Clásico* (énfasis en derechos individuales) y el *Modelo de Seguridad Neoinstitucional* (énfasis en la estabilidad sistémica). La defensa argumenta que la detención impone un costo financiero desproporcionado, lo cual impacta directamente la capacidad de preparación del caso. El Estado contrapone que este costo es marginal frente al riesgo existencial para el sistema judicial.
 

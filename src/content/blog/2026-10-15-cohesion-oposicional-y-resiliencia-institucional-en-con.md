@@ -5,7 +5,7 @@ pubDate: "2026-10-15"
 category: "Geopolítica"
 tags: ["Polarizaci\u00f3n Pol\u00edtica", "Estrategia Electoral", "Resiliencia Democr\u00e1tica", "Din\u00e1micas de Poder"]
 author: "Comité Analítico TEP & Prospectiva"
-heroImage: "https://www.latercera.com/resizer/v2/52YWGF5VTBAHTLB2GI4KDUDJLE.jpeg?auth=b231f9896a256c169e5a20b7aa199392979a17c71702449093ab3a16810e1216&smart=true&width=4032&height=3024"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/IBM_server_rack_-_IMG_0425.jpg/960px-IBM_server_rack_-_IMG_0425.jpg"
 canonicalSource: "https://www.latercera.com/politica/noticia/los-consejos-y-revelaciones-de-bachelet-y-boric-a-los-lideres-de-la-oposicion-puertas-adentro/"
 ---
 

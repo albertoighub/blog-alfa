@@ -5,7 +5,7 @@ pubDate: "2026-10-14"
 category: "Economía"
 tags: ["Bienes Duraderos", "Costos de Transacci\u00f3n", "Resiliencia de Mercado", "Asimetr\u00eda de Informaci\u00f3n"]
 author: "Comité Analítico TEP & Prospectiva"
-heroImage: "https://cdn.mos.cms.futurecdn.net/Yxu9E6SK9s4GGXtdixcrm8-1920-80.jpg"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/HP_9101A_extended_memory_unit.-_magnetic_core_memory_module_-solder_view.jpg/1280px-HP_9101A_extended_memory_unit.-_magnetic_core_memory_module_-solder_view.jpg"
 canonicalSource: "https://www.kiplinger.com/personal-finance/buying-major-appliances-work-with-local-expert"
 ---
 

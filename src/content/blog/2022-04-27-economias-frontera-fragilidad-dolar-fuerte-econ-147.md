@@ -5,7 +5,7 @@ pubDate: "2022-04-27"
 category: "Economía"
 tags: ["Economía Global", "Bancos Centrales", "Mercados Financieros", "Política Monetaria", "Comercio Internacional"]
 author: "Comité Analítico TEP & Archivo Histórico"
-heroImage: "https://images.unsplash.com/photo-1559526324-4b87b5e36e44?auto=format&fit=crop&w=1200&h=630&q=82"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/The_tanker_Cielo_Di_Gaeta_lying_at_the_oil_refinery_jetties_-_geograph.org.uk_-_5143241.jpg/1280px-The_tanker_Cielo_Di_Gaeta_lying_at_the_oil_refinery_jetties_-_geograph.org.uk_-_5143241.jpg"
 canonicalSource: "https://newsinternacionaltep.com/categoria/economia"
 ---
 
@@ -21,7 +21,7 @@ Los reportes primarios recopilados por las corresponsalías y agencias de monito
 
 ## 2. Estado de la Situación y Dinámica Estructural
 
-![Evidencia y Registro Documental Primario - La Fragilidad Financiera de las Economías de Frontera frente al Fortalecimiento del Dólar](https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1200&h=630&q=82)
+![Evidencia y Registro Documental Primario - La Fragilidad Financiera de las Economías de Frontera frente al Fortalecimiento del Dólar](https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/The_tanker_Sten_Arnold_lying_at_the_oil_refinery_jetties_-_geograph.org.uk_-_5154724.jpg/1280px-The_tanker_Sten_Arnold_lying_at_the_oil_refinery_jetties_-_geograph.org.uk_-_5154724.jpg)
 *Figura 1: Mapeo y registro fotográfico documental archivado en la hemeroteca de News Internacional TEP.*
 
 La evolución empírica de los acontecimientos desmintió rápidamente los diagnósticos complacientes. La aceleración de las dinámicas en juego obligó a un reajuste de las previsiones institucionales, revelando una marcada correlación entre la exposición previa al riesgo y la celeridad del deterioro funcional en los sectores analizados.
@@ -40,7 +40,7 @@ El comportamiento de los indicadores determinantes durante este período histór
 
 ## 4. Evaluación de Escenarios y Modelado de Riesgo
 
-![Modelado de Trayectorias y Riesgo Sistémico](https://images.unsplash.com/photo-1526304640581-d334cdbbf45e?auto=format&fit=crop&w=1200&h=630&q=82)
+![Modelado de Trayectorias y Riesgo Sistémico](https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/The_tanker_Wisby_Verity_alongside_the_oil_refinery_jetties_-_geograph.org.uk_-_5143741.jpg/1280px-The_tanker_Wisby_Verity_alongside_the_oil_refinery_jetties_-_geograph.org.uk_-_5143741.jpg)
 *Figura 2: Proyección de trayectorias y modelado de dispersión elaborado por la Unidad Cuantitativa TEP.*
 
 El análisis retrospectivo permite clasificar la trayectoria que finalmente se consolidó frente a las hipótesis alternativas que barajaban los comités en aquel entonces:

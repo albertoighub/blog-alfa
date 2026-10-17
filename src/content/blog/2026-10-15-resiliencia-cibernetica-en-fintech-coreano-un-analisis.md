@@ -5,7 +5,7 @@ pubDate: "2026-10-15"
 category: "Tecnología"
 tags: ["Ciberseguridad", "Regulaci\u00f3n Financiera", "FinTech", "Riesgo Sist\u00e9mico"]
 author: "Comité Analítico TEP & Prospectiva"
-heroImage: "https://s3-images.ctmedia.io/media/article-covers/2026/10/01M4Z1KM9Q4QJVB0NC8VRX5GG8/south-korea-coin-1.jpg"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/Chateau_Frontenac_at_dusk_in_Quebec_City.jpg/1280px-Chateau_Frontenac_at_dusk_in_Quebec_City.jpg"
 canonicalSource: "https://cointelegraph.com/news/south-korea-cybersecurity-overhaul-crypto-exchanges?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
 ---
 

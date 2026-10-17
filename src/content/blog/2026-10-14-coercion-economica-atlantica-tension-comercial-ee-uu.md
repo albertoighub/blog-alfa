@@ -5,7 +5,7 @@ pubDate: "2026-10-14"
 category: "Geopolítica"
 tags: ["Comercio Internacional", "Pol\u00edtica Industrial", "Relaciones UE-EE. UU.", "Riesgo Sist\u00e9mico"]
 author: "Comité Analítico TEP & Prospectiva"
-heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/US-TradeRepresentative-Seal.svg/1280px-US-TradeRepresentative-Seal.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/Beard-eyewear-htc-vive-373905.jpg/1280px-Beard-eyewear-htc-vive-373905.jpg"
 canonicalSource: "https://www.elnacional.com/2026/10/ee-uu-propone-imponer-tasas-a-buques-espanoles-y-restringir-ciertas-importaciones-de-espana/"
 ---
 

@@ -5,7 +5,7 @@ pubDate: "2026-10-14"
 category: "Tecnología"
 tags: ["Telecomunicaciones", "Finanzas Emergentes", "Infraestructura Digital", "India", "Capitalizaci\u00f3n de Mercado"]
 author: "Comité Analítico TEP & Prospectiva"
-heroImage: "https://cdn.techinasia.com/wp-content/uploads/2026/10/1792024794_1692588601_shutterstock_1288454515.jpg"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/eb/VR_Headset_Facebook_Oculus_Gamescom_2019_%2848605656416%29.jpg/1280px-VR_Headset_Facebook_Oculus_Gamescom_2019_%2848605656416%29.jpg"
 canonicalSource: "https://www.techinasia.com/reliance-reworks-jio-ipo-as-fresh-share-sale"
 ---
 

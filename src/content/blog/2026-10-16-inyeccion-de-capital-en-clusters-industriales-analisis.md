@@ -5,7 +5,7 @@ pubDate: "2026-10-16"
 category: "Economía"
 tags: ["Capital Expenditure", "Clusters Industriales", "Desarrollo Regional", "Finanzas Corporativas"]
 author: "Comité Analítico TEP & Prospectiva"
-heroImage: "https://images.unsplash.com/photo-1559526324-4b87b5e36e44?auto=format&fit=crop&w=1200&h=630&q=85"
+heroImage: "https://upload.wikimedia.org/wikipedia/commons/f/fd/HPC_-_missal_4.jpg"
 canonicalSource: "https://www.jornaldenegocios.pt/empresas/industria/detalhe/quantal-de-sergio-monteiro-e-moreira-da-silva-inaugura-fabrica-de-sete-milhoes"
 ---
 

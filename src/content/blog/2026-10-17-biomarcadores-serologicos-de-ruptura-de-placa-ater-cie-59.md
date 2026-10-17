@@ -5,7 +5,7 @@ pubDate: "2026-10-17"
 category: "Ciencia"
 tags: ["Biomedicina", "Investigaci\u00f3n Cl\u00ednica", "Mecanismos Moleculares", "Salud P\u00fablica", "Biotecnolog\u00eda"]
 author: "Comité Analítico TEP & Prospectiva"
-heroImage: "https://images.unsplash.com/photo-1576091160550-2173dba999ef?auto=format&fit=crop&w=1200&h=630&q=82"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/Harsh_Vardhan_lighting_the_ceremonial_lamp_at_the_dedication_ceremony_of_the_National_Centre_for_Medium_Range_Weather_Forecasting_%E2%80%9CBHASKARA%E2%80%9D_%28350_Teraflop_High_Performance_Computing_Facility%29_to_the_nation%2C_in_Noida.jpg/1280px-thumbnail.jpg"
 canonicalSource: "https://newsinternacionaltep.com/categoria/ciencia"
 ---
 
@@ -21,7 +21,7 @@ Diversos ensayos clínicos fase II y III han evidenciado que la interacción mol
 
 ## 2. Estado del Arte y Dinámica Estructural
 
-![Análisis Documental Primario - Biomarcadores Serológicos de Ruptura de Placa Aterosclerótica ](https://images.unsplash.com/photo-1559757175-5700dde675bc?auto=format&fit=crop&w=1000&h=500&q=82)
+![Análisis Documental Primario - Biomarcadores Serológicos de Ruptura de Placa Aterosclerótica ](https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d2/Harsh_Vardhan_unveiling_the_plaque_to_dedicate_the_National_Centre_for_Medium_Range_Weather_Forecasting_%E2%80%9CBHASKARA%E2%80%9D_%28350_Teraflop_High_Performance_Computing_Facility%29_to_the_nation%2C_in_Noida%2C_Uttar_Pradesh_on_June_02%2C_2015.jpg/1280px-thumbnail.jpg)
 *Figura 1: Representación técnica y mapeo contextual del fenómeno analizado.*
 Históricamente, la investigación en este segmento estuvo restringida por la baja sensibilidad de las plataformas de detección y los cuellos de botella en la manufactura biológica. La adopción de técnicas de secuenciación masiva y microfluídica ha transformado radicalmente el panorama experimental, permitiendo aislar variables con un error analítico inferior al 1.5%.
 
@@ -39,7 +39,7 @@ El núcleo funcional opera mediante la estabilización de gradientes electroquí
 
 ## 4. Evaluación de Escenarios y Modelado de Riesgo
 
-![Modelado de Trayectorias y Riesgo Sistémico](https://images.unsplash.com/photo-1583912267670-6575ad472688?auto=format&fit=crop&w=1000&h=500&q=82)
+![Modelado de Trayectorias y Riesgo Sistémico](https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/Harsh_Vardhan_visiting_after_dedicating_the_National_Centre_for_Medium_Range_Weather_Forecasting_%E2%80%9CBHASKARA%E2%80%9D_%28350_Teraflop_High_Performance_Computing_Facility%29_to_the_nation%2C_in_Noida%2C_Uttar_Pradesh_on_June_02%2C_2015.jpg/1280px-thumbnail.jpg)
 *Figura 2: Telemetría de variables y dispersión de escenarios probabilísticos.*
 Para dimensionar el impacto de su adopción a escala macro-sanitaria, se modelaron tres trayectorias prospectivas bajo condiciones de heterogeneidad clínica:
 

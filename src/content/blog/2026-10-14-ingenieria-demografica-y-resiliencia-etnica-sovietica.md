@@ -5,7 +5,7 @@ pubDate: "2026-10-14"
 category: "Geopolítica"
 tags: ["Totalitarismo", "Ingenier\u00eda Demogr\u00e1fica", "Conflictos \u00c9tnicos", "Historia Sovi\u00e9tica"]
 author: "Comité Analítico TEP & Prospectiva"
-heroImage: "https://cdn.prod.www.spiegel.de/images/be8d79f1-e291-404b-b743-af567c1e8a01_w520_r2.08_fpx65.82_fpy50.jpg"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/Student_explores_an_environment_using_a_VR_headset..jpg/1280px-Student_explores_an_environment_using_a_VR_headset..jpg"
 canonicalSource: "https://www.spiegel.de/geschichte/zwangsumsiedlungen-in-der-sowjetunion-als-stalin-die-tschetschenen-deportierte-a-4716afdd-4853-48f2-8bf6-47ee4ac58f54#ref=rss"
 ---
 

@@ -5,7 +5,7 @@ pubDate: "2024-05-14"
 category: "Ciencia"
 tags: ["Ciencia", "Medicina", "Biotecnología", "Investigación Clínica", "Salud Pública"]
 author: "Comité Analítico TEP & Archivo Histórico"
-heroImage: "https://images.unsplash.com/photo-1576086213369-97a306d36557?auto=format&fit=crop&w=1200&h=630&q=82"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/%CE%A3%CF%85%CE%BC%CE%BC%CE%B5%CF%84%CE%BF%CF%87%CE%AE_%CE%A5%CE%A0%CE%95%CE%9E_%CE%94._%CE%94%CF%81%CE%BF%CF%8D%CF%84%CF%83%CE%B1_%CF%83%CE%B5_%CE%A5%CF%80%CE%BF%CF%85%CF%81%CE%B3%CE%B9%CE%BA%CE%AE_%CE%A3%CF%8D%CE%BD%CE%BF%CE%B4%CE%BF_ASEM_-_FM_D._Droutsas_participates_in_ASEM_Ministerial_%285803739445%29.jpg/1280px-%CE%A3%CF%85%CE%BC%CE%BC%CE%B5%CF%84%CE%BF%CF%87%CE%AE_%CE%A5%CE%A0%CE%95%CE%9E_%CE%94._%CE%94%CF%81%CE%BF%CF%8D%CF%84%CF%83%CE%B1_%CF%83%CE%B5_%CE%A5%CF%80%CE%BF%CF%85%CF%81%CE%B3%CE%B9%CE%BA%CE%AE_%CE%A3%CF%8D%CE%BD%CE%BF%CE%B4%CE%BF_ASEM_-_FM_D._Droutsas_participates_in_ASEM_Ministerial_%285803739445%29.jpg"
 canonicalSource: "https://newsinternacionaltep.com/categoria/ciencia"
 ---
 
@@ -21,7 +21,7 @@ Los reportes primarios recopilados por las corresponsalías y agencias de monito
 
 ## 2. Estado de la Situación y Dinámica Estructural
 
-![Evidencia y Registro Documental Primario - Fármacos Anti-Amiloide de Segunda Generación (Lecanemab) para la Ralentización del Alzheimer](https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=1200&h=630&q=82)
+![Evidencia y Registro Documental Primario - Fármacos Anti-Amiloide de Segunda Generación (Lecanemab) para la Ralentización del Alzheimer](https://thumb.wikimedia.org/wikipedia/commons/thumb/e/eb/%CE%A5%CF%80%CE%BF%CF%85%CF%81%CE%B3%CE%B9%CE%BA%CE%AE_%CE%94%CE%B9%CE%AC%CF%83%CE%BA%CE%B5%CF%88%CE%B7_%CE%A5%CE%A0%CE%95%CE%9E_%CE%BA-%CE%BC_%CE%95%CE%95_%CE%BA%CE%B1%CE%B9_%CE%94._%CE%92%CE%B1%CE%BB%CE%BA%CE%B1%CE%BD%CE%AF%CF%89%CE%BD_%28%CE%98%CE%B5%CF%83-%CE%BD%CE%AF%CE%BA%CE%B7%2C_08.05.2014%29_%2814115171686%29.jpg/1280px-%CE%A5%CF%80%CE%BF%CF%85%CF%81%CE%B3%CE%B9%CE%BA%CE%AE_%CE%94%CE%B9%CE%AC%CF%83%CE%BA%CE%B5%CF%88%CE%B7_%CE%A5%CE%A0%CE%95%CE%9E_%CE%BA-%CE%BC_%CE%95%CE%95_%CE%BA%CE%B1%CE%B9_%CE%94._%CE%92%CE%B1%CE%BB%CE%BA%CE%B1%CE%BD%CE%AF%CF%89%CE%BD_%28%CE%98%CE%B5%CF%83-%CE%BD%CE%AF%CE%BA%CE%B7%2C_08.05.2014%29_%2814115171686%29.jpg)
 *Figura 1: Mapeo y registro fotográfico documental archivado en la hemeroteca de News Internacional TEP.*
 
 La evolución empírica de los acontecimientos desmintió rápidamente los diagnósticos complacientes. La aceleración de las dinámicas en juego obligó a un reajuste de las previsiones institucionales, revelando una marcada correlación entre la exposición previa al riesgo y la celeridad del deterioro funcional en los sectores analizados.
@@ -40,7 +40,7 @@ El comportamiento de los indicadores determinantes durante este período histór
 
 ## 4. Evaluación de Escenarios y Modelado de Riesgo
 
-![Modelado de Trayectorias y Riesgo Sistémico](https://images.unsplash.com/photo-1579165466791-788226ab77b6?auto=format&fit=crop&w=1200&h=630&q=82)
+![Modelado de Trayectorias y Riesgo Sistémico](https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/%CE%A5%CF%80%CE%BF%CF%85%CF%81%CE%B3%CE%B9%CE%BA%CE%AE_%CE%94%CE%B9%CE%AC%CF%83%CE%BA%CE%B5%CF%88%CE%B7_%CE%A5%CE%A0%CE%95%CE%9E_%CE%BA%CF%81%CE%B1%CF%84%CF%8E%CE%BD-%CE%BC%CE%B5%CE%BB%CF%8E%CE%BD_%CE%95.%CE%95._%CE%BA%CE%B1%CE%B9_%CE%94%CF%85%CF%84%CE%B9%CE%BA%CF%8E%CE%BD_%CE%92%CE%B1%CE%BB%CE%BA%CE%B1%CE%BD%CE%AF%CF%89%CE%BD_%28%CE%98%CE%B5%CF%83-%CE%BD%CE%AF%CE%BA%CE%B7_7-8.05.2014%29_%2813945765998%29.jpg/1280px-thumbnail.jpg)
 *Figura 2: Proyección de trayectorias y modelado de dispersión elaborado por la Unidad Cuantitativa TEP.*
 
 El análisis retrospectivo permite clasificar la trayectoria que finalmente se consolidó frente a las hipótesis alternativas que barajaban los comités en aquel entonces:

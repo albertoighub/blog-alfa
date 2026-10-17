@@ -5,7 +5,7 @@ pubDate: "2026-10-16"
 category: "Geopolítica"
 tags: ["Narrativas Pol\u00edticas", "Polarizaci\u00f3n Social", "Conflictos Simb\u00f3licos", "Deshumanizaci\u00f3n"]
 author: "Comité Analítico TEP & Prospectiva"
-heroImage: "https://images.newsteam.io/image/540/GbSdY1y2zcmz1CDZ1q3yELfAFRiUPsEHKTtsBN5ndL1HfDLoPRuHh2Qb1R1PKSVNXcbaSfp5NBURwvwnn7RKn7seMa14ERDT3GkEsCmp6Lpm6wKfUTBRsP3xvqfg2r1UUoWpZeXE2tSaHQRZpetfz"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/Atari_Portfolio_HPC-004_-_display_part-93443.jpg/1280px-Atari_Portfolio_HPC-004_-_display_part-93443.jpg"
 canonicalSource: "https://mg.co.za/thought-leader/2026-10-15-condemn-the-person-shield-the-ideology/"
 ---
 

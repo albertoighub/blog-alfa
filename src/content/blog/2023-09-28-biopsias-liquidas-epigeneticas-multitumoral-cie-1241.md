@@ -5,7 +5,7 @@ pubDate: "2023-09-28"
 category: "Ciencia"
 tags: ["Ciencia", "Medicina", "Biotecnología", "Investigación Clínica", "Salud Pública"]
 author: "Comité Analítico TEP & Archivo Histórico"
-heroImage: "https://images.unsplash.com/photo-1530497610245-94d3c16cda28?auto=format&fit=crop&w=1200&h=630&q=82"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/db/The_Prime_Minister%2C_Dr._Manmohan_Singh_in_a_group_photo_with_the_leaders_of_the_ASEAN_before_the_7th_India-ASEAN_Summit%2C_at_Hua_Hin%2C_in_Thailand%2C_on_October_24%2C_2009.jpg/1280px-thumbnail.jpg"
 canonicalSource: "https://newsinternacionaltep.com/categoria/ciencia"
 ---
 
@@ -21,7 +21,7 @@ Los reportes primarios recopilados por las corresponsalías y agencias de monito
 
 ## 2. Estado de la Situación y Dinámica Estructural
 
-![Evidencia y Registro Documental Primario - Biopsias Líquidas Epigenéticas de Detección Multitumoral y Diagnóstico Preclínico](https://images.unsplash.com/photo-1507668077129-56e32842fceb?auto=format&fit=crop&w=1200&h=630&q=82)
+![Evidencia y Registro Documental Primario - Biopsias Líquidas Epigenéticas de Detección Multitumoral y Diagnóstico Preclínico](https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/The_Prime_Minister%2C_Shri_Narendra_Modi_attending_the_ASEAN-India_Informal_Breakfast_Summit%2C_in_Singapore_on_November_15%2C_2018.JPG/1280px-The_Prime_Minister%2C_Shri_Narendra_Modi_attending_the_ASEAN-India_Informal_Breakfast_Summit%2C_in_Singapore_on_November_15%2C_2018.JPG)
 *Figura 1: Mapeo y registro fotográfico documental archivado en la hemeroteca de News Internacional TEP.*
 
 La evolución empírica de los acontecimientos desmintió rápidamente los diagnósticos complacientes. La aceleración de las dinámicas en juego obligó a un reajuste de las previsiones institucionales, revelando una marcada correlación entre la exposición previa al riesgo y la celeridad del deterioro funcional en los sectores analizados.
@@ -40,7 +40,7 @@ El comportamiento de los indicadores determinantes durante este período histór
 
 ## 4. Evaluación de Escenarios y Modelado de Riesgo
 
-![Modelado de Trayectorias y Riesgo Sistémico](https://images.unsplash.com/photo-1576086213369-97a306d36557?auto=format&fit=crop&w=1200&h=630&q=82)
+![Modelado de Trayectorias y Riesgo Sistémico](https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/The_Prime_Minister%2C_Shri_Narendra_Modi_with_the_ASEAN_Heads_of_StateGovernments_and_ASEAN_Secretary_General%2C_at_the_ASEAN_India_Commemorative_Summit%2C_in_New_Delhi_on_January_25%2C_2018.jpg/1280px-thumbnail.jpg)
 *Figura 2: Proyección de trayectorias y modelado de dispersión elaborado por la Unidad Cuantitativa TEP.*
 
 El análisis retrospectivo permite clasificar la trayectoria que finalmente se consolidó frente a las hipótesis alternativas que barajaban los comités en aquel entonces:

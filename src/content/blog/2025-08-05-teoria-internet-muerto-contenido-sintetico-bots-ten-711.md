@@ -5,7 +5,7 @@ pubDate: "2025-08-05"
 category: "Tendencias"
 tags: ["Redes Sociales", "Dinámica Digital", "Cultura Algorítmica", "Plataformas", "Comportamiento Colectivo"]
 author: "Comité Analítico TEP & Archivo Histórico"
-heroImage: "https://images.unsplash.com/photo-1534536281715-e28d76689b4d?auto=format&fit=crop&w=1200&h=630&q=82"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/Sitting_Moroccan_women_in_the_street_Kinkerstraat%2C_Amsterdam-West_-Marokkaanse_vrouwen_zitten_in_de_Kinkerstraat%2C_Amsterdam.jpg/1280px-Sitting_Moroccan_women_in_the_street_Kinkerstraat%2C_Amsterdam-West_-Marokkaanse_vrouwen_zitten_in_de_Kinkerstraat%2C_Amsterdam.jpg"
 canonicalSource: "https://newsinternacionaltep.com/categoria/tendencias"
 ---
 
@@ -21,7 +21,7 @@ Los reportes primarios recopilados por las corresponsalías y agencias de monito
 
 ## 2. Estado de la Situación y Dinámica Estructural
 
-![Evidencia y Registro Documental Primario - La Crisis de la 'Teoría del Internet Muerto': Granjas de Bots, Contenido Sintético y Deterioro de Métricas](https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=1200&h=630&q=82)
+![Evidencia y Registro Documental Primario - La Crisis de la 'Teoría del Internet Muerto': Granjas de Bots, Contenido Sintético y Deterioro de Métricas](https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/Strada_Sforii_Brasov_Romania_Color_Street_Photography_%28224936179%29.jpeg/1280px-Strada_Sforii_Brasov_Romania_Color_Street_Photography_%28224936179%29.jpeg)
 *Figura 1: Mapeo y registro fotográfico documental archivado en la hemeroteca de News Internacional TEP.*
 
 La evolución empírica de los acontecimientos desmintió rápidamente los diagnósticos complacientes. La aceleración de las dinámicas en juego obligó a un reajuste de las previsiones institucionales, revelando una marcada correlación entre la exposición previa al riesgo y la celeridad del deterioro funcional en los sectores analizados.
@@ -40,7 +40,7 @@ El comportamiento de los indicadores determinantes durante este período histór
 
 ## 4. Evaluación de Escenarios y Modelado de Riesgo
 
-![Modelado de Trayectorias y Riesgo Sistémico](https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=1200&h=630&q=82)
+![Modelado de Trayectorias y Riesgo Sistémico](https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d0/Tbilisi_City_-_Urban_Photos_%288%29.jpg/1280px-Tbilisi_City_-_Urban_Photos_%288%29.jpg)
 *Figura 2: Proyección de trayectorias y modelado de dispersión elaborado por la Unidad Cuantitativa TEP.*
 
 El análisis retrospectivo permite clasificar la trayectoria que finalmente se consolidó frente a las hipótesis alternativas que barajaban los comités en aquel entonces:

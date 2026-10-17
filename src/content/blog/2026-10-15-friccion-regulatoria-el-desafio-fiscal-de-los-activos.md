@@ -5,7 +5,7 @@ pubDate: "2026-10-15"
 category: "Tecnología"
 tags: ["FinTech", "Regulaci\u00f3n Cripto", "Pol\u00edtica Fiscal", "DLT", "Riesgo Sist\u00e9mico"]
 author: "Comité Analítico TEP & Prospectiva"
-heroImage: "https://s3-images.ctmedia.io/media/article-covers/2026/10/01M4Y1A2P32XBWMQ5M26VG2T55/hi-a-beginners-guide-to-filing-bitcoin-taxes.jpg"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/Sound_reinforcement_system.jpg/1280px-Sound_reinforcement_system.jpg"
 canonicalSource: "https://cointelegraph.com/news/cci-ba-fight-illinois-crypto-tax-pause?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
 ---
 

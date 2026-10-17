@@ -5,7 +5,7 @@ pubDate: "2021-02-25"
 category: "Tendencias"
 tags: ["Redes Sociales", "Dinámica Digital", "Cultura Algorítmica", "Plataformas", "Comportamiento Colectivo"]
 author: "Comité Analítico TEP & Archivo Histórico"
-heroImage: "https://images.unsplash.com/photo-1534536281715-e28d76689b4d?auto=format&fit=crop&w=1200&h=630&q=82"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/Conf%C3%A9rence_de_presse_apr%C3%A9s_la_pi%C3%A8ce_Djanazat_Ayoub_de_Ahmed_Rezzak.jpg/1280px-Conf%C3%A9rence_de_presse_apr%C3%A9s_la_pi%C3%A8ce_Djanazat_Ayoub_de_Ahmed_Rezzak.jpg"
 canonicalSource: "https://newsinternacionaltep.com/categoria/tendencias"
 ---
 
@@ -21,7 +21,7 @@ Los reportes primarios recopilados por las corresponsalías y agencias de monito
 
 ## 2. Estado de la Situación y Dinámica Estructural
 
-![Evidencia y Registro Documental Primario - El Cambio de Nombre de Facebook a Meta y la Apuesta Multimillonaria por el Metaverso Inmersivo](https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=1200&h=630&q=82)
+![Evidencia y Registro Documental Primario - El Cambio de Nombre de Facebook a Meta y la Apuesta Multimillonaria por el Metaverso Inmersivo](https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/Drumwright_Press_Conference_%282020_Nov%29_%2850556226378%29.jpg/1280px-Drumwright_Press_Conference_%282020_Nov%29_%2850556226378%29.jpg)
 *Figura 1: Mapeo y registro fotográfico documental archivado en la hemeroteca de News Internacional TEP.*
 
 La evolución empírica de los acontecimientos desmintió rápidamente los diagnósticos complacientes. La aceleración de las dinámicas en juego obligó a un reajuste de las previsiones institucionales, revelando una marcada correlación entre la exposición previa al riesgo y la celeridad del deterioro funcional en los sectores analizados.
@@ -40,7 +40,7 @@ El comportamiento de los indicadores determinantes durante este período histór
 
 ## 4. Evaluación de Escenarios y Modelado de Riesgo
 
-![Modelado de Trayectorias y Riesgo Sistémico](https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=1200&h=630&q=82)
+![Modelado de Trayectorias y Riesgo Sistémico](https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/FEMA_-_43987_-_Disaster_Officials_on_a_National_Media_Conference_Call_from_Tennessee.jpg/1280px-FEMA_-_43987_-_Disaster_Officials_on_a_National_Media_Conference_Call_from_Tennessee.jpg)
 *Figura 2: Proyección de trayectorias y modelado de dispersión elaborado por la Unidad Cuantitativa TEP.*
 
 El análisis retrospectivo permite clasificar la trayectoria que finalmente se consolidó frente a las hipótesis alternativas que barajaban los comités en aquel entonces:

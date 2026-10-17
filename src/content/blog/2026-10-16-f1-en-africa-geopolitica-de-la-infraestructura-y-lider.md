@@ -5,7 +5,7 @@ pubDate: "2026-10-17"
 category: "Geopolítica"
 tags: ["Soft Power", "Desarrollo Africano", "Competencia Regional", "Infraestructura Global"]
 author: "Comité Analítico TEP & Prospectiva"
-heroImage: "https://images.newsteam.io/image/1600/2Bq28FuGKoMfQdGZCxKiXGxJAF8DRLi18X89joqm1QevVTJa6XKr7qdfvkWxGD6VRyNSE7CoTha2kk4FRPXGtjixaHs6nP1SR7ke8AEvfuTnsheN5FvSEMzteXfhod7ZQiLXGoJgkoezmEEZrGbafDk"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/US_Navy_050307-N-0879R-001_Lt._Andrew_Neboshynsky_and_Operations_Specialist_1st_Class_Troy_Tyson_monitor_Anti-Submarine_Warfare_%28ASW%29_activity_in_the_Pacific_using_the_Navy%27s_Maui_High_Performance_Computing_Center_%28MHPCC%29.jpg/1280px-thumbnail.jpg"
 canonicalSource: "https://mg.co.za/2026-10-15-rwanda-s-f1-breakthrough-a-blueprint-for-african-ambition-and-a-challenge-to-sa/"
 ---
 

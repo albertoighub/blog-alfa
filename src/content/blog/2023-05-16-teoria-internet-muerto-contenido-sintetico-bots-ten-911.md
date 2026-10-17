@@ -5,7 +5,7 @@ pubDate: "2023-05-16"
 category: "Tendencias"
 tags: ["Redes Sociales", "Dinámica Digital", "Cultura Algorítmica", "Plataformas", "Comportamiento Colectivo"]
 author: "Comité Analítico TEP & Archivo Histórico"
-heroImage: "https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=1200&h=630&q=82"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/%D0%9C%D0%BE%D0%B4%D0%BD%D0%B0_%D1%80%D0%B5%D0%B2%D0%B8%D1%98%D0%B0_%D0%BD%D0%B0_%D0%B4%D1%80%D0%B5%D0%B2%D0%B5%D0%BD_%D0%BD%D0%B0%D0%BA%D0%B8%D1%82_%D0%B2%D0%BE_%D0%9D%D0%B5%D0%B3%D0%BE%D1%82%D0%B8%D0%BD%D0%BE_03.jpg/1280px-%D0%9C%D0%BE%D0%B4%D0%BD%D0%B0_%D1%80%D0%B5%D0%B2%D0%B8%D1%98%D0%B0_%D0%BD%D0%B0_%D0%B4%D1%80%D0%B5%D0%B2%D0%B5%D0%BD_%D0%BD%D0%B0%D0%BA%D0%B8%D1%82_%D0%B2%D0%BE_%D0%9D%D0%B5%D0%B3%D0%BE%D1%82%D0%B8%D0%BD%D0%BE_03.jpg"
 canonicalSource: "https://newsinternacionaltep.com/categoria/tendencias"
 ---
 
@@ -21,7 +21,7 @@ Los reportes primarios recopilados por las corresponsalías y agencias de monito
 
 ## 2. Estado de la Situación y Dinámica Estructural
 
-![Evidencia y Registro Documental Primario - La Crisis de la 'Teoría del Internet Muerto': Granjas de Bots, Contenido Sintético y Deterioro de Métricas](https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=1200&h=630&q=82)
+![Evidencia y Registro Documental Primario - La Crisis de la 'Teoría del Internet Muerto': Granjas de Bots, Contenido Sintético y Deterioro de Métricas](https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/%D0%9C%D0%BE%D0%B4%D0%BD%D0%B0_%D1%80%D0%B5%D0%B2%D0%B8%D1%98%D0%B0_%D0%BD%D0%B0_%D0%B4%D1%80%D0%B5%D0%B2%D0%B5%D0%BD_%D0%BD%D0%B0%D0%BA%D0%B8%D1%82_%D0%B2%D0%BE_%D0%9D%D0%B5%D0%B3%D0%BE%D1%82%D0%B8%D0%BD%D0%BE_07.jpg/1280px-%D0%9C%D0%BE%D0%B4%D0%BD%D0%B0_%D1%80%D0%B5%D0%B2%D0%B8%D1%98%D0%B0_%D0%BD%D0%B0_%D0%B4%D1%80%D0%B5%D0%B2%D0%B5%D0%BD_%D0%BD%D0%B0%D0%BA%D0%B8%D1%82_%D0%B2%D0%BE_%D0%9D%D0%B5%D0%B3%D0%BE%D1%82%D0%B8%D0%BD%D0%BE_07.jpg)
 *Figura 1: Mapeo y registro fotográfico documental archivado en la hemeroteca de News Internacional TEP.*
 
 La evolución empírica de los acontecimientos desmintió rápidamente los diagnósticos complacientes. La aceleración de las dinámicas en juego obligó a un reajuste de las previsiones institucionales, revelando una marcada correlación entre la exposición previa al riesgo y la celeridad del deterioro funcional en los sectores analizados.
@@ -40,7 +40,7 @@ El comportamiento de los indicadores determinantes durante este período histór
 
 ## 4. Evaluación de Escenarios y Modelado de Riesgo
 
-![Modelado de Trayectorias y Riesgo Sistémico](https://images.unsplash.com/photo-1534536281715-e28d76689b4d?auto=format&fit=crop&w=1200&h=630&q=82)
+![Modelado de Trayectorias y Riesgo Sistémico](https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/%D0%9C%D0%BE%D0%B4%D0%BD%D0%B0_%D1%80%D0%B5%D0%B2%D0%B8%D1%98%D0%B0_%D0%BD%D0%B0_%D0%B4%D1%80%D0%B5%D0%B2%D0%B5%D0%BD_%D0%BD%D0%B0%D0%BA%D0%B8%D1%82_%D0%B2%D0%BE_%D0%9D%D0%B5%D0%B3%D0%BE%D1%82%D0%B8%D0%BD%D0%BE_08.jpg/1280px-%D0%9C%D0%BE%D0%B4%D0%BD%D0%B0_%D1%80%D0%B5%D0%B2%D0%B8%D1%98%D0%B0_%D0%BD%D0%B0_%D0%B4%D1%80%D0%B5%D0%B2%D0%B5%D0%BD_%D0%BD%D0%B0%D0%BA%D0%B8%D1%82_%D0%B2%D0%BE_%D0%9D%D0%B5%D0%B3%D0%BE%D1%82%D0%B8%D0%BD%D0%BE_08.jpg)
 *Figura 2: Proyección de trayectorias y modelado de dispersión elaborado por la Unidad Cuantitativa TEP.*
 
 El análisis retrospectivo permite clasificar la trayectoria que finalmente se consolidó frente a las hipótesis alternativas que barajaban los comités en aquel entonces:

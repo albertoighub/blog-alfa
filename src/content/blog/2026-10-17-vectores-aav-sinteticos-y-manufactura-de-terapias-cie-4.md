@@ -5,7 +5,7 @@ pubDate: "2026-10-17"
 category: "Ciencia"
 tags: ["Biomedicina", "Investigaci\u00f3n Cl\u00ednica", "Mecanismos Moleculares", "Salud P\u00fablica", "Biotecnolog\u00eda"]
 author: "Comité Analítico TEP & Prospectiva"
-heroImage: "https://images.unsplash.com/photo-1511174511562-5f7f18b874f8?auto=format&fit=crop&w=1200&h=630&q=82"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/Falcon_9_CRS-2_launch_04_%28KSC-2013-1761%29.jpg/1280px-Falcon_9_CRS-2_launch_04_%28KSC-2013-1761%29.jpg"
 canonicalSource: "https://newsinternacionaltep.com/categoria/ciencia"
 ---
 
@@ -21,7 +21,7 @@ Diversos ensayos clínicos fase II y III han evidenciado que la interacción mol
 
 ## 2. Estado del Arte y Dinámica Estructural
 
-![Análisis Documental Primario - Vectores AAV Sintéticos y Manufactura de Terapias Génicas a Gr](https://images.unsplash.com/photo-1532094349884-543bc11b234d?auto=format&fit=crop&w=1000&h=500&q=82)
+![Análisis Documental Primario - Vectores AAV Sintéticos y Manufactura de Terapias Génicas a Gr](https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/Falcon_9_CRS-2_launch_05_%28KSC-2013-1744%29.jpg/1280px-Falcon_9_CRS-2_launch_05_%28KSC-2013-1744%29.jpg)
 *Figura 1: Representación técnica y mapeo contextual del fenómeno analizado.*
 Históricamente, la investigación en este segmento estuvo restringida por la baja sensibilidad de las plataformas de detección y los cuellos de botella en la manufactura biológica. La adopción de técnicas de secuenciación masiva y microfluídica ha transformado radicalmente el panorama experimental, permitiendo aislar variables con un error analítico inferior al 1.5%.
 
@@ -39,7 +39,7 @@ El núcleo funcional opera mediante la estabilización de gradientes electroquí
 
 ## 4. Evaluación de Escenarios y Modelado de Riesgo
 
-![Modelado de Trayectorias y Riesgo Sistémico](https://images.unsplash.com/photo-1581594693702-fbdc51b2763b?auto=format&fit=crop&w=1000&h=500&q=82)
+![Modelado de Trayectorias y Riesgo Sistémico](https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/Falcon_9_CRS-2_launch_06_%28KSC-2013-1733%29.jpg/1280px-Falcon_9_CRS-2_launch_06_%28KSC-2013-1733%29.jpg)
 *Figura 2: Telemetría de variables y dispersión de escenarios probabilísticos.*
 Para dimensionar el impacto de su adopción a escala macro-sanitaria, se modelaron tres trayectorias prospectivas bajo condiciones de heterogeneidad clínica:
 

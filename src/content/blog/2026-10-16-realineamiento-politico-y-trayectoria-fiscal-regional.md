@@ -5,7 +5,7 @@ pubDate: "2026-10-16"
 category: "Economía"
 tags: ["Pol\u00edtica Econ\u00f3mica", "Gobernanza Regional", "Coaliciones Pol\u00edticas", "Finanzas P\u00fablicas"]
 author: "Comité Analítico TEP & Prospectiva"
-heroImage: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1200&h=630&q=85"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/Atari_Portfolio_HPC-004_-_display_part_-_board-4657.jpg/1280px-Atari_Portfolio_HPC-004_-_display_part_-_board-4657.jpg"
 canonicalSource: "https://www.di.se/nyheter/har-slopar-c-sin-roda-linje-mot-v/"
 ---
 

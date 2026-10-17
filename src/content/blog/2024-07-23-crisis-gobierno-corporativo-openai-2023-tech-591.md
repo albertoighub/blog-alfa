@@ -5,7 +5,7 @@ pubDate: "2024-07-23"
 category: "Tecnología"
 tags: ["Tecnología", "Inteligencia Artificial", "Semiconductores", "Ciberseguridad", "Computación Avanzada"]
 author: "Comité Analítico TEP & Archivo Histórico"
-heroImage: "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?auto=format&fit=crop&w=1200&h=630&q=82"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/In_this_Oct_20%2C_2025%2C_photo%2C_NASA%E2%80%99s_Artemis_II_Orion_spacecraft_with_its_launch_abort_system_is_stacked_atop_the_agency%E2%80%99s_SLS_%28Space_Launch_System%29_rocket_in_the_Vehicle_Assembly_Building_at_%28artemis-ii-orion-spacecraft-stacked%29.jpg/1280px-thumbnail.jpg"
 canonicalSource: "https://newsinternacionaltep.com/categoria/tecnologia"
 ---
 
@@ -21,7 +21,7 @@ Los reportes primarios recopilados por las corresponsalías y agencias de monito
 
 ## 2. Estado de la Situación y Dinámica Estructural
 
-![Evidencia y Registro Documental Primario - La Crisis de Gobierno Corporativo en OpenAI y el Debate sobre Seguridad y Velocidad de Despliegue](https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&w=1200&h=630&q=82)
+![Evidencia y Registro Documental Primario - La Crisis de Gobierno Corporativo en OpenAI y el Debate sobre Seguridad y Velocidad de Despliegue](https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/Inside_the_Vehicle_Assembly_Building_at_NASA%E2%80%99s_Kennedy_Space_Center_in_Florida.jpg/1280px-Inside_the_Vehicle_Assembly_Building_at_NASA%E2%80%99s_Kennedy_Space_Center_in_Florida.jpg)
 *Figura 1: Mapeo y registro fotográfico documental archivado en la hemeroteca de News Internacional TEP.*
 
 La evolución empírica de los acontecimientos desmintió rápidamente los diagnósticos complacientes. La aceleración de las dinámicas en juego obligó a un reajuste de las previsiones institucionales, revelando una marcada correlación entre la exposición previa al riesgo y la celeridad del deterioro funcional en los sectores analizados.
@@ -40,7 +40,7 @@ El comportamiento de los indicadores determinantes durante este período histór
 
 ## 4. Evaluación de Escenarios y Modelado de Riesgo
 
-![Modelado de Trayectorias y Riesgo Sistémico](https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1200&h=630&q=82)
+![Modelado de Trayectorias y Riesgo Sistémico](https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/Interior_View_of_Soyuz_Spacecraft_Mock-up_-_GPN-2002-000157.jpg/1280px-Interior_View_of_Soyuz_Spacecraft_Mock-up_-_GPN-2002-000157.jpg)
 *Figura 2: Proyección de trayectorias y modelado de dispersión elaborado por la Unidad Cuantitativa TEP.*
 
 El análisis retrospectivo permite clasificar la trayectoria que finalmente se consolidó frente a las hipótesis alternativas que barajaban los comités en aquel entonces:

@@ -5,7 +5,7 @@ pubDate: "2024-07-26"
 category: "Tecnología"
 tags: ["Tecnología", "Inteligencia Artificial", "Semiconductores", "Ciberseguridad", "Computación Avanzada"]
 author: "Comité Analítico TEP & Archivo Histórico"
-heroImage: "https://images.unsplash.com/photo-1525547719571-a2d4ac8945e2?auto=format&fit=crop&w=1200&h=630&q=82"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/Mega_Moon_rocket-_the_integrated_Space_Launch_System_rocket_and_Orion_spacecraft_at_NASA%E2%80%99s_Kennedy_Space_Center%2C_March_2022.jpg/1280px-Mega_Moon_rocket-_the_integrated_Space_Launch_System_rocket_and_Orion_spacecraft_at_NASA%E2%80%99s_Kennedy_Space_Center%2C_March_2022.jpg"
 canonicalSource: "https://newsinternacionaltep.com/categoria/tecnologia"
 ---
 
@@ -21,7 +21,7 @@ Los reportes primarios recopilados por las corresponsalías y agencias de monito
 
 ## 2. Estado de la Situación y Dinámica Estructural
 
-![Evidencia y Registro Documental Primario - La Fragmentación de Internet (Splinternet) y la Creación de Normativas Tecnológicas Aisladas](https://images.unsplash.com/photo-1620712943543-bcc4688e7485?auto=format&fit=crop&w=1200&h=630&q=82)
+![Evidencia y Registro Documental Primario - La Fragmentación de Internet (Splinternet) y la Creación de Normativas Tecnológicas Aisladas](https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/Mercury_Spacecraft_Boilerplate_-_GPN-2000-001731.jpg/1280px-Mercury_Spacecraft_Boilerplate_-_GPN-2000-001731.jpg)
 *Figura 1: Mapeo y registro fotográfico documental archivado en la hemeroteca de News Internacional TEP.*
 
 La evolución empírica de los acontecimientos desmintió rápidamente los diagnósticos complacientes. La aceleración de las dinámicas en juego obligó a un reajuste de las previsiones institucionales, revelando una marcada correlación entre la exposición previa al riesgo y la celeridad del deterioro funcional en los sectores analizados.
@@ -40,7 +40,7 @@ El comportamiento de los indicadores determinantes durante este período histór
 
 ## 4. Evaluación de Escenarios y Modelado de Riesgo
 
-![Modelado de Trayectorias y Riesgo Sistémico](https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&w=1200&h=630&q=82)
+![Modelado de Trayectorias y Riesgo Sistémico](https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c6/NASA%27s_Artemis_II_Orion_Spacecraft_%28KSC-01172026-Artemis_II_Rollout-20%29.jpg/1280px-NASA%27s_Artemis_II_Orion_Spacecraft_%28KSC-01172026-Artemis_II_Rollout-20%29.jpg)
 *Figura 2: Proyección de trayectorias y modelado de dispersión elaborado por la Unidad Cuantitativa TEP.*
 
 El análisis retrospectivo permite clasificar la trayectoria que finalmente se consolidó frente a las hipótesis alternativas que barajaban los comités en aquel entonces:

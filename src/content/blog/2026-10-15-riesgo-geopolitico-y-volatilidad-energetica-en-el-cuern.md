@@ -5,7 +5,7 @@ pubDate: "2026-10-15"
 category: "Economía"
 tags: ["Geoeconom\u00eda", "Riesgo Sist\u00e9mico", "Mercados Energ\u00e9ticos", "Seguridad Mar\u00edtima"]
 author: "Comité Analítico TEP & Prospectiva"
-heroImage: "https://i2.res.24o.it/images2010/S24/Documenti/2026/10/16/Immagini/Ritagli/2026-10-14T222620Z_1570824929_RC243OA35NWU_RTRMADP_5_IRAN-CRISIS-SAUDI-YEMEN-HOUTHI-U70115752376ehK-1440x752@IlSole24Ore-Web.JPG"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/Client_Carrier_with_COM-HPC_module_for_PICMG_r7.png/1280px-Client_Carrier_with_COM-HPC_module_for_PICMG_r7.png"
 canonicalSource: "https://www.ilsole24ore.com/art/iran-cnn-usa-valutano-utilizzo-madre-tutte-bombe-AJlvQRkB"
 ---
 

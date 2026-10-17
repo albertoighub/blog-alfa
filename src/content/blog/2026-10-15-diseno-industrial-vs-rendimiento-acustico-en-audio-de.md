@@ -5,7 +5,7 @@ pubDate: "2026-10-15"
 category: "Tecnología"
 tags: ["Audio Port\u00e1til", "Dise\u00f1o Industrial", "Econom\u00eda de Escala", "CMF by Nothing"]
 author: "Comité Analítico TEP & Prospectiva"
-heroImage: "https://www.01net.com/app/uploads/2026/10/CMF-Speaker-M-00001-1344x896.jpg"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b4/Rapaport_Technical_Booth_Cinema_Audio_Rack_174.JPG/1280px-Rapaport_Technical_Booth_Cinema_Audio_Rack_174.JPG"
 canonicalSource: "https://www.01net.com/tests/test-cmf-nothing-speaker-m-avis.html"
 ---
 

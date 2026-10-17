@@ -5,7 +5,7 @@ pubDate: "2026-10-15"
 category: "Tecnología"
 tags: ["Stablecoins", "MiCA", "RegTech", "Finanzas Descentralizadas", "Riesgo Sist\u00e9mico"]
 author: "Comité Analítico TEP & Prospectiva"
-heroImage: "https://s3-images.ctmedia.io/media/article-covers/2026/10/01M4XTT3VWKHJ84ZJBP443TGSN/hi-globe-usdc.png"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/93/Atari_Portfolio_HPC-004-2384.jpg/1280px-Atari_Portfolio_HPC-004-2384.jpg"
 canonicalSource: "https://cointelegraph.com/news/eba-circle-usdc-stablecoin-significant-token-mica?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
 ---
 

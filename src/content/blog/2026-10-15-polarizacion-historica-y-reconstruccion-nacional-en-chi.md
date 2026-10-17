@@ -5,7 +5,7 @@ pubDate: "2026-10-15"
 category: "Geopolítica"
 tags: ["Chile", "Polarizaci\u00f3n Pol\u00edtica", "Trauma Nacional", "Estabilidad Regional"]
 author: "Comité Analítico TEP & Prospectiva"
-heroImage: "https://www.latercera.com/resizer/v2/A33RBKKPVFEZDHIVRG4ZBOQCDQ.jpg?auth=e5067a7fbf05b3a4bb323b3d41ac9128ff0dab8355aae9934ce668df1e065ccd&smart=true&width=5263&height=3509"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f1/COM-HPC_Carrier_Board_Module_Connector.jpg/1280px-COM-HPC_Carrier_Board_Module_Connector.jpg"
 canonicalSource: "https://www.latercera.com/politica/noticia/a-siete-anos-del-18-o-kast-llama-a-mirar-hacia-el-futuro-y-partidos-oficialistas-conmemoran-hito-en-acto-conjunto/"
 ---
 

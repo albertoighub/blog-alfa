@@ -5,7 +5,7 @@ pubDate: "2026-10-15"
 category: "Economía"
 tags: ["Banca Europea", "Consolidaci\u00f3n Financiera", "Riesgo Sist\u00e9mico", "Regulaci\u00f3n Bancaria", "Capitalizaci\u00f3n"]
 author: "Comité Analítico TEP & Prospectiva"
-heroImage: "https://i2.res.24o.it/images2010/S24/Documenti/2026/05/06/Immagini/Ritagli/dbf5c5f877179044c4680b139c0eabd6-U22218851323NSa-1440x624@IlSole24Ore-Web.jpg"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/Martin_Hannett%27s_effect_rack_%28AMS_dmx15-80S_Digital_Delay_%28%C3%973%29%2C_Marshall_Time_Modulator_Model_5002_%22A%22_System%29_-_Joy_Division_Exhibition%2C_Manchester%2C_2010_%282010-05-19_13.08.24_by_Man_Alive%21%29.jpg/1280px-thumbnail.jpg"
 canonicalSource: "https://www.ilsole24ore.com/art/unicredit-via-libera-bce-scalata-commerzbank-AJkf4ClB"
 ---
 

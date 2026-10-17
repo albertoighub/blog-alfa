@@ -5,7 +5,7 @@ pubDate: "2026-10-16"
 category: "Geopolítica"
 tags: ["Soft Power", "Urbanismo Africano", "Narrativa Hegem\u00f3nica", "Desarrollo Cultural"]
 author: "Comité Analítico TEP & Prospectiva"
-heroImage: "https://images.newsteam.io/image/2160/2Bq28FuGKoMc6B88hWfaw2ePcxsVwatCHt9vMHTgfhqGStBiZWDMDmJ8G9UpFmAUH3eXu4sffFgx2ZeJFa6BKRi8hTyqAPvEAtnoyvydXyNDh1JEBucJzG4Jqb5ssSPzwKuJj4Aa8m8uHjdumjBv1Ea"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/HPC_Building_in_IITM%2C_Pune.jpg/1280px-HPC_Building_in_IITM%2C_Pune.jpg"
 canonicalSource: "https://mg.co.za/friday/2026-10-15-an-african-city-takes-centre-stage-at-this-year-s-reel-to-reality-film-festival/"
 ---
 
@@ -31,7 +31,10 @@ Los marcos operativos tradicionales (ej., modelos de desarrollo basados únicame
 El estrés en estos marcos se manifiesta cuando el capital cultural genera retornos económicos que superan la mera asistencia turística, impactando directamente en políticas públicas y atracción de talento internacional.
 
 ## 3. Mecanismos Operativos y Núcleo Técnico (The Science)
-La producción narrativa urbana opera bajo un modelo de retroalimentación positiva: Narrativa Positiva $ightarrow$ Visibilidad Global $ightarrow$ Capital Simbólico Aumentado $ightarrow$ Flujo de Inversión/Política Favorable.
+La producción narrativa urbana opera bajo un modelo de retroalimentación positiva: Narrativa Positiva $
+ightarrow$ Visibilidad Global $
+ightarrow$ Capital Simbólico Aumentado $
+ightarrow$ Flujo de Inversión/Política Favorable.
 
 El festival actúa como el nodo catalizador. Al presentar la ciudad en contextos cinematográficos de alta calidad, se transforma la percepción del riesgo (Risk Perception) asociada a la inversión africana, mitigando los sesgos inherentes al mercado global.
 

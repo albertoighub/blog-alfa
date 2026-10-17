@@ -5,7 +5,7 @@ pubDate: "2023-03-17"
 category: "Geopolítica"
 tags: ["Geopolítica", "Seguridad Internacional", "Diplomacia", "Defensa", "Gobernanza Global"]
 author: "Comité Analítico TEP & Archivo Histórico"
-heroImage: "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=1200&h=630&q=82"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/Vietnam_peace_agreement_signing_%28cropped%29.jpg/1280px-Vietnam_peace_agreement_signing_%28cropped%29.jpg"
 canonicalSource: "https://newsinternacionaltep.com/categoria/geopolitica"
 ---
 
@@ -21,7 +21,7 @@ Los reportes primarios recopilados por las corresponsalías y agencias de monito
 
 ## 2. Estado de la Situación y Dinámica Estructural
 
-![Evidencia y Registro Documental Primario - El Dilema de Taiwán: Cadenas de Suministro de Semiconductores y Disuasión Naval](https://images.unsplash.com/photo-1507679799987-c73779587ccf?auto=format&fit=crop&w=1200&h=630&q=82)
+![Evidencia y Registro Documental Primario - El Dilema de Taiwán: Cadenas de Suministro de Semiconductores y Disuasión Naval](https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d0/Am%C3%A9d%C3%A9e_Forestier_-_Signing_of_Treaty_of_Ghent_%281814%29.jpg/1280px-Am%C3%A9d%C3%A9e_Forestier_-_Signing_of_Treaty_of_Ghent_%281814%29.jpg)
 *Figura 1: Mapeo y registro fotográfico documental archivado en la hemeroteca de News Internacional TEP.*
 
 La evolución empírica de los acontecimientos desmintió rápidamente los diagnósticos complacientes. La aceleración de las dinámicas en juego obligó a un reajuste de las previsiones institucionales, revelando una marcada correlación entre la exposición previa al riesgo y la celeridad del deterioro funcional en los sectores analizados.
@@ -40,7 +40,7 @@ El comportamiento de los indicadores determinantes durante este período histór
 
 ## 4. Evaluación de Escenarios y Modelado de Riesgo
 
-![Modelado de Trayectorias y Riesgo Sistémico](https://images.unsplash.com/photo-1572949645841-094f3a9c4c94?auto=format&fit=crop&w=1200&h=630&q=82)
+![Modelado de Trayectorias y Riesgo Sistémico](https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/Flickr_-_Government_Press_Office_%28GPO%29_-_THE_ISRAELI-JORDANIAN_PEACE_TREATY_SIGNING_CEREMONY.jpg/1280px-Flickr_-_Government_Press_Office_%28GPO%29_-_THE_ISRAELI-JORDANIAN_PEACE_TREATY_SIGNING_CEREMONY.jpg)
 *Figura 2: Proyección de trayectorias y modelado de dispersión elaborado por la Unidad Cuantitativa TEP.*
 
 El análisis retrospectivo permite clasificar la trayectoria que finalmente se consolidó frente a las hipótesis alternativas que barajaban los comités en aquel entonces:

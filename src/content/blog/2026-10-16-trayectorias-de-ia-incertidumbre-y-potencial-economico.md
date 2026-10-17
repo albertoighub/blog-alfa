@@ -5,7 +5,7 @@ pubDate: "2026-10-16"
 category: "Economía"
 tags: ["Productividad Artificial", "Riesgo Tecnol\u00f3gico", "Transformaci\u00f3n Laboral", "Capitalismo de Plataforma"]
 author: "Comité Analítico TEP & Prospectiva"
-heroImage: "https://fortune.com/img-assets/wp-content/uploads/2026/10/55589872060_5bfbb69c89_o-e1792112859220.jpg?w=2048"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f5/Atari_Portfolio_HPC-004_-_mainboard_-_Hitachi_HC139-5184.jpg/1280px-Atari_Portfolio_HPC-004_-_mainboard_-_Hitachi_HC139-5184.jpg"
 canonicalSource: "https://fortune.com/2026/10/15/marissa-mayer-anyone-who-says-they-know-how-ai-will-play-out-is-either-lying-or-arrogant-or-both/"
 ---
 

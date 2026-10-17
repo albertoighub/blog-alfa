@@ -5,7 +5,7 @@ pubDate: "2026-10-15"
 category: "Economía"
 tags: ["Seguridad Energ\u00e9tica", "Pol\u00edtica Fiscal UE", "Transici\u00f3n Energ\u00e9tica", "Geopol\u00edtica de Recursos"]
 author: "Comité Analítico TEP & Prospectiva"
-heroImage: "https://i2.res.24o.it/images2010/S24/Documenti/2026/10/16/Immagini/Ritagli/142d2a223ff413e083e6176ae0215873-U62217467280pbu-1440x752@IlSole24Ore-Web.jpg"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/Skrzynia_transportowa_ACF-SW_L_Rack_3U_%2B_12U_firmy_American_DJ.jpg/1280px-Skrzynia_transportowa_ACF-SW_L_Rack_3U_%2B_12U_firmy_American_DJ.jpg"
 canonicalSource: "https://www.ilsole24ore.com/art/scontro-i-27-energia-ed-ets-chieste-nuove-misure-commissione-AJoT9LlB"
 ---
 

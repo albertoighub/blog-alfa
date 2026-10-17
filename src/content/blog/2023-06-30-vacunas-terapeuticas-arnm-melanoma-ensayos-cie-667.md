@@ -5,7 +5,7 @@ pubDate: "2023-06-30"
 category: "Ciencia"
 tags: ["Ciencia", "Medicina", "Biotecnología", "Investigación Clínica", "Salud Pública"]
 author: "Comité Analítico TEP & Archivo Histórico"
-heroImage: "https://images.unsplash.com/photo-1530497610245-94d3c16cda28?auto=format&fit=crop&w=1200&h=630&q=82"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/2023_Chiefs_of_Defense_Conference_in_Fiji_%288172730%29.jpg/1280px-2023_Chiefs_of_Defense_Conference_in_Fiji_%288172730%29.jpg"
 canonicalSource: "https://newsinternacionaltep.com/categoria/ciencia"
 ---
 
@@ -21,7 +21,7 @@ Los reportes primarios recopilados por las corresponsalías y agencias de monito
 
 ## 2. Estado de la Situación y Dinámica Estructural
 
-![Evidencia y Registro Documental Primario - Vacunas Terapéuticas de ARNm contra Melanoma Avanzado en Ensayos Clínicos Fase III](https://images.unsplash.com/photo-1507668077129-56e32842fceb?auto=format&fit=crop&w=1200&h=630&q=82)
+![Evidencia y Registro Documental Primario - Vacunas Terapéuticas de ARNm contra Melanoma Avanzado en Ensayos Clínicos Fase III](https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/AUKUS_-_U._S._Secretary_of_Defense_Lloyd_Austin_with_Richard_Marles_MP%2C_Deputy_Prime_Minister_and_Minister_of_Defence%2C_Australia%2C_and_Grant_Shapps%2C_Secretary_of_State_for_Defense%2C_United_Kingdom_at_Moffett_Field%2C_California_on_December_1%2C_2023.jpg/1280px-thumbnail.jpg)
 *Figura 1: Mapeo y registro fotográfico documental archivado en la hemeroteca de News Internacional TEP.*
 
 La evolución empírica de los acontecimientos desmintió rápidamente los diagnósticos complacientes. La aceleración de las dinámicas en juego obligó a un reajuste de las previsiones institucionales, revelando una marcada correlación entre la exposición previa al riesgo y la celeridad del deterioro funcional en los sectores analizados.
@@ -40,7 +40,7 @@ El comportamiento de los indicadores determinantes durante este período histór
 
 ## 4. Evaluación de Escenarios y Modelado de Riesgo
 
-![Modelado de Trayectorias y Riesgo Sistémico](https://images.unsplash.com/photo-1576086213369-97a306d36557?auto=format&fit=crop&w=1200&h=630&q=82)
+![Modelado de Trayectorias y Riesgo Sistémico](https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/Bilateral_exchange_between_Secretary_of_Defense_Lloyd_J._Austin_III_and_Australian_Minister_for_Defense_Richard_Marles_at_the_Pentagon%2C_Washington%2C_D.C.%2C_Aug._5%2C_2024_-_14.jpg/1280px-thumbnail.jpg)
 *Figura 2: Proyección de trayectorias y modelado de dispersión elaborado por la Unidad Cuantitativa TEP.*
 
 El análisis retrospectivo permite clasificar la trayectoria que finalmente se consolidó frente a las hipótesis alternativas que barajaban los comités en aquel entonces:

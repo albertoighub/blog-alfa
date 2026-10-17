@@ -5,7 +5,7 @@ pubDate: "2023-07-14"
 category: "Economía"
 tags: ["Economía Global", "Bancos Centrales", "Mercados Financieros", "Política Monetaria", "Comercio Internacional"]
 author: "Comité Analítico TEP & Archivo Histórico"
-heroImage: "https://images.unsplash.com/photo-1579532537598-459ecdaf39cc?auto=format&fit=crop&w=1200&h=630&q=82"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/Poolbeg_lighthouse%2C_marking_the_sea_end_of_Great_Bull_Wall_at_the_entrance_of_Dublin_Port.jpg/1280px-Poolbeg_lighthouse%2C_marking_the_sea_end_of_Great_Bull_Wall_at_the_entrance_of_Dublin_Port.jpg"
 canonicalSource: "https://newsinternacionaltep.com/categoria/economia"
 ---
 
@@ -21,7 +21,7 @@ Los reportes primarios recopilados por las corresponsalías y agencias de monito
 
 ## 2. Estado de la Situación y Dinámica Estructural
 
-![Evidencia y Registro Documental Primario - Nearshoring en América del Norte: La Reconfiguración de las Redes de Manufactura del T-MEC](https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?auto=format&fit=crop&w=1200&h=630&q=82)
+![Evidencia y Registro Documental Primario - Nearshoring en América del Norte: La Reconfiguración de las Redes de Manufactura del T-MEC](https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/Room_with_bull%27s-eye_window_with_stained-glass_insets_and_wall_boiserie%2C_Basel_Historical_Museum%2C_Basel%2C_Switzerland_julesvernex2-2.jpg/1280px-Room_with_bull%27s-eye_window_with_stained-glass_insets_and_wall_boiserie%2C_Basel_Historical_Museum%2C_Basel%2C_Switzerland_julesvernex2-2.jpg)
 *Figura 1: Mapeo y registro fotográfico documental archivado en la hemeroteca de News Internacional TEP.*
 
 La evolución empírica de los acontecimientos desmintió rápidamente los diagnósticos complacientes. La aceleración de las dinámicas en juego obligó a un reajuste de las previsiones institucionales, revelando una marcada correlación entre la exposición previa al riesgo y la celeridad del deterioro funcional en los sectores analizados.
@@ -40,7 +40,7 @@ El comportamiento de los indicadores determinantes durante este período histór
 
 ## 4. Evaluación de Escenarios y Modelado de Riesgo
 
-![Modelado de Trayectorias y Riesgo Sistémico](https://images.unsplash.com/photo-1565372195458-9de0b320ef04?auto=format&fit=crop&w=1200&h=630&q=82)
+![Modelado de Trayectorias y Riesgo Sistémico](https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/Room_with_bull%27s-eye_window_with_stained-glass_insets_and_wall_boiserie%2C_Basel_Historical_Museum%2C_Basel%2C_Switzerland_julesvernex2-3.jpg/1280px-Room_with_bull%27s-eye_window_with_stained-glass_insets_and_wall_boiserie%2C_Basel_Historical_Museum%2C_Basel%2C_Switzerland_julesvernex2-3.jpg)
 *Figura 2: Proyección de trayectorias y modelado de dispersión elaborado por la Unidad Cuantitativa TEP.*
 
 El análisis retrospectivo permite clasificar la trayectoria que finalmente se consolidó frente a las hipótesis alternativas que barajaban los comités en aquel entonces:

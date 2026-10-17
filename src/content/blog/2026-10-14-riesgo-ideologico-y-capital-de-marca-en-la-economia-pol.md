@@ -5,7 +5,7 @@ pubDate: "2026-10-14"
 category: "Economía"
 tags: ["Capital de Marca", "Riesgo Reputacional", "Consumo Polarizado", "CSR Corporativo"]
 author: "Comité Analítico TEP & Prospectiva"
-heroImage: "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/10/p-1-91623873-chik-fil-a-questions.jpg"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/PA_Power_Amplifier_QSC_PLX2402_2400_Watt.jpg/1280px-PA_Power_Amplifier_QSC_PLX2402_2400_Watt.jpg"
 canonicalSource: "https://www.fastcompany.com/91623873/chick-fil-a-ceo-fails-to-answer-what-the-chains-official-position-on-lgbtq-rights-is"
 ---
 

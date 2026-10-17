@@ -5,7 +5,7 @@ pubDate: "2022-03-07"
 category: "Economía"
 tags: ["Economía Global", "Bancos Centrales", "Mercados Financieros", "Política Monetaria", "Comercio Internacional"]
 author: "Comité Analítico TEP & Archivo Histórico"
-heroImage: "https://images.unsplash.com/photo-1526304640581-d334cdbbf45e?auto=format&fit=crop&w=1200&h=630&q=82"
+heroImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Royal_Albert_Bridge_-_DB_Cargo_66101_with_empty_clay_hoppers.JPG/1280px-Royal_Albert_Bridge_-_DB_Cargo_66101_with_empty_clay_hoppers.JPG"
 canonicalSource: "https://newsinternacionaltep.com/categoria/economia"
 ---
 
@@ -21,7 +21,7 @@ Los reportes primarios recopilados por las corresponsalías y agencias de monito
 
 ## 2. Estado de la Situación y Dinámica Estructural
 
-![Evidencia y Registro Documental Primario - Cuellos de Botella en la Cadena Logística Marítima y la Inflación de Fletes Post-Confinamiento](https://images.unsplash.com/photo-1579532537598-459ecdaf39cc?auto=format&fit=crop&w=1200&h=630&q=82)
+![Evidencia y Registro Documental Primario - Cuellos de Botella en la Cadena Logística Marítima y la Inflación de Fletes Post-Confinamiento](https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e4/Victory_Crossing_-_DB_Cargo_66054_with_china_clay_empties.JPG/1280px-Victory_Crossing_-_DB_Cargo_66054_with_china_clay_empties.JPG)
 *Figura 1: Mapeo y registro fotográfico documental archivado en la hemeroteca de News Internacional TEP.*
 
 La evolución empírica de los acontecimientos desmintió rápidamente los diagnósticos complacientes. La aceleración de las dinámicas en juego obligó a un reajuste de las previsiones institucionales, revelando una marcada correlación entre la exposición previa al riesgo y la celeridad del deterioro funcional en los sectores analizados.
@@ -40,7 +40,7 @@ El comportamiento de los indicadores determinantes durante este período histór
 
 ## 4. Evaluación de Escenarios y Modelado de Riesgo
 
-![Modelado de Trayectorias y Riesgo Sistémico](https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?auto=format&fit=crop&w=1200&h=630&q=82)
+![Modelado de Trayectorias y Riesgo Sistémico](https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/2006-07-16_4275_Green_Cargo-t%C3%A5g_fr%C3%A5n_N%C3%A4ssj%C3%B6_ankommer_till_J%C3%B6nk%C3%B6ping.jpg/1280px-2006-07-16_4275_Green_Cargo-t%C3%A5g_fr%C3%A5n_N%C3%A4ssj%C3%B6_ankommer_till_J%C3%B6nk%C3%B6ping.jpg)
 *Figura 2: Proyección de trayectorias y modelado de dispersión elaborado por la Unidad Cuantitativa TEP.*
 
 El análisis retrospectivo permite clasificar la trayectoria que finalmente se consolidó frente a las hipótesis alternativas que barajaban los comités en aquel entonces:

@@ -5,7 +5,7 @@ pubDate: "2025-10-14"
 category: "Ciencia"
 tags: ["Ciencia", "Medicina", "Biotecnología", "Investigación Clínica", "Salud Pública"]
 author: "Comité Analítico TEP & Archivo Histórico"
-heroImage: "https://images.unsplash.com/photo-1576086213369-97a306d36557?auto=format&fit=crop&w=1200&h=630&q=82"
+heroImage: "https://upload.wikimedia.org/wikipedia/commons/5/5d/%D0%9A%D0%9C155%D0%98%D0%955_%D0%9C%D0%B5%D0%B7%D0%BE%D0%BD.jpg"
 canonicalSource: "https://newsinternacionaltep.com/categoria/ciencia"
 ---
 
@@ -21,7 +21,7 @@ Los reportes primarios recopilados por las corresponsalías y agencias de monito
 
 ## 2. Estado de la Situación y Dinámica Estructural
 
-![Evidencia y Registro Documental Primario - La Síntesis Química del Genoma Eucariota Sintético Sc2.0 y el Futuro de la Biología de Diseño](https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=1200&h=630&q=82)
+![Evidencia y Registro Documental Primario - La Síntesis Química del Genoma Eucariota Sintético Sc2.0 y el Futuro de la Biología de Diseño](https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a1/%D0%9A%D0%9C155%D0%98%D0%956_%D0%9C%D0%B5%D0%B7%D0%BE%D0%BD.jpg/1280px-%D0%9A%D0%9C155%D0%98%D0%956_%D0%9C%D0%B5%D0%B7%D0%BE%D0%BD.jpg)
 *Figura 1: Mapeo y registro fotográfico documental archivado en la hemeroteca de News Internacional TEP.*
 
 La evolución empírica de los acontecimientos desmintió rápidamente los diagnósticos complacientes. La aceleración de las dinámicas en juego obligó a un reajuste de las previsiones institucionales, revelando una marcada correlación entre la exposición previa al riesgo y la celeridad del deterioro funcional en los sectores analizados.
@@ -40,7 +40,7 @@ El comportamiento de los indicadores determinantes durante este período histór
 
 ## 4. Evaluación de Escenarios y Modelado de Riesgo
 
-![Modelado de Trayectorias y Riesgo Sistémico](https://images.unsplash.com/photo-1579165466791-788226ab77b6?auto=format&fit=crop&w=1200&h=630&q=82)
+![Modelado de Trayectorias y Riesgo Sistémico](https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/%D0%9A%D0%A01005%D0%A3%D0%9B1%D0%90_%D0%A2%D0%BE%D0%BD%D0%B4%D0%B8-%D0%AD%D0%BB%D0%B5%D0%BA%D1%82%D1%80%D0%BE%D0%BD%D0%B8%D0%BA%D0%B0.jpg/1280px-%D0%9A%D0%A01005%D0%A3%D0%9B1%D0%90_%D0%A2%D0%BE%D0%BD%D0%B4%D0%B8-%D0%AD%D0%BB%D0%B5%D0%BA%D1%82%D1%80%D0%BE%D0%BD%D0%B8%D0%BA%D0%B0.jpg)
 *Figura 2: Proyección de trayectorias y modelado de dispersión elaborado por la Unidad Cuantitativa TEP.*
 
 El análisis retrospectivo permite clasificar la trayectoria que finalmente se consolidó frente a las hipótesis alternativas que barajaban los comités en aquel entonces:
