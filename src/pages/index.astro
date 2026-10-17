@@ -103,7 +103,7 @@ const getCatColor = (cat: string) => {
 ---
 
 <!doctype html>
-<html lang="es">
+<html lang="en">
 <head>
   <BaseHead title="News Internacional TEP | Investigación & Mercados Globales" description="Diario analítico global de alta precisión en Tecnología, Mercados Financieros, Geopolítica, Ciencia y Dinámica Digital." />
   <style>
@@ -1138,15 +1138,15 @@ const getCatColor = (cat: string) => {
   <div class="trending-pills-bar">
     <span class="trending-pills-label">TENDENCIAS EN VIVO:</span>
     <div class="trending-pills-scroll">
-      <a href="/categoria/tecnologia" class="trending-pill-tag">#SemiconductoresDUV</a>
-      <a href="/categoria/economia" class="trending-pill-tag">#BancosCentrales2026</a>
-      <a href="/categoria/ciencia" class="trending-pill-tag">#BiopsiasLíquidas</a>
-      <a href="/categoria/geopolitica" class="trending-pill-tag">#LitografíaChina</a>
-      <a href="/categoria/tendencias" class="trending-pill-tag">#AlgoritmosRRSS</a>
-      <a href="/categoria/ciencia" class="trending-pill-tag">#CRISPRClonal</a>
-      <a href="/categoria/economia" class="trending-pill-tag">#DeudaSoberanaUE</a>
-      <a href="/categoria/tecnologia" class="trending-pill-tag">#HiperescalaIA</a>
-      <a href="/categoria/tendencias" class="trending-pill-tag">#GuerraCognitiva</a>
+      <a href="/category/technology" class="trending-pill-tag">#SemiconductoresDUV</a>
+      <a href="/category/economy" class="trending-pill-tag">#BancosCentrales2026</a>
+      <a href="/category/science" class="trending-pill-tag">#BiopsiasLíquidas</a>
+      <a href="/category/geopolitics" class="trending-pill-tag">#LitografíaChina</a>
+      <a href="/category/trends" class="trending-pill-tag">#AlgoritmosRRSS</a>
+      <a href="/category/science" class="trending-pill-tag">#CRISPRClonal</a>
+      <a href="/category/economy" class="trending-pill-tag">#DeudaSoberanaUE</a>
+      <a href="/category/technology" class="trending-pill-tag">#HiperescalaIA</a>
+      <a href="/category/trends" class="trending-pill-tag">#GuerraCognitiva</a>
     </div>
   </div>
 
@@ -1169,12 +1169,12 @@ const getCatColor = (cat: string) => {
               <div class="lead-meta-row">
                 <span>Por {leadStory.data.author || 'Comité Analítico TEP'}</span>
                 <span>•</span>
-                <span>{leadStory.data.pubDate.toLocaleDateString('es-MX', { year: 'numeric', month: 'short', day: 'numeric' })}</span>
+                <span>{leadStory.data.pubDate.toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' })}</span>
                 <span>•</span>
                 <span class="lead-read-badge">Paper Arbitrado</span>
               </div>
               <a href={`/blog/${leadStory.slug ?? leadStory.id}/`} class="lead-read-btn">
-                <span>Acceder al Dossier Completo</span>
+                <span>Access Full Dossier</span>
                 <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
               </a>
             </div>
@@ -1197,11 +1197,11 @@ const getCatColor = (cat: string) => {
             <div class="carousel-header-bar">
               <div class="carousel-title-group">
                 <span class="carousel-badge-pulse"></span>
-                <h3 class="carousel-title">Publicaciones en Rotación Continua</h3>
-                <span class="carousel-flow-badge">FLUJO EN VIVO</span>
+                <h3 class="carousel-title">Continuous Rotation Editorial Stream</h3>
+                <span class="carousel-flow-badge">LIVE INTEL STREAM</span>
               </div>
               <div class="carousel-controls">
-                <button id="carousel-marquee-toggle" class="carousel-control-toggle" aria-label="Pausar o Reanudar rotación">⏸ Pausar</button>
+                <button id="carousel-marquee-toggle" class="carousel-control-toggle" aria-label="Pause or Resume Stream">⏸ Pause</button>
               </div>
             </div>
 
@@ -1304,7 +1304,7 @@ const getCatColor = (cat: string) => {
                 </p>
                 <div class="broadcast-action-row">
                   <a href="/blog/2026-10-16-controles-de-exportacion-y-la-autonomia-chip-china/" class="broadcast-dossier-btn">
-                    <span>Acceder al Dossier Completo</span>
+                    <span>Access Full Dossier</span>
                     <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
                   </a>
                 </div>
@@ -1337,7 +1337,7 @@ const getCatColor = (cat: string) => {
                 </p>
                 <div class="broadcast-action-row">
                   <a href="/blog/2026-10-17-oncologia-de-precision-y-biopsias-liquidas-para-de-cie-2/" class="broadcast-dossier-btn">
-                    <span>Acceder al Dossier Completo</span>
+                    <span>Access Full Dossier</span>
                     <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
                   </a>
                 </div>
@@ -1370,7 +1370,7 @@ const getCatColor = (cat: string) => {
                 </p>
                 <div class="broadcast-action-row">
                   <a href="/blog/2026-10-16-persistencia-inflacionaria-en-la-eurozona-desafios-est/" class="broadcast-dossier-btn">
-                    <span>Acceder al Dossier Completo</span>
+                    <span>Access Full Dossier</span>
                     <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
                   </a>
                 </div>
@@ -1399,11 +1399,11 @@ const getCatColor = (cat: string) => {
                   </a>
                 </h4>
                 <p class="broadcast-card-desc">
-                  Investigación crítica sobre perfilamiento algorítmico no consentido, filtros de sesgo automatizados y la vulnerabilidad sociológica de los postulantes en la era digital.
+                  Critical investigation on non-consensual algorithmic profiling, automated bias filters, and the sociological vulnerability of applicants in the digital age.
                 </p>
                 <div class="broadcast-action-row">
                   <a href="/blog/2026-10-17-algoritmos-de-contratacion-laboral-basados-en-scrapeo-de-ten-1/" class="broadcast-dossier-btn">
-                    <span>Acceder al Dossier Completo</span>
+                    <span>Access Full Dossier</span>
                     <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
                   </a>
                 </div>
@@ -1416,8 +1416,8 @@ const getCatColor = (cat: string) => {
       <!-- Columna Lateral: Radar de Cobertura (4 Noticias Únicas) -->
       <aside class="radar-box">
         <h3 class="radar-heading">
-          <span>RADAR DE COBERTURA</span>
-          <span style="font-size: 0.65rem; color: #dc2626;">MONITOREO EN VIVO</span>
+          <span>INTELLIGENCE RADAR</span>
+          <span style="font-size: 0.65rem; color: #dc2626;">LIVE DISPATCH</span>
         </h3>
         
         {sideStories.map((post) => (
@@ -1438,7 +1438,7 @@ const getCatColor = (cat: string) => {
 
   <!-- 3. BANNER HORIZONTAL PUBLICITARIO LEADERBOARD -->
   <div class="institutional-ad-strip">
-    <span class="ad-label-pill">ESPACIO PUBLICITARIO INSTITUCIONAL • GOOGLE ADSENSE (ca-pub-3739732712037306)</span>
+    <span class="ad-label-pill">INSTITUTIONAL SPONSORED PLACEMENT • GOOGLE ADSENSE (ca-pub-3739732712037306)</span>
     <ins class="adsbygoogle"
          style="display:block"
          data-ad-client="ca-pub-3739732712037306"
@@ -1456,8 +1456,8 @@ const getCatColor = (cat: string) => {
   {postsGeopolitica.length > 0 && (
     <section class="category-section-wrap section-geo">
       <div class="section-bar">
-        <h3 class="section-name">Política & Orden Global</h3>
-        <a href="/categoria/geopolitica" class="section-link">Ver sección completa →</a>
+        <h3 class="section-name">Politics & Global Strategy</h3>
+        <a href="/category/geopolitics" class="section-link">Explore Full Section →</a>
       </div>
       <div class="articles-grid">
         {postsGeopolitica.map((post) => (
@@ -1475,7 +1475,7 @@ const getCatColor = (cat: string) => {
                 <p class="article-desc">{post.data.description}</p>
               </div>
               <div class="article-date">
-                {post.data.pubDate.toLocaleDateString('es-MX', { month: 'short', day: 'numeric', year: 'numeric' })} • TEP Política
+                {post.data.pubDate.toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' })} • TEP Politics
               </div>
             </div>
           </article>
@@ -1488,8 +1488,8 @@ const getCatColor = (cat: string) => {
   {postsEconomia.length > 0 && (
     <section class="category-section-wrap section-econ">
       <div class="section-bar">
-        <h3 class="section-name">Economía & Mercados Financieros</h3>
-        <a href="/categoria/economia" class="section-link">Ver sección completa →</a>
+        <h3 class="section-name">Economy & Global Financial Markets</h3>
+        <a href="/category/economy" class="section-link">Explore Full Section →</a>
       </div>
       <div class="articles-grid">
         {postsEconomia.map((post) => (
@@ -1507,7 +1507,7 @@ const getCatColor = (cat: string) => {
                 <p class="article-desc">{post.data.description}</p>
               </div>
               <div class="article-date">
-                {post.data.pubDate.toLocaleDateString('es-MX', { month: 'short', day: 'numeric', year: 'numeric' })} • TEP Mercados
+                {post.data.pubDate.toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' })} • TEP Markets
               </div>
             </div>
           </article>
@@ -1520,8 +1520,8 @@ const getCatColor = (cat: string) => {
   {postsTecnologia.length > 0 && (
     <section class="category-section-wrap section-tech">
       <div class="section-bar">
-        <h3 class="section-name">Tecnología & Inteligencia Artificial</h3>
-        <a href="/categoria/tecnologia" class="section-link">Ver sección completa →</a>
+        <h3 class="section-name">Technology & Frontier AI</h3>
+        <a href="/category/technology" class="section-link">Explore Full Section →</a>
       </div>
       <div class="articles-grid">
         {postsTecnologia.map((post) => (
@@ -1539,7 +1539,7 @@ const getCatColor = (cat: string) => {
                 <p class="article-desc">{post.data.description}</p>
               </div>
               <div class="article-date">
-                {post.data.pubDate.toLocaleDateString('es-MX', { month: 'short', day: 'numeric', year: 'numeric' })} • TEP Tecnología
+                {post.data.pubDate.toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' })} • TEP Technology
               </div>
             </div>
           </article>
@@ -1552,8 +1552,8 @@ const getCatColor = (cat: string) => {
   {postsCiencia.length > 0 && (
     <section class="category-section-wrap section-sci">
       <div class="section-bar">
-        <h3 class="section-name">Ciencia & Medicina de Frontera</h3>
-        <a href="/categoria/ciencia" class="section-link">Ver sección completa →</a>
+        <h3 class="section-name">Frontier Science & Biomedicine</h3>
+        <a href="/category/science" class="section-link">Explore Full Section →</a>
       </div>
       <div class="articles-grid">
         {postsCiencia.map((post) => (
@@ -1571,7 +1571,7 @@ const getCatColor = (cat: string) => {
                 <p class="article-desc">{post.data.description}</p>
               </div>
               <div class="article-date">
-                {post.data.pubDate.toLocaleDateString('es-MX', { month: 'short', day: 'numeric', year: 'numeric' })} • TEP Ciencia
+                {post.data.pubDate.toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' })} • TEP Science
               </div>
             </div>
           </article>
@@ -1584,8 +1584,8 @@ const getCatColor = (cat: string) => {
   {postsTendencias.length > 0 && (
     <section class="category-section-wrap section-trend">
       <div class="section-bar">
-        <h3 class="section-name">Redes Sociales & Noticias de Alto Revuelo</h3>
-        <a href="/categoria/tendencias" class="section-link">Ver sección completa →</a>
+        <h3 class="section-name">Social Dynamics & Cultural Trends</h3>
+        <a href="/category/trends" class="section-link">Explore Full Section →</a>
       </div>
       <div class="articles-grid">
         {postsTendencias.map((post) => (
@@ -1603,7 +1603,7 @@ const getCatColor = (cat: string) => {
                 <p class="article-desc">{post.data.description}</p>
               </div>
               <div class="article-date">
-                {post.data.pubDate.toLocaleDateString('es-MX', { month: 'short', day: 'numeric', year: 'numeric' })} • TEP Dinámica Digital
+                {post.data.pubDate.toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' })} • TEP Digital Dynamics
               </div>
             </div>
           </article>
@@ -1615,16 +1615,16 @@ const getCatColor = (cat: string) => {
   <!-- 5. SECCIÓN INSTITUCIONAL DE APOYO Y DONACIONES DIRECTO PAYPAL -->
   <section class="donor-support-strip">
     <div class="donor-content">
-      <div class="donor-badge">INDEPENDENCIA ANALÍTICA & RIGOR EDITORIAL</div>
-      <h3>Impulsa el Archivo Libre de News Internacional TEP</h3>
-      <p>Nuestra redacción e infraestructura técnica operan sin subsidios corporativos ni censura partidista. Tu contribución directa a través de PayPal fortalece nuestros servidores de análisis, la ingesta continua de cables de datos y el acceso abierto a la inteligencia global.</p>
+      <div class="donor-badge">ANALYTICAL INDEPENDENCE & RIGOROUS INVESTIGATION</div>
+      <h3>Empower the Open Archive of News International TEP</h3>
+      <p>Our analytical editorial team and technical infrastructure operate without corporate subsidies or partisan bias. Your direct PayPal contribution sustains our high-performance servers, continuous data ingestion, and unrestricted open access to global intelligence.</p>
     </div>
     <div class="donor-action">
       <a href="https://paypal.me/newsinternacional" target="_blank" rel="noopener noreferrer" class="donor-paypal-btn">
         <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M7.076 21.337H2.47a.641.641 0 0 1-.633-.74L4.944 3.72a.784.784 0 0 1 .773-.654h6.708c3.085 0 5.378.673 6.46 2.054 1.01 1.288 1.136 3.03.364 5.318-.847 2.496-2.585 4.14-5.027 4.755a10.02 10.02 0 0 1-2.518.293H9.27a.936.936 0 0 0-.924.786l-.837 5.065h-.433z"/></svg>
-        <span>Donar con PayPal Oficial</span>
+        <span>Support with Official PayPal</span>
       </a>
-      <span class="donor-email-note">Titular: andredateig@gmail.com</span>
+      <span class="donor-email-note">Beneficiary: andredateig@gmail.com</span>
     </div>
   </section>
 </main>
@@ -1646,10 +1646,10 @@ document.addEventListener("DOMContentLoaded", () => {
       isPausedByUser = !isPausedByUser;
       if (isPausedByUser) {
         track.classList.add("is-paused");
-        toggleBtn.textContent = "▶ Reanudar";
+        toggleBtn.textContent = "▶ Resume";
       } else {
         track.classList.remove("is-paused");
-        toggleBtn.textContent = "⏸ Pausar";
+        toggleBtn.textContent = "⏸ Pause";
       }
     });
 

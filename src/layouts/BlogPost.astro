@@ -9,33 +9,58 @@ type Props = CollectionEntry<'blog'>['data'];
 
 const { title, description, pubDate, updatedDate, heroImage, category, author } = Astro.props;
 
-// Formateo de fecha para la cita académica
+// Date formatting in English
 const pubYear = pubDate.getFullYear();
-const formattedDate = pubDate.toLocaleDateString('es-MX', {
+const formattedDate = pubDate.toLocaleDateString('en-US', {
 year: 'numeric',
 month: 'long',
 day: 'numeric'
 });
 ---
 
-<html lang="es">
+<html lang="en">
 <head>
-<BaseHead title={`${title} | News Internacional TEP`} description={description} />
+<BaseHead title={`${title} | News International TEP`} description={description} />
 <style>
-:global(body) { margin: 0 !important; padding: 0 !important; width: 100vw !important; max-width: 100% !important; overflow-x: hidden !important;
+:global(body) { 
+margin: 0 !important; 
+padding: 0 !important; 
+width: 100vw !important; 
+max-width: 100% !important; 
+overflow-x: hidden !important;
 background-color: #f8fafc;
 color: #0f172a;
 font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-margin: 0;
 }
 
-
-
 main {
-max-width: 860px; /* Ancho óptimo para lectura inmersiva */
-width: 92%;
+max-width: 900px; /* Optimal, comfortable reading width */
+width: 100%;
 margin: 0 auto;
-padding: 3rem 0 6rem;
+box-sizing: border-box;
+padding: 3.5rem 2rem 7rem; /* Generous side padding and spacing */
+}
+
+@media (max-width: 768px) {
+main {
+padding: 2rem 1.25rem 5rem;
+}
+}
+
+.article-container {
+background: #ffffff;
+border: 1px solid #e2e8f0;
+border-radius: 12px;
+box-shadow: 0 4px 24px -4px rgba(15, 23, 42, 0.06);
+padding: 3.5rem 3rem;
+box-sizing: border-box;
+}
+
+@media (max-width: 768px) {
+.article-container {
+padding: 2rem 1.25rem;
+border-radius: 8px;
+}
 }
 
 .article-header {
@@ -68,7 +93,7 @@ margin: 0 0 1.8rem;
 font-weight: 400;
 }
 
-/* 2. BLOQUE DE METADATOS EJECUTIVOS */
+/* 2. EXECUTIVE METADATA STRIP */
 .executive-metadata-strip {
 display: flex;
 flex-wrap: wrap;
@@ -122,7 +147,7 @@ height: auto;
 display: block;
 }
 
-/* Estilos del Cuerpo Markdown MIT/Harvard */
+/* Markdown Body Styles MIT/Harvard Standard */
 .markdown-body {
 font-size: 1.12rem;
 line-height: 1.8;
@@ -166,7 +191,8 @@ font-style: italic;
 color: #334155;
 border-radius: 0 8px 8px 0;
 }
-/* TABLAS DE ALTA PRECISIÓN & ESTÉTICA EDITORIAL */
+
+/* TABLES WITH PRECISION EDITORIAL FORMATTING */
 :global(.markdown-body table) {
   width: 100% !important;
   border-collapse: separate !important;
@@ -238,50 +264,7 @@ border-radius: 0 8px 8px 0;
 .markdown-body ul, .markdown-body ol { margin: 0 0 1.6rem 1.5rem; }
 .markdown-body li { margin-bottom: 0.5rem; }
 
-/* 3. CAJA DE CAPTACIÓN FLOTANTE AL CANAL DE ALERTAS */
-.telegram-catchment-box {
-background: linear-gradient(135deg, #050505 0%, #1a0505 100%);
-color: #ffffff;
-border-radius: 8px;
-padding: 2.5rem;
-margin: 4rem 0;
-display: flex;
-align-items: center;
-justify-content: space-between;
-gap: 2rem;
-border-left: 6px solid #dc2626;
-box-shadow: 0 15px 35px -10px rgba(220, 38, 38, 0.25);
-}
-.catchment-content h3 {
-margin: 0 0 0.5rem;
-font-size: 1.4rem;
-font-weight: 900;
-letter-spacing: -0.01em;
-}
-.catchment-content p {
-margin: 0;
-font-size: 0.95rem;
-color: #cbd5e1;
-line-height: 1.5;
-}
-.catchment-btn {
-background: #dc2626;
-color: #ffffff;
-text-decoration: none;
-padding: 0.85rem 1.8rem;
-border-radius: 30px;
-font-weight: 800;
-font-size: 0.88rem;
-white-space: nowrap;
-transition: background 0.2s ease, transform 0.2s ease;
-box-shadow: 0 4px 12px rgba(220, 38, 38, 0.4);
-}
-.catchment-btn:hover {
-background: #b91c1c;
-transform: translateY(-2px);
-}
-
-/* ESTILOS DE MONETIZACIÓN DISCRETA Y RESPONSIVA TEP */
+/* AD SLOTS */
 .tep-ad-slot-wrapper {
   margin: 2.5rem 0;
   padding: 1rem 0;
@@ -302,7 +285,7 @@ transform: translateY(-2px);
   font-weight: 700;
 }
 
-/* 4. FICHA DE CITA ACADÉMICA (EXPORT CITATION) */
+/* 4. ACADEMIC CITATION BOX */
 .academic-citation-box {
 background: #f1f5f9;
 border: 1px solid #cbd5e1;
@@ -357,46 +340,37 @@ line-height: 1.6;
 margin: 0;
 word-break: break-word;
 }
-
-@media (max-width: 768px) {
-.telegram-catchment-box { flex-direction: column; text-align: center; padding: 2rem 1.5rem; }
-.catchment-btn { width: 100%; text-align: center; }
-.executive-metadata-strip { flex-direction: column; gap: 0.6rem; }
-}
 </style>
 </head>
 
 <body>
-<!-- 1. BARRA DE PROGRESO DE LECTURA (Anclada arriba) -->
-
-
 <Header />
 
 <main>
-<article>
+<article class="article-container">
 <header class="article-header">
 <span class="article-cat-badge">{category}</span>
 <h1 class="article-title">{title}</h1>
 <p class="article-desc">{description}</p>
 
-<!-- 2. METADATOS DE CONSUMO EJECUTIVO -->
+<!-- 2. EXECUTIVE METADATA STRIP -->
 <div class="executive-metadata-strip">
 <div class="meta-badge highlight" id="reading-time-badge">
 <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
-Lectura: Calculando...
+Reading Time: Calculating...
 </div>
 <div class="meta-badge">
 <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
-Arbitraje: Fuentes Primarias (Rigor MIT)
+Peer Review: Primary Sources (MIT Standard)
 </div>
 <div class="meta-badge">
 <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>
-Grado: Inteligencia Prospectiva
+Grade: Strategic Intelligence
 </div>
 </div>
 
 <div class="author-date-row">
-Por <span class="author-name">{author || 'Comité Analítico TEP'}</span> • <time>{formattedDate}</time>
+By <span class="author-name">{author || 'TEP Analytical Committee'}</span> • <time>{formattedDate}</time>
 </div>
 </header>
 
@@ -406,9 +380,9 @@ Por <span class="author-name">{author || 'Comité Analítico TEP'}</span> • <t
 </div>
 )}
 
-<!-- AD BLOCK 1: IN-ARTICLE TOP BANNER (RESPONSIVE ALTO CTR) -->
+<!-- AD BLOCK 1: IN-ARTICLE TOP BANNER -->
 <div class="tep-ad-slot-wrapper ad-slot-top">
-  <span class="ad-label-discreet">Publicidad</span>
+  <span class="ad-label-discreet">Sponsored Analysis</span>
   <ins class="adsbygoogle"
        style="display:block; text-align:center;"
        data-ad-layout="in-article"
@@ -426,82 +400,61 @@ Por <span class="author-name">{author || 'Comité Analítico TEP'}</span> • <t
 
 <!-- AD BLOCK 2: END-OF-ARTICLE NATIVE BANNER -->
 <div class="tep-ad-slot-wrapper ad-slot-bottom">
-  <span class="ad-label-discreet">Publicidad Patrocinada</span>
+  <span class="ad-label-discreet">Sponsored Content</span>
   <ins class="adsbygoogle"
-       style="display:block"
+       style="display:block; text-align:center;"
+       data-ad-layout="in-article"
+       data-ad-format="fluid"
        data-ad-client="ca-pub-3739732712037306"
-       data-ad-format="autorelaxed"
        data-ad-slot="default"></ins>
   <script is:inline>
        (adsbygoogle = window.adsbygoogle || []).push({});
   </script>
 </div>
 
-<!-- 3. CAJA DE CAPTACIÓN FLOTANTE (TELEGRAM) -->
-<div class="telegram-catchment-box">
-<div class="catchment-content">
-<h3>Dossier de Inteligencia TEP en Vivo</h3>
-<p>Reciba notificaciones de nuevos papers, alertas de liquidez y análisis geopolítico directamente en su terminal a través de nuestro canal clasificado.</p>
-</div>
-<a href="https://t.me/newsinternacionaltep" target="_blank" rel="noopener noreferrer" class="catchment-btn">
-Unirse al Canal Oficial →
-</a>
-</div>
-
-<ProfessionalComments />
-
-<!-- 4. FICHA DE CITACIÓN ACADÉMICA (EXPORT CITATION) -->
+<!-- ACADEMIC CITATION BOX -->
 <div class="academic-citation-box">
 <div class="citation-header">
-<h4>Referencia Bibliográfica (Formato APA)</h4>
-<button id="copy-citation-btn" class="copy-citation-btn">
+<h4>Academic Citation Format (Harvard / APA / ISO 690)</h4>
+<button class="copy-citation-btn" id="copyCitationBtn">
 <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
-Copiar Cita
+Copy Citation
 </button>
 </div>
-<p class="citation-text" id="citation-text-content">
-{author || 'Comité Analítico TEP'}. ({pubYear}). <em>{title}</em>. News Internacional TEP. Recuperado de <span id="current-url-span">https://newsinternacionaltep.com</span>
+<p class="citation-text" id="citationText">
+{author || 'TEP Analytical Committee'}. ({pubYear}). "{title}". <em>News International TEP — Global Intelligence & Financial Research</em>. Retrieved from https://international.newsinternacionaltep.com/
 </p>
 </div>
 
+<ProfessionalComments />
 </article>
 </main>
 
 <Footer />
 
-<!-- SCRIPTS DE INTERACCIÓN (Progreso, Tiempo de Lectura y Copiado) -->
 <script is:inline>
-document.addEventListener("DOMContentLoaded", () => {
-// 1. Cálculo del Tiempo de Lectura
-const contentDiv = document.getElementById("article-markdown-content");
-const timeBadge = document.getElementById("reading-time-badge");
-if (contentDiv && timeBadge) {
-const text = contentDiv.innerText || "";
-const wordCount = text.trim().split(/\s+/).length;
-const readingTimeMins = Math.ceil(wordCount / 220); // 220 palabras por minuto
-timeBadge.innerHTML = `<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg> Lectura: ${readingTimeMins} min`;
+// Reading time calculation in English
+document.addEventListener('DOMContentLoaded', () => {
+const content = document.getElementById('article-markdown-content');
+const badge = document.getElementById('reading-time-badge');
+if (content && badge) {
+const words = content.innerText.trim().split(/\s+/).length;
+const time = Math.max(1, Math.ceil(words / 220));
+badge.innerHTML = `<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg> ${time} min read (${words} words)`;
 }
 
-
-
-// 3. Obtener URL Actual Dinámica para la Citación
-const urlSpan = document.getElementById("current-url-span");
-if (urlSpan) {
-urlSpan.textContent = window.location.href.split('?')[0]; // Limpiar parámetros extra
-}
-
-// 4. Copiar Cita Académica al Portapapeles
-const copyBtn = document.getElementById("copy-citation-btn");
-const citationText = document.getElementById("citation-text-content");
+// Copy Citation functionality
+const copyBtn = document.getElementById('copyCitationBtn');
+const citationText = document.getElementById('citationText');
 if (copyBtn && citationText) {
-copyBtn.addEventListener("click", () => {
-navigator.clipboard.writeText(citationText.innerText).then(() => {
-const originalHTML = copyBtn.innerHTML;
-copyBtn.classList.add("success");
-copyBtn.innerHTML = `<svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg> ¡Copiado!`;
+copyBtn.addEventListener('click', () => {
+navigator.clipboard.writeText(citationText.innerText.trim()).then(() => {
+const originalHtml = copyBtn.innerHTML;
+copyBtn.innerHTML = 'Copied!';
+copyBtn.classList.add('success');
 setTimeout(() => {
-copyBtn.classList.remove("success");
-copyBtn.innerHTML = originalHTML;
+copyBtn.innerHTML = originalHtml;
+copyBtn.classList.remove('success');
 }, 2500);
 });
 });
