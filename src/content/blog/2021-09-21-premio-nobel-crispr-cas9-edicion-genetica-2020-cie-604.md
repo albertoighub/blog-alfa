@@ -5,7 +5,7 @@ pubDate: "2021-09-21"
 category: "Science & Medicine"
 tags: ["Science", "Research Paper", "TEP Archive"]
 author: "TEP Intelligence Board & Historical Archive"
-heroImage: "https://images-assets.nasa.gov/image/Artemis"
+heroImage: "https://images-assets.nasa.gov/image/Artemis II at the pad sunsetting 01292026_5/Artemis II at the pad sunsetting 01292026_5~large.jpg"
 canonicalSource: "https://international.newsinternacionaltep.com/category/science"
 ---
 

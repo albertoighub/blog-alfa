@@ -5,7 +5,7 @@ pubDate: "2022-09-25"
 category: "Science & Medicine"
 tags: ["Science", "Research Paper", "TEP Archive"]
 author: "TEP Intelligence Board & Historical Archive"
-heroImage: "https://images-assets.nasa.gov/image/KSC-02012026-Artemis"
+heroImage: "https://images-assets.nasa.gov/image/KSC-02012026-Artemis II_Full Moon-12/KSC-02012026-Artemis II_Full Moon-12~large.jpg"
 canonicalSource: "https://international.newsinternacionaltep.com/category/science"
 ---
 

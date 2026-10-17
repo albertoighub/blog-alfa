@@ -5,7 +5,7 @@ pubDate: "2021-08-10"
 category: "Science & Medicine"
 tags: ["Science", "Research Paper", "TEP Archive"]
 author: "TEP Intelligence Board & Historical Archive"
-heroImage: "https://images-assets.nasa.gov/image/Artemis"
+heroImage: "https://images-assets.nasa.gov/image/Artemis - Gateway - Artemis IV - Gateway Landscape/Artemis - Gateway - Artemis IV - Gateway Landscape~medium.jpg"
 canonicalSource: "https://international.newsinternacionaltep.com/category/science"
 ---
 

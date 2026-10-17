@@ -5,7 +5,7 @@ pubDate: "2022-10-13"
 category: "Science & Medicine"
 tags: ["Science", "Research Paper", "TEP Archive"]
 author: "TEP Intelligence Board & Historical Archive"
-heroImage: "https://images-assets.nasa.gov/image/Artemis"
+heroImage: "https://images-assets.nasa.gov/image/Artemis II at the pad Full Snow Moon 02012026_4/Artemis II at the pad Full Snow Moon 02012026_4~large.jpg"
 canonicalSource: "https://international.newsinternacionaltep.com/category/science"
 ---
 

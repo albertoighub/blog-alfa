@@ -5,7 +5,7 @@ pubDate: "2022-10-07"
 category: "Science & Medicine"
 tags: ["Science", "Research Paper", "TEP Archive"]
 author: "TEP Intelligence Board & Historical Archive"
-heroImage: "https://images-assets.nasa.gov/image/MAF_04202026_CS"
+heroImage: "https://images-assets.nasa.gov/image/MAF_04202026_CS III Rollout_12/MAF_04202026_CS III Rollout_12~large.jpg"
 canonicalSource: "https://international.newsinternacionaltep.com/category/science"
 ---
 

@@ -5,7 +5,7 @@ pubDate: "2021-09-15"
 category: "Science & Medicine"
 tags: ["Science", "Research Paper", "TEP Archive"]
 author: "TEP Intelligence Board & Historical Archive"
-heroImage: "https://images-assets.nasa.gov/image/Artemis"
+heroImage: "https://images-assets.nasa.gov/image/Artemis II at the pad anamorphic 01282026/Artemis II at the pad anamorphic 01282026~large.jpg"
 canonicalSource: "https://international.newsinternacionaltep.com/category/science"
 ---
 

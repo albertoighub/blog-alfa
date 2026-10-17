@@ -5,7 +5,7 @@ pubDate: "2021-09-23"
 category: "Science & Medicine"
 tags: ["Science", "Research Paper", "TEP Archive"]
 author: "TEP Intelligence Board & Historical Archive"
-heroImage: "https://images-assets.nasa.gov/image/KSC-01172026-Artemis"
+heroImage: "https://images-assets.nasa.gov/image/KSC-01172026-Artemis II_Rollout-22/KSC-01172026-Artemis II_Rollout-22~large.jpg"
 canonicalSource: "https://international.newsinternacionaltep.com/category/science"
 ---
 
