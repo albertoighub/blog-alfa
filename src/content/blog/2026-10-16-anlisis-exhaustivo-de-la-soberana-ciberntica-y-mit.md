@@ -1,9 +1,10 @@
-```markdown
 ---
 title: "Análisis Exhaustivo de la Soberanía Cibernética y Mitigación en Infraestructuras Críticas"
 description: "Evaluación técnica sin censura sobre los vectores de ataque avanzados, el marco Zero Trust y las implicaciones geopolíticas del desacoplamiento tecnológico nacional."
 pubDate: "2026-10-16"
-heroImage: "/placeholder.jpg"
+category: "Tecnología"
+author: "Comité Analítico TEP & Prospectiva"
+heroImage: "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&w=1200&q=80"
 tags: ["ciberseguridad", "infraestructuras críticas", "geopolitica", "riesgo operativo"]
 ---
 
@@ -61,4 +62,3 @@ La seguridad soberana requiere un enfoque tridimensional que integre política, 
 3.  **Desacoplamiento Estratégico Selectivo:** Reconocer que la dependencia total de cualquier proveedor tecnológico extranjero representa un riesgo geopolítico inaceptable. La inversión en capacidades nacionales (semiconductores, software base) es una necesidad estratégica y económica.
 
 La ciberseguridad soberana no es un producto; es un proceso continuo de adaptación militarizada a un entorno digital inherentemente hostil.
-```
